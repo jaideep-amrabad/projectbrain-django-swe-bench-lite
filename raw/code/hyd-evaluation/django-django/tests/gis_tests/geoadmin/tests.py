@@ -1,96 +1,99 @@
-from django.contrib.auth.models import Permission, User
-from django.contrib.contenttypes.models import ContentType
+from django.contrib.gis import admin
 from django.contrib.gis.geos import Point
-from django.core.exceptions import SuspiciousOperation
-from django.test import RequestFactory, TestCase, override_settings
+from django.test import SimpleTestCase, override_settings
 
-from .models import City, site, site_gis, site_gis_custom
+from .admin import UnmodifiableAdmin
+from .models import City, site
 
 
-@override_settings(ROOT_URLCONF="django.contrib.gis.tests.geoadmin.urls")
-class GeoAdminTest(TestCase):
-    admin_site = site  # ModelAdmin
+@override_settings(ROOT_URLCONF='django.contrib.gis.tests.geoadmin.urls')
+class GeoAdminTest(SimpleTestCase):
 
-    @classmethod
-    def setUpTestData(cls):
-        cls.user = User.objects.create_user("test", password="password", is_staff=True)
-        cls.user.user_permissions.add(
-            Permission.objects.get(
-                codename="view_city",
-                content_type=ContentType.objects.get_for_model(City),
-            )
-        )
+    def test_ensure_geographic_media(self):
+        geoadmin = site._registry[City]
+        admin_js = geoadmin.media.render_js()
+        self.assertTrue(any(geoadmin.openlayers_url in js for js in admin_js))
 
-    def test_widget_empty_string(self):
-        geoadmin = self.admin_site.get_model_admin(City)
-        form = geoadmin.get_changelist_form(None)({"point": ""})
-        with self.assertRaisesMessage(AssertionError, "no logs"):
-            with self.assertLogs("django.contrib.gis", "ERROR"):
-                output = str(form["point"])
-        self.assertInHTML(
-            '<textarea id="id_point" class="vSerializedField required" cols="150"'
-            ' rows="10" name="point" hidden></textarea>',
-            output,
-        )
+    def test_olmap_OSM_rendering(self):
+        delete_all_btn = """<a href="javascript:geodjango_point.clearFeatures()">Delete all Features</a>"""
 
-    def test_widget_invalid_string(self):
-        geoadmin = self.admin_site.get_model_admin(City)
-        form = geoadmin.get_changelist_form(None)({"point": "INVALID()"})
-        with self.assertLogs("django.contrib.gis", "ERROR") as cm:
-            output = str(form["point"])
-        self.assertInHTML(
-            '<textarea id="id_point" class="vSerializedField required" cols="150"'
-            ' rows="10" name="point" hidden></textarea>',
-            output,
-        )
-        self.assertEqual(len(cm.records), 2)
-        self.assertEqual(
-            cm.records[0].getMessage(),
-            "Error creating geometry from value 'INVALID()' (String input "
-            "unrecognized as WKT EWKT, and HEXEWKB.)",
-        )
+        original_geoadmin = site._registry[City]
+        params = original_geoadmin.get_map_widget(City._meta.get_field('point')).params
+        result = original_geoadmin.get_map_widget(City._meta.get_field('point'))(
+        ).render('point', Point(-79.460734, 40.18476), params)
+        self.assertIn(
+            """geodjango_point.layers.base = new OpenLayers.Layer.OSM("OpenStreetMap (Mapnik)");""",
+            result)
 
-    def test_widget_has_changed(self):
-        geoadmin = self.admin_site.get_model_admin(City)
+        self.assertIn(delete_all_btn, result)
+
+        site.unregister(City)
+        site.register(City, UnmodifiableAdmin)
+        try:
+            geoadmin = site._registry[City]
+            params = geoadmin.get_map_widget(City._meta.get_field('point')).params
+            result = geoadmin.get_map_widget(City._meta.get_field('point'))(
+            ).render('point', Point(-79.460734, 40.18476), params)
+
+            self.assertNotIn(delete_all_btn, result)
+        finally:
+            site.unregister(City)
+            site.register(City, original_geoadmin.__class__)
+
+    def test_olmap_WMS_rendering(self):
+        geoadmin = admin.GeoModelAdmin(City, site)
+        result = geoadmin.get_map_widget(City._meta.get_field('point'))(
+        ).render('point', Point(-79.460734, 40.18476))
+        self.assertIn(
+            """geodjango_point.layers.base = new OpenLayers.Layer.WMS("OpenLayers WMS", """
+            """"http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic', format: 'image/jpeg'});""",
+            result)
+
+    def test_olwidget_has_changed(self):
+        """
+        Changes are accurately noticed by OpenLayersWidget.
+        """
+        geoadmin = site._registry[City]
         form = geoadmin.get_changelist_form(None)()
-        has_changed = form.fields["point"].has_changed
+        has_changed = form.fields['point'].has_changed
 
         initial = Point(13.4197458572965953, 52.5194108501149799, srid=4326)
         data_same = "SRID=3857;POINT(1493879.2754093995 6894592.019687599)"
         data_almost_same = "SRID=3857;POINT(1493879.2754093990 6894592.019687590)"
         data_changed = "SRID=3857;POINT(1493884.0527237 6894593.8111804)"
 
-        self.assertIs(has_changed(None, data_changed), True)
-        self.assertIs(has_changed(initial, ""), True)
-        self.assertIs(has_changed(None, ""), False)
-        self.assertIs(has_changed(initial, data_same), False)
-        self.assertIs(has_changed(initial, data_almost_same), False)
-        self.assertIs(has_changed(initial, data_changed), True)
+        self.assertTrue(has_changed(None, data_changed))
+        self.assertTrue(has_changed(initial, ""))
+        self.assertFalse(has_changed(None, ""))
+        self.assertFalse(has_changed(initial, data_same))
+        self.assertFalse(has_changed(initial, data_almost_same))
+        self.assertTrue(has_changed(initial, data_changed))
 
-    def test_raster_lookup_not_allowed(self):
-        geoadmin = self.admin_site.get_model_admin(City)
-        request = RequestFactory().get("/city/", data={"point": "/vsicurl/someurl"})
-        request.user = self.user
-        msg = "Cannot use object '/vsicurl/someurl' for a spatial lookup parameter."
-        with self.assertRaisesMessage(SuspiciousOperation, msg):
-            geoadmin.get_changelist_instance(request)
+    def test_olwidget_empty_string(self):
+        geoadmin = site._registry[City]
+        form = geoadmin.get_changelist_form(None)({'point': ''})
+        with self.assertRaisesMessage(AssertionError, 'no logs'):
+            with self.assertLogs('django.contrib.gis', 'ERROR'):
+                output = str(form['point'])
+        self.assertInHTML(
+            '<textarea id="id_point" class="vWKTField required" cols="150"'
+            ' rows="10" name="point"></textarea>',
+            output
+        )
 
-
-class GISAdminTests(GeoAdminTest):
-    admin_site = site_gis  # GISModelAdmin
-
-    def test_default_gis_widget_kwargs(self):
-        geoadmin = self.admin_site.get_model_admin(City)
-        form = geoadmin.get_changelist_form(None)()
-        widget = form["point"].field.widget
-        self.assertEqual(widget.attrs["default_lat"], 47)
-        self.assertEqual(widget.attrs["default_lon"], 5)
-        self.assertEqual(widget.attrs["default_zoom"], 12)
-
-    def test_custom_gis_widget_kwargs(self):
-        geoadmin = site_gis_custom.get_model_admin(City)
-        form = geoadmin.get_changelist_form(None)()
-        widget = form["point"].field.widget
-        self.assertEqual(widget.attrs["default_lat"], 55)
-        self.assertEqual(widget.attrs["default_lon"], 37)
-        self.assertEqual(widget.attrs["default_zoom"], 12)
+    def test_olwidget_invalid_string(self):
+        geoadmin = site._registry[City]
+        form = geoadmin.get_changelist_form(None)({'point': 'INVALID()'})
+        with self.assertLogs('django.contrib.gis', 'ERROR') as cm:
+            output = str(form['point'])
+        self.assertInHTML(
+            '<textarea id="id_point" class="vWKTField required" cols="150"'
+            ' rows="10" name="point"></textarea>',
+            output
+        )
+        self.assertEqual(len(cm.records), 1)
+        self.assertEqual(
+            cm.records[0].getMessage(),
+            "Error creating geometry from value 'INVALID()' (String input "
+            "unrecognized as WKT EWKT, and HEXEWKB.)"
+        )
