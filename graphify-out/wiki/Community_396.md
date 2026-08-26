@@ -1,71 +1,51 @@
 # Community 396
 
-> 68 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test_tasks.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **tasks/base.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **django/tasks/__init__.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/__init__.py`
-- **test_dummy_backend.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **test_immediate_backend.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **immediate.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- **test_custom_backend.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
-- **BaseTaskBackend** (16 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
-- **tasks/backends/dummy.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
-- **tasks/backends/base.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
-- **tasks/exceptions.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **tasks/signals.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/signals.py`
-- **DummyBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
-- **TaskResultStatus** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **ImmediateBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- **InvalidTask** (9 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **TaskResultDoesNotExist** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **TaskResultMismatch** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **._execute_task()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- **InvalidTaskBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **TaskContext** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **TaskException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **.validate_task()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
-- **.enqueue()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
-- **.enqueue()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- *... and 43 more nodes in this community*
+- **ManyToManySignalsTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **._initialize_signal_car()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **m2m_signals/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **m2m_signals/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Part** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **SportsCar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **._initialize_signal_person()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **.test_m2m_relations_add_remove_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_all_the_doors_off_of_cars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_alternative_ways()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_clear_all_parts_of_the_self_vw()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_clearing_removing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_give_the_self_vw_some_optional_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_remove_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_reverse_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_reverse_relation_with_custom_related_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_when_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_with_self_add_fan()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_with_self_add_friends()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_with_self_add_idols()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (16 shared connections)
-- [Community 578](Community_578.md) (11 shared connections)
-- [Community 752](Community_752.md) (9 shared connections)
-- [Community 7](Community_7.md) (9 shared connections)
-- [Community 525](Community_525.md) (7 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 61](Community_61.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 407](Community_407.md) (5 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/tasks/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- `raw/code/hyd-evaluation/django-django/tests/tasks/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 242 (98%)
-- INFERRED: 6 (2%)
+- EXTRACTED: 58 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

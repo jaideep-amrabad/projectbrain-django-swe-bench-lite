@@ -1,44 +1,54 @@
 # Community 485
 
-> 16 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FkConstraintsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **.test_integrity_checks_on_creation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_unnest_eligible_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- **.test_check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_disable_constraint_checks_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_disable_constraint_checks_manually()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_integrity_checks_on_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_check_constraints_sql_keywords()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Try to create a model instance that violates a FK constraint. If it fails it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Try to update a model instance introducing a FK constraint violation. If it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **When constraint checks are disabled, should be able to write bad data without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **When constraint checks are disabled (using context manager), should be able to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Constraint checks should raise an IntegrityError when bad data is in the DB.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **cache_control()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **CacheControlDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **NeverCacheDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **HttpRequestProxy** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_empty_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_empty_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_full_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_full_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_headers_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.__getattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_expires_not_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_expires_not_overridden_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **patch** (2 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 391](Community_391.md) (5 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 934](Community_934.md) (2 shared connections)
-- [Community 503](Community_503.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
+- [Community 53](Community_53.md) (14 shared connections)
+- [Community 5](Community_5.md) (9 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 452](Community_452.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (78%)
-- INFERRED: 6 (22%)
+- EXTRACTED: 67 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

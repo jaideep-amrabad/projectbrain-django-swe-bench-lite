@@ -1,40 +1,38 @@
 # Community 855
 
-> 15 nodes · cohesion 0.13
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **LocmemBackendTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **ConsoleBackendTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_locmem_shared_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_console_stream_kwarg()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_outbox_not_mutated_after_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_validate_multiline_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.get_mailbox_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_fail_silently_arg_accepted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_adds_sent_using_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **Make sure that the locmem backend populates the outbox.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **m2o_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **m2o_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **ManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **MultipleManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **Relating an object to itself, many-to-one To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.test_m2o_recursive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.test_m2o_recursive2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
 
 ## Relationships
 
-- [Community 97](Community_97.md) (8 shared connections)
-- [Community 50](Community_50.md) (6 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

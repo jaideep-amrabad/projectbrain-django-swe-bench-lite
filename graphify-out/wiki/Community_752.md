@@ -1,39 +1,40 @@
 # Community 752
 
-> 15 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Task** (20 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.get_backend()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.get_result()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.aenqueue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.aget_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.enqueue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **Queue up the Task to be executed.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.__post_init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **._reconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **Retrieve a task result by id. Raise TaskResultDoesNotExist if such result does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.acall()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.call()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.module_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **ParsingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.parse_definition()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.assertConstraint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **sqlite/test_introspection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **IntrospectionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_and_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_column_with_operators_and_functions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_constraint_multicolumn()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **skipUnless** (2 connections)
+- **Get the primary key column regardless of whether or not it has quotation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **Parse a column or constraint definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
 
 ## Relationships
 
-- [Community 396](Community_396.md) (9 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 35 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

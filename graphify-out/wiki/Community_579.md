@@ -1,47 +1,49 @@
 # Community 579
 
-> 20 nodes · cohesion 0.32
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **QueryFormatterTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.make_handler()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.do_log()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.assertLogRecord()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.assertSQLFormatted()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **QueryFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_formats_sql_bracket_format_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_formats_sql_default_percent_format_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_formats_sql_multiple_matching_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_formats_sql_multiple_non_matching_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_formats_sql_named_fmt_format_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_formats_sql_named_percent_format_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_log_record_no_alias()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_log_record_no_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_log_record_not_enough_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_log_record_not_key_in_dict_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_log_record_sql_arg_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_log_record_sql_extra_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_log_record_sql_key_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.get_request()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **CsrfProtectTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **EnsureCsrfCookieTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **RequiresCsrfTokenTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.admin_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **CsrfTestMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **csrf_protect** (4 connections)
+- **ensure_csrf_cookie** (3 connections)
+- **.test_csrf_protect_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_csrf_protect_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_ensure_csrf_cookie_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_ensure_csrf_cookie_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_requires_csrf_token_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_requires_csrf_token_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **Decorator to create an admin view attached to this ``AdminSite``. This wraps…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 
 ## Relationships
 
-- [Community 159](Community_159.md) (3 shared connections)
-- [Community 928](Community_928.md) (1 shared connections)
-- [Community 1016](Community_1016.md) (1 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 562](Community_562.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 35 (81%)
+- INFERRED: 8 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

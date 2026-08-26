@@ -1,53 +1,51 @@
 # Community 347
 
-> 38 nodes · cohesion 0.10
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check_pr.py** (23 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Message** (18 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
-- **main()** (16 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **github_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_ai_disclosure()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_branch_description()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_has_patch()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_ticket()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **strip_html_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_checklist()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_pr_title_has_ticket()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **fetch_trac_ticket()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_pr_total_changes()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_recent_commit_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **errors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
-- **extract_ticket_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_comment_ids_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **write_job_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **setup_logging()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return the number of recent commits by the author, up to max_count.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return total lines changed in the PR (additions + deletions).** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return text with all HTML comments removed.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return the Trac ticket ID string from the PR body, or None.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Fetch ticket data from the Trac JSON API. Returns a dict with ticket data on…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- *... and 13 more nodes in this community*
+- **Node** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **NodeTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **test_tree.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **._new_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.negate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_children()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_connector()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_negated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **A single internal node in the tree graph. A Node should be viewed as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Negate the sense of the root connector.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Construct a new Node. If no connector is given, use the default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Create a new instance of this class when new Nodes (or subclasses) are needed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Return the number of children this node has.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 441](Community_441.md) (6 shared connections)
-- [Community 648](Community_648.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 52](Community_52.md) (4 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 1034](Community_1034.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 46 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

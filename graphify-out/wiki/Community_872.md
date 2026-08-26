@@ -1,34 +1,33 @@
 # Community 872
 
-> 12 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **internal.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **deprecated_function()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **Class** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **.one_indirection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **decorated()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **.deprecated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **.two_indirections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **call_decorated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **one_indirection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **three_indirections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **two_indirections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **nested()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **fetch_modes.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **FetchMode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **FetchOne** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **FetchPeers** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **FetchRaise** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 258](Community_258.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

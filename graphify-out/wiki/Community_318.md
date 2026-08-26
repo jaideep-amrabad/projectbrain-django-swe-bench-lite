@@ -1,48 +1,52 @@
 # Community 318
 
-> 40 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **includes** (13 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **complexity** (7 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **biome.json** (6 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **rules** (5 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **correctness** (4 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **linter** (3 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **style** (3 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **files** (2 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **enabled** (2 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **formatter** (2 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **linter** (2 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **enabled** (2 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **suspicious** (2 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **noArguments** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **noImportantStyles** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **noUselessLoneBlockStatements** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **useArrowFunction** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **useIndexOf** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **useOptionalChain** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **noUnusedFunctionParameters** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **noUnusedVariables** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **useParseIntRadix** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **useEditorconfig** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- **$schema** (1 connections) — `raw/code/hyd-evaluation/django-django/biome.json`
-- *... and 15 more nodes in this community*
+- **DatabaseOperations** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **._convert_field_to_tz()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.sequence_reset_by_name_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.fetch_returned_insert_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.window_frame_range_start_end()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_datefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_ipaddressfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.distinct_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.explain_query_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.ignore_conflicts_suffix_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.last_executed_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 553](Community_553.md) (1 shared connections)
+- [Community 243](Community_243.md) (1 shared connections)
+- [Community 323](Community_323.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/biome.json`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 52 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

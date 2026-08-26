@@ -1,36 +1,35 @@
 # Community 887
 
-> 11 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **module.js** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- **module_test.js** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **firstConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **secondConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **testConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **@vendor/package** (1 connections) — `@vendor/package`
-- **buildModule** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- **dynamicModule** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- **jsdocExample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- **./module_test_missing.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test_missing.js`
-- **nested.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
+- **internal.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **Class** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **.one_indirection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **decorated()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **deprecated_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **.deprecated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **.two_indirections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **call_decorated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **one_indirection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **three_indirections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **two_indirections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **nested()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
 
 ## Source Files
 
-- `@vendor/package`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test_missing.js`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

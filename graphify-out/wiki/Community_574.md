@@ -1,48 +1,44 @@
 # Community 574
 
-> 22 nodes · cohesion 0.17
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **SessionStore** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._key_to_file()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.load()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._get_storage_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._last_modification()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.clear_expired()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.aclear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.acreate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.adelete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.aexists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.aload()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.asave()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Implement a file based session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Get the file associated with this session key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Return the modification time of the file storing the session's content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Return the expiry time of the file storing the session's content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- **GitHubLinkTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **last_n_parts()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **test_github_links.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_forwarded_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_forwarded_import_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_wildcard_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_module_name_to_file_path_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_module_name_to_file_path_package()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_code_locator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_branch_latest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_branch_stable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_link_to_class_older_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_link_to_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_not_found()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_unspecified_domain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_unspecified_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_import_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
 
 ## Relationships
 
-- [Community 343](Community_343.md) (3 shared connections)
-- [Community 113](Community_113.md) (1 shared connections)
-- [Community 524](Community_524.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,44 @@
 # Community 627
 
-> 20 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **GetImageDimensionsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **skipUnless** (6 connections)
-- **DimensionClosingBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **InconsistentGetImageDimensionsBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_closing_of_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_not_closing_of_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_bug_19457()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_multiple_calls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_invalid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_valid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_webp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_missing_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() properly closes files (#8817)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Open files passed into get_image_dimensions() should stay opened.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() called with a filename should closed the file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() works properly after various calls using a file handler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Multiple calls of get_image_dimensions() should return the same size.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Regression test for #19457 get_image_dimensions() fails on some PNGs, while…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() should return (None, None) for the dimensions of invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() should catch struct.error while feeding the PIL Image…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **ImmediateBackendTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_validate_on_aenqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_validate_on_enqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_cannot_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_cannot_pass_run_after()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_cannot_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_catches_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_complex_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_complex_return_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_enqueue_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_failed_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_successful_task_no_none_in_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_takes_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_throws_keyboard_interrupt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 442](Community_442.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

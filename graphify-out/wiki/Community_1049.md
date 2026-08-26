@@ -1,26 +1,25 @@
 # Community 1049
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **CustomBackendTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
-- **.test_enqueue_async_task_on_non_async_backend()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
-- **multiple** (1 connections)
-- **.test_backend_does_not_support_priority()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
-- **.test_no_enqueue()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
-- **.test_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
-- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **TestExtractTicketId** (9 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **.test_case_insensitive()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **.test_na_returns_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **.test_no_ticket_returns_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **.test_returns_first_ticket_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **.test_ticket_in_sentence_returns_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **.test_ticket_placeholder_returns_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **.test_valid_ticket_returns_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 427](Community_427.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
 
 ## Audit Trail
 

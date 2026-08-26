@@ -4,23 +4,26 @@
 
 ## Key Concepts
 
-- **.bump_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.change_aliases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Change the aliases in change_map (which maps old-alias -> new-alias),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Change the alias prefix to the next letter in the alphabet in a way that the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **replace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
+- **.using()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **Create a new Task with modified defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **Return a new object replacing specified fields with new values. This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
 
 ## Relationships
 
-- [Community 114](Community_114.md) (2 shared connections)
+- [Community 709](Community_709.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (67%)
+- INFERRED: 2 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,42 @@
 # Community 697
 
-> 17 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **DatabaseFeatures** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.bare_select_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.django_test_skips()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.introspected_field_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_aggregation_over_interval_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_bit_aggregations()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_boolean_expr_in_select_clause()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_collation_on_charfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_comparing_boolean_expr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_frame_exclusion()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_json_negative_indexing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_primitives_in_json_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_stored_generated_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_tuple_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_uuid4_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.supports_uuid4_function_in_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- **.test_collations()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
+- **MultiWidgetTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **MyMultiWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_needs_multipart_true()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_needs_multipart_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs_with_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_nested_multiwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_no_whitespace_between_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_text_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_multi_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **needs_multipart_form should be True if any widgets need it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **needs_multipart_form should be False if no widgets need it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **MultiWidgets can be composed of other MultiWidgets.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
-- [Community 619](Community_619.md) (1 shared connections)
+- [Community 13](Community_13.md) (8 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 343](Community_343.md) (2 shared connections)
+- [Community 594](Community_594.md) (1 shared connections)
+- [Community 744](Community_744.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 26 (74%)
+- INFERRED: 9 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

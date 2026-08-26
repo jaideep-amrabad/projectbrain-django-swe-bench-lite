@@ -1,26 +1,27 @@
 # Community 1236
 
-> 4 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **wildcard_module.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
-- **wildcard_base.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- **WildcardMixin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- **WildcardClass** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
+- **RouterUsed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **WriteCheckRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Exception** (1 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 831](Community_831.md) (1 shared connections)
+- [Community 685](Community_685.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

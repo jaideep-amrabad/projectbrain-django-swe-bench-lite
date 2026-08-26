@@ -1,62 +1,61 @@
 # Community 219
 
-> 55 nodes · cohesion 0.07
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **field_defaults/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **DefaultTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **field_defaults/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **UUID7** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **UUID4** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **DBArticle** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **TestUUID** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- **.as_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBDefaultsFunction** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBDefaultsFunctionFK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBDefaultsFunctionPK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **.test_foreign_key_to_parent_with_expression_pk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_uuid7_shift_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- **DBDefaults** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBDefaultsOneToOnePK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBDefaultsPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.test_uuid4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- *... and 30 more nodes in this community*
+- **LogEntry** (31 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **LogEntryTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.__str__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.get_change_message()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.test_logentry_change_message_localized_datetime_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **UUIDUserTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.test_logentry_change_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_change_message_not_json()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_proxy_model_content_type_is_used_for_log_entries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_action_flag_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_admin_password_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **Return the edited object represented by this log entry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **Return the admin URL to edit the object represented by this log entry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (18 shared connections)
-- [Community 29](Community_29.md) (17 shared connections)
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 42](Community_42.md) (4 shared connections)
+- [Community 8](Community_8.md) (13 shared connections)
+- [Community 10](Community_10.md) (7 shared connections)
 - [Community 15](Community_15.md) (3 shared connections)
-- [Community 332](Community_332.md) (3 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 58](Community_58.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 959](Community_959.md) (2 shared connections)
 - [Community 3](Community_3.md) (2 shared connections)
-- [Community 101](Community_101.md) (2 shared connections)
-- [Community 325](Community_325.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 499](Community_499.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 1166](Community_1166.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (94%)
-- INFERRED: 10 (6%)
+- EXTRACTED: 70 (83%)
+- INFERRED: 14 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

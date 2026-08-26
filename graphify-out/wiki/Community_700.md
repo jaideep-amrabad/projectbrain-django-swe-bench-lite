@@ -1,41 +1,48 @@
 # Community 700
 
-> 17 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **TruncateHTMLParser** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **TruncateCharsHTMLParser** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **TruncateWordsHTMLParser** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.handle_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.handle_startendtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.process()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.handle_endtag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.handle_starttag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **TruncationCompleted** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Exception** (1 connections)
-- **HTMLParser** (1 connections)
-- **.feed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.void_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **SessionStore** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **TestingHttpRequest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_put_and_delete_rejected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **._get_GET_csrf_cookie_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A cache-based session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.clear_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **HTTP PUT and DELETE methods have protection** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A version of HttpRequest that allows us to change some things more easily** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.is_secure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Relationships
 
-- [Community 135](Community_135.md) (7 shared connections)
-- [Community 890](Community_890.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 321](Community_321.md) (2 shared connections)
+- [Community 393](Community_393.md) (2 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 717](Community_717.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 27 (87%)
+- INFERRED: 4 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

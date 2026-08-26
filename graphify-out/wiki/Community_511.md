@@ -1,55 +1,52 @@
 # Community 511
 
-> 25 nodes · cohesion 0.15
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **WarnAboutExternalUseTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **warning()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.assertWarningPointsHere()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.assertNotWarns()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.compile()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_skip_fully_qualified_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_external_skip_frames_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_external_skip_module_name_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_external_use_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_nested_qualname()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_skip_name_prefixes_is_applied_before_skip_frames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_skip_name_prefixes_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **MockCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_does_not_mistake_third_party_packages_for_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_internal_skip_frames_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_internal_skip_module_name_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_internal_skip_multiple_frames_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_internal_use_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_skip_name_prefixes_is_not_applied_after_skip_frames()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_warns_if_effective_caller_has_no_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **Add a message with the ``WARNING`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.test_handles_skip_frames_overflow()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_handles_skip_name_prefixes_overflow()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.test_internal_modules_must_be_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **task** (21 connections)
+- **tasks.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **CustomTaskTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **hang()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **calculate_meaning_of_life()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **complex_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **complex_return_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **exit_task()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **failing_task_keyboard_interrupt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **failing_task_system_exit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **failing_task_value_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **get_task_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **noop_task()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **noop_task_async()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **noop_task_from_bare_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **sleep_for()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **test_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **.test_custom_task_default_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_custom_task_invalid_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_custom_task_with_custom_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_custom_task_with_standard_and_custom_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_invalid_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_run_after_in_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_takes_context_without_taking_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **Do nothing for 5 minutes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
 
 ## Relationships
 
-- [Community 128](Community_128.md) (2 shared connections)
-- [Community 437](Community_437.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
+- [Community 442](Community_442.md) (7 shared connections)
+- [Community 311](Community_311.md) (3 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (77%)
-- INFERRED: 12 (23%)
+- EXTRACTED: 45 (87%)
+- INFERRED: 7 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

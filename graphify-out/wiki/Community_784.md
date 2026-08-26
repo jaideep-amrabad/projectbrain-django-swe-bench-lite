@@ -1,57 +1,40 @@
 # Community 784
 
-> 26 nodes · cohesion 0.09
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.setUp()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **ArgumentOrder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **._test()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Dumpdata** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_pks_parsing()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **ManageRunserverEmptyAllowedHosts** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_empty_allowed_hosts_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_short_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_short_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for 2-stage argument parsing scheme. django-admin command arguments are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options are correctly handled when they are passed before and after a setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for dumpdata management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- *... and 1 more nodes in this community*
+- **LocmemBackendTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **ConsoleBackendTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.test_locmem_shared_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.test_console_stream_kwarg()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.test_outbox_not_mutated_after_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.test_validate_multiline_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.test_fail_silently_arg_accepted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.test_adds_sent_using_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **Make sure that the locmem backend populates the outbox.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
 
 ## Relationships
 
-- [Community 188](Community_188.md) (10 shared connections)
-- [Community 80](Community_80.md) (7 shared connections)
-- [Community 369](Community_369.md) (6 shared connections)
-- [Community 271](Community_271.md) (3 shared connections)
-- [Community 546](Community_546.md) (3 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
-- [Community 703](Community_703.md) (1 shared connections)
-- [Community 238](Community_238.md) (1 shared connections)
-- [Community 798](Community_798.md) (1 shared connections)
-- [Community 704](Community_704.md) (1 shared connections)
-- [Community 674](Community_674.md) (1 shared connections)
+- [Community 91](Community_91.md) (7 shared connections)
+- [Community 78](Community_78.md) (5 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 462](Community_462.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

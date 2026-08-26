@@ -4,39 +4,41 @@
 
 ## Key Concepts
 
-- **DummyBackendTestCase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_on_aenqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_on_enqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_missing_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_refresh_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_takes_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_disallowed_async_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- **ModelChoiceFieldTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_freshness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_not_fetched_when_not_rendering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_deepcopies_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelmultiplechoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_queryset_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_queryset_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_result_cache_not_shared()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **Iterator defaults to ModelChoiceIterator and can be overridden with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 87](Community_87.md) (5 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
+- [Community 534](Community_534.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (81%)
+- INFERRED: 5 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

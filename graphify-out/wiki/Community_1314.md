@@ -1,23 +1,26 @@
 # Community 1314
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_exclude_option_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Excluding a bogus app or model should raise an error.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **wildcard_module.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
+- **wildcard_base.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
+- **WildcardMixin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
+- **WildcardClass** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
 
 ## Relationships
 
-- [Community 348](Community_348.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

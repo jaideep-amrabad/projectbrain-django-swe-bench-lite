@@ -1,78 +1,64 @@
 # Community 343
 
-> 174 nodes · cohesion 0.02
+> 50 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **sessions_tests/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **request.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **SuspiciousOperation** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **multipartparser.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **requests_tests/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **asgi/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **handlers/wsgi.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **handlers/asgi.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **core/cache/__init__.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **file_uploads/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **exception.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
-- **core/signals.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/signals.py`
-- **basehttp.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **cache/backends/base.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **handlers/base.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **logging_tests/views.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **MultiPartParser** (22 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **sessions/backends/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **files/uploadhandler.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **sessions/backends/db.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **parse_header_parameters()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **MultiPartParserError** (18 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **wsgi/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
-- **test_data_upload_settings.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
-- **BadRequest** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- *... and 149 more nodes in this community*
+- **MultiWidget** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **RadioSelectTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **NullBooleanFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **DeepCopyWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **RadioSelect** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **FormsI18nTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **RangeWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **._get_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_non_ascii_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render_as_subwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.decompress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_nullbooleanfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_non_ascii_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_select_translated_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **._get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **._set_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_class_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (82 shared connections)
-- [Community 1](Community_1.md) (38 shared connections)
-- [Community 7](Community_7.md) (36 shared connections)
-- [Community 3](Community_3.md) (31 shared connections)
-- [Community 29](Community_29.md) (25 shared connections)
-- [Community 17](Community_17.md) (25 shared connections)
-- [Community 31](Community_31.md) (17 shared connections)
-- [Community 212](Community_212.md) (17 shared connections)
-- [Community 6](Community_6.md) (16 shared connections)
-- [Community 69](Community_69.md) (16 shared connections)
-- [Community 5](Community_5.md) (14 shared connections)
-- [Community 120](Community_120.md) (14 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 831](Community_831.md) (4 shared connections)
+- [Community 245](Community_245.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 372](Community_372.md) (2 shared connections)
+- [Community 697](Community_697.md) (2 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1083](Community_1083.md) (1 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
+- [Community 373](Community_373.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
-- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 913 (98%)
-- INFERRED: 15 (2%)
+- EXTRACTED: 73 (87%)
+- INFERRED: 11 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

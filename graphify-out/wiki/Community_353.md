@@ -1,52 +1,51 @@
 # Community 353
 
-> 38 nodes · cohesion 0.05
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TaskTestCase** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_module_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_no_backends()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_aenqueue_with_invalid_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_call_async_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_call_async_task_sync()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_call_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_call_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_chained_using()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_enqueue_with_invalid_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_get_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_get_incorrect_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_get_incorrect_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_get_missing_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_get_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_invalid_priority()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_pickle_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_pickle_task_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- *... and 13 more nodes in this community*
+- **HashedFilesMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.clean_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **CachedFilesMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.hash_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.file_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.save_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.post_process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.read_manifest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.hash_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Return the non-hashed URL in DEBUG mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Return the custom URL converter for the given file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Post process the given dictionary of files (called from collectstatic).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 525](Community_525.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 396](Community_396.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 123](Community_123.md) (2 shared connections)
+- [Community 1038](Community_1038.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 54 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

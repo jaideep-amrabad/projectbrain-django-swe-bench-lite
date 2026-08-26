@@ -1,37 +1,40 @@
 # Community 635
 
-> 16 nodes · cohesion 0.18
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.get_request()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **CsrfProtectTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **EnsureCsrfCookieTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **RequiresCsrfTokenTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **ensure_csrf_cookie** (5 connections)
-- **CsrfTestMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_csrf_protect_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_csrf_protect_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_ensure_csrf_cookie_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_ensure_csrf_cookie_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_requires_csrf_token_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_requires_csrf_token_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **PrefixNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **StaticNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_simple()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **do_static()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **get_media_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **get_static_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Class method to parse prefix node and return a Node.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Join the given path with the STATIC_URL setting. Usage:: {% static path [as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Populate a template variable with the static prefix, ``settings.STATIC_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Populate a template variable with the media prefix, ``settings.MEDIA_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 312](Community_312.md) (2 shared connections)
-- [Community 575](Community_575.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 183](Community_183.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
 
 ## Audit Trail
 

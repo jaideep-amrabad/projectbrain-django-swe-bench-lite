@@ -1,48 +1,56 @@
 # Community 526
 
-> 25 nodes · cohesion 0.14
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **I18nTransTagTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **setup()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n24()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n25()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n35()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n36()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_context_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_context_noop()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_duplicate_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_missing_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_missing_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_no_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_trans_tag_using_a_string_that_looks_like_str_fmt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **simple translation of a string delimited by '.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **simple translation of a string to German** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **simple non-translation (only marking) of a string to German** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **Using filters with the {% translate %} tag (#5972).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **utils/csp.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **utils_tests/test_csp.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **LazyNonce** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **middleware/csp.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
+- **CSP** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **LazyNonceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **ContentSecurityPolicyMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
+- **generate_nonce()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **.process_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
+- **CSPConstantsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
+- **get_nonce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
+- **django/middleware/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **nonce_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **.test_generates_on_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_returns_same_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **StrEnum** (1 connections)
+- **Content Security Policy constants for directive values and special tokens.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **Lazily generates a cryptographically secure nonce string, for use in CSP…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **.test_constants()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 714](Community_714.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 565](Community_565.md) (5 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 662](Community_662.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 673](Community_673.md) (2 shared connections)
+- [Community 486](Community_486.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 59 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,62 +1,63 @@
 # Community 372
 
-> 36 nodes · cohesion 0.07
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **middleware/test_csp.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **CSP** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **utils_tests/test_csp.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **LazyNonce** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **context_processors/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **CSPMiddlewareWithDecoratedViewsTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **RequestContextProcessorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **LazyNonceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **generate_nonce()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **CSPConstantsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **.test_request_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **.test_csp_disabled_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_disabled_enforced()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_override_both_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_override_enforced()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_report_only_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_report_only_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_generates_on_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_returns_same_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **StrEnum** (1 connections)
-- **Content Security Policy constants for directive values and special tokens.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **Lazily generates a cryptographically secure nonce string, for use in CSP…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- *... and 11 more nodes in this community*
+- **MultiValueFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **MultiValueField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **BasicFieldsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_field_deepcopies_widget_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **Field** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.compress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_cooperative_multiple_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.test_field_sets_widget_is_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.test_disabled_field_has_changed_always_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_as_table_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_cleaned_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_has_changed_first_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_has_changed_last_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 135](Community_135.md) (7 shared connections)
-- [Community 5](Community_5.md) (7 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 29](Community_29.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 195](Community_195.md) (3 shared connections)
-- [Community 566](Community_566.md) (2 shared connections)
-- [Community 395](Community_395.md) (2 shared connections)
-- [Community 581](Community_581.md) (2 shared connections)
-- [Community 532](Community_532.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 670](Community_670.md) (2 shared connections)
+- [Community 456](Community_456.md) (2 shared connections)
+- [Community 343](Community_343.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 63 (89%)
+- INFERRED: 8 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

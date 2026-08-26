@@ -1,40 +1,46 @@
 # Community 715
 
-> 17 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **FindPartialSourceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **setup** (15 connections)
-- **.test_find_partial_source_empty_partial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_multiple_consecutive_partials()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_named_end_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_nested_partials()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_nested_partials_and_mixed_end_tags_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_nested_partials_and_mixed_end_tags_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_nested_partials_and_named_end_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_with_inline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_source_uses_offsets_in_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_contains_fake_end_inside_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_embedded_in_comment_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_embedded_in_inline_comment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_embedded_in_named_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_embedded_in_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **Person** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **LongNameTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **postgresql/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **DatabaseSequenceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **.test_bulk_batch_size_respects_variable_limit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- **.test_unicode_fetches()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_sequence_name_length_limits_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_sequence_name_length_limits_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **skipUnless** (1 connections)
+- **Long primary keys and model names can result in a sequence name that exceeds…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Test creation of model with long name and long pk name doesn't error. Ref #8901** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **An m2m save of a model with a long name and a long m2m field name doesn't error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 126](Community_126.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 376](Community_376.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 520](Community_520.md) (2 shared connections)
+- [Community 963](Community_963.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (88%)
+- INFERRED: 4 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

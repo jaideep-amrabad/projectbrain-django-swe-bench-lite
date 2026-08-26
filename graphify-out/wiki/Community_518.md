@@ -1,54 +1,53 @@
 # Community 518
 
-> 41 nodes · cohesion 0.06
+> 24 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **ContentTypesTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **ContentTypeManager** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._add_to_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._get_from_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._get_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.test_get_for_model_create_contenttype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_get_for_models_migrations_create_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_by_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.test_app_labeled_name_unknown_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_cache_not_shared_between_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_get_for_concrete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_get_for_concrete_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_get_for_models_migrations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_lookup_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_missing_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_missing_model_with_existing_model_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_name_unknown_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **Displaying content types in admin (or anywhere) doesn't break on leftover…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Lookup a ContentType by ID. Use the same shared cache as get_for_model (though…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Clear out the content-type cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- *... and 16 more nodes in this community*
+- **WarnAboutExternalUseTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **warning()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.assertWarningPointsHere()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.assertNotWarns()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.compile()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_skip_fully_qualified_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_external_skip_frames_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_external_skip_module_name_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_external_use_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_nested_qualname()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_skip_name_prefixes_is_applied_before_skip_frames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_skip_name_prefixes_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_reporting_frames_without_source()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_does_not_mistake_third_party_packages_for_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_internal_skip_frames_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_internal_skip_module_name_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_internal_skip_multiple_frames_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_internal_use_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_skip_name_prefixes_is_not_applied_after_skip_frames()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_warns_if_effective_caller_has_no_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **Add a message with the ``WARNING`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.test_handles_skip_frames_overflow()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_handles_skip_name_prefixes_overflow()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- **.test_internal_modules_must_be_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (6 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
+- [Community 291](Community_291.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 139](Community_139.md) (2 shared connections)
+- [Community 912](Community_912.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_external_use.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 40 (78%)
+- INFERRED: 11 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

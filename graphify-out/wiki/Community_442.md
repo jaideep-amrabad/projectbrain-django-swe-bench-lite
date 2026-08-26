@@ -1,50 +1,71 @@
 # Community 442
 
-> 30 nodes · cohesion 0.13
+> 78 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ConditionalGet** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertFullResponse()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertNotModified()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_modified_since()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_6()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_unmodified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_invalid_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_without_conditions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- *... and 5 more nodes in this community*
+- **test_tasks.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **tasks/base.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **django/tasks/__init__.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/__init__.py`
+- **test_dummy_backend.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- **test_immediate_backend.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **immediate.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **test_custom_backend.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **BaseTaskBackend** (16 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- **tasks/backends/dummy.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- **tasks/exceptions.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **tasks/backends/base.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- **tasks/signals.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/signals.py`
+- **TaskResult** (12 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **DummyBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- **TaskResultStatus** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **ImmediateBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **InvalidTask** (9 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **TaskResultDoesNotExist** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **TaskResultMismatch** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **._execute_task()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **InvalidTaskBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **get_func_args()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- **TaskContext** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **TaskException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **.validate_task()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 2](Community_2.md) (20 shared connections)
+- [Community 8](Community_8.md) (12 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 709](Community_709.md) (9 shared connections)
+- [Community 511](Community_511.md) (7 shared connections)
+- [Community 539](Community_539.md) (6 shared connections)
+- [Community 210](Community_210.md) (6 shared connections)
+- [Community 15](Community_15.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
+- [Community 901](Community_901.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 255 (98%)
+- INFERRED: 6 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

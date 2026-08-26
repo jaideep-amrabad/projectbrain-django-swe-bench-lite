@@ -1,32 +1,35 @@
 # Community 980
 
-> 9 nodes · cohesion 0.28
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **CustomStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **StorageValidateFileNameTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_after_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_after_internal_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_before_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **Storage** (1 connections)
-- **Simple Storage subclass implementing the bare minimum for testing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **PropertyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **properties/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **properties/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_setter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **._get_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **._set_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **Using properties on models Use properties on models just like on any other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

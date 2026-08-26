@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **datetime/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/__init__.py`
+- **Gruntfile.js** (0 connections) — `raw/code/hyd-evaluation/django-django/Gruntfile.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/__init__.py`
+- `raw/code/hyd-evaluation/django-django/Gruntfile.js`
 
 ## Audit Trail
 

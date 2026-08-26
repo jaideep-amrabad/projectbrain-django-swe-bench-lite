@@ -1,24 +1,27 @@
 # Community 1276
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.has_usable_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **Return False if set_unusable_password() has been called for this user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **RenderPasswordAsHashTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templatetags.py`
+- **.test_no_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templatetags.py`
+- **.test_valid_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templatetags.py`
+- **.test_invalid_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templatetags.py`
 
 ## Relationships
 
-- [Community 255](Community_255.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 272](Community_272.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templatetags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,57 +1,61 @@
 # Community 64
 
-> 127 nodes · cohesion 0.03
+> 68 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FormsFormsetTestCase** (81 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **formset_factory()** (66 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **ChoiceFormSet** (30 connections)
-- **.make_choiceformset()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_invalid()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_custom_renderer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_form_default_renderer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_form_default_renderer_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **AllValidTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_displaying_more_than_one_blank_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_empty_ordered_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_splitdatetimefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_max_flag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_min_flag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_min_unchanged_forms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_ordering_and_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formsets_with_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_hard_limit_on_instantiated_forms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_increase_hard_limit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_min_num_displaying_more_than_one_blank_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_min_num_displaying_more_than_one_blank_form_with_zero_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_more_initial_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_non_form_errors_run_full_clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- *... and 102 more nodes in this community*
+- **TupleLookupsTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
+- **TupleIn** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **test_tuple_lookups.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
+- **composite.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/composite.py`
+- **TupleLookupMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **TupleIsNull** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **TupleExact** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **TupleGreaterThan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **TupleGreaterThanOrEqual** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.process_rhs()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **TupleLessThan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **TupleLessThanOrEqual** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **Tuple** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.as_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.get_lhs_str()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.get_fallback_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.get_prep_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **CompositeAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/composite.py`
+- **.get_fallback_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.get_prep_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.check_rhs_is_tuple_or_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- **.test_tuple_in_subquery_must_be_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
+- **.get_fallback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (11 shared connections)
-- [Community 103](Community_103.md) (4 shared connections)
-- [Community 1079](Community_1079.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 499](Community_499.md) (2 shared connections)
-- [Community 170](Community_170.md) (2 shared connections)
-- [Community 1078](Community_1078.md) (1 shared connections)
-- [Community 174](Community_174.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
+- [Community 111](Community_111.md) (24 shared connections)
+- [Community 18](Community_18.md) (15 shared connections)
+- [Community 912](Community_912.md) (14 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 831](Community_831.md) (2 shared connections)
+- [Community 669](Community_669.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 909](Community_909.md) (2 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/composite.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 241 (98%)
-- INFERRED: 6 (2%)
+- EXTRACTED: 186 (93%)
+- INFERRED: 14 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

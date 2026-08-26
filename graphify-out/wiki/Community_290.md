@@ -1,63 +1,52 @@
 # Community 290
 
-> 64 nodes · cohesion 0.04
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ModelChoiceFieldTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **get_blank_choice_label()** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- **test_modelchoicefield.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **ModelMultipleChoiceFieldTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Category** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ModelChoiceIterator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **ModelChoiceIteratorValue** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **ExplicitPK** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__str__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_callable_choices_are_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_prefetch_related_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_basics()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choice_value_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_freshness()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_radio_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_queryset_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_model_multiple_choice_number_of_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_run_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 39 more nodes in this community*
+- **DeprecatePosargsTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **deprecate_posargs** (24 connections)
+- **.assertDeprecated()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_applied_to_lambda()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_class_methods()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_all_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_allows_reordering_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_async()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_bare_init()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_some_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_rejects_var_positional_param_with_deferred_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_requires_remappable_names_be_keyword_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_requires_remappable_names_exist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_detects_duplicate_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_incorrect_classmethod_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_incorrect_staticmethod_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_positional_only_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_variable_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_warning_source_location()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_avoids_remapping_to_new_keyword_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_does_not_apply_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_preserves_signature_and_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_rejects_var_positional_param()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_requires_keyword_only_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_detects_extra_positional_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 130](Community_130.md) (24 shared connections)
-- [Community 3](Community_3.md) (14 shared connections)
-- [Community 610](Community_610.md) (7 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 590](Community_590.md) (4 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 310](Community_310.md) (2 shared connections)
-- [Community 445](Community_445.md) (2 shared connections)
-- [Community 260](Community_260.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
+- [Community 488](Community_488.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
+- [Community 483](Community_483.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
 
 ## Audit Trail
 
-- EXTRACTED: 136 (84%)
-- INFERRED: 26 (16%)
+- EXTRACTED: 50 (66%)
+- INFERRED: 26 (34%)
 - AMBIGUOUS: 0 (0%)
 
 ---

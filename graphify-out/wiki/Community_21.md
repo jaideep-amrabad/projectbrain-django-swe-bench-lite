@@ -1,66 +1,78 @@
 # Community 21
 
-> 101 nodes · cohesion 0.04
+> 148 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **WhereNode** (56 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **tuple_lookups.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleLookupsTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
-- **TupleIn** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **test_tuple_lookups.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
-- **TupleLookupMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **NothingNode** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **TupleIsNull** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleExact** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleGreaterThan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleGreaterThanOrEqual** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.process_rhs()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleLessThan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleLessThanOrEqual** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **WhereNodeTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Tuple** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.as_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.get_lhs_str()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.test_flatten()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.get_fallback_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.get_prep_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.c()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.get_fallback_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.get_prep_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.test_empty_full_handling_conjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 76 more nodes in this community*
+- **HttpResponse** (336 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **SessionMiddleware** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **HttpResponseTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **HttpResponseTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **SessionMiddlewareTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **test_utils/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **SetCookieTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
+- **resolve_url/views.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/views.py`
+- **middleware/views.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **wsgi/urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/urls.py`
+- **project_template/views.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/views.py`
+- **.test_aware_expiration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
+- **.test_far_expiration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
+- **.test_empty_session_saved()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_httponly_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_no_httponly_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_samesite_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_secure_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_delete_on_end_with_custom_domain_and_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **urls_middleware_urlconf.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/urls_middleware_urlconf.py`
+- **no_template_used()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **ReportAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_dict_behavior()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_lazy_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- *... and 123 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (28 shared connections)
-- [Community 58](Community_58.md) (19 shared connections)
-- [Community 101](Community_101.md) (15 shared connections)
-- [Community 114](Community_114.md) (8 shared connections)
-- [Community 208](Community_208.md) (5 shared connections)
-- [Community 33](Community_33.md) (5 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
+- [Community 5](Community_5.md) (80 shared connections)
+- [Community 4](Community_4.md) (30 shared connections)
+- [Community 45](Community_45.md) (23 shared connections)
+- [Community 168](Community_168.md) (17 shared connections)
+- [Community 213](Community_213.md) (16 shared connections)
+- [Community 26](Community_26.md) (16 shared connections)
+- [Community 2](Community_2.md) (14 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 425](Community_425.md) (9 shared connections)
+- [Community 398](Community_398.md) (8 shared connections)
+- [Community 214](Community_214.md) (7 shared connections)
+- [Community 53](Community_53.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/cbv_as_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/project_template/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/project_template/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/project_template/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/resolve_url/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
 
 ## Audit Trail
 
-- EXTRACTED: 275 (90%)
-- INFERRED: 31 (10%)
+- EXTRACTED: 532 (99%)
+- INFERRED: 6 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

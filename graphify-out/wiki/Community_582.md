@@ -1,51 +1,48 @@
 # Community 582
 
-> 22 nodes · cohesion 0.23
+> 21 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **warn_about_implementation()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **WarnAboutImplementationTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.assertWarnsAboutLine()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_classmethod()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_decorated_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_decorated_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_property()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_class_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_decorated_staticmethod()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_missing_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_my_own_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_no_source_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_non_standard_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_staticmethod()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_creates_warning_registry_if_needed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_rejects_invalid_target()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_respects_warning_registry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_subclass_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **Issue a warning about a specific function, class, or method definition. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **DeprecatedEmailSettingsTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.init_simulated_settings()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_warn_about_no_default_mailer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **override_deprecated_email_settings** (5 connections)
+- **.test_multiple_deprecated_settings_are_all_reported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_warn_when_defining_deprecated_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.mock_settings_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_not_allowed_with_mailers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_no_default_mailer_warning_if_any_email_setting_defined()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.assertHasOnlyDefaultEmailSettings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.assertNotWarnsMessage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_defaults_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_direct_settings_manipulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_error_when_using_conflicting_setting_via_override_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_error_when_using_deprecated_settings_with_mailers_defined()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_do_not_exist_when_mailers_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_not_in_dir_when_mailers_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_email_backend_override_during_tests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_warn_when_using_deprecated_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_are_in_dir_without_mailers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **Deprecations and compatibility errors related to MAILERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
 
 ## Relationships
 
-- [Community 545](Community_545.md) (4 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 333](Community_333.md) (1 shared connections)
+- [Community 15](Community_15.md) (6 shared connections)
+- [Community 654](Community_654.md) (4 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
+- [Community 1136](Community_1136.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 50 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

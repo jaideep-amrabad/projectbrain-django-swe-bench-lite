@@ -1,22 +1,24 @@
 # Community 1415
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **sqlite3/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/__init__.py`
+- **CustomUserNoNaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_natural_key.py`
+- **.create_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_natural_key.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 272](Community_272.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_natural_key.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,52 @@
 # Community 306
 
-> 41 nodes · cohesion 0.11
+> 38 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **OperationTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **OperationTestCase** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.alter_gis_model()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertSpatialIndexExists()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertColumnExists()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertSpatialIndexNotExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_blank_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_blank_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **NoRasterSupportTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertColumnNotExists()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_3d_field_opclass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_alter_field_add_spatial_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_alter_field_nullable_with_spatial_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_alter_field_remove_spatial_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_alter_geom_field_dim()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_alter_raster_field_add_spatial_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_alter_raster_field_remove_spatial_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_remove_geom_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_remove_geom_field_nullable_with_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_remove_raster_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.apply_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertGeometryColumnsCount()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- *... and 16 more nodes in this community*
+- **check_pr.py** (22 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **Message** (18 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
+- **main()** (16 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **github_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **check_ai_disclosure()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **check_branch_description()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **check_trac_has_patch()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **check_trac_ticket()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **strip_html_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **check_checklist()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **check_pr_title_has_ticket()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **check_trac_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **fetch_trac_ticket()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **get_pr_total_changes()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **get_recent_commit_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **errors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
+- **extract_ticket_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **get_comment_ids_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **write_job_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **setup_logging()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **Return the number of recent commits by the author, up to max_count.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **Return total lines changed in the PR (additions + deletions).** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **Return text with all HTML comments removed.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **Return the Trac ticket ID string from the PR body, or None.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- **Fetch ticket data from the Trac JSON API. Returns a dict with ticket data on…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (11 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 645](Community_645.md) (2 shared connections)
-- [Community 77](Community_77.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 332](Community_332.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 427](Community_427.md) (6 shared connections)
+- [Community 637](Community_637.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
+- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

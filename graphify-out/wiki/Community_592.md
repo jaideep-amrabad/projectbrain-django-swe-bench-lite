@@ -1,40 +1,38 @@
 # Community 592
 
-> 22 nodes · cohesion 0.13
+> 21 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **GitHubLinkTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **last_n_parts()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **test_github_links.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_forwarded_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_forwarded_import_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_wildcard_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_module_name_to_file_path_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_module_name_to_file_path_package()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_code_locator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_branch_latest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_branch_stable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_link_to_class_older_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_link_to_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_not_found()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_unspecified_domain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_unspecified_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_import_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Audit Trail
 

@@ -1,29 +1,30 @@
 # Community 1132
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **InsertUnnest** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/compiler.py`
-- **SQLInsertCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/compiler.py`
-- **.assemble_as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/compiler.py`
-- **BaseSQLInsertCompiler** (1 connections)
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/compiler.py`
-- **list** (1 connections)
-- **Sentinel value to signal DatabaseOperations.bulk_insert_sql() that the UNNEST…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/compiler.py`
+- **DebugTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
+- **setup** (5 connections)
+- **.test_non_ascii()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
+- **.test_non_debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
+- **.test_modules()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
+- **.test_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
+- **.test_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
 
 ## Relationships
 
+- [Community 15](Community_15.md) (2 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

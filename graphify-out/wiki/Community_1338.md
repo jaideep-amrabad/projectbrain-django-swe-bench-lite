@@ -1,20 +1,20 @@
 # Community 1338
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_inheritance07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Two-level with one block defined, one block not defined** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **check_tasks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/checks.py`
+- **register** (1 connections)
+- **Checks all registered Task backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/checks.py`
 
 ## Relationships
 
-- [Community 954](Community_954.md) (1 shared connections)
-- [Community 953](Community_953.md) (1 shared connections)
+- [Community 831](Community_831.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/checks.py`
 
 ## Audit Trail
 

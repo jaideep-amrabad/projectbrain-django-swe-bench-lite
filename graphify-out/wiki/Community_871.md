@@ -1,34 +1,35 @@
 # Community 871
 
-> 12 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **CompositePKFixturesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.assert_deserializer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_yaml()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_json()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_jsonl()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_invalid_pk_extra_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_post_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **skipUnless** (1 connections)
+- **Reference** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Return whether or not this instance references the specified table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Return whether or not this instance references the specified column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Rename all references to the old_name to the new_table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Rename all references to the old_column to the new_column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Base class that defines the reference interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 455](Community_455.md) (1 shared connections)
+- [Community 328](Community_328.md) (1 shared connections)
+- [Community 476](Community_476.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

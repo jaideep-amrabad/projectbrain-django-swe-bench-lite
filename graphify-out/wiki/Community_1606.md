@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **some_file.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/app_with_locale/some_file.py`
+- **tests/cache/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/app_with_locale/some_file.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/__init__.py`
 
 ## Audit Trail
 

@@ -1,34 +1,37 @@
 # Community 958
 
-> 10 nodes · cohesion 0.38
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **DiscoverRunnerGetDatabasesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.assertSkippedDatabases()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.get_databases()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_default_and_other()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_default_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_no_databases_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_other_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **app_with_urls/views.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
+- **app_with_urls/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/__init__.py`
+- **urls_cbv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_cbv.py`
+- **urls_namespaced.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_namespaced.py`
+- **urls_nons.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_nons.py`
+- **CBV** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
+- **view_func_namespaced_named()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
+- **view_func_namespaced_unnamed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
+- **view_func_nons_named()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
+- **view_func_nons_unnamed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
 
 ## Relationships
 
-- [Community 147](Community_147.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_cbv.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_namespaced.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_nons.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

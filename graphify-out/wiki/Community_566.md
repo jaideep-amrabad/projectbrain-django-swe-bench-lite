@@ -1,54 +1,44 @@
 # Community 566
 
-> 23 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **PlaywrightTestCase** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **CSPPlaywrightTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **ChangeViewportSize** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.desktop_size()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **FloatFieldHTMLTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_float_field_rendering_passes_client_side_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.rtl()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **._close_browser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.dark()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.high_contrast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.mobile_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **._quit_playwright()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.small_screen_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **Rendered widget allows non-integer value with the client-side validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_reports_are_generated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.__init_subclass__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **._restore_async_unsafe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.take_screenshot()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **process_commit_message()** (22 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- **ProcessCommitMessageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_adds_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_adds_stable_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_adds_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_backport_note_separated_by_blank_line()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_capitalizes_first_letter()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_capitalizes_first_letter_after_existing_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_empty_body_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_git_comments_preserved_at_end()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_leading_blank_lines_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_no_cherry_sha_no_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_no_prefix_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_period_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_with_period_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_only_blank_lines_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_prefix_and_period_and_backport_combined()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_summary_leading_whitespace_no_double_space_before_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **Adjust commit message lines for a potential backport. - Separates body lines…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 159](Community_159.md) (4 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 372](Community_372.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 395](Community_395.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 611](Community_611.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,51 +1,50 @@
 # Community 510
 
-> 25 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **NestedObjectsTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **NestedObjects** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **._connect()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **DBNestedObjectsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **._check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **._collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_cyclic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_non_added_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_siblings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_unrelated_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_on_delete_do_nothing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_relation_on_abstract()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.add_edge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.collect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **._nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **Collector** (1 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.related_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **Return the graph as a nested list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **NestedObjects.collect() doesn't trip (AttributeError) on the special notation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **Exercise NestedObjectsTests but with a model that makes use of DB_CASCADE…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **Tests for ``NestedObject`` utility collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **The nested collector doesn't query for DO_NOTHING objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **GeneratedFieldTestMixin** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **StoredGeneratedFieldTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **VirtualGeneratedFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_db_type_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_full_clean_with_check_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_full_clean_with_unique_constraint_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_output_field_db_collation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_output_field_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_bulk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_bulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_full_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_generated_fields_can_be_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_model_with_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_non_nullable_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_nullable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_save_model_with_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_save_model_with_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_unsaved_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **Lookups from the output_field are available on GeneratedFields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_create_field_with_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_create_with_non_auto_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_save_field_with_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
 
 ## Relationships
 
-- [Community 56](Community_56.md) (13 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 40](Community_40.md) (4 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,59 @@
 # Community 292
 
-> 44 nodes · cohesion 0.07
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **StatReloader** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.snapshot_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **sys_path_directories()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._check_subscription()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._subscribe_dir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._watch_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **trigger_reload()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- *... and 19 more nodes in this community*
+- **JSONObject** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **JSONArray** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **JSONArrayTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **JSONObjectTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **JSONArrayObjectTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **.test_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **.as_native()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **.as_postgresql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **.test_order_by_nested_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_explicit_cast()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **.test_nested_json_array_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_nested_json_object_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_nested_empty_json_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_nested_json_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_order_by_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_order_by_nested_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_textfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_order_by_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **.test_order_by_nested_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **.test_textfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **.as_native()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 39](Community_39.md) (8 shared connections)
-- [Community 279](Community_279.md) (3 shared connections)
-- [Community 572](Community_572.md) (2 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 514](Community_514.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 18](Community_18.md) (12 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 147](Community_147.md) (5 shared connections)
+- [Community 33](Community_33.md) (4 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 100](Community_100.md) (2 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 78 (76%)
+- INFERRED: 25 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

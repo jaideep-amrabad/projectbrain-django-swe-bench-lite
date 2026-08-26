@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_migrations_2_squashed_with_replaces/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations2/test_migrations_2_squashed_with_replaces/__init__.py`
+- **empty_models/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations2/test_migrations_2_squashed_with_replaces/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
 
 ## Audit Trail
 

@@ -1,10 +1,11 @@
 # Community 1438
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **admin_default_site/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/__init__.py`
+- **import_error.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/import_error.py`
+- **MyClass** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/import_error.py`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/import_error.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

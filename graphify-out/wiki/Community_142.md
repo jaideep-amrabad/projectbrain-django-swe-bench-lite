@@ -1,60 +1,58 @@
 # Community 142
 
-> 75 nodes · cohesion 0.06
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **WriterTests** (79 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize()** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.assertSerializedEqual()** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.assertSerializedResultEqual()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize_round_trip()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.assertSerializedFunctoolsPartialEqual()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.safe_exec()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_datetime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_decorated_functions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_numbers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_database_on_delete_serializer_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_enums()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_frozensets()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_functions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_non_identifier_keyword_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_pathlib()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_type_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_simple_migration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **Money** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- *... and 50 more nodes in this community*
+- **test_choices.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **ChoicesType** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **BaseChoiceIterator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
+- **ChoiceIteratorTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **choices.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
+- **SimpleChoiceIterator** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **CallableChoiceIterator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
+- **flatten_choices()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
+- **BlankChoiceIterator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
+- **FlattenChoicesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.test_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
+- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.test_eq_instances()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.test_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.test_getitem_indexerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.test_not_equal_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.test_not_equal_superset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.test_nested_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **.test_non_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **EnumType** (1 connections)
+- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 317](Community_317.md) (17 shared connections)
-- [Community 29](Community_29.md) (8 shared connections)
-- [Community 39](Community_39.md) (5 shared connections)
-- [Community 106](Community_106.md) (3 shared connections)
-- [Community 150](Community_150.md) (2 shared connections)
-- [Community 1229](Community_1229.md) (2 shared connections)
-- [Community 135](Community_135.md) (2 shared connections)
-- [Community 721](Community_721.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 384](Community_384.md) (7 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 901](Community_901.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1034](Community_1034.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
 
 ## Audit Trail
 
-- EXTRACTED: 200 (95%)
-- INFERRED: 11 (5%)
+- EXTRACTED: 68 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,34 @@
 # Community 951
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **module.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **MyClass** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **my_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **other_module.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
-- **MyOtherClass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
-- **package/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.my_cached_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.my_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **object** (1 connections)
+- **pluralize()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_decimals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_floats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_integers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_lists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_no_len_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_suffixes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_value_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **Return a plural suffix if the value is not 1. By default, use 's' as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

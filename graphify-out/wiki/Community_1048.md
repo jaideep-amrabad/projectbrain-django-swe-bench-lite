@@ -1,30 +1,30 @@
 # Community 1048
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **TestNumberFormat** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **parse_major_version()** (9 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **ParseMajorVersionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_alpha()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_beta()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_final_dot_zero_release()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_final_patch_release()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_release_candidate()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_two_digit_minor()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 611](Community_611.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
