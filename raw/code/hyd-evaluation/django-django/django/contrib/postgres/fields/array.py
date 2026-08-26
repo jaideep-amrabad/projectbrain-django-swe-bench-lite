@@ -240,7 +240,8 @@ class ArrayLenTransform(Transform):
 class ArrayInLookup(In):
     def get_prep_lookup(self):
         values = super().get_prep_lookup()
-        if hasattr(values, 'resolve_expression'):
+        if hasattr(self.rhs, '_prepare'):
+            # Subqueries don't need further preparation.
             return values
         # In.process_rhs() expects values to be hashable, so convert lists
         # to tuples.

@@ -64,8 +64,8 @@ class Lookup:
             self.lhs, self.rhs = new_exprs
 
     def get_prep_lookup(self):
-        if hasattr(self.rhs, 'resolve_expression'):
-            return self.rhs
+        if hasattr(self.rhs, '_prepare'):
+            return self.rhs._prepare(self.lhs.output_field)
         if self.prepare_rhs and hasattr(self.lhs.output_field, 'get_prep_value'):
             return self.lhs.output_field.get_prep_value(self.rhs)
         return self.rhs
@@ -89,7 +89,8 @@ class Lookup:
             value = self.apply_bilateral_transforms(value)
             value = value.resolve_expression(compiler.query)
         if hasattr(value, 'as_sql'):
-            return compiler.compile(value)
+            sql, params = compiler.compile(value)
+            return '(' + sql + ')', params
         else:
             return self.get_db_prep_lookup(value, connection)
 
@@ -103,7 +104,7 @@ class Lookup:
             new.rhs = new.rhs.relabeled_clone(relabels)
         return new
 
-    def get_group_by_cols(self, alias=None):
+    def get_group_by_cols(self):
         cols = self.lhs.get_group_by_cols()
         if hasattr(self.rhs, 'get_group_by_cols'):
             cols.extend(self.rhs.get_group_by_cols())
@@ -195,9 +196,11 @@ class FieldGetDbPrepValueIterableMixin(FieldGetDbPrepValueMixin):
     get_db_prep_lookup_value_is_iterable = True
 
     def get_prep_lookup(self):
-        if hasattr(self.rhs, 'resolve_expression'):
-            return self.rhs
         prepared_values = []
+        if hasattr(self.rhs, '_prepare'):
+            # A subquery is like an iterable but its items shouldn't be
+            # prepared independently.
+            return self.rhs._prepare(self.lhs.output_field)
         for rhs_value in self.rhs:
             if hasattr(rhs_value, 'resolve_expression'):
                 # An expression will be handled by the database but can coexist

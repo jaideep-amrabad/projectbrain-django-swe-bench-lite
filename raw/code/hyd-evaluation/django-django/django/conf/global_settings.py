@@ -154,9 +154,6 @@ LANGUAGE_COOKIE_NAME = 'django_language'
 LANGUAGE_COOKIE_AGE = None
 LANGUAGE_COOKIE_DOMAIN = None
 LANGUAGE_COOKIE_PATH = '/'
-LANGUAGE_COOKIE_SECURE = False
-LANGUAGE_COOKIE_HTTPONLY = False
-LANGUAGE_COOKIE_SAMESITE = None
 
 
 # If you set this to True, Django will format dates, numbers and calendars
@@ -461,7 +458,7 @@ SESSION_COOKIE_DOMAIN = None
 SESSION_COOKIE_SECURE = False
 # The path of the session cookie.
 SESSION_COOKIE_PATH = '/'
-# Whether to use the HttpOnly flag.
+# Whether to use the non-RFC standard httpOnly flag (IE, FF3+, others)
 SESSION_COOKIE_HTTPONLY = True
 # Whether to set the flag restricting cookie leaks on cross-site requests.
 # This can be 'Lax', 'Strict', or None to disable the flag.

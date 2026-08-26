@@ -117,7 +117,8 @@ def return_text_file(request):
     else:
         charset = settings.DEFAULT_CHARSET
 
-    return HttpResponse(request.body, status=200, content_type='text/plain; charset=%s' % charset)
+    response = HttpResponse(request.body, status=200, content_type='text/plain; charset=%s' % charset)
+    return response
 
 
 def check_headers(request):

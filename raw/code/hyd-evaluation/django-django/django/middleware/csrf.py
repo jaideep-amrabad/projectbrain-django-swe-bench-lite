@@ -64,7 +64,8 @@ def _unsalt_cipher_token(token):
     token = token[CSRF_SECRET_LENGTH:]
     chars = CSRF_ALLOWED_CHARS
     pairs = zip((chars.index(x) for x in token), (chars.index(x) for x in salt))
-    return ''.join(chars[x - y] for x, y in pairs)  # Note negative values are ok
+    secret = ''.join(chars[x - y] for x, y in pairs)  # Note negative values are ok
+    return secret
 
 
 def _get_new_csrf_token():

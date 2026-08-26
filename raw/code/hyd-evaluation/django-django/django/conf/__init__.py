@@ -104,8 +104,6 @@ class LazySettings(LazyObject):
             raise RuntimeError('Settings already configured.')
         holder = UserSettingsHolder(default_settings)
         for name, value in options.items():
-            if not name.isupper():
-                raise TypeError('Setting %r must be uppercase.' % name)
             setattr(holder, name, value)
         self._wrapped = holder
 
@@ -200,7 +198,7 @@ class UserSettingsHolder:
         self.default_settings = default_settings
 
     def __getattr__(self, name):
-        if not name.isupper() or name in self._deleted:
+        if name in self._deleted:
             raise AttributeError
         return getattr(self.default_settings, name)
 

@@ -251,10 +251,11 @@ class AdminEmailHandlerTest(SimpleTestCase):
     def get_admin_email_handler(self, logger):
         # AdminEmailHandler does not get filtered out
         # even with DEBUG=True.
-        return [
+        admin_email_handler = [
             h for h in logger.handlers
             if h.__class__.__name__ == "AdminEmailHandler"
         ][0]
+        return admin_email_handler
 
     def test_fail_silently(self):
         admin_email_handler = self.get_admin_email_handler(self.logger)
