@@ -1,56 +1,49 @@
 # Community 526
 
-> 23 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **utils/csp.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **utils_tests/test_csp.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **LazyNonce** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **middleware/csp.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
-- **CSP** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **LazyNonceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **ContentSecurityPolicyMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
-- **generate_nonce()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **.process_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
-- **CSPConstantsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
-- **get_nonce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
-- **django/middleware/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **nonce_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **.test_generates_on_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_returns_same_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **StrEnum** (1 connections)
-- **Content Security Policy constants for directive values and special tokens.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **Lazily generates a cryptographically secure nonce string, for use in CSP…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **.test_constants()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **query_performing_app/apps.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **BaseAppConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **CursorQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **CursorQueryManyAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **ModelQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **StoredProcedureQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **TotallyNormal** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/models.py`
+- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryDefaultDatabaseCursorAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryDefaultDatabaseCursorManyAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryDefaultDatabaseModelAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryDefaultDatabaseStoredProcedureAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryOtherDatabaseCursorAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryOtherDatabaseCursorManyAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryOtherDatabaseModelAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryOtherDatabaseStoredProcedureAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 565](Community_565.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 662](Community_662.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 673](Community_673.md) (2 shared connections)
-- [Community 486](Community_486.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 182](Community_182.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/csp.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

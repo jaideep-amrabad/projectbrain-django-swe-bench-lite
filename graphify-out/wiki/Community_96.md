@@ -1,58 +1,76 @@
 # Community 96
 
-> 77 nodes · cohesion 0.04
+> 91 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Article** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ModelTest** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelRefreshTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelInstanceCreationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelLookupTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **EmptyQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **basic/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelectOnSaveTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ArticleSelectOnSave** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.test_can_initialize_model_instance_using_positional_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_leave_off_value_for_autofield_and_it_gets_value_on_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_for_datetimefields_saves_as_much_precision_as_was_given()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **FeaturedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.test_can_create_instance_using_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_mix_and_match_position_and_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_cannot_create_instance_with_invalid_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_leaving_off_a_field_with_default_set_the_default_will_be_saved()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_object_is_not_written_to_database_until_save_was_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_querysets_checking_for_membership()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_saving_an_object_again_does_not_create_a_new_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_too_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_clears_reverse_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_create_relation_with_gettext_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- *... and 52 more nodes in this community*
+- **test_tasks.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **tasks/base.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **get_random_string()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **django/tasks/__init__.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/__init__.py`
+- **test_dummy_backend.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- **test_immediate_backend.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **immediate.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **test_custom_backend.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **BaseTaskBackend** (16 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- **tasks/backends/dummy.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- **tasks/exceptions.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **tasks/backends/base.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- **tasks/signals.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/signals.py`
+- **TaskResult** (12 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **DummyBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- **TaskResultStatus** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **normalize_json()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/json.py`
+- **ImmediateBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **InvalidTask** (9 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **TaskResultDoesNotExist** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **TaskResultMismatch** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **._execute_task()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **InvalidTaskBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **get_func_args()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- **utils_tests/test_json.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_json.py`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (27 shared connections)
-- [Community 52](Community_52.md) (12 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 859](Community_859.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
+- [Community 1](Community_1.md) (37 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 445](Community_445.md) (9 shared connections)
+- [Community 502](Community_502.md) (7 shared connections)
+- [Community 147](Community_147.md) (6 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 117](Community_117.md) (4 shared connections)
+- [Community 810](Community_810.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 81](Community_81.md) (2 shared connections)
+- [Community 576](Community_576.md) (2 shared connections)
+- [Community 158](Community_158.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/json.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 117 (74%)
-- INFERRED: 41 (26%)
+- EXTRACTED: 292 (98%)
+- INFERRED: 7 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,31 @@
 # Community 903
 
-> 7 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **_issubclass()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **must_inherit_from()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **issubclass() variant that doesn't raise an exception if cls isn't a class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that form subclasses BaseModelForm.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check one item of `list_filter`, i.e. check if it is one of three options: 1.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **CustomStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **StorageValidateFileNameTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **.test_validate_after_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **.test_validate_after_internal_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **.test_validate_before_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **Storage** (1 connections)
+- **Simple Storage subclass implementing the bare minimum for testing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
 
 ## Relationships
 
-- [Community 831](Community_831.md) (3 shared connections)
-- [Community 337](Community_337.md) (3 shared connections)
-- [Community 436](Community_436.md) (2 shared connections)
-- [Community 762](Community_762.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

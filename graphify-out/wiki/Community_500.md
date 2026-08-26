@@ -1,52 +1,57 @@
 # Community 500
 
-> 25 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **GeoIP2** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **._query()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.city()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.country()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **GeoIP2Exception** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.lon_lat()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.country_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.country_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.lat_lon()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.__del__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.is_city()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.is_country()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **._metadata()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **Exception** (1 connections)
-- **Return a dictionary of city information for the given IP address or Fully…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **Return the country code for the given IP Address or FQDN.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **Return the country name for the given IP Address or FQDN.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **Return a dictionary with the country code and name when given an IP address or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **Return a tuple of the (longitude, latitude) for the given query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **Return a tuple of the (latitude, longitude) for the given query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **Return a GEOS Point object for the given query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
-- **Initialize the GeoIP object. No parameters are required to use default…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
+- **Car** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **AssertQuerysetEqualTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **test_testcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **test_transactiontestcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **test_utils/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **PossessedCar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **TestTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **DisallowedDatabaseQueriesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.test_repeated_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_fixture_teardown_checks_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **.test_disallowed_database_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_disallowed_database_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_disallowed_database_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_ordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_undefined_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **assertQuerysetEqual checks the number of appearance of each item when used with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 756](Community_756.md) (2 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 168](Community_168.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 117](Community_117.md) (4 shared connections)
+- [Community 89](Community_89.md) (3 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1179](Community_1179.md) (1 shared connections)
+- [Community 1133](Community_1133.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 150](Community_150.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 48 (84%)
+- INFERRED: 9 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

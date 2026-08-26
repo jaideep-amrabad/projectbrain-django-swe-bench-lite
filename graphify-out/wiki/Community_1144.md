@@ -1,33 +1,26 @@
 # Community 1144
 
-> 7 nodes · cohesion 0.43
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **OptimizerTestBase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/base.py`
-- **.assertOptimizesTo()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/base.py`
-- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/base.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/base.py`
-- **.assertDoesNotOptimize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/base.py`
-- **Common functions to help test the optimizer.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/base.py`
-- **Handy shortcut for getting results + number of loops** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/base.py`
+- **DependentChildAdminForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Issue #20522 Form to test child dependency on parent object's validation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 371](Community_371.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

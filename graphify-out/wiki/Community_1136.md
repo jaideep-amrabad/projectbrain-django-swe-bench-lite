@@ -1,29 +1,25 @@
 # Community 1136
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **MailersCompatibilityTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **.test_default_mailer_with_deprecated_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **.test_default_mailer_with_no_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **ignore_no_default_mailer_warning** (1 connections)
-- **.test_unknown_mailer_with_no_settings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **mailers.default is usable even when MAILERS is not defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
+- **ViewContainer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **method_view_urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.classmethod_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.method_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Relationships
 
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 582](Community_582.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

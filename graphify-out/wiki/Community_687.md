@@ -1,44 +1,41 @@
 # Community 687
 
-> 15 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **FkConstraintsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **.test_integrity_checks_on_creation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_unnest_eligible_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- **.test_check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_disable_constraint_checks_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_disable_constraint_checks_manually()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_integrity_checks_on_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Try to create a model instance that violates a FK constraint. If it fails it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Try to update a model instance introducing a FK constraint violation. If it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **When constraint checks are disabled, should be able to write bad data without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **When constraint checks are disabled (using context manager), should be able to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Constraint checks should raise an IntegrityError when bad data is in the DB.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.identifier_converter()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_table_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Identifier comparison is case insensitive under Oracle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (5 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 376](Community_376.md) (1 shared connections)
-- [Community 1087](Community_1087.md) (1 shared connections)
-- [Community 845](Community_845.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 362](Community_362.md) (1 shared connections)
+- [Community 605](Community_605.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (80%)
-- INFERRED: 5 (20%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

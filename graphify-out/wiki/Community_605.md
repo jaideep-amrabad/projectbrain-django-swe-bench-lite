@@ -1,57 +1,49 @@
 # Community 605
 
-> 26 nodes · cohesion 0.08
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **TestDeserializer** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **DeserializedObject** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.save_deferred_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.WithData()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **deserialize_fk_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.test_deserialized_object_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.test_yaml_bytes_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **A deserialized model. Basically a container for holding the pre-saved…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Factory method for creating a deserialization error which has a more…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **skipUnless** (1 connections)
-- **.test_crafted_xml_rejected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.test_custom_deserializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.test_empty_object_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.test_invalid_model_identifier()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.test_json_bytes_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.test_jsonl_bytes_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- **.test_next_functionality()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- *... and 1 more nodes in this community*
+- **DatabaseWrapper** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._dsn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._maindb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._connect_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.get_connection_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.oracle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._savepoint_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **This is analogous to other backends' `_nodb_connection` property, which allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Relationships
 
-- [Community 23](Community_23.md) (9 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 450](Community_450.md) (2 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 768](Community_768.md) (1 shared connections)
-- [Community 790](Community_790.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 487](Community_487.md) (3 shared connections)
+- [Community 351](Community_351.md) (2 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 661](Community_661.md) (1 shared connections)
+- [Community 586](Community_586.md) (1 shared connections)
+- [Community 687](Community_687.md) (1 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserialization.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (86%)
-- INFERRED: 6 (14%)
+- EXTRACTED: 26 (74%)
+- INFERRED: 9 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,35 @@
 # Community 886
 
-> 12 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **CompositePKFixturesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.assert_deserializer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_yaml()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_json()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_jsonl()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_invalid_pk_extra_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_post_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **skipUnless** (1 connections)
+- **OracleGISSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **._create_spatial_index_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.geo_quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.remove_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.run_geometry_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
 
 ## Relationships
 
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 343](Community_343.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

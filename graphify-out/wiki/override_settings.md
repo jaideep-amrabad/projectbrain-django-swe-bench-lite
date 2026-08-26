@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1378 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1374 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 12](Community_12.md)
 
 ## Connections by Relation
 
@@ -38,8 +38,8 @@
 - admin_changelist/tests.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
+- auth_tests/test_views.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - admin_filters/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
@@ -49,9 +49,9 @@
 - fixtures_regress/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
-- tests/test_debug.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
+- test_array.py `EXTRACTED`
 
 ### inherits
 - modify_settings `EXTRACTED`
@@ -78,9 +78,9 @@
 - AdminActionsTest `EXTRACTED`
 - DateFunctionTests `EXTRACTED`
 - ASGITest `EXTRACTED`
-- NewDatabaseTests `EXTRACTED`
 - ListViewTests `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
+- NewDatabaseTests `EXTRACTED`
 - DetailViewTest `EXTRACTED`
 - CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - CollectionTestCase `EXTRACTED`

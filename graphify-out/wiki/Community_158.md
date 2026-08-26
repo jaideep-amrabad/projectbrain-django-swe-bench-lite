@@ -1,55 +1,52 @@
 # Community 158
 
-> 60 nodes · cohesion 0.05
+> 38 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ManyToOneTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **many_to_one/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **many_to_one/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Reporter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **City** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **District** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **First** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Relation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Third** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.test_fk_assignment_and_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **Record** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Student** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **ToFieldChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_hasattr_related_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_relation_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- *... and 35 more nodes in this community*
+- **TaskTestCase** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_module_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_no_backends()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_aenqueue_with_invalid_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_call_async_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_call_async_task_sync()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_call_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_call_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_chained_using()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_enqueue_with_invalid_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_get_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_get_incorrect_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_get_incorrect_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_get_missing_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_get_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_invalid_priority()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_pickle_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_pickle_task_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 502](Community_502.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (88%)
-- INFERRED: 14 (12%)
+- EXTRACTED: 45 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

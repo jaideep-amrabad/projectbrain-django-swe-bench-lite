@@ -1,24 +1,22 @@
 # Community 1339
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **GenericViewError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
-- **Exception** (1 connections)
-- **A problem in a generic view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- **django/db/backends/base/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/__init__.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

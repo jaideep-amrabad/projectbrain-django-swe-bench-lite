@@ -1,52 +1,46 @@
 # Community 524
 
-> 24 nodes · cohesion 0.09
+> 22 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **CheckboxInputTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **CheckboxInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_render_check_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_check_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_render_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Only return the 'value' attribute if value isn't empty.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict_string_int()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Using any value that's not in ('', None, False, True) will check the checkbox…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Integers are handled by value, not as booleans (#17114).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **You can pass 'check_test' to the constructor. This is a callable that takes the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Calling check_test() shouldn't swallow exceptions (#17888).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **The CheckboxInput widget will return False if the key is not found in the data…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **build_policy()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- **CSPBuildPolicyTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.assertPolicyEqual()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_value_as_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_value_as_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_value_as_tuple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_value_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_with_nonce_arg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_multiple_directives()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_value_boolean_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_value_boolean_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_value_multiple_boolean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_with_empty_directive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_with_multiple_nonces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **.test_config_with_nonce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **Test when the `CSP.NONCE` is not in the defined policy, the nonce argument has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **Test that a single value can be passed as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **Test that a tuple can be passed as a value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **Test that a set can be passed as a value. Sets are often used in Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **Test that `None` removes the directive from the policy. Useful in cases where…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 330](Community_330.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 245](Community_245.md) (1 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
+- [Community 84](Community_84.md) (5 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 54 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

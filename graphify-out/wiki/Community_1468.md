@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Django** (0 connections) — `raw/code/hyd-evaluation/django-django/pyproject.toml`
+- **fake_client.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/pyproject.toml`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
 
 ## Audit Trail
 

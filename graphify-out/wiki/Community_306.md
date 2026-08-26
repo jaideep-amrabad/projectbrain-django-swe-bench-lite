@@ -1,52 +1,55 @@
 # Community 306
 
-> 38 nodes · cohesion 0.10
+> 39 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **check_pr.py** (22 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Message** (18 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
-- **main()** (16 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **github_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_ai_disclosure()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_branch_description()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_has_patch()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_ticket()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **strip_html_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_checklist()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_pr_title_has_ticket()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **fetch_trac_ticket()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_pr_total_changes()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_recent_commit_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **errors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
-- **extract_ticket_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_comment_ids_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **write_job_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **setup_logging()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return the number of recent commits by the author, up to max_count.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return total lines changed in the PR (additions + deletions).** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return text with all HTML comments removed.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return the Trac ticket ID string from the PR body, or None.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Fetch ticket data from the Trac JSON API. Returns a dict with ticket data on…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- *... and 13 more nodes in this community*
+- **ModelFormBaseTest** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_blank_false_with_null_true_foreign_key_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_blank_with_null_foreign_key_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_empty_fields_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_article_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_bad_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_base_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_confused_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_not_populated_on_checkboxselectmultiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_not_populated_on_optional_checkbox_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_not_populated_on_selectmultiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_populated_on_optional_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_selectdatewidget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_splitdatetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_exclude_and_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_exclude_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_exclude_fields_with_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_exclude_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_extra_declared_field_model_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_extra_field_model_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_extra_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_invalid_meta_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_fields_with_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_missing_fields_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 427](Community_427.md) (6 shared connections)
-- [Community 637](Community_637.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 93](Community_93.md) (9 shared connections)
+- [Community 444](Community_444.md) (3 shared connections)
+- [Community 499](Community_499.md) (2 shared connections)
+- [Community 163](Community_163.md) (2 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 464](Community_464.md) (1 shared connections)
+- [Community 240](Community_240.md) (1 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 47 (81%)
+- INFERRED: 11 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

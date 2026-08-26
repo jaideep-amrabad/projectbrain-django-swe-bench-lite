@@ -1,37 +1,34 @@
 # Community 798
 
-> 14 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **._check_query()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.city()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country_code()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **resources.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **City()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **Country()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **._country_or_city()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Check the query and database availability.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return a dictionary of city information for the given IP address or Fully…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return the country code for the given IP Address or FQDN.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return the country name for the given IP Address or FQDN.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return a dictionary with the country code and name when given an IP address or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **with_generic_model/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **0002_customgenericmodel.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
+- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **CustomGenericModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **GenericModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **GenericModelPEP695** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
+- **Parent1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **Parent2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **A model inheriting from typing.Generic via the PEP 695 syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **A model inheriting from a custom subclass of typing.Generic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **A model inheriting from typing.Generic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
 
 ## Relationships
 
-- [Community 737](Community_737.md) (7 shared connections)
-- [Community 29](Community_29.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

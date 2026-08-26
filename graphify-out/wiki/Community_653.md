@@ -1,40 +1,44 @@
 # Community 653
 
-> 18 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **psycopg_any.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **BaseTzLoader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **DjangoRangeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **Jsonb** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **get_adapters_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **IsolationLevel** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **register_tzloader()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **RangeDumper** (1 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **.upgrade()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **.getquoted()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **mogrify()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **IntEnum** (1 connections)
-- **Json** (1 connections)
-- **_quote()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **Load a PostgreSQL timestamptz using a specific timezone. The timezone can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **A Range dumper customized for Django.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
+- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
+- [Community 542](Community_542.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

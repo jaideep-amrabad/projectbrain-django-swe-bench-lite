@@ -1,35 +1,32 @@
 # Community 887
 
-> 12 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **internal.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **Class** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **.one_indirection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **decorated()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **deprecated_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **.deprecated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **.two_indirections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **call_decorated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **one_indirection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **three_indirections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **two_indirections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
-- **nested()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CharField** (1 connections)
+- **EmailField** (1 connections)
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 290](Community_290.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,59 +1,61 @@
 # Community 584
 
-> 81 nodes · cohesion 0.04
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **UserCreationForm** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserCreationFormTest** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **SetPasswordForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **AdminPasswordChangeForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **AdminPasswordChangeFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **TestDataMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **SetPasswordFormTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **patch** (4 connections)
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_help_text_translation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- *... and 56 more nodes in this community*
+- **FieldCacheMixin** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **Foo** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **FieldCacheMixinTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **GetChoicesOrderingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Example** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.assertChoicesEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.delete_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.get_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.is_cached()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.set_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.test_cache_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.test_cache_name_not_implemented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_reverse_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Provide an API for working with the model's fields value cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.cache_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.test_delete_cached_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.test_get_cached_value_after_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.test_get_cached_value_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.test_get_cached_value_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.test_is_cached_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.test_is_cached_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (27 shared connections)
-- [Community 15](Community_15.md) (6 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 477](Community_477.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 272](Community_272.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 233](Community_233.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 478](Community_478.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 57](Community_57.md) (5 shared connections)
+- [Community 119](Community_119.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
+- [Community 228](Community_228.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 614](Community_614.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 159 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 50 (86%)
+- INFERRED: 8 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

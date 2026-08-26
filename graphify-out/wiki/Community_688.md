@@ -1,41 +1,42 @@
 # Community 688
 
-> 18 nodes · cohesion 0.11
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DummyBackendTestCase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_on_aenqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_on_enqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_missing_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_refresh_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_takes_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_disallowed_async_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 442](Community_442.md) (1 shared connections)
+- [Community 82](Community_82.md) (5 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

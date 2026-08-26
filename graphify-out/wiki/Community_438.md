@@ -1,59 +1,55 @@
 # Community 438
 
-> 29 nodes · cohesion 0.10
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **FileSystemStorage** (42 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **._datetime_from_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **._save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **NoReadFileSystemStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/storage.py`
-- **.get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **model_fields/storage.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/storage.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **._ensure_location_group_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **._open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.base_location()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.base_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.directory_permissions_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.file_permissions_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.get_alternative_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.is_name_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.location()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **Storage** (1 connections)
-- *... and 4 more nodes in this community*
+- **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **LoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **SessionEngineTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_different_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_custom_auth_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_custom_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_exception_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should send user_logged_out signal if user was logged in.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_without_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_without_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should work whether the user is logged in or not (#9978).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a logout after logging in with custom authentication backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should send signal even if user not authenticated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Login should send user_logged_in signal on successful login.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Login shouldn't send signal if user wasn't logged in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Using a different test client doesn't violate authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **A session engine that modifies the session key can be used to log in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **#5836 - A stale user exception isn't re-raised by the test client.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 403](Community_403.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 1223](Community_1223.md) (1 shared connections)
-- [Community 114](Community_114.md) (1 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 642](Community_642.md) (1 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 20](Community_20.md) (5 shared connections)
+- [Community 168](Community_168.md) (4 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 387](Community_387.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
+- [Community 585](Community_585.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 46 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

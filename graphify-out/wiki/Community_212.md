@@ -1,60 +1,67 @@
 # Community 212
 
-> 49 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **QueryDict** (69 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **QueryDictTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **._assert_mutable()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.fromkeys()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **bytes_to_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.appendlist()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__setitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.setlist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_duplicates_in_fromkeys_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_empty_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_mutable_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_with_nondefault_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_with_nonempty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_multiple_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_mutable_copy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_non_default_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_querydict_fromkeys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_single_key_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_update_from_querydict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- *... and 24 more nodes in this community*
+- **Lower** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **GeneratedField** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/generated.py`
+- **Col** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **BaseGeneratedFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_distinct_on_with_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **LowerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/generated.py`
+- **.test_cached_col()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_contribute_to_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_get_col()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_new_object_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_blank_unsupported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_database_default_unsupported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_db_persist_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_default_unsupported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_editable_unsupported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.cached_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/generated.py`
+- **._check_ignored_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/generated.py`
+- **._check_persistence()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/generated.py`
+- **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/generated.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/generated.py`
+- **.cached_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 228](Community_228.md) (6 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 157](Community_157.md) (2 shared connections)
-- [Community 950](Community_950.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 170](Community_170.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 481](Community_481.md) (1 shared connections)
-- [Community 1198](Community_1198.md) (1 shared connections)
+- [Community 25](Community_25.md) (13 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 265](Community_265.md) (5 shared connections)
+- [Community 52](Community_52.md) (4 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 83](Community_83.md) (3 shared connections)
+- [Community 268](Community_268.md) (3 shared connections)
+- [Community 112](Community_112.md) (3 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/generated.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 116 (88%)
+- INFERRED: 16 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

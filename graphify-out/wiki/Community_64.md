@@ -1,61 +1,64 @@
 # Community 64
 
-> 68 nodes · cohesion 0.05
+> 64 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **TupleLookupsTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
-- **TupleIn** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **test_tuple_lookups.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
-- **composite.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/composite.py`
-- **TupleLookupMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleIsNull** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleExact** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleGreaterThan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleGreaterThanOrEqual** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.process_rhs()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleLessThan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **TupleLessThanOrEqual** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **Tuple** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.as_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.get_lhs_str()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.get_fallback_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.get_prep_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **CompositeAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/composite.py`
-- **.get_fallback_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.get_prep_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.check_rhs_is_tuple_or_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- **.test_tuple_in_subquery_must_be_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
-- **.get_fallback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- *... and 43 more nodes in this community*
+- **test_array.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **postgres_tests/models.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **PostgreSQLModel** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **test_app_installed_check.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **TestSaveLoad** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **IntegerArrayModel** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **postgres/fields/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
+- **postgres_tests/fields.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **postgres_tests/test_bulk_update.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
+- **NestedIntegerArrayModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **NullableIntegerArrayModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **Tag** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **BulkSaveTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
+- **TestOtherTypesExactQuerying** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **OtherTypesArrayModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestDateTimeExactQuerying** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **AggregateTestModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **CharArrayModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **DateTimeArrayModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **EnumField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **ArrayEnumModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **CITestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **StatTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TagField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 111](Community_111.md) (24 shared connections)
-- [Community 18](Community_18.md) (15 shared connections)
-- [Community 912](Community_912.md) (14 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 831](Community_831.md) (2 shared connections)
-- [Community 669](Community_669.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 909](Community_909.md) (2 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
+- [Community 128](Community_128.md) (28 shared connections)
+- [Community 1](Community_1.md) (18 shared connections)
+- [Community 2](Community_2.md) (16 shared connections)
+- [Community 131](Community_131.md) (8 shared connections)
+- [Community 104](Community_104.md) (7 shared connections)
+- [Community 367](Community_367.md) (7 shared connections)
+- [Community 297](Community_297.md) (5 shared connections)
+- [Community 630](Community_630.md) (5 shared connections)
+- [Community 152](Community_152.md) (4 shared connections)
+- [Community 82](Community_82.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 469](Community_469.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/composite.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/tuple_lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_tuple_lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
 
 ## Audit Trail
 
-- EXTRACTED: 186 (93%)
-- INFERRED: 14 (7%)
+- EXTRACTED: 233 (86%)
+- INFERRED: 39 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

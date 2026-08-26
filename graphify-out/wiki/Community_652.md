@@ -1,43 +1,40 @@
 # Community 652
 
-> 19 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **AssertFormsetErrorTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the form's non field errors doesn't contain the…** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.getResponse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_field_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_formset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Makes response object for testing field and non-field errors** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the formset name is unknown** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the field doesn't contain the specified error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **No assertion is raised if the field contains the provided error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **No assertion is raised if the formsets non-field errors contains the provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **No assertion is raised if the formsets non-form errors contains the provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **FindPartialSourceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **setup** (15 connections)
+- **.test_find_partial_source_empty_partial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_multiple_consecutive_partials()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_named_end_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_nested_partials()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_nested_partials_and_mixed_end_tags_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_nested_partials_and_mixed_end_tags_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_nested_partials_and_named_end_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_with_inline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_source_uses_offsets_in_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_contains_fake_end_inside_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_embedded_in_comment_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_embedded_in_inline_comment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_embedded_in_named_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_embedded_in_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
 
 ## Relationships
 
-- [Community 131](Community_131.md) (3 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

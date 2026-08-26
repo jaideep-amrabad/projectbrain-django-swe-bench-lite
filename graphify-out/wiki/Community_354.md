@@ -1,39 +1,49 @@
 # Community 354
 
-> 13 nodes · cohesion 0.22
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **test_jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
-- **JsLexer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **prepare_js_for_gettext()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **make_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
-- **literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **JsToCForGettextTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
-- **JsTokensTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **JsLex: a lexer for Javascript** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **Convert the Javascript source `js` into something resembling C for xgettext.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **Create a regex from a space-separated list of literal `choices`. If provided,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **A Javascript lexer >>> lexer = JsLexer() >>> list(lexer.lex("a = 1")) [('id',…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **CompositePKTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_batching()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_pk_not_set_db_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_totally_ordered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_composite_pk_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_error_on_comment_pk_conflict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_error_on_user_pk_conflict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_fields_are_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_flat_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_flat_tenant()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_multiple_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_pk_must_be_list_or_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1238](Community_1238.md) (2 shared connections)
-- [Community 1377](Community_1377.md) (1 shared connections)
-- [Community 960](Community_960.md) (1 shared connections)
+- [Community 527](Community_527.md) (4 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 444](Community_444.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

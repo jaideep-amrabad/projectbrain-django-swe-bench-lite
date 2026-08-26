@@ -1,74 +1,73 @@
 # Community 112
 
-> 48 nodes · cohesion 0.08
+> 82 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **core/mail/__init__.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **test_backends.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **test_deprecated.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **message.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **get_connection()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail/backends/filebased.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **smtp.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **test_handler.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **forbid_multi_line_headers()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **sanitize_address()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **mail/backends/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **mail/backends/locmem.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **BadHeaderError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **console.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **mail/backends/dummy.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- **send_mass_mail()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **DeprecationWarningTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **mail/utils.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- **custombackend.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **CachedDnsName** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- **mail/backends/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
-- **split_addr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.get_fqdn()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- *... and 23 more nodes in this community*
+- **isolate_apps** (171 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **ForeignKeyTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- **TestDefaultPK** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_pk.py`
+- **ModelsPermissionsChecksTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **DuplicateDBTableTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **ShadowingFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **DecimalFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **FileFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **IsolatedAppsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **DeprecatedFieldsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **AutoFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **InheritanceSameModelNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_collision_across_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_get_for_model_create_contenttype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_custom_swappable_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_explicit_swappable_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_swappable_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_app_default_auto_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_pk.py`
+- **.test_default_auto_field_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_pk.py`
+- **.test_m2m_app_default_auto_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_pk.py`
+- **.test_m2m_default_auto_field_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_pk.py`
+- **.test_swappable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **.test_id_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_abstract_model_app_relative_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- *... and 57 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (26 shared connections)
-- [Community 255](Community_255.md) (15 shared connections)
-- [Community 78](Community_78.md) (12 shared connections)
-- [Community 336](Community_336.md) (11 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 211](Community_211.md) (10 shared connections)
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 15](Community_15.md) (6 shared connections)
-- [Community 831](Community_831.md) (4 shared connections)
-- [Community 761](Community_761.md) (4 shared connections)
-- [Community 546](Community_546.md) (4 shared connections)
+- [Community 0](Community_0.md) (23 shared connections)
+- [Community 12](Community_12.md) (12 shared connections)
+- [Community 138](Community_138.md) (11 shared connections)
+- [Community 13](Community_13.md) (11 shared connections)
+- [Community 15](Community_15.md) (9 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 42](Community_42.md) (6 shared connections)
+- [Community 57](Community_57.md) (5 shared connections)
+- [Community 125](Community_125.md) (5 shared connections)
+- [Community 209](Community_209.md) (4 shared connections)
+- [Community 119](Community_119.md) (4 shared connections)
+- [Community 253](Community_253.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_pk.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 238 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 279 (98%)
+- INFERRED: 5 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,30 @@
 # Community 952
 
-> 9 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **CustomBackendTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_enqueue_async_task_on_non_async_backend()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **multiple** (1 connections)
+- **.test_backend_does_not_support_priority()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_no_enqueue()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1019](Community_1019.md) (1 shared connections)
-- [Community 403](Community_403.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **localized.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/localized.py`
+- **m2m_and_m2o/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/localized.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/__init__.py`
 
 ## Audit Trail
 

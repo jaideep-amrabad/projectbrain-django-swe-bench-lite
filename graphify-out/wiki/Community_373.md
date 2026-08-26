@@ -1,59 +1,64 @@
 # Community 373
 
-> 33 nodes · cohesion 0.10
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Media** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **CspNonceTagWithMediaTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- **stable_topological_sort()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **CyclicDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **topological_sort_as_sets()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **test_topological_sort.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.merge()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **topological_sort.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **.absolute_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TopologicalSortTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.test_css_and_js()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- **.test_output_is_safe()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- **.test_script_with_conflicting_nonce_raises()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- **.test_with_csp_nonce_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- **.test_with_nonce_in_context()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- **.test_with_script_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- **.test_without_csp_nonce_in_context()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- **.render_css()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **._css()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._js()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_cyclic_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- *... and 8 more nodes in this community*
+- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **add_message()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **error()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **AssertMessagesTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **FakeResponse** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **DummyStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/utils.py`
+- **info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.test_custom_levelname()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- **.test_assertion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **.test_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **.test_with_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- **.run_validators()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.test_mismatching_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **._post_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_method_frames_ignored_by_unittest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **MessagesTestMixin** (1 connections)
+- **Exception** (1 connections)
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (15 shared connections)
-- [Community 26](Community_26.md) (14 shared connections)
+- [Community 38](Community_38.md) (9 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 515](Community_515.md) (4 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 255](Community_255.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 506](Community_506.md) (2 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 207](Community_207.md) (1 shared connections)
-- [Community 343](Community_343.md) (1 shared connections)
-- [Community 245](Community_245.md) (1 shared connections)
-- [Community 770](Community_770.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 514](Community_514.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 678](Community_678.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_csp_nonce_attr.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 73 (83%)
+- INFERRED: 15 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

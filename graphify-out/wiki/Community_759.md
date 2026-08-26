@@ -1,43 +1,37 @@
 # Community 759
 
-> 12 nodes · cohesion 0.29
+> 13 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **validation/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_partial_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **csp_override()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csp.py`
+- **CSPOverrideDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **csp_report_only_override()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csp.py`
+- **.test_csp_override_both()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **.test_csp_override_both_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **.test_decorator_requires_mapping()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **.test_csp_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **.test_csp_override_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **.test_csp_report_only_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **.test_csp_report_only_override_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **Override the Content-Security-Policy header for a view.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csp.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 554](Community_554.md) (3 shared connections)
-- [Community 578](Community_578.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 1326](Community_1326.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
+- [Community 962](Community_962.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csp.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (92%)
+- EXTRACTED: 35 (92%)
 - INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 

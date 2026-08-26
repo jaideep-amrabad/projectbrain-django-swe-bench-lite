@@ -1,36 +1,29 @@
 # Community 958
 
-> 10 nodes · cohesion 0.24
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **app_with_urls/views.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
-- **app_with_urls/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/__init__.py`
-- **urls_cbv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_cbv.py`
-- **urls_namespaced.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_namespaced.py`
-- **urls_nons.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_nons.py`
-- **CBV** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
-- **view_func_namespaced_named()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
-- **view_func_namespaced_unnamed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
-- **view_func_nons_named()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
-- **view_func_nons_unnamed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
+- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.get_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_charref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_entityref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **HTMLParser** (1 connections)
 
 ## Relationships
 
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_cbv.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_namespaced.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/urls_nons.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_urls/views.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

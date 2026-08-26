@@ -1,42 +1,56 @@
 # Community 480
 
-> 17 nodes · cohesion 0.14
+> 26 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **IndexTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **SliceTransform** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **ArrayLenTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **IndexTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **SliceTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **Transform** (3 connections)
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **cache_control()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **CacheControlDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **NeverCacheDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **HttpRequestProxy** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_empty_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_empty_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_full_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_full_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_headers_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.__getattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_expires_not_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_expires_not_overridden_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **patch** (2 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 831](Community_831.md) (5 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 23](Community_23.md) (14 shared connections)
+- [Community 132](Community_132.md) (5 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 504](Community_504.md) (2 shared connections)
+- [Community 962](Community_962.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 67 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

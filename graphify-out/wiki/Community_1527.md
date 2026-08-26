@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Gruntfile.js** (0 connections) — `raw/code/hyd-evaluation/django-django/Gruntfile.js`
+- **geos_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/Gruntfile.js`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/__init__.py`
 
 ## Audit Trail
 

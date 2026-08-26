@@ -1,35 +1,33 @@
 # Community 890
 
-> 12 nodes · cohesion 0.18
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **with_generic_model/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **0002_customgenericmodel.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
-- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **CustomGenericModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **GenericModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **GenericModelPEP695** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
-- **Parent1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **Parent2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **A model inheriting from typing.Generic via the PEP 695 syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **A model inheriting from a custom subclass of typing.Generic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **A model inheriting from typing.Generic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **TranslatableFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **TranslatableFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

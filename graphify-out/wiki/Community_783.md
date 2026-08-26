@@ -1,40 +1,34 @@
 # Community 783
 
-> 15 nodes · cohesion 0.15
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **RecursiveM2MTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **m2m_recursive/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **m2m_recursive/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **.test_recursive_m2m_add_in_both_directions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **Many-to-many relationships between the same two tables In this example, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **Adding the same relation twice results in a single relation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_add_via_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_related_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **fetch_modes.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **FetchMode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **FetchOne** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **FetchPeers** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **FetchRaise** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

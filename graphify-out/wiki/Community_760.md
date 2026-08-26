@@ -1,41 +1,34 @@
 # Community 760
 
-> 15 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **core/management/commands/inspectdb.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.handle_inspection()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **gis/management/commands/inspectdb.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **InspectDBCommand** (1 connections)
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **archive_eol_stable_branches.py** (8 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **main()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **run()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **create_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **delete_remote_and_local_branch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **get_branch_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **get_remote_branches()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **validate_env()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Return list of remote branches filtered by include_fn.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Return (commit_hash, last_update_date) for a given branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Create a tag locally for a given branch at its last update.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Delete a remote branch from origin and the maching local branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Run a command with optional dry-run behavior.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

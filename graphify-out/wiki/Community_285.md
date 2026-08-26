@@ -1,50 +1,60 @@
 # Community 285
 
-> 39 nodes · cohesion 0.06
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **CustomManagerTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_abstract_model_with_custom_manager_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_custom_manager_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_deconstruct_from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_filtering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_init_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_manager_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_manager_use_queryset_methods()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_no_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_queryset_and_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_queryset_copied_to_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_removal_through_default_fk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_removal_through_default_gfk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_removal_through_specified_fk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_removal_through_specified_gfk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_slow_removal_through_default_fk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_slow_removal_through_default_gfk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_slow_removal_through_specified_fk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_slow_removal_through_specified_gfk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_deconstruct_as_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_deconstruct_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_fk_related_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_gfk_related_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **JSONObject** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **JSONArray** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **JSONArrayTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **JSONObjectTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **JSONArrayObjectTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **.test_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **.as_native()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **.as_postgresql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **.test_order_by_nested_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_explicit_cast()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **.test_nested_json_array_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_nested_json_object_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_nested_empty_json_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_nested_json_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_order_by_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_order_by_nested_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_textfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- **.test_order_by_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **.test_order_by_nested_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **.test_textfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- **.as_native()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 140](Community_140.md) (10 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 965](Community_965.md) (1 shared connections)
+- [Community 25](Community_25.md) (12 shared connections)
+- [Community 65](Community_65.md) (5 shared connections)
+- [Community 32](Community_32.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 168](Community_168.md) (3 shared connections)
+- [Community 53](Community_53.md) (2 shared connections)
+- [Community 115](Community_115.md) (2 shared connections)
+- [Community 559](Community_559.md) (2 shared connections)
+- [Community 212](Community_212.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (85%)
-- INFERRED: 8 (15%)
+- EXTRACTED: 78 (75%)
+- INFERRED: 26 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

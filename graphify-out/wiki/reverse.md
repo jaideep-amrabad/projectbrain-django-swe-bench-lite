@@ -1,8 +1,8 @@
 # reverse()
 
-> God node · 406 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+> God node · 405 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 10](Community_10.md)
+**Community:** [Community 24](Community_24.md)
 
 ## Connections by Relation
 
@@ -37,8 +37,8 @@
 - admin_changelist/tests.py `EXTRACTED`
 - defaulttags.py `EXTRACTED`
 - generic_views/views.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
+- auth_tests/test_views.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - admin/utils.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`

@@ -1,58 +1,50 @@
 # Community 538
 
-> 23 nodes · cohesion 0.13
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **fixtures/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **fixtures/models.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Fixtures. Fixtures are a way of loading data into the database in bulk. Fixure…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.get_request()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **CsrfProtectTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **EnsureCsrfCookieTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **RequiresCsrfTokenTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.admin_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **CsrfTestMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **csrf_protect** (4 connections)
+- **ensure_csrf_cookie** (3 connections)
+- **.test_csrf_protect_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_csrf_protect_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_ensure_csrf_cookie_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_ensure_csrf_cookie_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_requires_csrf_token_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_requires_csrf_token_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
+- **Decorator to create an admin view attached to this ``AdminSite``. This wraps…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 
 ## Relationships
 
-- [Community 364](Community_364.md) (7 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 1011](Community_1011.md) (5 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 831](Community_831.md) (4 shared connections)
-- [Community 1056](Community_1056.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 137](Community_137.md) (2 shared connections)
-- [Community 1285](Community_1285.md) (2 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 1359](Community_1359.md) (2 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 89](Community_89.md) (3 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 121](Community_121.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (92%)
-- INFERRED: 7 (8%)
+- EXTRACTED: 35 (81%)
+- INFERRED: 8 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

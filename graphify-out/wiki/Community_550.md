@@ -1,48 +1,43 @@
 # Community 550
 
-> 23 nodes · cohesion 0.17
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **StringLookupTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **string_lookup/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **string_lookup/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.test_string_form_referencing()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Foo** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Bar** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Base** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Whiz** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.test_ipaddress_on_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.test_queries_on_textfields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.test_unicode_chars_in_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Regression tests for #3937 make sure we can use unicode characters in queries.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression tests for #5087 make sure we can perform queries on TextFields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression test for #708 "like" queries on IP address fields require casting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression test for #1661 and #1662 String form referencing of models works,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **GitHubLinkTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **last_n_parts()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_forwarded_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_forwarded_import_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_path_and_line_wildcard_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_module_name_to_file_path_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_module_name_to_file_path_package()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_code_locator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_branch_latest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_get_branch_stable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_link_to_class_older_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_link_to_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_not_found()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_unspecified_domain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_github_linkcode_resolve_unspecified_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **.test_import_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (87%)
-- INFERRED: 6 (13%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

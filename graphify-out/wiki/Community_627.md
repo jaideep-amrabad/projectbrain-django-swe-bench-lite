@@ -1,44 +1,44 @@
 # Community 627
 
-> 20 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ImmediateBackendTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_validate_on_aenqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_validate_on_enqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_cannot_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_cannot_pass_run_after()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_cannot_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_catches_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_complex_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_complex_return_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_enqueue_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_failed_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_successful_task_no_none_in_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_takes_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_throws_keyboard_interrupt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminIntegerFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTimeWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Media** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminBigIntegerFieldWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminEmailInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTextareaWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTextInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminUUIDInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 442](Community_442.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 78](Community_78.md) (7 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 747](Community_747.md) (2 shared connections)
+- [Community 918](Community_918.md) (1 shared connections)
+- [Community 720](Community_720.md) (1 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 29 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

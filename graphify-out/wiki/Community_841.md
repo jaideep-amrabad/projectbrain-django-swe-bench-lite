@@ -1,34 +1,32 @@
 # Community 841
 
-> 13 nodes · cohesion 0.28
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **archive_eol_stable_branches.py** (8 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **main()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **run()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **create_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **delete_remote_and_local_branch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **get_branch_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **get_remote_branches()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **validate_env()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Return list of remote branches filtered by include_fn.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Return (commit_hash, last_update_date) for a given branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Create a tag locally for a given branch at its last update.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Delete a remote branch from origin and the maching local branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Run a command with optional dry-run behavior.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **ForceEscapeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **setup** (8 connections)
+- **.test_force_escape01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **Force_escape is applied immediately. It can be used to provide double-escaping,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

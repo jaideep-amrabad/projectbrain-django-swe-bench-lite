@@ -1,41 +1,45 @@
 # Community 622
 
-> 16 nodes · cohesion 0.15
+> 22 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **FormfieldShouldDeleteFormTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **BaseCustomDeleteFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_init_database()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **BaseCustomDeleteModelFormSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_all_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_custom_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_no_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.add_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **._should_delete_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **A formset mix-in that lets a form decide if it's to be deleted. Works for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Regression for #14099: BaseModelFormSet should use ModelFormSet method…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Model FormSet with CustomDelete MixIn** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Add test data to database via formset** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Verify base formset doesn't modify database** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Verify base formset honors DELETE field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Verify DeleteFormset ignores DELETE field and uses form method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **process_commit_message()** (22 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- **ProcessCommitMessageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_adds_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_adds_stable_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_adds_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_backport_note_separated_by_blank_line()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_capitalizes_first_letter()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_capitalizes_first_letter_after_existing_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_empty_body_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_git_comments_preserved_at_end()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_leading_blank_lines_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_no_cherry_sha_no_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_no_prefix_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_period_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_with_period_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_only_blank_lines_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_prefix_and_period_and_backport_combined()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_summary_leading_whitespace_no_double_space_before_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **Adjust commit message lines for a potential backport. - Separates body lines…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
 
 ## Relationships
 
-- [Community 127](Community_127.md) (4 shared connections)
-- [Community 117](Community_117.md) (1 shared connections)
-- [Community 303](Community_303.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 219](Community_219.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 42 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

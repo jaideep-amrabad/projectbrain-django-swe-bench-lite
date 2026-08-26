@@ -1,46 +1,43 @@
 # Community 568
 
-> 22 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **LocalizedTimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **CustomTimeInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **SimpleTimeFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **TimeFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **TimeFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized TimeFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized TimeFields act as unlocalized widgets** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized TimeFields in a non-localized environment act as unlocalized widgets** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **WarnAboutImplementationTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.assertWarnsAboutLine()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_classmethod()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_decorated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_class_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_decorated_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_decorated_staticmethod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_my_own_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_no_source_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_non_standard_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_staticmethod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_subclass_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_creates_warning_registry_if_needed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_rejects_invalid_target()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_respects_warning_registry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
+- [Community 577](Community_577.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

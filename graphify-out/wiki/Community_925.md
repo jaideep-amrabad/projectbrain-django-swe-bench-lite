@@ -1,38 +1,30 @@
 # Community 925
 
-> 11 nodes · cohesion 0.20
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **module.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **MyClass** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **my_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.test_basic_processing_in_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **other_module.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
-- **MyOtherClass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
-- **package/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.my_cached_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.my_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **object** (1 connections)
+- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_commit_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_create_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_rollback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return a quoted version of the given table, index, or column name. Do not quote…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for starting a new savepoint. Only required if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for committing the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for rolling back the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 107](Community_107.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (81%)
-- INFERRED: 3 (19%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

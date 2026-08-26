@@ -1,52 +1,58 @@
 # Community 290
 
-> 39 nodes · cohesion 0.09
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **DeprecatePosargsTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **deprecate_posargs** (24 connections)
-- **.assertDeprecated()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_applied_to_lambda()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_class_methods()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_all_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_allows_reordering_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_async()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_bare_init()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_some_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_rejects_var_positional_param_with_deferred_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_requires_remappable_names_be_keyword_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_requires_remappable_names_exist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_detects_duplicate_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_incorrect_classmethod_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_incorrect_staticmethod_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_positional_only_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_variable_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_warning_source_location()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_avoids_remapping_to_new_keyword_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_does_not_apply_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_preserves_signature_and_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_rejects_var_positional_param()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_requires_keyword_only_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_detects_extra_positional_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- *... and 14 more nodes in this community*
+- **model_fields/test_uuid.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestAsPrimaryKey** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSaveLoad** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **PrimaryKeyUUIDModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestMethods** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestQuerying** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **RelatedToUUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **UUIDGrandchild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **UUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestAsPrimaryKeyTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **NullableUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **UUIDChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_unsaved_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_two_level_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_pk_on_bulk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_creation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_underlying_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_update_with_related_model_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_update_with_related_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_pk_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 887](Community_887.md) (1 shared connections)
-- [Community 488](Community_488.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 483](Community_483.md) (1 shared connections)
+- [Community 57](Community_57.md) (7 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 168](Community_168.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 117](Community_117.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (66%)
-- INFERRED: 26 (34%)
+- EXTRACTED: 72 (87%)
+- INFERRED: 11 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

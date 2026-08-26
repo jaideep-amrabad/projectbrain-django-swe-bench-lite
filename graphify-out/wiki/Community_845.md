@@ -1,42 +1,37 @@
 # Community 845
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Square** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **BulkCreateUnnestTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- **MySQLPKZeroTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_non_literal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- **.test_single_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- **.test_unnest_eligible()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- **.test_unnest_eligible_db_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- **.test_zero_as_autoval()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **skipUnless** (1 connections)
-- **Zero as id for AutoField should raise exception in MySQL, because MySQL does…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **TestBadSetUpTestData** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **MyException** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestRaiseLastException** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Exception** (1 connections)
+- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 126](Community_126.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 62](Community_62.md) (2 shared connections)
+- [Community 334](Community_334.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 376](Community_376.md) (1 shared connections)
-- [Community 1087](Community_1087.md) (1 shared connections)
-- [Community 687](Community_687.md) (1 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_compilation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

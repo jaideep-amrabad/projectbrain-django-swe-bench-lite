@@ -1,31 +1,27 @@
 # Community 1009
 
-> 9 nodes · cohesion 0.28
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **CustomStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **StorageValidateFileNameTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_after_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_after_internal_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_before_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **Storage** (1 connections)
-- **Simple Storage subclass implementing the bare minimum for testing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **GetFormsetsArgumentCheckingAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **UndeletableObjectAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.add_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_formsets_with_inlines()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

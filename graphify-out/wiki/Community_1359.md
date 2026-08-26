@@ -1,29 +1,23 @@
 # Community 1359
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **DumpDataAssertMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **SelectFilter2.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectFilter2.test.js`
 
 ## Relationships
 
-- [Community 364](Community_364.md) (3 shared connections)
-- [Community 538](Community_538.md) (2 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 1011](Community_1011.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectFilter2.test.js`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,28 +1,23 @@
 # Community 1221
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SignedCookieLegacySaltFallbackDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
-- **.test_settings_assignment_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
-- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
+- **import_error.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/import_error.py`
+- **MyClass** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/import_error.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 654](Community_654.md) (1 shared connections)
-- [Community 733](Community_733.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/import_error.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

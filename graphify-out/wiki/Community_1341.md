@@ -1,12 +1,10 @@
 # Community 1341
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **verify_release.sh** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
-- **cleanup()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
-- **verify_release.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
+- **django/db/backends/mysql/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/__init__.py`
 
 ## Relationships
 
@@ -14,11 +12,11 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

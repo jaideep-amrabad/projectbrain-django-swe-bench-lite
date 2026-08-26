@@ -1,24 +1,22 @@
 # Community 1336
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Deferred** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **compatibility/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/__init__.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

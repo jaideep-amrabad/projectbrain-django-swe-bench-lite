@@ -1,44 +1,46 @@
 # Community 566
 
-> 22 nodes · cohesion 0.17
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **process_commit_message()** (22 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
-- **ProcessCommitMessageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_adds_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_adds_stable_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_adds_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_backport_note_separated_by_blank_line()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_capitalizes_first_letter()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_capitalizes_first_letter_after_existing_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_does_not_double_add_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_does_not_double_add_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_does_not_double_add_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_empty_body_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_git_comments_preserved_at_end()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_leading_blank_lines_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_no_cherry_sha_no_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_non_stable_branch_no_prefix_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_non_stable_branch_period_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_non_stable_branch_with_period_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_only_blank_lines_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_prefix_and_period_and_backport_combined()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_summary_leading_whitespace_no_double_space_before_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **Adjust commit message lines for a potential backport. - Separates body lines…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- **CompositePKChecksTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_generated_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_can_include_fk_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_be_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_have_a_database_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_have_a_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_have_a_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_composite_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_non_local_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_nullable_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_same_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_be_a_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_be_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_be_named_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_be_unique_strings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_include_at_least_2_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_not_have_other_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_foreign_object_can_refer_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_proxy_model_can_subclass_model_with_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_proxy_model_does_not_check_superclass_composite_pk_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
 
 ## Relationships
 
-- [Community 611](Community_611.md) (3 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
-- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

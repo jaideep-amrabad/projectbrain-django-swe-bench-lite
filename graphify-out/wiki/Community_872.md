@@ -1,34 +1,33 @@
 # Community 872
 
-> 12 nodes · cohesion 0.21
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **fetch_modes.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **FetchMode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **FetchOne** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **FetchPeers** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **FetchRaise** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **.fetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
-- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **max_lengths/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **MaxLengthORMTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fetch_modes.py`
+- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (83%)
+- INFERRED: 3 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

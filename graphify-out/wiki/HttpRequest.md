@@ -2,7 +2,7 @@
 
 > God node · 242 connections · `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
-**Community:** [Community 53](Community_53.md)
+**Community:** [Community 23](Community_23.md)
 
 ## Connections by Relation
 
@@ -34,8 +34,8 @@
 ### imports
 - http/__init__.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
 - test/client.py `EXTRACTED`
+- auth_tests/test_views.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
@@ -47,8 +47,8 @@
 - handlers/wsgi.py `EXTRACTED`
 - middleware/tests.py `EXTRACTED`
 - settings_tests/tests.py `EXTRACTED`
-- handlers/asgi.py `EXTRACTED`
 - contenttypes_tests/test_views.py `EXTRACTED`
+- asgi.py `EXTRACTED`
 - csrf_tests/tests.py `EXTRACTED`
 - requests/tests.py `EXTRACTED`
 - messages_tests/base.py `EXTRACTED`

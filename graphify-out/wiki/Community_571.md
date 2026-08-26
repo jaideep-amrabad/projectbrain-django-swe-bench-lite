@@ -1,48 +1,47 @@
 # Community 571
 
-> 22 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **HandlerLoggingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.assertLogsRequest()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **I18nLoggingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SecurityLoggerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SetupDefaultLoggingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **LoggingAssertionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_internal_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_internal_server_error_599()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_multi_part_parser_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_not_found_raised()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_not_found_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_uncaught_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_email_admins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_operation_creates_log_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_operation_uses_sublogger()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_redirect_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_i18n_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_i18n_page_not_found_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **PlaywrightTestCase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **CSPPlaywrightTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **ChangeViewportSize** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.desktop_size()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.rtl()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **._close_browser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.dark()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.high_contrast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.mobile_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **._quit_playwright()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.small_screen_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.test_reports_are_generated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.__init_subclass__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **._restore_async_unsafe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **.take_screenshot()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 188](Community_188.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 84](Community_84.md) (7 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 164](Community_164.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

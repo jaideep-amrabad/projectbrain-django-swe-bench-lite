@@ -1,30 +1,26 @@
 # Community 1048
 
-> 8 nodes · cohesion 0.43
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **parse_major_version()** (9 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **ParseMajorVersionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_alpha()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_beta()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_final_dot_zero_release()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_final_patch_release()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_release_candidate()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_two_digit_minor()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Django uses "format" style placeholders, but pysqlite2 uses "qmark" style. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Relationships
 
-- [Community 611](Community_611.md) (4 shared connections)
+- [Community 372](Community_372.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

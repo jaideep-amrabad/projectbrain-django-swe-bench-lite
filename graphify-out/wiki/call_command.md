@@ -1,23 +1,22 @@
 # call_command()
 
-> God node · 275 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 274 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 237](Community_237.md)
+**Community:** [Community 9](Community_9.md)
 
 ## Connections by Relation
 
 ### calls
 - CommandError `EXTRACTED`
 - .setUpClass() `EXTRACTED`
-- get_commands() `EXTRACTED`
 - .create_test_db() `EXTRACTED`
-- load_command_class() `EXTRACTED`
+- get_commands() `EXTRACTED`
 - .test_include_partitions() `EXTRACTED`
 - .test_migrate_inconsistent_history() `EXTRACTED`
 - .test_migrate_record_replaced() `EXTRACTED`
 - .test_migrate_record_squashed() `EXTRACTED`
-- .test_showmigrations_list() `EXTRACTED`
 - .test_stdin_read() `EXTRACTED`
+- load_command_class() `EXTRACTED`
 - update_catalogs() `EXTRACTED`
 - .test_migrate_gis() `EXTRACTED`
 - .make_field_type_asserter() `EXTRACTED`
@@ -27,6 +26,7 @@
 - ._collectstatic_output() `EXTRACTED`
 - .test_post_processing_failure() `EXTRACTED`
 - ._fixture_setup() `EXTRACTED`
+- .test_command_no_color() `EXTRACTED`
 
 ### contains
 - core/management/__init__.py `EXTRACTED`

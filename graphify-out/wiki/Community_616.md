@@ -1,45 +1,46 @@
 # Community 616
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **CompositePKChecksTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_can_include_fk_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_be_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_database_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_composite_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_non_local_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_nullable_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_same_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_a_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_named_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_unique_strings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_include_at_least_2_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_not_have_other_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_foreign_object_can_refer_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_proxy_model_can_subclass_model_with_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_proxy_model_does_not_check_superclass_composite_pk_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **ModelChoiceFieldTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_freshness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_not_fetched_when_not_rendering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_deepcopies_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelmultiplechoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_queryset_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_queryset_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_result_cache_not_shared()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **Iterator defaults to ModelChoiceIterator and can be overridden with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Relationships
 
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 831](Community_831.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 93](Community_93.md) (3 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 333](Community_333.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 499](Community_499.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (79%)
+- INFERRED: 6 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

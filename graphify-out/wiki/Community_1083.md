@@ -1,37 +1,29 @@
 # Community 1083
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.w()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **ISO-8601 week number of year, weeks starting on Monday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the year; i.e. '0' to '365** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **The backend doesn't store an unlimited number of queries (#12581).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **replace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
+- **.using()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **Create a new Task with modified defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **Return a new object replacing specified fields with new values. This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
 
 ## Relationships
 
-- [Community 294](Community_294.md) (2 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
-- [Community 343](Community_343.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 376](Community_376.md) (1 shared connections)
+- [Community 445](Community_445.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 4 (67%)
+- INFERRED: 2 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

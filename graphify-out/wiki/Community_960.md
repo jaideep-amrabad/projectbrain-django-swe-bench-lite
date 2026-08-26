@@ -1,37 +1,30 @@
 # Community 960
 
-> 9 nodes · cohesion 0.28
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **template.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **templatize()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **.preprocess()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **trim_whitespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **blankout()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **templatize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Preprocess (if necessary) a translatable file before passing it to xgettext GNU…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **Change every non-whitespace character to the given char. Used in the templatize…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **Turn a Django template into something that is understood by xgettext. It does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **NoAppendSlashTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **no_append_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **.test_no_append_slash_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **.test_no_append_slash_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **Mark a view function as excluded from CommonMiddleware's APPEND_SLASH…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 561](Community_561.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 354](Community_354.md) (1 shared connections)
-- [Community 799](Community_799.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

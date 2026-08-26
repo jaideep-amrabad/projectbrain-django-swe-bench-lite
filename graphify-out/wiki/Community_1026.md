@@ -1,31 +1,29 @@
 # Community 1026
 
-> 8 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that uses the ``STATICFILES_DIRS`` setting to locate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the extra locations as defined in STATICFILES_DIRS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **UndocumentedFeatureErrorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_undocumented_alternative_subtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_undocumented_mixed_subtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **Trying to use the previously undocumented, now unsupported…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **These undocumented features were removed without going through deprecation. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_undocumented_get_connection_override_no_longer_supported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 403](Community_403.md) (2 shared connections)
-- [Community 1019](Community_1019.md) (1 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

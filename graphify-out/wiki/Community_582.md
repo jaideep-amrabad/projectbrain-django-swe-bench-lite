@@ -1,48 +1,35 @@
 # Community 582
 
-> 21 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DeprecatedEmailSettingsTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.init_simulated_settings()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_warn_about_no_default_mailer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **override_deprecated_email_settings** (5 connections)
-- **.test_multiple_deprecated_settings_are_all_reported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_warn_when_defining_deprecated_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.mock_settings_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_not_allowed_with_mailers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_no_default_mailer_warning_if_any_email_setting_defined()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.assertHasOnlyDefaultEmailSettings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.assertNotWarnsMessage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_defaults_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_direct_settings_manipulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_error_when_using_conflicting_setting_via_override_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_error_when_using_deprecated_settings_with_mailers_defined()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_do_not_exist_when_mailers_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_not_in_dir_when_mailers_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_email_backend_override_during_tests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_warn_when_using_deprecated_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_are_in_dir_without_mailers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **Deprecations and compatibility errors related to MAILERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.forwards_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.backwards_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.iterative_dfs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **._generate_plan()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.leaf_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Given a node, return a list of which previous nodes (dependencies) must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Given a node, return a list of which dependent nodes (dependencies) must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Iterative depth-first search for finding dependencies.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Return all leaf nodes - that is, nodes with no dependents in their app. These…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Given a migration node or nodes, return a complete ProjectState for it. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (6 shared connections)
-- [Community 654](Community_654.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 1136](Community_1136.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 405](Community_405.md) (6 shared connections)
+- [Community 820](Community_820.md) (2 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
