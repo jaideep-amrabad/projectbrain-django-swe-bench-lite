@@ -1,63 +1,44 @@
 # Community 583
 
-> 28 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **runtests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **NullTimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **TimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **setup()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **django_tests()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **default_test_processes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_runner()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **bisect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_installed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **paired_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.run_from_argv()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **RemovedInDjango50Warning** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **actual_test_processes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_test_modules()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **PendingDeprecationWarning** (1 connections)
-- **Pre-parse the command line to extract the value of the --testrunner option.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **Default number of test processes when using the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.print_results()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- *... and 3 more nodes in this community*
+- **YearArchiveViewTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_year_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_get_context_data_receives_extra_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **patch** (1 connections)
+- **date_list should be sorted ascending in year view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **MultipleObjectMixin.get_context_data() receives the context set by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_year_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_get_dated_items_not_implemented()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_custom_sort_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_make_object_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_two_custom_sort_orders()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 164](Community_164.md) (5 shared connections)
-- [Community 21](Community_21.md) (5 shared connections)
-- [Community 393](Community_393.md) (4 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 187](Community_187.md) (3 shared connections)
-- [Community 409](Community_409.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 738](Community_738.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 345](Community_345.md) (1 shared connections)
-- [Community 829](Community_829.md) (1 shared connections)
+- [Community 299](Community_299.md) (4 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 86 (93%)
-- INFERRED: 6 (7%)
+- EXTRACTED: 24 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

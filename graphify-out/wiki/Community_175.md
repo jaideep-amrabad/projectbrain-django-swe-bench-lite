@@ -1,56 +1,53 @@
 # Community 175
 
-> 39 nodes · cohesion 0.07
+> 19 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **servers/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.urlopen()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerViews** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerBase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **QuietWSGIRequestHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **LiveServerDatabase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerThreadedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerAddress** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerPort** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **SingleTreadLiveServerViews** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_database_writes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_fixtures_loaded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_no_collectstatic_emulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_protocol()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **SingleThreadLiveServerTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_check_model_instance_from_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_view_calls_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_closes_connection_without_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_keep_alive_on_connection_with_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_media_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_static_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_closes_connection_with_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- *... and 14 more nodes in this community*
+- **aggregation_regress/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **aggregation_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **JoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Book** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **HardbackBook** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **ItemTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **SelfReferentialFKTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Alfa** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Bravo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Charlie** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Clues** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Entries** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Publisher** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **SelfRefFK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Store** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **WithManualPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_non_nullable_fk_not_promoted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
 
 ## Relationships
 
-- [Community 281](Community_281.md) (5 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 451](Community_451.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 559](Community_559.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 19](Community_19.md) (15 shared connections)
+- [Community 18](Community_18.md) (6 shared connections)
+- [Community 115](Community_115.md) (5 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 117](Community_117.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 63 (79%)
+- INFERRED: 17 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,23 +1,27 @@
 # Community 1000
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_dependency_sorting_m2m_simple_circular()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Resolving circular M2M relations without explicit through models should fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **bad_tag.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **badsimpletag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **badtag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 182](Community_182.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

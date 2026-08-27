@@ -1,6 +1,6 @@
 # Community 154
 
-> 68 nodes · cohesion 0.04
+> 77 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **TestServeStatic** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
 - **.assertFileContains()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
 - **TestCollection** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestFindStatic** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 - **TestFinders** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
 - **TestAppDirectoriesFinder** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
 - **TestDefaultStorageFinder** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
@@ -28,21 +29,20 @@
 - **.test_app_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
 - **.test_camelcase_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
 - **.test_nonascii_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- *... and 43 more nodes in this community*
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (15 shared connections)
-- [Community 5](Community_5.md) (10 shared connections)
-- [Community 100](Community_100.md) (6 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
+- [Community 1](Community_1.md) (16 shared connections)
+- [Community 6](Community_6.md) (10 shared connections)
+- [Community 55](Community_55.md) (7 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
 - [Community 46](Community_46.md) (2 shared connections)
-- [Community 600](Community_600.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
+- [Community 595](Community_595.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 253](Community_253.md) (1 shared connections)
 
 ## Source Files
 
@@ -54,7 +54,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 133 (99%)
+- EXTRACTED: 147 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

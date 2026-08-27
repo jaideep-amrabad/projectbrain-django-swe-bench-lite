@@ -1,9 +1,10 @@
 # Community 4
 
-> 249 nodes · cohesion 0.02
+> 259 nodes · cohesion 0.02
 
 ## Key Concepts
 
+- **Http404** (68 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **View** (42 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 - **generic/__init__.py** (41 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
@@ -11,10 +12,11 @@
 - **edit.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 - **generic/base.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 - **TemplateView** (24 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **logging_tests/views.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
 - **list.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 - **test_detail.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **RedirectView** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 - **detail.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **decorator()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 - **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **ModelFormMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
@@ -26,28 +28,28 @@
 - **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **SingleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
 - **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 - **TemplateResponseMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 224 more nodes in this community*
+- *... and 234 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (37 shared connections)
-- [Community 101](Community_101.md) (23 shared connections)
-- [Community 3](Community_3.md) (23 shared connections)
-- [Community 7](Community_7.md) (20 shared connections)
-- [Community 63](Community_63.md) (14 shared connections)
-- [Community 81](Community_81.md) (12 shared connections)
-- [Community 9](Community_9.md) (10 shared connections)
-- [Community 394](Community_394.md) (9 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 486](Community_486.md) (7 shared connections)
-- [Community 300](Community_300.md) (6 shared connections)
-- [Community 23](Community_23.md) (5 shared connections)
+- [Community 3](Community_3.md) (49 shared connections)
+- [Community 2](Community_2.md) (38 shared connections)
+- [Community 11](Community_11.md) (24 shared connections)
+- [Community 0](Community_0.md) (23 shared connections)
+- [Community 239](Community_239.md) (22 shared connections)
+- [Community 82](Community_82.md) (12 shared connections)
+- [Community 130](Community_130.md) (11 shared connections)
+- [Community 390](Community_390.md) (10 shared connections)
+- [Community 480](Community_480.md) (9 shared connections)
+- [Community 272](Community_272.md) (9 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 299](Community_299.md) (6 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
 - `raw/code/hyd-evaluation/django-django/django/views/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
@@ -65,12 +67,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/included.py`
 - `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/namespace.py`
 - `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/path_unused.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 713 (99%)
-- INFERRED: 10 (1%)
+- EXTRACTED: 779 (97%)
+- INFERRED: 27 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

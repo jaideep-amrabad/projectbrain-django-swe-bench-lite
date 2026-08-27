@@ -1,29 +1,31 @@
 # Community 905
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **OrderWrt** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **fields/proxy.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **Field-like classes that aren't really fields. It's easier to use objects that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **A proxy for the _order database field that is used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- **LocalizeNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **LocalizeNodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **Node** (1 connections)
 
 ## Relationships
 
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

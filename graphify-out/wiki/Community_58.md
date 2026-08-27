@@ -1,6 +1,6 @@
 # Community 58
 
-> 119 nodes · cohesion 0.03
+> 117 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **PennsylvaniaCity** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
 - **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
 - **MultiFields** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- *... and 94 more nodes in this community*
+- *... and 92 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (34 shared connections)
-- [Community 30](Community_30.md) (31 shared connections)
-- [Community 21](Community_21.md) (23 shared connections)
-- [Community 103](Community_103.md) (14 shared connections)
-- [Community 11](Community_11.md) (13 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 53](Community_53.md) (8 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 225](Community_225.md) (5 shared connections)
-- [Community 97](Community_97.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
+- [Community 28](Community_28.md) (30 shared connections)
+- [Community 32](Community_32.md) (26 shared connections)
+- [Community 18](Community_18.md) (23 shared connections)
+- [Community 104](Community_104.md) (14 shared connections)
+- [Community 13](Community_13.md) (12 shared connections)
+- [Community 0](Community_0.md) (11 shared connections)
+- [Community 77](Community_77.md) (9 shared connections)
+- [Community 8](Community_8.md) (8 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 52](Community_52.md) (4 shared connections)
+- [Community 100](Community_100.md) (4 shared connections)
 
 ## Source Files
 
@@ -65,7 +65,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 364 (90%)
+- EXTRACTED: 360 (90%)
 - INFERRED: 40 (10%)
 - AMBIGUOUS: 0 (0%)
 

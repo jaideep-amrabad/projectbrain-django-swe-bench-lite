@@ -1,13 +1,12 @@
 # Community 51
 
-> 167 nodes · cohesion 0.02
+> 131 nodes · cohesion 0.03
 
 ## Key Concepts
 
 - **admin_inlines/admin.py** (101 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
 - **admin_inlines/tests.py** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **admin_inlines/models.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **TestInline** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **TestInlineMedia** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **TestInlineProtectedOnDelete** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **Inner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
@@ -29,20 +28,21 @@
 - **Poll** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **SomeChildModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **BinaryTree** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- *... and 142 more nodes in this community*
+- **Fashionista** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- *... and 106 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (49 shared connections)
-- [Community 21](Community_21.md) (7 shared connections)
-- [Community 35](Community_35.md) (7 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 741](Community_741.md) (4 shared connections)
-- [Community 116](Community_116.md) (3 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 265](Community_265.md) (3 shared connections)
+- [Community 15](Community_15.md) (37 shared connections)
+- [Community 18](Community_18.md) (6 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 33](Community_33.md) (5 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 115](Community_115.md) (3 shared connections)
+- [Community 735](Community_735.md) (3 shared connections)
+- [Community 262](Community_262.md) (3 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
 - [Community 117](Community_117.md) (2 shared connections)
 
@@ -56,8 +56,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 349 (81%)
-- INFERRED: 80 (19%)
+- EXTRACTED: 275 (77%)
+- INFERRED: 80 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

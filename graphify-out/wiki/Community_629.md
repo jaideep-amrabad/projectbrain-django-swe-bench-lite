@@ -1,42 +1,42 @@
 # Community 629
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **.get_indexes()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_inline_fk_index_update_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_inline_fk_update_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_order_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_remove_db_index_doesnt_remove_custom_indexes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_remove_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_foreign_key_index_long_names_regression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.get_uniques()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_text_field_with_db_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Get the indexes on the table using a new cursor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Tests index addition and removal** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Changing db_index to False doesn't remove indexes from Meta.indexes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Indexes defined with ordering (ASC/DESC) defined on column** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Tests creation/altering of indexes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Regression test for #21497. Only affects databases that supports foreign keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **null_fk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **null_fk/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **NullFkTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **PropertyValue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **SystemDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.test_combine_isnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Property** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Regression tests for proper working of ForeignKey(null=True).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.test_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
 
 ## Relationships
 
-- [Community 55](Community_55.md) (11 shared connections)
-- [Community 80](Community_80.md) (6 shared connections)
-- [Community 150](Community_150.md) (4 shared connections)
-- [Community 30](Community_30.md) (3 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 30 (81%)
+- INFERRED: 7 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

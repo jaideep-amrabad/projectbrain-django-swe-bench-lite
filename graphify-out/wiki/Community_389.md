@@ -1,60 +1,60 @@
 # Community 389
 
-> 29 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **TranslationTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **ngettext_lazy()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **npgettext_lazy()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **get_language_bidi()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **lazy_number()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **to_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **npgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_empty_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_multiple_plurals_per_language()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ngettext_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ngettext_lazy_format_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_pgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_language_bidi_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_maclines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_plural()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **_lazy_number_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_language_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_lazy_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ngettext_lazy_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ngettext_lazy_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_to_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_to_locale()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Turn a locale name (en_US) into a language name (en-us).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Format string interpolation should work with *_lazy objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Empty value must stay empty after being translated (#23196).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- *... and 4 more nodes in this community*
+- **test/runner.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **test_parallel.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **reorder_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ExceptionThatFailsUnpickling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **RemoteTestResultTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_add_failing_subtests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **RemoteTestRunner** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ParallelTestRunnerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **SampleFailingSubtest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **partition_suite_by_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_pickle_errors_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **_init_worker()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **_run_subsuite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.dummy_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **Run tests and record everything but don't display anything. The implementation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Switch to databases dedicated to this worker. This helper lives at module-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Run a suite of tests with a RemoteTestRunner and return a RemoteTestResult.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Reorder a test suite by test type. `classes` is a sequence of types All tests…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Partition a test suite by test type. Also prevent duplicated tests. classes is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **Exception** (1 connections)
+- **skipUnless** (1 connections)
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (18 shared connections)
-- [Community 321](Community_321.md) (7 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 213](Community_213.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 139](Community_139.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 375](Community_375.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 345](Community_345.md) (7 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 578](Community_578.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 165](Community_165.md) (3 shared connections)
+- [Community 922](Community_922.md) (3 shared connections)
+- [Community 552](Community_552.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 400](Community_400.md) (2 shared connections)
+- [Community 861](Community_861.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 74 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cache/backends/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/__init__.py`
+- **core.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/__init__.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
 
 ## Audit Trail
 

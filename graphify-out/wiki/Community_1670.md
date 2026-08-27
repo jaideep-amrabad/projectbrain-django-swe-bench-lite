@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **transaction_hooks/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/__init__.py`
+- **validators/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/__init__.py`
 
 ## Audit Trail
 

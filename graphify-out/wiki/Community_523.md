@@ -1,44 +1,57 @@
 # Community 523
 
-> 21 nodes · cohesion 0.16
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **BashCompletionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **._run_autocomplete()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **._user_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_app_completion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_completed_subcommand()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_custom_command()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_django_admin_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_manage_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_subcommands()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Testing the Python level bash completion code. This requires setting up the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Set the environment and the list of command line arguments. This sets the bash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **django_admin.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **manage.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **A custom command can autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Subcommands can be autocompleted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Show option flags in case a subcommand is completed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **No errors, just an empty list if there are no autocomplete options** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Application names will be autocompleted for an AppCommand** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Lookup** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.batch_process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **CustomLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **LookupTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.test_equality()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.test_hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.get_db_prep_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.apply_bilateral_transforms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_source_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.contains_aggregate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.contains_over_clause()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_db_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_group_by_cols()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.identity()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.is_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.process_lhs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.set_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 247](Community_247.md) (1 shared connections)
+- [Community 59](Community_59.md) (8 shared connections)
+- [Community 26](Community_26.md) (8 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 121](Community_121.md) (2 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 764](Community_764.md) (1 shared connections)
+- [Community 146](Community_146.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 55 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

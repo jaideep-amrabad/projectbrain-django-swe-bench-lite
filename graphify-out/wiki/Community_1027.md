@@ -1,30 +1,25 @@
 # Community 1027
 
-> 8 nodes · cohesion 0.36
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **gdal_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **gdal_full_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **gdal_tests/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **GDALTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **.test_gdal_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **.test_gdal_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **Return only the GDAL version number information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **Return the full GDAL version information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **SqliteDbshellCommandTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.settings_to_cmd_args_env()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_path_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
 
 ## Relationships
 
-- [Community 106](Community_106.md) (6 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

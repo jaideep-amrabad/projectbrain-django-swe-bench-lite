@@ -1,34 +1,36 @@
 # Community 860
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **TemplateResponseTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_context_processor_priority()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_pickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_render_with_requestcontext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_repickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **backends/test_utils.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **TestUtils** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **format_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.test_split_identifier()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_truncate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **Format a number into a string with the requisite number of digits and decimal…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **Tests for django.db.backends.utils** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
 
 ## Relationships
 
-- [Community 416](Community_416.md) (6 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 505](Community_505.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 92](Community_92.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

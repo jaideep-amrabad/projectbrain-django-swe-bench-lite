@@ -34,12 +34,12 @@
 ## Relationships
 
 - [Community 0](Community_0.md) (5 shared connections)
-- [Community 695](Community_695.md) (3 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 689](Community_689.md) (3 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
 - [Community 47](Community_47.md) (1 shared connections)
-- [Community 761](Community_761.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 755](Community_755.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 

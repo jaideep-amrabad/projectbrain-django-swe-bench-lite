@@ -1,37 +1,45 @@
 # Community 704
 
-> 11 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **.is_active()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_cleansed_multivaluedict()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_frame_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.cleanse_special_types()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_post_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.user_can_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **Reject users with is_active=False. Custom user models that don't have that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **This filter is to add safety in production environments (i.e. DEBUG is False).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the keys in a MultiValueDict marked as sensitive with stars. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the values of POST parameters marked as sensitive with stars…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the values of variables marked as sensitive with stars (*********).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **LoginTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_csrf_rotate()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check_https()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_session_key_flushed_on_login_after_password_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_current_site_in_context_after_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_form_contains_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Makes sure that a login rotates the currently-used CSRF token.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **To avoid reusing another user's session, ensure a new, empty session is created…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **As above, but same user logging in after a password change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Session without django.contrib.auth.HASH_SESSION_KEY should login without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 290](Community_290.md) (5 shared connections)
-- [Community 275](Community_275.md) (3 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 371](Community_371.md) (3 shared connections)
+- [Community 142](Community_142.md) (2 shared connections)
+- [Community 253](Community_253.md) (2 shared connections)
+- [Community 239](Community_239.md) (1 shared connections)
+- [Community 604](Community_604.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (76%)
-- INFERRED: 5 (24%)
+- EXTRACTED: 24 (83%)
+- INFERRED: 5 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

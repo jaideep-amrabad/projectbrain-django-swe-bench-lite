@@ -1,33 +1,39 @@
 # Community 789
 
-> 11 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **ForceEscapeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **setup** (8 connections)
-- **.test_force_escape01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **Force_escape is applied immediately. It can be used to provide double-escaping,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **swappable_models/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **swappable_models/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
+- **SwappableModelTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
+- **.test_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **.test_generated_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **AlternateArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
+- **Permissions and content types are not created for a swapped model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **Model names are case insensitive. Model swapping honors this.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 33](Community_33.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---
