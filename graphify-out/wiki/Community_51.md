@@ -1,69 +1,59 @@
 # Community 51
 
-> 127 nodes · cohesion 0.02
+> 119 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **defaulttags.py** (87 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **tag()** (72 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Node** (22 connections)
-- **render_value_in_context()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **IfEqualNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **AutoEscapeControlNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **CycleNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **IfChangedNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **RegroupNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **WidthRatioNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **do_ifequal()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **FilterNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **FirstOfNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **load()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **NowNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **ResetCycleNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **SpacelessNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **TemplateTagNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **URLNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **VerbatimNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **FooBar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
-- **autoescape()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **CommentNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **CsrfTokenNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- *... and 102 more nodes in this community*
+- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_field()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **_date_from_string()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_list()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseWeekArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseYearArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_month()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 94 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (32 shared connections)
-- [Community 259](Community_259.md) (24 shared connections)
-- [Community 142](Community_142.md) (11 shared connections)
-- [Community 534](Community_534.md) (9 shared connections)
-- [Community 360](Community_360.md) (9 shared connections)
-- [Community 219](Community_219.md) (7 shared connections)
-- [Community 307](Community_307.md) (6 shared connections)
-- [Community 27](Community_27.md) (5 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 989](Community_989.md) (4 shared connections)
-- [Community 73](Community_73.md) (3 shared connections)
+- [Community 40](Community_40.md) (21 shared connections)
+- [Community 526](Community_526.md) (14 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
+- [Community 490](Community_490.md) (3 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 586](Community_586.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 312 (88%)
-- INFERRED: 42 (12%)
+- EXTRACTED: 297 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

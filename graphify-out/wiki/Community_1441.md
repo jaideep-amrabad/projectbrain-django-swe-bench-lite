@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Gruntfile.js** (0 connections) — `raw/code/hyd-evaluation/django-django/Gruntfile.js`
+- **.util.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/.util.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/Gruntfile.js`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/.util.py`
 
 ## Audit Trail
 

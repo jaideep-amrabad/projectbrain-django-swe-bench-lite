@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **prepopulate.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate.js`
+- **migrated_app/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate.js`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/models.py`
 
 ## Audit Trail
 

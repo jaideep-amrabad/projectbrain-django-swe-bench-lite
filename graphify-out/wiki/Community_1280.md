@@ -1,23 +1,22 @@
 # Community 1280
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Yield the forms in the order they should be rendered.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **field_subclassing/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/__init__.py`
 
 ## Relationships
 
-- [Community 104](Community_104.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
