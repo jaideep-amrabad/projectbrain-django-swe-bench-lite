@@ -2,6 +2,7 @@ from unittest import mock
 
 from django.contrib import admin
 from django.contrib.auth.models import User
+from django.db import connections
 from django.test import TestCase, override_settings
 from django.urls import path, reverse
 
@@ -33,7 +34,7 @@ class MultiDatabaseTests(TestCase):
     def setUpTestData(cls):
         cls.superusers = {}
         cls.test_book_ids = {}
-        for db in cls.databases:
+        for db in connections:
             Router.target_db = db
             cls.superusers[db] = User.objects.create_superuser(
                 username='admin', password='something', email='test@test.org',
@@ -44,7 +45,7 @@ class MultiDatabaseTests(TestCase):
 
     @mock.patch('django.contrib.admin.options.transaction')
     def test_add_view(self, mock):
-        for db in self.databases:
+        for db in connections:
             with self.subTest(db=db):
                 Router.target_db = db
                 self.client.force_login(self.superusers[db])
@@ -56,7 +57,7 @@ class MultiDatabaseTests(TestCase):
 
     @mock.patch('django.contrib.admin.options.transaction')
     def test_change_view(self, mock):
-        for db in self.databases:
+        for db in connections:
             with self.subTest(db=db):
                 Router.target_db = db
                 self.client.force_login(self.superusers[db])
@@ -68,7 +69,7 @@ class MultiDatabaseTests(TestCase):
 
     @mock.patch('django.contrib.admin.options.transaction')
     def test_delete_view(self, mock):
-        for db in self.databases:
+        for db in connections:
             with self.subTest(db=db):
                 Router.target_db = db
                 self.client.force_login(self.superusers[db])

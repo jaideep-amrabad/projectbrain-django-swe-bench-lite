@@ -5,10 +5,12 @@ Form classes
 import copy
 
 from django.core.exceptions import NON_FIELD_ERRORS, ValidationError
+# BoundField is imported for backwards compatibility in Django 1.9
+from django.forms.boundfield import BoundField  # NOQA
 from django.forms.fields import Field, FileField
-from django.forms.utils import ErrorDict, ErrorList
+# pretty_name is imported for backwards compatibility in Django 1.9
+from django.forms.utils import ErrorDict, ErrorList, pretty_name  # NOQA
 from django.forms.widgets import Media, MediaDefiningClass
-from django.utils.datastructures import MultiValueDict
 from django.utils.functional import cached_property
 from django.utils.html import conditional_escape, html_safe
 from django.utils.safestring import mark_safe
@@ -30,7 +32,7 @@ class DeclarativeFieldsMetaclass(MediaDefiningClass):
                 attrs.pop(key)
         attrs['declared_fields'] = dict(current_fields)
 
-        new_class = super().__new__(mcs, name, bases, attrs)
+        new_class = super(DeclarativeFieldsMetaclass, mcs).__new__(mcs, name, bases, attrs)
 
         # Walk through the MRO.
         declared_fields = {}
@@ -67,8 +69,8 @@ class BaseForm:
                  initial=None, error_class=ErrorList, label_suffix=None,
                  empty_permitted=False, field_order=None, use_required_attribute=None, renderer=None):
         self.is_bound = data is not None or files is not None
-        self.data = MultiValueDict() if data is None else data
-        self.files = MultiValueDict() if files is None else files
+        self.data = {} if data is None else data
+        self.files = {} if files is None else files
         self.auto_id = auto_id
         if prefix is not None:
             self.prefix = prefix
@@ -158,7 +160,7 @@ class BaseForm:
                 "Key '%s' not found in '%s'. Choices are: %s." % (
                     name,
                     self.__class__.__name__,
-                    ', '.join(sorted(self.fields)),
+                    ', '.join(sorted(f for f in self.fields)),
                 )
             )
         if name not in self._bound_fields_cache:
@@ -186,13 +188,12 @@ class BaseForm:
         return '%s-%s' % (self.prefix, field_name) if self.prefix else field_name
 
     def add_initial_prefix(self, field_name):
-        """Add an 'initial' prefix for checking dynamic initial values."""
+        """Add a 'initial' prefix for checking dynamic initial values."""
         return 'initial-%s' % self.add_prefix(field_name)
 
     def _html_output(self, normal_row, error_row, row_ender, help_text_html, errors_on_separate_row):
         "Output HTML. Used by as_table(), as_ul(), as_p()."
-        # Errors that should be displayed above all fields.
-        top_errors = self.non_field_errors().copy()
+        top_errors = self.non_field_errors()  # Errors that should be displayed above all fields.
         output, hidden_fields = [], []
 
         for name, field in self.fields.items():

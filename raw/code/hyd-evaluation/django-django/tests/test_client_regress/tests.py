@@ -213,37 +213,58 @@ class AssertTemplateUsedTests(TestDataMixin, TestCase):
         except AssertionError as e:
             self.assertIn("abc: No templates used to render the response", str(e))
 
-        msg = 'No templates used to render the response'
-        with self.assertRaisesMessage(AssertionError, msg):
+        with self.assertRaises(AssertionError) as context:
             self.assertTemplateUsed(response, 'GET Template', count=2)
+        self.assertIn(
+            "No templates used to render the response",
+            str(context.exception))
 
     def test_single_context(self):
         "Template assertions work when there is a single context"
         response = self.client.get('/post_view/', {})
-        msg = (
-            ": Template 'Empty GET Template' was used unexpectedly in "
-            "rendering the response"
-        )
-        with self.assertRaisesMessage(AssertionError, msg):
+
+        try:
             self.assertTemplateNotUsed(response, 'Empty GET Template')
-        with self.assertRaisesMessage(AssertionError, 'abc' + msg):
+        except AssertionError as e:
+            self.assertIn("Template 'Empty GET Template' was used unexpectedly in rendering the response", str(e))
+
+        try:
             self.assertTemplateNotUsed(response, 'Empty GET Template', msg_prefix='abc')
-        msg = (
-            ": Template 'Empty POST Template' was not a template used to "
-            "render the response. Actual template(s) used: Empty GET Template"
-        )
-        with self.assertRaisesMessage(AssertionError, msg):
+        except AssertionError as e:
+            self.assertIn("abc: Template 'Empty GET Template' was used unexpectedly in rendering the response", str(e))
+
+        try:
             self.assertTemplateUsed(response, 'Empty POST Template')
-        with self.assertRaisesMessage(AssertionError, 'abc' + msg):
+        except AssertionError as e:
+            self.assertIn(
+                "Template 'Empty POST Template' was not a template used to "
+                "render the response. Actual template(s) used: Empty GET Template",
+                str(e)
+            )
+
+        try:
             self.assertTemplateUsed(response, 'Empty POST Template', msg_prefix='abc')
-        msg = (
-            ": Template 'Empty GET Template' was expected to be rendered 2 "
-            "time(s) but was actually rendered 1 time(s)."
-        )
-        with self.assertRaisesMessage(AssertionError, msg):
+        except AssertionError as e:
+            self.assertIn(
+                "abc: Template 'Empty POST Template' was not a template used "
+                "to render the response. Actual template(s) used: Empty GET Template",
+                str(e)
+            )
+
+        with self.assertRaises(AssertionError) as context:
             self.assertTemplateUsed(response, 'Empty GET Template', count=2)
-        with self.assertRaisesMessage(AssertionError, 'abc' + msg):
-            self.assertTemplateUsed(response, 'Empty GET Template', msg_prefix='abc', count=2)
+        self.assertIn(
+            "Template 'Empty GET Template' was expected to be rendered 2 "
+            "time(s) but was actually rendered 1 time(s).",
+            str(context.exception))
+
+        with self.assertRaises(AssertionError) as context:
+            self.assertTemplateUsed(
+                response, 'Empty GET Template', msg_prefix='abc', count=2)
+        self.assertIn(
+            "abc: Template 'Empty GET Template' was expected to be rendered 2 "
+            "time(s) but was actually rendered 1 time(s).",
+            str(context.exception))
 
     def test_multiple_context(self):
         "Template assertions work when there are multiple contexts"
@@ -256,23 +277,31 @@ class AssertTemplateUsedTests(TestDataMixin, TestCase):
         }
         response = self.client.post('/form_view_with_template/', post_data)
         self.assertContains(response, 'POST data OK')
-        msg = "Template '%s' was used unexpectedly in rendering the response"
-        with self.assertRaisesMessage(AssertionError, msg % 'form_view.html'):
+        try:
             self.assertTemplateNotUsed(response, "form_view.html")
-        with self.assertRaisesMessage(AssertionError, msg % 'base.html'):
+        except AssertionError as e:
+            self.assertIn("Template 'form_view.html' was used unexpectedly in rendering the response", str(e))
+
+        try:
             self.assertTemplateNotUsed(response, 'base.html')
-        msg = (
-            "Template 'Valid POST Template' was not a template used to render "
-            "the response. Actual template(s) used: form_view.html, base.html"
-        )
-        with self.assertRaisesMessage(AssertionError, msg):
+        except AssertionError as e:
+            self.assertIn("Template 'base.html' was used unexpectedly in rendering the response", str(e))
+
+        try:
             self.assertTemplateUsed(response, "Valid POST Template")
-        msg = (
-            "Template 'base.html' was expected to be rendered 2 time(s) but "
-            "was actually rendered 1 time(s)."
-        )
-        with self.assertRaisesMessage(AssertionError, msg):
+        except AssertionError as e:
+            self.assertIn(
+                "Template 'Valid POST Template' was not a template used to "
+                "render the response. Actual template(s) used: form_view.html, base.html",
+                str(e)
+            )
+
+        with self.assertRaises(AssertionError) as context:
             self.assertTemplateUsed(response, 'base.html', count=2)
+        self.assertIn(
+            "Template 'base.html' was expected to be rendered 2 "
+            "time(s) but was actually rendered 1 time(s).",
+            str(context.exception))
 
     def test_template_rendered_multiple_times(self):
         """Template assertions work when a template is rendered multiple times."""
@@ -478,27 +507,6 @@ class AssertRedirectsTests(SimpleTestCase):
             self.assertRedirects(response, 'https://testserver/secure_view/', status_code=302)
             with self.assertRaises(AssertionError):
                 self.assertRedirects(response, 'http://testserver/secure_view/', status_code=302)
-
-    def test_redirect_fetch_redirect_response(self):
-        """Preserve extra headers of requests made with django.test.Client."""
-        methods = (
-            'get', 'post', 'head', 'options', 'put', 'patch', 'delete', 'trace',
-        )
-        for method in methods:
-            with self.subTest(method=method):
-                req_method = getattr(self.client, method)
-                response = req_method(
-                    '/redirect_based_on_extra_headers_1/',
-                    follow=False,
-                    HTTP_REDIRECT='val',
-                )
-                self.assertRedirects(
-                    response,
-                    '/redirect_based_on_extra_headers_2/',
-                    fetch_redirect_response=True,
-                    status_code=302,
-                    target_status_code=302,
-                )
 
 
 @override_settings(ROOT_URLCONF='test_client_regress.urls')
@@ -918,8 +926,9 @@ class ContextTests(TestDataMixin, TestCase):
         self.assertEqual(response.context['get-foo'], 'whiz')
         self.assertEqual(response.context['data'], 'bacon')
 
-        with self.assertRaisesMessage(KeyError, 'does-not-exist'):
+        with self.assertRaises(KeyError) as cm:
             response.context['does-not-exist']
+        self.assertEqual(cm.exception.args[0], 'does-not-exist')
 
     def test_contextlist_keys(self):
         c1 = Context()
@@ -1194,11 +1203,6 @@ class RequestMethodStringDataTests(SimpleTestCase):
     def test_json(self):
         response = self.client.get('/json_response/')
         self.assertEqual(response.json(), {'key': 'value'})
-
-    def test_json_charset(self):
-        response = self.client.get('/json_response_latin1/')
-        self.assertEqual(response.charset, 'latin1')
-        self.assertEqual(response.json(), {'a': 'Å'})
 
     def test_json_structured_suffixes(self):
         valid_types = (

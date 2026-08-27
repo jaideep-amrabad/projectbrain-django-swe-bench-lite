@@ -1,6 +1,5 @@
-class DefaultOtherRouter:
-    def allow_migrate(self, db, app_label, model_name=None, **hints):
-        return db in {'default', 'other'}
+class EmptyRouter:
+    pass
 
 
 class TestRouter:
@@ -10,5 +9,5 @@ class TestRouter:
         """
         if model_name == 'tribble':
             return db == 'other'
-        elif db != 'default':
+        elif db == 'other':
             return False

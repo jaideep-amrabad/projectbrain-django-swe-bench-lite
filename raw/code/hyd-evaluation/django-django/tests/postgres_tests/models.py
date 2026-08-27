@@ -3,8 +3,8 @@ from django.db import models
 
 from .fields import (
     ArrayField, BigIntegerRangeField, CICharField, CIEmailField, CITextField,
-    DateRangeField, DateTimeRangeField, DecimalRangeField, EnumField,
-    HStoreField, IntegerRangeField, JSONField, SearchVectorField,
+    DateRangeField, DateTimeRangeField, DecimalRangeField, HStoreField,
+    IntegerRangeField, JSONField, SearchVectorField,
 )
 
 
@@ -46,7 +46,6 @@ class IntegerArrayModel(PostgreSQLModel):
 
 class NullableIntegerArrayModel(PostgreSQLModel):
     field = ArrayField(models.IntegerField(), blank=True, null=True)
-    field_nested = ArrayField(ArrayField(models.IntegerField(null=True)), null=True)
 
 
 class CharArrayModel(PostgreSQLModel):
@@ -78,10 +77,6 @@ class HStoreModel(PostgreSQLModel):
     array_field = ArrayField(HStoreField(), null=True)
 
 
-class ArrayEnumModel(PostgreSQLModel):
-    array_of_enums = ArrayField(EnumField(max_length=20))
-
-
 class CharFieldModel(models.Model):
     field = models.CharField(max_length=16)
 
@@ -91,14 +86,6 @@ class TextFieldModel(models.Model):
 
     def __str__(self):
         return self.field
-
-
-class SmallAutoFieldModel(models.Model):
-    id = models.SmallAutoField(primary_key=True)
-
-
-class BigAutoFieldModel(models.Model):
-    id = models.BigAutoField(primary_key=True)
 
 
 # Scene/Character/Line models are used to test full text search. They're
@@ -144,9 +131,7 @@ class RangesModel(PostgreSQLModel):
     bigints = BigIntegerRangeField(blank=True, null=True)
     decimals = DecimalRangeField(blank=True, null=True)
     timestamps = DateTimeRangeField(blank=True, null=True)
-    timestamps_inner = DateTimeRangeField(blank=True, null=True)
     dates = DateRangeField(blank=True, null=True)
-    dates_inner = DateRangeField(blank=True, null=True)
 
 
 class RangeLookupsModel(PostgreSQLModel):
@@ -156,8 +141,6 @@ class RangeLookupsModel(PostgreSQLModel):
     float = models.FloatField(blank=True, null=True)
     timestamp = models.DateTimeField(blank=True, null=True)
     date = models.DateField(blank=True, null=True)
-    small_integer = models.SmallIntegerField(blank=True, null=True)
-    decimal_field = models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True)
 
 
 class JSONModel(PostgreSQLModel):
@@ -194,15 +177,3 @@ class NowTestModel(models.Model):
 
 class UUIDTestModel(models.Model):
     uuid = models.UUIDField(default=None, null=True)
-
-
-class Room(models.Model):
-    number = models.IntegerField(unique=True)
-
-
-class HotelReservation(PostgreSQLModel):
-    room = models.ForeignKey('Room', on_delete=models.CASCADE)
-    datespan = DateRangeField()
-    start = models.DateTimeField()
-    end = models.DateTimeField()
-    cancelled = models.BooleanField(default=False)

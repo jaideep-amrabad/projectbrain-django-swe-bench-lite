@@ -5,7 +5,7 @@ from unittest import mock
 
 from django.conf import settings
 from django.db import DEFAULT_DB_ALIAS, connection
-from django.db.models import Func
+from django.db.models.expressions import Func
 
 
 def skipUnlessGISLookup(*gis_lookups):
@@ -46,7 +46,6 @@ _default_db = settings.DATABASES[DEFAULT_DB_ALIAS]['ENGINE'].rsplit('.')[-1]
 oracle = _default_db == 'oracle'
 postgis = _default_db == 'postgis'
 mysql = _default_db == 'mysql'
-mariadb = mysql and connection.mysql_is_mariadb
 spatialite = _default_db == 'spatialite'
 
 # MySQL spatial indices can't handle NULL geometries.

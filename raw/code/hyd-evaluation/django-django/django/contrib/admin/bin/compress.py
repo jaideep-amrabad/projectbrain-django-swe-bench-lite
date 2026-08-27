@@ -11,7 +11,7 @@ except ImportError:
 else:
     closure_compiler = closure.get_jar_filename()
 
-js_path = Path(__file__).parents[1] / 'static' / 'admin' / 'js'
+js_path = Path(__file__).parent.parent / 'static' / 'admin' / 'js'
 
 
 def main():
@@ -49,16 +49,10 @@ Compiler library and Java version 6 or later."""
         to_compress = file_path.expanduser()
         if to_compress.exists():
             to_compress_min = to_compress.with_suffix('.min.js')
-            cmd = [
-                'java',
-                '-jar', str(compiler),
-                '--rewrite_polyfills=false',
-                '--js', str(to_compress),
-                '--js_output_file', str(to_compress_min),
-            ]
+            cmd = "java -jar %s --js %s --js_output_file %s" % (compiler, to_compress, to_compress_min)
             if options.verbose:
-                sys.stdout.write("Running: %s\n" % ' '.join(cmd))
-            subprocess.run(cmd)
+                sys.stdout.write("Running: %s\n" % cmd)
+            subprocess.call(cmd.split())
         else:
             sys.stdout.write("File %s not found. Sure it exists?\n" % to_compress)
 

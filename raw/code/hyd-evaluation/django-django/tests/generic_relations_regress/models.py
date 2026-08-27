@@ -3,6 +3,7 @@ from django.contrib.contenttypes.fields import (
 )
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
+from django.db.models.deletion import ProtectedError
 
 __all__ = ('Link', 'Place', 'Restaurant', 'Person', 'Address',
            'CharLink', 'TextLink', 'OddRelation1', 'OddRelation2',
@@ -213,7 +214,7 @@ class Related(models.Model):
 
 
 def prevent_deletes(sender, instance, **kwargs):
-    raise models.ProtectedError("Not allowed to delete.", [instance])
+    raise ProtectedError("Not allowed to delete.", [instance])
 
 
 models.signals.pre_delete.connect(prevent_deletes, sender=Node)

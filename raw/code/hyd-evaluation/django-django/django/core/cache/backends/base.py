@@ -97,7 +97,8 @@ class BaseCache:
         if version is None:
             version = self.version
 
-        return self.key_func(key, self.key_prefix, version)
+        new_key = self.key_func(key, self.key_prefix, version)
+        return new_key
 
     def add(self, key, value, timeout=DEFAULT_TIMEOUT, version=None):
         """
@@ -132,8 +133,7 @@ class BaseCache:
 
     def delete(self, key, version=None):
         """
-        Delete a key from the cache and return whether it succeeded, failing
-        silently.
+        Delete a key from the cache, failing silently.
         """
         raise NotImplementedError('subclasses of BaseCache must provide a delete() method')
 

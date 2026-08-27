@@ -1,35 +1,26 @@
 import unittest
-from io import StringIO
 from unittest import mock
 
 from django.core.exceptions import ImproperlyConfigured
 from django.db import DatabaseError, connection, connections
-from django.db.backends.base.base import BaseDatabaseWrapper
-from django.test import TestCase, override_settings
+from django.test import TestCase
 
 
 @unittest.skipUnless(connection.vendor == 'postgresql', 'PostgreSQL tests')
 class Tests(TestCase):
-    databases = {'default', 'other'}
 
-    def test_nodb_cursor(self):
+    def test_nodb_connection(self):
         """
-        The _nodb_cursor() fallbacks to the default connection database when
-        access to the 'postgres' database is not granted.
+        The _nodb_connection property fallbacks to the default connection
+        database when access to the 'postgres' database is not granted.
         """
-        orig_connect = BaseDatabaseWrapper.connect
-
         def mocked_connect(self):
             if self.settings_dict['NAME'] is None:
                 raise DatabaseError()
-            return orig_connect(self)
+            return ''
 
-        with connection._nodb_cursor() as cursor:
-            self.assertIs(cursor.closed, False)
-            self.assertIsNotNone(cursor.db.connection)
-            self.assertIsNone(cursor.db.settings_dict['NAME'])
-        self.assertIs(cursor.closed, True)
-        self.assertIsNone(cursor.db.connection)
+        nodb_conn = connection._nodb_connection
+        self.assertIsNone(nodb_conn.settings_dict['NAME'])
 
         # Now assume the 'postgres' db isn't available
         msg = (
@@ -47,13 +38,9 @@ class Tests(TestCase):
                     'settings_dict',
                     {**connection.settings_dict, 'NAME': 'postgres'},
                 ):
-                    with connection._nodb_cursor() as cursor:
-                        self.assertIs(cursor.closed, False)
-                        self.assertIsNotNone(cursor.db.connection)
-        self.assertIs(cursor.closed, True)
-        self.assertIsNone(cursor.db.connection)
-        self.assertIsNotNone(cursor.db.settings_dict['NAME'])
-        self.assertEqual(cursor.db.settings_dict['NAME'], connections['other'].settings_dict['NAME'])
+                    nodb_conn = connection._nodb_connection
+        self.assertIsNotNone(nodb_conn.settings_dict['NAME'])
+        self.assertEqual(nodb_conn.settings_dict['NAME'], connections['other'].settings_dict['NAME'])
 
     def test_database_name_too_long(self):
         from django.db.backends.postgresql.base import DatabaseWrapper
@@ -114,8 +101,8 @@ class Tests(TestCase):
 
         try:
             # Open a database connection.
-            with new_connection.cursor():
-                self.assertFalse(new_connection.get_autocommit())
+            new_connection.cursor()
+            self.assertFalse(new_connection.get_autocommit())
         finally:
             new_connection.close()
 
@@ -144,15 +131,6 @@ class Tests(TestCase):
             new_connection.set_autocommit(False)
             # Check the level on the psycopg2 connection, not the Django wrapper.
             self.assertEqual(new_connection.connection.isolation_level, serializable)
-        finally:
-            new_connection.close()
-
-    def test_connect_no_is_usable_checks(self):
-        new_connection = connection.copy()
-        try:
-            with mock.patch.object(new_connection, 'is_usable') as is_usable:
-                new_connection.connect()
-            is_usable.assert_not_called()
         finally:
             new_connection.close()
 
@@ -192,15 +170,3 @@ class Tests(TestCase):
             self.assertEqual(psycopg2_version(), (4, 2, 1))
         with mock.patch('psycopg2.__version__', '4.2b0.dev1 (dt dec pq3 ext lo64)'):
             self.assertEqual(psycopg2_version(), (4, 2))
-
-    @override_settings(DEBUG=True)
-    def test_copy_cursors(self):
-        out = StringIO()
-        copy_expert_sql = 'COPY django_session TO STDOUT (FORMAT CSV, HEADER)'
-        with connection.cursor() as cursor:
-            cursor.copy_expert(copy_expert_sql, out)
-            cursor.copy_to(out, 'django_session')
-        self.assertEqual(
-            [q['sql'] for q in connection.queries],
-            [copy_expert_sql, 'COPY django_session TO STDOUT'],
-        )

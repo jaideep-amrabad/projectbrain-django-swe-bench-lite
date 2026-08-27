@@ -15,7 +15,6 @@ urlpatterns = [
     path('syndication/atom/', feeds.TestAtomFeed()),
     path('syndication/latest/', feeds.TestLatestFeed()),
     path('syndication/custom/', feeds.TestCustomFeed()),
-    path('syndication/language/', feeds.TestLanguageFeed()),
     path('syndication/naive-dates/', feeds.NaiveDatesFeed()),
     path('syndication/aware-dates/', feeds.TZAwareDatesFeed()),
     path('syndication/feedurl/', feeds.TestFeedUrlFeed()),

@@ -8,8 +8,10 @@ from django.contrib.contenttypes.fields import (
 from django.contrib.contenttypes.models import ContentType
 from django.core.files.storage import FileSystemStorage
 from django.db import models
-from django.db.models.fields.files import ImageFieldFile
-from django.utils.translation import gettext_lazy as _
+from django.db.models.fields.files import ImageField, ImageFieldFile
+from django.db.models.fields.related import (
+    ForeignKey, ForeignObject, ManyToManyField, OneToOneField,
+)
 
 try:
     from PIL import Image
@@ -44,7 +46,6 @@ class Whiz(models.Model):
         )
         ),
         (0, 'Other'),
-        (5, _('translated')),
     )
     c = models.IntegerField(choices=CHOICES, null=True)
 
@@ -89,18 +90,6 @@ class UnicodeSlugField(models.Model):
     s = models.SlugField(max_length=255, allow_unicode=True)
 
 
-class AutoModel(models.Model):
-    value = models.AutoField(primary_key=True)
-
-
-class BigAutoModel(models.Model):
-    value = models.BigAutoField(primary_key=True)
-
-
-class SmallAutoModel(models.Model):
-    value = models.SmallAutoField(primary_key=True)
-
-
 class SmallIntegerModel(models.Model):
     value = models.SmallIntegerField()
 
@@ -112,10 +101,6 @@ class IntegerModel(models.Model):
 class BigIntegerModel(models.Model):
     value = models.BigIntegerField()
     null_value = models.BigIntegerField(null=True, blank=True)
-
-
-class PositiveBigIntegerModel(models.Model):
-    value = models.PositiveBigIntegerField()
 
 
 class PositiveSmallIntegerModel(models.Model):
@@ -252,7 +237,7 @@ if Image:
             self.was_opened = True
             super().open()
 
-    class TestImageField(models.ImageField):
+    class TestImageField(ImageField):
         attr_class = TestImageFieldFile
 
     # Set up a temp directory for file storage.
@@ -356,20 +341,20 @@ class AllFieldsModel(models.Model):
     url = models.URLField()
     uuid = models.UUIDField()
 
-    fo = models.ForeignObject(
+    fo = ForeignObject(
         'self',
         on_delete=models.CASCADE,
-        from_fields=['positive_integer'],
+        from_fields=['abstract_non_concrete_id'],
         to_fields=['id'],
         related_name='reverse'
     )
-    fk = models.ForeignKey(
+    fk = ForeignKey(
         'self',
         models.CASCADE,
         related_name='reverse2'
     )
-    m2m = models.ManyToManyField('self')
-    oto = models.OneToOneField('self', models.CASCADE)
+    m2m = ManyToManyField('self')
+    oto = OneToOneField('self', models.CASCADE)
 
     object_id = models.PositiveIntegerField()
     content_type = models.ForeignKey(ContentType, models.CASCADE)

@@ -64,7 +64,8 @@ def _unsalt_cipher_token(token):
     token = token[CSRF_SECRET_LENGTH:]
     chars = CSRF_ALLOWED_CHARS
     pairs = zip((chars.index(x) for x in token), (chars.index(x) for x in salt))
-    return ''.join(chars[x - y] for x, y in pairs)  # Note negative values are ok
+    secret = ''.join(chars[x - y] for x, y in pairs)  # Note negative values are ok
+    return secret
 
 
 def _get_new_csrf_token():
@@ -163,7 +164,7 @@ class CsrfViewMiddleware(MiddlewareMixin):
                 raise ImproperlyConfigured(
                     'CSRF_USE_SESSIONS is enabled, but request.session is not '
                     'set. SessionMiddleware must appear before CsrfViewMiddleware '
-                    'in MIDDLEWARE.'
+                    'in MIDDLEWARE%s.' % ('_CLASSES' if settings.MIDDLEWARE is None else '')
                 )
         else:
             try:

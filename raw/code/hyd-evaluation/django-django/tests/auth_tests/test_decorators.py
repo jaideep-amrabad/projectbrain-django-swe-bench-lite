@@ -15,7 +15,7 @@ class LoginRequiredTestCase(AuthViewsTestCase):
     Tests the login_required decorators
     """
 
-    def test_callable(self):
+    def testCallable(self):
         """
         login_required is assignable to callable objects.
         """
@@ -24,7 +24,7 @@ class LoginRequiredTestCase(AuthViewsTestCase):
                 pass
         login_required(CallableView())
 
-    def test_view(self):
+    def testView(self):
         """
         login_required is assignable to normal views.
         """
@@ -32,7 +32,7 @@ class LoginRequiredTestCase(AuthViewsTestCase):
             pass
         login_required(normal_view)
 
-    def test_login_required(self, view_url='/login_required/', login_url=None):
+    def testLoginRequired(self, view_url='/login_required/', login_url=None):
         """
         login_required works on a simple view wrapped in a login_required
         decorator.
@@ -46,12 +46,12 @@ class LoginRequiredTestCase(AuthViewsTestCase):
         response = self.client.get(view_url)
         self.assertEqual(response.status_code, 200)
 
-    def test_login_required_next_url(self):
+    def testLoginRequiredNextUrl(self):
         """
         login_required works on a simple view wrapped in a login_required
         decorator with a login_url set.
         """
-        self.test_login_required(view_url='/login_required_login_url/', login_url='/somewhere/')
+        self.testLoginRequired(view_url='/login_required_login_url/', login_url='/somewhere/')
 
 
 class PermissionsRequiredDecoratorTest(TestCase):

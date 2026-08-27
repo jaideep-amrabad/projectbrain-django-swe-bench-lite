@@ -13,7 +13,7 @@ from django.forms.forms import BaseForm, DeclarativeFieldsMetaclass
 from django.forms.formsets import BaseFormSet, formset_factory
 from django.forms.utils import ErrorList
 from django.forms.widgets import (
-    HiddenInput, MultipleHiddenInput, RadioSelect, SelectMultiple,
+    HiddenInput, MultipleHiddenInput, SelectMultiple,
 )
 from django.utils.text import capfirst, get_text_list
 from django.utils.translation import gettext, gettext_lazy as _
@@ -48,11 +48,8 @@ def construct_instance(form, instance, fields=None, exclude=None):
             continue
         # Leave defaults for fields that aren't in POST data, except for
         # checkbox inputs because they don't appear in POST data if not checked.
-        if (
-            f.has_default() and
-            form[f.name].field.widget.value_omitted_from_data(form.data, form.files, form.add_prefix(f.name)) and
-            cleaned_data.get(f.name) in form[f.name].field.empty_values
-        ):
+        if (f.has_default() and
+                form[f.name].field.widget.value_omitted_from_data(form.data, form.files, form.add_prefix(f.name))):
             continue
         # Defer saving file-type fields until after the other fields, so a
         # callable upload_to can use the values from other fields.
@@ -86,7 +83,7 @@ def model_to_dict(instance, fields=None, exclude=None):
     for f in chain(opts.concrete_fields, opts.private_fields, opts.many_to_many):
         if not getattr(f, 'editable', False):
             continue
-        if fields is not None and f.name not in fields:
+        if fields and f.name not in fields:
             continue
         if exclude and f.name in exclude:
             continue
@@ -140,7 +137,7 @@ def fields_for_model(model, fields=None, exclude=None, widgets=None,
     ignored = []
     opts = model._meta
     # Avoid circular import
-    from django.db.models import Field as ModelField
+    from django.db.models.fields import Field as ModelField
     sortable_private_fields = [f for f in opts.private_fields if isinstance(f, ModelField)]
     for f in sorted(chain(opts.concrete_fields, sortable_private_fields, opts.many_to_many)):
         if not getattr(f, 'editable', False):
@@ -214,7 +211,7 @@ class ModelFormMetaclass(DeclarativeFieldsMetaclass):
 
         formfield_callback = attrs.pop('formfield_callback', base_formfield_callback)
 
-        new_class = super().__new__(mcs, name, bases, attrs)
+        new_class = super(ModelFormMetaclass, mcs).__new__(mcs, name, bases, attrs)
 
         if bases == (BaseModelForm,):
             return new_class
@@ -476,9 +473,7 @@ def modelform_factory(model, form=ModelForm, fields=None, exclude=None,
                       labels=None, help_texts=None, error_messages=None,
                       field_classes=None):
     """
-    Return a ModelForm containing form fields for the given model. You can
-    optionally pass a `form` argument to use as a starting point for
-    constructing the ModelForm.
+    Return a ModelForm containing form fields for the given model.
 
     ``fields`` is an optional list of field names. If provided, include only
     the named fields in the returned fields. If omitted or '__all__', use all
@@ -1032,8 +1027,7 @@ def _get_foreign_key(parent_model, model, fk_name=None, can_fail=False):
             )
         else:
             raise ValueError(
-                "'%s' has more than one ForeignKey to '%s'. You must specify "
-                "a 'fk_name' attribute." % (
+                "'%s' has more than one ForeignKey to '%s'." % (
                     model._meta.label,
                     parent_model._meta.label,
                 )
@@ -1126,20 +1120,6 @@ class InlineForeignKeyField(Field):
         return False
 
 
-class ModelChoiceIteratorValue:
-    def __init__(self, value, instance):
-        self.value = value
-        self.instance = instance
-
-    def __str__(self):
-        return str(self.value)
-
-    def __eq__(self, other):
-        if isinstance(other, ModelChoiceIteratorValue):
-            other = other.value
-        return self.value == other
-
-
 class ModelChoiceIterator:
     def __init__(self, field):
         self.field = field
@@ -1165,10 +1145,7 @@ class ModelChoiceIterator:
         return self.field.empty_label is not None or self.queryset.exists()
 
     def choice(self, obj):
-        return (
-            ModelChoiceIteratorValue(self.field.prepare_value(obj), obj),
-            self.field.label_from_instance(obj),
-        )
+        return (self.field.prepare_value(obj), self.field.label_from_instance(obj))
 
 
 class ModelChoiceField(ChoiceField):
@@ -1184,20 +1161,18 @@ class ModelChoiceField(ChoiceField):
     def __init__(self, queryset, *, empty_label="---------",
                  required=True, widget=None, label=None, initial=None,
                  help_text='', to_field_name=None, limit_choices_to=None,
-                 blank=False, **kwargs):
+                 **kwargs):
+        if required and (initial is not None):
+            self.empty_label = None
+        else:
+            self.empty_label = empty_label
+
         # Call Field instead of ChoiceField __init__() because we don't need
         # ChoiceField.__init__().
         Field.__init__(
             self, required=required, widget=widget, label=label,
             initial=initial, help_text=help_text, **kwargs
         )
-        if (
-            (required and initial is not None) or
-            (isinstance(self.widget, RadioSelect) and not blank)
-        ):
-            self.empty_label = None
-        else:
-            self.empty_label = empty_label
         self.queryset = queryset
         self.limit_choices_to = limit_choices_to   # limit the queryset later.
         self.to_field_name = to_field_name
@@ -1268,8 +1243,6 @@ class ModelChoiceField(ChoiceField):
             return None
         try:
             key = self.to_field_name or 'pk'
-            if isinstance(value, self.queryset.model):
-                value = getattr(value, key)
             value = self.queryset.get(**{key: value})
         except (ValueError, TypeError, self.queryset.model.DoesNotExist):
             raise ValidationError(self.error_messages['invalid_choice'], code='invalid_choice')
@@ -1294,7 +1267,7 @@ class ModelMultipleChoiceField(ModelChoiceField):
         'list': _('Enter a list of values.'),
         'invalid_choice': _('Select a valid choice. %(value)s is not one of the'
                             ' available choices.'),
-        'invalid_pk_value': _('“%(pk)s” is not a valid value.')
+        'invalid_pk_value': _('"%(pk)s" is not a valid value.')
     }
 
     def __init__(self, queryset, **kwargs):

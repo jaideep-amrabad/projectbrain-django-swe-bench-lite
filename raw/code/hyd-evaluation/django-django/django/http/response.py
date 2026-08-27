@@ -17,9 +17,8 @@ from django.http.cookie import SimpleCookie
 from django.utils import timezone
 from django.utils.encoding import iri_to_uri
 from django.utils.http import http_date
-from django.utils.regex_helper import _lazy_re_compile
 
-_charset_from_content_type_re = _lazy_re_compile(r';\s*charset=(?P<charset>[^\s;]+)', re.I)
+_charset_from_content_type_re = re.compile(r';\s*charset=(?P<charset>[^\s;]+)', re.I)
 
 
 class BadHeaderError(ValueError):
@@ -41,7 +40,7 @@ class HttpResponseBase:
         # the header (required for working with legacy systems) and the header
         # value. Both the name of the header and its value are ASCII strings.
         self._headers = {}
-        self._resource_closers = []
+        self._closable_objects = []
         # This parameter is set by the handler. It's necessary to preserve the
         # historical behavior of request_finished.
         self._handler_class = None
@@ -197,8 +196,8 @@ class HttpResponseBase:
         if httponly:
             self.cookies[key]['httponly'] = True
         if samesite:
-            if samesite.lower() not in ('lax', 'none', 'strict'):
-                raise ValueError('samesite must be "lax", "none", or "strict".')
+            if samesite.lower() not in ('lax', 'strict'):
+                raise ValueError('samesite must be "lax" or "strict".')
             self.cookies[key]['samesite'] = samesite
 
     def setdefault(self, key, value):
@@ -230,7 +229,7 @@ class HttpResponseBase:
         # Handle string types -- we can't rely on force_bytes here because:
         # - Python attempts str conversion first
         # - when self._charset != 'utf-8' it re-encodes the content
-        if isinstance(value, (bytes, memoryview)):
+        if isinstance(value, bytes):
             return bytes(value)
         if isinstance(value, str):
             return bytes(value.encode(self.charset))
@@ -243,13 +242,11 @@ class HttpResponseBase:
     # The WSGI server must call this method upon completion of the request.
     # See http://blog.dscpl.com.au/2012/10/obligations-for-calling-close-on.html
     def close(self):
-        for closer in self._resource_closers:
+        for closable in self._closable_objects:
             try:
-                closer()
+                closable.close()
             except Exception:
                 pass
-        # Free resources that were still referenced.
-        self._resource_closers.clear()
         self.closed = True
         signals.request_finished.send(sender=self._handler_class)
 
@@ -380,7 +377,7 @@ class StreamingHttpResponse(HttpResponseBase):
         # Ensure we can never iterate on "value" more than once.
         self._iterator = iter(value)
         if hasattr(value, 'close'):
-            self._resource_closers.append(value.close)
+            self._closable_objects.append(value)
 
     def __iter__(self):
         return self.streaming_content
@@ -407,7 +404,7 @@ class FileResponse(StreamingHttpResponse):
 
         self.file_to_stream = filelike = value
         if hasattr(filelike, 'close'):
-            self._resource_closers.append(filelike.close)
+            self._closable_objects.append(filelike)
         value = iter(lambda: filelike.read(self.block_size), b'')
         self.set_headers(filelike)
         super()._set_streaming_content(value)
@@ -439,17 +436,15 @@ class FileResponse(StreamingHttpResponse):
             else:
                 self['Content-Type'] = 'application/octet-stream'
 
-        filename = self.filename or os.path.basename(filename)
-        if filename:
-            disposition = 'attachment' if self.as_attachment else 'inline'
-            try:
-                filename.encode('ascii')
-                file_expr = 'filename="{}"'.format(filename)
-            except UnicodeEncodeError:
-                file_expr = "filename*=utf-8''{}".format(quote(filename))
-            self['Content-Disposition'] = '{}; {}'.format(disposition, file_expr)
-        elif self.as_attachment:
-            self['Content-Disposition'] = 'attachment'
+        if self.as_attachment:
+            filename = self.filename or os.path.basename(filename)
+            if filename:
+                try:
+                    filename.encode('ascii')
+                    file_expr = 'filename="{}"'.format(filename)
+                except UnicodeEncodeError:
+                    file_expr = "filename*=utf-8''{}".format(quote(filename))
+                self['Content-Disposition'] = 'attachment; {}'.format(file_expr)
 
 
 class HttpResponseRedirectBase(HttpResponse):

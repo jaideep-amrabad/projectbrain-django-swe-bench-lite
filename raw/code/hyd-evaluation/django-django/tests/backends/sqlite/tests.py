@@ -1,28 +1,22 @@
-import os
 import re
-import tempfile
 import threading
 import unittest
-from pathlib import Path
 from sqlite3 import dbapi2
 from unittest import mock
 
 from django.core.exceptions import ImproperlyConfigured
-from django.db import NotSupportedError, connection, transaction
-from django.db.models import Aggregate, Avg, CharField, StdDev, Sum, Variance
-from django.db.utils import ConnectionHandler
+from django.db import connection, transaction
+from django.db.backends.sqlite3.base import check_sqlite_version
+from django.db.models import Avg, StdDev, Sum, Variance
+from django.db.models.aggregates import Aggregate
+from django.db.models.fields import CharField
+from django.db.utils import NotSupportedError
 from django.test import (
     TestCase, TransactionTestCase, override_settings, skipIfDBFeature,
 )
 from django.test.utils import isolate_apps
 
 from ..models import Author, Item, Object, Square
-
-try:
-    from django.db.backends.sqlite3.base import check_sqlite_version
-except ImproperlyConfigured:
-    # Ignore "SQLite is too old" when running tests on another database.
-    pass
 
 
 @unittest.skipUnless(connection.vendor == 'sqlite', 'SQLite tests')
@@ -89,19 +83,6 @@ class Tests(TestCase):
                     value = cursor.fetchone()[0]
                 value = bool(value) if value in {0, 1} else value
                 self.assertIs(value, expected)
-
-    def test_pathlib_name(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            settings_dict = {
-                'default': {
-                    'ENGINE': 'django.db.backends.sqlite3',
-                    'NAME': Path(tmp) / 'test.db',
-                },
-            }
-            connections = ConnectionHandler(settings_dict)
-            connections['default'].ensure_connection()
-            connections['default'].close()
-            self.assertTrue(os.path.isfile(os.path.join(tmp, 'test.db')))
 
 
 @unittest.skipUnless(connection.vendor == 'sqlite', 'SQLite tests')
@@ -197,8 +178,7 @@ class LastExecutedQueryTest(TestCase):
     def test_no_interpolation(self):
         # This shouldn't raise an exception (#17158)
         query = "SELECT strftime('%Y', 'now');"
-        with connection.cursor() as cursor:
-            cursor.execute(query)
+        connection.cursor().execute(query)
         self.assertEqual(connection.queries[-1]['sql'], query)
 
     def test_parameter_quoting(self):
@@ -206,8 +186,7 @@ class LastExecutedQueryTest(TestCase):
         # worth testing that parameters are quoted (#14091).
         query = "SELECT %s"
         params = ["\"'\\"]
-        with connection.cursor() as cursor:
-            cursor.execute(query, params)
+        connection.cursor().execute(query, params)
         # Note that the single quote is repeated
         substituted = "SELECT '\"''\\'"
         self.assertEqual(connection.queries[-1]['sql'], substituted)

@@ -3,8 +3,6 @@ Bare-bones model
 
 This is a basic model with only two non-primary-key fields.
 """
-import uuid
-
 from django.db import models
 
 
@@ -42,7 +40,3 @@ class SelfRef(models.Model):
         # This method intentionally doesn't work for all cases - part
         # of the test for ticket #20278
         return SelfRef.objects.get(selfref=self).pk
-
-
-class PrimaryKeyWithDefault(models.Model):
-    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4)

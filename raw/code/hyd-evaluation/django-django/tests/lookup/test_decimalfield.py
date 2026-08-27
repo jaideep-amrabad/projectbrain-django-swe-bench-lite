@@ -1,4 +1,5 @@
-from django.db.models import F, Sum
+from django.db.models.aggregates import Sum
+from django.db.models.expressions import F
 from django.test import TestCase
 
 from .models import Product, Stock

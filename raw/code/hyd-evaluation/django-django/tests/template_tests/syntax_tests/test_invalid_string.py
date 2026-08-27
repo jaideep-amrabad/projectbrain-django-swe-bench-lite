@@ -53,7 +53,7 @@ class InvalidStringTests(SimpleTestCase):
         else:
             self.assertEqual(output, '')
 
-    @setup({'invalidstr07': '{% load i18n %}{% blocktranslate %}{{ var }}{% endblocktranslate %}'})
+    @setup({'invalidstr07': '{% load i18n %}{% blocktrans %}{{ var }}{% endblocktrans %}'})
     def test_invalidstr07(self):
         output = self.engine.render_to_string('invalidstr07')
         if self.engine.string_if_invalid:

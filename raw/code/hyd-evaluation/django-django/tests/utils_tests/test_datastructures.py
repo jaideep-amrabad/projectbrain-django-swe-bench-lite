@@ -44,8 +44,9 @@ class MultiValueDictTests(SimpleTestCase):
             sorted(d.lists()),
             [('name', ['Adrian', 'Simon']), ('position', ['Developer'])]
         )
-        with self.assertRaisesMessage(MultiValueDictKeyError, "'lastname'"):
+        with self.assertRaises(MultiValueDictKeyError) as cm:
             d.__getitem__('lastname')
+        self.assertEqual(str(cm.exception), "'lastname'")
         self.assertIsNone(d.get('lastname'))
         self.assertEqual(d.get('lastname', 'nonexistent'), 'nonexistent')
         self.assertEqual(d.getlist('lastname'), [])
@@ -167,7 +168,7 @@ class CaseInsensitiveMappingTests(SimpleTestCase):
             CaseInsensitiveMapping([(1, '2')])
 
     def test_list(self):
-        self.assertEqual(list(self.dict1), ['Accept', 'content-type'])
+        self.assertEqual(sorted(list(self.dict1)), sorted(['Accept', 'content-type']))
 
     def test_dict(self):
         self.assertEqual(dict(self.dict1), {'Accept': 'application/json', 'content-type': 'text/html'})

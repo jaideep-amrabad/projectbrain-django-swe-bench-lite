@@ -1,10 +1,12 @@
 from django.db import models
-from django.db.models.fields.related import ReverseManyToOneDescriptor
+from django.db.models.fields.related import (
+    ForeignObjectRel, ReverseManyToOneDescriptor,
+)
 from django.db.models.lookups import StartsWith
 from django.db.models.query_utils import PathInfo
 
 
-class CustomForeignObjectRel(models.ForeignObjectRel):
+class CustomForeignObjectRel(ForeignObjectRel):
     """
     Define some extra Field methods so this Rel acts more like a Field, which
     lets us use ReverseManyToOneDescriptor in both directions.

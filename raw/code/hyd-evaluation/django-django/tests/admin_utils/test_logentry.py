@@ -53,9 +53,9 @@ class LogEntryTests(TestCase):
         response = self.client.post(change_url, post_data)
         self.assertRedirects(response, reverse('admin:admin_utils_article_changelist'))
         logentry = LogEntry.objects.filter(content_type__model__iexact='article').latest('id')
-        self.assertEqual(logentry.get_change_message(), 'Changed Title and History.')
+        self.assertEqual(logentry.get_change_message(), 'Changed title and hist.')
         with translation.override('fr'):
-            self.assertEqual(logentry.get_change_message(), 'Modification de Title et Historique.')
+            self.assertEqual(logentry.get_change_message(), 'Modification de title et hist.')
 
         add_url = reverse('admin:admin_utils_article_add')
         post_data['title'] = 'New'
@@ -85,7 +85,7 @@ class LogEntryTests(TestCase):
             response = self.client.post(change_url, post_data)
             self.assertRedirects(response, reverse('admin:admin_utils_article_changelist'))
         logentry = LogEntry.objects.filter(content_type__model__iexact='article').latest('id')
-        self.assertEqual(logentry.get_change_message(), 'Changed Title and History.')
+        self.assertEqual(logentry.get_change_message(), 'Changed title and hist.')
 
     def test_logentry_change_message_formsets(self):
         """
@@ -123,25 +123,23 @@ class LogEntryTests(TestCase):
         self.assertEqual(
             json.loads(logentry.change_message),
             [
-                {"changed": {"fields": ["Domain"]}},
+                {"changed": {"fields": ["domain"]}},
                 {"added": {"object": "Added article", "name": "article"}},
-                {"changed": {"fields": ["Title", "not_a_form_field"], "object": "Changed Title", "name": "article"}},
+                {"changed": {"fields": ["title"], "object": "Changed Title", "name": "article"}},
                 {"deleted": {"object": "Title second article", "name": "article"}},
             ]
         )
         self.assertEqual(
             logentry.get_change_message(),
-            'Changed Domain. Added article “Added article”. '
-            'Changed Title and not_a_form_field for article “Changed Title”. '
-            'Deleted article “Title second article”.'
+            'Changed domain. Added article "Added article". '
+            'Changed title for article "Changed Title". Deleted article "Title second article".'
         )
 
         with translation.override('fr'):
             self.assertEqual(
                 logentry.get_change_message(),
-                "Modification de Domain. Ajout de article « Added article ». "
-                "Modification de Title et not_a_form_field pour l'objet "
-                "article « Changed Title ». "
+                "Modification de domain. Ajout de article « Added article ». "
+                "Modification de title pour l'objet article « Changed Title ». "
                 "Suppression de article « Title second article »."
             )
 

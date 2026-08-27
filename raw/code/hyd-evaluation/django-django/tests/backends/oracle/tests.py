@@ -1,7 +1,8 @@
 import unittest
 
-from django.db import DatabaseError, connection
-from django.db.models import BooleanField, NullBooleanField
+from django.db import connection
+from django.db.models.fields import BooleanField, NullBooleanField
+from django.db.utils import DatabaseError
 from django.test import TransactionTestCase
 
 from ..models import Square
@@ -23,8 +24,9 @@ class Tests(unittest.TestCase):
 
     def test_cursor_var(self):
         """Cursor variables can be passed as query parameters."""
+        from django.db.backends.oracle.base import Database
         with connection.cursor() as cursor:
-            var = cursor.var(str)
+            var = cursor.var(Database.STRING)
             cursor.execute("BEGIN %s := 'X'; END; ", [var])
             self.assertEqual(var.getvalue(), 'X')
 
@@ -86,7 +88,7 @@ class TransactionalTests(TransactionTestCase):
         old_password = connection.settings_dict['PASSWORD']
         connection.settings_dict['PASSWORD'] = 'p@ssword'
         try:
-            self.assertIn('/"p@ssword"@', connection._connect_string())
+            self.assertIn('/\\"p@ssword\\"@', connection._connect_string())
             with self.assertRaises(DatabaseError) as context:
                 connection.cursor()
             # Database exception: "ORA-01017: invalid username/password" is

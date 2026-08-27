@@ -21,7 +21,7 @@ def no_template_view(request):
 def staff_only_view(request):
     "A view that can only be visited by staff. Non staff members get an exception"
     if request.user.is_staff:
-        return HttpResponse()
+        return HttpResponse('')
     else:
         raise CustomTestException()
 
@@ -109,10 +109,6 @@ def return_json_response(request):
     return JsonResponse({'key': 'value'}, **kwargs)
 
 
-def return_json_response_latin1(request):
-    return HttpResponse(b'{"a":"\xc5"}', content_type='application/json; charset=latin1')
-
-
 def return_text_file(request):
     "A view that parses and returns text as a file."
     match = CONTENT_TYPE_RE.match(request.META['CONTENT_TYPE'])
@@ -121,7 +117,8 @@ def return_text_file(request):
     else:
         charset = settings.DEFAULT_CHARSET
 
-    return HttpResponse(request.body, status=200, content_type='text/plain; charset=%s' % charset)
+    response = HttpResponse(request.body, status=200, content_type='text/plain; charset=%s' % charset)
+    return response
 
 
 def check_headers(request):
@@ -154,15 +151,3 @@ def render_template_multiple_times(request):
     """A view that renders a template multiple times."""
     return HttpResponse(
         render_to_string('base.html') + render_to_string('base.html'))
-
-
-def redirect_based_on_extra_headers_1_view(request):
-    if 'HTTP_REDIRECT' in request.META:
-        return HttpResponseRedirect('/redirect_based_on_extra_headers_2/')
-    return HttpResponse()
-
-
-def redirect_based_on_extra_headers_2_view(request):
-    if 'HTTP_REDIRECT' in request.META:
-        return HttpResponseRedirect('/redirects/further/more/')
-    return HttpResponse()

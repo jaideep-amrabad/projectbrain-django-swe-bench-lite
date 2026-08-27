@@ -1,5 +1,5 @@
-from django.db import InterfaceError
 from django.db.backends.base.features import BaseDatabaseFeatures
+from django.db.utils import InterfaceError
 
 
 class DatabaseFeatures(BaseDatabaseFeatures):
@@ -52,10 +52,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     """
     supports_callproc_kwargs = True
     supports_over_clause = True
-    supports_frame_range_fixed_distance = True
     supports_ignore_conflicts = False
     max_query_params = 2**16 - 1
     supports_partial_indexes = False
     supports_slicing_ordering_in_compound = True
-    allows_multiple_constraints_on_same_fields = False
-    supports_boolean_expr_in_select_clause = False

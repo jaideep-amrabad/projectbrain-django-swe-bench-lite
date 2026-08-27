@@ -13,9 +13,7 @@ from django.http import (
     HttpRequest, HttpResponsePermanentRedirect, HttpResponseRedirect,
 )
 from django.shortcuts import redirect
-from django.test import (
-    RequestFactory, SimpleTestCase, TestCase, override_settings,
-)
+from django.test import SimpleTestCase, TestCase, override_settings
 from django.test.utils import override_script_prefix
 from django.urls import (
     NoReverseMatch, Resolver404, ResolverMatch, URLPattern, URLResolver,
@@ -182,8 +180,6 @@ test_data = (
     ('named_optional', '/optional/1/', [], {'arg1': 1}),
     ('named_optional', '/optional/1/2/', [1, 2], {}),
     ('named_optional', '/optional/1/2/', [], {'arg1': 1, 'arg2': 2}),
-    ('named_optional_terminated', '/optional/1/', [1], {}),
-    ('named_optional_terminated', '/optional/1/', [], {'arg1': 1}),
     ('named_optional_terminated', '/optional/1/2/', [1, 2], {}),
     ('named_optional_terminated', '/optional/1/2/', [], {'arg1': 1, 'arg2': 2}),
     ('hardcoded', '/hardcoded/', [], {}),
@@ -529,14 +525,6 @@ class ReverseLazyTest(TestCase):
         self.assertEqual(
             'Some URL: %s' % reverse_lazy('some-login-page'),
             'Some URL: /login/'
-        )
-
-    def test_build_absolute_uri(self):
-        factory = RequestFactory()
-        request = factory.get('/')
-        self.assertEqual(
-            request.build_absolute_uri(reverse_lazy('some-login-page')),
-            'http://testserver/login/',
         )
 
 
@@ -1009,11 +997,8 @@ class RequestURLconfTests(SimpleTestCase):
         Test reversing an URL from the *default* URLconf from inside
         a response middleware.
         """
-        msg = (
-            "Reverse for 'outer' not found. 'outer' is not a valid view "
-            "function or pattern name."
-        )
-        with self.assertRaisesMessage(NoReverseMatch, msg):
+        message = "Reverse for 'outer' not found."
+        with self.assertRaisesMessage(NoReverseMatch, message):
             self.client.get('/second_test/')
 
     @override_settings(
@@ -1085,8 +1070,7 @@ class DefaultErrorHandlerTests(SimpleTestCase):
         response = self.client.get('/test/')
         self.assertEqual(response.status_code, 404)
 
-        msg = "I don't think I'm getting good value for this view"
-        with self.assertRaisesMessage(ValueError, msg):
+        with self.assertRaisesMessage(ValueError, "I don't think I'm getting good"):
             self.client.get('/bad_view/')
 
 

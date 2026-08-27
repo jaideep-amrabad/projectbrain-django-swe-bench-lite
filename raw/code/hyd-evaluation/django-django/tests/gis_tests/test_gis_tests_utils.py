@@ -1,4 +1,5 @@
 from django.db import connection, models
+from django.db.models.expressions import Func
 from django.test import SimpleTestCase
 
 from .utils import FuncTestMixin
@@ -7,7 +8,7 @@ from .utils import FuncTestMixin
 def test_mutation(raises=True):
     def wrapper(mutation_func):
         def test(test_case_instance, *args, **kwargs):
-            class TestFunc(models.Func):
+            class TestFunc(Func):
                 output_field = models.IntegerField()
 
                 def __init__(self):

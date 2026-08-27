@@ -118,19 +118,11 @@ class InspectDBTestCase(TestCase):
             assertFieldType('pos_int_field', "models.IntegerField()")
 
         if connection.features.can_introspect_positive_integer_field:
-            if connection.features.can_introspect_big_integer_field:
-                assertFieldType('pos_big_int_field', 'models.PositiveBigIntegerField()')
-            else:
-                assertFieldType('pos_big_int_field', 'models.PositiveIntegerField()')
             if connection.features.can_introspect_small_integer_field:
                 assertFieldType('pos_small_int_field', "models.PositiveSmallIntegerField()")
             else:
                 assertFieldType('pos_small_int_field', "models.PositiveIntegerField()")
         else:
-            if connection.features.can_introspect_big_integer_field:
-                assertFieldType('pos_big_int_field', 'models.BigIntegerField()')
-            else:
-                assertFieldType('pos_big_int_field', 'models.IntegerField()')
             if connection.features.can_introspect_small_integer_field:
                 assertFieldType('pos_small_int_field', "models.SmallIntegerField()")
             else:
@@ -160,11 +152,11 @@ class InspectDBTestCase(TestCase):
             output,
         )
         self.assertIn(
-            'people_pk = models.OneToOneField(InspectdbPeople, models.DO_NOTHING, primary_key=True)',
+            "people_pk = models.ForeignKey(InspectdbPeople, models.DO_NOTHING, primary_key=True)",
             output,
         )
         self.assertIn(
-            'people_unique = models.OneToOneField(InspectdbPeople, models.DO_NOTHING)',
+            "people_unique = models.ForeignKey(InspectdbPeople, models.DO_NOTHING, unique=True)",
             output,
         )
 
@@ -223,7 +215,7 @@ class InspectDBTestCase(TestCase):
         call_command('inspectdb', 'inspectdb_uniquetogether', stdout=out)
         output = out.getvalue()
         self.assertIn("    unique_together = (('", output)
-        unique_together_match = self.unique_re.findall(output)
+        unique_together_match = re.findall(self.unique_re, output)
         # There should be one unique_together tuple.
         self.assertEqual(len(unique_together_match), 1)
         fields = unique_together_match[0]
@@ -252,7 +244,7 @@ class InspectDBTestCase(TestCase):
             )
             output = out.getvalue()
             self.assertIn('# A unique constraint could not be introspected.', output)
-            self.assertEqual(self.unique_re.findall(output), ["('id', 'people_unique')"])
+            self.assertEqual(re.findall(self.unique_re, output), ["('id', 'people_unique')"])
         finally:
             with connection.cursor() as c:
                 c.execute('DROP INDEX Findex')

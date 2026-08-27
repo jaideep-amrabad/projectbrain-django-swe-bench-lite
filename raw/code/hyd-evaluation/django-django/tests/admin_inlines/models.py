@@ -37,9 +37,6 @@ class Child(models.Model):
 class Book(models.Model):
     name = models.CharField(max_length=50)
 
-    def __str__(self):
-        return self.name
-
 
 class Author(models.Model):
     name = models.CharField(max_length=50)
@@ -110,20 +107,10 @@ class Inner4Stacked(models.Model):
     dummy = models.IntegerField(help_text="Awesome stacked help text is awesome.")
     holder = models.ForeignKey(Holder4, models.CASCADE)
 
-    class Meta:
-        constraints = [
-            models.UniqueConstraint(fields=['dummy', 'holder'], name='unique_stacked_dummy_per_holder')
-        ]
-
 
 class Inner4Tabular(models.Model):
     dummy = models.IntegerField(help_text="Awesome tabular help text is awesome.")
     holder = models.ForeignKey(Holder4, models.CASCADE)
-
-    class Meta:
-        constraints = [
-            models.UniqueConstraint(fields=['dummy', 'holder'], name='unique_tabular_dummy_per_holder')
-        ]
 
 # Models for #12749
 

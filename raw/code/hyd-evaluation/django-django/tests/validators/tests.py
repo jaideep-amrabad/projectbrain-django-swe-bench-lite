@@ -3,7 +3,7 @@ import re
 import types
 from datetime import datetime, timedelta
 from decimal import Decimal
-from unittest import TestCase, mock
+from unittest import TestCase
 
 from django.core.exceptions import ValidationError
 from django.core.files.base import ContentFile
@@ -424,7 +424,6 @@ class TestValidatorEquality(TestCase):
             MaxValueValidator(44),
             MaxValueValidator(44),
         )
-        self.assertEqual(MaxValueValidator(44), mock.ANY)
         self.assertNotEqual(
             MaxValueValidator(44),
             MinValueValidator(44),

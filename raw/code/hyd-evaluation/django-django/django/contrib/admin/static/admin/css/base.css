@@ -94,7 +94,7 @@ h5 {
     letter-spacing: 1px;
 }
 
-ul > li {
+ul li {
     list-style-type: square;
     padding: 1px 0;
 }
@@ -284,14 +284,11 @@ tr.alt {
     background: #f6f6f6;
 }
 
-.row1, .row-form-errors {
+.row1 {
     background: #fff;
 }
 
-.row2,
-.row2 .errorlist,
-.row1 + .row-form-errors,
-.row1 + .row-form-errors .errorlist {
+.row2 {
     background: #f9f9f9;
 }
 
