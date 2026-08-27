@@ -1,40 +1,41 @@
 # Community 562
 
-> 19 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **devDependencies** (6 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **FieldFile** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__setstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **File** (1 connections)
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 780](Community_780.md) (1 shared connections)
+- [Community 307](Community_307.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/package.json`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,24 +1,22 @@
 # Community 1242
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_min_num_displaying_more_than_one_blank_form_with_zero_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **More than 1 empty form can be displayed using min_num.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **loaders/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/__init__.py`
 
 ## Relationships
 
-- [Community 550](Community_550.md) (1 shared connections)
-- [Community 600](Community_600.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

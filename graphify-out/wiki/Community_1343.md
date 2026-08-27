@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **autocomplete.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/autocomplete.js`
+- **empty_models/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/autocomplete.js`
+- `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
 
 ## Audit Trail
 

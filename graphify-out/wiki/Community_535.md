@@ -1,46 +1,42 @@
 # Community 535
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **ChildAdmin** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_result_list_empty_changelist_value()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_html()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_set_empty_value_display_in_model_admin()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_set_empty_value_display_on_admin_site()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **build_tbody_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_editable_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_pagination()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_editable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_select_related_preserved()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_show_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression test for #14982: EMPTY_CHANGELIST_VALUE should be honored for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Empty value display can be set on AdminSite.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Empty value display can be set in ModelAdmin or individual fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Inclusion tag result_list generates a table when with default ModelAdmin…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression tests for #11791: Inclusion tag result_list generates a table and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression test for #14312: list_editable with pagination** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression tests for #12893: Pagination in admins changelist doesn't use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression test for #10348: ChangeList.get_queryset() shouldn't overwrite a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **ListMixinTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.lists_of_len()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.limits_plus()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test02_setslice()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test01_getslice()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test04_get_set_del_single()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.step_range()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test05_out_of_range_exceptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test06_list_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test09_iterable_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test10_checkindex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test03_delslice()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test07_allowed_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test08_min_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test_11_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.test_12_arithmetic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **Get/set/delete single item** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **Out of range exceptions** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **Error on assigning non-iterable to slice** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **Tests base class ListMixin by comparing a list clone which is a ListMixin…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
 
 ## Relationships
 
-- [Community 136](Community_136.md) (17 shared connections)
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
+- [Community 691](Community_691.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 41 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

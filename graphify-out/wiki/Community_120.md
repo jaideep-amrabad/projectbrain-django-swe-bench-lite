@@ -1,66 +1,65 @@
 # Community 120
 
-> 69 nodes · cohesion 0.04
+> 54 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **migrations/test_operations.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **migrations/test_state.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **migrations/test_base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Migration** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **OperationTestBase** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **migrations/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **FoodManager** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **migrations/test_multidb.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **test_optimizer.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **migration.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **FoodQuerySet** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **UnicodeModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **SwappableOperationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **SwappableTuple** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **IrreversibleError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **UnserializableModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **swappable_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.unapply()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **ModelWithCustomBase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **.apply_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.cleanup_test_tables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.make_test_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **MigrateWhenFooRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_atomic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- *... and 44 more nodes in this community*
+- **Left** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Substr** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Chr** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Right** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **StrIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **ChrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **LeftTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **RightTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- **SubstrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.get_substr()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **OrdTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.test_nested_outerref_with_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.get_substr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_non_ascii()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **.test_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (36 shared connections)
-- [Community 28](Community_28.md) (21 shared connections)
-- [Community 73](Community_73.md) (16 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 62](Community_62.md) (9 shared connections)
-- [Community 193](Community_193.md) (7 shared connections)
-- [Community 177](Community_177.md) (7 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 418](Community_418.md) (5 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 129](Community_129.md) (4 shared connections)
-- [Community 36](Community_36.md) (4 shared connections)
+- [Community 59](Community_59.md) (40 shared connections)
+- [Community 49](Community_49.md) (12 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
+- [Community 149](Community_149.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 237 (89%)
-- INFERRED: 29 (11%)
+- EXTRACTED: 137 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

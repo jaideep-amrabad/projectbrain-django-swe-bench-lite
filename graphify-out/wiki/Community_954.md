@@ -1,31 +1,28 @@
 # Community 954
 
-> 7 nodes · cohesion 0.43
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **InvalidQueryTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **InvalidQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.assert_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_isinstance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_issubclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **Exception** (1 connections)
+- **NamedValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.create_namedtuple_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(named=True) that yields a namedtuple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (4 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

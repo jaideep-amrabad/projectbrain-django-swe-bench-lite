@@ -1,29 +1,29 @@
 # Community 902
 
-> 8 nodes · cohesion 0.32
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **JSONField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **InvalidJSONInput** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **JSONString** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.bound_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **str** (2 connections)
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- **TestNumberFormat** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (3 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

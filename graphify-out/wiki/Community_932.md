@@ -1,36 +1,30 @@
 # Community 932
 
-> 9 nodes · cohesion 0.28
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **str/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **str/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **SimpleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **InternationalArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **.test_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **Adding __str__() to models Although it's not a strict requirement, each model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **The default implementation of __str__ and __repr__ should return instances of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **.test_international()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **YamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **skipUnless** (2 connections)
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_yaml_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 413](Community_413.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

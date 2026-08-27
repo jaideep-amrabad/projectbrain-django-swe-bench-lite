@@ -1,39 +1,40 @@
 # Community 717
 
-> 14 nodes · cohesion 0.19
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ExecutorUnitTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **FakeMigration** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_backwards_nothing_to_do()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_minimize_rollbacks()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_minimize_rollbacks_branchy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **FakeLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **Really all we need is any object with a debug-useful repr.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **(More) isolated unit tests for executor methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **Minimize unnecessary rollbacks in connected apps. When you say "./manage.py…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **r""" Minimize rollbacks when target has multiple in-app children. a: 1 <---- 3…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **r""" If the current state satisfies the given target, do nothing. a: 1 <--- 2…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **TestBadSetUpTestData** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestRaiseLastException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **MyException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_custom_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Exception** (1 connections)
+- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_raises_exception_with_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (4 shared connections)
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 193](Community_193.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 547](Community_547.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 426](Community_426.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

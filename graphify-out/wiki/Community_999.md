@@ -1,27 +1,26 @@
 # Community 999
 
-> 6 nodes · cohesion 0.53
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
-- **._run_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
-- **.test_django_admin_py_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
-- **.test_django_admin_py_equivalent_main()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
-- **.test_main_not_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **EscapejsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **.test_escapejs01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **.test_escapejs02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **setup** (2 connections)
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

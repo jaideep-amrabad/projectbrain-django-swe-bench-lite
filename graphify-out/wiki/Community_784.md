@@ -1,40 +1,36 @@
 # Community 784
 
-> 12 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **AsyncClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **RedirectCycleError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Exception** (1 connections)
-- **A HTTP Handler that can be used for testing purposes. Use the WSGI interface to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **An async version of ClientHandler.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **The test client has been asked to follow a redirect loop.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **m2m_multiple/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **m2m_multiple/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **M2MMultipleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **.test_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Multiple many-to-many relationships between the same two tables In this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
 
 ## Relationships
 
-- [Community 503](Community_503.md) (6 shared connections)
-- [Community 541](Community_541.md) (2 shared connections)
-- [Community 337](Community_337.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 18 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

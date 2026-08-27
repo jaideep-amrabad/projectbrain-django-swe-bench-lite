@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **SelectBox.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
+- **file_storage/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/__init__.py`
 
 ## Audit Trail
 

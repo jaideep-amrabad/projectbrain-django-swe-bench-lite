@@ -1,25 +1,22 @@
 # Community 1194
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **admin_changelist/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
-- **admin_changelist/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
+- **actions.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

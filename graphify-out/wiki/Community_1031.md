@@ -1,28 +1,28 @@
 # Community 1031
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.send()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.recipients()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.get_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Return a list of all recipients of the email (includes direct addressees as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Send the email message.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Relationships
 
-- [Community 106](Community_106.md) (3 shared connections)
-- [Community 672](Community_672.md) (1 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 475](Community_475.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

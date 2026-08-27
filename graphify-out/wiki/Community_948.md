@@ -1,34 +1,29 @@
 # Community 948
 
-> 7 nodes · cohesion 0.29
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.describe_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.sync_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.migration_progress_callback()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **Run the old syncdb-style operation on a list of app_labels.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **Return a string that describes a migration operation for --plan.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **TestFeatures** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.test_skip_locked_no_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.test_supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **skipUnless** (1 connections)
+- **All storage engines except MyISAM support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 779](Community_779.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (75%)
-- INFERRED: 4 (25%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

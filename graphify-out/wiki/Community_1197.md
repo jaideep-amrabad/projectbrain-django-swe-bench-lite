@@ -1,24 +1,22 @@
 # Community 1197
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_no_distinct_for_m2m_in_list_filter_without_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **If a ManyToManyField is in list_filter but isn't in any lookup params, the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **change_form.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/change_form.js`
 
 ## Relationships
 
-- [Community 292](Community_292.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/change_form.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

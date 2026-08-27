@@ -1,63 +1,62 @@
 # Community 92
 
-> 82 nodes · cohesion 0.03
+> 104 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **test_utils/tests.py** (68 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Car** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **AssertQuerysetEqualTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **test_testcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **test_transactiontestcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **test_utils/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **Person** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **JSONEqualTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **setup_test_environment()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **TestTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **AssertNumQueriesContextManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **AssertURLEqualTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **PossessedCar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **AssertNumQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **AssertWarnsMessageTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **DisallowedDatabaseQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **AllowedDatabaseQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **AssertNumQueriesUponConnectionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **DisallowedDatabaseQueriesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **TransactionTestCaseDatabasesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **AssertFieldOutputTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **AssertRaisesMsgTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **SetupTestEnvironmentTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **SkippingExtraTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **instrumented_test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- *... and 57 more nodes in this community*
+- **ForeignKey** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **CASCADE()** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.column_classes()** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.assertForeignKeyExists()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **._test_m2m_repoint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_fk_to_o2o()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_o2o_to_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_to_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_db_table()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_fk_db_constraint()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **._test_m2m_create()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **._test_m2m_create_through()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **._test_m2m_through_alter()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_no_db_constraint_added_during_primary_key_change()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_unique_no_unnecessary_fk_drops()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.assertForeignKeyNotExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_foreign_key_quoted_db_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_fk()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_fk_to_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_inline_fk()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_foreign_key_long_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_fk_checks_deferred_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_null_to_not_null_keeping_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- *... and 79 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (15 shared connections)
-- [Community 30](Community_30.md) (9 shared connections)
-- [Community 503](Community_503.md) (9 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 16](Community_16.md) (8 shared connections)
-- [Community 38](Community_38.md) (6 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 134](Community_134.md) (4 shared connections)
-- [Community 213](Community_213.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 597](Community_597.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
+- [Community 58](Community_58.md) (66 shared connections)
+- [Community 27](Community_27.md) (15 shared connections)
+- [Community 380](Community_380.md) (8 shared connections)
+- [Community 345](Community_345.md) (8 shared connections)
+- [Community 16](Community_16.md) (7 shared connections)
+- [Community 164](Community_164.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 155](Community_155.md) (3 shared connections)
+- [Community 429](Community_429.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 82](Community_82.md) (2 shared connections)
+- [Community 333](Community_333.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 177 (93%)
-- INFERRED: 14 (7%)
+- EXTRACTED: 243 (85%)
+- INFERRED: 42 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

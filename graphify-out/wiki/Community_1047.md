@@ -1,29 +1,24 @@
 # Community 1047
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **LocaleRegexDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **Return a compiled regular expression based on the active language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the maximum length of table and column names, or None if there is no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 503](Community_503.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 933](Community_933.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

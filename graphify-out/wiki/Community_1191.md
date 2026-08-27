@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **.set_time_zone_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL that will set the connection's time zone. Return '' if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **tests/urls.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
+- **This URLconf exists because Django expects ROOT_URLCONF to exist. URLs should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
 
 ## Relationships
 
-- [Community 103](Community_103.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

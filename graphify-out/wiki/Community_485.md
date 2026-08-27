@@ -1,58 +1,46 @@
 # Community 485
 
-> 23 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **fixtures/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **fixtures/models.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Fixtures. Fixtures are a way of loading data into the database in bulk. Fixure…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **RawQueryTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_db_column_name_is_used_in_raw_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_query_representation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_raw_query_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Raw queries are lazy: they aren't actually executed until they're iterated over.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Test representation of raw query with parameters** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Regression test that ensures the `column` attribute on the field is used to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_decimal_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_get_item()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_iterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_missing_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_missing_fields_without_PK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_multiple_iterations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_query_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_result_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_subquery_in_raw_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (7 shared connections)
-- [Community 326](Community_326.md) (7 shared connections)
-- [Community 881](Community_881.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 920](Community_920.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 97](Community_97.md) (2 shared connections)
-- [Community 1102](Community_1102.md) (2 shared connections)
-- [Community 503](Community_503.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 1153](Community_1153.md) (2 shared connections)
+- [Community 169](Community_169.md) (11 shared connections)
+- [Community 791](Community_791.md) (8 shared connections)
+- [Community 833](Community_833.md) (5 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 38 (83%)
+- INFERRED: 8 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

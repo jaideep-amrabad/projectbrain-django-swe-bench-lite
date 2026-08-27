@@ -1,62 +1,59 @@
 # Community 347
 
-> 36 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **OneToOneField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **ModelBase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **SettingsReference** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__new__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._prepare()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.formfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **_has_contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.add_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **subclass_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.formfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **str** (1 connections)
-- **String subclass which references a current settings value. It's treated as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- *... and 11 more nodes in this community*
+- **db/transaction.py** (66 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **set_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **set_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **ContextDecorator** (1 connections)
+- **Register `func` to be called when the current transaction is committed. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Guarantee the atomic execution of a given block. An instance can be used either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Get a database connection by name, or the default database connection if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Get the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Set the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Commit a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 56](Community_56.md) (8 shared connections)
-- [Community 105](Community_105.md) (5 shared connections)
-- [Community 124](Community_124.md) (4 shared connections)
-- [Community 177](Community_177.md) (2 shared connections)
-- [Community 503](Community_503.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 426](Community_426.md) (2 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
-- [Community 208](Community_208.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 9](Community_9.md) (11 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 357](Community_357.md) (3 shared connections)
+- [Community 929](Community_929.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 118](Community_118.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 809](Community_809.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (89%)
-- INFERRED: 9 (11%)
+- EXTRACTED: 99 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

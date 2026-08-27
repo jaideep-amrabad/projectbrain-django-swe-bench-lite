@@ -2,7 +2,7 @@
 
 > God node · 393 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 38](Community_38.md)
+**Community:** [Community 27](Community_27.md)
 
 ## Connections by Relation
 
@@ -18,8 +18,8 @@
 - django/test/__init__.py `EXTRACTED`
 - queries/tests.py `EXTRACTED`
 - model_forms/tests.py `EXTRACTED`
-- test_utils/tests.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
+- test_utils/tests.py `EXTRACTED`
 - schema/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
@@ -32,9 +32,9 @@
 - expressions_window/tests.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
+- fixtures/tests.py `EXTRACTED`
 - aggregation_regress/tests.py `EXTRACTED`
 - geo3d/tests.py `EXTRACTED`
-- fixtures/tests.py `EXTRACTED`
 
 ### rationale_for
 - Skip a test unless a database has all the named features. `EXTRACTED`

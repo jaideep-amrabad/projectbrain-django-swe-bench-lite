@@ -1,58 +1,63 @@
 # Community 156
 
-> 58 nodes · cohesion 0.04
+> 94 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **test_dates.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **ArchiveIndexViewTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **DateDetailViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **DayArchiveViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **WeekArchiveViewTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **BookSigning** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **_make_books()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_archive_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_date_detail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_day_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **requires_tz_support** (3 connections)
-- **.test_paginated_archive_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_paginated_archive_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_get_object_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_week_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_allow_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_by_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_custom_sorting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_custom_sorting_dec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- *... and 33 more nodes in this community*
+- **backends/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **backends/models.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **base/test_creation.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **LastExecutedQueryTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **FkConstraintsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Square** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **Person** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **LongNameTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **ThreadTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **DBConstraintTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Object** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **Reporter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **oracle/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **postgresql/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **EscapingChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **ObjectReference** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **ReporterProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **DateQuotingTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **MySQLPKZeroTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **DatabaseSequenceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **SequenceResetTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **CircularA** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **CircularB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- *... and 69 more nodes in this community*
 
 ## Relationships
 
-- [Community 116](Community_116.md) (10 shared connections)
-- [Community 6](Community_6.md) (9 shared connections)
-- [Community 511](Community_511.md) (7 shared connections)
-- [Community 30](Community_30.md) (5 shared connections)
-- [Community 690](Community_690.md) (4 shared connections)
-- [Community 602](Community_602.md) (4 shared connections)
-- [Community 503](Community_503.md) (4 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 565](Community_565.md) (11 shared connections)
+- [Community 59](Community_59.md) (10 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 9](Community_9.md) (8 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 337](Community_337.md) (5 shared connections)
+- [Community 363](Community_363.md) (5 shared connections)
+- [Community 202](Community_202.md) (4 shared connections)
+- [Community 125](Community_125.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 143](Community_143.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (86%)
-- INFERRED: 16 (14%)
+- EXTRACTED: 190 (90%)
+- INFERRED: 21 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

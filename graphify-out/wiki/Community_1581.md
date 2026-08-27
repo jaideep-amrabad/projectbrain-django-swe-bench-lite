@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **managers_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/__init__.py`
+- **settings_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/managers_regress/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/__init__.py`
 
 ## Audit Trail
 

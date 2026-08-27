@@ -1,23 +1,22 @@
 # Community 1252
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_custom_deconstructible()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Two instances which deconstruct to the same value aren't considered a change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **SelectFilter2.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectFilter2.test.js`
 
 ## Relationships
 
-- [Community 36](Community_36.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectFilter2.test.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
