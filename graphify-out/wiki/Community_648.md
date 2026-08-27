@@ -22,9 +22,9 @@
 
 ## Relationships
 
-- [Community 229](Community_229.md) (6 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
+- [Community 231](Community_231.md) (6 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 588](Community_588.md) (1 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files

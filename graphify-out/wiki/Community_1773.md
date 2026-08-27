@@ -10,8 +10,8 @@
 
 ## Relationships
 
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 1083](Community_1083.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 1086](Community_1086.md) (1 shared connections)
 
 ## Source Files
 

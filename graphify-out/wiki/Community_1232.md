@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_too_large_values_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Large values should not create a large HTML.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_unfrozen_importlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **importlib is not a frozen app, but its loader thinks it's frozen which results…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 569](Community_569.md) (1 shared connections)
+- [Community 560](Community_560.md) (1 shared connections)
+- [Community 595](Community_595.md) (1 shared connections)
 
 ## Source Files
 

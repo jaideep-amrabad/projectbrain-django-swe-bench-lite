@@ -13,8 +13,8 @@
 
 ## Relationships
 
-- [Community 145](Community_145.md) (3 shared connections)
-- [Community 150](Community_150.md) (2 shared connections)
+- [Community 147](Community_147.md) (3 shared connections)
+- [Community 153](Community_153.md) (2 shared connections)
 
 ## Source Files
 

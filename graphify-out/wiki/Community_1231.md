@@ -4,13 +4,14 @@
 
 ## Key Concepts
 
-- **.test_non_utf8_values_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Non-UTF-8 exceptions/values should not make the output generation choke.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_local_variable_escaping()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Safe strings in local variables are escaped.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 569](Community_569.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 560](Community_560.md) (1 shared connections)
+- [Community 595](Community_595.md) (1 shared connections)
 
 ## Source Files
 
@@ -18,7 +19,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

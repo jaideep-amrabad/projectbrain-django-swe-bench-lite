@@ -34,8 +34,8 @@
 ## Relationships
 
 - [Community 13](Community_13.md) (2 shared connections)
-- [Community 1180](Community_1180.md) (2 shared connections)
-- [Community 1181](Community_1181.md) (2 shared connections)
+- [Community 1178](Community_1178.md) (2 shared connections)
+- [Community 1179](Community_1179.md) (2 shared connections)
 
 ## Source Files
 

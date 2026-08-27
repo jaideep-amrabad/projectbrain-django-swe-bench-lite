@@ -18,8 +18,8 @@
 
 ## Relationships
 
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 597](Community_597.md) (2 shared connections)
+- [Community 54](Community_54.md) (3 shared connections)
+- [Community 600](Community_600.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 

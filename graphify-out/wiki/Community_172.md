@@ -1,6 +1,6 @@
 # Community 172
 
-> 57 nodes · cohesion 0.05
+> 55 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -9,7 +9,6 @@
 - **Node** (8 connections)
 - **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 - **BlockTranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_block_translate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
 - **GetLanguageInfoListNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
 - **TranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
 - **do_get_available_languages()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
@@ -29,16 +28,17 @@
 - **filter** (4 connections)
 - **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
 - **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- *... and 32 more nodes in this community*
+- **language_name_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (13 shared connections)
-- [Community 13](Community_13.md) (13 shared connections)
-- [Community 243](Community_243.md) (7 shared connections)
-- [Community 84](Community_84.md) (4 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
+- [Community 16](Community_16.md) (15 shared connections)
+- [Community 13](Community_13.md) (12 shared connections)
+- [Community 245](Community_245.md) (7 shared connections)
+- [Community 21](Community_21.md) (4 shared connections)
+- [Community 136](Community_136.md) (2 shared connections)
+- [Community 113](Community_113.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
@@ -49,7 +49,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 126 (99%)
+- EXTRACTED: 122 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

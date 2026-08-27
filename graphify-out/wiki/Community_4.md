@@ -1,17 +1,18 @@
 # Community 4
 
-> 147 nodes · cohesion 0.02
+> 159 nodes · cohesion 0.02
 
 ## Key Concepts
 
 - **utils/cache.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
 - **utils/decorators.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorators/http.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
 - **learn_cache_key()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
 - **decorators/cache.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
 - **middleware/cache.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
 - **get_cache_key()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **patch_vary_headers()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **test_middleware_mixin.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **condition()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **conditional_processing/views.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
 - **FetchFromCacheMiddleware** (13 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
 - **UpdateCacheMiddleware** (13 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
 - **get_conditional_response()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
@@ -22,37 +23,35 @@
 - **cache_page()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
 - **CacheMiddleware** (11 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
 - **middleware/http.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **SecurityMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
 - **.process_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
 - **patch_cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
 - **decorator_from_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **quote_etag()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
 - **empty_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **security.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
-- *... and 122 more nodes in this community*
+- *... and 134 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (46 shared connections)
-- [Community 2](Community_2.md) (43 shared connections)
-- [Community 243](Community_243.md) (19 shared connections)
-- [Community 1](Community_1.md) (16 shared connections)
-- [Community 5](Community_5.md) (14 shared connections)
-- [Community 42](Community_42.md) (11 shared connections)
-- [Community 7](Community_7.md) (10 shared connections)
-- [Community 63](Community_63.md) (6 shared connections)
+- [Community 2](Community_2.md) (81 shared connections)
+- [Community 245](Community_245.md) (20 shared connections)
+- [Community 5](Community_5.md) (15 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 100](Community_100.md) (10 shared connections)
+- [Community 41](Community_41.md) (9 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 73](Community_73.md) (6 shared connections)
 - [Community 13](Community_13.md) (6 shared connections)
-- [Community 119](Community_119.md) (4 shared connections)
-- [Community 789](Community_789.md) (4 shared connections)
-- [Community 225](Community_225.md) (4 shared connections)
+- [Community 266](Community_266.md) (4 shared connections)
+- [Community 227](Community_227.md) (4 shared connections)
+- [Community 179](Community_179.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
 - `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
 - `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
 - `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/http.py`
@@ -60,15 +59,18 @@
 - `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 - `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
 - `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/vary.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
 - `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
 - `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 444 (96%)
-- INFERRED: 20 (4%)
+- EXTRACTED: 463 (96%)
+- INFERRED: 19 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

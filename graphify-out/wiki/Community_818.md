@@ -17,10 +17,10 @@
 
 ## Relationships
 
-- [Community 99](Community_99.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
 
 ## Source Files
 

@@ -18,9 +18,11 @@
 
 ## Relationships
 
-- [Community 836](Community_836.md) (15 shared connections)
-- [Community 1101](Community_1101.md) (2 shared connections)
+- [Community 838](Community_838.md) (15 shared connections)
 - [Community 1102](Community_1102.md) (2 shared connections)
+- [Community 1103](Community_1103.md) (2 shared connections)
+- [Community 1152](Community_1152.md) (1 shared connections)
+- [Community 1153](Community_1153.md) (1 shared connections)
 - [Community 1154](Community_1154.md) (1 shared connections)
 - [Community 1155](Community_1155.md) (1 shared connections)
 - [Community 1156](Community_1156.md) (1 shared connections)
@@ -28,8 +30,6 @@
 - [Community 1158](Community_1158.md) (1 shared connections)
 - [Community 1159](Community_1159.md) (1 shared connections)
 - [Community 1160](Community_1160.md) (1 shared connections)
-- [Community 1161](Community_1161.md) (1 shared connections)
-- [Community 1162](Community_1162.md) (1 shared connections)
 
 ## Source Files
 

@@ -9,7 +9,7 @@
 
 ## Relationships
 
-- [Community 521](Community_521.md) (1 shared connections)
+- [Community 523](Community_523.md) (1 shared connections)
 
 ## Source Files
 

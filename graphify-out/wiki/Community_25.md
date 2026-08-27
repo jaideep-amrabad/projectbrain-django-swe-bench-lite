@@ -1,6 +1,6 @@
 # Community 25
 
-> 261 nodes · cohesion 0.02
+> 266 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **geos/io.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/io.py`
 - **point.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
 - **geos/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
-- *... and 236 more nodes in this community*
+- *... and 241 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (59 shared connections)
-- [Community 69](Community_69.md) (37 shared connections)
-- [Community 17](Community_17.md) (35 shared connections)
-- [Community 35](Community_35.md) (31 shared connections)
-- [Community 104](Community_104.md) (19 shared connections)
-- [Community 512](Community_512.md) (15 shared connections)
-- [Community 62](Community_62.md) (15 shared connections)
-- [Community 484](Community_484.md) (14 shared connections)
-- [Community 110](Community_110.md) (14 shared connections)
+- [Community 30](Community_30.md) (59 shared connections)
+- [Community 19](Community_19.md) (35 shared connections)
+- [Community 67](Community_67.md) (34 shared connections)
+- [Community 33](Community_33.md) (24 shared connections)
+- [Community 59](Community_59.md) (16 shared connections)
+- [Community 446](Community_446.md) (15 shared connections)
+- [Community 82](Community_82.md) (15 shared connections)
+- [Community 432](Community_432.md) (14 shared connections)
+- [Community 107](Community_107.md) (14 shared connections)
 - [Community 0](Community_0.md) (13 shared connections)
 - [Community 1](Community_1.md) (12 shared connections)
-- [Community 32](Community_32.md) (12 shared connections)
+- [Community 31](Community_31.md) (12 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 885 (97%)
-- INFERRED: 29 (3%)
+- EXTRACTED: 889 (97%)
+- INFERRED: 30 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

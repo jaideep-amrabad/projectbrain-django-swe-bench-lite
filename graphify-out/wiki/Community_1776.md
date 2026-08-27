@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 - [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files

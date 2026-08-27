@@ -1,6 +1,6 @@
 # Community 13
 
-> 313 nodes · cohesion 0.02
+> 303 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -21,6 +21,7 @@
 - **test_if_equal.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
 - **test_loaders.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
 - **test_nodelist.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_nodelist.py`
+- **test_parser.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
 - **test_underscore_syntax.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
 - **test_include.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
 - **test_url.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
@@ -28,23 +29,22 @@
 - **test_linebreaks.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
 - **test_slugify.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
 - **test_striptags.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
-- **filter_tests/test_timesince.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- *... and 288 more nodes in this community*
+- *... and 278 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (177 shared connections)
-- [Community 23](Community_23.md) (108 shared connections)
-- [Community 30](Community_30.md) (106 shared connections)
-- [Community 243](Community_243.md) (89 shared connections)
-- [Community 8](Community_8.md) (84 shared connections)
-- [Community 5](Community_5.md) (63 shared connections)
-- [Community 15](Community_15.md) (58 shared connections)
-- [Community 19](Community_19.md) (39 shared connections)
-- [Community 14](Community_14.md) (37 shared connections)
-- [Community 84](Community_84.md) (35 shared connections)
-- [Community 42](Community_42.md) (34 shared connections)
-- [Community 1](Community_1.md) (32 shared connections)
+- [Community 0](Community_0.md) (176 shared connections)
+- [Community 34](Community_34.md) (111 shared connections)
+- [Community 21](Community_21.md) (108 shared connections)
+- [Community 16](Community_16.md) (91 shared connections)
+- [Community 245](Community_245.md) (89 shared connections)
+- [Community 6](Community_6.md) (79 shared connections)
+- [Community 5](Community_5.md) (65 shared connections)
+- [Community 2](Community_2.md) (54 shared connections)
+- [Community 1](Community_1.md) (38 shared connections)
+- [Community 47](Community_47.md) (37 shared connections)
+- [Community 54](Community_54.md) (30 shared connections)
+- [Community 41](Community_41.md) (30 shared connections)
 
 ## Source Files
 
@@ -57,7 +57,6 @@
 - `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 - `raw/code/hyd-evaluation/django-django/tests/backends/base/test_features.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
 - `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
@@ -68,11 +67,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
 - `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_backends/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2692 (99%)
-- INFERRED: 35 (1%)
+- EXTRACTED: 2683 (99%)
+- INFERRED: 34 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

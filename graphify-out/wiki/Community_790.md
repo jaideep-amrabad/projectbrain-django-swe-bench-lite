@@ -18,8 +18,8 @@
 
 ## Relationships
 
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 - [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files

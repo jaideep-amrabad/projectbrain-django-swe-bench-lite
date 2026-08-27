@@ -1,6 +1,6 @@
 # Community 158
 
-> 62 nodes · cohesion 0.05
+> 58 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -18,7 +18,6 @@
 - **.test_sensitive_function_keyword_arguments()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_sensitive_method()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_sensitive_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **UnsafeExceptionReporterFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 - **.test_custom_exception_reporter_filter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_non_sensitive_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.verify_paranoid_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
@@ -29,28 +28,29 @@
 - **.test_non_sensitive_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **CustomExceptionReporterFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_callable_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- *... and 37 more nodes in this community*
+- **.test_callable_settings_forbidding_to_set_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (21 shared connections)
-- [Community 167](Community_167.md) (6 shared connections)
-- [Community 769](Community_769.md) (5 shared connections)
-- [Community 708](Community_708.md) (3 shared connections)
+- [Community 74](Community_74.md) (19 shared connections)
+- [Community 166](Community_166.md) (6 shared connections)
+- [Community 768](Community_768.md) (5 shared connections)
+- [Community 706](Community_706.md) (3 shared connections)
 - [Community 5](Community_5.md) (2 shared connections)
 - [Community 13](Community_13.md) (2 shared connections)
-- [Community 481](Community_481.md) (2 shared connections)
+- [Community 483](Community_483.md) (2 shared connections)
+- [Community 1079](Community_1079.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/views/debug.py`
 - `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (87%)
-- INFERRED: 19 (13%)
+- EXTRACTED: 120 (86%)
+- INFERRED: 19 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---
