@@ -1,8 +1,8 @@
 # TestCase
 
-> God node · 955 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 954 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 36](Community_36.md)
+**Community:** [Community 2](Community_2.md)
 
 ## Connections by Relation
 

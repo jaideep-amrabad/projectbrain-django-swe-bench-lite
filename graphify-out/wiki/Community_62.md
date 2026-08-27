@@ -1,15 +1,13 @@
 # Community 62
 
-> 158 nodes · cohesion 0.03
+> 121 nodes · cohesion 0.03
 
 ## Key Concepts
 
 - **admin_inlines/admin.py** (90 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
 - **admin_inlines/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **TestInline** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **admin_inlines/models.py** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **TestInlineMedia** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **SeleniumTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **TestInlineProtectedOnDelete** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **Inner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **Inner2** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
@@ -29,35 +27,35 @@
 - **Holder3** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **Inner4Stacked** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **Inner4Tabular** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- *... and 133 more nodes in this community*
+- **Novel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Profile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- *... and 96 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (48 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 320](Community_320.md) (5 shared connections)
-- [Community 36](Community_36.md) (5 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 997](Community_997.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 278](Community_278.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 120](Community_120.md) (2 shared connections)
+- [Community 16](Community_16.md) (33 shared connections)
+- [Community 2](Community_2.md) (15 shared connections)
+- [Community 146](Community_146.md) (4 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 335 (83%)
-- INFERRED: 70 (17%)
+- EXTRACTED: 255 (78%)
+- INFERRED: 70 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---
