@@ -1,6 +1,6 @@
 # Community 690
 
-> 17 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
@@ -9,6 +9,7 @@
 - **.batch_process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **.get_db_prep_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **.apply_bilateral_transforms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_source_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
@@ -24,15 +25,16 @@
 
 ## Relationships
 
-- [Community 55](Community_55.md) (8 shared connections)
-- [Community 30](Community_30.md) (6 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 83](Community_83.md) (2 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 56](Community_56.md) (8 shared connections)
+- [Community 31](Community_31.md) (6 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 82](Community_82.md) (2 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 969](Community_969.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
 
 ## Source Files
 
@@ -40,8 +42,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 38 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 40 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

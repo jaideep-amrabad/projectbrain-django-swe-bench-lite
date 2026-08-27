@@ -16,8 +16,8 @@
 ## Relationships
 
 - [Community 0](Community_0.md) (7 shared connections)
-- [Community 376](Community_376.md) (1 shared connections)
-- [Community 375](Community_375.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
+- [Community 321](Community_321.md) (1 shared connections)
 
 ## Source Files
 

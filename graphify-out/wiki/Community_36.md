@@ -1,6 +1,6 @@
 # Community 36
 
-> 138 nodes · cohesion 0.03
+> 136 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **DynamicListDisplayChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **DynamicListDisplayLinksChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **DynamicListFilterChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- *... and 113 more nodes in this community*
+- *... and 111 more nodes in this community*
 
 ## Relationships
 
+- [Community 3](Community_3.md) (22 shared connections)
 - [Community 39](Community_39.md) (15 shared connections)
-- [Community 14](Community_14.md) (15 shared connections)
-- [Community 11](Community_11.md) (13 shared connections)
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 116](Community_116.md) (6 shared connections)
-- [Community 92](Community_92.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 114](Community_114.md) (3 shared connections)
-- [Community 1023](Community_1023.md) (3 shared connections)
-- [Community 667](Community_667.md) (3 shared connections)
-- [Community 164](Community_164.md) (3 shared connections)
+- [Community 12](Community_12.md) (15 shared connections)
+- [Community 112](Community_112.md) (6 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 89](Community_89.md) (3 shared connections)
+- [Community 109](Community_109.md) (3 shared connections)
+- [Community 1026](Community_1026.md) (3 shared connections)
+- [Community 185](Community_185.md) (3 shared connections)
+- [Community 665](Community_665.md) (3 shared connections)
+- [Community 158](Community_158.md) (3 shared connections)
+- [Community 56](Community_56.md) (3 shared connections)
 
 ## Source Files
 
@@ -57,7 +57,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 357 (88%)
+- EXTRACTED: 355 (88%)
 - INFERRED: 47 (12%)
 - AMBIGUOUS: 0 (0%)
 

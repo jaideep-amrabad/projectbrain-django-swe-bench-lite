@@ -14,9 +14,9 @@
 
 ## Relationships
 
-- [Community 402](Community_402.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files

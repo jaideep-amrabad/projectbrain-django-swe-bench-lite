@@ -1,17 +1,19 @@
 # Community 71
 
-> 82 nodes · cohesion 0.04
+> 91 nodes · cohesion 0.04
 
 ## Key Concepts
 
 - **WSGIRequest** (72 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
 - **RequestsTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **FakePayload** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 - **DataUploadMaxMemorySizeMultipartPostTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 - **DataUploadMaxMemorySizeFormPostTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 - **DataUploadMaxNumberOfFieldsFormPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 - **DataUploadMaxNumberOfFieldsMultipartPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 - **RequestHeadersTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **DataUploadMaxNumberOfFieldsGet** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 - **.test_alternate_charset_POST()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_wsgirequest_path_with_force_script_name_trailing_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_wsgirequest_with_force_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
@@ -27,24 +29,22 @@
 - **.test_read_after_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_value_after_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_wsgirequest_script_url_double_slashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_wsgirequest_with_script_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- *... and 57 more nodes in this community*
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (15 shared connections)
-- [Community 154](Community_154.md) (14 shared connections)
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 45](Community_45.md) (7 shared connections)
-- [Community 130](Community_130.md) (5 shared connections)
-- [Community 173](Community_173.md) (5 shared connections)
-- [Community 828](Community_828.md) (3 shared connections)
-- [Community 513](Community_513.md) (3 shared connections)
-- [Community 738](Community_738.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 208](Community_208.md) (2 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 2](Community_2.md) (21 shared connections)
+- [Community 148](Community_148.md) (12 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 46](Community_46.md) (7 shared connections)
+- [Community 137](Community_137.md) (5 shared connections)
+- [Community 181](Community_181.md) (5 shared connections)
+- [Community 199](Community_199.md) (5 shared connections)
+- [Community 355](Community_355.md) (3 shared connections)
+- [Community 340](Community_340.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
 
 ## Source Files
 
@@ -57,8 +57,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 192 (89%)
-- INFERRED: 24 (11%)
+- EXTRACTED: 203 (88%)
+- INFERRED: 27 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

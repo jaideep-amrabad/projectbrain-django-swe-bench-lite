@@ -1,6 +1,6 @@
 # Community 22
 
-> 158 nodes · cohesion 0.02
+> 174 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -17,6 +17,7 @@
 - **.get_form()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - **flatten_fieldsets()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 - **.has_change_permission()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - **.get_preserved_filters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - **.response_change()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - **.render_change_form()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
@@ -28,23 +29,22 @@
 - **.has_view_or_change_permission()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - **.has_add_permission()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - **.message_user()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.response_action()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- *... and 133 more nodes in this community*
+- *... and 149 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (30 shared connections)
-- [Community 1](Community_1.md) (25 shared connections)
-- [Community 11](Community_11.md) (24 shared connections)
+- [Community 3](Community_3.md) (38 shared connections)
+- [Community 30](Community_30.md) (30 shared connections)
 - [Community 35](Community_35.md) (19 shared connections)
-- [Community 449](Community_449.md) (14 shared connections)
-- [Community 116](Community_116.md) (14 shared connections)
-- [Community 14](Community_14.md) (9 shared connections)
-- [Community 255](Community_255.md) (9 shared connections)
-- [Community 121](Community_121.md) (8 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 751](Community_751.md) (6 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
+- [Community 2](Community_2.md) (15 shared connections)
+- [Community 12](Community_12.md) (10 shared connections)
+- [Community 257](Community_257.md) (9 shared connections)
+- [Community 118](Community_118.md) (8 shared connections)
+- [Community 579](Community_579.md) (7 shared connections)
+- [Community 112](Community_112.md) (7 shared connections)
+- [Community 37](Community_37.md) (7 shared connections)
+- [Community 752](Community_752.md) (6 shared connections)
+- [Community 598](Community_598.md) (5 shared connections)
 
 ## Source Files
 
@@ -60,7 +60,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 509 (91%)
+- EXTRACTED: 527 (91%)
 - INFERRED: 51 (9%)
 - AMBIGUOUS: 0 (0%)
 

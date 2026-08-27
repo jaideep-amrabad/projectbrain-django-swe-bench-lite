@@ -16,9 +16,9 @@
 
 ## Relationships
 
-- [Community 80](Community_80.md) (8 shared connections)
+- [Community 79](Community_79.md) (8 shared connections)
 - [Community 70](Community_70.md) (4 shared connections)
-- [Community 211](Community_211.md) (2 shared connections)
+- [Community 208](Community_208.md) (2 shared connections)
 
 ## Source Files
 
