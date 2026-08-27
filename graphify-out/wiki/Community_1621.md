@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **model_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/__init__.py`
+- **prefetch_related/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/__init__.py`
 
 ## Audit Trail
 

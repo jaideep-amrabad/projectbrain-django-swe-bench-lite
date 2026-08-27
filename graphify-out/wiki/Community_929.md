@@ -1,24 +1,32 @@
 # Community 929
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return a quoted version of the value so it's safe to use in an SQL string. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **XFrameOptionsDecoratorsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_exempt_decorator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_deny_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_sameorigin_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Tests for the X-Frame-Options decorators.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Ensures @xframe_options_deny properly sets the X-Frame-Options header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Ensures @xframe_options_sameorigin properly sets the X-Frame-Options header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Ensures @xframe_options_exempt properly instructs the XFrameOptionsMiddleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

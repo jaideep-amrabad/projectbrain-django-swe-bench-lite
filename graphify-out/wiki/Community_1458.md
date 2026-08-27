@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **generic_relations_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/__init__.py`
+- **gis_tests/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/models.py`
 
 ## Audit Trail
 

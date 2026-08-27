@@ -1,25 +1,25 @@
 # HttpResponse
 
-> God node · 312 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 324 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 4](Community_4.md)
+**Community:** [Community 3](Community_3.md)
 
 ## Connections by Relation
 
 ### calls
+- post_form_view() `EXTRACTED`
 - render() `EXTRACTED`
 - technical_500_response() `EXTRACTED`
-- post_form_view() `EXTRACTED`
 - token_view() `EXTRACTED`
 - empty_view() `EXTRACTED`
 - get_response_empty() `EXTRACTED`
-- set_language() `EXTRACTED`
 - empty_response() `EXTRACTED`
 - ensure_csrf_cookie_view() `EXTRACTED`
 - render_flatpage() `EXTRACTED`
 - render_to_kmz() `EXTRACTED`
-- trace_view() `EXTRACTED`
 - default_urlconf() `EXTRACTED`
+- set_language() `EXTRACTED`
+- trace_view() `EXTRACTED`
 - non_token_view_using_request_processor() `EXTRACTED`
 - hello_world_view() `EXTRACTED`
 - .get_response() `EXTRACTED`
@@ -38,6 +38,7 @@
 - test_utils/tests.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
 - test_client/views.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 - view_tests/views.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
@@ -45,13 +46,12 @@
 - decorators/tests.py `EXTRACTED`
 - test_middleware_mixin.py `EXTRACTED`
 - views/debug.py `EXTRACTED`
+- csrf_tests/tests.py `EXTRACTED`
 - test_client_regress/views.py `EXTRACTED`
 - patterns/tests.py `EXTRACTED`
-- sites_tests/tests.py `EXTRACTED`
 - auth_tests/urls.py `EXTRACTED`
-- urlpatterns_reverse/views.py `EXTRACTED`
-- django/shortcuts.py `EXTRACTED`
-- middleware/tests.py `EXTRACTED`
+- sites_tests/tests.py `EXTRACTED`
+- test_client/tests.py `EXTRACTED`
 
 ### inherits
 - HttpResponseBase `EXTRACTED`
@@ -63,6 +63,7 @@
 - HttpResponseNotFound `EXTRACTED`
 - HttpResponseBadRequest `EXTRACTED`
 - HttpResponseForbidden `EXTRACTED`
+- TestingHttpResponse `EXTRACTED`
 - HttpResponseGone `EXTRACTED`
 - HttpResponseRedirectBase `EXTRACTED`
 
@@ -79,7 +80,7 @@
 - .writable() `EXTRACTED`
 
 ### rationale_for
-- An HTTP response class with a string as content. This content that can be read,… `EXTRACTED`
+- An HTTP response class with a string as content. This content can be read,… `EXTRACTED`
 
 ### uses
 - MiddlewareMixinTests `INFERRED`

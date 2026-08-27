@@ -1,20 +1,20 @@
 # Context
 
-> God node · 251 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
+> God node · 254 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
 
-**Community:** [Community 6](Community_6.md)
+**Community:** [Community 10](Community_10.md)
 
 ## Connections by Relation
 
 ### calls
 - .humanize_tester() `EXTRACTED`
 - floatformat() `INFERRED`
+- technical_404_response() `EXTRACTED`
 - page_not_found() `EXTRACTED`
 - .handle() `EXTRACTED`
 - csrf_failure() `EXTRACTED`
-- technical_404_response() `EXTRACTED`
-- trace_view() `EXTRACTED`
 - default_urlconf() `EXTRACTED`
+- trace_view() `EXTRACTED`
 - .assertRenderEqual() `EXTRACTED`
 - submit_row() `EXTRACTED`
 - .test_result_list_empty_changelist_value() `EXTRACTED`
@@ -34,9 +34,9 @@
 ### imports
 - template/__init__.py `EXTRACTED`
 - model_forms/tests.py `EXTRACTED`
+- admin_changelist/tests.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
 - defaulttags.py `EXTRACTED`
-- admin_changelist/tests.py `EXTRACTED`
 - test_client/views.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
@@ -44,14 +44,14 @@
 - patterns/tests.py `EXTRACTED`
 - views/i18n.py `EXTRACTED`
 - tests/test_forms.py `EXTRACTED`
+- test_blocktranslate.py `EXTRACTED`
 - model_enums/tests.py `EXTRACTED`
 - views/static.py `EXTRACTED`
+- csrf_tests/views.py `EXTRACTED`
 - test_geos.py `EXTRACTED`
 - managers_regress/tests.py `EXTRACTED`
-- test_blocktranslate.py `EXTRACTED`
 - test_translate.py `EXTRACTED`
 - engine.py `EXTRACTED`
-- tests/test_error_messages.py `EXTRACTED`
 
 ### inherits
 - RequestContext `EXTRACTED`
