@@ -3,7 +3,6 @@ import decimal
 import functools
 import hashlib
 import logging
-from contextlib import contextmanager
 from time import time
 
 from django.conf import settings
@@ -95,38 +94,40 @@ class CursorDebugWrapper(CursorWrapper):
     # XXX callproc isn't instrumented at this time.
 
     def execute(self, sql, params=None):
-        with self.debug_sql(sql, params, use_last_executed_query=True):
-            return super().execute(sql, params)
-
-    def executemany(self, sql, param_list):
-        with self.debug_sql(sql, param_list, many=True):
-            return super().executemany(sql, param_list)
-
-    @contextmanager
-    def debug_sql(self, sql=None, params=None, use_last_executed_query=False, many=False):
         start = time()
         try:
-            yield
+            return super().execute(sql, params)
         finally:
             stop = time()
             duration = stop - start
-            if use_last_executed_query:
-                sql = self.db.ops.last_executed_query(self.cursor, sql, params)
-            try:
-                times = len(params) if many else ''
-            except TypeError:
-                # params could be an iterator.
-                times = '?'
+            sql = self.db.ops.last_executed_query(self.cursor, sql, params)
             self.db.queries_log.append({
-                'sql': '%s times: %s' % (times, sql) if many else sql,
-                'time': '%.3f' % duration,
+                'sql': sql,
+                'time': "%.3f" % duration,
             })
             logger.debug(
-                '(%.3f) %s; args=%s',
-                duration,
-                sql,
-                params,
-                extra={'duration': duration, 'sql': sql, 'params': params},
+                '(%.3f) %s; args=%s', duration, sql, params,
+                extra={'duration': duration, 'sql': sql, 'params': params}
+            )
+
+    def executemany(self, sql, param_list):
+        start = time()
+        try:
+            return super().executemany(sql, param_list)
+        finally:
+            stop = time()
+            duration = stop - start
+            try:
+                times = len(param_list)
+            except TypeError:           # param_list could be an iterator
+                times = '?'
+            self.db.queries_log.append({
+                'sql': '%s times: %s' % (times, sql),
+                'time': "%.3f" % duration,
+            })
+            logger.debug(
+                '(%.3f) %s; args=%s', duration, sql, param_list,
+                extra={'duration': duration, 'sql': sql, 'params': param_list}
             )
 
 

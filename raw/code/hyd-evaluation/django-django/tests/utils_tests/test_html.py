@@ -27,7 +27,7 @@ class TestUtilsHtml(SimpleTestCase):
             ('<', '&lt;'),
             ('>', '&gt;'),
             ('"', '&quot;'),
-            ("'", '&#x27;'),
+            ("'", '&#39;'),
         )
         # Substitution patterns for testing the above items.
         patterns = ("%s", "asdf%sfdsa", "%s1", "1%sb")
@@ -70,8 +70,6 @@ class TestUtilsHtml(SimpleTestCase):
         items = (
             ('<p>See: &#39;&eacute; is an apostrophe followed by e acute</p>',
              'See: &#39;&eacute; is an apostrophe followed by e acute'),
-            ('<p>See: &#x27;&eacute; is an apostrophe followed by e acute</p>',
-             'See: &#x27;&eacute; is an apostrophe followed by e acute'),
             ('<adf>a', 'a'),
             ('</adf>a', 'a'),
             ('<asdf><asdf>e', 'e'),

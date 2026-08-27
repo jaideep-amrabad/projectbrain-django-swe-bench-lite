@@ -67,13 +67,10 @@ class MultiPartParser:
             raise MultiPartParserError('Invalid Content-Type: %s' % content_type)
 
         # Parse the header to get the boundary to split the parts.
-        try:
-            ctypes, opts = parse_header(content_type.encode('ascii'))
-        except UnicodeEncodeError:
-            raise MultiPartParserError('Invalid non-ASCII Content-Type in multipart: %s' % force_str(content_type))
+        ctypes, opts = parse_header(content_type.encode('ascii'))
         boundary = opts.get('boundary')
         if not boundary or not cgi.valid_boundary(boundary):
-            raise MultiPartParserError('Invalid boundary in multipart: %s' % force_str(boundary))
+            raise MultiPartParserError('Invalid boundary in multipart: %s' % boundary.decode())
 
         # Content-Length should contain the length of the body we are about
         # to receive.
@@ -360,7 +357,8 @@ class LazyStream:
                     remaining -= len(emitting)
                     yield emitting
 
-        return b''.join(parts())
+        out = b''.join(parts())
+        return out
 
     def __next__(self):
         """

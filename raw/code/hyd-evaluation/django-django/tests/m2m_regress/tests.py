@@ -34,11 +34,11 @@ class M2MRegressionTests(TestCase):
     def test_internal_related_name_not_in_error_msg(self):
         # The secret internal related names for self-referential many-to-many
         # fields shouldn't appear in the list when an error is made.
-        with self.assertRaisesMessage(
+        self.assertRaisesMessage(
             FieldError,
             "Choices are: id, name, references, related, selfreferchild, selfreferchildsibling",
-        ):
-            SelfRefer.objects.filter(porcupine='fred')
+            lambda: SelfRefer.objects.filter(porcupine='fred')
+        )
 
     def test_m2m_inheritance_symmetry(self):
         # Test to ensure that the relationship between two inherited models

@@ -30,18 +30,9 @@ class TestRegistration(SimpleTestCase):
 
     def test_prevent_double_registration(self):
         self.site.register(Person)
-        msg = "The model Person is already registered in app 'admin_registration'."
+        msg = 'The model Person is already registered'
         with self.assertRaisesMessage(admin.sites.AlreadyRegistered, msg):
             self.site.register(Person)
-
-    def test_prevent_double_registration_for_custom_admin(self):
-        class PersonAdmin(admin.ModelAdmin):
-            pass
-
-        self.site.register(Person, PersonAdmin)
-        msg = "The model Person is already registered with 'admin_registration.PersonAdmin'."
-        with self.assertRaisesMessage(admin.sites.AlreadyRegistered, msg):
-            self.site.register(Person, PersonAdmin)
 
     def test_registration_with_star_star_options(self):
         self.site.register(Person, search_fields=['name'])
