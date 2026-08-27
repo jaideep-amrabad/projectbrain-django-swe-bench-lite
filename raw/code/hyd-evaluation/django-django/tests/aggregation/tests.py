@@ -5,10 +5,11 @@ from decimal import Decimal
 from django.core.exceptions import FieldError
 from django.db import connection
 from django.db.models import (
-    Avg, Case, Count, DecimalField, DurationField, Exists, F, FloatField, Func,
+    Avg, Case, Count, DecimalField, DurationField, Exists, F, FloatField,
     IntegerField, Max, Min, OuterRef, Subquery, Sum, Value, When,
 )
-from django.db.models.functions import Coalesce
+from django.db.models.expressions import Func, RawSQL
+from django.db.models.functions import Coalesce, Greatest
 from django.test import TestCase
 from django.test.testcases import skipUnlessDBFeature
 from django.test.utils import Approximate, CaptureQueriesContext
@@ -150,6 +151,14 @@ class AggregateTestCase(TestCase):
     def test_aggregate_alias(self):
         vals = Store.objects.filter(name="Amazon.com").aggregate(amazon_mean=Avg("books__rating"))
         self.assertEqual(vals, {'amazon_mean': Approximate(4.08, places=2)})
+
+    def test_aggregate_transform(self):
+        vals = Store.objects.aggregate(min_month=Min('original_opening__month'))
+        self.assertEqual(vals, {'min_month': 3})
+
+    def test_aggregate_join_transform(self):
+        vals = Publisher.objects.aggregate(min_year=Min('book__pubdate__year'))
+        self.assertEqual(vals, {'min_year': 1991})
 
     def test_annotate_basic(self):
         self.assertQuerysetEqual(
@@ -750,13 +759,13 @@ class AggregateTestCase(TestCase):
         number of authors.
         """
         dates = Book.objects.annotate(num_authors=Count("authors")).dates('pubdate', 'year')
-        self.assertQuerysetEqual(
+        self.assertSequenceEqual(
             dates, [
-                "datetime.date(1991, 1, 1)",
-                "datetime.date(1995, 1, 1)",
-                "datetime.date(2007, 1, 1)",
-                "datetime.date(2008, 1, 1)"
-            ]
+                datetime.date(1991, 1, 1),
+                datetime.date(1995, 1, 1),
+                datetime.date(2007, 1, 1),
+                datetime.date(2008, 1, 1),
+            ],
         )
 
     def test_values_aggregation(self):
@@ -1102,14 +1111,6 @@ class AggregateTestCase(TestCase):
             {'books_per_rating__max': 3 + 5})
 
     def test_expression_on_aggregation(self):
-
-        # Create a plain expression
-        class Greatest(Func):
-            function = 'GREATEST'
-
-            def as_sqlite(self, compiler, connection, **extra_context):
-                return super().as_sql(compiler, connection, function='MAX', **extra_context)
-
         qs = Publisher.objects.annotate(
             price_or_median=Greatest(Avg('book__rating', output_field=DecimalField()), Avg('book__price'))
         ).filter(price_or_median__gte=F('num_awards')).order_by('num_awards')
@@ -1218,11 +1219,6 @@ class AggregateTestCase(TestCase):
         Subquery annotations must be included in the GROUP BY if they use
         potentially multivalued relations (contain the LOOKUP_SEP).
         """
-        if connection.vendor == 'mysql' and 'ONLY_FULL_GROUP_BY' in connection.sql_mode:
-            self.skipTest(
-                'GROUP BY optimization does not work properly when '
-                'ONLY_FULL_GROUP_BY mode is enabled on MySQL, see #31331.'
-            )
         subquery_qs = Author.objects.filter(
             pk=OuterRef('pk'),
             book__name=OuterRef('book__name'),
@@ -1316,6 +1312,21 @@ class AggregateTestCase(TestCase):
         #     self.assertSequenceEqual(books_qs, [book])
         # self.assertEqual(ctx[0]['sql'].count('SELECT'), 2)
 
+    @skipUnlessDBFeature('supports_subqueries_in_group_by')
+    def test_aggregation_nested_subquery_outerref(self):
+        publisher_with_same_name = Publisher.objects.filter(
+            id__in=Subquery(
+                Publisher.objects.filter(
+                    name=OuterRef(OuterRef('publisher__name')),
+                ).values('id'),
+            ),
+        ).values(publisher_count=Count('id'))[:1]
+        books_breakdown = Book.objects.annotate(
+            publisher_count=Subquery(publisher_with_same_name),
+            authors_count=Count('authors'),
+        ).values_list('publisher_count', flat=True)
+        self.assertSequenceEqual(books_breakdown, [1] * 6)
+
     def test_aggregation_random_ordering(self):
         """Random() is not included in the GROUP BY when used for ordering."""
         authors = Author.objects.annotate(contact_count=Count('book')).order_by('?')
@@ -1330,3 +1341,64 @@ class AggregateTestCase(TestCase):
             ('Stuart Russell', 1),
             ('Peter Norvig', 2),
         ], lambda a: (a.name, a.contact_count), ordered=False)
+
+    def test_empty_result_optimization(self):
+        with self.assertNumQueries(0):
+            self.assertEqual(
+                Publisher.objects.none().aggregate(
+                    sum_awards=Sum('num_awards'),
+                    books_count=Count('book'),
+                ), {
+                    'sum_awards': None,
+                    'books_count': 0,
+                }
+            )
+        # Expression without empty_aggregate_value forces queries to be
+        # executed even if they would return an empty result set.
+        raw_books_count = Func('book', function='COUNT')
+        raw_books_count.contains_aggregate = True
+        with self.assertNumQueries(1):
+            self.assertEqual(
+                Publisher.objects.none().aggregate(
+                    sum_awards=Sum('num_awards'),
+                    books_count=raw_books_count,
+                ), {
+                    'sum_awards': None,
+                    'books_count': 0,
+                }
+            )
+
+    def test_coalesced_empty_result_set(self):
+        with self.assertNumQueries(0):
+            self.assertEqual(
+                Publisher.objects.none().aggregate(
+                    sum_awards=Coalesce(Sum('num_awards'), 0),
+                )['sum_awards'],
+                0,
+            )
+        # Multiple expressions.
+        with self.assertNumQueries(0):
+            self.assertEqual(
+                Publisher.objects.none().aggregate(
+                    sum_awards=Coalesce(Sum('num_awards'), None, 0),
+                )['sum_awards'],
+                0,
+            )
+        # Nested coalesce.
+        with self.assertNumQueries(0):
+            self.assertEqual(
+                Publisher.objects.none().aggregate(
+                    sum_awards=Coalesce(Coalesce(Sum('num_awards'), None), 0),
+                )['sum_awards'],
+                0,
+            )
+        # Expression coalesce.
+        with self.assertNumQueries(1):
+            self.assertIsInstance(
+                Store.objects.none().aggregate(
+                    latest_opening=Coalesce(
+                        Max('original_opening'), RawSQL('CURRENT_TIMESTAMP', []),
+                    ),
+                )['latest_opening'],
+                datetime.datetime,
+            )

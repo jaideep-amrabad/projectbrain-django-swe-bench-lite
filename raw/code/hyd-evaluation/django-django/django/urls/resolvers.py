@@ -59,9 +59,16 @@ class ResolverMatch:
         return (self.func, self.args, self.kwargs)[index]
 
     def __repr__(self):
-        return "ResolverMatch(func=%s, args=%s, kwargs=%s, url_name=%s, app_names=%s, namespaces=%s, route=%s)" % (
-            self._func_path, self.args, self.kwargs, self.url_name,
-            self.app_names, self.namespaces, self.route,
+        if isinstance(self.func, functools.partial):
+            func = repr(self.func)
+        else:
+            func = self._func_path
+        return (
+            'ResolverMatch(func=%s, args=%r, kwargs=%r, url_name=%r, '
+            'app_names=%r, namespaces=%r, route=%r)' % (
+                func, self.args, self.kwargs, self.url_name,
+                self.app_names, self.namespaces, self.route,
+            )
         )
 
 
@@ -338,6 +345,7 @@ class URLPattern:
     def check(self):
         warnings = self._check_pattern_name()
         warnings.extend(self.pattern.check())
+        warnings.extend(self._check_callback())
         return warnings
 
     def _check_pattern_name(self):
@@ -353,6 +361,22 @@ class URLPattern:
             return [warning]
         else:
             return []
+
+    def _check_callback(self):
+        from django.views import View
+
+        view = self.callback
+        if inspect.isclass(view) and issubclass(view, View):
+            return [Error(
+                'Your URL pattern %s has an invalid view, pass %s.as_view() '
+                'instead of %s.' % (
+                    self.pattern.describe(),
+                    view.__name__,
+                    view.__name__,
+                ),
+                id='urls.E009',
+            )]
+        return []
 
     def resolve(self, path):
         match = self.pattern.match(path)
@@ -371,7 +395,9 @@ class URLPattern:
         callback = self.callback
         if isinstance(callback, functools.partial):
             callback = callback.func
-        if not hasattr(callback, '__name__'):
+        if hasattr(callback, 'view_class'):
+            callback = callback.view_class
+        elif not hasattr(callback, '__name__'):
             return callback.__module__ + "." + callback.__class__.__name__
         return callback.__module__ + "." + callback.__qualname__
 
@@ -581,7 +607,7 @@ class URLResolver:
                             self._join_route(current_route, sub_match.route),
                             tried,
                         )
-                    self._extend_tried(tried, pattern)
+                    tried.append([pattern])
             raise Resolver404({'tried': tried, 'path': new_path})
         raise Resolver404({'path': path})
 
@@ -600,9 +626,10 @@ class URLResolver:
             iter(patterns)
         except TypeError as e:
             msg = (
-                "The included URLconf '{name}' does not appear to have any "
-                "patterns in it. If you see valid patterns in the file then "
-                "the issue is probably caused by a circular import."
+                "The included URLconf '{name}' does not appear to have "
+                "any patterns in it. If you see the 'urlpatterns' variable "
+                "with valid patterns in the file then the issue is probably "
+                "caused by a circular import."
             )
             raise ImproperlyConfigured(msg.format(name=self.urlconf_name)) from e
         return patterns
