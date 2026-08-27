@@ -1,8 +1,8 @@
 # Q
 
-> God node · 280 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 288 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 13](Community_13.md)
 
 ## Connections by Relation
 
@@ -26,7 +26,7 @@
 - .test_conditional_aggregate_on_complex_condition() `EXTRACTED`
 - .test_filtered_aggregate_ref_multiple_subquery_annotation() `EXTRACTED`
 - .test_filtered_aggregate_ref_subquery_annotation() `EXTRACTED`
-- .test_combined_q_object() `EXTRACTED`
+- .test_q_expression_annotation_with_aggregation() `EXTRACTED`
 
 ### contains
 - query_utils.py `EXTRACTED`
