@@ -174,7 +174,7 @@ class Template:
         """
         Parse and compile the template source into a nodelist. If debug
         is True and an exception occurs during parsing, the exception is
-        is annotated with contextual line information where it occurred in the
+        annotated with contextual line information where it occurred in the
         template source.
         """
         if self.engine.debug:
@@ -405,7 +405,9 @@ class DebugLexer(Lexer):
 
 class Parser:
     def __init__(self, tokens, libraries=None, builtins=None, origin=None):
-        self.tokens = tokens
+        # Reverse the tokens so delete_first_token(), prepend_token(), and
+        # next_token() can operate at the end of the list in constant time.
+        self.tokens = list(reversed(tokens))
         self.tags = {}
         self.filters = {}
         self.command_stack = []
@@ -541,13 +543,13 @@ class Parser:
         raise self.error(token, msg)
 
     def next_token(self):
-        return self.tokens.pop(0)
+        return self.tokens.pop()
 
     def prepend_token(self, token):
-        self.tokens.insert(0, token)
+        self.tokens.append(token)
 
     def delete_first_token(self):
-        del self.tokens[0]
+        del self.tokens[-1]
 
     def add_library(self, lib):
         self.tags.update(lib.tags)

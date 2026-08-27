@@ -41,6 +41,26 @@ class TestModel1:
     thing = models.FileField(upload_to=upload_to)
 
 
+class TextEnum(enum.Enum):
+    A = 'a-value'
+    B = 'value-b'
+
+
+class TextTranslatedEnum(enum.Enum):
+    A = _('a-value')
+    B = _('value-b')
+
+
+class BinaryEnum(enum.Enum):
+    A = b'a-value'
+    B = b'value-b'
+
+
+class IntEnum(enum.IntEnum):
+    A = 1
+    B = 2
+
+
 class OperationWriterTests(SimpleTestCase):
 
     def test_empty_signature(self):
@@ -164,6 +184,9 @@ class WriterTests(SimpleTestCase):
     """
     Tests the migration writer (makes migration files from Migration instances)
     """
+    class NestedEnum(enum.IntEnum):
+        A = 1
+        B = 2
 
     def safe_exec(self, string, value=None):
         d = {}
@@ -253,22 +276,6 @@ class WriterTests(SimpleTestCase):
         self.assertEqual(self.serialize_round_trip(lazy_pattern), pattern)
 
     def test_serialize_enums(self):
-        class TextEnum(enum.Enum):
-            A = 'a-value'
-            B = 'value-b'
-
-        class TextTranslatedEnum(enum.Enum):
-            A = _('a-value')
-            B = _('value-b')
-
-        class BinaryEnum(enum.Enum):
-            A = b'a-value'
-            B = b'value-b'
-
-        class IntEnum(enum.IntEnum):
-            A = 1
-            B = 2
-
         self.assertSerializedResultEqual(
             TextEnum.A,
             ("migrations.test_writer.TextEnum['A']", {'import migrations.test_writer'})
@@ -285,6 +292,14 @@ class WriterTests(SimpleTestCase):
             IntEnum.B,
             ("migrations.test_writer.IntEnum['B']", {'import migrations.test_writer'})
         )
+        self.assertSerializedResultEqual(
+            self.NestedEnum.A,
+            (
+                "migrations.test_writer.WriterTests.NestedEnum['A']",
+                {'import migrations.test_writer'},
+            ),
+        )
+        self.assertSerializedEqual(self.NestedEnum.A)
 
         field = models.CharField(default=TextEnum.B, choices=[(m.value, m) for m in TextEnum])
         string = MigrationWriter.serialize(field)[0]

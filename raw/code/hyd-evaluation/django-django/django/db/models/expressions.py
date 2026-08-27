@@ -401,7 +401,9 @@ class BaseExpression:
         return tuple(identity)
 
     def __eq__(self, other):
-        return isinstance(other, BaseExpression) and other.identity == self.identity
+        if not isinstance(other, BaseExpression):
+            return NotImplemented
+        return other.identity == self.identity
 
     def __hash__(self):
         return hash(self.identity)
@@ -1144,10 +1146,11 @@ class OrderBy(BaseExpression):
 
     def as_sqlite(self, compiler, connection):
         template = None
-        if self.nulls_last:
-            template = '%(expression)s IS NULL, %(expression)s %(ordering)s'
-        elif self.nulls_first:
-            template = '%(expression)s IS NOT NULL, %(expression)s %(ordering)s'
+        if connection.Database.sqlite_version_info < (3, 30, 0):
+            if self.nulls_last:
+                template = '%(expression)s IS NULL, %(expression)s %(ordering)s'
+            elif self.nulls_first:
+                template = '%(expression)s IS NOT NULL, %(expression)s %(ordering)s'
         return self.as_sql(compiler, connection, template=template)
 
     def as_mysql(self, compiler, connection):
