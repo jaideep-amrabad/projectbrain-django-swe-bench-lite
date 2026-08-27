@@ -1,59 +1,51 @@
 # Community 208
 
-> 33 nodes · cohesion 0.09
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **db/transaction.py** (67 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **set_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **set_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **ContextDecorator** (1 connections)
-- **Register `func` to be called when the current transaction is committed. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Guarantee the atomic execution of a given block. An instance can be used either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Get a database connection by name, or the default database connection if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Get the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Set the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Commit a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- *... and 8 more nodes in this community*
+- **utils/decorators.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorators/gzip.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **make_middleware_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **_multi_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **_update_method_wrapper()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **classmethod** (1 connections)
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Functions that help with dynamically creating decorators for views.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Given a middleware class (not an instance), return a view decorator. This lets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Decorate `method` with one or more function decorators. `decorators` can be a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Like decorator_from_middleware, but return a function that accepts the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Main entry point for a request-response process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 61](Community_61.md) (6 shared connections)
-- [Community 337](Community_337.md) (3 shared connections)
-- [Community 625](Community_625.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 865](Community_865.md) (1 shared connections)
-- [Community 329](Community_329.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
+- [Community 68](Community_68.md) (4 shared connections)
+- [Community 196](Community_196.md) (4 shared connections)
+- [Community 120](Community_120.md) (3 shared connections)
+- [Community 214](Community_214.md) (3 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 322](Community_322.md) (1 shared connections)
+- [Community 548](Community_548.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 47 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

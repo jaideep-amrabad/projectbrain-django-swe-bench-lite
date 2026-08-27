@@ -1,12 +1,11 @@
 # Community 191
 
-> 28 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
 - **Element** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
 - **Parser** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **test/html.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
 - **HTMLParseError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
 - **RootElement** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
 - **.handle_endtag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
@@ -29,18 +28,18 @@
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
 - **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
 - **Exception** (1 connections)
-- *... and 3 more nodes in this community*
+- **HTMLParser** (1 connections)
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 550](Community_550.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 830](Community_830.md) (2 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
-- [Community 411](Community_411.md) (1 shared connections)
+- [Community 22](Community_22.md) (6 shared connections)
+- [Community 554](Community_554.md) (2 shared connections)
+- [Community 415](Community_415.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 834](Community_834.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 339](Community_339.md) (1 shared connections)
+- [Community 259](Community_259.md) (1 shared connections)
 
 ## Source Files
 
@@ -48,8 +47,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 48 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 42 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---
