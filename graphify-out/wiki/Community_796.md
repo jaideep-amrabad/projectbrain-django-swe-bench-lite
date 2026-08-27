@@ -1,39 +1,35 @@
 # Community 796
 
-> 14 nodes · cohesion 0.19
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **ExecutorUnitTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **FakeMigration** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_backwards_nothing_to_do()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_minimize_rollbacks()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_minimize_rollbacks_branchy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **FakeLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **Really all we need is any object with a debug-useful repr.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **(More) isolated unit tests for executor methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **Minimize unnecessary rollbacks in connected apps. When you say "./manage.py…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **r""" Minimize rollbacks when target has multiple in-app children. a: 1 <---- 3…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **r""" If the current state satisfies the given target, do nothing. a: 1 <--- 2…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **ThreadTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_default_connection_thread_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_closing_non_shared_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_connections_thread_local()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_pass_connection_between_threads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **The default connection (i.e. django.db.connection) is different for each thread…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **The connections are different for each thread (#17258).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **A connection can be passed from one thread to the other (#17258).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **A connection that is not explicitly shareable cannot be closed by another…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_thread_sharing_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 91](Community_91.md) (4 shared connections)
-- [Community 65](Community_65.md) (4 shared connections)
-- [Community 634](Community_634.md) (3 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 11 (85%)
+- INFERRED: 2 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

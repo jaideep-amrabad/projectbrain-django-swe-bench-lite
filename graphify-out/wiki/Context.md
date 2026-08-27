@@ -1,17 +1,17 @@
 # Context
 
-> God node · 256 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
+> God node · 255 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
 
-**Community:** [Community 9](Community_9.md)
+**Community:** [Community 29](Community_29.md)
 
 ## Connections by Relation
 
 ### calls
 - .humanize_tester() `EXTRACTED`
 - floatformat() `INFERRED`
+- .handle() `EXTRACTED`
 - technical_404_response() `EXTRACTED`
 - page_not_found() `EXTRACTED`
-- .handle() `EXTRACTED`
 - csrf_failure() `EXTRACTED`
 - default_urlconf() `EXTRACTED`
 - trace_view() `EXTRACTED`
@@ -38,10 +38,10 @@
 - i18n/tests.py `EXTRACTED`
 - defaulttags.py `EXTRACTED`
 - test_client/views.py `EXTRACTED`
+- view_tests/views.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - views/debug.py `EXTRACTED`
-- tests/test_forms.py `EXTRACTED`
 - patterns/tests.py `EXTRACTED`
 - views/i18n.py `EXTRACTED`
 - test_blocktranslate.py `EXTRACTED`

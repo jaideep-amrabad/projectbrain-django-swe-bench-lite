@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 525 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 563 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 25](Community_25.md)
+**Community:** [Community 32](Community_32.md)
 
 ## Connections by Relation
 
@@ -18,12 +18,12 @@
 - django/test/__init__.py `EXTRACTED`
 - queries/tests.py `EXTRACTED`
 - model_forms/tests.py `EXTRACTED`
+- test_utils/tests.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
 - schema/tests.py `EXTRACTED`
-- test_utils/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
-- timezones/tests.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
+- timezones/tests.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
 - test_extract_trunc.py `EXTRACTED`
 - delete_regress/tests.py `EXTRACTED`
@@ -32,9 +32,9 @@
 - backends/tests.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
-- aggregation/tests.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
+- test_query.py `EXTRACTED`
 
 ### rationale_for
 - Skip a test unless a database has all the named features. `EXTRACTED`
@@ -43,23 +43,23 @@
 - TestQuerying `EXTRACTED`
 - QuerySetSetOperationTests `EXTRACTED`
 - WindowFunctionTests `EXTRACTED`
+- TestConnectionOnCommit `EXTRACTED`
 - AtomicTests `EXTRACTED`
 - RasterFieldTest `EXTRACTED`
 - Geo3DFunctionsTests `EXTRACTED`
 - Geo3DTest `EXTRACTED`
 - DistinctOnTests `EXTRACTED`
 - SubqueryTests `EXTRACTED`
+- TestDataTests `EXTRACTED`
+- ExplainTests `EXTRACTED`
+- CaptureOnCommitCallbacksTests `EXTRACTED`
 - ConstraintNameTests `EXTRACTED`
 - PartialIndexTests `EXTRACTED`
 - TestSaveLoad `EXTRACTED`
 - JSONObjectTests `EXTRACTED`
 - SpatialRefSysTest `EXTRACTED`
 - ReturningValuesTests `EXTRACTED`
-- ExplainTests `EXTRACTED`
 - AutoIncrementResetTest `EXTRACTED`
-- .test_key_transform() `EXTRACTED`
-- AtomicErrorsTests `EXTRACTED`
-- JSONFieldTests `EXTRACTED`
 
 ---
 

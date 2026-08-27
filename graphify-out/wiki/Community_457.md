@@ -1,66 +1,65 @@
 # Community 457
 
-> 27 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **.settings()** (28 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **BaseConnectionHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **DatabaseWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **test_files.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- **check_setting_file_upload_temp_dir()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
-- **FilesCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- **BaseConnectionHandlerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
-- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **get_level_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.configure_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.test_file_upload_temp_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- **.test_file_upload_temp_dir_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- **.test_create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
-- **.prepare_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Return the message level tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- *... and 2 more nodes in this community*
+- **BaseDatabaseClient** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **DatabaseClient** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **base/client.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **test_postgresql.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **mysql/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- **postgresql/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- **sqlite3/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- **dbshell/test_sqlite.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **SqliteDbshellCommandTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **spatialite/client.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- **.settings_to_cmd_args_env()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.runshell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **.settings_to_cmd_args_env()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **DatabaseClient** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_path_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **Encapsulate backend-specific methods for opening a client shell.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **.settings_to_cmd_args_env()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- **.settings_to_cmd_args_env()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- **.settings_to_cmd_args_env()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 33](Community_33.md) (5 shared connections)
-- [Community 272](Community_272.md) (3 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 416](Community_416.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 827](Community_827.md) (1 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
-- [Community 386](Community_386.md) (1 shared connections)
+- [Community 5](Community_5.md) (10 shared connections)
+- [Community 189](Community_189.md) (8 shared connections)
+- [Community 184](Community_184.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 415](Community_415.md) (3 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 281](Community_281.md) (2 shared connections)
+- [Community 438](Community_438.md) (1 shared connections)
+- [Community 632](Community_632.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (58%)
-- INFERRED: 34 (42%)
+- EXTRACTED: 69 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

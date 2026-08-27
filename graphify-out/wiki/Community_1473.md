@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **filepathfield_test_dir/ab.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/ab.py`
+- **migrations2/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations2/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/ab.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations2/models.py`
 
 ## Audit Trail
 

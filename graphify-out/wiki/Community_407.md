@@ -1,60 +1,55 @@
 # Community 407
 
-> 26 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ReverseGenericManyToOneDescriptor** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.contribute_to_class()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **create_generic_related_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **create_reverse_many_to_one_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.related_manager_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__set__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_manager_cls()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **._get_set_deprecation_msg_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.related_manager_cls()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **Accessor to the related objects manager on the one-to-many relation created by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **Factory function to create a manager that subclasses another manager (generally…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Accessor to the related objects manager on the reverse side of a many-to-one…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Get the related objects through the reverse relation. With the example above,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Create a manager for the reverse side of a many-to-one relation. This manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Accessor to the related objects manager on the forward and reverse sides of a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **._get_set_deprecation_msg_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- *... and 1 more nodes in this community*
+- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **SimpleModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/models.py`
+- **.test_update_conflicts_unique_field_unsupported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_abulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aexplain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **async_to_sync** (3 connections)
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_acontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 168](Community_168.md) (3 shared connections)
-- [Community 245](Community_245.md) (2 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
-- [Community 444](Community_444.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 289](Community_289.md) (1 shared connections)
-- [Community 704](Community_704.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
+- [Community 340](Community_340.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/async_queryset/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (87%)
-- INFERRED: 7 (13%)
+- EXTRACTED: 41 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

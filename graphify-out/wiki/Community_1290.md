@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **SelectFilter2.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- **admin_utils/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/__init__.py`
 
 ## Audit Trail
 

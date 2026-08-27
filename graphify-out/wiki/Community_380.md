@@ -1,55 +1,51 @@
 # Community 380
 
-> 27 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **TemplateResponseMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **SingleObjectMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **ContextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **BaseDetailView** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **DetailView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_template_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.render_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.get_context_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_slug_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **A mixin that can be used to render a template.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Return a response, using the `response_class` for this view, with a template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Return a list of template names to be used for the request. Must return a list.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **A default context mixin that passes the keyword arguments received by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **A base view for displaying a single object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Render a "detail" view of an object. By default this is a model instance looked…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Return the object the view is displaying. Require `self.queryset` and a `pk` or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Return the `QuerySet` that will be used to look up the object. This method is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Get the name of a slug field to be used to look up by slug.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Get the name to use for the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- *... and 2 more nodes in this community*
+- **PermWrapper** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **PermLookupDict** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **PermWrapperTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **MockUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **auth/context_processors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **EQLimiterObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_permlookupdict_in()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **auth()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.test_permwrapper_in()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_iter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **Lookup by "someapp" or "someapp.someperm" in perms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **Return context variables required by apps that use Django's authentication…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (17 shared connections)
-- [Community 157](Community_157.md) (7 shared connections)
-- [Community 228](Community_228.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 486](Community_486.md) (1 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
-- [Community 401](Community_401.md) (1 shared connections)
+- [Community 44](Community_44.md) (5 shared connections)
+- [Community 162](Community_162.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 48 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

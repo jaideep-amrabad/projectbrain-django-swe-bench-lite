@@ -1,56 +1,66 @@
 # Community 306
 
-> 37 nodes · cohesion 0.09
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **admin_ordering/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **TestRelatedFieldsAdminOrdering** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **TestAdminOrdering** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **admin_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **TestInlineModelAdminOrdering** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **Band** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **DynOrderingBandAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **.check_ordering_of_field_choices()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **SongInlineDefaultOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **SongInlineNewOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **MockSuperUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_dynamic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_custom_queryset_still_wins()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **Let's make sure that ModelAdmin.get_queryset uses the ordering we define in…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **The default ordering should be by name, as specified in the inner Meta class.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_admin_ordering_beats_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_admin_with_no_ordering_fallback_to_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- *... and 12 more nodes in this community*
+- **backends/models.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **base/test_creation.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **Person** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **mysql/test_operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
+- **oracle/test_operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **postgresql/test_operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
+- **sqlite/test_operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- **DBConstraintTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **TestDeserializeDbFromString** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **Object** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **Tag** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **postgresql/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **ObjectReference** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **DatabaseSequenceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **SchoolClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **CircularA** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **CircularB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **SkipTestClass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **Book** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **ObjectSelfReference** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **SchoolClassManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **expected_failure_test_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **skip_test_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.skip_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 53](Community_53.md) (4 shared connections)
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 217](Community_217.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 94](Community_94.md) (12 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 5](Community_5.md) (9 shared connections)
+- [Community 209](Community_209.md) (8 shared connections)
+- [Community 26](Community_26.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 340](Community_340.md) (4 shared connections)
+- [Community 281](Community_281.md) (3 shared connections)
+- [Community 161](Community_161.md) (3 shared connections)
+- [Community 669](Community_669.md) (3 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (87%)
-- INFERRED: 11 (13%)
+- EXTRACTED: 134 (94%)
+- INFERRED: 8 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

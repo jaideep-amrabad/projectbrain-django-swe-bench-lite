@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1301 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1321 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 11](Community_11.md)
+**Community:** [Community 5](Community_5.md)
 
 ## Connections by Relation
 
@@ -16,25 +16,24 @@
 - model_forms/tests.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
-- expressions/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- test_auth_backends.py `EXTRACTED`
+- expressions/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
+- test_auth_backends.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
+- tests/test_debug.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
-- test_client_regress/tests.py `EXTRACTED`
+- test_runner/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
+- test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
-- test_runner/tests.py `EXTRACTED`
-- file_storage/tests.py `EXTRACTED`
+- test/runner.py `EXTRACTED`
 
 ### inherits
 - TransactionTestCase `EXTRACTED`
 - IfTagTests `EXTRACTED`
-- FormsTestCase `EXTRACTED`
 - GEOSTest `EXTRACTED`
 - FormsFormsetTestCase `EXTRACTED`
 - SystemChecksTestCase `EXTRACTED`
@@ -43,37 +42,41 @@
 - WidgetTest `EXTRACTED`
 - MailTests `EXTRACTED`
 - AdminScriptTestCase `EXTRACTED`
-- UrlTagTests `EXTRACTED`
 - OptimizerTests `EXTRACTED`
+- UrlTagTests `EXTRACTED`
 - InheritanceTests `EXTRACTED`
-- OGRGeomTest `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
+- OGRGeomTest `EXTRACTED`
 - BasicSyntaxTests `EXTRACTED`
 - OtherModelTests `EXTRACTED`
+- CommandTests `EXTRACTED`
 - FieldDeconstructionTests `EXTRACTED`
-- RelativeFieldTests `EXTRACTED`
+- FileStorageTests `EXTRACTED`
 
 ### method
 - .settings() `EXTRACTED`
 - ._setup_and_call() `EXTRACTED`
 - .assertRedirects() `EXTRACTED`
+- .assertFormError() `EXTRACTED`
+- .assertFormsetError() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
+- .assertTemplateUsed() `EXTRACTED`
 - ._validate_databases() `EXTRACTED`
 - ._add_databases_failures() `EXTRACTED`
 - .modify_settings() `EXTRACTED`
 - ._assert_contains() `EXTRACTED`
-- .assertTemplateUsed() `EXTRACTED`
+- ._get_template_used() `EXTRACTED`
 - .assertTemplateNotUsed() `EXTRACTED`
 - ._assertFooMessage() `EXTRACTED`
+- .assertHTMLEqual() `EXTRACTED`
+- .assertHTMLNotEqual() `EXTRACTED`
+- .assertXMLEqual() `EXTRACTED`
+- .assertXMLNotEqual() `EXTRACTED`
 - .__call__() `EXTRACTED`
 - .debug() `EXTRACTED`
-- .assertURLEqual() `EXTRACTED`
-- .assertContains() `EXTRACTED`
-- .assertNotContains() `EXTRACTED`
-- .assertFormError() `EXTRACTED`
-- .assertFormsetError() `EXTRACTED`
-- ._assert_template_used() `EXTRACTED`
-- ._assert_raises_or_warns_cm() `EXTRACTED`
+
+### uses
+- RemovedInDjango50Warning `INFERRED`
 
 ---
 

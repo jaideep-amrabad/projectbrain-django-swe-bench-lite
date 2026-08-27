@@ -1,62 +1,78 @@
 # Community 416
 
-> 37 nodes · cohesion 0.08
+> 96 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **runtests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **NullTimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **TimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.handle()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_runner()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **django_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **ParallelTestSuite** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **collect_test_modules()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **setup_collect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **setup_run_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **DummyList** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_filtered_test_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **teardown_collect_tests()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **bisect_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_label_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_test_modules()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **paired_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **teardown_run_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_apps_to_install()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- *... and 12 more nodes in this community*
+- **MiddlewareMixin** (53 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **test_middleware_mixin.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **GZipMiddleware** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **SessionMiddleware** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **.middleware()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- **MiddlewareMixinTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **sessions/middleware.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **SessionMiddlewareTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **admin_docs/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- **admindocs/middleware.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- **middleware/http.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **MessageMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **SecurityMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
+- **flatpages/middleware.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
+- **messages/middleware.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **middleware/clickjacking.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
+- **XViewMiddleware** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- **sites/middleware.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
+- **CurrentSiteMiddleware** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
+- **security.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
+- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **SessionInterrupted** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **messages_tests/test_middleware.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- *... and 71 more nodes in this community*
 
 ## Relationships
 
-- [Community 17](Community_17.md) (12 shared connections)
-- [Community 552](Community_552.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 82](Community_82.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 357](Community_357.md) (3 shared connections)
-- [Community 457](Community_457.md) (2 shared connections)
-- [Community 191](Community_191.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 1005](Community_1005.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 400](Community_400.md) (1 shared connections)
+- [Community 7](Community_7.md) (26 shared connections)
+- [Community 590](Community_590.md) (15 shared connections)
+- [Community 62](Community_62.md) (12 shared connections)
+- [Community 205](Community_205.md) (11 shared connections)
+- [Community 17](Community_17.md) (10 shared connections)
+- [Community 64](Community_64.md) (10 shared connections)
+- [Community 169](Community_169.md) (10 shared connections)
+- [Community 51](Community_51.md) (8 shared connections)
+- [Community 42](Community_42.md) (7 shared connections)
+- [Community 1011](Community_1011.md) (6 shared connections)
+- [Community 142](Community_142.md) (5 shared connections)
+- [Community 138](Community_138.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 94 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 325 (90%)
+- INFERRED: 35 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

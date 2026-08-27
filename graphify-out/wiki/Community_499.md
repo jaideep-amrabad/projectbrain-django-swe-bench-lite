@@ -1,38 +1,53 @@
 # Community 499
 
-> 15 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FileUploadHandler** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.file_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.handle_raw_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.new_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.receive_data_chunk()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.upload_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.upload_interrupted()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Receive data from the streamed upload parser. ``start`` is the position in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Signal that a file has completed. File size corresponds to the actual size…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Signal that the upload is complete. Subclasses should perform cleanup that is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Signal that the upload was interrupted. Subclasses should perform cleanup that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Base class for streaming upload handlers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Handle the raw input from the client. Parameters: :input_data: An object that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Signal that a new file has been started. Warning: As with any data from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **test_qs_combinators.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **Author** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Number** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ReservedName** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **EmptyQuerySetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Queries2Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **EscapingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket4289()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket7759()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_emptyqueryset_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket_19151()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_values_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket_7302()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket12239()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (6 shared connections)
-- [Community 287](Community_287.md) (1 shared connections)
+- [Community 110](Community_110.md) (12 shared connections)
+- [Community 32](Community_32.md) (8 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 507](Community_507.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 412](Community_412.md) (2 shared connections)
+- [Community 471](Community_471.md) (2 shared connections)
+- [Community 199](Community_199.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 52 (70%)
+- INFERRED: 22 (30%)
 - AMBIGUOUS: 0 (0%)
 
 ---

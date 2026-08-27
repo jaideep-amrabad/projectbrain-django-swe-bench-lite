@@ -1,18 +1,20 @@
 # call_command()
 
-> God node · 315 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 357 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 5](Community_5.md)
+**Community:** [Community 515](Community_515.md)
 
 ## Connections by Relation
 
 ### calls
 - CommandError `EXTRACTED`
 - .create_test_db() `EXTRACTED`
+- _init_worker() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
 - .get_actions() `INFERRED`
 - get_commands() `EXTRACTED`
 - .test_migrate_inconsistent_history() `EXTRACTED`
+- .test_migrate_prune() `EXTRACTED`
 - .test_migrate_record_replaced() `EXTRACTED`
 - .test_migrate_record_squashed() `EXTRACTED`
 - .test_showmigrations_list() `EXTRACTED`
@@ -25,8 +27,6 @@
 - .make_field_type_asserter() `EXTRACTED`
 - .test_include_materialized_views() `EXTRACTED`
 - .test_include_partitions() `EXTRACTED`
-- .test_makemigrations_inconsistent_history() `EXTRACTED`
-- .test_migrate_partially_applied_squashed_migration() `EXTRACTED`
 
 ### contains
 - core/management/__init__.py `EXTRACTED`
@@ -36,12 +36,12 @@
 - admin_scripts/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
-- staticfiles_tests/test_management.py `EXTRACTED`
 - test/runner.py `EXTRACTED`
+- staticfiles_tests/test_management.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
 - auth_tests/test_management.py `EXTRACTED`
-- check_framework/tests.py `EXTRACTED`
 - migrations/test_commands.py `EXTRACTED`
+- check_framework/tests.py `EXTRACTED`
 - test_compilation.py `EXTRACTED`
 - test_storage.py `EXTRACTED`
 - inspectapp/tests.py `EXTRACTED`

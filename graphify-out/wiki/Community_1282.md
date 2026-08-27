@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **collapse.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/collapse.js`
+- **render.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/.hidden/render.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/collapse.js`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/.hidden/render.py`
 
 ## Audit Trail
 
