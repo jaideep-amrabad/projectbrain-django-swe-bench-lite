@@ -1,6 +1,6 @@
 # Community 19
 
-> 278 nodes · cohesion 0.01
+> 277 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **MultiPartParser** (19 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 - **redirects_tests/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 - **get_docs_version()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- *... and 253 more nodes in this community*
+- *... and 252 more nodes in this community*
 
 ## Relationships
 
 - [Community 1](Community_1.md) (53 shared connections)
-- [Community 3](Community_3.md) (40 shared connections)
+- [Community 2](Community_2.md) (40 shared connections)
 - [Community 11](Community_11.md) (38 shared connections)
-- [Community 6](Community_6.md) (37 shared connections)
-- [Community 20](Community_20.md) (36 shared connections)
-- [Community 59](Community_59.md) (35 shared connections)
+- [Community 21](Community_21.md) (36 shared connections)
+- [Community 39](Community_39.md) (35 shared connections)
 - [Community 0](Community_0.md) (35 shared connections)
-- [Community 24](Community_24.md) (35 shared connections)
-- [Community 15](Community_15.md) (31 shared connections)
-- [Community 117](Community_117.md) (31 shared connections)
-- [Community 67](Community_67.md) (29 shared connections)
-- [Community 7](Community_7.md) (29 shared connections)
+- [Community 25](Community_25.md) (35 shared connections)
+- [Community 13](Community_13.md) (33 shared connections)
+- [Community 44](Community_44.md) (32 shared connections)
+- [Community 85](Community_85.md) (31 shared connections)
+- [Community 8](Community_8.md) (29 shared connections)
+- [Community 14](Community_14.md) (28 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1782 (99%)
+- EXTRACTED: 1781 (99%)
 - INFERRED: 21 (1%)
 - AMBIGUOUS: 0 (0%)
 

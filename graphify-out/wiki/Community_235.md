@@ -1,6 +1,6 @@
 # Community 235
 
-> 49 nodes · cohesion 0.06
+> 48 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -15,47 +15,46 @@
 - **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 - **BookSigning** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 - **Page** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **CustomContextView** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.test_aware_datetime_archive_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 - **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **.test_aware_datetime_date_detail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_day_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **requires_tz_support** (3 connections)
 - **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 - **.test_get_object_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 - **.test_aware_datetime_week_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **CustomTemplateView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 - **.test_date_detail_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 - **.test_date_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 - **.test_date_detail_by_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- *... and 24 more nodes in this community*
+- **.test_date_detail_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 134](Community_134.md) (25 shared connections)
-- [Community 7](Community_7.md) (8 shared connections)
-- [Community 505](Community_505.md) (8 shared connections)
-- [Community 51](Community_51.md) (7 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 380](Community_380.md) (4 shared connections)
-- [Community 584](Community_584.md) (4 shared connections)
-- [Community 519](Community_519.md) (4 shared connections)
+- [Community 130](Community_130.md) (22 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 8](Community_8.md) (8 shared connections)
+- [Community 24](Community_24.md) (7 shared connections)
+- [Community 511](Community_511.md) (7 shared connections)
+- [Community 385](Community_385.md) (4 shared connections)
+- [Community 590](Community_590.md) (4 shared connections)
+- [Community 524](Community_524.md) (4 shared connections)
 - [Community 19](Community_19.md) (4 shared connections)
-- [Community 400](Community_400.md) (3 shared connections)
+- [Community 405](Community_405.md) (3 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 73](Community_73.md) (2 shared connections)
+- [Community 67](Community_67.md) (2 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (77%)
+- EXTRACTED: 125 (77%)
 - INFERRED: 38 (23%)
 - AMBIGUOUS: 0 (0%)
 
