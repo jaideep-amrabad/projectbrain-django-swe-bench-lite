@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **reserved_names/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/__init__.py`
+- **queries/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/__init__.py`
 
 ## Audit Trail
 

@@ -25,12 +25,12 @@
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 682](Community_682.md) (1 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
 - [Community 300](Community_300.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
 
 ## Source Files
 

@@ -24,14 +24,14 @@
 
 ## Relationships
 
-- [Community 365](Community_365.md) (5 shared connections)
+- [Community 373](Community_373.md) (5 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 160](Community_160.md) (1 shared connections)
-- [Community 971](Community_971.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 357](Community_357.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 163](Community_163.md) (1 shared connections)
+- [Community 972](Community_972.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 359](Community_359.md) (1 shared connections)
 
 ## Source Files
 

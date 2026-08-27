@@ -1,6 +1,6 @@
 # Community 23
 
-> 251 nodes · cohesion 0.01
+> 259 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -21,30 +21,30 @@
 - **AddIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **AlterModelOptions** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **AlterOrderWithRespectTo** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RemoveIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **RunSQL** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 - **AlterModelManagers** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **AlterModelTable** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **ModelOperation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **AddConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **RemoveConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- *... and 226 more nodes in this community*
+- *... and 234 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (19 shared connections)
-- [Community 17](Community_17.md) (15 shared connections)
-- [Community 130](Community_130.md) (7 shared connections)
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 165](Community_165.md) (7 shared connections)
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 39](Community_39.md) (4 shared connections)
+- [Community 3](Community_3.md) (19 shared connections)
+- [Community 18](Community_18.md) (15 shared connections)
+- [Community 29](Community_29.md) (7 shared connections)
+- [Community 167](Community_167.md) (7 shared connections)
+- [Community 135](Community_135.md) (5 shared connections)
+- [Community 48](Community_48.md) (4 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
 - [Community 0](Community_0.md) (4 shared connections)
-- [Community 199](Community_199.md) (3 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 41](Community_41.md) (2 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 883](Community_883.md) (3 shared connections)
+- [Community 182](Community_182.md) (2 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
 
 ## Source Files
 
@@ -55,11 +55,12 @@
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 445 (97%)
+- EXTRACTED: 452 (97%)
 - INFERRED: 14 (3%)
 - AMBIGUOUS: 0 (0%)
 
