@@ -1,6 +1,6 @@
 # Community 6
 
-> 336 nodes · cohesion 0.01
+> 342 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **SingleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- *... and 311 more nodes in this community*
+- *... and 317 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (43 shared connections)
-- [Community 5](Community_5.md) (35 shared connections)
-- [Community 19](Community_19.md) (27 shared connections)
-- [Community 38](Community_38.md) (22 shared connections)
-- [Community 1](Community_1.md) (21 shared connections)
-- [Community 0](Community_0.md) (17 shared connections)
-- [Community 112](Community_112.md) (9 shared connections)
-- [Community 223](Community_223.md) (8 shared connections)
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 119](Community_119.md) (6 shared connections)
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
+- [Community 1](Community_1.md) (59 shared connections)
+- [Community 2](Community_2.md) (34 shared connections)
+- [Community 14](Community_14.md) (30 shared connections)
+- [Community 4](Community_4.md) (17 shared connections)
+- [Community 13](Community_13.md) (16 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 39](Community_39.md) (12 shared connections)
+- [Community 114](Community_114.md) (9 shared connections)
+- [Community 211](Community_211.md) (8 shared connections)
+- [Community 116](Community_116.md) (5 shared connections)
+- [Community 258](Community_258.md) (4 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
 
 ## Source Files
 
@@ -59,7 +59,6 @@
 - `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 - `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/urls.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/__init__.py`
@@ -68,10 +67,11 @@
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 - `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/included.py`
 - `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/namespace.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/path_unused.py`
 
 ## Audit Trail
 
-- EXTRACTED: 866 (97%)
+- EXTRACTED: 870 (97%)
 - INFERRED: 30 (3%)
 - AMBIGUOUS: 0 (0%)
 

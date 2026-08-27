@@ -1,31 +1,23 @@
 # Community 1102
 
-> 10 nodes · cohesion 0.11
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_multi_table_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **.test_regression_12851()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **.test_regression_7110()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **.test_regression_8036()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **.test_regression_8106()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Exercising select_related() with multi-table model inheritance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Regression for #12851 Deferred fields are used correctly if you select_related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Regression test for bug #7110. When using select_related(), we must query the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Regression test for bug #8106. Same sort of problem as the previous test, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Regression test for bug #8036 the first related model in the tests below…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **Circle4** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 260](Community_260.md) (5 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
