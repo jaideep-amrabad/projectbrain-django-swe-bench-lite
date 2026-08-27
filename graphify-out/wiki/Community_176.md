@@ -1,6 +1,6 @@
 # Community 176
 
-> 68 nodes · cohesion 0.05
+> 60 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -17,38 +17,37 @@
 - **.as_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **OFTString** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **OFTInteger64** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.index()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
 - **.as_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- **.name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
 - **.as_double()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.as_int()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- *... and 43 more nodes in this community*
+- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 114](Community_114.md) (25 shared connections)
-- [Community 92](Community_92.md) (14 shared connections)
-- [Community 30](Community_30.md) (6 shared connections)
-- [Community 740](Community_740.md) (6 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 93](Community_93.md) (3 shared connections)
-- [Community 282](Community_282.md) (3 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 488](Community_488.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 184](Community_184.md) (1 shared connections)
+- [Community 52](Community_52.md) (25 shared connections)
+- [Community 95](Community_95.md) (14 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 39](Community_39.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 311](Community_311.md) (3 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 280](Community_280.md) (3 shared connections)
+- [Community 708](Community_708.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 493](Community_493.md) (2 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
@@ -56,8 +55,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 170 (92%)
-- INFERRED: 14 (8%)
+- EXTRACTED: 160 (92%)
+- INFERRED: 13 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

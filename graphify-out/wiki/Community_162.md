@@ -1,6 +1,6 @@
 # Community 162
 
-> 61 nodes · cohesion 0.04
+> 63 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **.create_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
 - **._compile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.run_select_for_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
 - **.test_noerror_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **.test_unknown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **.test_unknown_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
@@ -28,23 +29,22 @@
 - **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
 - **.test_no_error_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **.test_unknown_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_circular_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- *... and 36 more nodes in this community*
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 170](Community_170.md) (4 shared connections)
+- [Community 155](Community_155.md) (4 shared connections)
 - [Community 214](Community_214.md) (4 shared connections)
-- [Community 504](Community_504.md) (3 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 60](Community_60.md) (3 shared connections)
-- [Community 540](Community_540.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 522](Community_522.md) (2 shared connections)
-- [Community 438](Community_438.md) (2 shared connections)
-- [Community 223](Community_223.md) (2 shared connections)
-- [Community 592](Community_592.md) (2 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 508](Community_508.md) (3 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 545](Community_545.md) (3 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 200](Community_200.md) (2 shared connections)
+- [Community 219](Community_219.md) (2 shared connections)
 
 ## Source Files
 
@@ -52,12 +52,13 @@
 - `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (51%)
-- INFERRED: 74 (49%)
+- EXTRACTED: 80 (52%)
+- INFERRED: 74 (48%)
 - AMBIGUOUS: 0 (0%)
 
 ---

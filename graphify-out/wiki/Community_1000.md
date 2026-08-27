@@ -9,10 +9,10 @@
 
 ## Relationships
 
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 232](Community_232.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 

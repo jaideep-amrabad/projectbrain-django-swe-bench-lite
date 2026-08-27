@@ -1,36 +1,29 @@
 # Community 804
 
-> 11 nodes · cohesion 0.22
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **RemoteUserMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **.process_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **._remove_invalid_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **PersistentRemoteUserMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **.clean_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **CustomHeaderMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **Middleware for Web-server provided authentication on logon pages. Like…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **Middleware for utilizing Web-server-provided authentication. If request.user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **Allow the backend to clean the username, if the backend defines a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **Remove the current authenticated user in the request which is invalid but only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **Middleware that overrides custom HTTP auth user header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **Temporary file object constructor that supports reopening of the temporary file…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 288](Community_288.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

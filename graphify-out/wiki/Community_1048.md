@@ -9,7 +9,7 @@
 
 ## Relationships
 
-- [Community 269](Community_269.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 

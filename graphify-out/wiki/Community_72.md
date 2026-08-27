@@ -1,6 +1,6 @@
 # Community 72
 
-> 105 nodes · cohesion 0.03
+> 122 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -19,6 +19,7 @@
 - **no_oracle()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
 - **NamedModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
 - **State** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
 - **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
 - **GeoExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
 - **GeoJSONSerializerTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
@@ -26,29 +27,31 @@
 - **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
 - **MultiFields** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
 - **geoapp/test_indexes.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **.test_geometryfield()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
 - **.test_proxy()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **Track** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- *... and 80 more nodes in this community*
+- **geoapp/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
+- *... and 97 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (34 shared connections)
-- [Community 39](Community_39.md) (32 shared connections)
-- [Community 2](Community_2.md) (28 shared connections)
-- [Community 12](Community_12.md) (17 shared connections)
-- [Community 371](Community_371.md) (10 shared connections)
-- [Community 69](Community_69.md) (10 shared connections)
-- [Community 26](Community_26.md) (9 shared connections)
-- [Community 41](Community_41.md) (8 shared connections)
-- [Community 208](Community_208.md) (6 shared connections)
-- [Community 70](Community_70.md) (4 shared connections)
-- [Community 194](Community_194.md) (4 shared connections)
-- [Community 127](Community_127.md) (4 shared connections)
+- [Community 38](Community_38.md) (31 shared connections)
+- [Community 30](Community_30.md) (20 shared connections)
+- [Community 14](Community_14.md) (20 shared connections)
+- [Community 708](Community_708.md) (15 shared connections)
+- [Community 12](Community_12.md) (11 shared connections)
+- [Community 70](Community_70.md) (10 shared connections)
+- [Community 209](Community_209.md) (10 shared connections)
+- [Community 18](Community_18.md) (9 shared connections)
+- [Community 39](Community_39.md) (7 shared connections)
+- [Community 130](Community_130.md) (6 shared connections)
+- [Community 273](Community_273.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
@@ -60,8 +63,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 337 (89%)
-- INFERRED: 40 (11%)
+- EXTRACTED: 368 (90%)
+- INFERRED: 39 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

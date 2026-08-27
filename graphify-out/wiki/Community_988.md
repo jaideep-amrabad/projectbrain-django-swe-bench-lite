@@ -10,8 +10,8 @@
 
 ## Relationships
 
-- [Community 724](Community_724.md) (2 shared connections)
-- [Community 751](Community_751.md) (2 shared connections)
+- [Community 727](Community_727.md) (2 shared connections)
+- [Community 755](Community_755.md) (2 shared connections)
 
 ## Source Files
 
