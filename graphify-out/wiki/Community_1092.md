@@ -13,8 +13,8 @@
 ## Relationships
 
 - [Community 8](Community_8.md) (1 shared connections)
-- [Community 390](Community_390.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 

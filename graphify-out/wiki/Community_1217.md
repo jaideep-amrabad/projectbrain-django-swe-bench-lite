@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_add_field_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RenameField should optimize into AddField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RemoveField should absorb AlterField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 718](Community_718.md) (1 shared connections)
-- [Community 717](Community_717.md) (1 shared connections)
+- [Community 722](Community_722.md) (1 shared connections)
+- [Community 721](Community_721.md) (1 shared connections)
 
 ## Source Files
 

@@ -13,7 +13,7 @@
 ## Relationships
 
 - [Community 4](Community_4.md) (2 shared connections)
-- [Community 552](Community_552.md) (1 shared connections)
+- [Community 555](Community_555.md) (1 shared connections)
 
 ## Source Files
 

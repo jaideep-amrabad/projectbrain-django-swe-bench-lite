@@ -1,6 +1,6 @@
 # Community 47
 
-> 137 nodes · cohesion 0.02
+> 139 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -29,18 +29,18 @@
 - **TestServeStaticWithURLHelper** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
 - **.assertStaticRenders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
 - **.render_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- *... and 112 more nodes in this community*
+- *... and 114 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (33 shared connections)
-- [Community 8](Community_8.md) (17 shared connections)
-- [Community 9](Community_9.md) (13 shared connections)
-- [Community 149](Community_149.md) (6 shared connections)
-- [Community 41](Community_41.md) (2 shared connections)
+- [Community 20](Community_20.md) (34 shared connections)
+- [Community 8](Community_8.md) (18 shared connections)
+- [Community 10](Community_10.md) (13 shared connections)
+- [Community 145](Community_145.md) (6 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 - [Community 11](Community_11.md) (1 shared connections)
-- [Community 378](Community_378.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
@@ -48,11 +48,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
 - `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 - `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 - `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 254 (98%)
+- EXTRACTED: 258 (98%)
 - INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 

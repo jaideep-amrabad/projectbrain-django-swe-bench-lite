@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **.test_create_model_add_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AddField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **AlterField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 718](Community_718.md) (1 shared connections)
-- [Community 717](Community_717.md) (1 shared connections)
+- [Community 722](Community_722.md) (1 shared connections)
+- [Community 721](Community_721.md) (1 shared connections)
 
 ## Source Files
 

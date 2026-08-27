@@ -1,35 +1,35 @@
 # Community 820
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **partition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **._insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._populate_pk_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Insert a new record for the given model. This provides an interface to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Helper method for bulk_create() to insert objs one batch at a time.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Insert each of the instances into the database. Do *not* call save() on each of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Split the values into two sets, based on the return value of the function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **ExecuteWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.mock_wrapper()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_nested_wrapper_invoked()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.call_execute()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.call_executemany()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_database_queried()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_wrapper_connection_specific()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_wrapper_invoked()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_wrapper_invoked_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_outer_wrapper_blocks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_wrapper_gets_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (4 shared connections)
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 130](Community_130.md) (6 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (81%)
+- INFERRED: 6 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

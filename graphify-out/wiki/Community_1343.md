@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **openlayers.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
+- **osm.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/osm.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/osm.js`
 
 ## Audit Trail
 

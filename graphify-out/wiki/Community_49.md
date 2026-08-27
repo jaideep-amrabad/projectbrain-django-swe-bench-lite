@@ -1,6 +1,6 @@
 # Community 49
 
-> 120 nodes · cohesion 0.02
+> 104 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -10,8 +10,6 @@
 - **ExtendsRelativeBehaviorTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends_relative.py`
 - **import_library()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
 - **TemplateTagLoadingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **NodelistTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_nodelist.py`
-- **IfChangedTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
 - **.get_template()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
 - **LoaderTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
 - **RenderToStringTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
@@ -29,28 +27,29 @@
 - **.test_loader_priority()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
 - **.test_block_override_in_extended_included_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
 - **.test_extend_self_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
-- *... and 95 more nodes in this community*
+- **.test_unique_history_per_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- *... and 79 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (49 shared connections)
-- [Community 41](Community_41.md) (38 shared connections)
-- [Community 464](Community_464.md) (12 shared connections)
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 3](Community_3.md) (9 shared connections)
-- [Community 461](Community_461.md) (4 shared connections)
-- [Community 625](Community_625.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
+- [Community 0](Community_0.md) (37 shared connections)
+- [Community 42](Community_42.md) (36 shared connections)
+- [Community 7](Community_7.md) (13 shared connections)
+- [Community 468](Community_468.md) (12 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 465](Community_465.md) (4 shared connections)
+- [Community 630](Community_630.md) (4 shared connections)
+- [Community 53](Community_53.md) (4 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 876](Community_876.md) (3 shared connections)
 - [Community 8](Community_8.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 487](Community_487.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/template/engine.py`
 - `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
@@ -62,8 +61,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 308 (93%)
-- INFERRED: 22 (7%)
+- EXTRACTED: 287 (93%)
+- INFERRED: 21 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---
