@@ -1,15 +1,12 @@
 # Community 94
 
-> 89 nodes · cohesion 0.04
+> 70 nodes · cohesion 0.06
 
 ## Key Concepts
 
 - **register_lookup()** (175 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 - **gis/db/models/lookups.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
 - **GISLookup** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **LookupTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Author** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **BilateralTransformTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 - **DistanceLookupBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
 - **DistanceLookupFromFunction** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
 - **DWithinLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
@@ -29,35 +26,38 @@
 - **RightLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
 - **SameAsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
 - **StrictlyAboveLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- *... and 64 more nodes in this community*
+- **StrictlyBelowLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **ArrayExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **KeysTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (65 shared connections)
-- [Community 183](Community_183.md) (26 shared connections)
-- [Community 208](Community_208.md) (12 shared connections)
-- [Community 197](Community_197.md) (9 shared connections)
-- [Community 24](Community_24.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 49](Community_49.md) (3 shared connections)
-- [Community 820](Community_820.md) (3 shared connections)
-- [Community 749](Community_749.md) (3 shared connections)
-- [Community 97](Community_97.md) (3 shared connections)
-- [Community 401](Community_401.md) (3 shared connections)
+- [Community 30](Community_30.md) (34 shared connections)
+- [Community 15](Community_15.md) (30 shared connections)
+- [Community 180](Community_180.md) (26 shared connections)
+- [Community 104](Community_104.md) (13 shared connections)
+- [Community 186](Community_186.md) (12 shared connections)
+- [Community 9](Community_9.md) (7 shared connections)
+- [Community 780](Community_780.md) (6 shared connections)
+- [Community 111](Community_111.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 879](Community_879.md) (3 shared connections)
+- [Community 135](Community_135.md) (3 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
 
 ## Audit Trail
 
-- EXTRACTED: 335 (97%)
-- INFERRED: 9 (3%)
+- EXTRACTED: 311 (98%)
+- INFERRED: 5 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

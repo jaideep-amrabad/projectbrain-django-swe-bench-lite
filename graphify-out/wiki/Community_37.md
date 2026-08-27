@@ -12,8 +12,6 @@
 - **Return True if the DE-9IM Intersection Matrix for the two geometries is…** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **._post_init()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.clone()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **ewkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **wkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
 - **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.hex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
@@ -29,30 +27,31 @@
 - **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.__deepcopy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - *... and 136 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (28 shared connections)
-- [Community 24](Community_24.md) (8 shared connections)
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 344](Community_344.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 200](Community_200.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 900](Community_900.md) (1 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
-- [Community 390](Community_390.md) (1 shared connections)
+- [Community 56](Community_56.md) (24 shared connections)
+- [Community 19](Community_19.md) (8 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 357](Community_357.md) (2 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 972](Community_972.md) (1 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
+- [Community 412](Community_412.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
 
 ## Audit Trail
 
-- EXTRACTED: 235 (94%)
+- EXTRACTED: 231 (94%)
 - INFERRED: 16 (6%)
 - AMBIGUOUS: 0 (0%)
 

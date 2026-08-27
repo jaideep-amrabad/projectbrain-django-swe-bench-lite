@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **basic/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/__init__.py`
+- **openlayers.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
 
 ## Audit Trail
 

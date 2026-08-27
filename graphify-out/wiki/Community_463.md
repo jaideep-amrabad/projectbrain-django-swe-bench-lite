@@ -1,46 +1,46 @@
 # Community 463
 
-> 22 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ModelForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **BaseModelForm** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **ModelFormInheritanceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **.test_empty_fields_to_construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **apply_limit_choices_to_to_formfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **._save_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **._update_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_field_removal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_field_removal_name_clashes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_form_subclass_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_subclassed_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **For backwards-compatibility, exclude several types of fields from model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **Call the instance's validate_unique() method and update the form's validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **Save the many-to-many fields and generic relations for this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **Save this form's self.instance object if commit=True. Otherwise, add a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return a dict containing the data in ``instance`` suitable for passing as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Apply limit_choices_to to the formfield's queryset if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **No fields should be set on a model instance if construct_instance receives…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Form fields can be removed in subclasses by setting them to None (#22510).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Data for a ManyToManyField is a list rather than a lazy QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 163](Community_163.md) (6 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 42](Community_42.md) (4 shared connections)
-- [Community 195](Community_195.md) (2 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 227](Community_227.md) (1 shared connections)
-- [Community 354](Community_354.md) (1 shared connections)
-- [Community 212](Community_212.md) (1 shared connections)
-- [Community 297](Community_297.md) (1 shared connections)
-- [Community 148](Community_148.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 86](Community_86.md) (5 shared connections)
+- [Community 191](Community_191.md) (2 shared connections)
+- [Community 189](Community_189.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 572](Community_572.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
 
 ## Source Files
 
@@ -49,8 +49,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 50 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 46 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---
