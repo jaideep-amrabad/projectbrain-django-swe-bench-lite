@@ -1,14 +1,14 @@
 # HttpResponse
 
-> God node · 322 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 325 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 30](Community_30.md)
+**Community:** [Community 48](Community_48.md)
 
 ## Connections by Relation
 
 ### calls
-- render() `EXTRACTED`
 - post_form_view() `EXTRACTED`
+- render() `EXTRACTED`
 - technical_500_response() `EXTRACTED`
 - token_view() `EXTRACTED`
 - empty_view() `EXTRACTED`
@@ -46,12 +46,12 @@
 - decorators/tests.py `EXTRACTED`
 - test_middleware_mixin.py `EXTRACTED`
 - views/debug.py `EXTRACTED`
+- csrf_tests/tests.py `EXTRACTED`
 - test_client_regress/views.py `EXTRACTED`
 - patterns/tests.py `EXTRACTED`
 - auth_tests/urls.py `EXTRACTED`
 - sites_tests/tests.py `EXTRACTED`
 - test_client/tests.py `EXTRACTED`
-- urlpatterns_reverse/views.py `EXTRACTED`
 
 ### inherits
 - HttpResponseBase `EXTRACTED`
@@ -63,6 +63,7 @@
 - HttpResponseNotFound `EXTRACTED`
 - HttpResponseBadRequest `EXTRACTED`
 - HttpResponseForbidden `EXTRACTED`
+- TestingHttpResponse `EXTRACTED`
 - HttpResponseGone `EXTRACTED`
 - HttpResponseRedirectBase `EXTRACTED`
 

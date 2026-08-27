@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 524 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 525 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 18](Community_18.md)
+**Community:** [Community 26](Community_26.md)
 
 ## Connections by Relation
 
@@ -25,16 +25,16 @@
 - timezones/tests.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
+- test_extract_trunc.py `EXTRACTED`
 - delete_regress/tests.py `EXTRACTED`
 - delete/tests.py `EXTRACTED`
-- backends/tests.py `EXTRACTED`
 - model_formsets/tests.py `EXTRACTED`
+- backends/tests.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
-- test_extract_trunc.py `EXTRACTED`
+- aggregation/tests.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
-- annotations/tests.py `EXTRACTED`
 
 ### rationale_for
 - Skip a test unless a database has all the named features. `EXTRACTED`

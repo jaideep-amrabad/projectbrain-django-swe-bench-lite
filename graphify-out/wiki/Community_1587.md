@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **grandchild_module.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/child_module/grandchild_module.py`
+- **migrated_app/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/child_module/grandchild_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/models.py`
 
 ## Audit Trail
 

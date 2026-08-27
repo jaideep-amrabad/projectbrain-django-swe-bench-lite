@@ -1,8 +1,8 @@
 # Context
 
-> God node · 254 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
+> God node · 256 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
 
-**Community:** [Community 3](Community_3.md)
+**Community:** [Community 7](Community_7.md)
 
 ## Connections by Relation
 
@@ -41,17 +41,17 @@
 - test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - views/debug.py `EXTRACTED`
+- tests/test_forms.py `EXTRACTED`
 - patterns/tests.py `EXTRACTED`
 - views/i18n.py `EXTRACTED`
-- tests/test_forms.py `EXTRACTED`
 - test_blocktranslate.py `EXTRACTED`
 - model_enums/tests.py `EXTRACTED`
 - views/static.py `EXTRACTED`
+- csrf_tests/views.py `EXTRACTED`
 - test_geos.py `EXTRACTED`
 - managers_regress/tests.py `EXTRACTED`
 - test_translate.py `EXTRACTED`
 - engine.py `EXTRACTED`
-- cases.py `EXTRACTED`
 
 ### inherits
 - RequestContext `EXTRACTED`

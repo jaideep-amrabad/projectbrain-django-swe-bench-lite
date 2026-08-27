@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **extra_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/__init__.py`
+- **SelectFilter2.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/extra_regress/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
 
 ## Audit Trail
 

@@ -1,32 +1,33 @@
 # Community 889
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **LongNameTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_sequence_name_length_limits_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_sequence_name_length_limits_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_sequence_name_length_limits_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Long primary keys and model names can result in a sequence name that exceeds…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Test creation of model with long name and long pk name doesn't error. Ref #8901** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **An m2m save of a model with a long name and a long m2m field name doesn't error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Sequence resetting as part of a flush with model with long name and long pk…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CharField** (1 connections)
+- **EmailField** (1 connections)
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Relationships
 
-- [Community 930](Community_930.md) (3 shared connections)
-- [Community 904](Community_904.md) (1 shared connections)
-- [Community 500](Community_500.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (83%)
-- INFERRED: 2 (17%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

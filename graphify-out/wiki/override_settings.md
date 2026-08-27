@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1370 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1361 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 8](Community_8.md)
+**Community:** [Community 3](Community_3.md)
 
 ## Connections by Relation
 
@@ -11,6 +11,7 @@
 - .override_router() `EXTRACTED`
 - .settings() `EXTRACTED`
 - require_jinja2() `EXTRACTED`
+- jinja2_tests() `EXTRACTED`
 - .test_swappable_changed() `EXTRACTED`
 - .test_create_model4() `EXTRACTED`
 - .test_calendar_show_date_from_input() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_media_static_dirs_ignored() `EXTRACTED`
 - .test_dont_set_if_set() `EXTRACTED`
 - .test_is_extendable() `EXTRACTED`
-- .test_response_exempt() `EXTRACTED`
 
 ### contains
 - test/utils.py `EXTRACTED`
@@ -41,13 +41,13 @@
 - test_utils/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
+- admin_inlines/tests.py `EXTRACTED`
 - admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
-- admin_inlines/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
@@ -75,11 +75,11 @@
 - TestInline `EXTRACTED`
 - UrlTagTests `EXTRACTED`
 - DateFunctionTests `EXTRACTED`
-- AdminActionsTest `EXTRACTED`
-- CreatesuperuserManagementCommandTestCase `EXTRACTED`
-- NewDatabaseTests `EXTRACTED`
-- CommandTests `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
+- AdminActionsTest `EXTRACTED`
+- NewDatabaseTests `EXTRACTED`
+- CreatesuperuserManagementCommandTestCase `EXTRACTED`
+- CommandTests `EXTRACTED`
 - FileUploadTests `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
 - SyndicationFeedTest `EXTRACTED`
@@ -88,7 +88,7 @@
 - DetailViewTest `EXTRACTED`
 - ConditionalGet `EXTRACTED`
 - DateFormatTests `EXTRACTED`
-- FormattingTests `EXTRACTED`
+- ConditionalGetMiddlewareTest `EXTRACTED`
 
 ---
 

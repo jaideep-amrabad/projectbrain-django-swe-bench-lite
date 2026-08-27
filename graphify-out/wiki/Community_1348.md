@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **javascript_ignored.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
+- **navigation.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/navigation.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/navigation.test.js`
 
 ## Audit Trail
 
