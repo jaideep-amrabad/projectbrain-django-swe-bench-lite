@@ -1,62 +1,50 @@
 # Community 200
 
-> 29 nodes · cohesion 0.10
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **crypto.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **get_random_string()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **salted_hmac()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **test_crypto.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **InvalidAlgorithm** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **TestUtilsCryptoMisc** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **DeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **TestUtilsCryptoPBKDF2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.get_session_auth_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **.make_random_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.test_get_random_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.test_get_random_string_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_invalid_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_salted_hmac()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_default_hmac_alg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_public_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_regression_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **Return an HMAC of the password field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **Generate a random password with the given length and given allowed_chars. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **Generate a cryptographically secure nonce salt in ASCII.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **ValueError** (1 connections)
-- **Django's standard crypto functions and utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- *... and 4 more nodes in this community*
+- **BasicSyntaxTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **setup** (41 connections)
+- **.test_basic_syntax01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax19()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax28()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax29()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax21()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax22()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (8 shared connections)
-- [Community 228](Community_228.md) (8 shared connections)
-- [Community 119](Community_119.md) (5 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 145](Community_145.md) (3 shared connections)
-- [Community 117](Community_117.md) (3 shared connections)
-- [Community 54](Community_54.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 424](Community_424.md) (3 shared connections)
-- [Community 236](Community_236.md) (3 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 453](Community_453.md) (2 shared connections)
+- [Community 416](Community_416.md) (10 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 100 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

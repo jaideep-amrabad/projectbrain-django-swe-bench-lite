@@ -1,33 +1,32 @@
 # Community 815
 
-> 8 nodes · cohesion 0.36
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **EscapeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **setup** (4 connections)
-- **.test_escape01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **The "escape" filter works the same whether autoescape is on or off, but it has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **NamedEndblockTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **setup** (7 connections)
+- **.test_namedendblocks06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **Mixed named and unnamed endblocks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

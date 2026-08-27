@@ -1,40 +1,37 @@
 # Community 715
 
-> 15 nodes · cohesion 0.13
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **NoYamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **YamlImportModuleMock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_deserializer_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_dumpdata_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Provides a wrapped import_module function to simulate yaml ImportError In order…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Not having pyyaml installed provides a misleading error Refs: #12756** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Removes imported yaml and stubs importlib.import_module** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Puts yaml back if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml serializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml deserializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Calling dumpdata produces an error when yaml package missing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **SerializerRegistrationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_builtin_serializers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_get_unknown_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_unregister()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Registering a new serializer populates the full registry. Refs #14823** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Unregistering a serializer doesn't cause the registry to be repopulated. Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Requesting a list of serializer formats populates the registry** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **#15889: get_serializer('nonsense') raises a SerializerDoesNotExist** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_get_unknown_deserializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_unregister_unknown_serializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 270](Community_270.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

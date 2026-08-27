@@ -1,60 +1,51 @@
 # Community 418
 
-> 28 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ModelFormBasicTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelOtherFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BigIntForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_non_editable_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_big_integer_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_http_prefixing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_url_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_custom_form_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_subset_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #10349: A callable can be provided as the initial value for an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 3 more nodes in this community*
+- **TemplateTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_debug_tag_non_ascii()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_url_reverse_no_settings_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error_27956()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_extends_generic_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_no_wrapped_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_super_errors()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_url_reverse_view_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_filter_expression_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error_27584()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_invalid_block_suggestion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_node_origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_string_origin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_unknown_block_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Errors raised while compiling nodes should include the token information.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Errors in a child of {% extends %} are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#18169 -- NoReverseMatch should not be silence in block.super.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#23060 -- Test non-ASCII model representation in debug output.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#24338 -- Allow extending django.template.backends.django.Template objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#25848 -- Set origin on Node so debugging tools can determine which template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#9005 -- url tag shouldn't require settings.SETTINGS_MODULE to be set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#19827 -- url tag should keep original strack trace when reraising exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **# 16770 -- The template system doesn't wrap exceptions, but annotates them.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Error messages should include the unexpected block name and be in all English.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 130](Community_130.md) (13 shared connections)
-- [Community 239](Community_239.md) (3 shared connections)
-- [Community 464](Community_464.md) (2 shared connections)
-- [Community 463](Community_463.md) (2 shared connections)
-- [Community 857](Community_857.md) (1 shared connections)
-- [Community 289](Community_289.md) (1 shared connections)
-- [Community 686](Community_686.md) (1 shared connections)
-- [Community 560](Community_560.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
+- [Community 3](Community_3.md) (16 shared connections)
+- [Community 498](Community_498.md) (8 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (81%)
-- INFERRED: 13 (19%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

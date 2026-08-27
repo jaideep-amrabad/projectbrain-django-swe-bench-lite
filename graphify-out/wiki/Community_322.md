@@ -1,62 +1,59 @@
 # Community 322
 
-> 28 nodes · cohesion 0.12
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **admindocs/views.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **BaseAdminDocsView** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.get_context_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.get_context_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.get_context_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **extract_views_from_urlpatterns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **TemplateDetailView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **TemplateFilterIndexView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **TemplateTagIndexView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **func_accepts_var_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **get_func_full_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **admindocs/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/__init__.py`
-- **admindocs/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/urls.py`
-- **get_readable_field_data_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **ModelDetailView** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **ModelIndexView** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **ViewIndexView** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **BookmarkletsView** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **Base view for admindocs views.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **Return the description for a given field type, if it exists. Fields'…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- *... and 3 more nodes in this community*
+- **Prefetch** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **CustomPrefetchTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.traverse_qs()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_custom_qs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_nested_prefetch_related_with_duplicate_prefetcher()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_ambiguous()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_generic_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_through_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_through_gfk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_o2m_through_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_traverse_multiple_items_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_traverse_single_item_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.get_current_prefetch_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get_current_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.test_nested_prefetch_related_are_not_overwritten()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_raw_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_to_attr_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_to_attr_doesnt_cache_through_attr_as_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_traverse_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_values_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.add_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get_current_to_attr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 77](Community_77.md) (9 shared connections)
-- [Community 31](Community_31.md) (7 shared connections)
-- [Community 245](Community_245.md) (6 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 122](Community_122.md) (3 shared connections)
-- [Community 68](Community_68.md) (3 shared connections)
-- [Community 32](Community_32.md) (3 shared connections)
-- [Community 59](Community_59.md) (3 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 116](Community_116.md) (2 shared connections)
-- [Community 489](Community_489.md) (2 shared connections)
+- [Community 110](Community_110.md) (8 shared connections)
+- [Community 338](Community_338.md) (7 shared connections)
+- [Community 309](Community_309.md) (3 shared connections)
+- [Community 904](Community_904.md) (2 shared connections)
+- [Community 482](Community_482.md) (2 shared connections)
+- [Community 744](Community_744.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 78 (91%)
+- INFERRED: 8 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

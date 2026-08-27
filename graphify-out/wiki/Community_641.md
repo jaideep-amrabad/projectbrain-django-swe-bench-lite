@@ -1,41 +1,44 @@
 # Community 641
 
-> 15 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **MonthArchiveViewTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_month_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_previous_month_without_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_get_month_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_without_month_in_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **Content can exist on any day of the previous month. Refs #14711** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **date_list should be sorted ascending in month view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **Serializer** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.end_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **Serialize a QuerySet to basic Python objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_m2m_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.start_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **PythonSerializer** (1 connections)
+- **Convert a queryset to YAML.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Relationships
 
-- [Community 62](Community_62.md) (4 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 445](Community_445.md) (1 shared connections)
+- [Community 147](Community_147.md) (3 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 312](Community_312.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 25 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,54 @@
 # Community 391
 
-> 29 nodes · cohesion 0.11
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Collector** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.collect()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **ProtectedError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.can_fast_delete()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **RestrictedError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.clear_restricted_objects_from_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.clear_restricted_objects_from_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.get_del_batches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **._has_signal_listeners()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **get_candidate_relations_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.add_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add_field_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.instances_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.test_fast_delete_instance_set_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.add_restricted_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Add 'objs' to the collection of objects to be deleted. If the call is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Schedule a field update. 'objs' must be a homogeneous iterable collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- *... and 4 more nodes in this community*
+- **SetLanguageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_decodes_http_referer_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_default_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_http_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_redirect_to_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_unsafe_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_lang_from_translated_i18n_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view redirects to '/' when there isn't a referer or "next"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view redirects to the "next" parameter for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view doesn't redirect to the HTTP referer header if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view returns 204 by default for requests not accepting HTML…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The fallback to root URL for the set_language view works for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view decodes the HTTP_REFERER URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **Test the django.views.i18n.set_language view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **Return language code for a language which is not activated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view can be used to change the session language. The user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view only redirects to the 'next' argument if it is "safe".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view only redirects to the 'next' argument if it is "safe" and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 59](Community_59.md) (6 shared connections)
-- [Community 82](Community_82.md) (5 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
+- [Community 3](Community_3.md) (10 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 246](Community_246.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 432](Community_432.md) (1 shared connections)
-- [Community 817](Community_817.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 613](Community_613.md) (1 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 54 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

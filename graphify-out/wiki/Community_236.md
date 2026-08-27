@@ -1,67 +1,58 @@
 # Community 236
 
-> 52 nodes · cohesion 0.06
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **middleware/csrf.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **csrf_tests/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **get_token()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **decorators/csrf.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- **csrf_tests/views.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **csrf_exempt()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- **test_context_processor.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- **.process_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_mask_cipher_secret()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **non_token_view_using_request_processor()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **_compare_masked_tokens()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_get_new_csrf_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.test_login_csrf_rotate()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **csrf_token_error_handler()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._get_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_get_new_csrf_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **rotate_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_sanitize_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.test_csrf_validation_passes_after_process_request_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **.test_csrf_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **._reject()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_get_failure_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_unmask_cipher_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- *... and 27 more nodes in this community*
+- **ForeignObjectRel** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ManyToOneRel** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.check_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Return the Field in the 'to' object to which this relationship is tied.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Display the module, class, and name of the field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 80](Community_80.md) (21 shared connections)
-- [Community 32](Community_32.md) (11 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 115](Community_115.md) (6 shared connections)
-- [Community 30](Community_30.md) (5 shared connections)
-- [Community 120](Community_120.md) (5 shared connections)
-- [Community 87](Community_87.md) (5 shared connections)
-- [Community 122](Community_122.md) (5 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 262](Community_262.md) (3 shared connections)
-- [Community 200](Community_200.md) (3 shared connections)
+- [Community 26](Community_26.md) (10 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
+- [Community 905](Community_905.md) (1 shared connections)
+- [Community 539](Community_539.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 214 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 55 (87%)
+- INFERRED: 8 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

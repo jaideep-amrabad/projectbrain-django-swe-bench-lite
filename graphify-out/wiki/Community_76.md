@@ -1,63 +1,61 @@
 # Community 76
 
-> 113 nodes · cohesion 0.02
+> 101 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **GDALRaster** (70 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **GDALRasterTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
-- **RasterFieldTest** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- **GDALBandTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
-- **TransformPoint** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.srs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **._flush()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.geotransform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **setter** (5 connections)
-- **.test_all_gis_lookups_with_rasters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- **.test_db_function_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- **.test_dwithin_gis_lookup_output_with_rasters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- **.srid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.scale()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.skew()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.warp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.test_lhs_with_index_rhs_without_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- *... and 88 more nodes in this community*
+- **SearchQuery** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVector** (50 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **test_search.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **MultipleFieldsTest** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **TestCombinations** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchHeadlineTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **TestRankingAndWeights** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchHeadline** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchRank** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SimpleSearchTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchConfig** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Line** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **GrailTestData** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchVectorFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.from_parameter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_headline()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchVectorIndexTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranking_with_masked_normalization()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- *... and 76 more nodes in this community*
 
 ## Relationships
 
-- [Community 145](Community_145.md) (17 shared connections)
-- [Community 108](Community_108.md) (4 shared connections)
-- [Community 88](Community_88.md) (4 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
-- [Community 293](Community_293.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 212](Community_212.md) (2 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 114](Community_114.md) (12 shared connections)
+- [Community 191](Community_191.md) (10 shared connections)
+- [Community 36](Community_36.md) (8 shared connections)
+- [Community 169](Community_169.md) (7 shared connections)
+- [Community 343](Community_343.md) (6 shared connections)
+- [Community 31](Community_31.md) (6 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 784](Community_784.md) (3 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 94](Community_94.md) (3 shared connections)
+- [Community 124](Community_124.md) (2 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
 
 ## Audit Trail
 
-- EXTRACTED: 187 (92%)
-- INFERRED: 16 (8%)
+- EXTRACTED: 277 (90%)
+- INFERRED: 30 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

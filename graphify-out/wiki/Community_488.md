@@ -1,62 +1,51 @@
 # Community 488
 
-> 40 nodes · cohesion 0.07
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **.apps()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **StateApps** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ProxyModelWithSameAppLabelTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **AppConfigStub** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ProxyModelWithDifferentAppLabelTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **MultiDBProxyModelAppLabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_with_existing_target_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **ManyToManyFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.concrete_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.test_migrate_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_has_now_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- *... and 15 more nodes in this community*
+- **.get_default()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **IncludeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **GetDefaultTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.test_extends_include_missing_baseloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_missing_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_template_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_extends_include_missing_cachedloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_immediate_missing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_recursive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_template_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_template_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_multiple_engines_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.test_no_engines_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.test_single_engine_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **Return the first DjangoTemplates backend that's configured, or raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **.test_include_from_loader_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **The correct template is identified as not existing when {% include %} specifies…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **#12787 -- The correct template is identified as not existing when {% extends %}…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **Support any render() supporting object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **#16417 -- Include tags pointing to missing templates should not raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **{% include %} keeps resolved templates constant (#27974). The CounterNode…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 87](Community_87.md) (3 shared connections)
-- [Community 247](Community_247.md) (3 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
-- [Community 206](Community_206.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
+- [Community 3](Community_3.md) (13 shared connections)
+- [Community 498](Community_498.md) (7 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (78%)
-- INFERRED: 17 (22%)
+- EXTRACTED: 51 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

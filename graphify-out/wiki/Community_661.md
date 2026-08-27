@@ -1,46 +1,37 @@
 # Community 661
 
-> 14 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **model_inheritance_regress/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **Congressman** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Supplier** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Politician** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Profile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **SelfRefChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **SelfRefParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Senator** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Wholesaler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Regression tests for Model inheritance behavior.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **ListIndexTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **setup** (7 connections)
+- **.test_list_index01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Fail silently when the list index is out of range.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **List-index syntax allows a template to access a certain item of a subscriptable…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Fail silently when variable is a dict without the specified key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Dictionary lookup wins out when dict's key is a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **But list-index lookup wins out when dict's key is an int, which behind the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Dictionary lookup wins out when there is a string and int version of the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
 
 ## Relationships
 
-- [Community 496](Community_496.md) (21 shared connections)
-- [Community 328](Community_328.md) (11 shared connections)
-- [Community 580](Community_580.md) (7 shared connections)
-- [Community 980](Community_980.md) (1 shared connections)
-- [Community 945](Community_945.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (85%)
-- INFERRED: 10 (15%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

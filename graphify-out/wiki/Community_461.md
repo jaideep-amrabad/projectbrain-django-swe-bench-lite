@@ -1,49 +1,48 @@
 # Community 461
 
-> 24 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ClearableFileInputTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **FakeFieldFile** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_checked_returns_false_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_render_as_subwidget()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_html_escaped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_checked_returns_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders_only_if_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_html_does_not_mask_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_return_false_if_url_does_not_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_url_as_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **ClearableFileInput.value_from_datadict never returns False if the field is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **A ClearableFileInput should not mask exceptions produced while checking that it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **A ClearableFileInput with is_required False and rendered with an initial value…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **A ClearableFileInput should escape name, filename, and URL when rendering HTML…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **A ClearableFileInput with is_required=True does not render a clear checkbox.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **A ClearableFileInput instantiated with no initial value does not render a clear…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **A ClearableFileInput as a subwidget of MultiWidget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **Quacks like a FieldFile (has a .url and string representation), but doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **ClearableFileInput.value_from_datadict returns False if the clear checkbox is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **Signer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **TimestampSigner** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **base64_hmac()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **dumps()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **loads()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b64_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **._legacy_signature()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b64_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.timestamp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Exception** (1 connections)
+- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Retrieve original value and check it wasn't signed more than max_age seconds…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signature does not match.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signature timestamp is older than required max_age.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Return URL-safe, hmac signed base64 compressed JSON string. If key is None, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Relationships
 
-- [Community 335](Community_335.md) (4 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 230](Community_230.md) (2 shared connections)
-- [Community 343](Community_343.md) (1 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (83%)
-- INFERRED: 6 (17%)
+- EXTRACTED: 41 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

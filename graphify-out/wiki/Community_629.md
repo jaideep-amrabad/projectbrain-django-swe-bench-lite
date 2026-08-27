@@ -1,40 +1,38 @@
 # Community 629
 
-> 15 nodes · cohesion 0.14
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Place** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **UndergroundBar** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_get_reverse_on_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_does_not_exist_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_save_nullable_o2o_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_set_reverse_on_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #13839 and #17439. The target of a one-to-one relation is always…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **#10811 -- Assigning an unsaved object to a OneToOneField should raise an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #13839 and #17439. DoesNotExist on a reverse one-to-one relation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #18153 and #19089. Accessing the reverse relation on an unsaved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Writing to the reverse relation on an unsaved object is impossible too.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **CustomJSONDecoder** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestValidation** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **TestFormField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_invalid_decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_invalid_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.as_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_formfield_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_custom_encoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_validation_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Relationships
 
-- [Community 375](Community_375.md) (9 shared connections)
-- [Community 529](Community_529.md) (4 shared connections)
-- [Community 948](Community_948.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 116](Community_116.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 483](Community_483.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 16 (76%)
+- INFERRED: 5 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

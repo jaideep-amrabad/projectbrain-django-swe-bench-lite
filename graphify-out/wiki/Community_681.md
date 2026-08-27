@@ -1,37 +1,45 @@
 # Community 681
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **This field will allow querying and fetching the currently active translation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **The set of articletranslation should not set any local fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **proxy_model_inheritance/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **MultiTableInheritanceProxyTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **proxy_model_inheritance/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ProxyModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ConcreteModelSubclass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ConcreteModelSubclassProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ProxyModelInheritanceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **.test_table_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **.test_model_subclass_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **.test_deletion_through_intermediate_proxy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Proxy model inheritance across apps can result in migrate not creating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Deleting an instance of a model proxying a multi-table inherited subclass…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 602](Community_602.md) (4 shared connections)
-- [Community 245](Community_245.md) (3 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 204](Community_204.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 698](Community_698.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

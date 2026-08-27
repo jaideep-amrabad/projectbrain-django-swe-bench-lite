@@ -1,23 +1,25 @@
 # Community 1088
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_incomplete_data_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST incomplete data to a form** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **unmigrated_app_simple/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
+- **UnmigratedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
+- **A model that is in a migration-less app (which this app is if its migrations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

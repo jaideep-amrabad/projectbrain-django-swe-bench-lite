@@ -1,63 +1,61 @@
 # Community 131
 
-> 67 nodes · cohesion 0.04
+> 69 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **.e()** (76 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **AssertRedirectsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Command** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.find_fixtures()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.load_label()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- **.create_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- **.loaddata()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.parse_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **humanize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.test_unknown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_incorrect_target()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_lost_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_chain_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_target_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- *... and 42 more nodes in this community*
+- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SelectDateWidgetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **ChoiceWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_custom_input_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (18 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 259](Community_259.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 43](Community_43.md) (3 shared connections)
-- [Community 431](Community_431.md) (3 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 251](Community_251.md) (2 shared connections)
-- [Community 146](Community_146.md) (2 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 364](Community_364.md) (2 shared connections)
+- [Community 17](Community_17.md) (19 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 306](Community_306.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 177](Community_177.md) (2 shared connections)
+- [Community 444](Community_444.md) (1 shared connections)
+- [Community 171](Community_171.md) (1 shared connections)
+- [Community 535](Community_535.md) (1 shared connections)
+- [Community 421](Community_421.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (56%)
-- INFERRED: 78 (44%)
+- EXTRACTED: 120 (95%)
+- INFERRED: 6 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

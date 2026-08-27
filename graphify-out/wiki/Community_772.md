@@ -1,42 +1,34 @@
 # Community 772
 
-> 10 nodes · cohesion 0.27
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **InheritanceTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inherit from a template with block wrapped in an {% if %} tag (in parent),…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance34()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance35()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_extends_duplicate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance40()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance41()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **_get_locale_dirs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **update_catalogs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **fetch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_check_diff()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **lang_stats()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_tx_resource_for_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output language statistics of committed translation files for each Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Fetch translations from Transifex, wrap long lines, generate mo files.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return a tuple (contrib name, absolute path) for all locale directories,…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return the Transifex resource name** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output the approximate number of changed/added strings in the en catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Update the en/LC_MESSAGES/django.po (main and contrib) files with new/updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Relationships
 
-- [Community 741](Community_741.md) (15 shared connections)
-- [Community 982](Community_982.md) (2 shared connections)
-- [Community 983](Community_983.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1050](Community_1050.md) (1 shared connections)
-- [Community 1051](Community_1051.md) (1 shared connections)
-- [Community 1052](Community_1052.md) (1 shared connections)
-- [Community 1053](Community_1053.md) (1 shared connections)
-- [Community 1054](Community_1054.md) (1 shared connections)
-- [Community 1055](Community_1055.md) (1 shared connections)
-- [Community 1056](Community_1056.md) (1 shared connections)
+- [Community 698](Community_698.md) (6 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

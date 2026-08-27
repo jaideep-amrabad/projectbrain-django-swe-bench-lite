@@ -1,30 +1,35 @@
 # Community 843
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **BaseGenericInlineFormSet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **.get_default_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **.initial_form_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **.save_new()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **A formset for generic inline objects to a parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- **DateTimeFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_lookup_date_with_use_tz()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_datetimefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_lookup_date_without_use_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_timefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_datetimes_save_completely()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **requires_tz_support** (1 connections)
+- **DateTimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **TimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
 
 ## Relationships
 
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 229](Community_229.md) (1 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

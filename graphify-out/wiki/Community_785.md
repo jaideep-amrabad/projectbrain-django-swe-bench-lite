@@ -1,39 +1,38 @@
 # Community 785
 
-> 9 nodes · cohesion 0.28
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **BrinIndex** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BrinIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_brin_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_brin_autosummarize_not_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_brin_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_deconstruction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_invalid_pages_per_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.get_with_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.test_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **_get_sitemap_full_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **PingGoogleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_no_sites()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_not_detected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_something()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_exact_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_global()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_insecure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 106](Community_106.md) (7 shared connections)
-- [Community 474](Community_474.md) (3 shared connections)
-- [Community 672](Community_672.md) (3 shared connections)
-- [Community 670](Community_670.md) (3 shared connections)
-- [Community 647](Community_647.md) (1 shared connections)
-- [Community 820](Community_820.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 529](Community_529.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

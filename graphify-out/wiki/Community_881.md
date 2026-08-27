@@ -1,30 +1,32 @@
 # Community 881
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **requires_tz_support** (1 connections)
-- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **DeclarativeFieldsMetaclass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **media_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **Collect Fields declared on the base classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **type** (1 connections)
+- **Metaclass for classes that can have media definitions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 
 ## Relationships
 
-- [Community 123](Community_123.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 227](Community_227.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

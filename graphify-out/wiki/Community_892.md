@@ -1,27 +1,30 @@
 # Community 892
 
-> 5 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **LinebreaksbrTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
-- **.test_linebreaksbr01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
-- **.test_linebreaksbr02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
-- **setup** (2 connections)
-- **The contents in "linebreaksbr" are escaped according to the current autoescape…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
+- **FilterRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_filter_call()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_filter_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_filter_name_arg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_filter_name_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_filter_parens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 934](Community_934.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

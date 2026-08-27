@@ -1,35 +1,35 @@
 # Community 767
 
-> 10 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **FormfieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Callback** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inlineformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_modelformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.assertCallbackCalled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inlineformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_modelformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Regression for #13095 and #17683: Using base forms with widgets defined in Meta…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **yesno()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_false_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none_three_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none_two_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_true_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **Given a string mapping values for true, false, and (optionally) None, return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 216](Community_216.md) (4 shared connections)
-- [Community 134](Community_134.md) (2 shared connections)
-- [Community 294](Community_294.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

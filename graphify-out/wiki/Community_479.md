@@ -1,50 +1,44 @@
 # Community 479
 
-> 27 nodes · cohesion 0.07
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **BasicExtractorTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_po_file_encoding_when_updating()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_pot_charset_header_is_utf8()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_use_i18n_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_add_location_gettext_version_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_find_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_gettext_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_message_context_extractor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertMsgStr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **patch** (2 connections)
-- **.test_comments_extractor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_context_in_single_quotes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_no_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_special_char_extracted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_decode_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **makemessages also runs successfully when USE_I18N is False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **test xgettext warning about multiple bare interpolation placeholders** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Message contexts are correctly extracted for the {% translate %} and {%…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Template comment tags on the same line of other constructs (#19552)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **find_files only discover files having the proper extensions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Update of PO file doesn't corrupt it with non-UTF-8 encoding on Windows…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *... and 2 more nodes in this community*
+- **check_finders()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- **FindersCheckTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **StaticFilesConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- **.test_check_finders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **staticfiles_config.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
+- **.test_dirs_contains_static_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.test_dirs_contains_static_root_in_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.test_dirs_not_tuple_or_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.test_prefix_contains_trailing_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- **IgnorePatternsAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
+- **.test_no_errors_with_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **Check all registered staticfiles finders.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- **check_finders() concatenates all errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
 
 ## Relationships
 
-- [Community 510](Community_510.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 698](Community_698.md) (5 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 504](Community_504.md) (2 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 32 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

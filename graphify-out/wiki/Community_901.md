@@ -1,30 +1,28 @@
 # Community 901
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ChangedBackendSettingsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_changed_backend_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **Tests for changes in the settings.AUTHENTICATION_BACKENDS** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **Removing a backend configured in AUTHENTICATION_BACKENDS makes already logged-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **DefaultCacheProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **Proxy access to the default Cache object's attributes. This allows the legacy…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,6 @@
 # Community 123
 
-> 75 nodes · cohesion 0.04
+> 74 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -8,7 +8,6 @@
 - **MailTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.get_decoded_attachments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.send()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_attach_non_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_attach_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_custom_utf8_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
@@ -29,31 +28,33 @@
 - **.test_reply_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_space_continuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 50 more nodes in this community*
+- **.test_unicode_address_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 227](Community_227.md) (14 shared connections)
-- [Community 250](Community_250.md) (13 shared connections)
-- [Community 401](Community_401.md) (6 shared connections)
-- [Community 829](Community_829.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 599](Community_599.md) (2 shared connections)
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 429](Community_429.md) (2 shared connections)
-- [Community 881](Community_881.md) (2 shared connections)
-- [Community 390](Community_390.md) (1 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 180](Community_180.md) (13 shared connections)
+- [Community 437](Community_437.md) (11 shared connections)
+- [Community 318](Community_318.md) (8 shared connections)
+- [Community 396](Community_396.md) (5 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 1032](Community_1032.md) (2 shared connections)
+- [Community 453](Community_453.md) (2 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 1077](Community_1077.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 586](Community_586.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 - `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (98%)
+- EXTRACTED: 162 (98%)
 - INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 

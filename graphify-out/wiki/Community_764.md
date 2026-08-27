@@ -1,36 +1,36 @@
 # Community 764
 
-> 10 nodes · cohesion 0.31
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **m2m_multiple/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **m2m_multiple/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **M2MMultipleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **.test_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Multiple many-to-many relationships between the same two tables In this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **linebreaks_filter()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.test_lazy_string_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.test_carriage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.test_carriage_newline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.test_line()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.test_newline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **Replace line breaks in plain text with appropriate HTML; a single newline…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 26 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

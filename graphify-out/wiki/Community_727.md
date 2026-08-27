@@ -1,42 +1,36 @@
 # Community 727
 
-> 11 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **test_date_hierarchy.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **DateHierarchyTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **EventAdmin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.assertDateParams()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params_with_dst_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params_with_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.event_date_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.has_add_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **KeysValidator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **TestValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.test_custom_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_extra_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_missing_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_simple_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_strict_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **A validator designed for HStore to require/restrict keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (8 shared connections)
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 43](Community_43.md) (3 shared connections)
-- [Community 211](Community_211.md) (3 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 54](Community_54.md) (5 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (83%)
-- INFERRED: 7 (17%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

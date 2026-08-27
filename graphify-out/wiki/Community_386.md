@@ -1,49 +1,55 @@
 # Community 386
 
-> 30 nodes · cohesion 0.13
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ConditionalGet** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertFullResponse()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertNotModified()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_modified_since()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_6()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_unmodified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_invalid_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_without_conditions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- *... and 5 more nodes in this community*
+- **SimpleIndexesTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **model_indexes/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **model_indexes/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **Book** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **AbstractModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **ChildModel1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **ChildModel2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **IndexesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **.test_db_tablespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_name_auto_generation_with_quoted_db_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_abstract_children()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_condition_must_be_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_condition_requires_index_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_deconstruct_with_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_deconstruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_eq()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_fields_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_index_fields_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_name_auto_generation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_name_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_opclasses_and_fields_same_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_opclasses_requires_index_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_opclasses_requires_list_or_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 48 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

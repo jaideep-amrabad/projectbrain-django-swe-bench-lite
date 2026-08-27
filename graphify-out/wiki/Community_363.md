@@ -1,52 +1,51 @@
 # Community 363
 
-> 32 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **RangesModel** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **TestQuerying** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_bound_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_all_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_model_set_on_base_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_range_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_range_object_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_unbounded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_serialize_range_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_adjacent_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_contains_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_endswith()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_fully_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_fully_lt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_isempty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **FormMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **FormMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.get_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.form_invalid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_form_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.form_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_form_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.test_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.get_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Return the keyword arguments for instantiating the form.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.test_get_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **Provide a way to show and handle a form in a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **If the form is valid, save the associated model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Handle GET requests: instantiate a blank version of the form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Handle POST requests: instantiate a form instance with the passed POST…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Return the initial data to use for forms on this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Return the prefix to use for forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Return the form class to use.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Return an instance of the form to be used in this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 100](Community_100.md) (12 shared connections)
-- [Community 323](Community_323.md) (2 shared connections)
-- [Community 263](Community_263.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (86%)
-- INFERRED: 8 (14%)
+- EXTRACTED: 52 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

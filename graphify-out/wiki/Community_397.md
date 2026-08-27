@@ -1,51 +1,62 @@
 # Community 397
 
-> 29 nodes · cohesion 0.19
+> 27 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **RelatedModelsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.assertRelated()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.create_model()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_generic_fk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base_to_base_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base_to_subclass_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_circle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_hidden_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_fk_through_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_extern_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_mixed_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_nested_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_proxy_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- *... and 4 more nodes in this community*
+- **test_utils/views.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **get_object_or_404()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **get_object_or_404/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **get_list_or_404()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **get_object_or_404/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **GetObjectOr404Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **_get_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **get_person()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.test_bad_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_list_or_404_queryset_attribute_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_object_or_404()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_object_or_404_queryset_attribute_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **test_utils/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/urls.py`
+- **empty_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **ArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **AttributeErrorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **Return a QuerySet or a Manager. Duck typing in action: any class with a `get()`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **Use get() to return an object, or raise a Http404 exception if the object does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **Use filter() to return a list of objects, or raise a Http404 exception if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **DB-API Shortcuts ``get_object_or_404()`` is a shortcut function to be used in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **AttributeError raised by QuerySet.filter() isn't hidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 687](Community_687.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 27](Community_27.md) (3 shared connections)
+- [Community 390](Community_390.md) (3 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 335](Community_335.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 66 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

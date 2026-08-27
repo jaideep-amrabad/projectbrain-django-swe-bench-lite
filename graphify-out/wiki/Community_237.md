@@ -1,50 +1,49 @@
 # Community 237
 
-> 34 nodes · cohesion 0.06
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SyndicationFeedTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_last_modified_time_naive_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_latest_post_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_naive_datetime_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Test if the 'isPermaLink' attribute of <guid> element of an item in the RSS…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_add_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_atom_feed_published_and_updated_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_aware_datetime_conversion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_last_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_item_link_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_guid_permalink_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_guid_permalink_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_secure_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_title_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **requires_tz_support** (1 connections)
-- **The published and updated elements are not the same and now adhere to RFC 4287.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Both the published and updated dates are considered when determining the latest…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Titles are escaped correctly in RSS feeds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Datetimes are correctly converted to the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Datetimes with timezones don't get trodden on.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Tests the Last-Modified header with naive publication dates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Tests the Last-Modified header with aware publication dates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **The feed_url can be overridden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Test URLs are prefixed with https:// when feed is requested over HTTPS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- *... and 9 more nodes in this community*
+- **BaseStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._loaded_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._prepare_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._set_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Prepare a list of messages for storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Store all unread messages. If the backend has yet to be iterated, store…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Set a custom minimum recorded level. If set to ``None``, the default level will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **This is the base backend for temporary message storage. This is not a complete…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return a list of loaded messages, retrieving them first if they have not been…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Retrieve a list of stored messages. Return a tuple of the messages and a flag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Store a list of messages and return a list of any messages which could not be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
 
 ## Relationships
 
-- [Community 444](Community_444.md) (9 shared connections)
-- [Community 317](Community_317.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 610](Community_610.md) (3 shared connections)
+- [Community 611](Community_611.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 612](Community_612.md) (1 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
+- [Community 144](Community_144.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 32 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

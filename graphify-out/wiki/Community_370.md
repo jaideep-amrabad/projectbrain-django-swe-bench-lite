@@ -1,61 +1,59 @@
 # Community 370
 
-> 33 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **WhereNode** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **NothingNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **WhereNodeTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.c()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_empty_full_handling_conjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_empty_full_handling_disjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **DummyNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_empty_nodes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **MockCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.relabel_aliases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.relabeled_clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.resolve_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._resolve_leaf()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._resolve_node()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.split_having()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Relabel the alias values of any children. 'change_map' is a dictionary mapping…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Create a clone of the tree. Must only be called on root nodes (nodes with empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **An SQL WHERE clause. The class is tied to the Query class that created it (in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **A node that matches nothing.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Return two possibly None nodes: one for those parts of self that should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- *... and 8 more nodes in this community*
+- **MultiPartParser** (19 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.parse()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **parse_header()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **MultiParserTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **ChunkIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **exhaust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.handle_file_complete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.IE_sanitize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.test_rfc2231_wrong_title()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **._close_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **_parse_header_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.test_bad_type_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_empty_upload_handlers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_invalid_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_negative_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_rfc2231_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Parse the POST data and break it into a FILES MultiValueDict and a POST…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Handle all the signaling that takes place when a file is complete.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Cleanup filename from Internet Explorer full paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **An iterable that will yield chunks of data. Given a file-like object as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **A rfc2388 multipart/form-data parser. ``MultiValueDict.parse()`` reads the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 59](Community_59.md) (4 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 212](Community_212.md) (3 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 255](Community_255.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
-- [Community 184](Community_184.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 698](Community_698.md) (3 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 313](Community_313.md) (2 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
+- [Community 407](Community_407.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (79%)
-- INFERRED: 15 (21%)
+- EXTRACTED: 61 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

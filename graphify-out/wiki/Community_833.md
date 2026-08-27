@@ -1,30 +1,31 @@
 # Community 833
 
-> 8 nodes · cohesion 0.43
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **VerbatimTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **setup** (6 connections)
-- **.test_verbatim_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
+- **AWSS3Storage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.get_valid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **._save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.get_available_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **Simulate an AWS S3 storage which uses Unix-like paths and allows any characters…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **This method is important to test that Storage.save() doesn't replace '\' with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **This is the method that's important to override when using S3 so that os.path()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **Storage** (1 connections)
 
 ## Relationships
 
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 293](Community_293.md) (1 shared connections)
+- [Community 698](Community_698.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

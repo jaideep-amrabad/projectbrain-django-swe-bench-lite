@@ -1,64 +1,62 @@
 # Community 101
 
-> 86 nodes · cohesion 0.04
+> 86 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **WSGIRequest** (72 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **RequestsTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **FakePayload** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **test_data_upload_settings.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **DataUploadMaxMemorySizeMultipartPostTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **DataUploadMaxMemorySizeFormPostTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **DataUploadMaxNumberOfFieldsFormPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **DataUploadMaxNumberOfFieldsMultipartPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **RequestHeadersTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **DataUploadMaxNumberOfFieldsGet** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_alternate_charset_POST()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_wsgirequest_path_with_force_script_name_trailing_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_wsgirequest_with_force_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.urlencode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_body_after_POST_multipart_form_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_body_after_POST_multipart_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_non_ascii_POST()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_after_body_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_after_body_read_and_stream_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_after_body_read_and_stream_read_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_immutable_for_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_multipart_with_content_length_zero()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_read_after_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_value_after_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_wsgirequest_script_url_double_slashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **constant_time_compare()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **BasePasswordHasher** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **BasePasswordHasherTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **BCryptSHA256PasswordHasher** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **mask_hash()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Argon2PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **._load_library()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **MD5PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **CryptPasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **UnsaltedMD5PasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **UnsaltedSHA1PasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **SHA1PasswordHasher** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **._decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **CountingMD5PasswordHasher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **BCryptPasswordHasher** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 - *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Community 168](Community_168.md) (14 shared connections)
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 28](Community_28.md) (9 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 115](Community_115.md) (7 shared connections)
-- [Community 437](Community_437.md) (6 shared connections)
-- [Community 651](Community_651.md) (4 shared connections)
-- [Community 244](Community_244.md) (3 shared connections)
-- [Community 475](Community_475.md) (3 shared connections)
-- [Community 618](Community_618.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
+- [Community 150](Community_150.md) (17 shared connections)
+- [Community 465](Community_465.md) (6 shared connections)
+- [Community 74](Community_74.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 430](Community_430.md) (1 shared connections)
+- [Community 611](Community_611.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
+- [Community 312](Community_312.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/test_fakepayload.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 204 (89%)
-- INFERRED: 26 (11%)
+- EXTRACTED: 151 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

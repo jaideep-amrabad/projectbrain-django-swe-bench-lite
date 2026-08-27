@@ -1,55 +1,51 @@
 # Community 317
 
-> 33 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **SimplerXMLGenerator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **Atom1Feed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **RssFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **rfc3339_date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write_items()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.latest_post_date()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **xmlutils.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **UnserializableContentError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.item_attributes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.addQuickElement()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.root_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **get_tag_uri()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **RssUserland091Feed** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.writeString()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.endChannelElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.startElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **Return extra attributes to place on each item (i.e. item/entry) element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- *... and 8 more nodes in this community*
+- **LazyObjectTestCase** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.lazy_wrap()** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Foo** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_delattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_getattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_setattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_setattr2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.lazy_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_cmp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_delitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (12 shared connections)
-- [Community 412](Community_412.md) (3 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 380](Community_380.md) (3 shared connections)
-- [Community 237](Community_237.md) (2 shared connections)
-- [Community 444](Community_444.md) (2 shared connections)
-- [Community 211](Community_211.md) (1 shared connections)
+- [Community 274](Community_274.md) (7 shared connections)
+- [Community 183](Community_183.md) (3 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 698](Community_698.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (93%)
-- INFERRED: 5 (7%)
+- EXTRACTED: 77 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

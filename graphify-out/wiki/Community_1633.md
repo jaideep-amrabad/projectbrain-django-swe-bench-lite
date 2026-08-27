@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **templatetags/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/empty.py`
+- **urls/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/empty.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/empty.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/empty.py`
 
 ## Audit Trail
 

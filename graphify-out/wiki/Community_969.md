@@ -1,24 +1,30 @@
 # Community 969
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return a list of functions needed to convert field data. Some field types on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **TestRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **migrations/routers.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **DefaultOtherRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **The Tribble model should be the only one to appear in the 'other' db.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

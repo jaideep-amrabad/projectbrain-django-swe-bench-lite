@@ -1,55 +1,59 @@
 # Community 154
 
-> 38 nodes · cohesion 0.06
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Layer** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **._make_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.test_capability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.get_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.field_precisions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.field_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.field_widths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **._get_spatial_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.num_feat()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.num_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **._set_spatial_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **Return the name of this layer in the Data Source.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **Return the number of features in the Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **Return the number of fields in the Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **Return the geometry type (OGRGeomType) of the Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **Return the Spatial Reference used in this Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- *... and 13 more nodes in this community*
+- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **.formfield_for_foreignkey()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_manytomany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_dbfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_choice_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_autocomplete_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_field_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_empty_value_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_prepopulated_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_add_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_view_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **get_ul_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return True if the given request has permission to change the given Django…** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_module_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Hook for specifying fields.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Hook for specifying the form Field instance for a given database Field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Get a form Field for a database Field that has declared choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 145](Community_145.md) (10 shared connections)
-- [Community 210](Community_210.md) (3 shared connections)
-- [Community 139](Community_139.md) (3 shared connections)
-- [Community 268](Community_268.md) (2 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 53](Community_53.md) (14 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 179](Community_179.md) (3 shared connections)
+- [Community 858](Community_858.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 279](Community_279.md) (1 shared connections)
+- [Community 153](Community_153.md) (1 shared connections)
+- [Community 1032](Community_1032.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (86%)
-- INFERRED: 9 (14%)
+- EXTRACTED: 77 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

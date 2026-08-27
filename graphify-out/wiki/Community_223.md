@@ -1,44 +1,53 @@
 # Community 223
 
-> 18 nodes · cohesion 0.11
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **YearArchiveViewTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_year_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_get_context_data_receives_extra_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **patch** (1 connections)
-- **date_list should be sorted ascending in year view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **MultipleObjectMixin.get_context_data() receives the context set by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_year_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_get_dated_items_not_implemented()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_view_custom_sort_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_view_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_view_make_object_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_view_two_custom_sort_orders()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **middleware_exceptions/middleware.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **async_only_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionExcMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionLogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewNoneMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **SyncAndAsyncMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **TemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 62](Community_62.md) (4 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 445](Community_445.md) (1 shared connections)
+- [Community 27](Community_27.md) (9 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 87 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

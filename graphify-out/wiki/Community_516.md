@@ -1,50 +1,51 @@
 # Community 516
 
-> 21 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **CsrfViewMiddlewareUseSessionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **ensure_csrf_cookie_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._test_https_good_referer_matches_cookie_domain()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._test_https_good_referer_matches_cookie_domain_with_different_port()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_ensures_csrf_cookie_with_middleware()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_session_modify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_ensures_csrf_cookie_no_logging()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_ensures_csrf_cookie_no_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_matches_cookie_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_matches_cookie_domain_with_different_port()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_matches_cookie_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_matches_cookie_domain_with_different_port()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_no_session_on_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_response_get_token_used()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **A POST HTTPS request with a good referer should be accepted from a subdomain…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **The ensure_csrf_cookie() decorator works without middleware.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **The ensure_csrf_cookie() decorator works with the CsrfViewMiddleware enabled.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **ensure_csrf_cookie** (1 connections)
-- **ensure_csrf_cookie() doesn't log warnings (#19436).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CSRF tests with CSRF_USE_SESSIONS=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **The session isn't saved if the CSRF cookie is unchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Create a prefix operator, given a binding power and a function that evaluates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
 
 ## Relationships
 
-- [Community 80](Community_80.md) (23 shared connections)
-- [Community 434](Community_434.md) (6 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 236](Community_236.md) (3 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 698](Community_698.md) (3 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 196](Community_196.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 642](Community_642.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 40 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

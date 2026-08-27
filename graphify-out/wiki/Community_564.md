@@ -1,51 +1,46 @@
 # Community 564
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ClientTest** (85 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_exc_info_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_external_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_get_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_put_body()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_post_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_put()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_query_string_encoding()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_relative_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_relative_redirect_no_trailing_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_trace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_unknown_page()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_uploading_named_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_uploading_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **._create_object_from_params()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **resolve_callables()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- **create_forward_many_to_many_manager()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.update_or_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.select_for_update()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._extract_model_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Create a manager for the either side of a many-to-many relation. This manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Return a new QuerySet instance that will select objects with a FOR UPDATE lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Perform the query and return a single object matching the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Create a new object with the given kwargs, saving it to the database and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, creating one if necessary. Return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, updating one with defaults if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Try to create an object using passed params. Used by get_or_create() and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Prepare `params` for creating a model instance based on the given kwargs; for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Generate key/value pairs for the given mapping where the values are evaluated…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
 
 ## Relationships
 
-- [Community 917](Community_917.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 960](Community_960.md) (3 shared connections)
-- [Community 961](Community_961.md) (3 shared connections)
-- [Community 984](Community_984.md) (2 shared connections)
-- [Community 986](Community_986.md) (2 shared connections)
-- [Community 985](Community_985.md) (2 shared connections)
-- [Community 987](Community_987.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 1092](Community_1092.md) (1 shared connections)
-- [Community 1091](Community_1091.md) (1 shared connections)
+- [Community 73](Community_73.md) (8 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 365](Community_365.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 35 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

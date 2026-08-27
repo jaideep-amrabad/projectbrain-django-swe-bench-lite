@@ -1,72 +1,62 @@
 # Community 16
 
-> 195 nodes · cohesion 0.02
+> 223 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **core/serializers/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **serializers/test_data.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **serializers/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **serializers/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **json.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **serializers/test_json.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **xml_serializer.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **test_natural.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **test_yaml.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Serializer** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **deserialize()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **python.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **DeserializationError** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **serialize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **Deserializer()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **pyyaml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **test_xml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **SerializerDoesNotExist** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **DefusedExpatParser** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **serializers/models/__init__.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/__init__.py`
-- **DeserializedObject** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **_load_serializers()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **XmlSerializerTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DTDForbidden** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- *... and 170 more nodes in this community*
+- **AutodetectorTests** (134 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.get_changes()** (111 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationTypes()** (101 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertNumberMigrations()** (100 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationAttributes()** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **ModelState** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **MigrationQuestioner** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.assertMigrationDependencies()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **isolate_lru_cache()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.make_project_state()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable2()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable_self()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_model_reverse_relation_dependencies()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **patch** (9 connections)
+- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_field_preserved_db_column()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_model_with_fks_in_different_position()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- *... and 198 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (17 shared connections)
-- [Community 100](Community_100.md) (15 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 18](Community_18.md) (7 shared connections)
-- [Community 247](Community_247.md) (6 shared connections)
-- [Community 330](Community_330.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 145](Community_145.md) (4 shared connections)
-- [Community 131](Community_131.md) (4 shared connections)
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 50](Community_50.md) (4 shared connections)
+- [Community 102](Community_102.md) (12 shared connections)
+- [Community 283](Community_283.md) (11 shared connections)
+- [Community 40](Community_40.md) (11 shared connections)
+- [Community 23](Community_23.md) (11 shared connections)
+- [Community 561](Community_561.md) (8 shared connections)
+- [Community 6](Community_6.md) (8 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 462](Community_462.md) (4 shared connections)
+- [Community 22](Community_22.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 429 (94%)
-- INFERRED: 29 (6%)
+- EXTRACTED: 777 (97%)
+- INFERRED: 21 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

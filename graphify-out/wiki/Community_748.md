@@ -1,43 +1,36 @@
 # Community 748
 
-> 13 nodes · cohesion 0.19
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **ConnectionRouter** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **ConnectionRouterTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_router_init_arg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_migrate_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.get_migratable_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.test_router_init_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.routers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **._router_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **If routers is not specified, default to settings.DATABASE_ROUTERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Return app models allowed to be migrated on provided db.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **LiveServerBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.test_collectstatic_emulation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.raises_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.urlopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerTestCase use of staticfiles' serve() allows it to discover…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.test_test_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
 
 ## Relationships
 
-- [Community 276](Community_276.md) (4 shared connections)
-- [Community 413](Community_413.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 388](Community_388.md) (2 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

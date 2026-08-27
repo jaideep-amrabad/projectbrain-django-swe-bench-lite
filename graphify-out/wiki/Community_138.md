@@ -1,60 +1,78 @@
 # Community 138
 
-> 75 nodes · cohesion 0.05
+> 124 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **GenericRelationTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **generic_relations_regress/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **generic_relations_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **Note** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Link** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Place** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Restaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Address** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Cafe** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Company** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Team** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **CharLink** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Content** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Developer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Guild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **HasLinkThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- *... and 50 more nodes in this community*
+- **include()** (46 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **urlpatterns_reverse/views.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **RedirectView** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **empty_view()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **test_localeregexdescriptor.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- **template_tests/views.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **LocaleRegexDescriptorTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- **IncludeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **RoutePattern** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **URLObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/utils.py`
+- **urlpatterns_reverse/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/__init__.py`
+- **ErrorHandlerResolutionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **urlpatterns_reverse/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls.py`
+- **urlpatterns_reverse/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/utils.py`
+- **_route_to_regex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **test_client_regress/urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/urls.py`
+- **included_namespace_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_namespace_urls.py`
+- **urlpatterns_reverse/namespace_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/namespace_urls.py`
+- **CheckURLMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **LocaleRegexDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **urlpatterns_reverse/extra_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/extra_urls.py`
+- **reverse_lazy_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/reverse_lazy_urls.py`
+- **NoURLPatternsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- *... and 99 more nodes in this community*
 
 ## Relationships
 
-- [Community 687](Community_687.md) (19 shared connections)
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 490](Community_490.md) (2 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 391](Community_391.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- [Community 1](Community_1.md) (80 shared connections)
+- [Community 3](Community_3.md) (13 shared connections)
+- [Community 27](Community_27.md) (11 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 314](Community_314.md) (4 shared connections)
+- [Community 954](Community_954.md) (4 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 72](Community_72.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 865](Community_865.md) (2 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_contains_tuple.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_with_dollar.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/no_warnings.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/non_unique_namespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/unique_namespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/warning_in_include.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/no_slash_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/alternate_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/erroneous_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/extra_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (76%)
-- INFERRED: 43 (24%)
+- EXTRACTED: 311 (95%)
+- INFERRED: 18 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

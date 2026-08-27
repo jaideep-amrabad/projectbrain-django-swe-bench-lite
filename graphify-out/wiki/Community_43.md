@@ -1,70 +1,78 @@
 # Community 43
 
-> 135 nodes · cohesion 0.03
+> 133 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **contrib/admin/options.py** (104 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **admin/utils.py** (63 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **main.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **FieldDoesNotExist** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **urlencode()** (28 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **filters.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **ChangeList** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **FieldListFilter** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **IncorrectLookupParameters** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **admin_urls.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
-- **flatten_fieldsets()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **RelatedFieldListFilter** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.get_filters()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **DisallowedModelAdminToField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **get_fields_from_path()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **EmptyFieldListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **InlineAdminFormSet** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **model_ngettext()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **AllValuesFieldListFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **get_deleted_objects()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **_get_non_gfk_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.get_queryset()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- *... and 110 more nodes in this community*
+- **GDALException** (67 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- **gdal/__init__.py** (54 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
+- **force_str()** (51 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **geometries.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **layer.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **generation.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- **source.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **gdal/error.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- **GDALBase** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
+- **gdal/prototypes/errcheck.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **libgdal.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **ds.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
+- **gdal/prototypes/geom.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
+- **gdal/srs.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **datasource.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **feature.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **CoordTransform** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **driver.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
+- **raster.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
+- **prototypes/srs.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
+- **band.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **gdal/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
+- **SRSException** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- **test_raster.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- **OGREnvelope** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- *... and 108 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (26 shared connections)
-- [Community 548](Community_548.md) (20 shared connections)
-- [Community 118](Community_118.md) (19 shared connections)
-- [Community 40](Community_40.md) (17 shared connections)
-- [Community 86](Community_86.md) (14 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 69](Community_69.md) (10 shared connections)
-- [Community 55](Community_55.md) (10 shared connections)
-- [Community 59](Community_59.md) (10 shared connections)
-- [Community 22](Community_22.md) (10 shared connections)
-- [Community 20](Community_20.md) (6 shared connections)
-- [Community 287](Community_287.md) (6 shared connections)
+- [Community 164](Community_164.md) (25 shared connections)
+- [Community 1](Community_1.md) (23 shared connections)
+- [Community 134](Community_134.md) (19 shared connections)
+- [Community 126](Community_126.md) (19 shared connections)
+- [Community 29](Community_29.md) (15 shared connections)
+- [Community 312](Community_312.md) (14 shared connections)
+- [Community 9](Community_9.md) (14 shared connections)
+- [Community 64](Community_64.md) (13 shared connections)
+- [Community 86](Community_86.md) (12 shared connections)
+- [Community 198](Community_198.md) (12 shared connections)
+- [Community 142](Community_142.md) (9 shared connections)
+- [Community 264](Community_264.md) (9 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 512 (97%)
-- INFERRED: 18 (3%)
+- EXTRACTED: 540 (93%)
+- INFERRED: 38 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

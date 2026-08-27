@@ -1,23 +1,25 @@
 # Community 1045
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_pickle_prefetch_related_with_m2m_and_objects_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **#24831 -- Cached properties on ManyToOneRel created in QuerySet.delete() caused…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **CoroutineClearingView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **.__del__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **Return an unawaited coroutine (common error for async views).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
 
 ## Relationships
 
-- [Community 409](Community_409.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

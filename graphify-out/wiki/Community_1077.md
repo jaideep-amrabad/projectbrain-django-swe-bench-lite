@@ -1,24 +1,29 @@
 # Community 1077
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_external_redirect_with_fetch_error_msg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **assertRedirects without fetch_redirect_response=False raises a relevant…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **SubscriberAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.mail_admin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.delete_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (71%)
+- INFERRED: 2 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

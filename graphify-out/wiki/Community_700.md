@@ -1,37 +1,39 @@
 # Community 700
 
-> 12 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **KeysValidator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **TestValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **.test_custom_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_extra_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_missing_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_simple_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_strict_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **A validator designed for HStore to require/restrict keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **DecoratorsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Admin2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.my_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.test_cache_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_require_safe_accepts_only_safe_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_user_passes_test_composition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.password_change()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **Test for the require_safe decorator. A view returns either a response or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Built-in decorators set certain attributes of the wrapped function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **The user_passes_test decorator can be applied multiple times (#9474).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Relationships
 
-- [Community 100](Community_100.md) (3 shared connections)
-- [Community 99](Community_99.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
+- [Community 1032](Community_1032.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

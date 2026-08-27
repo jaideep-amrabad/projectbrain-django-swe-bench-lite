@@ -1,23 +1,28 @@
 # Community 1008
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.set_time_zone_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL that will set the connection's time zone. Return '' if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **app2/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
+- **ProxyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
+- **app1/models.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
+- **NiceModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

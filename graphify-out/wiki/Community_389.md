@@ -1,48 +1,54 @@
 # Community 389
 
-> 20 nodes · cohesion 0.18
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ModelToValidate** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **BaseModelValidationTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **TestModelsWithValidators** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_custom_validator_passes_for_correct_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_custom_validator_raises_error_for_incorrect_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_field_validators_can_be_any_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_correct_email_value_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_FK_value_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_custom_validate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_full_clean_does_not_mutate_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_limited_FK_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_malformed_slug_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_missing_required_field_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_text_greater_that_charfields_max_length_raises_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_with_correct_value_model_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_email_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_FK_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_url_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **LoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **SessionEngineTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_different_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_custom_auth_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_custom_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_exception_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should send user_logged_out signal if user was logged in.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_without_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_without_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should work whether the user is logged in or not (#9978).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a logout after logging in with custom authentication backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should send signal even if user not authenticated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Login should send user_logged_in signal on successful login.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Login shouldn't send signal if user wasn't logged in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Using a different test client doesn't violate authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **A session engine that modifies the session key can be used to log in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **#5836 - A stale user exception isn't re-raised by the test client.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 499](Community_499.md) (8 shared connections)
-- [Community 411](Community_411.md) (5 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 409](Community_409.md) (4 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 915](Community_915.md) (1 shared connections)
+- [Community 853](Community_853.md) (1 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 46 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

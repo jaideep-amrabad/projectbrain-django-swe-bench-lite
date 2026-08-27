@@ -1,37 +1,37 @@
 # Community 650
 
-> 14 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **MessageTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **DummyObj** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_not_equal_to_non_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_no_hint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_with_given_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_equal_to_same_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_equal_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_not_equal_to_different_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_manager_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_model_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_no_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **SelectMultipleTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_multiple_options_same_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_multiple_values_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_optgroup_select_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_value_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If the value corresponds to a label (but not to an option value), none of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **Multiple options with the same value can be selected (#8103).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If multiple values are given, but some of them are not valid, the valid ones…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_compare_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_multiple_selected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_selected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

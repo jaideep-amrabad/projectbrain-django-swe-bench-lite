@@ -1,68 +1,59 @@
 # Community 65
 
-> 115 nodes · cohesion 0.03
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **geoapp/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **geoapp/test_functions.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **gis_tests/utils.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- **geoapp/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- **City** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- **GeoLookupTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **test_expressions.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- **test_regress.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
-- **GeoModelTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **GeoQuerySetTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **test_serializers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
-- **GeoRegressionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
-- **no_oracle()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- **NamedModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- **State** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- **GeoExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- **GeoJSONSerializerTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
-- **geoapp/test_sitemaps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
-- **test_feeds.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **GeoFeedTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **PennsylvaniaCity** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
-- **MultiFields** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- **geoapp/test_indexes.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- *... and 90 more nodes in this community*
+- **ExceptionReporterFilterTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **SafeExceptionReporterFilter** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.is_active()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.cleanse_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_cleansed_multivaluedict()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_frame_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.cleanse_special_types()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_post_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_safe_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.user_can_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_safe_request_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporterFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_callable_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_callable_settings_forbidding_to_set_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_ignore_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_dictionary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_list_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_dict_setting_with_non_str_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_meta_filtering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_settings_with_sensitive_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Reject users with is_active=False. Custom user models that don't have that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **Return a dictionary of the settings module with values of sensitive settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return a dictionary of request.META with sensitive values redacted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (36 shared connections)
-- [Community 27](Community_27.md) (36 shared connections)
-- [Community 63](Community_63.md) (22 shared connections)
-- [Community 108](Community_108.md) (14 shared connections)
-- [Community 45](Community_45.md) (13 shared connections)
-- [Community 18](Community_18.md) (8 shared connections)
-- [Community 269](Community_269.md) (7 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 113](Community_113.md) (6 shared connections)
-- [Community 442](Community_442.md) (4 shared connections)
+- [Community 337](Community_337.md) (9 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 408](Community_408.md) (3 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 910](Community_910.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 144](Community_144.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 230](Community_230.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 371 (91%)
-- INFERRED: 38 (9%)
+- EXTRACTED: 67 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

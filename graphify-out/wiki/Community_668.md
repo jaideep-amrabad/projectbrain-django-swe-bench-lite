@@ -1,44 +1,37 @@
 # Community 668
 
-> 14 nodes · cohesion 0.29
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **proxy_model_inheritance/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **MultiTableInheritanceProxyTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **proxy_model_inheritance/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ProxyModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ConcreteModelSubclass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ConcreteModelSubclassProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ProxyModelInheritanceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **.test_table_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **.test_model_subclass_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **.test_deletion_through_intermediate_proxy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Proxy model inheritance across apps can result in migrate not creating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Deleting an instance of a model proxying a multi-table inherited subclass…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **FileProxyMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **Temporary file object constructor that supports reopening of the temporary file…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **A mixin class used to forward file methods to an underlaying file object. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
 
 ## Relationships
 
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 247](Community_247.md) (2 shared connections)
-- [Community 83](Community_83.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 698](Community_698.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,38 @@
 # Community 797
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **DateTimeFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_lookup_date_with_use_tz()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datetimefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_lookup_date_without_use_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_timefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datetimes_save_completely()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **requires_tz_support** (1 connections)
-- **DateTimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **TimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **person.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **.test_batch_create_foreign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 623](Community_623.md) (10 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 450](Community_450.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

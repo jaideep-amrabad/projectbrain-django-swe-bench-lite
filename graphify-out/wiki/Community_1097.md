@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST some data to a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.for_update_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the FOR UPDATE SQL clause to lock rows for an update operation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 

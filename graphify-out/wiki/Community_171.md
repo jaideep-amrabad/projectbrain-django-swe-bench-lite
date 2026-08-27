@@ -1,62 +1,57 @@
 # Community 171
 
-> 63 nodes · cohesion 0.05
+> 59 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Index** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **indexes/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesPostgreSQLTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **indexes/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **SchemaIndexesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **SchemaIndexesMySQLTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexConditionIgnoredTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesNotPostgreSQLTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_index_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **IndexedArticle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **IndexTogetherSingleList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **._get_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.test_using_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **ArticleTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **CurrentTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **IndexedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **.test_condition_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_boolean_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_integer_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- *... and 38 more nodes in this community*
+- **FileStorageTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.getter()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **._test_file_time_getter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._test_file_time_getter_tz_handling_off()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._test_file_time_getter_tz_handling_on()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **CustomStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **DiscardingFalseContentStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_chunks_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_accessed_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_created_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_modified_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_save_with_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_save_without_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_listdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_makedirs_race_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_remove_race_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_setting_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **OverwritingStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_save_overwrite_behavior()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **requires_tz_support** (3 connections)
+- **.value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (11 shared connections)
-- [Community 247](Community_247.md) (7 shared connections)
-- [Community 53](Community_53.md) (5 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 90](Community_90.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 628](Community_628.md) (2 shared connections)
-- [Community 474](Community_474.md) (2 shared connections)
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 218](Community_218.md) (15 shared connections)
+- [Community 698](Community_698.md) (4 shared connections)
+- [Community 273](Community_273.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
+- [Community 505](Community_505.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (75%)
-- INFERRED: 38 (25%)
+- EXTRACTED: 89 (93%)
+- INFERRED: 7 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

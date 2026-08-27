@@ -1,26 +1,36 @@
 # Community 914
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **._perform_invalid_key_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **All the builtin backends (except memcached, see below) should warn on keys that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **SessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_safedata()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.get_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_messages_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **A message containing SafeData keeps its safe status when retrieved from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Relationships
 
-- [Community 172](Community_172.md) (3 shared connections)
+- [Community 610](Community_610.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 471](Community_471.md) (2 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
+- [Community 612](Community_612.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

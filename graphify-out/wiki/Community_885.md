@@ -1,30 +1,33 @@
 # Community 885
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **FixtureTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_fixture_loading()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_pseudo_empty_fixtures()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Multi-db fixtures are loaded correctly** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **A fixture can contain entries, but lead to nothing in the database; this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **XmlSerializerTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **.test_control_char_failure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **.test_no_dtd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **Serializing control characters with XML should fail as those characters are not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **The XML deserializer shouldn't allow a DTD. This is the most straightforward…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 388](Community_388.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 606](Community_606.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,45 @@
 # Community 635
 
-> 15 nodes · cohesion 0.14
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **TestInspectMethods** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **test_inspect.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_method_has_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.all_kinds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.just_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_func_accepts_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_func_accepts_var_args_has_var_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_func_accepts_var_args_no_var_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_func_supports_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_get_func_full_args_all_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_get_func_full_args_no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_get_func_full_args_one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **UpdateQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_values()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **InsertQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_related_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **._setup_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.update_batch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.test_sql_insert_compiler_return_id_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.get_related_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.insert_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Append a sequence of (field, model, value) triples to the internal list that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Add (name, value) to an update query for an ancestor model. Update are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Return a list of query objects: one for each update required to an ancestor…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Run on initialization and at the end of chaining. Any attributes that would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Convert a dictionary of field name to value mappings into an update query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Regression test for #14019: SQLInsertCompiler.as_sql() failure** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

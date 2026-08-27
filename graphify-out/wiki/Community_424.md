@@ -1,58 +1,48 @@
 # Community 424
 
-> 26 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **signing.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **TimestampSigner** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **base64_hmac()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **dumps()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **get_cookie_signer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **loads()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **b64_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **._legacy_signature()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **b64_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.timestamp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Exception** (1 connections)
-- **Functions for creating and restoring url-safe signed JSON objects. The format…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Retrieve original value and check it wasn't signed more than max_age seconds…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signature does not match.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signature timestamp is older than required max_age.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Return URL-safe, hmac signed base64 compressed JSON string. If key is None, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- *... and 1 more nodes in this community*
+- **AppConfigTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Stub** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_dunder_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_duplicate_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_empty_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_empty_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_dunder_path_or_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_path_overrides()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_path_set_explicitly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Unit tests for AppConfig class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If subclass sets path as class attr, no module attributes needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If path set as class attr, overrides __path__ and __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If single element in __path__, use it (in preference to __file__).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If there is no __path__ attr, use __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is empty, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is length>1, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If there is no __path__ or __file__, raise ImproperlyConfigured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is empty and there is no __file__, raise.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is length>1 and there is no __file__, raise.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr contains duplicate paths and there is no __file__, they…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Relationships
 
-- [Community 54](Community_54.md) (4 shared connections)
-- [Community 200](Community_200.md) (3 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 117](Community_117.md) (3 shared connections)
-- [Community 119](Community_119.md) (2 shared connections)
-- [Community 145](Community_145.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 453](Community_453.md) (1 shared connections)
+- [Community 271](Community_271.md) (9 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,33 +1,32 @@
 # Community 814
 
-> 8 nodes · cohesion 0.32
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **model_fields/test_slugfield.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **SlugFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **BigS** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **UnicodeSlugField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_slugfield_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **.test_slugfield_unicode_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **SlugField with allow_unicode=True honors max_length.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **SlugField honors max_length.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- **InvalidStringTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **setup** (8 connections)
+- **.test_invalidstr01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr04_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
 
 ## Relationships
 
-- [Community 291](Community_291.md) (3 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

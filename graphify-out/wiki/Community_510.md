@@ -1,57 +1,48 @@
 # Community 510
 
-> 55 nodes · cohesion 0.05
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ExtractorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertLocationCommentPresent()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **LocationCommentsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._run_makemessages()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertLocationCommentNotPresent()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertNotMsgId()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **IgnoredExtractorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **CopyPluralFormsExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **JavascriptExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_media_static_dirs_ignored()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **KeepPotFileExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_add_location_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._assertPoLocComment()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_default_root_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_add_location_full()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_add_location_never()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_location_comments_for_templatized_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **MultipleLocaleExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **NoSettingsExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **NoWrapExtractorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_blocktranslate_trimmed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_translate_and_plural_blocktranslate_collision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._get_token_line_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_ignore_directory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_ignore_file_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *... and 30 more nodes in this community*
+- **EarliestOrLatestTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **get_earliest_or_latest/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **get_earliest_or_latest/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **TestFirstLast** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **IndexErrorArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **IndexErrorQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **.test_index_error_not_suppressed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_earliest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest_manual()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_first()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Emulates the case when some internal code raises an unexpected IndexError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **#23555 -- Unexpected IndexError exceptions in QuerySet iteration shouldn't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **Tests for the earliest() and latest() objects methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 479](Community_479.md) (4 shared connections)
-- [Community 604](Community_604.md) (4 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 225](Community_225.md) (2 shared connections)
-- [Community 903](Community_903.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 425](Community_425.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
+- [Community 409](Community_409.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 106 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 31 (76%)
+- INFERRED: 10 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

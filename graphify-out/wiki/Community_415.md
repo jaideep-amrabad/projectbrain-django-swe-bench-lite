@@ -1,59 +1,63 @@
 # Community 415
 
-> 44 nodes · cohesion 0.07
+> 31 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **TimeFormat** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **FileBasedCache** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.f()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **._key_to_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.set()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.srid()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **._cull()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.has_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._is_expired()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.touch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.clear()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._list_cache_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.i()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **._createdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._write_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.O()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.s()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.T()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.Z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- *... and 19 more nodes in this community*
+- **OneToOneField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **SettingsReference** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **PROTECT()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.get_constraints_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.formfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.test_alter_field_fk_keeps_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_fk_to_o2o()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_o2o_keeps_unique()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_o2o_to_fk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.formfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **str** (1 connections)
+- **String subclass which references a current settings value. It's treated as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 211](Community_211.md) (4 shared connections)
-- [Community 373](Community_373.md) (3 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 664](Community_664.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 191](Community_191.md) (1 shared connections)
+- [Community 61](Community_61.md) (9 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 195](Community_195.md) (3 shared connections)
+- [Community 442](Community_442.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 287](Community_287.md) (2 shared connections)
+- [Community 539](Community_539.md) (2 shared connections)
+- [Community 405](Community_405.md) (2 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 118](Community_118.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (92%)
-- INFERRED: 7 (8%)
+- EXTRACTED: 66 (87%)
+- INFERRED: 10 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

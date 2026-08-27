@@ -1,65 +1,45 @@
 # Community 593
 
-> 38 nodes · cohesion 0.08
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **test_date.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **test_time.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **date()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **filter_tests/test_timesince.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **test_timeuntil.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **TimezoneTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/timezone_utils.py`
-- **AddTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **timezone_utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/timezone_utils.py`
-- **timesince_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **timeuntil_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **setup** (7 connections)
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_add07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_escape_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_add01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- *... and 13 more nodes in this community*
+- **Article** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FieldOverridePost** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **StateAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ArticleForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FieldOverridePostForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **StoryForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.model_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.model_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.model_year_reversed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.property_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.awesomeness_level()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A simple article to test admin views. Test backwards compatibility.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (13 shared connections)
-- [Community 19](Community_19.md) (11 shared connections)
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 33](Community_33.md) (9 shared connections)
-- [Community 664](Community_664.md) (6 shared connections)
-- [Community 40](Community_40.md) (5 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
+- [Community 69](Community_69.md) (8 shared connections)
+- [Community 98](Community_98.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 795](Community_795.md) (1 shared connections)
+- [Community 1032](Community_1032.md) (1 shared connections)
+- [Community 447](Community_447.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/timezone_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (96%)
-- INFERRED: 5 (4%)
+- EXTRACTED: 27 (84%)
+- INFERRED: 5 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

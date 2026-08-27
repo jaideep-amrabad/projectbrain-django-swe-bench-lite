@@ -1,32 +1,36 @@
 # Community 807
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **.deferred_to_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **add_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **is_reverse_o2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_loaded_field_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **If any fields are marked to be deferred, return a dictionary mapping models to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add "value" to the set of values for "key", whether or not "key" already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Check if the given field is reverse-o2o. The field is expected to be some sort…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Convert the self.deferred_loading data structure to an alternate data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **PropertyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **properties/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **properties/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_setter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **._get_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **._set_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **Using properties on models Use properties on models just like on any other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Relationships
 
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 275](Community_275.md) (1 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

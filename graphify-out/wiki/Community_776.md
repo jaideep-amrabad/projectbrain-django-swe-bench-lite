@@ -1,52 +1,35 @@
 # Community 776
 
-> 17 nodes · cohesion 0.14
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **TextField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.test_rename_keep_null_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_add_textfield_unhashable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_text_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **CharField** (1 connections)
-- **EmailField** (1 connections)
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Renaming a field shouldn't affect the not null status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **CookieSessionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_actual_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_cycle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_load_does_not_create_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_save_does_not_resurrect_session_logged_out_in_other_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **skip** (2 connections)
+- **.test_unpickling_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **expectedFailure** (1 connections)
+- **This test tested exists() in the other session backends, but that doesn't make…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **This test tested cycle_key() which would create a new session key for the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (4 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 318](Community_318.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 470](Community_470.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 256](Community_256.md) (1 shared connections)
-- [Community 562](Community_562.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 234](Community_234.md) (1 shared connections)
+- [Community 614](Community_614.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (75%)
-- INFERRED: 9 (25%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

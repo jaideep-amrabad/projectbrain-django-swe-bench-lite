@@ -1,38 +1,40 @@
 # Community 656
 
-> 14 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TextInputTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_attrs_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_attrs_safestring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_constructor_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_render_boolean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **Boolean values are rendered to their string forms ("True" and "False").** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **`attrs` passed to render() get precedence over those passed to the constructor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_render_custom_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_render_quoted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_render_unicode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **Place** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **UndergroundBar** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_get_reverse_on_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_reverse_object_cached_when_related_is_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_reverse_object_cached_when_related_is_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_reverse_object_does_not_exist_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_save_nullable_o2o_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_set_reverse_on_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Regression for #13839 and #17439. The target of a one-to-one relation is always…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **#10811 -- Assigning an unsaved object to a OneToOneField should raise an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Regression for #13839 and #17439. DoesNotExist on a reverse one-to-one relation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Regression for #18153 and #19089. Accessing the reverse relation on an unsaved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Writing to the reverse relation on an unsaved object is impossible too.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Relationships
 
-- [Community 343](Community_343.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 375](Community_375.md) (9 shared connections)
+- [Community 549](Community_549.md) (4 shared connections)
+- [Community 1055](Community_1055.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (84%)
-- INFERRED: 3 (16%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

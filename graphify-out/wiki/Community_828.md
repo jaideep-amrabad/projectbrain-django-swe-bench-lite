@@ -1,33 +1,34 @@
 # Community 828
 
-> 8 nodes · cohesion 0.32
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **BinaryFieldTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **DataModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_set_and_retrieve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter_bytearray()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter_memoryview()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.last()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.first()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.latest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a new QuerySet instance with the ordering changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Reverse the ordering of the QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the earliest object according to fields (if given) or by the model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the first object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the last object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 73](Community_73.md) (6 shared connections)
+- [Community 365](Community_365.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,55 @@
 # Community 818
 
-> 6 nodes · cohesion 0.33
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **AbstractUserTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_email_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_user_clean_normalize_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_user_double_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_last_login_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Calling user.save() twice should trigger password_changed() once.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **TextField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.test_rename_keep_null_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.test_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Tests simple altering of fields** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_textfield_unhashable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_text_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **CharField** (1 connections)
+- **EmailField** (1 connections)
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Renaming a field shouldn't affect the not null status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (3 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
+- [Community 37](Community_37.md) (6 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 299](Community_299.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 575](Community_575.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 33 (79%)
+- INFERRED: 9 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

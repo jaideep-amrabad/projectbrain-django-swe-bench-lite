@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **commands/javascript.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
-- **mfunc()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
+- **.test_delete_related_on_filtered_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **Deleting related objects should also not be distracted by a restricted manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 565](Community_565.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

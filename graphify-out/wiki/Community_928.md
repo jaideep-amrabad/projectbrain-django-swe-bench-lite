@@ -1,29 +1,29 @@
 # Community 928
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **CustomQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **._optin_private_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.optout_public_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **._private_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.public_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 565](Community_565.md) (2 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

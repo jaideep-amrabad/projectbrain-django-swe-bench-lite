@@ -1,32 +1,31 @@
 # Community 836
 
-> 7 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Loader** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.get_template_sources()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **BaseLoader** (1 connections)
-- **Return an Origin object pointing to an absolute path in each directory in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **MultipleHiddenInputTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_increment_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_attrs_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **Each input should get a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,64 +1,58 @@
 # Community 156
 
-> 66 nodes · cohesion 0.06
+> 62 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **generic_inline_admin/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **generic_inline_admin/admin.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **generic_inline_admin/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **GenericInlineAdminParametersTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericInlineModelAdminTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **Media** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **GenericAdminViewTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericInlineAdminWithUniqueTogetherTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **._create_object()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericTabularInline** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **MediaInline** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **Episode** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **PhoneNumber** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **MediaPermanentInline** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **NoInlineDeletionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **EpisodeAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **Contact** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **EpisodePermanent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **.test_extra_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_max_num_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_min_num_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **TestDataMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **.test_get_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_get_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- *... and 41 more nodes in this community*
+- **SessionBase** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._legacy_decode()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.cycle_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expire_at_browser_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_session_cookie_age()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._set_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._validate_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.is_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (14 shared connections)
-- [Community 87](Community_87.md) (12 shared connections)
-- [Community 9](Community_9.md) (6 shared connections)
-- [Community 687](Community_687.md) (5 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 55](Community_55.md) (4 shared connections)
-- [Community 548](Community_548.md) (4 shared connections)
-- [Community 66](Community_66.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
+- [Community 27](Community_27.md) (6 shared connections)
+- [Community 852](Community_852.md) (2 shared connections)
+- [Community 465](Community_465.md) (2 shared connections)
+- [Community 584](Community_584.md) (1 shared connections)
+- [Community 634](Community_634.md) (1 shared connections)
+- [Community 585](Community_585.md) (1 shared connections)
+- [Community 614](Community_614.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (90%)
-- INFERRED: 19 (10%)
+- EXTRACTED: 93 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,78 +1,60 @@
 # Community 59
 
-> 336 nodes · cohesion 0.01
+> 90 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **models/fields/__init__.py** (90 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **expressions.py** (72 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **FieldError** (69 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **related.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **db/models/base.py** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **models/query.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **sql/query.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **contenttypes/fields.py** (57 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **query_utils.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **SQLCompiler** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **sql/compiler.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **models/options.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **inspect.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **Expression** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **related_descriptors.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **deletion.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **IntegerField** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **models/signals.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **Ref** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **Col** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **OneToOneField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **ObjectDoesNotExist** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **where.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **DeferredAttribute** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- *... and 311 more nodes in this community*
+- **fixtures_regress/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **fixtures_regress/models.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MNaturalKeyFixtureTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **BaseNKModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Meta** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Store** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Widget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular2B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **TestLoadFixtureFromOtherAppDirectory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Absolute** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **CommonFeature** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **ExternalDependency** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughBC** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughCA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular2ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- *... and 65 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (38 shared connections)
-- [Community 51](Community_51.md) (34 shared connections)
-- [Community 6](Community_6.md) (32 shared connections)
-- [Community 0](Community_0.md) (23 shared connections)
-- [Community 1](Community_1.md) (19 shared connections)
-- [Community 81](Community_81.md) (18 shared connections)
-- [Community 151](Community_151.md) (17 shared connections)
-- [Community 40](Community_40.md) (17 shared connections)
-- [Community 42](Community_42.md) (17 shared connections)
-- [Community 24](Community_24.md) (16 shared connections)
-- [Community 11](Community_11.md) (16 shared connections)
-- [Community 22](Community_22.md) (14 shared connections)
+- [Community 172](Community_172.md) (11 shared connections)
+- [Community 606](Community_606.md) (10 shared connections)
+- [Community 409](Community_409.md) (3 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 147](Community_147.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 591](Community_591.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/constants.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1306 (96%)
-- INFERRED: 52 (4%)
+- EXTRACTED: 184 (84%)
+- INFERRED: 35 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

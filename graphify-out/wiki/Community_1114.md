@@ -4,21 +4,24 @@
 
 ## Key Concepts
 
-- **.test_valid_form_with_hints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a form, providing hints in the GET data** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

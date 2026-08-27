@@ -1,25 +1,26 @@
 # Community 975
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Persona** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple persona associated with accounts, to test inlining of related accounts…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Full HTTP message, including headers, as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HTTP headers as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,44 +1,74 @@
 # Community 610
 
-> 16 nodes · cohesion 0.12
+> 39 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone_with_microsecond()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_unsupported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_auto_now_and_auto_now_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_accepts_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_returns_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_filter_date_field_with_aware_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime_with_microsecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetime_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetimes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_raw_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **messages_tests/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **messages_tests/test_cookie.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **test_session.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- **test_fallback.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **storage/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **messages/constants.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- **default_storage()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages/middleware.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **fallback.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **storage/session.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **storage/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **messages_tests/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **messages/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- **info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **stored_cookie_messages_count()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 634](Community_634.md) (5 shared connections)
-- [Community 25](Community_25.md) (4 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 718](Community_718.md) (1 shared connections)
-- [Community 562](Community_562.md) (1 shared connections)
+- [Community 1](Community_1.md) (16 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 220](Community_220.md) (10 shared connections)
+- [Community 345](Community_345.md) (8 shared connections)
+- [Community 612](Community_612.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 611](Community_611.md) (5 shared connections)
+- [Community 471](Community_471.md) (5 shared connections)
+- [Community 250](Community_250.md) (4 shared connections)
+- [Community 633](Community_633.md) (3 shared connections)
+- [Community 237](Community_237.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (83%)
-- INFERRED: 5 (17%)
+- EXTRACTED: 170 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

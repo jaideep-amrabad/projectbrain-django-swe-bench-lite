@@ -1,29 +1,30 @@
 # Community 886
 
-> 6 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **multi_table.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **ParentManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **DurationFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_clean_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_integer_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_overflow()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_overflow_translation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 166](Community_166.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

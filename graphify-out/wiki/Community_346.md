@@ -1,51 +1,38 @@
 # Community 346
 
-> 30 nodes · cohesion 0.11
+> 13 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **AdminFormfieldForDBFieldTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.assertFormfield()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_for_custom_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_m2m_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_CharField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_choices_with_radio_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_DateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_DateTimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_EmailField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_field_with_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_FileField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_filtered_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_for_datetime_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_IntegerField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_radio_fields_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_raw_id_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_raw_id_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_TextField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_TimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_URLField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **AlbumAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
-- *... and 5 more nodes in this community*
+- **DefaultConnectionProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **lookuperror_c/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- **migrated_unapplied_app/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
+- **OtherAuthor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
+- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **Proxy for accessing the default DatabaseWrapper object's attributes. If you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **C1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- **C2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- **C3** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
 
 ## Relationships
 
-- [Community 61](Community_61.md) (8 shared connections)
-- [Community 127](Community_127.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (90%)
-- INFERRED: 6 (10%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

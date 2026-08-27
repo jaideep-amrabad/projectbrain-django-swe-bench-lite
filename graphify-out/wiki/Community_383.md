@@ -1,49 +1,54 @@
 # Community 383
 
-> 30 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **parse_color_setting()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
-- **TermColorTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **termcolors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
-- **colorize()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
-- **make_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
-- **test_termcolors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_bad_color()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_bad_palette()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_bad_role()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_color_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_colorize_empty_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_empty_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_empty_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_fg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_fg_bg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_fg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_multiple_roles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_opts_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_override_nocolor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_override_palette()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_override_with_multiple_roles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- **.test_reverse_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
-- *... and 5 more nodes in this community*
+- **DatabaseFeatures** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **mysql/test_features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **TestFeatures** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.can_introspect_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **._mysql_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.test_skip_locked_no_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.test_supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.can_introspect_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_introspect_json_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_return_columns_from_insert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_select_for_update_nowait()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_select_for_update_skip_locked()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_zoneinfo_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.ignores_table_name_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.is_sql_auto_is_null_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supported_explain_formats()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_column_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_default_in_lead_lag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_explain_analyze()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_json_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_over_clause()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.update_can_self_select()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **All storage engines except MyISAM support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **Internal method used in Django tests. Don't rely on this from your code** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 104](Community_104.md) (3 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 37 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

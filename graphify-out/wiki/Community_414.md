@@ -1,53 +1,53 @@
 # Community 414
 
-> 27 nodes · cohesion 0.09
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **SpatiaLiteOperations** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **._get_spatialite_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatialite_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.lwgeom_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatial_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatialite_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.convert_extent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.proj4_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatial_aggregate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.unsupported_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **DatabaseOperations** (1 connections)
-- **Convert the polygon data received from SpatiaLite to min/max values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return None because geometry columns are added via the `AddGeometryColumn`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the distance parameters for the given geometry field, lookup value, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Helper routine for calling SpatiaLite functions and returning their result. Any…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of GEOS used by SpatiaLite as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of the PROJ.4 library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of LWGEOM library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the SpatiaLite library version as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the SpatiaLite version as a tuple (version string, major, minor,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the spatial aggregate SQL template and function for the given Aggregate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Determine the version of the SpatiaLite library.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- *... and 2 more nodes in this community*
+- **DetailViewTest** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_custom_detail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_deferred_queryset_context_object_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_deferred_queryset_template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_custom_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_custom_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk_and_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk_and_slug_mismatch_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk_ignore_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk_ignore_slug_mismatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_missing_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_object_does_not_exist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_duplicated_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_invalid_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_invalid_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_non_model_object_with_meta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_simple_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_template_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_template_name_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_template_name_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_verbose_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 17](Community_17.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 296](Community_296.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 100](Community_100.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 30 (83%)
+- INFERRED: 6 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

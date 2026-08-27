@@ -1,53 +1,42 @@
 # Community 531
 
-> 21 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DateField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateTimeField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_from_object()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.pre_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Binary data is serialized as base64** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return a string value of this field from the passed obj. This is used by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return the value of this field in the given model instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Page** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **.has_other_pages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.end_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.has_next()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.has_previous()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.start_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **._get_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **Page** (1 connections)
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return the 1-based index of the first object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return the 1-based index of the last object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
 
 ## Relationships
 
-- [Community 456](Community_456.md) (5 shared connections)
-- [Community 256](Community_256.md) (4 shared connections)
-- [Community 470](Community_470.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 271](Community_271.md) (3 shared connections)
-- [Community 517](Community_517.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 737](Community_737.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 533](Community_533.md) (1 shared connections)
+- [Community 129](Community_129.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

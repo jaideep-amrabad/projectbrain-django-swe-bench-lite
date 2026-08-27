@@ -1,22 +1,23 @@
 # Community 1207
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **localized.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/localized.py`
+- **.test_json_encoder_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The test Client accepts a json_encoder.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 476](Community_476.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/localized.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

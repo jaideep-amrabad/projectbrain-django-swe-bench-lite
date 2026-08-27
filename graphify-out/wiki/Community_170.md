@@ -1,55 +1,65 @@
 # Community 170
 
-> 52 nodes · cohesion 0.05
+> 57 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **syndication_tests/feeds.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2Feed** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestAtomFeed** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **MyCustomAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestSingleEnclosureRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **ArticlesFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLatestFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **NaiveDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateContextFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureAtomFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureRSSFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkFalse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TZAwareDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkTrue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **syndication_tests/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
-- **TestCustomFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestFeedUrlFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLanguageFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss091Feed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.add_item_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.add_root_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- *... and 27 more nodes in this community*
+- **close_old_connections()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **ASGITest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **get_asgi_application()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **HandlerTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **AsyncClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **WSGITest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__call__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **conditional_content_removal()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **FileCloseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.__call__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **closing_iterator_wrapper()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_invalid_multipart_boundary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_file_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_asgi_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_bad_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_non_ascii_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_non_ascii_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_file_wrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_get_wsgi_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 444](Community_444.md) (8 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 211](Community_211.md) (2 shared connections)
-- [Community 887](Community_887.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
+- [Community 1](Community_1.md) (24 shared connections)
+- [Community 87](Community_87.md) (7 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 609](Community_609.md) (2 shared connections)
+- [Community 514](Community_514.md) (2 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 586](Community_586.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 769](Community_769.md) (1 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 108 (86%)
+- INFERRED: 18 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

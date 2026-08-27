@@ -1,56 +1,61 @@
 # Community 193
 
-> 51 nodes · cohesion 0.06
+> 59 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **GeoIP2** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **geoip2/base.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **GeoIPTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **._check_query()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **GeoIP2Exception** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.city()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **geoip2/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/__init__.py`
-- **.coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country_code()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.lon_lat()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.test03_country()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test04_city()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.lat_lon()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **resources.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **City()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **Country()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test02_bad_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test06_ipv6_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test_check_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **patch** (3 connections)
-- *... and 26 more nodes in this community*
+- **ExceptionReporter** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **ExceptionReporterTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **PlainTextReportTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.compile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_encoding_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_ignore_traceback_evaluation_exceptions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_local_variable_escaping()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_and_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_and_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_template_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.get_traceback_frames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- **.test_eol_support()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_exception_fetching_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_no_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_no_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_non_utf8_values_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_reporting_frames_source_not_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_reporting_frames_without_source()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Community 54](Community_54.md) (8 shared connections)
-- [Community 99](Community_99.md) (3 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (12 shared connections)
+- [Community 644](Community_644.md) (4 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 408](Community_408.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 349](Community_349.md) (1 shared connections)
+- [Community 439](Community_439.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 250](Community_250.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 94 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 122 (95%)
+- INFERRED: 7 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

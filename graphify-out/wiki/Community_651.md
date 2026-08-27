@@ -1,40 +1,42 @@
 # Community 651
 
-> 14 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **HandlerTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_multipart_boundary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_bad_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_middleware_initialized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **A non-UTF-8 path populates PATH_INFO with an URL-encoded path and produces a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Non-ASCII query strings are properly decoded (#20530, #22996).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Non-ASCII cookies set in JavaScript are properly decoded (#20557).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Invalid cookie content should result in an absent cookie, but not in a crash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Invalid boundary string should produce a "Bad Request" response, not a server…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **FromDBValueTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **from_db_value/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **from_db_value/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **Cash** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **CashField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **CashModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.test_aggregation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_simple_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 101](Community_101.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 244](Community_244.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

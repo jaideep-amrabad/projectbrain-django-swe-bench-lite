@@ -1,66 +1,61 @@
 # Community 227
 
-> 56 nodes · cohesion 0.06
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **core/mail/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EmailMultiAlternatives** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **message.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **send_mail()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail_managers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail_admins()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **sanitize_address()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **smtp.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **get_connection()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **sendtestemail.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **forbid_multi_line_headers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **BadHeaderError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **mail/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- **.test_connection_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **send_mass_mail()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **.test_empty_admins()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **CachedDnsName** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.email_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_fqdn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- **.test_wrong_admins_managers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **FakeSMTPChannel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 31 more nodes in this community*
+- **model_fields/models.py** (91 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **model_fields/test_integerfield.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **IntegerFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **test_autofield.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **BigIntegerFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **SmallIntegerFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **FkToChar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **AutoFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **PositiveIntegerFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **AutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **BigAutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **BigIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **DateTimeModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **IntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **NullDurationModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveBigIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveSmallIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PrimaryKeyCharModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **SmallAutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **SmallIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **BigAutoFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **SmallAutoFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **PositiveBigIntegerFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **PositiveSmallIntegerFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 123](Community_123.md) (14 shared connections)
-- [Community 250](Community_250.md) (14 shared connections)
-- [Community 401](Community_401.md) (11 shared connections)
-- [Community 87](Community_87.md) (7 shared connections)
-- [Community 54](Community_54.md) (7 shared connections)
-- [Community 429](Community_429.md) (7 shared connections)
-- [Community 476](Community_476.md) (6 shared connections)
-- [Community 50](Community_50.md) (5 shared connections)
-- [Community 22](Community_22.md) (4 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 104](Community_104.md) (3 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 128](Community_128.md) (7 shared connections)
+- [Community 298](Community_298.md) (7 shared connections)
+- [Community 839](Community_839.md) (6 shared connections)
+- [Community 297](Community_297.md) (6 shared connections)
+- [Community 698](Community_698.md) (4 shared connections)
+- [Community 125](Community_125.md) (4 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 844](Community_844.md) (4 shared connections)
+- [Community 192](Community_192.md) (3 shared connections)
+- [Community 54](Community_54.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 206 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 157 (92%)
+- INFERRED: 14 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

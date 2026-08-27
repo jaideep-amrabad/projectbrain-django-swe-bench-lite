@@ -1,62 +1,53 @@
 # Community 437
 
-> 25 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **requests/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **LimitedStream** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.readline()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **._read_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.parse_header_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_parse_header_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Wrap another stream to disallow reading it past a number of bytes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Allow header lookup using underscores in place of hyphens.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **EmailMultiAlternatives** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.attach()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_safe_mime_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_safe_mime_multipart_with_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.attach_alternative()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Initialize a single email message (which can be sent to multiple recipients).** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file with the given filename and content. The filename can be omitted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file from the filesystem. Set the mimetype to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Set msg's header, either from self.extra_headers, if present, or from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **A version of EmailMessage that makes it easy to send multipart/alternative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach an alternative content representation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Make sure headers can be set with a different encoding than utf-8 in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EmailMultiAlternatives includes alternatives if the body is empty and it has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Regression for #12791 - Encode body correctly with other encodings than utf-8** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Regression test for #9367** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 115](Community_115.md) (8 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 101](Community_101.md) (6 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 109](Community_109.md) (2 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 143](Community_143.md) (2 shared connections)
-- [Community 627](Community_627.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 123](Community_123.md) (11 shared connections)
+- [Community 318](Community_318.md) (5 shared connections)
+- [Community 180](Community_180.md) (4 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 859](Community_859.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 396](Community_396.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (92%)
-- INFERRED: 6 (8%)
+- EXTRACTED: 49 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

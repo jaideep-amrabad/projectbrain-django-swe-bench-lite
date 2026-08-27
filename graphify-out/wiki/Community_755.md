@@ -1,44 +1,47 @@
 # Community 755
 
-> 10 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **test_history_view.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.test_changed_message_uses_form_lables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **CityInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **Admin's model history change messages use form labels instead of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **SetPasswordForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **SetPasswordFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **TestDataMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_help_text_translation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_new_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **A form that lets a user change set their password without entering the old…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (3 shared connections)
-- [Community 91](Community_91.md) (3 shared connections)
-- [Community 333](Community_333.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 574](Community_574.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 688](Community_688.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 754](Community_754.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 607](Community_607.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 420](Community_420.md) (1 shared connections)
+- [Community 608](Community_608.md) (1 shared connections)
+- [Community 478](Community_478.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (84%)
-- INFERRED: 5 (16%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,62 @@
 # Community 858
 
-> 7 nodes · cohesion 0.38
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ModelFormBaseTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **UUIDPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **UUIDPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_create_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **.test_update_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **.test_model_multiple_choice_field_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **test_autocomplete_widget.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **AutocompleteMixinTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **AutocompleteSelect** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Album** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **RelatedFieldWidgetWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AutocompleteMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **NotRequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **RequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.build_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.test_render_options_not_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.media()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.optgroups()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.test_build_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_no_custom_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_not_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_get_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_media()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **Empty option is present if the field isn't required.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **Select widget mixin that loads options from AutocompleteJsonView via AJAX.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Set select2's AJAX attributes. Attributes can be set using the html5 data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 42](Community_42.md) (9 shared connections)
+- [Community 17](Community_17.md) (7 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
+- [Community 245](Community_245.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (85%)
-- INFERRED: 2 (15%)
+- EXTRACTED: 73 (83%)
+- INFERRED: 15 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

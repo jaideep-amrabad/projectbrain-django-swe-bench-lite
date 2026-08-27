@@ -1,33 +1,61 @@
 # Community 338
 
-> 10 nodes · cohesion 0.20
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **UserManagerTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_make_random_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_super_user_raises_error_on_false_is_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_superuser_raises_error_on_false_is_staff()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user_email_domain_normalize()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user_email_domain_normalize_rfc3696()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user_email_domain_normalize_with_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user_is_staff()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_empty_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **prefetch_related_objects()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **PrefetchRelatedObjectsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **DirectPrefetchedObjectCacheReuseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **test_prefetch_related_objects.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **Reader** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **normalize_prefetch_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **prefetch_one_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.test_m2m_then_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_prefetch_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_prefetch_object_to_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_prefetch_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_detect_is_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **._prefetch_related_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.test_foreignkey_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_foreignkey_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_m2m_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_m2m_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_unknown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_add_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_detect_is_fetched_with_to_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_reverse_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_remove_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **Normalize lookups into Prefetch objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Populate prefetched object caches for a list of model instances based on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Helper function for prefetch_related_objects(). Run prefetches on all instances…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 110](Community_110.md) (9 shared connections)
+- [Community 482](Community_482.md) (8 shared connections)
+- [Community 322](Community_322.md) (7 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 409](Community_409.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 744](Community_744.md) (1 shared connections)
+- [Community 309](Community_309.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (86%)
+- INFERRED: 11 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

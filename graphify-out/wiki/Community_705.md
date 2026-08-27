@@ -1,39 +1,35 @@
 # Community 705
 
-> 12 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **Dynamically create new classes and add them to the test module when multiple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **Validate the comma-separated list of requested browsers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **IntegerFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_localized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_big_num()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_float()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_unicode_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **Class-defined widget is not overwritten by __init__() (#22245).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **A localized IntegerField's widget renders to a text input without any number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
 
 ## Relationships
 
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 279](Community_279.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 743](Community_743.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

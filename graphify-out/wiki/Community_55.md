@@ -1,63 +1,56 @@
 # Community 55
 
-> 66 nodes · cohesion 0.05
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **InlineModelAdmin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **contenttypes/admin.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **.get_formset()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **.formfield_for_foreignkey()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **AutocompleteSelectMultiple** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **modelform_defines_fields()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.formfield_for_manytomany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_fieldsets()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_readonly_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.formfield_for_dbfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **GenericInlineModelAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **GenericInlineModelAdminChecks** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **.formfield_for_choice_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_autocomplete_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_exclude()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_field_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_view_on_site_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_formset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **.get_empty_value_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_prepopulated_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- *... and 41 more nodes in this community*
+- **CharField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **BooleanField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **IPAddressField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SlugField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **EmailField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **URLField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_max_length_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **CommaSeparatedIntegerField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 118](Community_118.md) (25 shared connections)
-- [Community 43](Community_43.md) (10 shared connections)
-- [Community 86](Community_86.md) (7 shared connections)
-- [Community 156](Community_156.md) (4 shared connections)
-- [Community 687](Community_687.md) (3 shared connections)
-- [Community 433](Community_433.md) (3 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 350](Community_350.md) (3 shared connections)
-- [Community 548](Community_548.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 58](Community_58.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
+- [Community 299](Community_299.md) (13 shared connections)
+- [Community 26](Community_26.md) (8 shared connections)
+- [Community 534](Community_534.md) (7 shared connections)
+- [Community 68](Community_68.md) (4 shared connections)
+- [Community 560](Community_560.md) (3 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 637](Community_637.md) (2 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 169 (94%)
-- INFERRED: 10 (6%)
+- EXTRACTED: 92 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

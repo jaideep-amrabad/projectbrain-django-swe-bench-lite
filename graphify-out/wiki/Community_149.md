@@ -1,64 +1,64 @@
 # Community 149
 
-> 73 nodes · cohesion 0.03
+> 79 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Library** (31 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **tz.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **FilterRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **TagRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **SimpleTagRegistrationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **testtags.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- **InclusionTagRegistrationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **get_current_timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **localtime_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **EchoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- **.filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **Node** (3 connections)
-- **echo()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- **.filter_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.inclusion_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.simple_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **good_tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
-- **override.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
-- **tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/tags.py`
-- *... and 48 more nodes in this community*
+- **BytesIO** (51 connections)
+- **FileTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **WSGIRequestHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **FileWrapperHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **WriteChunkCounterHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WSGIFileWrapperTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_response_closing()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WSGIRequestHandlerTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.test_file_response_call_request_finished()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **ServerHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.write()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **DataUploadMaxNumberOfFieldsGet** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_strips_underscore_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **DummyHandler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **ServerHandlerChunksProperly** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_chunked_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_no_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_uses_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **NoNameFileTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Stub** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (22 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 211](Community_211.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 259](Community_259.md) (2 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 1](Community_1.md) (20 shared connections)
+- [Community 87](Community_87.md) (17 shared connections)
+- [Community 273](Community_273.md) (4 shared connections)
+- [Community 440](Community_440.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 148](Community_148.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 144](Community_144.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 698](Community_698.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 121 (67%)
+- INFERRED: 59 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

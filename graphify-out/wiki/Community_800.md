@@ -1,31 +1,43 @@
 # Community 800
 
-> 9 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **PathNotImplementedStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **NeverCopyRemoteStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **._path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.get_modified_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **Return a future modified time for all files so that nothing is collected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **servers/views.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
+- **servers/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
+- **servers/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/urls.py`
+- **check_model_instance_from_subview()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **create_model_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **model_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **subview_calling_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **environ_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **example_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **tests/servers/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/__init__.py`
 
 ## Relationships
 
-- [Community 54](Community_54.md) (2 shared connections)
+- [Community 27](Community_27.md) (12 shared connections)
+- [Community 724](Community_724.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 199](Community_199.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 32 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

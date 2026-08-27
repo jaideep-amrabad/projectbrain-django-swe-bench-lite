@@ -1,30 +1,32 @@
 # Community 840
 
-> 7 nodes · cohesion 0.43
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **IriencodeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **setup** (4 connections)
-- **.test_iriencode03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **Ensure iriencode keeps safe strings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- **model_fields/test_floatfield.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
+- **TestFloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
+- **FloatModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_float_validates_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
+- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 227](Community_227.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 361](Community_361.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

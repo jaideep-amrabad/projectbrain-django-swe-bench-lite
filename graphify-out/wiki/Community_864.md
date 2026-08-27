@@ -1,29 +1,29 @@
 # Community 864
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **ManagementForm** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **.get_default_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Keep track of how many form instances are displayed on the page. If adding new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **mysql/compiler.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLCompiler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLDeleteCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLAggregateCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **.as_subquery_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLInsertCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLUpdateCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
 
 ## Relationships
 
-- [Community 155](Community_155.md) (3 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

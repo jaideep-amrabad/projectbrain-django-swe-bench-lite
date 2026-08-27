@@ -1,40 +1,39 @@
 # Community 709
 
-> 12 nodes · cohesion 0.32
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate HTML to a certain number of chars (not counting tags and comments),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **An object used to truncate text, either by characters or words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Return the text truncated to be no longer than the specified number of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **m2o_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **m2o_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **ManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **MultipleManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **Relating an object to itself, many-to-one To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.test_m2o_recursive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.test_m2o_recursive2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
 
 ## Relationships
 
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 702](Community_702.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
+- [Community 409](Community_409.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Nonexistent cache keys return as None/default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.get_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Return an iterable of models. By default, the following models aren't included:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 
 ## Relationships
 
-- [Community 172](Community_172.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 
 ## Audit Trail
 

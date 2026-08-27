@@ -1,17 +1,16 @@
 # Community 375
 
-> 31 nodes · cohesion 0.06
+> 29 nodes · cohesion 0.07
 
 ## Key Concepts
 
 - **OneToOneTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_filter_one_to_one_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_hidden_accessor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_related_object_cached_when_reverse_is_accessed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_reverse_object_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_reverse_object_cached_when_related_is_accessed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_reverse_relationship_cache_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_assign_none_null_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_assign_none_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_assign_none_to_null_cached_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
@@ -29,16 +28,18 @@
 - **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_setter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 - **.test_update_one_to_one_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- *... and 6 more nodes in this community*
+- **Regression test for #9023: accessing the reverse relationship shouldn't result…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 529](Community_529.md) (14 shared connections)
-- [Community 629](Community_629.md) (9 shared connections)
-- [Community 947](Community_947.md) (2 shared connections)
-- [Community 948](Community_948.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 1042](Community_1042.md) (1 shared connections)
+- [Community 549](Community_549.md) (14 shared connections)
+- [Community 656](Community_656.md) (9 shared connections)
+- [Community 1089](Community_1089.md) (2 shared connections)
+- [Community 1055](Community_1055.md) (2 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 1159](Community_1159.md) (1 shared connections)
+- [Community 1160](Community_1160.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,8 +47,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 44 (75%)
-- INFERRED: 15 (25%)
+- EXTRACTED: 43 (74%)
+- INFERRED: 15 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

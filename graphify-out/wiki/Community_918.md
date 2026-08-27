@@ -1,29 +1,29 @@
 # Community 918
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **SplitHiddenDateTimeWidgetTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- **to_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormsetError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a form used to render the response has a specific field error.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Put value into a list if it's not already one. Return an empty list if value is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a formset used to render the response has a specific error. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (78%)
-- INFERRED: 2 (22%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

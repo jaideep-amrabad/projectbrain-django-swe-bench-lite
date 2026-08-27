@@ -1,44 +1,41 @@
 # Community 647
 
-> 14 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **GistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_gist_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_gist_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.test_deconstruction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.get_with_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.test_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **DateFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **GetDate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_date_changed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_label_association()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_invalid_date_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_strptime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **field.strptime() doesn't raise a UnicodeEncodeError (#16123)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **DateField.has_changed() with SelectDateWidget works with a localized date…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Relationships
 
-- [Community 106](Community_106.md) (6 shared connections)
-- [Community 672](Community_672.md) (4 shared connections)
-- [Community 670](Community_670.md) (3 shared connections)
-- [Community 763](Community_763.md) (1 shared connections)
-- [Community 785](Community_785.md) (1 shared connections)
-- [Community 825](Community_825.md) (1 shared connections)
-- [Community 820](Community_820.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,54 @@
 # Community 307
 
-> 103 nodes · cohesion 0.03
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **CustomManagerTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **custom_managers/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **custom_managers/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **CustomManagersRegressTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **CustomQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Book** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **TestCars** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **DeconstructibleCustomManager** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FastCarAsBase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FastCarAsDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FunPerson** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **BaseCustomManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **OneToOneRestrictedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PersonFromAbstract** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PersonManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PublishedBookManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RelatedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RestrictedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **AbstractPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **AnnotatedBookManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- *... and 78 more nodes in this community*
+- **IntrospectionTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **ArticleReporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **CheckConstraintModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **District** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.test_get_constraints_indexes_orders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations_alt_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_bigautofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_smallautofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_table_names_with_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names_retval_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_index_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_primary_key_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (6 shared connections)
-- [Community 687](Community_687.md) (5 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 719](Community_719.md) (1 shared connections)
+- [Community 18](Community_18.md) (7 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 147 (89%)
-- INFERRED: 19 (11%)
+- EXTRACTED: 62 (87%)
+- INFERRED: 9 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

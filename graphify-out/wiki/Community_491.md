@@ -1,54 +1,46 @@
 # Community 491
 
-> 82 nodes · cohesion 0.03
+> 22 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Operation** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **TestOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **RunSQL** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **operations/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **TestOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **custom_migration_operations/operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **more_operations.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **ArgsKwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ExpandArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **KwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **._run_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- *... and 57 more nodes in this community*
+- **LocalizedTimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **CustomTimeInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **SimpleTimeFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **TimeFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **TimeFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized TimeFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized TimeFields act as unlocalized widgets** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized TimeFields in a non-localized environment act as unlocalized widgets** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (11 shared connections)
-- [Community 474](Community_474.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 194](Community_194.md) (2 shared connections)
-- [Community 99](Community_99.md) (2 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
 
 ## Audit Trail
 
-- EXTRACTED: 118 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

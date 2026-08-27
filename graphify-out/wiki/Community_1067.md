@@ -1,24 +1,25 @@
 # Community 1067
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_inheritance27()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from a template that doesn't have any blocks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **ViewContainer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **method_view_urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.classmethod_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.method_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Relationships
 
-- [Community 741](Community_741.md) (1 shared connections)
-- [Community 772](Community_772.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

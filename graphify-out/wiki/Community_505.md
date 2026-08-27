@@ -1,44 +1,58 @@
 # Community 505
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **BashCompletionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **._run_autocomplete()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **._user_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_app_completion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_completed_subcommand()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_custom_command()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_django_admin_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_manage_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_subcommands()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Testing the Python level bash completion code. This requires setting up the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Set the environment and the list of command line arguments. This sets the bash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **django_admin.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **manage.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **A custom command can autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Subcommands can be autocompleted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Show option flags in case a subcommand is completed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **No errors, just an empty list if there are no autocomplete options** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Application names will be autocompleted for an AppCommand** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **LiveServerTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **classproperty** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **SeleniumTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.Migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
+- **test_liveserverthread.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **LiveServerThreadTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **._create_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.disable_implicit_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **Lazy load to avoid AppRegistryNotReady if installed apps import…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
+- **Disable the default implicit wait.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **._tearDownClassInternal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **Do basically the same as TransactionTestCase but also launch a live HTTP server…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Decorator that converts a method with a single cls argument into a property…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Relationships
 
-- [Community 104](Community_104.md) (2 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 409](Community_409.md) (4 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 724](Community_724.md) (3 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 62 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

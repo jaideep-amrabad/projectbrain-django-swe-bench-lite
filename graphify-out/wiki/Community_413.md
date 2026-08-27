@@ -1,65 +1,51 @@
 # Community 413
 
-> 27 nodes · cohesion 0.13
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **test/signals.py** (53 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **receiver()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **django/dispatch/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
-- **reset_format_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **root_urlconf_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **close_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **clear_cache_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **clear_routers_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **localize_settings_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **reset_template_engines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **user_model_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **reset_hashers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **auth_password_validators_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **clear_serializers_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **complex_setting_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **file_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **language_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **static_finders_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **static_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **update_connections_time_zone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **update_installed_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **.test_receiver_signal_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_receiver_single_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **A decorator for connecting receivers to signals. Used by passing in the signal…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- *... and 2 more nodes in this community*
+- **RedirectViewTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Default is a temporary redirect** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_default_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_include_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_include_urlencoded_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_named_url_pattern()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_no_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_parameter_substitution()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_permanent_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_redirect_DELETE()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_redirect_HEAD()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_redirect_OPTIONS()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_redirect_PATCH()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_redirect_POST()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_redirect_PUT()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_redirect_when_meta_contains_no_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_temporary_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Without any configuration, returns HTTP 410 GONE** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Permanent redirects are an option** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Temporary redirects are an option** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **GET arguments can be included in the redirected URL** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **GET arguments can be URL-encoded when included in the redirected URL** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Redirection URLs can be parameterized** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Named pattern parameter should reverse to the matching pattern** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 489](Community_489.md) (7 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 40](Community_40.md) (6 shared connections)
-- [Community 305](Community_305.md) (4 shared connections)
-- [Community 228](Community_228.md) (3 shared connections)
-- [Community 394](Community_394.md) (3 shared connections)
-- [Community 540](Community_540.md) (3 shared connections)
-- [Community 365](Community_365.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 748](Community_748.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

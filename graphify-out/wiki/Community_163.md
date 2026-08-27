@@ -1,78 +1,57 @@
 # Community 163
 
-> 127 nodes · cohesion 0.03
+> 61 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **django/urls/__init__.py** (218 connections) — `raw/code/hyd-evaluation/django-django/django/urls/__init__.py`
-- **urlpatterns_reverse/tests.py** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **include()** (46 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
-- **urlpatterns_reverse/views.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
-- **urls/i18n.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
-- **empty_view()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
-- **i18n_patterns()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
-- **view_tests/urls.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/urls.py`
-- **user_passes_test()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- **LocalePrefixPattern** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **IncludeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **ReverseShortcutTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **URLObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/utils.py`
-- **patterns/urls/default.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/default.py`
-- **i18n/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/urls.py`
-- **urlpatterns_reverse/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/__init__.py`
-- **ErrorHandlerResolutionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **ReverseLazyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **urlpatterns_reverse/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls.py`
-- **urlpatterns_reverse/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/utils.py`
-- **conf/urls/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/__init__.py`
-- **wrong_namespace.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/wrong_namespace.py`
-- **urls_default_unprefixed.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/urls_default_unprefixed.py`
-- **test_client_regress/urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/urls.py`
-- *... and 102 more nodes in this community*
+- **model_meta/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **model_meta/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **OptionsBaseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **RelationTreeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **AbstractPerson** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **GetFieldByNameTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Person** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **BasePerson** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **results.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/results.py`
+- **ProxyPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **ParentListTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **RelatedObjectsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._details()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **CommonAncestor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **FirstParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **Relation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **SecondParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **DataTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Relating** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **GetFieldsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **LabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **M2MTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **PropertyNamesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 245](Community_245.md) (44 shared connections)
-- [Community 32](Community_32.md) (22 shared connections)
-- [Community 68](Community_68.md) (19 shared connections)
-- [Community 548](Community_548.md) (18 shared connections)
-- [Community 204](Community_204.md) (16 shared connections)
-- [Community 40](Community_40.md) (15 shared connections)
-- [Community 122](Community_122.md) (14 shared connections)
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 258](Community_258.md) (9 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 9](Community_9.md) (7 shared connections)
-- [Community 54](Community_54.md) (6 shared connections)
+- [Community 125](Community_125.md) (12 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 192](Community_192.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/urls/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/beginning_with_slash.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_contains_tuple.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_with_dollar.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/name_with_colon.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/no_warnings.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/no_warnings_i18n.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/non_unique_namespaces.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/path_compatibility/beginning_with_caret.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/path_compatibility/contains_re_named_group.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/results.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 554 (98%)
-- INFERRED: 11 (2%)
+- EXTRACTED: 131 (85%)
+- INFERRED: 24 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

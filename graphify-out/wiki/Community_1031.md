@@ -1,23 +1,25 @@
 # Community 1031
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_through_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **Relations with intermediary tables with multiple FKs to the M2M's ``to`` model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **._new_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Create a new instance of this class when new Nodes (or subclasses) are needed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Combine this tree and the data represented by data using the connector…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
 
 ## Relationships
 
-- [Community 282](Community_282.md) (1 shared connections)
+- [Community 331](Community_331.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

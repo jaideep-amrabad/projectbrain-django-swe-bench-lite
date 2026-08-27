@@ -1,40 +1,49 @@
 # Community 582
 
-> 17 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TestFormField** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_redisplay_wrong_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_custom_widget_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_custom_widget_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **When displaying a bound form (typically due to invalid input), the form should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **The default widget of a JSONField is a Textarea.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **The widget can be overridden with a kwarg.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **The widget can be overridden with an attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_already_converted_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_formfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_valid_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **DjangoAdminDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminNoSettings** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_commands_with_invalid_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for django-admin.py when using a settings.py file that…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **no settings: django-admin builtin commands fail if settings file (from…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: django-admin builtin commands succeed if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: django-admin can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for django-admin.py when there is no settings.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **no settings: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Commands that don't require settings succeed if the settings file doesn't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: django-admin builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: django-admin builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: django-admin can't execute user commands if it isn't provided settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 100](Community_100.md) (2 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 231](Community_231.md) (25 shared connections)
+- [Community 84](Community_84.md) (13 shared connections)
+- [Community 333](Community_333.md) (4 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 69 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

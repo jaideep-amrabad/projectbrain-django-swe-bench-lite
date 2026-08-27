@@ -1,63 +1,57 @@
 # Community 128
 
-> 59 nodes · cohesion 0.05
+> 70 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **contenttypes_tests/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **contenttypes_tests/test_models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **contenttypes_tests/test_fields.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **ContentTypesViewsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **Post** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **ContentTypesViewsSiteRelTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **Answer** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **test_order_with_respect_to.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- **GenericForeignKeyTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **Author** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **Question** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **OrderWithRespectToGFKTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- **ProxyModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **SchemeIncludedURL** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **Site** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **GenericRelationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **ContentTypesMultidbTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **ModelWithM2MToSite** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **TestRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_shortcut_view_with_null_site_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **.test_shortcut_view_with_site_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- *... and 34 more nodes in this community*
+- **model_fields/test_imagefield.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTwoDimensionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **skipIf** (7 connections)
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonDimensionsFirst** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ImageFieldDimensionsFirstTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldNoDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldOneDimensionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldUsingFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **PersonTwoImages** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_field_save_and_delete_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_image_after_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (13 shared connections)
-- [Community 122](Community_122.md) (12 shared connections)
-- [Community 687](Community_687.md) (9 shared connections)
-- [Community 549](Community_549.md) (5 shared connections)
-- [Community 87](Community_87.md) (4 shared connections)
-- [Community 589](Community_589.md) (4 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 398](Community_398.md) (3 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
+- [Community 227](Community_227.md) (7 shared connections)
+- [Community 806](Community_806.md) (5 shared connections)
+- [Community 698](Community_698.md) (4 shared connections)
+- [Community 409](Community_409.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 629](Community_629.md) (1 shared connections)
+- [Community 547](Community_547.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (85%)
-- INFERRED: 23 (15%)
+- EXTRACTED: 120 (91%)
+- INFERRED: 12 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

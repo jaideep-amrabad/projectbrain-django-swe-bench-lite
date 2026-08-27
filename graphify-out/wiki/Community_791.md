@@ -1,34 +1,32 @@
 # Community 791
 
-> 9 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **SlugPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **test_empty_join.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **RestrictedConditionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.test_restrictions_with_no_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **It's possible to create a working related field that doesn't use any joining…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.test_empty_join_conditions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **pluralize()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_decimals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_floats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_integers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_lists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_no_len_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_suffixes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_value_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **Return a plural suffix if the value is not 1, '1', or an object of length 1. By…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 602](Community_602.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

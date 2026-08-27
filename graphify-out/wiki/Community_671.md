@@ -1,38 +1,40 @@
 # Community 671
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **UserListA** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **test_mutable_list.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **mutable_list.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **UserListB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **ListMixinTestSingle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **nextRange()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._get_single_external()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._set_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._set_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **RegexField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **RegexFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._set_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_change_regex_after_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_get_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_unicode_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **regex can be either a string or a compiled regular expression object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._get_regex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Relationships
 
-- [Community 400](Community_400.md) (3 shared connections)
-- [Community 524](Community_524.md) (3 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (67%)
+- INFERRED: 9 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

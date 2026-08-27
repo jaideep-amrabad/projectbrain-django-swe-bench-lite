@@ -1,44 +1,45 @@
 # Community 475
 
-> 14 nodes · cohesion 0.14
+> 23 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ASGIRequest** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.COOKIES()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.GET()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **Construct a generic request object.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._get_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **._get_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **._get_scheme()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **._set_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **Custom request subclass that decodes from an ASGI-standard request dict and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **The base environment for a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **CacheTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **setup** (15 connections)
+- **.test_cache08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_none_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **Regression test for #11270.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **Test whitespace in filter arguments** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **A timeout of None means "cache forever".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **Allow first argument to be a variable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **Regression test for #7460.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 
 ## Relationships
 
-- [Community 28](Community_28.md) (7 shared connections)
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 244](Community_244.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 557](Community_557.md) (1 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

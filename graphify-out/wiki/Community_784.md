@@ -1,33 +1,33 @@
 # Community 784
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **SpatialProxy** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- **Initialize on the given Geometry or Raster class (not an instance) and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- **Retrieve the geometry or raster, initializing it using the corresponding class…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- **Retrieve the proxied geometry or raster with the corresponding class specified…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__or__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__rand__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__ror__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 
 ## Relationships
 
-- [Community 108](Community_108.md) (5 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
+- [Community 76](Community_76.md) (3 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
+- [Community 124](Community_124.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

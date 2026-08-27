@@ -1,37 +1,38 @@
 # Community 759
 
-> 10 nodes · cohesion 0.24
+> 15 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **person.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **.test_batch_create_foreign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **BaseIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **NamedValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **FlatValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.create_namedtuple_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=False) that yields a tuple for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(named=True) that yields a namedtuple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=True) that yields single values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values() that yields a dict for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 602](Community_602.md) (10 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 460](Community_460.md) (1 shared connections)
+- [Community 26](Community_26.md) (5 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

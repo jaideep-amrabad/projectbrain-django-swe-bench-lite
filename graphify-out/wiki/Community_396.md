@@ -1,52 +1,61 @@
 # Community 396
 
-> 29 nodes · cohesion 0.07
+> 27 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ManyToOneTests** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_remove_set_by_pk_raises()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_then_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_cached_foreign_key_with_to_field_not_cleared_by_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_clear_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_create_relation_with_gettext_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_deepcopy_and_circular_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_explicit_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_instantiation_outside_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_smallautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_manager_class_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_multiple_foreignkeys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_assignment_deprecation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_foreign_key_instance_to_field_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_selects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- *... and 4 more nodes in this community*
+- **mail/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **send_mass_mail()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **SMTPBackendStoppedServerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTPBackendTestsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **FakeAUTHSMTPConnection** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **FakeSMTPChannel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **mail/backends/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
+- **Given a datatuple of (subject, message, from_email, recipient_list), send each…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **.ehlo()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.collect_incoming_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.smtp_AUTH()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **requires_tz_support** (1 connections)
+- **A SMTP connection pretending support for the AUTH command. It does not, but at…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **These tests require a separate class, because the FakeSMTPServer is shut down…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 525](Community_525.md) (11 shared connections)
-- [Community 827](Community_827.md) (8 shared connections)
-- [Community 794](Community_794.md) (6 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 1032](Community_1032.md) (1 shared connections)
+- [Community 180](Community_180.md) (6 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 123](Community_123.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 318](Community_318.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 453](Community_453.md) (4 shared connections)
+- [Community 305](Community_305.md) (3 shared connections)
+- [Community 698](Community_698.md) (2 shared connections)
+- [Community 644](Community_644.md) (2 shared connections)
+- [Community 437](Community_437.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (71%)
-- INFERRED: 16 (29%)
+- EXTRACTED: 72 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

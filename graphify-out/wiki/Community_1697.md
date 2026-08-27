@@ -1,24 +1,22 @@
 # Community 1697
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_max_num_zero()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If max_num is 0 then no form is rendered at all, regardless of extra, unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **wsgi/wsgi.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
 
 ## Relationships
 
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 1137](Community_1137.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

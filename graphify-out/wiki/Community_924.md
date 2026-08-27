@@ -1,26 +1,30 @@
 # Community 924
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.index()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.remove()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list index method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list remove method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **MarkupField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 
 ## Relationships
 
-- [Community 400](Community_400.md) (2 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

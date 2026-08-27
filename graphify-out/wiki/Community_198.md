@@ -1,59 +1,53 @@
 # Community 198
 
-> 44 nodes · cohesion 0.10
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **WriterTests** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.assertSerializedEqual()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.assertSerializedResultEqual()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize_round_trip()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_numbers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_enums()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_functions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **Money** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.assertSerializedFieldEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_builtin_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_compiled_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_empty_nonempty_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_frozensets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_lazy_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_multiline_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_unbound_method_reference()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- *... and 19 more nodes in this community*
+- **Envelope** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **EnvelopeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **test_envelope.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.__eq__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.expand_to_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **._from_sequence()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.envelope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test02_properties()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test03_equivalence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test07_expand_to_include_envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test08_expand_to_include_point()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **TestPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.ll()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.max_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.max_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.min_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.min_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.ur()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.wkt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **Return the value of the maximum X coordinate.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 416](Community_416.md) (12 shared connections)
-- [Community 99](Community_99.md) (5 shared connections)
-- [Community 211](Community_211.md) (3 shared connections)
-- [Community 339](Community_339.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 194](Community_194.md) (2 shared connections)
-- [Community 921](Community_921.md) (2 shared connections)
-- [Community 572](Community_572.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 530](Community_530.md) (1 shared connections)
-- [Community 742](Community_742.md) (1 shared connections)
+- [Community 43](Community_43.md) (12 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 164](Community_164.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 73 (92%)
+- INFERRED: 6 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

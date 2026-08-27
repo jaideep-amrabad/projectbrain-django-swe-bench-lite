@@ -1,36 +1,35 @@
 # Community 723
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **RedirectTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_not_found_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_shortcircuits_non_404_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_with_append_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_with_append_slash_and_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_response_gone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **Exercise the second Redirect.DoesNotExist branch in RedirectFallbackMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **RedirectFallbackMiddleware short-circuits on non-404 requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **When the redirect target is '', return a 410** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **XMLEqualTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_comment_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_doctype_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_processing_instruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_with_leading_or_trailing_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_with_whitespace_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 122](Community_122.md) (2 shared connections)
-- [Community 442](Community_442.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 335](Community_335.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

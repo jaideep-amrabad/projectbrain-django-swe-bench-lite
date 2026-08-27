@@ -1,28 +1,32 @@
 # Community 896
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **.db_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_returning_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Private API intended only to be used by Django itself. Currently only the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Private API intended only to be used by Django itself. Fields to be returned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **MIMEText** (6 connections)
+- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 148](Community_148.md) (1 shared connections)
+- [Community 318](Community_318.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 396](Community_396.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 8 (62%)
+- INFERRED: 5 (38%)
 - AMBIGUOUS: 0 (0%)
 
 ---

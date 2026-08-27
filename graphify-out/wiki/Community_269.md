@@ -1,67 +1,56 @@
 # Community 269
 
-> 43 nodes · cohesion 0.07
+> 39 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **gis/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/__init__.py`
-- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **kml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **geoadmin/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **GeoAdminTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **geoapp/urls.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
-- **geoapp/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
-- **TestGeoRSS2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **gis/sitemaps/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
-- **geoadmin/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
-- **City** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
-- **KMZSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **geoadmin/admin.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
-- **._build_kml_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **UnmodifiableAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
-- **.test_olwidget_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **TestGeoAtom2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **.location()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **.test_olmap_OSM_rendering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **.test_olmap_WMS_rendering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **TestGeoAtom1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- *... and 18 more nodes in this community*
+- **.add_fields()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_initial_alias()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.setup_joins()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_meta()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.resolve_ref()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.combine()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.join()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.deferred_to_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.trim_joins()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.unref_alias()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.trim_start()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_immediate_loading()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.ref_alias()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_select()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **add_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **is_reverse_o2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **._get_col()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_loaded_field_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.join_parent_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.reset_refcounts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.table_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Compute the necessary table joins for the passage through the fields given in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **The 'target' parameter is the final field being joined to, 'joins' is the full…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add the given (model) fields to the select set. Add the field names in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add the given list of model field names to the set of fields to retrieve when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 65](Community_65.md) (7 shared connections)
-- [Community 27](Community_27.md) (6 shared connections)
-- [Community 108](Community_108.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 548](Community_548.md) (4 shared connections)
-- [Community 25](Community_25.md) (4 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
+- [Community 66](Community_66.md) (20 shared connections)
+- [Community 573](Community_573.md) (6 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 862](Community_862.md) (3 shared connections)
+- [Community 80](Community_80.md) (3 shared connections)
+- [Community 690](Community_690.md) (2 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
+- [Community 904](Community_904.md) (1 shared connections)
+- [Community 124](Community_124.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 88 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

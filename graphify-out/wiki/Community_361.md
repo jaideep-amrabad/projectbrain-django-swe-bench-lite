@@ -1,55 +1,61 @@
 # Community 361
 
-> 32 nodes · cohesion 0.12
+> 56 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **M2MRegressionTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **m2m_regress/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **m2m_regress/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **RegressionModelSplit** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfRefer** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfReferChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfReferChildSibling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **TagCollection** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **BadModelWithSplit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Entry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Line** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Worksheet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.test_m2m_inheritance_symmetry()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.test_m2m_abstract_split()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.test_m2m_pk_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.split()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Model with a split method should not cause an error in add_lazy_relation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- *... and 7 more nodes in this community*
+- **db/transaction.py** (69 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **cache/backends/db.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **DatabaseCache** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **createcachetable.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- **BaseDatabaseCache** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **._base_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- **.create_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- **._base_delete_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **Options** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **._cull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.get_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **set_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **set_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 4](Community_4.md) (11 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 591](Community_591.md) (3 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 323](Community_323.md) (3 shared connections)
+- [Community 265](Community_265.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (85%)
-- INFERRED: 10 (15%)
+- EXTRACTED: 158 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

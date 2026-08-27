@@ -1,67 +1,59 @@
 # Community 118
 
-> 135 nodes · cohesion 0.03
+> 43 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ModelAdmin** (153 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **HttpResponseRedirect** (60 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **TemplateResponse** (44 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.changeform_view()** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.changelist_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **unquote()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.delete_view()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.response_add()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **add_preserved_filters()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
-- **.get_form()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.has_change_permission()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_preserved_filters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.response_change()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.render_change_form()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.history_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.response_delete()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.user_change_password()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- **.get_actions()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **._get_obj_does_not_exist_redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.has_view_or_change_permission()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.has_add_permission()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.message_user()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.response_action()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **._response_post_save()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- *... and 110 more nodes in this community*
+- **WriterTests** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.assertSerializedEqual()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.assertSerializedResultEqual()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize_round_trip()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_numbers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_enums()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_functions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.assertSerializedFieldEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_builtin_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_compiled_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_empty_nonempty_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_frozensets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_lazy_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_multiline_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_unbound_method_reference()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (44 shared connections)
-- [Community 55](Community_55.md) (25 shared connections)
-- [Community 43](Community_43.md) (19 shared connections)
-- [Community 69](Community_69.md) (18 shared connections)
-- [Community 548](Community_548.md) (16 shared connections)
-- [Community 122](Community_122.md) (11 shared connections)
-- [Community 15](Community_15.md) (8 shared connections)
-- [Community 203](Community_203.md) (7 shared connections)
-- [Community 32](Community_32.md) (7 shared connections)
-- [Community 127](Community_127.md) (6 shared connections)
-- [Community 116](Community_116.md) (6 shared connections)
-- [Community 471](Community_471.md) (6 shared connections)
+- [Community 519](Community_519.md) (15 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 561](Community_561.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 165](Community_165.md) (2 shared connections)
+- [Community 1003](Community_1003.md) (2 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
+- [Community 1041](Community_1041.md) (1 shared connections)
+- [Community 415](Community_415.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests_custom_error_handlers.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 478 (90%)
-- INFERRED: 54 (10%)
+- EXTRACTED: 121 (95%)
+- INFERRED: 7 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

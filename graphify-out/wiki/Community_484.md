@@ -1,56 +1,52 @@
 # Community 484
 
-> 37 nodes · cohesion 0.06
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **CaseInsensitiveMapping** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **DictWrapper** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **MultiValueDictKeyError** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_dictwrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **_destruct_iterable_mapping_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **dict** (2 connections)
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Mapping** (1 connections)
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **KeyError** (1 connections)
-- **Wrap accesses to a dictionary so that certain values (those starting with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- *... and 12 more nodes in this community*
+- **JSONField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **KeyTransformFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **._check_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.from_db_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.select_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **Field** (1 connections)
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 188](Community_188.md) (6 shared connections)
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 437](Community_437.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 649](Community_649.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 425](Community_425.md) (1 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 483](Community_483.md) (4 shared connections)
+- [Community 563](Community_563.md) (3 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 460](Community_460.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 40 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

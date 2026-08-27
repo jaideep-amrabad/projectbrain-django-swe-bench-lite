@@ -1,61 +1,48 @@
 # Community 490
 
-> 26 nodes · cohesion 0.10
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **modelform_factory()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **FormFieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_empty_fields_to_construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_baseform_with_widgets_in_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_callback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_factory_with_widget_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_factory_with_all_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_setattr_raises_validation_error_field_specific()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_setattr_raises_validation_error_non_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_editable_generic_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **.test_modelform_factory_metaclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_bad_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherit_after_custom_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_extra_field_modelform_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_blank_null_unique_charfield_saves_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #19733** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Return a ModelForm containing form fields for the given model. You can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **No fields should be set on a model instance if construct_instance receives…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #13095: Using base forms with widgets defined in Meta should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #15315: modelform_factory should accept widgets argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A custom formfield_callback is used if provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A model ValidationError using the dict form should put the error message into…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 1 more nodes in this community*
+- **DistanceTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **AreaTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_access_invalid_a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_init_invalid_a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_multiplication()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_unit_conversions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_units_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_access_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_init_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_multiplication()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_unit_att_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_unit_conversions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_units_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **Testing default units during maths** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **Testing conversion to strings** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **Testing initialization from invalid units** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **Testing access in different units** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **Testing access in invalid units** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **Test addition & subtraction** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **Test multiplication & division** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_comparisons()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 130](Community_130.md) (8 shared connections)
-- [Community 216](Community_216.md) (3 shared connections)
-- [Community 289](Community_289.md) (3 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 118](Community_118.md) (2 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 229](Community_229.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
+- [Community 25](Community_25.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 39 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

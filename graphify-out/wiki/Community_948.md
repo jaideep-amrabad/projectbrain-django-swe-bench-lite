@@ -1,29 +1,35 @@
 # Community 948
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Regression test for #6886 (the related-object cache)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **ISO-8601 week number of year, weeks starting on Monday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **The backend doesn't store an unlimited number of queries (#12581).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 529](Community_529.md) (2 shared connections)
-- [Community 375](Community_375.md) (2 shared connections)
-- [Community 629](Community_629.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
+- [Community 325](Community_325.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 425](Community_425.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

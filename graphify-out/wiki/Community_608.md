@@ -1,41 +1,44 @@
 # Community 608
 
-> 16 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **null_fk_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **null_fk_ordering/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **NullFkOrderingTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Comment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **.test_ordering_across_null_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Regression tests for proper working of ForeignKey(null=True). Tests these bugs:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Regression test for #7512 ordering across nullable Foreign Keys shouldn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_bug_17944_empty_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_17944_unknown_password_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_17944_unmanageable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_19349_bound_password_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_validity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **The change form does not return the password value** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_14242()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_excluded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 478](Community_478.md) (1 shared connections)
+- [Community 754](Community_754.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 755](Community_755.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (82%)
-- INFERRED: 6 (18%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

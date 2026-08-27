@@ -1,78 +1,78 @@
 # Community 9
 
-> 266 nodes · cohesion 0.01
+> 349 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **override_settings** (1295 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SMTPBackendTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **check_url_config()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckUrlConfigTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **MiddlewareTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **MiddlewareSyncAsyncTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **check_url_namespaces_unique()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **RequestURLconfTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **AsyncMiddlewareTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **SelectingBackendTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **CheckSecretKeyTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **DefaultLoggingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **MiddlewareNotUsedTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **.process_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **SecureProxySslHeaderTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **CheckReferrerPolicyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **CheckCustomErrorHandlersTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **DebugContextProcessorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **UpdatedToPathTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **LocaleMiddlewareTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **AsyncClientTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_urlconf_is_reset_after_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **I18nSeleniumTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.assertBackendInSession()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **CreateCacheTableForDBCacheTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 241 more nodes in this community*
+- **GEOSGeometry** (117 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Point** (113 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **GEOSTest** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **fromstr()** (59 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/factory.py`
+- **LineString** (59 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **Polygon** (58 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
+- **collections.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **geos/__init__.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/__init__.py`
+- **geos/geometry.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **GEOSException** (31 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/error.py`
+- **GeometryCollection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **LinearRing** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **test_geos.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **test_geos_mutation.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **gis_migrations/test_operations.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **MultiPoint** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **WKBWriter** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **gis/forms/widgets.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **linestring.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **gis/shortcuts.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
+- **MultiPolygon** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **MultiLineString** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **gis/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/__init__.py`
+- **f()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **geos/coordseq.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- *... and 324 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (91 shared connections)
-- [Community 5](Community_5.md) (53 shared connections)
-- [Community 137](Community_137.md) (32 shared connections)
-- [Community 152](Community_152.md) (30 shared connections)
-- [Community 14](Community_14.md) (29 shared connections)
-- [Community 0](Community_0.md) (24 shared connections)
-- [Community 28](Community_28.md) (24 shared connections)
-- [Community 21](Community_21.md) (23 shared connections)
-- [Community 71](Community_71.md) (23 shared connections)
-- [Community 48](Community_48.md) (23 shared connections)
-- [Community 40](Community_40.md) (21 shared connections)
-- [Community 120](Community_120.md) (19 shared connections)
+- [Community 51](Community_51.md) (51 shared connections)
+- [Community 67](Community_67.md) (43 shared connections)
+- [Community 33](Community_33.md) (37 shared connections)
+- [Community 25](Community_25.md) (31 shared connections)
+- [Community 18](Community_18.md) (28 shared connections)
+- [Community 70](Community_70.md) (23 shared connections)
+- [Community 3](Community_3.md) (22 shared connections)
+- [Community 47](Community_47.md) (18 shared connections)
+- [Community 43](Community_43.md) (14 shared connections)
+- [Community 303](Community_303.md) (11 shared connections)
+- [Community 159](Community_159.md) (11 shared connections)
+- [Community 26](Community_26.md) (11 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_templatetags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/error.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/factory.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/io.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1642 (100%)
-- INFERRED: 8 (0%)
+- EXTRACTED: 1088 (95%)
+- INFERRED: 53 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

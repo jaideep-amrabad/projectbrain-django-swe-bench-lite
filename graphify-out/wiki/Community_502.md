@@ -1,47 +1,52 @@
 # Community 502
 
-> 22 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.file_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.save_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.read_manifest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the non-hashed URL in DEBUG mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the custom URL converter for the given file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Post process the given dictionary of files (called from collectstatic).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return a hash of the file with the given name and optional content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Serializer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **Serializer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **geojson.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **JSONSerializer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **Convert a queryset to GeoJSON, http://geojson.org/** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **PythonSerializer** (1 connections)
+- **Convert a queryset to JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.loads()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Simple wrapper around json to be used in signing.dumps and signing.loads.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Relationships
 
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 118](Community_118.md) (3 shared connections)
-- [Community 300](Community_300.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
+- [Community 641](Community_641.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 34 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,51 @@
 # Community 196
 
-> 46 nodes · cohesion 0.07
+> 60 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **middleware_exceptions/middleware.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **async_only_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessExceptionExcMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessExceptionLogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessExceptionMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessViewMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessViewNoneMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessViewTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **SyncAndAsyncMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **TemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **.process_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- *... and 21 more nodes in this community*
+- **TestHashedFiles** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **hashed_file_path()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.assertPostCondition()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionManifestStorage** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestStaticFilePermissions** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionHashedFilesCache** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.setUp()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionSimpleStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestExtraPatternsStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_post_processing_failure()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_file_change_after_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_import_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_template_tag_absolute_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_multi_extension_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_css_import_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_import_replacement()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_path_ignored_completely()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_path_with_fragment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_path_with_querystring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_path_with_querystring_and_fragment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_post_processing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_template_tag_absolute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_template_tag_deep_relative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_template_tag_relative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_template_tag_simple_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 32](Community_32.md) (5 shared connections)
-- [Community 208](Community_208.md) (4 shared connections)
-- [Community 122](Community_122.md) (3 shared connections)
-- [Community 118](Community_118.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
+- [Community 6](Community_6.md) (9 shared connections)
+- [Community 698](Community_698.md) (7 shared connections)
+- [Community 45](Community_45.md) (6 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 516](Community_516.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 87 (99%)
+- EXTRACTED: 122 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

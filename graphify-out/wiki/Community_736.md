@@ -1,33 +1,35 @@
 # Community 736
 
-> 11 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **BaseSequenceSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FrozensetSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **SequenceSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **SetSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **TupleSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._format()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **TestReadOnlyChangeViewInlinePermissions** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_extra_inlines_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_get_to_change_url_is_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_delete_buttons_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_are_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_main_model_is_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_post_to_change_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_submit_line_shows_only_close_button()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 194](Community_194.md) (7 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

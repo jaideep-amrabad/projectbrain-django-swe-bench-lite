@@ -1,49 +1,51 @@
 # Community 526
 
-> 20 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **FieldFlagsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **test_field_flags.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **AllFieldsModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_all_field_types_should_have_flags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_m2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_o2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_o2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_a_concrete_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_a_has_rel_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_an_editable_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_object_should_have_auto_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_field_names_should_always_be_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_hidden_flag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_model_and_reverse_model_should_equal_on_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_non_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_non_editable_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **m2m_through/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **m2m_through/models.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **CustomMembership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Ingredient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Recipe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Invitation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **PersonSelfRefM2M** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **RecipeIngredient** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Relationship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **SymmetricalFriendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **TestNoDefaultsOrNulls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
 
 ## Relationships
 
-- [Community 687](Community_687.md) (4 shared connections)
-- [Community 291](Community_291.md) (2 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 254](Community_254.md) (7 shared connections)
+- [Community 803](Community_803.md) (6 shared connections)
+- [Community 1049](Community_1049.md) (4 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 591](Community_591.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 50 (78%)
+- INFERRED: 14 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

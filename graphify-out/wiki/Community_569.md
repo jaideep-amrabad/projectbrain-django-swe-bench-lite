@@ -1,52 +1,44 @@
 # Community 569
 
-> 17 nodes · cohesion 0.17
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **inspectapp/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **ogrinspect()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **OGRInspectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **inspectapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- **get_ogr_db_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **AllOGRFields** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- **.test_time_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_date_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_management_command()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_mapping_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_poly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_poly_multi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **Helper routine for `ogrinspect` that generates GeoDjango models corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **Given a data source (either a string or a DataSource object) and a string model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **Fields3D** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- **Construct the DB string that GDAL will use to inspect the database. GDAL will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **# TODO: Support Oracle (OCI).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **TemplateViewTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **._assert_about()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_generic_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_template_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_cached_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_login_required_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_name_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that simply renders a template on GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a TemplateView responds correctly to HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that renders a template on GET with the template name as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a completely generic view that renders a template on GET with the template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view must provide a template name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view can be cached** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_extra_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 145](Community_145.md) (5 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 139](Community_139.md) (2 shared connections)
-- [Community 442](Community_442.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 492](Community_492.md) (1 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 734](Community_734.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

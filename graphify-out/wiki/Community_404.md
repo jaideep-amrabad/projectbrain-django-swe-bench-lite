@@ -1,45 +1,61 @@
 # Community 404
 
-> 14 nodes · cohesion 0.20
+> 67 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **generic_urls.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
-- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **BaseArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **DateArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Regression tests for Django built-in views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **An abstract article Model so that we can create article models with and without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **An Article class with a get_absolute_url defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **An article Model with a DateField instead of DateTimeField, for testing #7602** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **ModelToValidate** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **validation/models.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **test_unique.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **BaseModelValidationTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **GenericIPAddressFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **GenericIPAddressTestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **GetUniqueCheckTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **PerformUniqueChecksTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **TestModelsWithValidators** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **FlexibleDatePost** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **GenericIPAddrUnpackUniqueTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueErrorsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_unique_for_date_with_nullable_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_invalid_generic_ip_raises_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_v4_unpack_uniqueness_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 122](Community_122.md) (4 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 640](Community_640.md) (1 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 116](Community_116.md) (1 shared connections)
-- [Community 286](Community_286.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 17](Community_17.md) (18 shared connections)
+- [Community 409](Community_409.md) (5 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 211](Community_211.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 152 (90%)
+- INFERRED: 16 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

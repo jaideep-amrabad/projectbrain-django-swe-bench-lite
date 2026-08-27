@@ -1,50 +1,54 @@
 # Community 309
 
-> 37 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **inclusion.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_tag** (24 connections)
-- **Expected inclusion_no_params __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **Expected inclusion_unlimited_args __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_explicit_no_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_no_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_no_params_with_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_one_default_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_one_param_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_only_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_only_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_params_and_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_tag_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_tag_without_context_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_two_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_two_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_unlimited_args_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- *... and 12 more nodes in this community*
+- **PrefetchRelatedTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.assertWhereContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_m2m_object_ids()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_reverse_fk_object_ids()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_reverse_one_to_one_object_ids()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_onetoone_reverse_with_to_field_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreign_key_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_forward_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_in_and_prefetch_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_one_to_one_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_invalid_final_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 149](Community_149.md) (1 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 482](Community_482.md) (4 shared connections)
+- [Community 110](Community_110.md) (3 shared connections)
+- [Community 322](Community_322.md) (3 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 904](Community_904.md) (1 shared connections)
+- [Community 338](Community_338.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 47 (85%)
+- INFERRED: 8 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

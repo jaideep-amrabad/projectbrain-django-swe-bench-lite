@@ -1,45 +1,67 @@
 # Community 561
 
-> 18 nodes · cohesion 0.16
+> 73 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **DefaultRelatedNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **test_default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **Store** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **EditorStore** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **BookStore** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Editor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_default_related_name_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_inheritance_with_overridden_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_model_name_not_available_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_no_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_related_name_overrides_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **migrations/test_state.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **migrations/test_operations.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **test_autodetector.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **migrations/test_base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Migration** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **OperationTestBase** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **migrations/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **FoodManager** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **migrations/test_multidb.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **test_optimizer.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **migration.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **FoodQuerySet** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **UnicodeModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **EmptyManager** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **SwappableOperationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **SwappableTuple** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.test_custom_manager_swappable()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **IrreversibleError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **NoMigrationFoodManager** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **UnserializableModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **swappable_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **DeconstructibleObject** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.unapply()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **ModelWithCustomBase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 40](Community_40.md) (21 shared connections)
+- [Community 23](Community_23.md) (19 shared connections)
+- [Community 4](Community_4.md) (18 shared connections)
+- [Community 3](Community_3.md) (14 shared connections)
+- [Community 26](Community_26.md) (12 shared connections)
+- [Community 14](Community_14.md) (9 shared connections)
+- [Community 22](Community_22.md) (9 shared connections)
+- [Community 115](Community_115.md) (8 shared connections)
+- [Community 16](Community_16.md) (8 shared connections)
+- [Community 12](Community_12.md) (7 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 794](Community_794.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 268 (89%)
+- INFERRED: 32 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

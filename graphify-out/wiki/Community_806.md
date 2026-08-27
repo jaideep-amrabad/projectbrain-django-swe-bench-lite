@@ -1,37 +1,37 @@
 # Community 806
 
-> 8 nodes · cohesion 0.32
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **SmallAutoField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SmallIntegerField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_alter_smallint_pk_to_smallautofield_pk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_autofield_pk_to_smallautofield_pk_sequence_owner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Converting an implicit PK to SmallAutoField(primary_key=True) should keep a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Should be able to rename an SmallIntegerField(primary_key=True) to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **ImageFile** (1 connections)
+- **File** (1 connections)
+- **A mixin for use alongside django.core.files.base.File, which provides…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **Return the (width, height) of an image, given an open file or a path. Set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Relationships
 
-- [Community 59](Community_59.md) (3 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 517](Community_517.md) (1 shared connections)
-- [Community 649](Community_649.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 128](Community_128.md) (5 shared connections)
+- [Community 698](Community_698.md) (4 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 562](Community_562.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (79%)
-- INFERRED: 4 (21%)
+- EXTRACTED: 19 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

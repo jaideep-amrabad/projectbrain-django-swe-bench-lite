@@ -1,72 +1,62 @@
 # Community 204
 
-> 73 nodes · cohesion 0.04
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **resolve()** (45 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **SimplifiedURLTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **urlpatterns/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **urlpatterns/views.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
-- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **ConversionExceptionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **urlpatterns/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
-- **LookaheadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **ResolverMatchTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **urlpatterns/converters.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **path_base64_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
-- **register_converter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **path_dynamic_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
-- **path_same_name_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_same_name_urls.py`
-- **ConverterTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **ParameterRestrictionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **SameNameTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **empty_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
-- **urlpatterns/included_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
-- **path_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
-- **converter_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
-- **Base64Converter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **more_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
-- **.test_404_tried_urls_have_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_non_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- *... and 48 more nodes in this community*
+- **extend_sys_path()** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TestIterModulesAndFiles** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **EggLoadingTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **TestSysPathDirectories** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_egg1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_multiple_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_paths_explicit_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_single_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_middleware_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
+- **.clear_autoreload_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_is_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_weakref_in_sys_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 163](Community_163.md) (16 shared connections)
-- [Community 15](Community_15.md) (12 shared connections)
-- [Community 9](Community_9.md) (10 shared connections)
-- [Community 245](Community_245.md) (8 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 195](Community_195.md) (4 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 286](Community_286.md) (2 shared connections)
-- [Community 523](Community_523.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 209](Community_209.md) (6 shared connections)
+- [Community 26](Community_26.md) (5 shared connections)
+- [Community 324](Community_324.md) (4 shared connections)
+- [Community 580](Community_580.md) (3 shared connections)
+- [Community 681](Community_681.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 300](Community_300.md) (1 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
+- [Community 698](Community_698.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_same_name_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 108 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

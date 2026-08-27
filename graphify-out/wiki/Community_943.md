@@ -1,27 +1,32 @@
 # Community 943
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **LocalizedModelFormTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_form_applies_localize_to_all_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_form_applies_localize_to_some_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_form_refuses_arbitrary_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **test_async_checks.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **check_async_unsafe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- **AsyncCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_allowed_async_unsafe_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_no_allowed_async_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **dict** (2 connections)
 
 ## Relationships
 
-- [Community 130](Community_130.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 158](Community_158.md) (1 shared connections)
+- [Community 698](Community_698.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

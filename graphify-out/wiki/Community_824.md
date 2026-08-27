@@ -1,31 +1,30 @@
 # Community 824
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **UnprefixedDefaultLanguageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_default_lang_without_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_no_redirect_on_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **With i18n_patterns(..., prefix_default_language=False), the default language…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **A request for a nonexistent URL shouldn't cause a redirect to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_other_lang_with_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_page_with_dash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unprefixed_language_other_than_accept_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **OutputWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **setter** (1 connections)
+- **Wrapper around stdout/stderr** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **TextIOBase** (1 connections)
 
 ## Relationships
 
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

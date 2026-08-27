@@ -1,40 +1,35 @@
 # Community 719
 
-> 12 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **TestManagerInheritance** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **CustomManager** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_deconstruct_from_queryset_failing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_base_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_default_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_implicit_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_manager_class_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_manager_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **MemberManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **skipUnless** (1 connections)
+- **ResetCycleTagTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **setup** (11 connections)
+- **.test_resetcycle01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
 
 ## Relationships
 
-- [Community 215](Community_215.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (71%)
-- INFERRED: 6 (29%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

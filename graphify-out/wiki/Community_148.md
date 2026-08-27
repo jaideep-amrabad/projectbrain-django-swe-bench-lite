@@ -1,60 +1,56 @@
 # Community 148
 
-> 62 nodes · cohesion 0.04
+> 65 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Options** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **make_immutable_fields_list()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.contribute_to_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._prepare()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **camel_case_to_spaces()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._expire_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_base_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_path_to_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._property_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.verbose_name_raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.add_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- *... and 37 more nodes in this community*
+- **ConditionalGetMiddleware** (32 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **GZipMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 59](Community_59.md) (8 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 229](Community_229.md) (1 shared connections)
-- [Community 627](Community_627.md) (1 shared connections)
-- [Community 896](Community_896.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 628](Community_628.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 27](Community_27.md) (6 shared connections)
+- [Community 119](Community_119.md) (5 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 149](Community_149.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 121 (85%)
+- INFERRED: 22 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

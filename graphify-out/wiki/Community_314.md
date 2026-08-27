@@ -1,56 +1,63 @@
 # Community 314
 
-> 37 nodes · cohesion 0.06
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DatabaseOperations** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **._convert_tznames_to_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **._quote_params_for_last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.convert_datetimefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.date_interval_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.datetime_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.format_for_duration_arithmetic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.get_decimalfield_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.quote_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.combine_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.convert_booleanfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.convert_uuidfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- *... and 12 more nodes in this community*
+- **urls/converters.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **urlpatterns/views.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **urlpatterns/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
+- **urlpatterns/converters.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **path_base64_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
+- **IntConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **register_converter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **StringConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **path_dynamic_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
+- **path_same_name_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_same_name_urls.py`
+- **get_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **urlpatterns/included_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
+- **path_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
+- **UUIDConverter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **converter_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
+- **Base64Converter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **more_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
+- **get_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **PathConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **SlugConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 271](Community_271.md) (5 shared connections)
-- [Community 157](Community_157.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 628](Community_628.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1](Community_1.md) (17 shared connections)
+- [Community 138](Community_138.md) (4 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 459](Community_459.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_same_name_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 70 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

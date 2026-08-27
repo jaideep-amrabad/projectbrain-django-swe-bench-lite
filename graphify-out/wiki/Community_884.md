@@ -1,29 +1,31 @@
 # Community 884
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **NullableTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_nullable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_nullable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **In-bulk does correctly prefetch objects by not using .iterator() directly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **AbsoluteUrlOverrideTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **._create_model_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **.test_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **.test_insert_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **.test_override_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **get_absolute_url() functions as a normal method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **ABSOLUTE_URL_OVERRIDES should override get_absolute_url().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **ABSOLUTE_URL_OVERRIDES should work even if the model doesn't have a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
 
 ## Relationships
 
-- [Community 103](Community_103.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

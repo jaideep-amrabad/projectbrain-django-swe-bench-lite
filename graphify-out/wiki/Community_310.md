@@ -1,48 +1,48 @@
 # Community 310
 
-> 21 nodes · cohesion 0.14
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **MultipleObjectMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.paginate_queryset()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_context_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_allow_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginate_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginate_orphans()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **A mixin for views manipulating multiple objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the name of the item to be used in the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the context for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the list of items for this view. The return value must be an iterable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the field or fields to use for ordering the queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Paginate the queryset, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the number of items to paginate by, or ``None`` for no pagination.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return an instance of the paginator for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the maximum number of orphans extend the last page by when paginating.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return ``True`` if the view should display empty lists and ``False`` if a 404…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **ForTagTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **setup** (32 connections)
+- **.test_for_tag_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_empty01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_empty02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_empty03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_filter_ws()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack_strs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_vars01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_vars02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 68](Community_68.md) (4 shared connections)
-- [Community 122](Community_122.md) (2 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 68 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

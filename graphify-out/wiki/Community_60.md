@@ -1,48 +1,48 @@
 # Community 60
 
-> 20 nodes · cohesion 0.14
+> 114 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **.setUpClass()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._databases_support_transactions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._fixture_teardown()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._rollback_atomics()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.tearDownClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._enter_atomics()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._fixture_setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._post_teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **LiveServerPort** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_specified_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **._should_reload_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._should_check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Open atomic blocks for multiple databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Rollback atomic blocks opened by the previous method.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Load initial data for the TestCase.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Perform post-test things: * Flush the contents of the database to leave a clean…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Each LiveServerTestCase binds to a unique port or fails to start a server…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerTestCase.port customizes the server's port.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **IfTagTests** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **setup** (114 connections)
+- **.test_else_if_tag_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag_and01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- *... and 89 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (10 shared connections)
-- [Community 247](Community_247.md) (6 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 279](Community_279.md) (2 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 452](Community_452.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 932](Community_932.md) (4 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (100%)
+- EXTRACTED: 230 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

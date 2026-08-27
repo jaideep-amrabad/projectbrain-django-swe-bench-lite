@@ -4,22 +4,21 @@
 
 ## Key Concepts
 
-- **TestModel1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_save_clears_annotations_from_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **Model.save() clears annotations from the base manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Relationships
 
-- [Community 102](Community_102.md) (1 shared connections)
-- [Community 199](Community_199.md) (1 shared connections)
+- [Community 565](Community_565.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (67%)
-- INFERRED: 1 (33%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

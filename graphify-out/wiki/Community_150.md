@@ -1,63 +1,61 @@
 # Community 150
 
-> 76 nodes · cohesion 0.03
+> 55 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AdminSeleniumTestCase** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **SelectTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- **Select** (20 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.wait_until()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **SelectMultiple** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.wait_page_loaded()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_page_ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_and_switch_to_popup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.use_required_attribute()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.deselect_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.select_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.use_required_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._choice_has_empty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_forms_with_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_choices_constructor_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- *... and 51 more nodes in this community*
+- **hashers.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **make_password()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **TestUtilsHashPass** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **check_password()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **base_user.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **get_hasher()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **is_password_usable()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **identify_hasher()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **test_hashers.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **PBKDF2PasswordHasher** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.test_bcrypt()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_crypt()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **TestUtilsHashPassArgon2** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **PBKDF2SHA1PasswordHasher** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **skipUnless** (6 connections)
+- **.test_bcrypt_sha256()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_bcrypt_upgrade()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_md5()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_sha1()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_unsalted_md5()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_unsalted_sha1()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **get_hashers()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.test_bcrypt_harden_runtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_no_upgrade_on_incorrect_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_pbkdf2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (6 shared connections)
-- [Community 405](Community_405.md) (4 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 161](Community_161.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 279](Community_279.md) (2 shared connections)
-- [Community 135](Community_135.md) (2 shared connections)
-- [Community 442](Community_442.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 926](Community_926.md) (1 shared connections)
+- [Community 101](Community_101.md) (17 shared connections)
+- [Community 6](Community_6.md) (13 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 8](Community_8.md) (8 shared connections)
+- [Community 56](Community_56.md) (8 shared connections)
+- [Community 631](Community_631.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 465](Community_465.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 899](Community_899.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 119 (88%)
-- INFERRED: 16 (12%)
+- EXTRACTED: 241 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

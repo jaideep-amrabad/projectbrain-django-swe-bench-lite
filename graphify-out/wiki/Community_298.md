@@ -1,66 +1,60 @@
 # Community 298
 
-> 40 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **sitemaps_tests/test_http.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **SitemapTestsBase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **TestModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **test_generic.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **GenericSitemap** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **GenericViewsSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **I18nTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **HTTPSDetectionSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **sitemaps_tests/test_management.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
-- **PingGoogleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
-- **FixedLastmodMixedSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.items()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **.test_generic_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_generic_sitemap_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_generic_sitemap_lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_sitemap_index_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **.test_sitemap_section_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **.test_secure_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- *... and 15 more nodes in this community*
+- **model_fields/test_uuid.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestAsPrimaryKey** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSaveLoad** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **PrimaryKeyUUIDModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestMethods** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **UUIDGrandchild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **UUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestAsPrimaryKeyTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **NullableUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **RelatedToUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **UUIDChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_unsaved_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_two_level_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_pk_on_bulk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_creation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_underlying_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_update_with_related_model_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_update_with_related_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_pk_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_to_python_int_too_large()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 9](Community_9.md) (8 shared connections)
-- [Community 609](Community_609.md) (5 shared connections)
-- [Community 33](Community_33.md) (5 shared connections)
-- [Community 71](Community_71.md) (4 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 442](Community_442.md) (3 shared connections)
-- [Community 242](Community_242.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
+- [Community 227](Community_227.md) (7 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 409](Community_409.md) (3 shared connections)
+- [Community 680](Community_680.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 591](Community_591.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 72 (88%)
+- INFERRED: 10 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,52 +1,38 @@
 # Community 429
 
-> 26 nodes · cohesion 0.08
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **FileBackendTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **LocmemBackendTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **ConsoleBackendTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_console_stream_kwarg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **FileBackendPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_file_sessions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_locmem_shared_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_validate_multiline_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Make sure that the locmen backend populates the outbox.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Make sure opening a connection creates a new file** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 1 more nodes in this community*
+- **MultipleLocaleActivationTransTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.get_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **TranslationTransTagTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_template_tags_pgettext()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_single_locale_activation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_multiple_locale_deactivate_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_multiple_locale_direct_switch_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_multiple_locale_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **MultipleLocaleActivationTranslateTagTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **TranslationTranslateTagTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **{% translate %} takes message contexts into account (#14806).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **Simple baseline behavior with one locale for all the supported i18n constructs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 
 ## Relationships
 
-- [Community 227](Community_227.md) (7 shared connections)
-- [Community 250](Community_250.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 123](Community_123.md) (2 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 498](Community_498.md) (5 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

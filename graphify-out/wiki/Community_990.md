@@ -1,24 +1,27 @@
 # Community 990
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **compress.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
-- **main()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- **ObjectDoesNotExistDetail** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **CustomMultipleObjectMixinView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 100](Community_100.md) (2 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

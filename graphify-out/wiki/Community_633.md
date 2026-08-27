@@ -1,38 +1,37 @@
 # Community 633
 
-> 15 nodes · cohesion 0.13
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **RequestMethodStringDataTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_empty_string_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method POST** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method PUT** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method PATCH** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with empty string data via request method GET/POST/HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_bytes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_charset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_multiple_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_structured_suffixes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_wrong_header()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **MessageMiddleware** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **messages_tests/test_middleware.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **.test_response_without_messages()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **MessageMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **MiddlewareTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **Update the storage backend (i.e., save the messages). Raise ValueError if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **Middleware that handles temporary messages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **MessageMiddleware is tolerant of messages not existing on request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 610](Community_610.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 21 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

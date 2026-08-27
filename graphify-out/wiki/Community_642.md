@@ -1,38 +1,51 @@
 # Community 642
 
-> 14 nodes · cohesion 0.16
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **._create_object_from_params()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.update_or_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.select_for_update()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._extract_model_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return a new QuerySet instance that will select objects with a FOR UPDATE lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Perform the query and return a single object matching the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Create a new object with the given kwargs, saving it to the database and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Look up an object with the given kwargs, creating one if necessary. Return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Look up an object with the given kwargs, updating one with defaults if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Try to create an object using passed params. Used by get_or_create() and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Prepare `params` for creating a model instance based on the given kwargs; for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **TemplateLiteral** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **TemplateIfParser** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.create_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.parse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_not()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_not_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 72](Community_72.md) (7 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 246](Community_246.md) (2 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 516](Community_516.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 65 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

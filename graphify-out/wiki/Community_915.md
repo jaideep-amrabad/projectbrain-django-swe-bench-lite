@@ -1,30 +1,36 @@
 # Community 915
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **NumpyTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
-- **.test_numpy_array_index01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
-- **.test_numpy_array_index02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
-- **setup** (2 connections)
-- **skipIf** (1 connections)
-- **Numpy's array-index syntax allows a template to access a certain item of a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
-- **Fail silently when the array index is out of range.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **CustomUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- **test_client_regress/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- **test_client_regress/auth_backends.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **CustomUserBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **.authenticate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **.get_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 389](Community_389.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,32 @@
 # Community 813
 
-> 7 nodes · cohesion 0.43
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **InvalidQueryTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **InvalidQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.assert_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_isinstance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_issubclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **Exception** (1 connections)
+- **FilterTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **setup** (8 connections)
+- **.test_filter01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter05bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter06bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
 
 ## Relationships
 
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

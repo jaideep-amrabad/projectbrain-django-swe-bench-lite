@@ -1,41 +1,44 @@
 # Community 556
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CheckboxInputTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_check_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_check_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_get_context_does_not_mutate_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict_string_int()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Using any value that's not in ('', None, False, True) will check the checkbox…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Integers are handled by value, not as booleans (#17114).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **You can pass 'check_test' to the constructor. This is a callable that takes the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Calling check_test() shouldn't swallow exceptions (#17888).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **The CheckboxInput widget will return False if the key is not found in the data…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **CPointerBase** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **test_ptr.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **CPointerBaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **._create_collection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **ptr.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **._set_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **.tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **.ptr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **Initialize a Geometry Collection from a sequence of Geometry objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **Create a new collection, and destroy the contents of the previous pointer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **Return a tuple of all the coordinates in this Geometry Collection** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **setter** (1 connections)
+- **Free the memory used by the C++ object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **Base class for objects that have a pointer access property that controls access…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **.test_destructor_catches_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
+- [Community 9](Community_9.md) (7 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 29 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

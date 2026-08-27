@@ -1,46 +1,62 @@
 # Community 147
 
-> 10 nodes · cohesion 0.22
+> 40 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **get_version()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **VersionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **get_git_changeset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **.__setstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__setstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_development()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_get_version_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_releases()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **Return a PEP 440-compliant version number from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a numeric identifier of the latest git changeset. The result is the UTC…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **serializers/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **python.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **DeserializationError** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Deserializer()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **pyyaml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **DeserializedObject** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.save_deferred_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **deserialize_m2m_values()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **M2MDeserializationError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **build_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **_get_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **DjangoSafeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.WithData()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **deserialize_fk_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Exception** (3 connections)
+- **SerializationError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Something bad happened during serialization.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 416](Community_416.md) (2 shared connections)
+- [Community 83](Community_83.md) (7 shared connections)
+- [Community 116](Community_116.md) (7 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 257](Community_257.md) (3 shared connections)
+- [Community 641](Community_641.md) (3 shared connections)
 - [Community 59](Community_59.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 325](Community_325.md) (1 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 981](Community_981.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 481](Community_481.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 99 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,59 +1,61 @@
 # Community 91
 
-> 100 nodes · cohesion 0.02
+> 105 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **admin_views/models.py** (157 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Podcast** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Villain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ChildOfReferer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CoverLetter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CyclicOne** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CyclicTwo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **EmptyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Gadget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **GenRelReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Media** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentWithDependentChildren** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentWithUUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PlotDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Promo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Recommendation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Recommender** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReferencedByGenRel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Report** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Simple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Sketch** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Song** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- *... and 75 more nodes in this community*
+- **.check()** (79 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **OtherModelTests** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **AccessorClashTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **IndexesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **IndexTogetherTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **UniqueTogetherTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **ConstraintsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **FieldNamesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **._test_accessor_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **SelfReferentialM2MClashTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **JSONFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **SelfReferentialFKClashTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_deferrable_unique_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_unique_constraint_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_local_field_long_column_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_M2M_long_column_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_pointing_to_json_field_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_m2m_autogenerated_table_name_clash_database_routers_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_m2m_field_table_name_clash_database_routers_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_m2m_table_name_clash_database_routers_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_allows_registered_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_swappable_missing_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_swappable_missing_app_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- *... and 80 more nodes in this community*
 
 ## Relationships
 
-- [Community 73](Community_73.md) (76 shared connections)
-- [Community 457](Community_457.md) (15 shared connections)
-- [Community 390](Community_390.md) (7 shared connections)
-- [Community 87](Community_87.md) (5 shared connections)
-- [Community 687](Community_687.md) (5 shared connections)
-- [Community 405](Community_405.md) (4 shared connections)
-- [Community 548](Community_548.md) (3 shared connections)
-- [Community 755](Community_755.md) (3 shared connections)
-- [Community 787](Community_787.md) (3 shared connections)
-- [Community 574](Community_574.md) (3 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 899](Community_899.md) (2 shared connections)
+- [Community 93](Community_93.md) (18 shared connections)
+- [Community 85](Community_85.md) (17 shared connections)
+- [Community 95](Community_95.md) (12 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 409](Community_409.md) (4 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
+- [Community 678](Community_678.md) (1 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
+- [Community 895](Community_895.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 523](Community_523.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 252 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 225 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

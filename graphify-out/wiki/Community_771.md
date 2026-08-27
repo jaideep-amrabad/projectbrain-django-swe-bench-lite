@@ -1,33 +1,36 @@
 # Community 771
 
-> 10 nodes · cohesion 0.36
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **JoinTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **setup** (8 connections)
-- **.test_join06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.set_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **setter** (5 connections)
+- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **._set_streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Turn a value into a bytestring encoded in the output charset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Set some common response headers (Content-Length, Content-Type, and Content-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 27](Community_27.md) (6 shared connections)
+- [Community 201](Community_201.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

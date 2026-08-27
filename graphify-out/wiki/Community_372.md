@@ -1,55 +1,52 @@
 # Community 372
 
-> 35 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Book** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **MultiTableInheritanceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **MultiDbTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **ForeignKeyToFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **BookWithYear** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **AuthorWithAge** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Ticket21410Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_retrieves_results_from_prefetched_objects_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_using_is_honored_custom_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_child_link_prefetch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_using_is_honored_fkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_using_is_honored_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_using_is_honored_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey_to_inherited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- *... and 10 more nodes in this community*
+- **SimpleDatabaseOperationTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_timefield_value_unaware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_timefield_value_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_unknown_value_date()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_unknown_value_decimal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_unknown_value_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_date_extract_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_date_interval_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_datetime_cast_date_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_datetime_cast_time_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_datetime_extract_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_datetime_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_end_transaction_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_json_cast_text_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_no_limit_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_pk_default_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_quote_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_regex_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_sequence_reset_by_name_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_set_time_zone_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 103](Community_103.md) (23 shared connections)
-- [Community 357](Community_357.md) (8 shared connections)
-- [Community 63](Community_63.md) (6 shared connections)
-- [Community 329](Community_329.md) (4 shared connections)
-- [Community 720](Community_720.md) (2 shared connections)
-- [Community 341](Community_341.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (62%)
-- INFERRED: 34 (38%)
+- EXTRACTED: 32 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

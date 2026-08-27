@@ -1,62 +1,55 @@
 # Community 197
 
-> 39 nodes · cohesion 0.08
+> 52 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ignore_warnings** (42 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SetLanguageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **test_is_ajax_deprecations.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_is_ajax_deprecations.py`
-- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_setlang_decodes_http_referer_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **TestDeprecatedIsAjax** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_is_ajax_deprecations.py`
-- **.test_setlang()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_default_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_http_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_redirect_to_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_extra_template_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_template_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_lang_from_translated_i18n_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_template_params_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **A generic template view passes kwargs as context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **A template view can be customized to return extra context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- *... and 14 more nodes in this community*
+- **ManyToManyTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **many_to_many/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **many_to_many/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Publication** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **AbstractArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **InheritedArticleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **InheritedArticleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.test_fast_add_ignore_conflicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **NoDeletedArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_add_existing_different_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_inherited_models_selects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_reverse_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_slow_add_ignore_conflicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Many-to-many relationships To define a many-to-many relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **UserArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (10 shared connections)
 - [Community 18](Community_18.md) (3 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 292](Community_292.md) (2 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 200](Community_200.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 68](Community_68.md) (2 shared connections)
-- [Community 222](Community_222.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 575](Community_575.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 361](Community_361.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/test_is_ajax_deprecations.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 74 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

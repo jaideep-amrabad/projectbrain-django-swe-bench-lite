@@ -1,72 +1,56 @@
 # Community 108
 
-> 98 nodes · cohesion 0.03
+> 31 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **gis/db/models/__init__.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/__init__.py`
-- **models/fields.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **GeometryField** (40 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **test_rasterfield.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- **BaseSpatialField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **gis/sitemaps/views.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/views.py`
-- **gis/db/models/aggregates.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
-- **gis/shortcuts.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
-- **RasterField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **GeoAggregate** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
-- **render_to_kmz()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
-- **ExtentField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **kml()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/views.py`
-- **ST_Polygon** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **get_srid_info()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **render_to_kml()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
-- **Extent3D** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
-- **PolygonField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **RasterBandTransform** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **.test_geography_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- **rasterapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
-- **RasterModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
-- **RasterRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
-- **.test_collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- *... and 73 more nodes in this community*
+- **RelatedField** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.check()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_clashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_reverse_related_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.related_query_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_extra_descriptor_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_related_query_name_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.swappable_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_referencing_to_swapped_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_related_name_is_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_relation_model_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_forward_related_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Field** (1 connections)
+- **Check accessor and reverse query name clashes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Return the keyword arguments that when supplied to self.model.object.filter(),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Complement to get_forward_related_filter(). Return the keyword arguments that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Get the setting that this is powered from for swapping, or None if it's not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Return ``limit_choices_to`` for this model field. If it is a callable, it will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Define the name that can be used to identify this related object in a table-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **When filtering against this relation, return the field on the remote model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Return an extra filter condition for related object fetching when user does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 27](Community_27.md) (21 shared connections)
-- [Community 45](Community_45.md) (19 shared connections)
-- [Community 17](Community_17.md) (15 shared connections)
-- [Community 65](Community_65.md) (14 shared connections)
-- [Community 25](Community_25.md) (9 shared connections)
-- [Community 145](Community_145.md) (8 shared connections)
-- [Community 51](Community_51.md) (7 shared connections)
-- [Community 42](Community_42.md) (5 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 784](Community_784.md) (5 shared connections)
-- [Community 269](Community_269.md) (5 shared connections)
-- [Community 384](Community_384.md) (5 shared connections)
+- [Community 195](Community_195.md) (4 shared connections)
+- [Community 539](Community_539.md) (3 shared connections)
+- [Community 287](Community_287.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 415](Community_415.md) (2 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 905](Community_905.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 313 (95%)
-- INFERRED: 16 (5%)
+- EXTRACTED: 52 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,41 @@
 # Community 838
 
-> 7 nodes · cohesion 0.43
+> 10 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **MIMEText** (6 connections)
-- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **raw_query/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **raw_query/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **FriendlyAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **BookFkAsPk** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **Coffee** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **MixedCaseIDColumn** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **Reviewer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
 
 ## Relationships
 
-- [Community 401](Community_401.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 227](Community_227.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 173](Community_173.md) (8 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (62%)
-- INFERRED: 5 (38%)
+- EXTRACTED: 28 (80%)
+- INFERRED: 7 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

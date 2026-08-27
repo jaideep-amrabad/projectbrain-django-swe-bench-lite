@@ -4,43 +4,40 @@
 
 ## Key Concepts
 
-- **HTMLEqualTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **parse_html()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_contains_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_html_contain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_html_parser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parse_html_in_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parsing_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_self_closing_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unicode_handling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Take a string that contains *valid* HTML and turn it into a Python object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_class_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_complex_examples()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_ignore_comments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_normalize_refs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unequal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **LabelCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **DjangoHelpFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **._reordered_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **label_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **.add_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **HelpFormatter** (1 connections)
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **A management command which takes one or more arbitrary arguments (labels) on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Perform the command's actions for ``label``, which will be the string as given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Customized formatter so that command-specific arguments appear in the --help…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
 
 ## Relationships
 
-- [Community 191](Community_191.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 834](Community_834.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 698](Community_698.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

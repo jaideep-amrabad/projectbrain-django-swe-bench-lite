@@ -1,59 +1,61 @@
 # Community 481
 
-> 23 nodes · cohesion 0.19
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **proxy_models/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **proxy_models/models.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyModelAdminTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **proxy_models/admin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
-- **Issue** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyTrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **TrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **BaseUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Improvement** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **MyPersonProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Bug** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyImprovement** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **StateProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **LowerStatusPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **proxy_models/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **By specifying the 'proxy' Meta attribute, model subclasses can specify that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A model that has relation to a proxy model or to a proxy of proxy model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **fixtures/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **fixtures/models.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **NaturalKeyThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ProxyModelWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **NaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 714](Community_714.md) (18 shared connections)
-- [Community 320](Community_320.md) (13 shared connections)
-- [Community 798](Community_798.md) (7 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 950](Community_950.md) (5 shared connections)
-- [Community 87](Community_87.md) (5 shared connections)
-- [Community 548](Community_548.md) (4 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 949](Community_949.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
+- [Community 353](Community_353.md) (17 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 192](Community_192.md) (3 shared connections)
+- [Community 409](Community_409.md) (3 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 698](Community_698.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 147](Community_147.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 106 (87%)
-- INFERRED: 16 (13%)
+- EXTRACTED: 103 (87%)
+- INFERRED: 15 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

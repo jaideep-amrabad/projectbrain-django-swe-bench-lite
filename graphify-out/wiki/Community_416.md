@@ -4,60 +4,50 @@
 
 ## Key Concepts
 
-- **MigrationWriter** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **test_apps.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **backends/signals.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
-- **.as_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Serializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.safe_exec()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_migration_file_header_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **PostgresConfigTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **.test_simple_migration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_sorted_imports()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_custom_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_models_import_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_type_handlers_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **.test_migration_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_serializer_for_migrations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **.register()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.unregister()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.filename()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Take a Migration instance and is able to produce the contents of the migration…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Return a string of the file contents.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Tests serializing a simple migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **#24155 - Tests ordering of imports.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **Test comments at top of file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **SomeClass** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.test_basic_syntax20b()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax09()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax10()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax11()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax20()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_filter_syntax13()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **OtherClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **Fail silently when accessing a non-simple method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **Don't silence a TypeError if it was raised inside a callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **Attribute syntax allows a template to call an object's attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **Multiple levels of attribute access are allowed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **Fail silently when a variable's attribute isn't found.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **Fail silently for methods that raise an exception with a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.attribute_error_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.method2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.method3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.method4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.method5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.noisy_fail_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.silent_fail_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 198](Community_198.md) (12 shared connections)
-- [Community 339](Community_339.md) (6 shared connections)
-- [Community 177](Community_177.md) (4 shared connections)
-- [Community 100](Community_100.md) (4 shared connections)
-- [Community 54](Community_54.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 147](Community_147.md) (2 shared connections)
-- [Community 211](Community_211.md) (2 shared connections)
-- [Community 474](Community_474.md) (2 shared connections)
-- [Community 442](Community_442.md) (2 shared connections)
-- [Community 489](Community_489.md) (1 shared connections)
+- [Community 200](Community_200.md) (10 shared connections)
+- [Community 242](Community_242.md) (9 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (85%)
-- INFERRED: 12 (15%)
+- EXTRACTED: 49 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

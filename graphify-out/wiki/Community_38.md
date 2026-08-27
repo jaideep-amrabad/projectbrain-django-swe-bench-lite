@@ -1,60 +1,73 @@
 # Community 38
 
-> 163 nodes · cohesion 0.01
+> 114 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **GEOSGeometryBase** (101 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **._topology()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **PreparedGeometry** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **LinearGeometryMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **Return True if the DE-9IM Intersection Matrix for the two geometries is…** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **._post_init()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **ewkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **wkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.hex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.relate_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__setstate__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.buffer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.buffer_with_style()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.centroid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__deepcopy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- *... and 138 more nodes in this community*
+- **NumericOutputFieldMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **Transform** (17 connections)
+- **Cot** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Degrees** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Radians** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ACos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ATan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Ceil** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Cos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Exp** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Ln** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Power** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sqrt** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Abs** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Round** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sign** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Pi** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **AbsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- **ACosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **ATanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **CeilTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **CosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **CotTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **DegreesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- *... and 89 more nodes in this community*
 
 ## Relationships
 
-- [Community 27](Community_27.md) (35 shared connections)
-- [Community 17](Community_17.md) (8 shared connections)
-- [Community 94](Community_94.md) (3 shared connections)
-- [Community 201](Community_201.md) (3 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 145](Community_145.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 415](Community_415.md) (1 shared connections)
-- [Community 160](Community_160.md) (1 shared connections)
-- [Community 414](Community_414.md) (1 shared connections)
+- [Community 12](Community_12.md) (65 shared connections)
+- [Community 409](Community_409.md) (16 shared connections)
+- [Community 28](Community_28.md) (14 shared connections)
+- [Community 381](Community_381.md) (5 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 906](Community_906.md) (2 shared connections)
+- [Community 913](Community_913.md) (2 shared connections)
+- [Community 907](Community_907.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_pi.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sqrt.py`
 
 ## Audit Trail
 
-- EXTRACTED: 237 (93%)
-- INFERRED: 17 (7%)
+- EXTRACTED: 278 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,62 @@
 # Community 222
 
-> 49 nodes · cohesion 0.05
+> 46 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **override_system_checks** (29 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **TestContextDecorator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **CheckCommandTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **UserModelChecksTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SilencingCheckTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.enable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_silenced_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_silenced_warning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_is_anonymous_authenticated_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_required_fields_is_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_username_non_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_username_not_in_required_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_fail_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_given_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_given_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_invalid_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_list_deployment_check_included()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_list_deployment_check_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_list_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_list_tags_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_simple_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- *... and 24 more nodes in this community*
+- **resolve()** (45 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **SimplifiedURLTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **ConversionExceptionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **LookaheadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **ResolverMatchTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **empty_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- **ConverterTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_404_tried_urls_have_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_non_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_matching_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_converter_resolve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_converter_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_converter_reverse_with_second_layer_instance_namespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_invalid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_invalid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_valid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_valid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_resolver_match_on_request_before_resolution()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_urlpattern_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_resolve_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_resolve_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_reverse_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_reverse_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_nonmatching_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (13 shared connections)
-- [Community 14](Community_14.md) (12 shared connections)
-- [Community 9](Community_9.md) (9 shared connections)
-- [Community 442](Community_442.md) (3 shared connections)
-- [Community 350](Community_350.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 197](Community_197.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 1](Community_1.md) (17 shared connections)
+- [Community 19](Community_19.md) (10 shared connections)
+- [Community 6](Community_6.md) (8 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 243](Community_243.md) (4 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 569](Community_569.md) (2 shared connections)
+- [Community 314](Community_314.md) (2 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 116 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 116 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

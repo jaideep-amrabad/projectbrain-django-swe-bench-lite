@@ -1,55 +1,49 @@
 # Community 398
 
-> 29 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **BaseOrderWithRespectToTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **Answer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **TestOrderWithRespectToOneToOnePK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **base_tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Dimension** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Entity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Question** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.test_set_order_unrelated_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Component** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **.test_duplicate_order_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_change_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_default_to_insertion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_delete_and_insert()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_item_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_previous_and_next_in_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_recursive_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **The tests are shared with contenttypes_tests and so shouldn't import or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **An answer that's not related isn't updated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- *... and 4 more nodes in this community*
+- **DecoratorFromMiddlewareTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **FullMiddleware** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **normal_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- **template_response_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **.test_full_dec_normal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_full_dec_templateresponse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_process_view_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_callable_process_view_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **login_required is assignable to normal views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Tests for view decorators created using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view, operating on a callable class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **All methods of middleware are called for normal HttpResponses** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **All methods of middleware are called for TemplateResponses in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 63](Community_63.md) (6 shared connections)
-- [Community 128](Community_128.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 507](Community_507.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 25 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

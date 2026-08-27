@@ -1,44 +1,40 @@
 # Community 618
 
-> 15 nodes · cohesion 0.18
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **WSGIRequestHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **WSGIRequestHandlerTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.test_strips_underscore_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **Stub** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.get_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Copy of WSGIRequestHandler.handle() but with different ServerHandler** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.address_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **WSGIRequestHandler ignores headers containing underscores. This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.sendall()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **BaseConverter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **TestBaseConv** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.convert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **test_baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.test_base11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_base20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_base7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.test_base64()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_baseconv()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
 
 ## Relationships
 
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 168](Community_168.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 437](Community_437.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (85%)
-- INFERRED: 5 (15%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

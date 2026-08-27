@@ -1,78 +1,78 @@
 # Community 27
 
-> 259 nodes · cohesion 0.02
+> 479 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **GEOSGeometry** (115 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **GEOSTest** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
-- **fromstr()** (59 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/factory.py`
-- **LineString** (59 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **Polygon** (58 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
-- **collections.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
-- **geos/__init__.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/__init__.py`
-- **geos/geometry.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **GEOSException** (31 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/error.py`
-- **GeometryCollection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
-- **LinearRing** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **test_geos.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
-- **gis_migrations/test_operations.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **MultiPoint** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
-- **linestring.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **MultiPolygon** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
-- **MultiLineString** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
-- **geos/coordseq.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **geos/prototypes/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/__init__.py`
-- **gis/admin/widgets.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **GEOSBase** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
-- **geos/io.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/io.py`
-- **point.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **geos/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
-- **.test_deconstructible()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
-- *... and 234 more nodes in this community*
+- **HttpResponse** (298 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **cache/tests.py** (83 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **sessions_tests/tests.py** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **utils/cache.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **decorators/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **test_client_regress/views.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **sessions/backends/base.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **core/cache/__init__.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **SuspiciousOperation** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **StreamingHttpResponse** (28 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **method_decorator()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **views/static.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
+- **utils/decorators.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **FileResponse** (25 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **http_date()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **handlers/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **sessions/backends/db.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **decorators/http.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **tests/test_static.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **learn_cache_key()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **decorators/cache.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **cache/backends/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **middleware/cache.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **get_cache_key()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **condition()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- *... and 454 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (56 shared connections)
-- [Community 23](Community_23.md) (36 shared connections)
-- [Community 65](Community_65.md) (36 shared connections)
-- [Community 38](Community_38.md) (35 shared connections)
-- [Community 45](Community_45.md) (22 shared connections)
-- [Community 108](Community_108.md) (21 shared connections)
-- [Community 17](Community_17.md) (16 shared connections)
-- [Community 94](Community_94.md) (15 shared connections)
-- [Community 425](Community_425.md) (14 shared connections)
-- [Community 145](Community_145.md) (12 shared connections)
-- [Community 201](Community_201.md) (8 shared connections)
-- [Community 312](Community_312.md) (8 shared connections)
+- [Community 1](Community_1.md) (285 shared connections)
+- [Community 3](Community_3.md) (56 shared connections)
+- [Community 26](Community_26.md) (31 shared connections)
+- [Community 6](Community_6.md) (24 shared connections)
+- [Community 465](Community_465.md) (19 shared connections)
+- [Community 698](Community_698.md) (17 shared connections)
+- [Community 0](Community_0.md) (17 shared connections)
+- [Community 112](Community_112.md) (15 shared connections)
+- [Community 15](Community_15.md) (14 shared connections)
+- [Community 11](Community_11.md) (12 shared connections)
+- [Community 800](Community_800.md) (12 shared connections)
+- [Community 35](Community_35.md) (12 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/error.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/factory.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/io.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 887 (97%)
-- INFERRED: 31 (3%)
+- EXTRACTED: 1606 (98%)
+- INFERRED: 38 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

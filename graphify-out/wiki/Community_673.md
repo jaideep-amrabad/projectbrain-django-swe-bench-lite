@@ -1,38 +1,61 @@
 # Community 673
 
-> 13 nodes · cohesion 0.19
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **AppCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **sqlsequencereset.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle_app_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **app_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **A management command which takes one or more installed application labels as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Perform the command's actions for app_config, an AppConfig instance…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- **.handle_app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- **.handle_app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
+- **check_framework/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **MessageTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **CheckRegistry** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **check_framework/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **.run_checks()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **DummyObj** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.get_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **.tag_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **.tags_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **my_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **SimpleModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **CheckFrameworkReservedNamesTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_model_check_method_not_shadowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **ChecksRunDuringTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **SystemCheckFrameworkTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_register_and_run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **custom_error_system_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **custom_warning_system_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_not_equal_to_non_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_no_hint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_with_given_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **Run all registered checks and return list of Errors and Warnings.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **.test_registered_check_did_run()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
+- [Community 85](Community_85.md) (12 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 158](Community_158.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 83 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

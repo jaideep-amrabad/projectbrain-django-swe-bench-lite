@@ -1,58 +1,63 @@
 # Community 514
 
-> 80 nodes · cohesion 0.05
+> 28 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **model_inheritance/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **ModelInheritanceTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **model_inheritance/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Restaurant** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Place** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **GrandChild** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **CommonInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **InheritanceUniqueTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **GrandParent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Supplier** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Attachment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Parent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Chef** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **SubBase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Worker** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **InheritanceSameModelNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- *... and 55 more nodes in this community*
+- **BaseHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.get_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **set_urlconf()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **.get_response_async()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **AsyncUnsafeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.resolve_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **async_to_sync** (4 connections)
+- **.adapt_method_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.check_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.make_view_atomic()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **_non_atomic_requests()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.process_exception_by_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **reset_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **not_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **Resolve and call the view, then apply view, exception, and template_response…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **Adapt a method to be in the correct "mode": - If is_async is False: -…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Return an HttpResponse object for the given HttpRequest.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Asynchronous version of get_response. Funneling everything, including WSGI,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Retrieve/set the urlconf for the request. Return the view resolved, with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Raise an error if the view returned None or an uncalled coroutine.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Pass the exception to the exception middleware. If no middleware return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Reset the URLconf after each request is finished.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (7 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 212](Community_212.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 170](Community_170.md) (2 shared connections)
+- [Community 257](Community_257.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 698](Community_698.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 916](Community_916.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 361](Community_361.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (86%)
-- INFERRED: 24 (14%)
+- EXTRACTED: 58 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

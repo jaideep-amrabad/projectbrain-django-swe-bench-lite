@@ -1,55 +1,67 @@
 # Community 210
 
-> 55 nodes · cohesion 0.04
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Envelope** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **OGREnvelope** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **EnvelopeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.__eq__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.expand_to_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **._from_sequence()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.envelope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.extent()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test02_properties()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test03_equivalence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test07_expand_to_include_envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test08_expand_to_include_point()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **TestPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.ll()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.max_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.max_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.min_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.min_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.ur()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.wkt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **Return the value of the maximum X coordinate.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- *... and 30 more nodes in this community*
+- **Left** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Substr** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Chr** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Ord** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Right** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **StrIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_functions()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **ChrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **LeftTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **RightTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- **SubstrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.get_substr()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **OrdTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.get_substr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_non_ascii()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **.test_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- **.test_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 145](Community_145.md) (14 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 154](Community_154.md) (3 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 139](Community_139.md) (1 shared connections)
+- [Community 12](Community_12.md) (29 shared connections)
+- [Community 36](Community_36.md) (11 shared connections)
+- [Community 63](Community_63.md) (10 shared connections)
+- [Community 409](Community_409.md) (6 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (91%)
-- INFERRED: 8 (9%)
+- EXTRACTED: 137 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

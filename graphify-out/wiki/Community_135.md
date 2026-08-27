@@ -4,59 +4,56 @@
 
 ## Key Concepts
 
-- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SelectDateWidgetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **ChoiceWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **CheckboxSelectMultiple** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
-- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_separate_ids_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_custom_input_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **BaseFormSet** (49 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_form_count()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_form_count()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_fields()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.is_valid()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._construct_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.deleted_forms()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.management_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.ordered_forms()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._should_delete_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.non_form_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ManagementForm** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.empty_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_p()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_ul()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.extra_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 - *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (16 shared connections)
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 150](Community_150.md) (2 shared connections)
-- [Community 335](Community_335.md) (2 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 440](Community_440.md) (1 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
+- [Community 17](Community_17.md) (7 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 54](Community_54.md) (3 shared connections)
+- [Community 212](Community_212.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 544](Community_544.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 116 (94%)
-- INFERRED: 7 (6%)
+- EXTRACTED: 126 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

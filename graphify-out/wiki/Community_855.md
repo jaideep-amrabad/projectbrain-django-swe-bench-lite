@@ -1,31 +1,32 @@
 # Community 855
 
-> 6 nodes · cohesion 0.53
+> 9 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **empty/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **empty/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **EmptyModelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty model tests These test that things behave sensibly for the rare corner-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
+- **DiscoverRunnerGetDatabasesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.assertSkippedDatabases()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.get_databases()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_default_and_other()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_default_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_no_databases_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_other_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Relationships
 
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 162](Community_162.md) (3 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

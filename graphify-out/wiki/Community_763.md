@@ -1,39 +1,41 @@
 # Community 763
 
-> 10 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **BloomIndex** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BloomIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.test_deconstruction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_invalid_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_invalid_columns_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_invalid_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_invalid_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.get_with_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.test_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **RequestSite** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **RequestSiteTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **A class that shares the primary interface of Site (i.e., it has ``domain`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_init_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Relationships
 
-- [Community 106](Community_106.md) (4 shared connections)
-- [Community 672](Community_672.md) (3 shared connections)
-- [Community 670](Community_670.md) (2 shared connections)
-- [Community 647](Community_647.md) (1 shared connections)
-- [Community 820](Community_820.md) (1 shared connections)
-- [Community 628](Community_628.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 434](Community_434.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 20 (87%)
+- INFERRED: 3 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,62 +1,55 @@
 # Community 323
 
-> 31 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ExclusionConstraint** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **test_constraints.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **ExclusionConstraintTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **postgres/constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **._test_range_overlaps()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.constraint_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **RangeBoundary** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **HotelReservation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_range_overlaps_custom()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.create_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.test_eq()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_repr()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._get_expression_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **Room** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_deconstruct_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_index_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._get_condition_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_deconstruct_index_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_empty_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- *... and 6 more nodes in this community*
+- **TestConnectionOnCommit** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.assertDone()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.do()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **ForcedError** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **transaction_hooks/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.notify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_no_hooks_run_from_failed_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **transaction_hooks/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
+- **.assertNotified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_delays_execution_until_after_transaction_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_discards_hooks_from_rolled_back_savepoint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_does_not_execute_if_transaction_rolled_back()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_error_in_hook_doesnt_prevent_clearing_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_executes_only_after_final_transaction_committed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_after_rollback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_on_reconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_inner_savepoint_does_not_affect_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_inner_savepoint_rolled_back_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_no_savepoints_atomic_merged_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
+- **.test_db_query_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_executes_immediately_if_no_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hook_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_after_successful_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 100](Community_100.md) (8 shared connections)
-- [Community 11](Community_11.md) (7 shared connections)
-- [Community 263](Community_263.md) (6 shared connections)
-- [Community 313](Community_313.md) (4 shared connections)
-- [Community 639](Community_639.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 363](Community_363.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 361](Community_361.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (93%)
-- INFERRED: 7 (7%)
+- EXTRACTED: 90 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

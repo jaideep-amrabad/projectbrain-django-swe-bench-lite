@@ -1,43 +1,47 @@
 # Community 587
 
-> 17 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **test_parallel.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **ExceptionThatFailsUnpickling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **RemoteTestResultTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.test_add_failing_subtests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **ParallelTestRunnerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **SampleFailingSubtest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.test_pickle_errors_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.test_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.dummy_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **Exception** (1 connections)
-- **skipUnless** (1 connections)
-- **After pickling, this class fails unpickling with an error about incorrect…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **End-to-end tests of the parallel test runner. These tests are only meaningful…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **Passing subtests work.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **A dummy test for testing subTest failures.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **Failing subtests are added correctly using addSubTest().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.unindent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_args_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_empty_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_multiline_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_operation_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 344](Community_344.md) (4 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 165](Community_165.md) (4 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
+- [Community 149](Community_149.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 38 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

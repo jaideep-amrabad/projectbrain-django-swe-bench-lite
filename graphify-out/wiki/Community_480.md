@@ -1,51 +1,52 @@
 # Community 480
 
-> 23 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **UUIDPrefetchRelatedLookups** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **Person** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **prefetch_related/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **UUIDPrefetchRelated** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **LookupOrderingTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Flea** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Pet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.all_houses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.cached_all_houses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.primary_house()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.test_prefetch_related_from_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_from_uuid_model_to_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_from_uuid_model_to_uuid_model_with_values_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_to_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_integer_pk_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_integer_pk_uuid_pk_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_uuid_pk_integer_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_uuid_pk_lookup_integer_pk2_uuid_pk2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_uuid_pk_lookup_uuid_pk_integer_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Test cases that demonstrate that ordering of lookups is important, and ensure…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **matches_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.file_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.save_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **get_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.post_process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.read_manifest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Return the non-hashed URL in DEBUG mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Return the custom URL converter for the given file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Post process the given dictionary of files (called from collectstatic).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Return a hash of the file with the given name and optional content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Recursively walk the storage directories yielding the paths of all files that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 103](Community_103.md) (13 shared connections)
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 341](Community_341.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 698](Community_698.md) (6 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 218](Community_218.md) (2 shared connections)
+- [Community 725](Community_725.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (73%)
-- INFERRED: 13 (27%)
+- EXTRACTED: 50 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

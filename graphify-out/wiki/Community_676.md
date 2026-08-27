@@ -1,38 +1,35 @@
 # Community 676
 
-> 13 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **language_name_translated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **filter** (4 connections)
-- **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language_name_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **.test_fallback_language_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unknown_language_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_localized_language_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unknown_language_code_and_country_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unknown_only_country_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **get_language_info return the first fallback language info if the lang_info…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **URLFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **URLField correctly validates IPv6 (#18779).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_url_regex_ticket11198()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_7()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_9()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_not_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_strip_on_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_unable_to_set_strip_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
 
 ## Relationships
 
-- [Community 40](Community_40.md) (5 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,59 @@
 # Community 175
 
-> 62 nodes · cohesion 0.05
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ToFieldThroughTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **m2m_through_regress/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **m2m_through_regress/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **MultiTableTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- **M2MThroughTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **test_multitable.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- **Group** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Membership** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **M2MThroughSerializationTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Driver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **IndividualCompetitor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **CarDriver** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **CompetingTeam** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **UserMembership** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Competitor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **ProxiedIndividualCompetitor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **ThroughLoadDataTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **.test_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_join_trimming_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_sequence_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_m2m_relations_unusable_on_null_pk_obj()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- *... and 37 more nodes in this community*
+- **model_regress/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **ModelTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **model_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Worker** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **EvaluateMethodTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **NonAutoPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **ModelValidationTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Model1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Model2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Model3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Party** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **.test_metaclass_can_access_attribute_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_timezones()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_model_with_evaluate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_chained_fks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_get_next_prev_by_field_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_model_init_too_many_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_related_gte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_related_lte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_pk_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Regression test for #10153: foreign key __gte lookups.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (8 shared connections)
-- [Community 87](Community_87.md) (4 shared connections)
+- [Community 409](Community_409.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
 - [Community 18](Community_18.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 635](Community_635.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (86%)
-- INFERRED: 16 (14%)
+- EXTRACTED: 73 (87%)
+- INFERRED: 11 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

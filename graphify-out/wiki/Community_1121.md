@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **user_commands/models.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
-- **User-registered management commands The ``manage.py`` utility provides a number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
+- **UnorderedObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Model without any defined `Meta.ordering`. Refs #16819.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

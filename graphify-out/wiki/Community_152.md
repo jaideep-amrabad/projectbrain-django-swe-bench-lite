@@ -1,64 +1,62 @@
 # Community 152
 
-> 59 nodes · cohesion 0.06
+> 63 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **SecurityMiddlewareTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **SessionMiddleware** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
-- **.process_response()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.middleware()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **SessionMiddlewareTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_empty_session_saved()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_content_type_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_content_type_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_content_type_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_include_subdomains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_no_include_subdomains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_no_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_only_if_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_subdomains_and_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_xss_filter_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_xss_filter_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_xss_filter_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_httponly_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- *... and 34 more nodes in this community*
+- **Index** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **indexes/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesPostgreSQLTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **PartialIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **indexes/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **SchemaIndexesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- **SchemaIndexesMySQLTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **PartialIndexConditionIgnoredTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesNotPostgreSQLTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_index_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- **IndexedArticle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **IndexTogetherSingleList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **._get_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **.test_using_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- **ArticleTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **CurrentTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **IndexedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **.test_condition_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_boolean_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_integer_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 9](Community_9.md) (30 shared connections)
-- [Community 120](Community_120.md) (4 shared connections)
-- [Community 117](Community_117.md) (3 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 10](Community_10.md) (11 shared connections)
+- [Community 185](Community_185.md) (7 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 94](Community_94.md) (3 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 575](Community_575.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 134 (89%)
-- INFERRED: 16 (11%)
+- EXTRACTED: 115 (75%)
+- INFERRED: 38 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

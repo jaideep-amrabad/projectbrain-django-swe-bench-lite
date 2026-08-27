@@ -1,29 +1,31 @@
 # Community 870
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **IsActiveTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_is_active_field_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_builtin_user_isactive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Tests the behavior of the guaranteed is_active attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **tests that the default value for is_active is provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **ContentNotRenderedError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Exception** (1 connections)
+- **setter** (1 connections)
+- **Set the content for the response.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Raise an exception if trying to pickle an unrendered response. Pickle only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 540](Community_540.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 739](Community_739.md) (3 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

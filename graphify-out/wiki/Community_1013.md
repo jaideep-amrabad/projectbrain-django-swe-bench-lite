@@ -1,23 +1,25 @@
 # Community 1013
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Return True if data in any form differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **unmigrated_app_syncdb/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
+- **Classroom** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
+- **Lesson** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
 
 ## Relationships
 
-- [Community 155](Community_155.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

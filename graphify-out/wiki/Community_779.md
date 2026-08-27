@@ -1,34 +1,33 @@
 # Community 779
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **MemcachedCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PyLibMCCacheTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **skipUnless** (2 connections)
-- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_pylibmc_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_uses_highest_pickle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **skip** (1 connections)
-- **python-memcached doesn't support default in get() so this test overrides the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **UrlizeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **setup** (9 connections)
+- **.test_urlize01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **.test_urlize02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **.test_urlize03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **.test_urlize04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **.test_urlize05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **.test_urlize06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **.test_urlize07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **.test_urlize08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **.test_urlize09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 120](Community_120.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 747](Community_747.md) (2 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

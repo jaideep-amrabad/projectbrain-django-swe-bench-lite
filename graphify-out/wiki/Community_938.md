@@ -1,27 +1,29 @@
 # Community 938
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **M2mThroughToFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_retrieval()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **NormalizeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_escape()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_backreference()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_named()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_noncapturing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_positional()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
 
 ## Relationships
 
-- [Community 446](Community_446.md) (4 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (62%)
-- INFERRED: 3 (38%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

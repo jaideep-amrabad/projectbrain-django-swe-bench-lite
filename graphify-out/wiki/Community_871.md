@@ -1,28 +1,35 @@
 # Community 871
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_overridden_get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_overridden_get_lookup_chain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_overridden_get_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_overridden_get_transform_chain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **JoinReuseTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_fk_reuse_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_fk_reuse_disjunction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_fk_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_fk_reuse_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_fk_reuse_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_revfk_noreuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_revo2o_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **The queries reuse joins sensibly (for example, direct joins are always reused).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 189](Community_189.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 788](Community_788.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (63%)
+- INFERRED: 7 (37%)
 - AMBIGUOUS: 0 (0%)
 
 ---

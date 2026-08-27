@@ -1,30 +1,37 @@
 # Community 872
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **AutoFieldInheritanceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **.field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.test_isinstance_of_autofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **Makes ReverseManyToOneDescriptor work in both directions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.test_issubclass_of_autofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **str/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **str/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- **SimpleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **InternationalArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- **.test_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- **Adding __str__() to models Although it's not a strict requirement, each model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- **The default implementation of __str__ and __repr__ should return instances of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **.test_international()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
 
 ## Relationships
 
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

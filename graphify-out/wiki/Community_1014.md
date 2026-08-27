@@ -1,23 +1,26 @@
 # Community 1014
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **.is_multipart()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Return True if the formset needs to be multipart, i.e. it has FileInput, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **TruncatecharsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- **setup** (3 connections)
+- **.test_fail_silently_incorrect_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- **.test_truncatechars01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- **.test_truncatechars02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
 
 ## Relationships
 
-- [Community 155](Community_155.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

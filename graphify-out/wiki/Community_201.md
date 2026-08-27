@@ -1,49 +1,56 @@
 # Community 201
 
-> 54 nodes · cohesion 0.06
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **GEOSCoordSeq** (44 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.getOrdinate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.setOrdinate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._checkindex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._checkdim()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._get_point_3d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._set_point_3d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.__setitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **Set X with the value at the given index.** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._get_point_2d()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._get_x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._get_y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.getX()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.getY()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.getZ()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._set_point_2d()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._set_x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **._set_y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.setX()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.setY()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.setZ()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- **.dims()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
-- *... and 29 more nodes in this community*
+- **HttpResponseBase** (37 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **ValueError** (3 connections)
+- **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.test_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.test_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.test_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **._content_type_for_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Convert headers key/value to ascii/latin-1 native strings. `charset` must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 27](Community_27.md) (8 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 771](Community_771.md) (4 shared connections)
+- [Community 27](Community_27.md) (3 shared connections)
+- [Community 876](Community_876.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 975](Community_975.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 54 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

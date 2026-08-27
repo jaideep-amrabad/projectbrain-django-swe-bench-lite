@@ -1,41 +1,50 @@
 # Community 622
 
-> 15 nodes · cohesion 0.17
+> 16 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **deprecation/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RenameMethodsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DeprecationInstanceCheck** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DeprecationInstanceCheckTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RemovedInNextVersionWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **warn_about_renamed_method** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **type** (2 connections)
-- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **RenameManagerMethods** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **DeprecationWarning** (1 connections)
-- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **Handles the deprecation paths when renaming a method. It does the following: 1)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.test_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **basic/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **basic/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **SelectOnSaveTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **ArticleSelectOnSave** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **ChildPrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **PrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **ConcurrentSaveTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **FeaturedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **.test_concurrent_delete_with_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_select_on_save_lying_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **Bare-bones model This is a basic model with only two non-primary-key fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **Test fetching, deleting and finally saving an object - we should get an insert…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **select_on_save works correctly if the database doesn't return correct…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_select_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Relationships
 
-- [Community 40](Community_40.md) (5 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 680](Community_680.md) (1 shared connections)
+- [Community 411](Community_411.md) (11 shared connections)
+- [Community 26](Community_26.md) (5 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 702](Community_702.md) (3 shared connections)
+- [Community 463](Community_463.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 368](Community_368.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 54 (87%)
+- INFERRED: 8 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

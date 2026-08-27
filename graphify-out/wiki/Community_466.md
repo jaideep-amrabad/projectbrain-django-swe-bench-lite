@@ -1,47 +1,28 @@
 # Community 466
 
-> 24 nodes · cohesion 0.14
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **DebugInvocationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **ErrorTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.get_runner()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.isolate_debug_test()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **test_simpletestcase.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_post_teardown_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_pre_setup_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_cleanup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_post_teardown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_pre_setup_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.skipped_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.raising_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.simple_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **object** (1 connections)
-- **skip** (1 connections)
-- **debug() bubbles up exceptions during _pre_setup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **debug() bubbles up exceptions during _post_teardown.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **Simple test run: catches errors and runs cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **Simple debug run without errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **debug() bubbles up exceptions before cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **CheckCondition** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.add_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Descriptor class for deferred condition checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

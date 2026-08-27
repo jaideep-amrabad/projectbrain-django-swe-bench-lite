@@ -1,24 +1,27 @@
 # Community 955
 
-> 3 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **Exactly** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_rhs_op()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **This lookup is used to test lookup registration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **._run_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_django_admin_py_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_django_admin_py_equivalent_main()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_main_not_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
 
 ## Relationships
 
-- [Community 189](Community_189.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,58 +1,64 @@
 # Community 162
 
-> 63 nodes · cohesion 0.06
+> 61 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ConditionalGetMiddleware** (32 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **GZipMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 38 more nodes in this community*
+- **DiscoverRunner** (64 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DiscoverRunnerTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **captured_stdout()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **captured_stderr()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **test_discover_runner.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **captured_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_name_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_command_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_command_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **change_cwd()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_buffer_mode_test_fail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_buffer_mode_test_pass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_empty_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_suite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_duplicates_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_excluded_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_ignore_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_included_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 137](Community_137.md) (10 shared connections)
-- [Community 30](Community_30.md) (5 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 120](Community_120.md) (2 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 208](Community_208.md) (1 shared connections)
-- [Community 214](Community_214.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 403](Community_403.md) (8 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 281](Community_281.md) (7 shared connections)
+- [Community 343](Community_343.md) (6 shared connections)
+- [Community 935](Community_935.md) (4 shared connections)
+- [Community 501](Community_501.md) (3 shared connections)
+- [Community 855](Community_855.md) (3 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 477](Community_477.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 533](Community_533.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 119 (84%)
-- INFERRED: 22 (16%)
+- EXTRACTED: 173 (95%)
+- INFERRED: 10 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

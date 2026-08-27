@@ -1,47 +1,50 @@
 # Community 538
 
-> 20 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **SafeStringTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.assertRenderEqual()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **customescape** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_add_lazy_safe_text_and_safe_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_decorator_does_not_affect_promises()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_object_implementing_dunder_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_as_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_decorator_does_not_affect_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_lazy_result_implements_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_object_implementing_dunder_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_result_implements_dunder_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.__html__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **str** (1 connections)
-- **Calling str() on a SafeString instance doesn't lose the safe status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe used as a decorator leaves the result of a function unchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe doesn't affect a callable that has an __html__() method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe doesn't affect lazy strings (Promise objects).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_contextlist_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contextlist_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_inherited_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nested_requests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **list** (1 connections)
+- **A wrapper that provides direct key access to context items contained in a list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Flattened keys of subcontexts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_15368()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Context variables can be retrieved from a single context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Context variables can be retrieved from a list of contexts** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **response.context is not lost when view call another view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (13 shared connections)
-- [Community 185](Community_185.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 498](Community_498.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
+- [Community 537](Community_537.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 389](Community_389.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

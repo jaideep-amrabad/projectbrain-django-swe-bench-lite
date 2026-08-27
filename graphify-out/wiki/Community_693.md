@@ -1,36 +1,34 @@
 # Community 693
 
-> 13 nodes · cohesion 0.28
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **StaticTagTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **setup** (11 connections)
-- **.test_static_prefixtag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_prefixtag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_prefixtag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_prefixtag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_prefixtag_without_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_quotes_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_statictag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_statictag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_statictag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_statictag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.test_static_statictag_without_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.adapt_unknown_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_datefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_datetimefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_decimalfield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_timefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.year_lookup_bounds_for_date_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.year_lookup_bounds_for_datetime_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return a two-elements list with the lower and upper bound to be used with a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a value to something compatible with the backend driver. This method…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a date value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a datetime value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a time value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a decimal.Decimal value to an object compatible with what is expected…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 79](Community_79.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

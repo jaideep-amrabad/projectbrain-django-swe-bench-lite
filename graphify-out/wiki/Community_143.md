@@ -1,69 +1,62 @@
 # Community 143
 
-> 92 nodes · cohesion 0.03
+> 125 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **file_uploads/views.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **logging_tests/views.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **file_uploads/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **MultiPartParserError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **FileUploadHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **DirectoryCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **StopUpload** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **DisallowedHost** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **file_uploads/uploadhandler.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **TemporaryFileUploadHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **StopFutureHandlers** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **UploadFileException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **SkipFile** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **file_uploads/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- *... and 67 more nodes in this community*
+- **GenericRelationsTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **generic_relations/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **generic_relations/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **generic_relations/test_forms.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **GenericInlineFormsetTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **generic_inlineformset_factory()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- **TaggedItem** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModelTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **ForProxyModelModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Mineral** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Animal** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Comparison** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Vegetable** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **AllowsNullGFK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ConcreteRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ForConcreteModelModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Gecko** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Rock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableRock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TestInitWithNoneArgument** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Carrot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ManualPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableTaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **AbstractComparison** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- *... and 100 more nodes in this community*
 
 ## Relationships
 
-- [Community 54](Community_54.md) (21 shared connections)
-- [Community 109](Community_109.md) (16 shared connections)
-- [Community 32](Community_32.md) (14 shared connections)
-- [Community 122](Community_122.md) (8 shared connections)
-- [Community 287](Community_287.md) (4 shared connections)
-- [Community 230](Community_230.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 117](Community_117.md) (3 shared connections)
-- [Community 104](Community_104.md) (3 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 437](Community_437.md) (2 shared connections)
+- [Community 125](Community_125.md) (14 shared connections)
+- [Community 192](Community_192.md) (9 shared connections)
+- [Community 409](Community_409.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 202](Community_202.md) (2 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 209 (92%)
-- INFERRED: 18 (8%)
+- EXTRACTED: 219 (86%)
+- INFERRED: 36 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

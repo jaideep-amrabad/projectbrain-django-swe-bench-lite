@@ -1,29 +1,32 @@
 # Community 874
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **PostAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FieldOverridePostAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.multiline_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.coolness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.multiline()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **MethodsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
+- **.articles_from_same_day_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.articles_from_same_day_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.was_published_today()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **Verbose version of get_articles_from_same_day_1, which does a custom database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.test_custom_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

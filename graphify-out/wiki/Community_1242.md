@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **csrf_token_error_handler_urls.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/csrf_token_error_handler_urls.py`
+- **change_form.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/change_form.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/csrf_token_error_handler_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/change_form.js`
 
 ## Audit Trail
 

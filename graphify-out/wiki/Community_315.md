@@ -1,50 +1,47 @@
 # Community 315
 
-> 37 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **LoremIpsumTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **words()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- **lorem_ipsum.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- **paragraphs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- **sentence()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- **paragraph()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- **test_lorem_ipsum.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **patch** (5 connections)
-- **.test_not_common_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_paragraph()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_paragraphs_not_common()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_sentence()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_sentence_ending()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.test_common_large_number_of_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_common_words_in_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_more_words_than_common()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_negative_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_paragraphs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_sentence_starts_with_capital()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **.test_same_or_less_common_words()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
-- **Utility functions for generating "lorem ipsum" Latin text.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- **Return a randomly generated sentence of lorem ipsum text. The first word is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- **Return a randomly generated paragraph of lorem ipsum text. The paragraph…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- **Return a list of paragraphs as returned by paragraph(). If `common` is True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- *... and 12 more nodes in this community*
+- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **BaseArchive** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **Exception** (1 connections)
+- **If the file in the archive has some permissions (this assumes a file won't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **Return True if all the paths have the same leading path name (i.e., everything…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 698](Community_698.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

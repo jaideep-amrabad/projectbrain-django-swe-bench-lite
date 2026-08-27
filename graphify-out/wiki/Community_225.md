@@ -1,60 +1,59 @@
 # Community 225
 
-> 47 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **test_compilation.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **MessageCompilationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **ExcludedLocaleCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **IgnoreDirectoryCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **RunInTmpDirMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **i18n/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **copytree()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **POFileAssertionMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **CompilationErrorHandling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **FuzzyTranslationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **MultipleLocaleCompilationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_command_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_fuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_nofuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.assertAllExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.assertNoneExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_ignores_based_on_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_multiple_locale_dirs_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_one_locale_dir_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **PoFileTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **ProjectAndAppTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **AppCompilationTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- *... and 22 more nodes in this community*
+- **AdminActionsTest** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_non_localized_pk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_action_column_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_actions_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_custom_function_action_no_perm_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_custom_function_action_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_custom_function_action_with_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_custom_function_mail_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_default_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_delete_selected_uses_get_deleted_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_media_from_actions_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_custom_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_default_delete_action_no_change_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_default_delete_action_protected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_without_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_without_action_still_has_jquery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_multiple_actions_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_popup_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_popup_template_response_on_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_selection_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_user_message_on_no_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_user_message_on_none_selected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_default_delete_action_nonexistent_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_delete_queryset_hook()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_default_delete_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (19 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 9](Community_9.md) (6 shared connections)
-- [Community 261](Community_261.md) (4 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 104](Community_104.md) (3 shared connections)
-- [Community 167](Community_167.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 510](Community_510.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 19](Community_19.md) (26 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 423](Community_423.md) (2 shared connections)
+- [Community 768](Community_768.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 1077](Community_1077.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 1114](Community_1114.md) (1 shared connections)
+- [Community 447](Community_447.md) (1 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 81 (90%)
+- INFERRED: 9 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

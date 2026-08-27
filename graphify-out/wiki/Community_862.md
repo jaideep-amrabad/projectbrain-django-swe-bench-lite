@@ -1,28 +1,36 @@
 # Community 862
 
-> 5 nodes · cohesion 0.60
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ModelSignal** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **._lazy_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.connect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **Signal subclass that allows the sender to be lazily specified as a string of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.names_to_path()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.solve_lookup_type()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_filtered_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **get_children_from_q()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **get_field_names_from_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Solve the lookup type from the lookup (e.g.: 'foobar__id__icontains').** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Walk the list of names and turns them into PathInfo tuples. A single name in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add items from the 'ordering' sequence to the query's "order by" clause. These…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 489](Community_489.md) (1 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 66](Community_66.md) (5 shared connections)
+- [Community 269](Community_269.md) (3 shared connections)
+- [Community 331](Community_331.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

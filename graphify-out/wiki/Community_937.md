@@ -1,25 +1,29 @@
 # Community 937
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.as_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Return this formset rendered as HTML <tr>s -- excluding the <table></table>.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **TestNumberFormat** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Relationships
 
-- [Community 155](Community_155.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

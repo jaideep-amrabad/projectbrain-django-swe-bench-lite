@@ -1,47 +1,52 @@
 # Community 440
 
-> 15 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **RadioSelectTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **RadioSelect** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_non_ascii_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **.test_render_as_subwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **.test_nullbooleanfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- **.test_class_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **A RadioSelect as a subwidget of MultiWidget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **Attributes provided at instantiation are passed to the constituent inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **Attributes provided at render-time are passed to the constituent inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **The <ul> in the multiple_input.html widget template include the class attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **LimitedStream** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Command** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.readline()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **._read_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **is_broken_pipe_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Wrap another stream to disallow reading it past a number of bytes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **.bpython()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **.ipython()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 135](Community_135.md) (1 shared connections)
-- [Community 581](Community_581.md) (1 shared connections)
-- [Community 371](Community_371.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 343](Community_343.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 149](Community_149.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 730](Community_730.md) (2 shared connections)
+- [Community 282](Community_282.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (76%)
-- INFERRED: 6 (24%)
+- EXTRACTED: 37 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,32 @@
 # Community 786
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **partition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **._insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._populate_pk_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Insert a new record for the given model. This provides an interface to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Helper method for bulk_create() to insert objs one batch at a time.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Insert each of the instances into the database. Do *not* call save() on each of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Split the values into two sets, based on the return value of the function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **DummyCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **cache/backends/dummy.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.set()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.touch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 628](Community_628.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 265](Community_265.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

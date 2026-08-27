@@ -1,63 +1,49 @@
 # Community 499
 
-> 35 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **validation/models.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **validation/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **GenericIPAddressFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **GenericIPAddressTestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ValidationAssertions** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **test_custom_messages.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **validation/test_validators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **validation/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **CustomMessagesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **CustomMessagesModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **GenericIPAddrUnpackUniqueTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_invalid_generic_ip_raises_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_v4_unpack_uniqueness_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **validate_answer_to_universe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_custom_null_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **.test_custom_simple_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **.test_correct_generic_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_v4_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_v6_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- *... and 10 more nodes in this community*
+- **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_finders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_second()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_directory_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_ROOT setting should be reflected in the base_location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_PERMISSIONS setting should be reflected in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_DIRECTORY_PERMISSIONS setting should be reflected in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATIC_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATIC_ROOT setting should be reflected in the location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATICFILES_STORAGE setting should be reflected in the value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATICFILES_FINDERS setting should be reflected in the return…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATICFILES_DIRS setting should be reflected in the locations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 389](Community_389.md) (8 shared connections)
-- [Community 411](Community_411.md) (8 shared connections)
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 698](Community_698.md) (2 shared connections)
+- [Community 335](Community_335.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 856](Community_856.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (94%)
-- INFERRED: 6 (6%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

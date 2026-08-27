@@ -1,43 +1,54 @@
 # Community 438
 
-> 17 nodes · cohesion 0.19
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **wrap_oracle_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **TemplateCommand** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.download()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.validate_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- **startapp.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **.is_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.make_writeable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.splitext()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **custom_startproject.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- **.handle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **Determine where the app or project templates are. Use django.__path__[0] as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Copy either a Django application layout template or a Django project layout…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Download the given URL and return the file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Like os.path.splitext, but takes off .tar, too** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Extract the given file to a temporarily and return the path of the directory…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Return True if the name looks like a URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Make sure that the file is writeable. Useful if our source is read-only.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
 
 ## Relationships
 
-- [Community 570](Community_570.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 801](Community_801.md) (2 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 257](Community_257.md) (3 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 47 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

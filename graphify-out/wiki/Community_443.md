@@ -1,51 +1,55 @@
 # Community 443
 
-> 25 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ChangepasswordManagementCommandTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **object** (9 connections)
-- **.test_password_validation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_system_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_changes_joes_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_works_with_nonascii_output()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_max_tries_exits_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_passing_stdin()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_with_database_option_uses_given_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_get_pass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_get_pass_no_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **MultiDBChangepasswordManagementCommandTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **MultiDBCreatesuperuserTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_createsuperuser_command_with_database_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_nonexistent_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **changepassword --database should operate on the specified DB.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **The system username is used if --username isn't provided.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **Executing the changepassword management command should change joe's password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **A CommandError should be thrown by handle() if the user enters in mismatched…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **A CommandError should be raised if the user enters in passwords which fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **#21627 -- Executing the changepassword management command should allow non-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **You can pass a stdin object as an option and it should be available on…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **SQLCompiler** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_select()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_group_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.pre_sql_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_default_columns()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.results_iter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.execute_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.deferred_to_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.has_results()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.setup_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.apply_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.collapse_group_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.explain_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_extra_select()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Convert the self.deferred_loading data structure to mapping of table names to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return an iterator over the results from executing this query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Backends (e.g. NoSQL) can override this in order to use optimized versions of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Execute the specified update. Return the number of rows affected by the primary…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return three values: - a list of 3-tuples of (expression, (sql, params), alias)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Do any necessary class setup immediately prior to producing SQL. This is for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Compute the default columns for selecting every field in the base model. Will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a list of 2-tuples of form (sql, params). The logic of what exactly the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (11 shared connections)
-- [Community 87](Community_87.md) (3 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
+- [Community 485](Community_485.md) (13 shared connections)
+- [Community 26](Community_26.md) (5 shared connections)
+- [Community 868](Community_868.md) (5 shared connections)
+- [Community 124](Community_124.md) (2 shared connections)
+- [Community 117](Community_117.md) (2 shared connections)
+- [Community 789](Community_789.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 866](Community_866.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 60 (91%)
+- INFERRED: 6 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

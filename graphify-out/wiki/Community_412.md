@@ -1,50 +1,53 @@
 # Community 412
 
-> 22 nodes · cohesion 0.17
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **gis/feeds.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.add_georss_element()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **GeoFeedMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **GeoAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **GeoRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **W3CGeoFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **Rss201rev2Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_georss_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.georss_coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.add_item_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.add_root_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **In GeoRSS coordinate pairs are ordered by lat/lon and separated by a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **Adds a GeoRSS point with the given coords using the given handler. Handles the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **Add a GeoRSS XML element using the given item and handler.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **This mixin provides the necessary routines for SyndicationFeed subclasses to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **RemoteUserTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserCustomTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **AllowAllUsersRemoteUserBackendTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **PersistentRemoteUserTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserNoCreateTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **CustomHeaderRemoteUserTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests the case where the username passed in the header does not exist as a User.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_no_remote_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_user_switch_forces_new_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_inactive_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A user's last_login is set the first time they make a request but not updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A logged in user is logged out automatically when the REMOTE_USER header…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **If the username in the header changes between requests that the original user…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Contains the same tests as RemoteUserTest, but using a custom auth backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Backend that allows inactive users.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests a custom RemoteUserBackend subclass that overrides the clean_username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **The strings passed in REMOTE_USER should be cleaned and the known users should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 317](Community_317.md) (3 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 616](Community_616.md) (1 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 859](Community_859.md) (1 shared connections)
-- [Community 444](Community_444.md) (1 shared connections)
+- [Community 74](Community_74.md) (7 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

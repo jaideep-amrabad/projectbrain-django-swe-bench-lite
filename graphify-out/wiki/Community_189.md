@@ -1,52 +1,57 @@
 # Community 189
 
-> 18 nodes · cohesion 0.14
+> 54 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **custom_lookups/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **MySQLUnixTimestamp** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **YearExact** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3BilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **LastDigitTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Mult3BilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **UpperBilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **CustomModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **autoreload.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **StatReloader** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **start_django()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **run_with_reloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **ensure_echo_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **get_child_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **restart_with_reloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.snapshot_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (9 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 684](Community_684.md) (4 shared connections)
-- [Community 811](Community_811.md) (3 shared connections)
+- [Community 26](Community_26.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 324](Community_324.md) (4 shared connections)
+- [Community 580](Community_580.md) (4 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 698](Community_698.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 462](Community_462.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 111 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

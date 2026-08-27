@@ -29,7 +29,7 @@
 
 ## Relationships
 
-- [Community 593](Community_593.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 

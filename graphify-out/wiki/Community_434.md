@@ -1,54 +1,46 @@
 # Community 434
 
-> 32 nodes · cohesion 0.09
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **post_form_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._get_POST_request_with_token()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_POST_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_token_in_header_with_customized_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_bad_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_csrf_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_csrf_wildcard_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_2()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._test_https_good_referer_behind_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_malformed_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_csrf_cookie_no_token_exempt_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_reject_insecure_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_reject_insecure_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_token_in_header()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_csrf_cookie_and_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_csrf_cookie_no_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_behind_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_behind_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **A POST HTTPS request with a bad referer is rejected** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **A POST HTTPS request is accepted when USE_X_FORWARDED_PORT=True.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **A POST HTTPS request from an insecure referer should be rejected.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If a CSRF cookie is present but no token, the middleware rejects the incoming…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If both a cookie and a token is present, the middleware lets it through.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If a CSRF cookie is present and no token, but the csrf_exempt decorator has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- *... and 7 more nodes in this community*
+- **LoginTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_csrf_rotate()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_legacy_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check_https()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_session_key_flushed_on_login_after_password_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_current_site_in_context_after_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_form_contains_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Makes sure that a login rotates the currently-used CSRF token.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **To avoid reusing another user's session, ensure a new, empty session is created…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **As above, but same user logging in after a password change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Session without django.contrib.auth.HASH_SESSION_KEY should login without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 80](Community_80.md) (35 shared connections)
-- [Community 9](Community_9.md) (11 shared connections)
-- [Community 516](Community_516.md) (6 shared connections)
-- [Community 236](Community_236.md) (3 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 615](Community_615.md) (1 shared connections)
+- [Community 213](Community_213.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 260](Community_260.md) (2 shared connections)
+- [Community 209](Community_209.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 507](Community_507.md) (1 shared connections)
+- [Community 763](Community_763.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (81%)
-- INFERRED: 20 (19%)
+- EXTRACTED: 26 (81%)
+- INFERRED: 6 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,38 @@
 # Community 737
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.aggregate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.dates()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_filtered_numerical_aggregates()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/test_filter_argument.py`
-- **._validate_values_are_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_distinct_on_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **Return a query set in which the returned objects have been annotated with extra…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return a dictionary containing the calculations (aggregation) over the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return a list of date objects representing all available dates for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return a list of datetime objects representing all available datetimes for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **AuthContextProcessorTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_user_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_session_is_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_session_not_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_message_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_perm_in_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The lazy objects returned behave just like the wrapped objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **Tests for the ``django.contrib.auth.context_processors.auth`` processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The session is not accessed simply by including the auth context processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The session is accessed if the auth context processor is used and relevant…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (5 shared connections)
-- [Community 246](Community_246.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 531](Community_531.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 439](Community_439.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 359](Community_359.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/test_filter_argument.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (82%)
-- INFERRED: 5 (18%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

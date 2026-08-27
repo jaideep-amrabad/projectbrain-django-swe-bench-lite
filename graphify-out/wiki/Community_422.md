@@ -1,59 +1,57 @@
 # Community 422
 
-> 27 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **NewDatabaseTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **requires_tz_support** (17 connections)
-- **.test_localized_model_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_localized_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_accepts_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_accepts_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_returns_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_returns_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_datetime_from_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_filter_date_field_with_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime_with_microsecond()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetime_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetime_lookups_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetimes_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_filter_with_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_update_with_timedelta()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_auto_now_and_auto_now_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone_with_microsecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_null_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- *... and 2 more nodes in this community*
+- **DjangoTemplates** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **DjangoTemplatesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **Template** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **copy_exception()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **reraise()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.test_render_requires_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.get_templatetag_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.test_templatetag_discovery_import_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.get_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.test_debug_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.test_non_debug_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.test_templatetag_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.test_builtins_discovery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.test_context_has_priority_over_template_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.test_dirs_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **Return a collation of template tag libraries from installed applications and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **Create a new TemplateDoesNotExist. Preserve its declared attributes and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **Reraise TemplateDoesNotExist while maintaining template debug information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.origin()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **Import errors in tag modules should be reraised with a helpful message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **django.Template.render() requires a dict.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 
 ## Relationships
 
-- [Community 634](Community_634.md) (8 shared connections)
-- [Community 25](Community_25.md) (6 shared connections)
-- [Community 588](Community_588.md) (5 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 835](Community_835.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 718](Community_718.md) (2 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 26](Community_26.md) (11 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 731](Community_731.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
+- [Community 473](Community_473.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
+- [Community 243](Community_243.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 59 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

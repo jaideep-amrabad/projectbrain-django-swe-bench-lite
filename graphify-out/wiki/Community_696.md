@@ -1,38 +1,41 @@
 # Community 696
 
-> 13 nodes · cohesion 0.28
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **ValidationMessagesTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **._test_validation_messages()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **validation/test_error_messages.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_autofield_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_date_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_datetime_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_decimal_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_float_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_integer_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_null_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_nullable_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_time_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **TypedChoiceField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedChoiceFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **._coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_typedchoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **Validate that the value can be coerced to the right type (if not empty).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
 
 ## Relationships
 
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (69%)
+- INFERRED: 8 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

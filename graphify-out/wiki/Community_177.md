@@ -1,65 +1,63 @@
 # Community 177
 
-> 50 nodes · cohesion 0.06
+> 61 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **makemigrations.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **autodetector.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **InteractiveMigrationQuestioner** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **questioner.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **test_questioner.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **no_translations()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **migrations/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **RegexObject** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **QuestionerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **no_translations.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/no_translations.py`
-- **get_migration_name_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._choice_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.test_timedelta_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- *... and 25 more nodes in this community*
+- **MultiWidget** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **TextInput** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **MultiWidgetTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **TextInputTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **MyMultiWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **SplitDateTimeWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- **ComplexMultiWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_needs_multipart_true()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_needs_multipart_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_formatting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.decompress()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_boundfield_id_for_label_override_by_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs_with_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_nested_multiwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_no_whitespace_between_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_text_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_from_datadict_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_omitted_from_data_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 39](Community_39.md) (15 shared connections)
-- [Community 4](Community_4.md) (11 shared connections)
-- [Community 93](Community_93.md) (7 shared connections)
-- [Community 153](Community_153.md) (7 shared connections)
-- [Community 867](Community_867.md) (6 shared connections)
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
-- [Community 416](Community_416.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 17](Community_17.md) (22 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 221](Community_221.md) (3 shared connections)
+- [Community 487](Community_487.md) (3 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 444](Community_444.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 900](Community_900.md) (1 shared connections)
+- [Community 948](Community_948.md) (1 shared connections)
+- [Community 535](Community_535.md) (1 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/no_translations.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 160 (94%)
-- INFERRED: 11 (6%)
+- EXTRACTED: 100 (75%)
+- INFERRED: 34 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

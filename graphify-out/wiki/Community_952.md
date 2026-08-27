@@ -1,25 +1,27 @@
 # Community 952
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **MissingDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **PreviousDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **BlockContext** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.add_blocks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.get_block()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.pop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.push()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
 
 ## Relationships
 
-- [Community 630](Community_630.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

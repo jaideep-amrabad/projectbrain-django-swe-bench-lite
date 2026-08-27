@@ -1,36 +1,41 @@
 # Community 754
 
-> 10 nodes · cohesion 0.33
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DatetimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **test_datetime_safe.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **time** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.test_compare_datetimes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.test_safe_strftime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.test_zero_padding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **Regression for #12524 Pre-1000AD dates are padded with zeros if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **real_time** (1 connections)
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ReadOnlyPasswordHashField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_readonly_field_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **The 'request' parameter is set for custom auth use by subclasses. The form data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.bound_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 33](Community_33.md) (5 shared connections)
-- [Community 22](Community_22.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 607](Community_607.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 755](Community_755.md) (1 shared connections)
+- [Community 608](Community_608.md) (1 shared connections)
+- [Community 478](Community_478.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

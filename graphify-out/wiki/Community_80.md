@@ -1,61 +1,52 @@
 # Community 80
 
-> 52 nodes · cohesion 0.09
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **CsrfViewMiddleware** (64 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **CsrfViewMiddlewareTestMixin** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **token_view()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._get_GET_no_csrf_cookie_request()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfViewMiddlewareTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._check_token_present()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_for_exempt_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_empty_csrf_cookie()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_GET_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_for_requires_csrf_token_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_no_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_new_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bare_secret_accepted_and_replaced()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_new_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_POST_no_csrf_cookie_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_cookie_not_reset_on_accepted_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_malformed_host()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_no_csrf_cookie()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_response_get_token_not_used()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_put_and_delete_allowed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_age()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_age_none()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_ensures_csrf_cookie_with_middleware()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_view_token_invalid_chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- *... and 27 more nodes in this community*
+- **Join** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **BaseTable** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **sql/datastructures.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **MultiJoin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **Empty** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.equals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.demote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.promote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.equals()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **Exception** (1 connections)
+- **Useful auxiliary data structures for query construction. Not useful outside the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **The BaseTable class is used for base table references in FROM clause. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **Used by sql.Query and sql.SQLCompiler to generate JOIN clauses into the FROM…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **Generate the full LEFT OUTER JOIN sometable ON sometable.somecol =…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **Used by join construction code to indicate the point at which a multi-valued…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
 
 ## Relationships
 
-- [Community 434](Community_434.md) (35 shared connections)
-- [Community 516](Community_516.md) (23 shared connections)
-- [Community 236](Community_236.md) (21 shared connections)
-- [Community 615](Community_615.md) (5 shared connections)
-- [Community 120](Community_120.md) (4 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 367](Community_367.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 122](Community_122.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 66](Community_66.md) (5 shared connections)
+- [Community 31](Community_31.md) (3 shared connections)
+- [Community 269](Community_269.md) (3 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
+- [Community 862](Community_862.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 185 (87%)
-- INFERRED: 27 (13%)
+- EXTRACTED: 39 (87%)
+- INFERRED: 6 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,45 +1,62 @@
 # Community 280
 
-> 19 nodes · cohesion 0.11
+> 38 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ManageAlternateSettings** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_output_color()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings file with a name other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail with an error when no default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands work with settings provided as argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands work if settings are provided in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py can't execute user commands without settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py output syntax color can be deactivated with the `--no-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **LogEntry** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **LogEntryTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.__str__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **AdminLogNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- **.test_logentry_change_message_localized_datetime_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **UUIDUserTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.test_logentry_change_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_change_message_not_json()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_proxy_model_content_type_is_used_for_log_entries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_action_flag_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_admin_password_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **Return the edited object represented by this log entry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **Return the admin URL to edit the object represented by this log entry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 124](Community_124.md) (9 shared connections)
-- [Community 597](Community_597.md) (9 shared connections)
-- [Community 85](Community_85.md) (9 shared connections)
-- [Community 251](Community_251.md) (2 shared connections)
-- [Community 295](Community_295.md) (1 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 795](Community_795.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 217](Community_217.md) (2 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (85%)
+- INFERRED: 13 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

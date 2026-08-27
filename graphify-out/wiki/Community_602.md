@@ -1,52 +1,43 @@
 # Community 602
 
-> 16 nodes · cohesion 0.23
+> 17 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **foreign_object/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **foreign_object/models/__init__.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- **foreign_object/models/article.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTranslation** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **NewsArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Country** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **ArticleIdea** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTag** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **TestExtraJoinFilterQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_foreign_key_raises_informative_does_not_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **.test_extra_join_filter_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **StringLookupTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **string_lookup/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **string_lookup/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
+- **.test_string_form_referencing()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
+- **Foo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
+- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
+- **Whiz** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
+- **.test_ipaddress_on_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **.test_queries_on_textfields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **.test_unicode_chars_in_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **Regression tests for #3937 make sure we can use unicode characters in queries.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **Regression tests for #5087 make sure we can perform queries on TextFields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **Regression test for #708 "like" queries on IP address fields require casting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **Regression test for #1661 and #1662 String form referencing of models works,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
 
 ## Relationships
 
-- [Community 759](Community_759.md) (10 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 757](Community_757.md) (5 shared connections)
-- [Community 681](Community_681.md) (4 shared connections)
-- [Community 59](Community_59.md) (3 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 460](Community_460.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 791](Community_791.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 245](Community_245.md) (1 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (85%)
+- INFERRED: 6 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

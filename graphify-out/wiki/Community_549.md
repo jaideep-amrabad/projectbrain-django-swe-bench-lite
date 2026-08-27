@@ -1,54 +1,52 @@
 # Community 549
 
-> 18 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **contenttypes_tests/test_management.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **RemoveStaleContentTypesTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **ModelWithNullFKToSite** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **.test_contenttypes_removed_for_apps_not_in_installed_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_contenttypes_removed_in_installed_apps_without_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_true_with_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_true_without_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **contrib/contenttypes/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/__init__.py`
-- **.test_unavailable_content_type_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **contenttypes_tests/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/urls.py`
-- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **interactive mode (the default) deletes stale content types and warns of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **interactive mode deletes stale content types even if there aren't any dependent…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **non-interactive mode deletes stale content types.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **A ContentType isn't created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **one_to_one/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **one_to_one/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **MultiModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Director** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **ManualPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **RelatedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **School** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Waiter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_multiple_o2o()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **HiddenPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Pointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Target** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **ToFieldPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_hasattr_related_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Pointer2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **One-to-one relationships To define a one-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 261](Community_261.md) (6 shared connections)
-- [Community 128](Community_128.md) (5 shared connections)
-- [Community 442](Community_442.md) (4 shared connections)
-- [Community 87](Community_87.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 122](Community_122.md) (2 shared connections)
-- [Community 287](Community_287.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 375](Community_375.md) (14 shared connections)
+- [Community 656](Community_656.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 1054](Community_1054.md) (2 shared connections)
+- [Community 1055](Community_1055.md) (2 shared connections)
+- [Community 1089](Community_1089.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 591](Community_591.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 361](Community_361.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 52 (83%)
+- INFERRED: 11 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

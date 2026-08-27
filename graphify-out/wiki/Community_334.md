@@ -1,61 +1,56 @@
 # Community 334
 
-> 40 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **schema/tests.py** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **schema/models.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **schema/fields.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **CustomManyToManyField** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **MediumBlobField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorCharFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorTextFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithDefaultHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithEvenLongerName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithIndexedName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithIndexedNameAndBirthday** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithUniqueName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithUniqueNameAndBirthday** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookForeignObj** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWeak** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithLongName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithO2O** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithoutAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithSlug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **IntegerPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- *... and 15 more nodes in this community*
+- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **AutoPKChildOfUUIDPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AutoPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ChildRelatedViaAK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ChildWithEditablePK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ParentWithUUIDAlternateKey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **UUIDPKChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **UUIDPKChildOfAutoPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **UUIDPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **.test_inlineformset_factory_ignores_default_pks_on_submit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_alternate_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_auto_parent_uuid_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_child_editable_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_uuid_parent_auto_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 53](Community_53.md) (31 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 59](Community_59.md) (5 shared connections)
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 90](Community_90.md) (3 shared connections)
-- [Community 503](Community_503.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
+- [Community 111](Community_111.md) (33 shared connections)
+- [Community 133](Community_133.md) (8 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 134 (82%)
-- INFERRED: 30 (18%)
+- EXTRACTED: 89 (86%)
+- INFERRED: 14 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

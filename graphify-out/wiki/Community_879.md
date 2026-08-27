@@ -1,29 +1,38 @@
 # Community 879
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **NonexistentFixtureTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_nonexistent_fixture_no_constraint_checking()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_not_existent_fixture_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **patch** (1 connections)
-- **Custom class to limit fixture dirs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **If no fixtures match the loaddata command, constraints checks on the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **SmallAutoField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SmallIntegerField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_alter_smallint_pk_to_smallautofield_pk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_autofield_pk_to_smallautofield_pk_sequence_owner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Converting an implicit PK to SmallAutoField(primary_key=True) should keep a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **Should be able to rename an SmallIntegerField(primary_key=True) to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Relationships
 
-- [Community 506](Community_506.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 534](Community_534.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 381](Community_381.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (79%)
+- INFERRED: 4 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,39 @@
 # Community 762
 
-> 10 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **ReadOnlyPasswordHashField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_bug_19349_render_with_none_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_readonly_field_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.bound_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **._resolve_lookup()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.current()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **A container class used for iterating over widgets. This is useful for widgets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Perform resolution of a real variable (i.e. not a literal) against the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (3 shared connections)
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 329](Community_329.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 445](Community_445.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

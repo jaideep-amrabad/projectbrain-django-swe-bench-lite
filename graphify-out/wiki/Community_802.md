@@ -1,37 +1,37 @@
 # Community 802
 
-> 12 nodes · cohesion 0.27
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **filter_tests/test_autoescape.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **AutoescapeStringfilterTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **SafeClass** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **UnsafeClass** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **setup** (4 connections)
-- **.test_autoescape_stringfilter01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **Filters decorated with stringfilter still respect is_safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **m2m_multiple/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **m2m_multiple/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **M2MMultipleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **.test_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Multiple many-to-many relationships between the same two tables In this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (8 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 420](Community_420.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

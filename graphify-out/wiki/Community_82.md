@@ -1,59 +1,61 @@
 # Community 82
 
-> 101 nodes · cohesion 0.04
+> 90 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **delete/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **delete/models.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **OnDeleteTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **DeletionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **create_a()** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **FastDeleteTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **R** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteTop** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericDeleteBottom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- *... and 76 more nodes in this community*
+- **timezones/tests.py** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **NewDatabaseTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **NewFormsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **requires_tz_support** (17 connections)
+- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **EventForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **LegacyFormsTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezones/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **EventModelForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **ForcedTimeZoneDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **EventLocalizedModelForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **EventSplitForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- *... and 65 more nodes in this community*
 
 ## Relationships
 
-- [Community 687](Community_687.md) (7 shared connections)
-- [Community 63](Community_63.md) (7 shared connections)
-- [Community 391](Community_391.md) (5 shared connections)
-- [Community 59](Community_59.md) (3 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 853](Community_853.md) (2 shared connections)
-- [Community 411](Community_411.md) (1 shared connections)
-- [Community 562](Community_562.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 18](Community_18.md) (12 shared connections)
+- [Community 19](Community_19.md) (7 shared connections)
+- [Community 35](Community_35.md) (7 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 409](Community_409.md) (5 shared connections)
+- [Community 575](Community_575.md) (4 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 72](Community_72.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (81%)
-- INFERRED: 44 (19%)
+- EXTRACTED: 236 (89%)
+- INFERRED: 29 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

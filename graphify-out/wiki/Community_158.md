@@ -1,58 +1,67 @@
 # Community 158
 
-> 57 nodes · cohesion 0.05
+> 60 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **model_fields/test_imagefield.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTwoDimensionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **skipIf** (7 connections)
-- **SerializeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonDimensionsFirst** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ImageFieldDimensionsFirstTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldNoDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldOneDimensionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldUsingFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **AbstractPersonWithHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonTwoImages** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_field_save_and_delete_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_image_after_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- *... and 32 more nodes in this community*
+- **register()** (48 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **security/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **TestRegistration** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **_security_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **admin/decorators.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **check_default_cache_is_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- **Location** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Traveler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **.test_default_cache_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_default_cache_not_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **check_content_type_nosniff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_referrer_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_secret_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_security_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_ssl_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_sts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_sts_include_subdomains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_sts_preload()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_xframe_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_xframe_options_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 291](Community_291.md) (7 shared connections)
-- [Community 565](Community_565.md) (7 shared connections)
-- [Community 698](Community_698.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 54](Community_54.md) (3 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 279](Community_279.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 85](Community_85.md) (19 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 72](Community_72.md) (6 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 667](Community_667.md) (2 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 1032](Community_1032.md) (1 shared connections)
+- [Community 943](Community_943.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (90%)
-- INFERRED: 12 (10%)
+- EXTRACTED: 145 (95%)
+- INFERRED: 8 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

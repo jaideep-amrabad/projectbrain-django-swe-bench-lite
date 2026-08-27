@@ -1,55 +1,48 @@
 # Community 506
 
-> 21 nodes · cohesion 0.14
+> 21 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **fixtures/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **fixtures/models.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Fixtures. Fixtures are a way of loading data into the database in bulk. Fixure…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **TestDataTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **TestData** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **assert_no_queries()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **NonDeepCopyAble** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_class_attribute_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_class_attribute_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_known_related_objects_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_memo()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_undeepcopyable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Descriptor to provide TestCase instance isolation for attributes assigned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Class level test data is equal to instance level test data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Class level test data is not identical to instance level test data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Identity of test data is preserved between accesses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Known related objects identity is preserved.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_undeepcopyable_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
 
 ## Relationships
 
-- [Community 521](Community_521.md) (7 shared connections)
-- [Community 821](Community_821.md) (6 shared connections)
-- [Community 395](Community_395.md) (6 shared connections)
-- [Community 87](Community_87.md) (4 shared connections)
-- [Community 790](Community_790.md) (4 shared connections)
+- [Community 390](Community_390.md) (6 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 687](Community_687.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 934](Community_934.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 775](Community_775.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (89%)
-- INFERRED: 9 (11%)
+- EXTRACTED: 33 (87%)
+- INFERRED: 5 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

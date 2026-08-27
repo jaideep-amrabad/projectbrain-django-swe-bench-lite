@@ -1,26 +1,30 @@
 # Community 923
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.metadata()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
-- **setter** (1 connections)
-- **Return the metadata for this raster or band. The return value is a nested…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
-- **Set the metadata. Update only the domains that are contained in the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **._setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__reduce__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **unpickle_lazyobject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Used to unpickle lazy objects. Just return its argument, which will be the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Relationships
 
-- [Community 145](Community_145.md) (1 shared connections)
+- [Community 698](Community_698.md) (3 shared connections)
+- [Community 274](Community_274.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,57 +1,53 @@
 # Community 379
 
-> 25 nodes · cohesion 0.10
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CookieTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **SessionStorage** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **MessageEncoder** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.test_json_encoder_decoder()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.serialize_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.stored_messages_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_cookie_setings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_max_cookie_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_safedata()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.deserialize_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_get_bad_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_legacy_hash_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Compactly serialize instances of the ``Message`` class as JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store messages in the session (that is, django.contrib.sessions).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **Retrieve a list of messages from the request's session. This storage always…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **Store a list of messages to the request's session.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **A complex nested data structure containing Message instances is properly…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **A message containing SafeData is keeping its safe status when retrieved from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **CookieStorage honors SESSION_COOKIE_DOMAIN, SESSION_COOKIE_SECURE, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **If the data exceeds what is allowed in a cookie, older messages are removed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **gis/feeds.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_georss_element()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoFeedMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **W3CGeoFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Rss201rev2Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Feed** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_georss_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.georss_coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **BaseFeed** (1 connections)
+- **.feed_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.item_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **In GeoRSS coordinate pairs are ordered by lat/lon and separated by a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **This is a subclass of the `Feed` from `django.contrib.syndication`. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 453](Community_453.md) (11 shared connections)
-- [Community 447](Community_447.md) (3 shared connections)
-- [Community 590](Community_590.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 486](Community_486.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 278](Community_278.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 295](Community_295.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 55 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

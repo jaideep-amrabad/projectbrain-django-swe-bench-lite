@@ -1,22 +1,24 @@
 # Community 1180
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **jsi18n-mocks.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/jsi18n-mocks.test.js`
+- **.test_inheritance18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **{% load %} tag (standard usage, without inheritance)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 780](Community_780.md) (1 shared connections)
+- [Community 812](Community_812.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/jsi18n-mocks.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
