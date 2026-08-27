@@ -1,58 +1,57 @@
 # Community 421
 
-> 25 nodes · cohesion 0.11
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Node** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **graph.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **test_graph.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **CircularDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **NodeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_node()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.ensure_not_cyclic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.test_dummynode_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_node_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **There's an impossible-to-resolve circular dependency.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.add_child()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_parent()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **A single node in the migration graph. Contains direct links to adjacent nodes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **# NOTE: There is no need to remap parent dependencies as we can** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **A node that doesn't correspond to a migration file on disk. (A squashed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **DatabaseWrapper** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **CursorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.disable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.enable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.executemany()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.data_type_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_is_mariadb()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_server_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Disable foreign key checks, primarily for use in adding rows with forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Re-enable foreign key checks after they have been disabled.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **A thin wrapper around MySQLdb's normal cursor class that catches particular…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 
 ## Relationships
 
-- [Community 301](Community_301.md) (7 shared connections)
-- [Community 523](Community_523.md) (4 shared connections)
-- [Community 662](Community_662.md) (4 shared connections)
-- [Community 92](Community_92.md) (2 shared connections)
-- [Community 107](Community_107.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 884](Community_884.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 636](Community_636.md) (1 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
+- [Community 654](Community_654.md) (1 shared connections)
+- [Community 434](Community_434.md) (1 shared connections)
+- [Community 550](Community_550.md) (1 shared connections)
+- [Community 328](Community_328.md) (1 shared connections)
+- [Community 634](Community_634.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 32 (80%)
+- INFERRED: 8 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

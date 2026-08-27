@@ -1,22 +1,23 @@
 # Community 1302
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **from_db_value/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/__init__.py`
+- **.test_regression_12851()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **Regression for #12851 Deferred fields are used correctly if you select_related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 197](Community_197.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/from_db_value/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

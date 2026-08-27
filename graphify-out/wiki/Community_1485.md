@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **proxy_model_inheritance/app1/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/__init__.py`
+- **widget_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/__init__.py`
 
 ## Audit Trail
 

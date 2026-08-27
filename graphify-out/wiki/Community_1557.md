@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **urls_error_handlers.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls_error_handlers.py`
+- **migrations2/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations2/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations2/models.py`
 
 ## Audit Trail
 

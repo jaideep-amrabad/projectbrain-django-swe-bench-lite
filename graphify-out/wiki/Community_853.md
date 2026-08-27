@@ -1,48 +1,33 @@
 # Community 853
 
-> 18 nodes · cohesion 0.12
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **._save_table()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.save()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.save_base()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._save_parents()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.get_deferred_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._get_pk_val()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._perform_unique_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._do_insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._do_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.refresh_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Return a set containing names of deferred fields for this instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Reload field values from the database. By default, the reloading happens from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Save the current instance. Override this in a subclass if you want to control…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Handle the parts of saving which should be done only once per save, yet need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Save all the parents of cls using values from self.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Do the heavy-lifting involved in saving. Update or insert the data for a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Try to update the model. Return True if the model was updated (if an update…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Do an INSERT. If returning_fields is defined then this method should return the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **TextFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_choices_generates_select_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_emoji()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **skipIf** (1 connections)
+- **TextField passes its max_length attribute to form fields created using their…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **A TextField with choices uses a Select widget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **TextField.to_python() should return a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_lookup_integer_in_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
 
 ## Relationships
 
-- [Community 154](Community_154.md) (11 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

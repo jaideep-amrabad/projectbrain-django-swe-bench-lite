@@ -1,51 +1,47 @@
 # Community 508
 
-> 19 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Lookup** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.batch_process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_db_prep_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.apply_bilateral_transforms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_source_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.lhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.contains_aggregate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.contains_over_clause()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_db_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_group_by_cols()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.is_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_lhs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.set_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.generic()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.head()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.patch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.put()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._get_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Return encoded JSON if data is a dict, list, or tuple and content_type is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a POST request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a HEAD request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a TRACE request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct an OPTIONS request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a PUT request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a PATCH request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a DELETE request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct an arbitrary HTTP request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Relationships
 
-- [Community 51](Community_51.md) (6 shared connections)
-- [Community 398](Community_398.md) (4 shared connections)
-- [Community 94](Community_94.md) (4 shared connections)
-- [Community 316](Community_316.md) (3 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 632](Community_632.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 5](Community_5.md) (11 shared connections)
+- [Community 159](Community_159.md) (2 shared connections)
+- [Community 547](Community_547.md) (2 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
+- [Community 714](Community_714.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 40 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

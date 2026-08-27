@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **compress.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
-- **main()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- **.test_if_tag_shortcircuit01()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **If evaluations are shortcircuited where possible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

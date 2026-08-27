@@ -1,23 +1,28 @@
 # Community 1157
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **compatibility/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/__init__.py`
+- **MySQLPKZeroTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_zero_as_autoval()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Zero as id for AutoField should raise exception in MySQL, because MySQL does…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---
