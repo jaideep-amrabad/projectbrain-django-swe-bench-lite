@@ -1,15 +1,17 @@
 # Community 59
 
-> 163 nodes · cohesion 0.02
+> 175 nodes · cohesion 0.02
 
 ## Key Concepts
 
 - **HttpRequest** (148 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **SitesFrameworkTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 - **XFrameOptionsMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
+- **RequestSite** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
 - **TestAuthenticationMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
 - **XFrameOptionsMiddlewareTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 - **HostValidationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **RequestSiteTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 - **SelectingBackendTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 - **SignedCookieTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/tests.py`
 - **.get_host()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
@@ -27,28 +29,27 @@
 - **clear_site_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 - **ChangedBackendSettingsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 - **.test_changed_backend_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_dont_set_if_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_is_extendable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 138 more nodes in this community*
+- *... and 150 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (38 shared connections)
-- [Community 4](Community_4.md) (32 shared connections)
-- [Community 22](Community_22.md) (17 shared connections)
+- [Community 1](Community_1.md) (40 shared connections)
+- [Community 5](Community_5.md) (33 shared connections)
+- [Community 3](Community_3.md) (18 shared connections)
+- [Community 26](Community_26.md) (12 shared connections)
 - [Community 39](Community_39.md) (10 shared connections)
-- [Community 28](Community_28.md) (9 shared connections)
-- [Community 122](Community_122.md) (8 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 37](Community_37.md) (7 shared connections)
-- [Community 84](Community_84.md) (6 shared connections)
-- [Community 44](Community_44.md) (5 shared connections)
-- [Community 347](Community_347.md) (5 shared connections)
-- [Community 32](Community_32.md) (4 shared connections)
+- [Community 82](Community_82.md) (9 shared connections)
+- [Community 123](Community_123.md) (8 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 35](Community_35.md) (7 shared connections)
+- [Community 43](Community_43.md) (5 shared connections)
+- [Community 18](Community_18.md) (5 shared connections)
+- [Community 37](Community_37.md) (4 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
 - `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
@@ -68,8 +69,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 404 (96%)
-- INFERRED: 16 (4%)
+- EXTRACTED: 423 (96%)
+- INFERRED: 18 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **territorial_fallback/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/territorial_fallback/__init__.py`
+- **m2m_through_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/territorial_fallback/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/__init__.py`
 
 ## Audit Trail
 

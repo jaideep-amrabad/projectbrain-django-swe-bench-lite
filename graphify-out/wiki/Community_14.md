@@ -1,6 +1,6 @@
 # Community 14
 
-> 362 nodes · cohesion 0.01
+> 410 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -16,6 +16,7 @@
 - **django/forms/widgets.py** (75 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **forms/models.py** (68 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **test_array.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **core/validators.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
 - **contrib/admin/widgets.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 - **fields/json.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **test_ranges.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
@@ -23,28 +24,27 @@
 - **fields/array.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
 - **modeladmin/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **test_hstore.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **validators/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 - **tests/test_forms.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
 - **forms/forms.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
 - **forms/utils.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
 - **basic/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **formsets.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **filters.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- *... and 337 more nodes in this community*
+- *... and 385 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (292 shared connections)
-- [Community 3](Community_3.md) (218 shared connections)
-- [Community 0](Community_0.md) (205 shared connections)
-- [Community 5](Community_5.md) (130 shared connections)
-- [Community 22](Community_22.md) (111 shared connections)
-- [Community 28](Community_28.md) (73 shared connections)
-- [Community 18](Community_18.md) (56 shared connections)
-- [Community 15](Community_15.md) (53 shared connections)
-- [Community 26](Community_26.md) (47 shared connections)
-- [Community 2](Community_2.md) (47 shared connections)
-- [Community 4](Community_4.md) (42 shared connections)
-- [Community 93](Community_93.md) (40 shared connections)
+- [Community 1](Community_1.md) (289 shared connections)
+- [Community 4](Community_4.md) (218 shared connections)
+- [Community 0](Community_0.md) (206 shared connections)
+- [Community 6](Community_6.md) (127 shared connections)
+- [Community 3](Community_3.md) (117 shared connections)
+- [Community 26](Community_26.md) (83 shared connections)
+- [Community 24](Community_24.md) (55 shared connections)
+- [Community 8](Community_8.md) (48 shared connections)
+- [Community 13](Community_13.md) (41 shared connections)
+- [Community 5](Community_5.md) (41 shared connections)
+- [Community 87](Community_87.md) (40 shared connections)
+- [Community 82](Community_82.md) (36 shared connections)
 
 ## Source Files
 
@@ -53,13 +53,12 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/const.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
@@ -68,11 +67,12 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3726 (99%)
-- INFERRED: 47 (1%)
+- EXTRACTED: 3815 (98%)
+- INFERRED: 60 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---
