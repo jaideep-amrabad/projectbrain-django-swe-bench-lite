@@ -1,33 +1,36 @@
 # Community 828
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DeconstructibleCustomManager** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **BaseCustomManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **CustomInitQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.test_deconstruct_from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.manager_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **SpatialRefSysTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **.test_add_entry()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **.SpatialRefSys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **.test_ellipsoid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **.test_get_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **.test_osr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **.test_retrieve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **Test the ellipsoid property.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **Test adding a new entry in the SpatialRefSys model using the add_srs_entry…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **Test retrieval of SpatialRefSys model objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **Test getting OSR objects from SpatialRefSys model objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
 
 ## Relationships
 
-- [Community 485](Community_485.md) (4 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

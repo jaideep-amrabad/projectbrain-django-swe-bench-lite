@@ -1,52 +1,66 @@
 # Community 304
 
-> 38 nodes · cohesion 0.07
+> 46 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DatabaseOperations** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **._convert_field_to_tz()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.force_no_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.binary_placeholder_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.combine_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_booleanfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_uuidfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- *... and 13 more nodes in this community*
+- **decorators/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **CacheMiddlewareTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **user_passes_test()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
+- **cache_page()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **staff_member_required()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
+- **views/decorators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
+- **admin_views/views.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
+- **hello_world_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **cache_control()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **DecoratorsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Admin2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.test_cache_page_timeout()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cached_control_private_not_cached()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_constructor()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **decorators/clickjacking.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **xframe_options_exempt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **.my_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.test_304_response_has_http_caching_headers_but_not_cached()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_require_safe_accepts_only_safe_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **xframe_options_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **xframe_options_sameorigin()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **secure_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
+- **secure_view2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
+- **.test_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 99](Community_99.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
-- [Community 547](Community_547.md) (1 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 71](Community_71.md) (13 shared connections)
+- [Community 51](Community_51.md) (7 shared connections)
+- [Community 16](Community_16.md) (7 shared connections)
+- [Community 99](Community_99.md) (5 shared connections)
+- [Community 251](Community_251.md) (4 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 171](Community_171.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 137 (91%)
+- INFERRED: 13 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

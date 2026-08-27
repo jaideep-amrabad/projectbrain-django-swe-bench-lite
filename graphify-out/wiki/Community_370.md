@@ -1,56 +1,48 @@
 # Community 370
 
-> 56 nodes · cohesion 0.05
+> 23 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **UniqueConstraintTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **constraints/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **CheckConstraintTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **constraints/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintConditionProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **ChildModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintDeferrable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintInclude** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **get_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_model_validation_with_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **AbstractModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.test_abstract_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint_expressionwrapper()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint_with_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_include_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_initially_deferred_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_initially_immediate_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- *... and 31 more nodes in this community*
+- **HasKeyLookup** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_rhs()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_lhs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKey** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformExact** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **JSONExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_oracle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **ContainedBy** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **DataContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIsNull** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_lhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 
 ## Relationships
 
-- [Community 28](Community_28.md) (12 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 105](Community_105.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 199](Community_199.md) (11 shared connections)
+- [Community 183](Community_183.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (94%)
-- INFERRED: 6 (6%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

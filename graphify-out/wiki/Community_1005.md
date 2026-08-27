@@ -1,27 +1,28 @@
 # Community 1005
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **AsyncRequestFactoryTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory_sets_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **OracleDbshellTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.settings_to_cmd_args_env()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_with_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_without_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

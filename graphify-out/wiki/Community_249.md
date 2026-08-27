@@ -1,62 +1,49 @@
 # Community 249
 
-> 51 nodes · cohesion 0.06
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BaseModelFormSet** (31 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **BaseInlineFormSet** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **BaseGenericInlineFormSet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **._construct_form()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.validate_unique()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **InlineForeignKeyField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.add_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.add_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.initial_form_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save_existing_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.initial_form_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.delete_existing()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._existing_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.get_date_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.get_form_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._get_to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save_existing()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save_new_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **BasePersonModelFormSet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._construct_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.get_unique_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- *... and 26 more nodes in this community*
+- **FilterSyntaxTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **setup** (26 connections)
+- **.test_filter_syntax13()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax14()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax18()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax21()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax22()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax25()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax08_multi_line()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax15()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax19()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax20()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_type_error_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **.test_filter_syntax02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 191](Community_191.md) (3 shared connections)
-- [Community 70](Community_70.md) (3 shared connections)
-- [Community 242](Community_242.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 91](Community_91.md) (2 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
-- [Community 209](Community_209.md) (1 shared connections)
-- [Community 198](Community_198.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 423](Community_423.md) (1 shared connections)
+- [Community 449](Community_449.md) (10 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 81 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,63 +1,61 @@
 # Community 361
 
-> 31 nodes · cohesion 0.08
+> 34 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **extend_sys_path()** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **EggLoadingTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **TestSysPathDirectories** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **NamespacePackageAppTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_egg1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_multiple_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_multiple_paths_explicit_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_single_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_middleware_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- **.test_sys_paths_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_sys_paths_non_existing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_sys_paths_with_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Context manager to temporarily add paths to sys.path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Models module can be loaded from an app in an egg** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app from an egg that has no models returns no models (and no error)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Models module can be loaded from an app located under an egg's top-level package** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app with no models from under the top-level egg package generates no…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app from an egg that has an import error in its models module raises…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **A Py3.3+ namespace package can be an app if it has only one path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- *... and 6 more nodes in this community*
+- **MultiPartParser** (19 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.parse()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **parse_header()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **MultiParserTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **ChunkIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **._load_post_and_files()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.parse_file_upload()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **exhaust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.handle_file_complete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **._mark_post_parse_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.IE_sanitize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.test_rfc2231_wrong_title()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **._close_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **_parse_header_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.test_bad_type_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_empty_upload_handlers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_invalid_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_negative_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_rfc2231_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Parse the POST data and break it into a FILES MultiValueDict and a POST…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Handle all the signaling that takes place when a file is complete.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 491](Community_491.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 717](Community_717.md) (2 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 433](Community_433.md) (2 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 661](Community_661.md) (1 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 29](Community_29.md) (18 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 221](Community_221.md) (3 shared connections)
+- [Community 200](Community_200.md) (3 shared connections)
+- [Community 261](Community_261.md) (1 shared connections)
+- [Community 683](Community_683.md) (1 shared connections)
+- [Community 858](Community_858.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
+- [Community 235](Community_235.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

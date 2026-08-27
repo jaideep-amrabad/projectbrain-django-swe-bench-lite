@@ -1,52 +1,63 @@
 # Community 446
 
-> 25 nodes · cohesion 0.14
+> 27 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **NestedObjectsTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **NestedObjects** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **._connect()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **._check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **._collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_cyclic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_non_added_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_siblings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_unrelated_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_on_delete_do_nothing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_relation_on_abstract()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.add_edge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.can_fast_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.collect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **._nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.test_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.related_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **Collector** (1 connections)
-- **Return the graph as a nested list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **We always want to load the objects into memory so that we can display them to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **Tests for ``NestedObject`` utility collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **The nested collector doesn't query for DO_NOTHING objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **NestedObjects.collect() doesn't trip (AttributeError) on the special notation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **RedirectView** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **generic_urls.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
+- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **test_client/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/urls.py`
+- **BaseArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.get_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **DateArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.head()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.put()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Provide a redirect on any GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Return the URL redirect to. Keyword arguments from the URL pattern match…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **test_client/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/__init__.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Regression tests for Django built-in views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An abstract article Model so that we can create article models with and without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An Article class with a get_absolute_url defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 411](Community_411.md) (5 shared connections)
+- [Community 89](Community_89.md) (4 shared connections)
+- [Community 141](Community_141.md) (2 shared connections)
+- [Community 251](Community_251.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (85%)
-- INFERRED: 8 (15%)
+- EXTRACTED: 68 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

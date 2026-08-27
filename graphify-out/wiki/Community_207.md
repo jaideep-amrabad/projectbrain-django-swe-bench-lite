@@ -1,54 +1,70 @@
 # Community 207
 
-> 52 nodes · cohesion 0.05
+> 115 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Envelope** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **EnvelopeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.__eq__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.expand_to_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **._from_sequence()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.envelope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.extent()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test02_properties()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test03_equivalence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test07_expand_to_include_envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test08_expand_to_include_point()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **TestPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.ll()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.max_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.max_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.min_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.min_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.ur()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.wkt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **Return the value of the maximum X coordinate.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- *... and 27 more nodes in this community*
+- **template/base.py** (58 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Variable** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Parser** (19 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **VariableDoesNotExist** (17 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **test_parser.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
+- **.parse()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **FilterExpression** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **dictsort()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **template_tests/test_base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- **dictsortreversed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **template.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **templatize()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **Lexer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.compile_nodelist()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.error()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Token** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **._resolve_lookup()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **unescape_string_literal()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **template_tests/test_logging.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
+- **smart_split()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **ParserTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
+- **.create_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.get_exception_info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- *... and 90 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (14 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 141](Community_141.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 9](Community_9.md) (44 shared connections)
+- [Community 3](Community_3.md) (16 shared connections)
+- [Community 126](Community_126.md) (10 shared connections)
+- [Community 8](Community_8.md) (8 shared connections)
+- [Community 843](Community_843.md) (7 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
+- [Community 271](Community_271.md) (5 shared connections)
+- [Community 135](Community_135.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 753](Community_753.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (92%)
-- INFERRED: 6 (8%)
+- EXTRACTED: 303 (95%)
+- INFERRED: 16 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

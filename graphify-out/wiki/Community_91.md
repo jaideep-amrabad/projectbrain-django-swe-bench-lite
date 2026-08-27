@@ -1,61 +1,62 @@
 # Community 91
 
-> 104 nodes · cohesion 0.02
+> 99 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **admin_views/admin.py** (283 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **RelatedPrepopulated** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **SubPostInline** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **DependentChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FancyDoodad** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Restaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **WorkerInlineAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **DooHickey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Grommet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **InlineReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Picture** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PrePopulatedSubPost** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Whatsit** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Widget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Worker** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ActorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleAdmin2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleAdmin9** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ChildInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ColorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **CustomTemplateBooleanFieldListFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **DependentChildInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- *... and 79 more nodes in this community*
+- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **test_extract_trunc.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **DateFunctionTests** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.create_model()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **Extract** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractYear** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **Trunc** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **DateFunctionWithTimeZoneTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_func_with_timezone()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractIsoYear** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractWeekDay** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncDate** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncTime** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.test_trunc_timezone_applied_before_truncation()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractIsoWeekDay** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractQuarter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractWeek** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **Now** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncYear** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.get_timezones()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractMinute** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- *... and 74 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (82 shared connections)
-- [Community 320](Community_320.md) (14 shared connections)
-- [Community 501](Community_501.md) (14 shared connections)
-- [Community 11](Community_11.md) (10 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 556](Community_556.md) (9 shared connections)
-- [Community 557](Community_557.md) (8 shared connections)
-- [Community 382](Community_382.md) (7 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 355](Community_355.md) (6 shared connections)
-- [Community 592](Community_592.md) (6 shared connections)
-- [Community 837](Community_837.md) (4 shared connections)
+- [Community 5](Community_5.md) (38 shared connections)
+- [Community 50](Community_50.md) (28 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 126](Community_126.md) (7 shared connections)
+- [Community 33](Community_33.md) (6 shared connections)
+- [Community 84](Community_84.md) (6 shared connections)
+- [Community 72](Community_72.md) (5 shared connections)
+- [Community 31](Community_31.md) (5 shared connections)
+- [Community 179](Community_179.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 324 (96%)
-- INFERRED: 15 (4%)
+- EXTRACTED: 350 (90%)
+- INFERRED: 37 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

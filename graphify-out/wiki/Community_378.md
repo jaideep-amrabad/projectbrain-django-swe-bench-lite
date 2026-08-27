@@ -1,56 +1,53 @@
 # Community 378
 
-> 31 nodes · cohesion 0.07
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **model_fields/test_charfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **test_textfield.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **ValidationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **TextFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **TestCharField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestMethods** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **TestMethods** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_choices_generates_select_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **CharField passes its max_length attribute to form fields created using the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_assignment_from_choice_enum()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_emoji()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_lookup_integer_in_charfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_cleans_empty_string_when_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_raises_error_on_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_with_choices_cleans_valid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_with_choices_raises_error_on_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- *... and 6 more nodes in this community*
+- **RemoteUserTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserCustomTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **AllowAllUsersRemoteUserBackendTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **PersistentRemoteUserTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserNoCreateTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **CustomHeaderRemoteUserTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests the case where the username passed in the header does not exist as a User.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_no_remote_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_user_switch_forces_new_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_inactive_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A user's last_login is set the first time they make a request but not updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A logged in user is logged out automatically when the REMOTE_USER header…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **If the username in the header changes between requests that the original user…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Contains the same tests as RemoteUserTest, but using a custom auth backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Backend that allows inactive users.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests a custom RemoteUserBackend subclass that overrides the clean_username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **The strings passed in REMOTE_USER should be cleaned and the known users should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 277](Community_277.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 251](Community_251.md) (7 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 288](Community_288.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

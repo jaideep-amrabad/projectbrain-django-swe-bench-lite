@@ -1,53 +1,59 @@
 # Community 443
 
-> 45 nodes · cohesion 0.05
+> 27 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **FieldListFilter** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **RelatedFieldListFilter** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **ListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **EmptyFieldListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **AllValuesFieldListFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **ChoicesFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **DateFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **RelatedOnlyFieldListFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.field_admin_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.field_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.expected_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.expected_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.has_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.field_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.include_empty_choice()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- *... and 20 more nodes in this community*
+- **Collector** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.collect()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.can_fast_delete()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.add()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.clear_restricted_objects_from_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.clear_restricted_objects_from_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.get_del_batches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **._has_signal_listeners()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **get_candidate_relations_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.add_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.add_field_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.instances_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.test_fast_delete_instance_set_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.add_restricted_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Add 'objs' to the collection of objects to be deleted. If the call is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Schedule a field update. 'objs' must be a homogeneous iterable collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Determine if the objects in the given queryset-like or single object can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Return the objs in suitably sized batches for the used connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (14 shared connections)
-- [Community 11](Community_11.md) (8 shared connections)
-- [Community 48](Community_48.md) (5 shared connections)
-- [Community 97](Community_97.md) (3 shared connections)
-- [Community 91](Community_91.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 90](Community_90.md) (2 shared connections)
+- [Community 174](Community_174.md) (2 shared connections)
+- [Community 596](Community_596.md) (2 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 471](Community_471.md) (1 shared connections)
+- [Community 954](Community_954.md) (1 shared connections)
+- [Community 614](Community_614.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 54 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

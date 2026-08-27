@@ -1,33 +1,40 @@
 # Community 880
 
-> 8 nodes · cohesion 0.32
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **BinaryFieldTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **DataModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_set_and_retrieve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter_bytearray()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter_memoryview()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ReadOnlyPasswordHashField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_readonly_field_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **The 'request' parameter is set for custom auth use by subclasses. The form data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 632](Community_632.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 442](Community_442.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 811](Community_811.md) (1 shared connections)
+- [Community 675](Community_675.md) (1 shared connections)
+- [Community 499](Community_499.md) (1 shared connections)
+- [Community 1028](Community_1028.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,47 +1,55 @@
 # Community 497
 
-> 22 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_constraints()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_table_description()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_primary_key_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._parse_table_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **get_field_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._get_column_collations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._get_foreign_key_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._get_index_columns_orders()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._parse_column_or_constraint_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Extract the size number from a "varchar(11)" type name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return the column name of the primary key for the given table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **ChangeList** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_queryset()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_filters_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering_field_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.apply_select_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **._get_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **._get_deterministic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.url_for_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_results()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.has_related_field_in_list_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **ChangeListSearchForm** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return all params except IGNORED_PARAMS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return the proper model field name corresponding to the given field_name to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return the list of ordering fields for the change list. First check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Ensure a deterministic order across all database backends. Search for a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return a dictionary of ordering field column numbers and asc/desc.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 332](Community_332.md) (3 shared connections)
-- [Community 125](Community_125.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
+- [Community 843](Community_843.md) (11 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
+- [Community 451](Community_451.md) (1 shared connections)
+- [Community 318](Community_318.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 49 (88%)
+- INFERRED: 7 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,8 +1,8 @@
 # reverse()
 
-> God node · 395 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+> God node · 397 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 12](Community_12.md)
 
 ## Connections by Relation
 
@@ -14,8 +14,8 @@
 - .response_add() `EXTRACTED`
 - translate_url() `EXTRACTED`
 - _get_sitemap_full_url() `EXTRACTED`
-- .response_change() `EXTRACTED`
 - get_urlconf() `EXTRACTED`
+- .response_change() `EXTRACTED`
 - .response_delete() `EXTRACTED`
 - parse_rst() `EXTRACTED`
 - .user_change_password() `EXTRACTED`

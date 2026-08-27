@@ -1,65 +1,57 @@
 # Community 491
 
-> 38 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **frozenset** (25 connections)
-- **TestIterModulesAndFiles** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **DatabaseAliasTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **iter_modules_and_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **iter_all_python_module_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._property_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.clear_autoreload_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **Set** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_main_module_is_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_main_module_without_file_is_not_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_module_without_spec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_path_with_embedded_null_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- *... and 13 more nodes in this community*
+- **distapp/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **DistanceTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **distapp/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **NamedModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **AustraliaCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **CensusZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **Interstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **SouthTexasCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **SouthTexasCityFt** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **SouthTexasInterstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **SouthTexasZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **.test_dwithin_with_expression_rhs_not_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **City model on projected coordinate system for South Texas.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **Same City model as above, but U.S. survey feet are the units.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **City model for Australia, using WGS84.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **Model for a few South Texas ZIP codes (in original Census NAD83).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **Model for a few South Texas ZIP codes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **Geodetic model for U.S. Interstates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **Projected model for South Texas Interstates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **Test initialization of distance models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **# TODO: test with spheroid argument (True and False)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 361](Community_361.md) (5 shared connections)
-- [Community 22](Community_22.md) (4 shared connections)
-- [Community 479](Community_479.md) (2 shared connections)
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 192](Community_192.md) (1 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 866](Community_866.md) (1 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
+- [Community 24](Community_24.md) (19 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 20](Community_20.md) (7 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 72](Community_72.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (69%)
-- INFERRED: 28 (31%)
+- EXTRACTED: 83 (85%)
+- INFERRED: 15 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

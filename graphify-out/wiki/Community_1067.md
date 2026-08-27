@@ -1,21 +1,21 @@
 # Community 1067
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **AdminAutoDiscoverTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
-- **.test_double_call_autodiscover()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
-- **Test for bug #8245 - don't raise an AlreadyRegistered exception when using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- **RemoteTestRunner** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Run tests and record everything but don't display anything. The implementation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 

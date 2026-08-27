@@ -1,41 +1,44 @@
 # Community 685
 
-> 14 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **TestDataTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **assert_no_queries()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **NonDeepCopyAble** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_class_attribute_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_class_attribute_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_known_related_objects_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_undeepcopyable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Class level test data is equal to instance level test data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Class level test data is not identical to instance level test data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Identity of test data is preserved between accesses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Known related objects identity is preserved.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_undeepcopyable_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **FakeSMTPServer** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_traceback_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Return a dictionary containing traceback information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return HTML version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return plain text version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.flush_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.process_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Asyncore SMTP server wrapped into a thread. Based on DummyFTPServer from:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 590](Community_590.md) (5 shared connections)
-- [Community 900](Community_900.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
+- [Community 143](Community_143.md) (4 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 869](Community_869.md) (1 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

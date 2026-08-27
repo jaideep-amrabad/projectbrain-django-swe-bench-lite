@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **test_client_regress/context_processors.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
-- **special()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- **.test_dependency_sorting_m2m_complex_circular_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Circular M2M relations with explicit through models should be serializable** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 383](Community_383.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

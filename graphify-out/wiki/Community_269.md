@@ -1,53 +1,75 @@
 # Community 269
 
-> 43 nodes · cohesion 0.05
+> 129 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **CommandTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_create_parser_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_find_command_without_PATH()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_system_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_no_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_option_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_option_parsing_non_string_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_explode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_no_translations_deactivate_translations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_unrecognized_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_with_required_parameters_in_mixed_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_with_required_parameters_in_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_a_command_with_no_app_labels_and_parameters_should_raise_a_command_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_a_command_with_only_empty_parameter_should_ends_gracefully()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_command_with_app_labels_and_parameters_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_command_with_parameters_and_app_labels_at_the_end_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_check_migrations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command_add_arguments_after_common_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command_style()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_language_preserved()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_mutually_exclusive_group_required_const_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_mutually_exclusive_group_required_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_output_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- *... and 18 more nodes in this community*
+- **CommandError** (90 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **test_extraction.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **user_commands/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **makemessages.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **test_compilation.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **management/utils.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **management/templates.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **TemplateCommand** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **dumpdata.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- **popen_wrapper()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **MessageCompilationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **CommandParser** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **compilemessages.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- **is_ignored_path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **.handle()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.build_potfiles()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **find_command()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **get_random_secret_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **parse_apps_and_model_labels()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **RunInTmpDirMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.process_locale_dir()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- *... and 104 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 891](Community_891.md) (1 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
-- [Community 165](Community_165.md) (1 shared connections)
+- [Community 18](Community_18.md) (37 shared connections)
+- [Community 126](Community_126.md) (25 shared connections)
+- [Community 62](Community_62.md) (19 shared connections)
+- [Community 48](Community_48.md) (15 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 344](Community_344.md) (12 shared connections)
+- [Community 7](Community_7.md) (11 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 598](Community_598.md) (8 shared connections)
+- [Community 106](Community_106.md) (7 shared connections)
+- [Community 44](Community_44.md) (7 shared connections)
+- [Community 211](Community_211.md) (6 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 484 (96%)
+- INFERRED: 20 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

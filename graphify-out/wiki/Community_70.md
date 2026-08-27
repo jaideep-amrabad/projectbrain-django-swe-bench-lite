@@ -1,76 +1,78 @@
 # Community 70
 
-> 103 nodes · cohesion 0.03
+> 104 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **django/forms/fields.py** (84 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **django/forms/widgets.py** (75 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **forms/models.py** (69 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **formsets.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **test_formsets.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Input** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **HiddenInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **CheckboxInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Textarea** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SelectMultiple** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **MultipleHiddenInput** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **test_splitdatetimefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **to_current_timezone()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **NullBooleanSelect** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **NumberInput** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **all_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **DateTimeBaseInput** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **RadioSelect** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **DeclarativeFieldsMetaclass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **PasswordInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SplitHiddenDateTimeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 78 more nodes in this community*
+- **GDALException** (67 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- **force_bytes()** (59 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **gdal/__init__.py** (54 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
+- **force_str()** (50 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **geometries.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **DataSource** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **layer.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Driver** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
+- **source.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **gdal/error.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- **GDALBase** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
+- **gdal/srs.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **datasource.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **feature.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **CoordTransform** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **driver.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
+- **band.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **test_raster.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- **gdal/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
+- **SRSException** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- **GeometryCollection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **test_srs.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **envelope.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **gdal/prototypes/__init__.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/__init__.py`
+- **geojson.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- *... and 79 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (53 shared connections)
-- [Community 136](Community_136.md) (25 shared connections)
-- [Community 20](Community_20.md) (23 shared connections)
-- [Community 147](Community_147.md) (16 shared connections)
-- [Community 189](Community_189.md) (11 shared connections)
-- [Community 504](Community_504.md) (8 shared connections)
-- [Community 8](Community_8.md) (8 shared connections)
-- [Community 217](Community_217.md) (7 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 29](Community_29.md) (7 shared connections)
-- [Community 65](Community_65.md) (7 shared connections)
-- [Community 25](Community_25.md) (6 shared connections)
+- [Community 102](Community_102.md) (33 shared connections)
+- [Community 162](Community_162.md) (27 shared connections)
+- [Community 65](Community_65.md) (24 shared connections)
+- [Community 127](Community_127.md) (21 shared connections)
+- [Community 29](Community_29.md) (20 shared connections)
+- [Community 57](Community_57.md) (19 shared connections)
+- [Community 27](Community_27.md) (17 shared connections)
+- [Community 182](Community_182.md) (14 shared connections)
+- [Community 20](Community_20.md) (13 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 281](Community_281.md) (11 shared connections)
+- [Community 136](Community_136.md) (9 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/const.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
 
 ## Audit Trail
 
-- EXTRACTED: 429 (91%)
-- INFERRED: 41 (9%)
+- EXTRACTED: 522 (95%)
+- INFERRED: 26 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

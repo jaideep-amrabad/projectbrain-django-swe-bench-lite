@@ -1,43 +1,37 @@
 # Community 717
 
-> 14 nodes · cohesion 0.29
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **proxy_model_inheritance/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **MultiTableInheritanceProxyTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **proxy_model_inheritance/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ProxyModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ConcreteModelSubclass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ConcreteModelSubclassProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ProxyModelInheritanceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **.test_table_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **.test_model_subclass_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **.test_deletion_through_intermediate_proxy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Proxy model inheritance across apps can result in migrate not creating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Deleting an instance of a model proxying a multi-table inherited subclass…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **CursorWrapper** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **CursorDebugWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.debug_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **._execute_with_wrappers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.callproc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 106](Community_106.md) (2 shared connections)
-- [Community 361](Community_361.md) (2 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

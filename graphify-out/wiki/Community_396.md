@@ -1,63 +1,49 @@
 # Community 396
 
-> 29 nodes · cohesion 0.09
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DeferredAttribute** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **field_subclassing/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **ForeignKeyDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **CustomDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **ImageFileDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **CustomDescriptorField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **DescriptorClassTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **._check_parent_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._count_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.test_descriptor_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **The descriptor for the file attribute on the model instance. Return a FieldFile…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **Just like the FileDescriptor, but for ImageFields. The only difference is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- *... and 4 more nodes in this community*
+- **ManyToManySignalsTest** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **._initialize_signal_car()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **m2m_signals/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **m2m_signals/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Car** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Part** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **SportsCar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **._initialize_signal_person()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **.test_m2m_relations_add_remove_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_all_the_doors_off_of_cars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_alternative_ways()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_clear_all_parts_of_the_self_vw()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_clearing_removing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_give_the_self_vw_some_optional_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_remove_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_reverse_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_reverse_relation_with_custom_related_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_signals_when_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_with_self_add_fan()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_with_self_add_friends()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_m2m_relations_with_self_add_idols()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.test_pk_set_on_repeated_add_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **.m2m_changed_signal_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 208](Community_208.md) (2 shared connections)
-- [Community 239](Community_239.md) (2 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (89%)
-- INFERRED: 7 (11%)
+- EXTRACTED: 57 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,23 +1,25 @@
 # Community 1107
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_set_many_returns_empty_list_on_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **set_many() returns an empty list when all keys are inserted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **DependentChildAdminForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Issue #20522 Form to test child dependency on parent object's validation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 298](Community_298.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

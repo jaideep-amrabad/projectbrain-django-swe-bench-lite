@@ -1,58 +1,58 @@
 # Community 202
 
-> 24 nodes · cohesion 0.09
+> 52 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TestContextDecorator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.enable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **TestContextDecoratorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.save_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **object** (2 connections)
-- **A base class that can either be used as a context manager during tests or as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding DATABASE_ROUTERS should update the master router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **An exception is setUp() is reraised after disable() is called.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_cleanups_run_after_tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **BulkCreateTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **bulk_create/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **bulk_create/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **NoFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **NullableFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_nullable_fk_after_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **BigAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 100](Community_100.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 319](Community_319.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 597](Community_597.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 687](Community_687.md) (1 shared connections)
+- [Community 24](Community_24.md) (17 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 291](Community_291.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 149 (92%)
+- INFERRED: 13 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

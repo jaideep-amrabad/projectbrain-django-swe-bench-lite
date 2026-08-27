@@ -1,62 +1,66 @@
 # Community 74
 
-> 26 nodes · cohesion 0.12
+> 102 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Coalesce** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Least** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **LeastTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **CoalesceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_mixed_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_coalesce_workaround()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_alias_annotation_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_ignores_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_propagates_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_gt_two_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_all_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_decimal_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_one_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **Use the MAX function on SQLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Return the minimum expression. If any expression is null the return value is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Use the MIN function on SQLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Return, from left to right, the first non-null expression.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- *... and 1 more nodes in this community*
+- **TestGeneralAggregate** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **Aggregate** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- **Concat** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **test_aggregates.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **ArrayAgg** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **StringAgg** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **general.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **JSONBAgg** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **OrderableAggMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
+- **ConcatPair** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **TestAggregateDistinct** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **ConcatTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **AggregateTestModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **StatTestModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **.test_string_agg_array_agg_filter_in_subquery()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_string_agg_array_agg_ordering_in_subquery()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **BitAnd** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **BitOr** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **.test_array_agg_charfield_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **BoolAnd** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **BoolOr** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **aggregates/mixins.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
+- **.test_json_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_string_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_update_with_joined_field_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- *... and 77 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (11 shared connections)
-- [Community 17](Community_17.md) (7 shared connections)
-- [Community 69](Community_69.md) (3 shared connections)
-- [Community 102](Community_102.md) (3 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 110](Community_110.md) (2 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 188](Community_188.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 32](Community_32.md) (12 shared connections)
+- [Community 31](Community_31.md) (12 shared connections)
+- [Community 35](Community_35.md) (10 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 10](Community_10.md) (10 shared connections)
+- [Community 17](Community_17.md) (8 shared connections)
+- [Community 85](Community_85.md) (7 shared connections)
+- [Community 72](Community_72.md) (7 shared connections)
+- [Community 229](Community_229.md) (6 shared connections)
+- [Community 52](Community_52.md) (5 shared connections)
+- [Community 50](Community_50.md) (4 shared connections)
+- [Community 33](Community_33.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 237 (80%)
+- INFERRED: 61 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

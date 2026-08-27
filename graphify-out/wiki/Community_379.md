@@ -1,58 +1,61 @@
 # Community 379
 
-> 30 nodes · cohesion 0.09
+> 47 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **HttpResponseBase** (36 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **OSError** (6 connections)
-- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.test_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.test_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **._content_type_for_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- *... and 5 more nodes in this community*
+- **SelectTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **Select** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SeleniumTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_select()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_select_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.use_required_attribute()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.use_required_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._choice_has_empty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.select2_ajax_wait()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_forms_with_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_choices_constructor_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.use_required_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_inline_add_another_widgets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_choices_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_choices_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_choices_optgroup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_compare_to_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_doesnt_localize_option_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_optgroups_integer_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_label_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 863](Community_863.md) (4 shared connections)
-- [Community 766](Community_766.md) (2 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
-- [Community 295](Community_295.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1014](Community_1014.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 53](Community_53.md) (6 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 301](Community_301.md) (4 shared connections)
+- [Community 212](Community_212.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 156](Community_156.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 293](Community_293.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (88%)
-- INFERRED: 7 (12%)
+- EXTRACTED: 69 (82%)
+- INFERRED: 15 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

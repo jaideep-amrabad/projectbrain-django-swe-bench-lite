@@ -1,60 +1,52 @@
 # Community 524
 
-> 59 nodes · cohesion 0.05
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **serializers/test_data.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **test_natural.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **deserialize()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **serialize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **SerializerDoesNotExist** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **_load_serializers()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **register_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **BadSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **get_serializer()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **get_deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **unregister_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **natural_pk_mti_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **pk_with_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **get_serializer_formats()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **serializerTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **forward_ref_fk_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_fk_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_m2m_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_m2m_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_key_serializer_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_key_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **Deserializer** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **get_public_serializer_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- *... and 34 more nodes in this community*
+- **fields_for_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **apply_limit_choices_to_to_formfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Colour** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ModelToDictTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_empty_fields_to_fields_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_fields_for_model_applies_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_subclassed_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Return a dictionary containing form fields for the given model. ``fields`` is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return a dict containing the data in ``instance`` suitable for passing as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Apply limit_choices_to to the formfield's queryset if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **An argument of fields=() to fields_for_model should return an empty dictionary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Data for a ManyToManyField is a list rather than a lazy QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 106](Community_106.md) (20 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 407](Community_407.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 346](Community_346.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
+- [Community 93](Community_93.md) (7 shared connections)
+- [Community 53](Community_53.md) (3 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
+- [Community 1088](Community_1088.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
+- [Community 282](Community_282.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (83%)
-- INFERRED: 20 (17%)
+- EXTRACTED: 35 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

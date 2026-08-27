@@ -1,48 +1,36 @@
 # Community 764
 
-> 14 nodes · cohesion 0.19
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Transform** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **RegisterLookupMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._clear_cached_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.get_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.register_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._unregister_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **RegisterLookupMixin() is first so that get_lookup() and get_transform() first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_bilateral_transforms()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **inspectdb/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **CharFieldDbCollation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **JSONFieldColumnType** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **SpecialName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **TextFieldDbCollation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **UniqueTogether** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **ColumnTypes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **DigitsInColumnName** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **Message** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **People** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PeopleData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 216](Community_216.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

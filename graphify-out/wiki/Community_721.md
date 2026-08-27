@@ -1,38 +1,36 @@
 # Community 721
 
-> 13 nodes · cohesion 0.17
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **Entry** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **TestGetObjectFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestNoPubdateFeed** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.get_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
+- **ImageFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **get_img_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **.test_imagefield_annotate_with_bitmap_image_after_clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **.test_corrupted_image()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **.test_file_extension_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **.test_imagefield_annotate_with_image_after_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **.test_widget_attrs_accept_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **.test_widget_attrs_accept_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **skipUnless** (1 connections)
+- **This also tests the situation when Pillow doesn't detect the MIME type of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
 
 ## Relationships
 
-- [Community 200](Community_200.md) (6 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 214](Community_214.md) (2 shared connections)
+- [Community 231](Community_231.md) (5 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 53](Community_53.md) (3 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (72%)
-- INFERRED: 7 (28%)
+- EXTRACTED: 21 (84%)
+- INFERRED: 4 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

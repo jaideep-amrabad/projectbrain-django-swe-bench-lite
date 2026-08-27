@@ -1,61 +1,57 @@
 # Community 198
 
-> 55 nodes · cohesion 0.07
+> 52 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **model_formsets/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **MexicanRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Poem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AuthorMeeting** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BetterAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BookWithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ClassyMexicanRestaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Owner** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **OwnerProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **.test_inline_formsets_save_as_new()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- *... and 30 more nodes in this community*
+- **GeoIP2** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **geoip2/base.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **GeoIPTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- **test_geoip2.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- **._check_query()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **.country()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **GeoIP2Exception** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **.city()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **geoip2/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/__init__.py`
+- **.coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **.country_code()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **.country_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **.lon_lat()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **.test03_country()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- **.test04_city()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- **.lat_lon()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **resources.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
+- **City()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
+- **Country()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
+- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- **.test02_bad_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- **.test06_ipv6_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- **.test_check_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 241](Community_241.md) (43 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 110](Community_110.md) (2 shared connections)
-- [Community 243](Community_243.md) (2 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 225](Community_225.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 249](Community_249.md) (1 shared connections)
-- [Community 728](Community_728.md) (1 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 720](Community_720.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
 
 ## Audit Trail
 
-- EXTRACTED: 136 (80%)
-- INFERRED: 35 (20%)
+- EXTRACTED: 100 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

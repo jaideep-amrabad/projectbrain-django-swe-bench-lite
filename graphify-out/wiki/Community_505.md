@@ -1,50 +1,42 @@
 # Community 505
 
-> 22 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **HumanizeTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.humanize_tester()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturaltime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday_uses_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_html_ordinal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_inflection_for_timedelta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_apnumber()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intcomma_without_number_grouping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_l10n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturaltime_as_documented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_ordinal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **MockDateTime** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **#23340 -- Verify the documented behavior of humanize.naturaltime.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **Translation of '%d day'/'%d month'/… may differ depending on the context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **Allow html in output on i18n strings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 179](Community_179.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

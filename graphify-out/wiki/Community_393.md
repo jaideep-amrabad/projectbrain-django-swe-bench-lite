@@ -1,58 +1,57 @@
 # Community 393
 
-> 42 nodes · cohesion 0.06
+> 31 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **UniqueTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **DerivedBookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_image_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ExplicitPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **PriceForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ProductForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **DerivedPostForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **NoExtensionImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **OptionalImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **PostForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_explicitpk_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_explicitpk_unspecified()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_together_exclusion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_blank_foreign_key_with_radio()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_renderer_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_abstract_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_abstract_inherited_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 17 more nodes in this community*
+- **Operation** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **TestOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.migration_name_fragment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return whether or not a model may be migrated. This is a thin wrapper around…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return either a list of operations the actual operation should be replaced with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return a 3-tuple of class import path (or just name if it lives under…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Base class for migration operations. It's responsible for both mutating the in-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Take the state from the previous migration, and mutate it so that it matches…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Perform the mutation on the database schema in the normal (forwards) direction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Perform the mutation on the database schema in the reverse direction - e.g. if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Output a brief summary of what the action does.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **A filename part suitable for automatically naming a migration containing this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 139](Community_139.md) (31 shared connections)
-- [Community 563](Community_563.md) (4 shared connections)
-- [Community 364](Community_364.md) (4 shared connections)
-- [Community 222](Community_222.md) (3 shared connections)
-- [Community 392](Community_392.md) (3 shared connections)
-- [Community 714](Community_714.md) (2 shared connections)
-- [Community 282](Community_282.md) (2 shared connections)
-- [Community 986](Community_986.md) (1 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 48](Community_48.md) (8 shared connections)
+- [Community 152](Community_152.md) (2 shared connections)
+- [Community 527](Community_527.md) (2 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 585](Community_585.md) (1 shared connections)
+- [Community 642](Community_642.md) (1 shared connections)
+- [Community 853](Community_853.md) (1 shared connections)
+- [Community 854](Community_854.md) (1 shared connections)
+- [Community 827](Community_827.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (81%)
-- INFERRED: 20 (19%)
+- EXTRACTED: 50 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

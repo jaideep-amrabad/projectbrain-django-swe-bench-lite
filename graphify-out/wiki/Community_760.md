@@ -1,37 +1,36 @@
 # Community 760
 
-> 11 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **.is_active()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_cleansed_multivaluedict()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_frame_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.cleanse_special_types()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_post_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.user_can_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **Reject users with is_active=False. Custom user models that don't have that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **This filter is to add safety in production environments (i.e. DEBUG is False).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the keys in a MultiValueDict marked as sensitive with stars. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the values of POST parameters marked as sensitive with stars…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the values of variables marked as sensitive with stars (*********).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **PostgreSqlDbshellCommandTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.settings_to_cmd_args_env()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_sigint_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_accent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_crash_password_does_not_leak()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_nopass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_service()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_ssl_certificate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **skipUnless** (1 connections)
+- **SIGINT is ignored in Python and passed to psql to abort queries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Relationships
 
-- [Community 287](Community_287.md) (5 shared connections)
-- [Community 272](Community_272.md) (3 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
+- [Community 430](Community_430.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (76%)
-- INFERRED: 5 (24%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

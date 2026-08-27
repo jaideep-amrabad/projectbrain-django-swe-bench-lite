@@ -1,36 +1,33 @@
 # Community 870
 
-> 8 nodes · cohesion 0.36
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **CallableVariablesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **Doodad** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **test_callables.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **.test_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **.test_do_not_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **.test_do_not_call_and_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **max_lengths/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **MaxLengthORMTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (5 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (81%)
-- INFERRED: 4 (19%)
+- EXTRACTED: 18 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

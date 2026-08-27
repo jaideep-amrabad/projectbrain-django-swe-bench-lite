@@ -1,28 +1,30 @@
 # Community 1001
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **SetupTestDataIsolationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **In-memory data isolation is respected for model instances assigned to class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_book_name_deutsh()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_book_name_french()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **XViewMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **.test_no_auth_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **TestDataMixin** (1 connections)
+- **.test_callable_object_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **.test_xview_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **.test_xview_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
 
 ## Relationships
 
-- [Community 590](Community_590.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,24 +4,22 @@
 
 ## Key Concepts
 
-- **Favorites** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_create_models_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Models are created via the m2m relation if the remote model has a OneToOneField…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_implicit_savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **skipIf** (1 connections)
+- **MySQL implicitly rolls back savepoints when it deadlocks (#22291).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (2 shared connections)
-- [Community 402](Community_402.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

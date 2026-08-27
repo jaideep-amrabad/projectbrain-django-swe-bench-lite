@@ -1,35 +1,31 @@
 # Community 891
 
-> 8 nodes · cohesion 0.32
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- **.test_requires_system_checks_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
+- **ChoicesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_flatchoices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 579](Community_579.md) (2 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

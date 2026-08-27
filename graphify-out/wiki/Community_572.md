@@ -1,48 +1,44 @@
 # Community 572
 
-> 18 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **default_storage()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **Exception** (1 connections)
-- **Attempt to add a message to the request using the 'messages' app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return the message storage on the request if it exists, otherwise return an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``DEBUG`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``SUCCESS`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``WARNING`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return a lazy 'messages' context variable as well as 'DEFAULT_MESSAGE_LEVELS'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **Callable with the same interface as the storage classes. This isn't just…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **JsonlSerializerTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid foreign keys with a natural key throws a helpful error message, such as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message where one of a list of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message where a natural many-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Not iterable many-to-many field value throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **If there is an invalid primary key, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **If there is an invalid field value, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
 
 ## Relationships
 
-- [Community 493](Community_493.md) (6 shared connections)
-- [Community 240](Community_240.md) (4 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 239](Community_239.md) (3 shared connections)
-- [Community 215](Community_215.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
+- [Community 424](Community_424.md) (1 shared connections)
+- [Community 988](Community_988.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

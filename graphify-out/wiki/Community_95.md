@@ -1,63 +1,58 @@
 # Community 95
 
-> 99 nodes · cohesion 0.03
+> 86 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **SpatialReference** (81 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **SpatialRefTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **gis/utils/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
-- **.attr_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **add_srs_entry()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
-- **utils/srs.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
-- **.import_user_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.import_wkt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.test12_coordtransform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test_axis_order()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **._get_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._set_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.import_epsg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.test01_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test02_bad_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test03_get_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test04_proj()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test07_boolean_props()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test08_angular_linear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test09_authority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- *... and 74 more nodes in this community*
+- **MigrationGraph** (57 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **NodeNotFoundError** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **GraphTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **Node** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **NodeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **.forwards_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.add_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.backwards_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.iterative_dfs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.add_dummy_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **._generate_plan()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.leaf_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **._nodes_and_edges()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.remove_replaced_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.remove_replacement_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.validate_consistency()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **ExceptionTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
+- **.test_circular_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **.test_complex_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **.test_infinite_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **.test_iterative_dfs_complexity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **.test_missing_child_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **.test_missing_parent_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (14 shared connections)
-- [Community 31](Community_31.md) (7 shared connections)
-- [Community 38](Community_38.md) (6 shared connections)
-- [Community 193](Community_193.md) (6 shared connections)
-- [Community 61](Community_61.md) (5 shared connections)
-- [Community 120](Community_120.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 141](Community_141.md) (2 shared connections)
-- [Community 407](Community_407.md) (2 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 778](Community_778.md) (1 shared connections)
+- [Community 48](Community_48.md) (20 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
+- [Community 114](Community_114.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 107](Community_107.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
 
 ## Audit Trail
 
-- EXTRACTED: 173 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 150 (93%)
+- INFERRED: 11 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,65 +1,63 @@
 # Community 41
 
-> 147 nodes · cohesion 0.03
+> 141 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **ChangeListTests** (97 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **admin_changelist/tests.py** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **admin_changelist/admin.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **admin_changelist/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **test_date_hierarchy.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **._create_superuser()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **ChildAdmin** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **ConcertAdmin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DateHierarchyTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **._mocked_authenticated_request()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **EventAdmin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **SwallowAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_result_list_empty_changelist_value()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_html()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_set_empty_value_display_in_model_admin()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_set_empty_value_display_on_admin_site()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Musician** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **.assertDateParams()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_changelist_view_list_editable_changed_objects_uses_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_dynamic_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_no_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **pagination()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- **CustomPaginationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- *... and 122 more nodes in this community*
+- **Field** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **CharField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedMultipleChoiceField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **MultiValueField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **IntegerField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedMultipleChoiceFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **FileField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **BaseTemporalField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **BooleanField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComboField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **JSONField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._coerce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **DateField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **DateTimeField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **DecimalField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.run_validators()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **FloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- *... and 116 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (16 shared connections)
-- [Community 46](Community_46.md) (15 shared connections)
-- [Community 2](Community_2.md) (13 shared connections)
-- [Community 11](Community_11.md) (8 shared connections)
-- [Community 18](Community_18.md) (8 shared connections)
-- [Community 33](Community_33.md) (7 shared connections)
-- [Community 266](Community_266.md) (6 shared connections)
-- [Community 110](Community_110.md) (5 shared connections)
-- [Community 111](Community_111.md) (4 shared connections)
-- [Community 97](Community_97.md) (4 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
+- [Community 53](Community_53.md) (29 shared connections)
+- [Community 13](Community_13.md) (19 shared connections)
+- [Community 26](Community_26.md) (9 shared connections)
+- [Community 442](Community_442.md) (4 shared connections)
+- [Community 120](Community_120.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 682](Community_682.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 255](Community_255.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 374](Community_374.md) (2 shared connections)
+- [Community 293](Community_293.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 386 (88%)
-- INFERRED: 53 (12%)
+- EXTRACTED: 270 (95%)
+- INFERRED: 14 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

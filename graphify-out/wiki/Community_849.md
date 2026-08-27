@@ -1,35 +1,36 @@
 # Community 849
 
-> 9 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **FileSessionTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **FileSessionPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_configuration_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_invalid_key_backslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_invalid_key_forwardslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **SessionStore** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **A cache-based session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.clear_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 260](Community_260.md) (1 shared connections)
-- [Community 594](Community_594.md) (1 shared connections)
+- [Community 55](Community_55.md) (3 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 148](Community_148.md) (1 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 15 (83%)
+- INFERRED: 3 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

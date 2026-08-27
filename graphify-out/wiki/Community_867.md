@@ -1,36 +1,34 @@
 # Community 867
 
-> 8 nodes · cohesion 0.32
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **AdminEmailHandler** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.emit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.format_subject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.send_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_custom_exception_reporter_is_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Escape CR and LF characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **An exception log handler that emails log entries to site admins. If the request…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **FieldNamesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_local_field_long_column_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_M2M_long_column_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_db_column_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ending_with_underscore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_including_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **skipIf** (2 connections)
+- **#13711 -- Model check for long M2M column names when database has column name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **#13711 -- Model check for long column names when database does not support long…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Relationships
 
-- [Community 297](Community_297.md) (4 shared connections)
-- [Community 123](Community_123.md) (2 shared connections)
-- [Community 492](Community_492.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 652](Community_652.md) (1 shared connections)
+- [Community 117](Community_117.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

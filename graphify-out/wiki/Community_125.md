@@ -1,68 +1,60 @@
 # Community 125
 
-> 77 nodes · cohesion 0.03
+> 68 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **OGRGeomType** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- **MySQLGISSchemaEditor** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **DatabaseFeatures** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Polygon** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **spatialite/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **MySQLIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **postgis/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
-- **SpatiaLiteIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.centroid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **FlexibleFieldLookupDict** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **GeoFlexibleFieldLookupDict** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- **.test_geomtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.test_geomtype_25d()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- *... and 52 more nodes in this community*
+- **SQLCompiler** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_order_by()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.compile()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **SQLInsertCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.find_ordering_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_select()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **SQLDeleteCompiler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **._as_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_group_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_select_for_update_of_arguments()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.pre_sql_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.quote_name_unless_alias()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_default_columns()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_distinct()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_from_clause()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.results_iter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **SQLUpdateCompiler** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.execute_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **get_order_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.as_subquery_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.execute_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **._setup_joins()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (11 shared connections)
-- [Community 31](Community_31.md) (11 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 332](Community_332.md) (4 shared connections)
-- [Community 141](Community_141.md) (3 shared connections)
-- [Community 670](Community_670.md) (2 shared connections)
-- [Community 571](Community_571.md) (2 shared connections)
-- [Community 752](Community_752.md) (2 shared connections)
-- [Community 381](Community_381.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 547](Community_547.md) (1 shared connections)
-- [Community 99](Community_99.md) (1 shared connections)
+- [Community 2](Community_2.md) (19 shared connections)
+- [Community 85](Community_85.md) (6 shared connections)
+- [Community 173](Community_173.md) (3 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 174](Community_174.md) (1 shared connections)
+- [Community 889](Community_889.md) (1 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 133 (92%)
-- INFERRED: 12 (8%)
+- EXTRACTED: 148 (94%)
+- INFERRED: 10 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

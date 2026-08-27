@@ -1,27 +1,22 @@
 # Community 1723
 
-> 5 nodes · cohesion 0.40
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **PicklingSideEffect** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_locking_on_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **#20613/#18541 -- Ensures pickling is done outside of the lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **view_tests/tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/__init__.py`
 
 ## Relationships
 
-- [Community 907](Community_907.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

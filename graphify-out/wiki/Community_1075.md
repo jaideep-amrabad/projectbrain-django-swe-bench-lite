@@ -4,22 +4,21 @@
 
 ## Key Concepts
 
-- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_ascii_validator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_unicode_validator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **Test** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
+- **sample/tests/tests.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

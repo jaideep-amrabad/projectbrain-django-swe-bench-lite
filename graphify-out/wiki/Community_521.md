@@ -1,47 +1,47 @@
 # Community 521
 
-> 21 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **EarliestOrLatestTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **get_earliest_or_latest/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **get_earliest_or_latest/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- **TestFirstLast** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- **IndexErrorArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- **IndexErrorQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- **.test_index_error_not_suppressed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **.test_earliest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **.test_latest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **.test_latest_manual()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **.test_first()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **.test_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- **Emulates the case when some internal code raises an unexpected IndexError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **#23555 -- Unexpected IndexError exceptions in QuerySet iteration shouldn't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
-- **Tests for the earliest() and latest() objects methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.file_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.save_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.post_process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.read_manifest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Return the non-hashed URL in DEBUG mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Return the custom URL converter for the given file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Post process the given dictionary of files (called from collectstatic).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Return a hash of the file with the given name and optional content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
 
 ## Relationships
 
-- [Community 110](Community_110.md) (7 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 241](Community_241.md) (2 shared connections)
+- [Community 850](Community_850.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (76%)
-- INFERRED: 10 (24%)
+- EXTRACTED: 44 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

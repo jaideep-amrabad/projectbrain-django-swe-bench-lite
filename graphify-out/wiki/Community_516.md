@@ -1,60 +1,59 @@
 # Community 516
 
-> 23 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **gis/db/backends/oracle/operations.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **SpatialOperator** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
-- **gis/db/backends/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
-- **PostGISOperator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **SDORelate** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **SpatialiteNullCheckOperator** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.gis_operators()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
-- **SDODisjoint** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **SDODWithin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **SDOOperator** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.check_raster()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **This module contains the spatial lookup types, and the `get_geo_where_clause`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.check_relate_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **A collection of utility routines and classes used by the spatial backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
-- **Class encapsulating the behavior specific to a GIS operation (used by lookups).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
-- **.default_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
+- **proxy_models/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **proxy_models/models.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyModelAdminTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **proxy_models/admin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
+- **Issue** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyTrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **TrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **BaseUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Improvement** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **MyPersonProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Bug** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyImprovement** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **StateProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **LowerStatusPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **proxy_models/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **By specifying the 'proxy' Meta attribute, model subclasses can specify that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A model that has relation to a proxy model or to a proxy of proxy model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 99](Community_99.md) (4 shared connections)
-- [Community 32](Community_32.md) (3 shared connections)
-- [Community 670](Community_670.md) (2 shared connections)
-- [Community 689](Community_689.md) (2 shared connections)
-- [Community 60](Community_60.md) (2 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
-- [Community 551](Community_551.md) (1 shared connections)
-- [Community 540](Community_540.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
-- [Community 650](Community_650.md) (1 shared connections)
+- [Community 801](Community_801.md) (18 shared connections)
+- [Community 331](Community_331.md) (13 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 904](Community_904.md) (7 shared connections)
+- [Community 1093](Community_1093.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 94](Community_94.md) (4 shared connections)
+- [Community 1092](Community_1092.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 1094](Community_1094.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 106 (87%)
+- INFERRED: 16 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

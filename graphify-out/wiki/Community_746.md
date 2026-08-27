@@ -1,36 +1,31 @@
 # Community 746
 
-> 12 nodes · cohesion 0.24
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **LiveServerBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **StaticLiveServerChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **StaticLiveServerView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.test_collectstatic_emulation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.raises_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.urlopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **StaticLiveServerTestCase use of staticfiles' serve() allows it to discover…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.test_test_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.z()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.x()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.y()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **setter** (4 connections)
+- **Return the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Set the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Return a tuple of the point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Set the coordinates of the point with the given tuple.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
 
 ## Relationships
 
-- [Community 130](Community_130.md) (4 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
+- [Community 20](Community_20.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

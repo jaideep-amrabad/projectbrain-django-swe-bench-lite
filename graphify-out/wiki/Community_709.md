@@ -1,38 +1,43 @@
 # Community 709
 
-> 13 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **FilePathFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.assertChoices()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **field_tests/test_filepathfield.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **fix_os_paths()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_allow_folders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_fix_os_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_no_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_recursive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_recursive_folders_without_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_recursive_no_folders_or_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
-- **.test_nonexistent_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **autodiscover()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- **.test_autodiscover_modules_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_found_but_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_found_with_registry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_one_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_validate_registry_keeps_intact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_validate_registry_resets_after_erroneous_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_validate_registry_resets_after_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **Auto-discover INSTALLED_APPS modules and fail silently when not present. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 48](Community_48.md) (4 shared connections)
+- [Community 94](Community_94.md) (2 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
+- [Community 186](Community_186.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

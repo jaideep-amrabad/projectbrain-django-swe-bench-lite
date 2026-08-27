@@ -1,53 +1,56 @@
 # Community 401
 
-> 29 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DispatcherTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.assertTestIsClean()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **dispatch/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **Callable** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **receiver_1_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **garbage_collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cached_garbaged_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_disconnection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_garbage_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_multiple_registration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cannot_connect_no_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cannot_connect_non_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_connected_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_different_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_ignored_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_values_returned_by_disconnection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_uid_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_receiver_signal_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_receiver_single_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- *... and 4 more nodes in this community*
+- **RequestContext** (30 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **remote_user_auth_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **RequestContextTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_url_namespace01()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace02()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace_explicit_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace_no_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_copy_request_context_twice()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_include_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_url_namespace03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_modify_context_and_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_stack_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_context_comparable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **This subclass of template.Context automatically populates itself using the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.bind_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.new()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **Dummy view for remote user tests** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **#24273 -- Copy twice shouldn't raise an exception** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **#15721 -- ``{% include %}`` and ``RequestContext`` should work together.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **Optimized RequestContext construction (#7116).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Relationships
 
-- [Community 103](Community_103.md) (5 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 960](Community_960.md) (1 shared connections)
+- [Community 177](Community_177.md) (10 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 271](Community_271.md) (4 shared connections)
+- [Community 233](Community_233.md) (4 shared connections)
+- [Community 135](Community_135.md) (3 shared connections)
+- [Community 55](Community_55.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 630](Community_630.md) (1 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 535](Community_535.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 62 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

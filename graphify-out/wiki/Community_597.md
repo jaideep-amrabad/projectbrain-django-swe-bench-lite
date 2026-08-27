@@ -1,53 +1,48 @@
 # Community 597
 
-> 20 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **override_script_prefix** (16 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **URLPatternReverse** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **URLRedirectWithScriptAliasTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_non_urlsafe_prefix_with_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_prefix_braces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_prefix_format_char()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_prefix_parenthesis()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_script_name_escaping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.disable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_language_prefix_with_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_illegal_args_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_illegal_kwargs_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_mixing_args_and_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_no_args_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_patterns_reported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_reverse_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_urlpattern_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_view_not_found_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **Decorator or context manager to temporary override the script prefix.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **#21579 - LocaleMiddleware should respect the script prefix.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **one_to_one/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **one_to_one/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **MultiModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Director** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **ManualPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **RelatedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **School** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Waiter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_multiple_o2o()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **HiddenPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Pointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Target** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **ToFieldPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_hasattr_related_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Pointer2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **One-to-one relationships To define a one-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (13 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
+- [Community 421](Community_421.md) (14 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 698](Community_698.md) (4 shared connections)
+- [Community 1090](Community_1090.md) (2 shared connections)
+- [Community 1091](Community_1091.md) (2 shared connections)
+- [Community 1118](Community_1118.md) (2 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 202](Community_202.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 246](Community_246.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 52 (83%)
+- INFERRED: 11 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

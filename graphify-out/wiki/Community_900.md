@@ -1,34 +1,34 @@
 # Community 900
 
-> 7 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **TestData** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_memo()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Descriptor to provide TestCase instance isolation for attributes assigned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **DateTimeFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_lookup_date_with_use_tz()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_datetimefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_lookup_date_without_use_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_timefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **.test_datetimes_save_completely()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **requires_tz_support** (1 connections)
+- **DateTimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **TimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
 
 ## Relationships
 
-- [Community 685](Community_685.md) (2 shared connections)
-- [Community 554](Community_554.md) (1 shared connections)
-- [Community 590](Community_590.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (85%)
-- INFERRED: 2 (15%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

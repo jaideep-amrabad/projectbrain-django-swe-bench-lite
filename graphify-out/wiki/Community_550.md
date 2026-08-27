@@ -1,45 +1,46 @@
 # Community 550
 
-> 19 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **AlterModelTable** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RemoveConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Rename a model's table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **serializers/test_data.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **SerializerDataTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **data_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **data_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **fk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **fk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **generic_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **generic_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **im2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **im2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **im_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **im_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **inherited_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **inherited_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **m2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **m2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **o2o_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **o2o_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **pk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **pk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **A test spanning all the capabilities of all the serializers. This class defines…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
 
 ## Relationships
 
-- [Community 372](Community_372.md) (4 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 352](Community_352.md) (2 shared connections)
-- [Community 450](Community_450.md) (2 shared connections)
-- [Community 549](Community_549.md) (1 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 537](Community_537.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 583](Community_583.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (44%)
+- INFERRED: 18 (56%)
 - AMBIGUOUS: 0 (0%)
 
 ---

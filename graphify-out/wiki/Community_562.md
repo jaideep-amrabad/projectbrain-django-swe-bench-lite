@@ -1,46 +1,55 @@
 # Community 562
 
-> 19 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **get_ds_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestDS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestGeom** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestObj** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **strconvert()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.geometries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestGeomSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.test_ds_input_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **tuplize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Turn all nested sequences to tuples in given sequence.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Converts all keys in dictionary to str type.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Base testing object, turns keyword args into attributes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Object for testing GDAL data sources.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Testing object used for wrapping reference geometry data in GEOS/GDAL tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Each attribute of this object is a list of `TestGeom` instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Statement** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **MockReference** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **StatementTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_references_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_references_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_column_references()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_table_references()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Statement template and formatting parameters container. Allows keeping a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_column_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.references_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.rename_column_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 120](Community_120.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 465](Community_465.md) (1 shared connections)
+- [Community 145](Community_145.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 358](Community_358.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 431](Community_431.md) (2 shared connections)
+- [Community 536](Community_536.md) (2 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 638](Community_638.md) (1 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 540](Community_540.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 53 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

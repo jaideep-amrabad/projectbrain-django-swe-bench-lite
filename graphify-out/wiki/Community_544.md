@@ -1,50 +1,43 @@
 # Community 544
 
-> 19 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **TestUtils** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **parse_rst()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **admin_docs/test_utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **parse_docstring()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **AdminDocsSimpleTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
-- **.test_parse_rst_with_docstring_no_leading_line_feed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_description_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_parse_rst()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_title_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_initial_header_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_parse_docstring()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_publish_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **Parse out the parts of a docstring. Return (title, body, metadata).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **Convert the string from reST to an XHTML fragment.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **skipUnless** (1 connections)
-- **Django shouldn't break the default role for interpreted text when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **This __doc__ output is required for testing. I copied this example from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **parse_rst() should use `cmsreference` as the default role.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **BashCompletionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **._run_autocomplete()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **._user_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_app_completion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_completed_subcommand()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_custom_command()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_django_admin_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_manage_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_subcommands()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Testing the Python level bash completion code. This requires setting up the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Set the environment and the list of command line arguments. This sets the bash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **django_admin.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **manage.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **A custom command can autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Subcommands can be autocompleted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Show option flags in case a subcommand is completed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **No errors, just an empty list if there are no autocomplete options** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Application names will be autocompleted for an AppCommand** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
 
 ## Relationships
 
-- [Community 98](Community_98.md) (3 shared connections)
-- [Community 165](Community_165.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 344](Community_344.md) (2 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

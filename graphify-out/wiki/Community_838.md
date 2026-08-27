@@ -1,34 +1,31 @@
 # Community 838
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ModelsPermissionsChecksTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_clashing_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_custom_permission_codename_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_custom_permission_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_empty_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_model_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_non_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_verbose_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **ThreadTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_closing_non_shared_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_connections_thread_local()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_pass_connection_between_threads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **The connections are different for each thread (#17258).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **A connection can be passed from one thread to the other (#17258).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **A connection that is not explicitly shareable cannot be closed by another…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_thread_sharing_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

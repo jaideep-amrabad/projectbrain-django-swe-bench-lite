@@ -1,60 +1,53 @@
 # Community 389
 
-> 30 nodes · cohesion 0.07
+> 32 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **test/runner.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **test_parallel.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **reorder_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ExceptionThatFailsUnpickling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **RemoteTestResultTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.test_add_failing_subtests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **RemoteTestRunner** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ParallelTestRunnerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **SampleFailingSubtest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **partition_suite_by_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_pickle_errors_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **_init_worker()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **_run_subsuite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.dummy_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **Run tests and record everything but don't display anything. The implementation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Switch to databases dedicated to this worker. This helper lives at module-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Run a suite of tests with a RemoteTestRunner and return a RemoteTestResult.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Reorder a test suite by test type. `classes` is a sequence of types All tests…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Partition a test suite by test type. Also prevent duplicated tests. classes is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **Exception** (1 connections)
-- **skipUnless** (1 connections)
-- *... and 5 more nodes in this community*
+- **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestContextDecoratorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_finders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_second()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_directory_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **object** (2 connections)
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_ROOT setting should be reflected in the base_location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_PERMISSIONS setting should be reflected in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_DIRECTORY_PERMISSIONS setting should be reflected in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding DATABASE_ROUTERS should update the master router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 345](Community_345.md) (7 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 578](Community_578.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 165](Community_165.md) (3 shared connections)
-- [Community 922](Community_922.md) (3 shared connections)
-- [Community 552](Community_552.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 400](Community_400.md) (2 shared connections)
-- [Community 861](Community_861.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 163](Community_163.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 531](Community_531.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 45 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,49 @@
 # Community 325
 
-> 36 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **BaseArchive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.target_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Exception** (1 connections)
-- **If the file in the archive has some permissions (this assumes a file won't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- *... and 11 more nodes in this community*
+- **inclusion.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_tag** (24 connections)
+- **Expected inclusion_no_params __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **Expected inclusion_unlimited_args __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_explicit_no_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_with_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_default_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_param_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_only_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_only_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_params_and_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_tag_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_tag_without_context_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_two_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_two_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_unlimited_args_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 754](Community_754.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
+- EXTRACTED: 73 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

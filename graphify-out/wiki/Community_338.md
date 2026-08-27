@@ -1,60 +1,49 @@
 # Community 338
 
-> 72 nodes · cohesion 0.05
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **delete/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **delete/models.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeletionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **FastDeleteTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **R** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteTop** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericDeleteBottom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteBottom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- *... and 47 more nodes in this community*
+- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **BaseArchive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.target_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **Exception** (1 connections)
+- **If the file in the archive has some permissions (this assumes a file won't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 375](Community_375.md) (21 shared connections)
-- [Community 115](Community_115.md) (8 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 422](Community_422.md) (3 shared connections)
-- [Community 435](Community_435.md) (2 shared connections)
-- [Community 117](Community_117.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
-- [Community 185](Community_185.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 126](Community_126.md) (7 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (76%)
-- INFERRED: 44 (24%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

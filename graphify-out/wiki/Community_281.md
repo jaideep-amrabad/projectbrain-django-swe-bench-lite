@@ -4,47 +4,58 @@
 
 ## Key Concepts
 
-- **ViewTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **._assert_allows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **._assert_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options_for_get_and_post_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options_for_get_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options_for_post_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_args_kwargs_request_on_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_calling_more_than_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_and_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_and_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_no_init_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **A view can't be accidentally instantiated before deployment** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_class_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_dispatch_decoration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_head_no_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_invalid_keyword_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_no_init_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_pathological_http_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_setup_get_and_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which supplies a GET method also responds correctly to HEAD.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which supplies no GET method responds to HEAD with HTTP 405.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which only allows both GET and POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **gis_tests/test_data.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **test_geom.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **DataSourceTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **TestDataMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **get_ds_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestDS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestGeom** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestObj** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **strconvert()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.geometries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestGeomSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.test01_valid_shp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test02_invalid_shp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test03a_layers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test03b_layer_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test04_features()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test05_geometries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test07_integer_overflow()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test_ds_input_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **tuplize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.test03c_layer_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **Testing valid SHP Data Source files.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
 - *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 129](Community_129.md) (5 shared connections)
+- [Community 70](Community_70.md) (11 shared connections)
+- [Community 162](Community_162.md) (4 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 - [Community 8](Community_8.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 85 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

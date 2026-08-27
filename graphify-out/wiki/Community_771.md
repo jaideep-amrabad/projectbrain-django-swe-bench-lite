@@ -1,33 +1,36 @@
 # Community 771
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **TranslationCatalog** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Simulate a dict for DjangoTranslation._catalog so as multiple catalogs with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.plural()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **SerializerRegistrationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_builtin_serializers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_get_unknown_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_unregister()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Registering a new serializer populates the full registry. Refs #14823** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Unregistering a serializer doesn't cause the registry to be repopulated. Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Requesting a list of serializer formats populates the registry** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **#15889: get_serializer('nonsense') raises a SerializerDoesNotExist** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_get_unknown_deserializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_unregister_unknown_serializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 535](Community_535.md) (2 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

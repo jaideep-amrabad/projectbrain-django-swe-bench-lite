@@ -1,29 +1,35 @@
 # Community 914
 
-> 7 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **NumpyTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
-- **.test_numpy_array_index01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
-- **.test_numpy_array_index02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
-- **setup** (2 connections)
-- **skipIf** (1 connections)
-- **Numpy's array-index syntax allows a template to access a certain item of a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
-- **Fail silently when the array index is out of range.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **SiteManager** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.get_current()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **._get_site_by_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **._get_site_by_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **Return the current Site based on the SITE_ID in the project's settings. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **Clear the ``Site`` object cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

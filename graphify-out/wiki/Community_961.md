@@ -1,30 +1,34 @@
 # Community 961
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **NonDjangoTemplatesDebugViewTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_not_found_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_400_bad_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_403()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Relationships
 
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 - [Community 6](Community_6.md) (1 shared connections)
-- [Community 272](Community_272.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 582](Community_582.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

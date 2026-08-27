@@ -1,30 +1,30 @@
 # Community 956
 
-> 6 nodes · cohesion 0.53
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **RequestFactoryStateTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.common_test_that_should_always_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_request_after_client()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_request_after_client_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Regression tests for #15929.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **sessions.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **check_session_cookie_httponly()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **check_session_cookie_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **_session_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **_session_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **add_httponly_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **add_session_cookie_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 
 ## Relationships
 
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 496](Community_496.md) (2 shared connections)
 - [Community 6](Community_6.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

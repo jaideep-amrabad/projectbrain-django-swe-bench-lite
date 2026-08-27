@@ -4,26 +4,24 @@
 
 ## Key Concepts
 
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **DatabaseWrapperTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_initialization_class_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_initialization_display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **The "initialization" class attributes like client_class and creation_class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Relationships
 
-- [Community 91](Community_91.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

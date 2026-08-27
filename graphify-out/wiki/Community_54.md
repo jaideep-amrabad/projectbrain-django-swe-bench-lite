@@ -1,61 +1,63 @@
 # Community 54
 
-> 148 nodes · cohesion 0.03
+> 119 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **SchemaTests** (204 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **schema/tests.py** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **schema/models.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **.column_classes()** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **skipUnless** (16 connections)
-- **.get_constraints_for_column()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **schema/fields.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **CustomManyToManyField** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **._test_m2m_create()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_create_through()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_through_alter()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **MediumBlobField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **.test_add_binaryfield_mediumblob()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_datefield_and_datetimefield_use_effective_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_db_collation_textfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_db_constraint()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_namespaced_db_table_foreign_key_reference()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorCharFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorTextFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithDefaultHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- *... and 123 more nodes in this community*
+- **admin_widgets/tests.py** (65 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **admin_widgets/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **widgetadmin.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- **ForeignKeyRawIdWidgetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Band** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **AdminForeignKeyRawIdWidget** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminFileWidgetTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **HorizontalVerticalFilterSeleniumTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminWidgetSeleniumTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **ManyToManyRawIdWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Member** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **DateTimePickerSeleniumTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Advisor** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Bee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **AdminForeignKeyWidgetChangeList** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminRawIdWidgetSeleniumTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_calendar_show_date_from_input()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **DateTimePickerShortcutsSeleniumTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Individual** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Inventory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Profile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **School** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- *... and 94 more nodes in this community*
 
 ## Relationships
 
-- [Community 151](Community_151.md) (51 shared connections)
-- [Community 81](Community_81.md) (29 shared connections)
-- [Community 575](Community_575.md) (17 shared connections)
+- [Community 12](Community_12.md) (19 shared connections)
 - [Community 0](Community_0.md) (11 shared connections)
-- [Community 28](Community_28.md) (11 shared connections)
-- [Community 823](Community_823.md) (9 shared connections)
-- [Community 150](Community_150.md) (7 shared connections)
-- [Community 18](Community_18.md) (7 shared connections)
-- [Community 76](Community_76.md) (6 shared connections)
-- [Community 24](Community_24.md) (5 shared connections)
-- [Community 102](Community_102.md) (4 shared connections)
-- [Community 185](Community_185.md) (4 shared connections)
+- [Community 4](Community_4.md) (11 shared connections)
+- [Community 346](Community_346.md) (9 shared connections)
+- [Community 364](Community_364.md) (7 shared connections)
+- [Community 126](Community_126.md) (6 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 94](Community_94.md) (4 shared connections)
+- [Community 231](Community_231.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 454 (92%)
-- INFERRED: 41 (8%)
+- EXTRACTED: 239 (87%)
+- INFERRED: 36 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,62 @@
 # Community 294
 
-> 39 nodes · cohesion 0.09
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **gis/forms/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **gis/forms/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
-- **gis/forms/widgets.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **GeometryField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **BaseGeometryWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **OpenLayersWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **OSMWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **GeometryWidgetTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **GeometryCollectionField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **LineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiLineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiPointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiPolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **PointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **PolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.test_custom_serialization_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- *... and 14 more nodes in this community*
+- **override** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **I18NViewTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **DjangoJSONEncoderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_i18n_different_non_english_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_english_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_BMP_char()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_english_default_english_userpref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_fallback_language_plural()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_fallback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_unknown_package_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsoni18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsoni18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_lazy_string_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_get_text_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_i18n_english_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_with_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_USE_I18N_False()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ContextDecorator** (1 connections)
+- **.test_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 32](Community_32.md) (10 shared connections)
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 47](Community_47.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 843](Community_843.md) (2 shared connections)
+- [Community 115](Community_115.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 142](Community_142.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 153](Community_153.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (98%)
+- EXTRACTED: 81 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 

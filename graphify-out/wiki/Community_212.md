@@ -1,57 +1,60 @@
 # Community 212
 
-> 34 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **timesince()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **TimesinceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **utils_tests/test_timesince.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timesince.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_second_before_equal_first_humanize_time_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Avoid text wrapping in the middle of a phrase by adding non-breaking spaces…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **Take two datetime objects and return the time between d and now as a nicely…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **Like timesince, but return a string measuring the time until the given time.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **AdminSeleniumTestCase** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **test_widgets.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.wait_page_loaded()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_page_ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_and_switch_to_popup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.deselect_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.select_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.test_textarea_trailing_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block until the page is ready.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block until a new page has loaded and is ready.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Select the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Deselect the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 174](Community_174.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 110](Community_110.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 919](Community_919.md) (1 shared connections)
-- [Community 920](Community_920.md) (1 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 379](Community_379.md) (3 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 509](Community_509.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 87 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 72 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

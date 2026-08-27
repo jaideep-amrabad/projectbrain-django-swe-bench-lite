@@ -1,62 +1,52 @@
 # Community 463
 
-> 37 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **i18n/tests.py** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **SafeString** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- **ResolutionOrderI18NTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **i18n/forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- **i18n/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- **CompanyForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- **Company** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- **TestModels** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.assertGettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_localized_as_text_as_hidden_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **LocalePathsResolutionOrderI18NTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TestModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- **.test_app_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **LocaleMiddlewareTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationFallbackI18NTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **AppModuleStub** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **AppResolutionOrderI18NTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **DjangoFallbackResolutionOrderI18NTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_safestr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_sparse_territory_catalog()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **UtilsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- **.test_django_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_locale_paths_override_app_translation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_locale_paths_translation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- *... and 12 more nodes in this community*
+- **FileBackendTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **LocmemBackendTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **ConsoleBackendTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_console_stream_kwarg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **FileBackendPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_file_sessions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_locmem_shared_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_validate_multiline_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Make sure that the locmen backend populates the outbox.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Make sure opening a connection creates a new file** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (22 shared connections)
-- [Community 116](Community_116.md) (15 shared connections)
-- [Community 72](Community_72.md) (10 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 174](Community_174.md) (7 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 46](Community_46.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 374](Community_374.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
+- [Community 168](Community_168.md) (7 shared connections)
+- [Community 340](Community_340.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 113](Community_113.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (96%)
-- INFERRED: 6 (4%)
+- EXTRACTED: 45 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

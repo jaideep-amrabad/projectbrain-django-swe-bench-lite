@@ -1,48 +1,40 @@
 # Community 624
 
-> 16 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ExtractorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._assertPoLocComment()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **MultipleLocaleExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **NoSettingsExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **NoWrapExtractorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_po_file_encoding_when_updating()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._get_token_line_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertMsgStr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_all_locales()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **skipUnless** (2 connections)
-- **.test_multiple_locales()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_no_settings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_no_wrap_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_no_wrap_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Update of PO file doesn't corrupt it with non-UTF-8 encoding on Windows…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **When the `locale` flag is absent, all dirs from the parent locale dir are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **FieldFlagsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_all_field_types_should_have_flags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_m2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_o2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_o2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_a_concrete_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_a_has_rel_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_an_editable_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_object_should_have_auto_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_field_names_should_always_be_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_hidden_flag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_model_and_reverse_model_should_equal_on_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_non_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_non_editable_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 584](Community_584.md) (5 shared connections)
-- [Community 625](Community_625.md) (4 shared connections)
-- [Community 712](Community_712.md) (4 shared connections)
-- [Community 483](Community_483.md) (2 shared connections)
-- [Community 942](Community_942.md) (2 shared connections)
-- [Community 983](Community_983.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 1034](Community_1034.md) (1 shared connections)
-- [Community 465](Community_465.md) (1 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

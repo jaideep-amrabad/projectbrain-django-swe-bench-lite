@@ -1,78 +1,53 @@
 # Community 218
 
-> 74 nodes · cohesion 0.04
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **views/static.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **FileResponse** (25 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **tests/test_static.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **safe_join()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **serve()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **view_tests/urls.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/urls.py`
-- **filesystem.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **SuspiciousFileOperation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **parse_http_date()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **urls/static.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- **Loader** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **FileResponseTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **serve()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/views.py`
-- **test_fileresponse.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **staticfiles/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/urls.py`
-- **get_app_template_dirs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- **test_os_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **app_directories.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **directory_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **was_modified_since()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **staticfiles_urlpatterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/urls.py`
-- **.get_template_sources()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **builtin_server/views.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
-- **.set_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Loader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- *... and 49 more nodes in this community*
+- **OptimizerTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.assertOptimizesTo()** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_alter_alter_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_delete_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_delete_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_no_reordering_of_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_reordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_reordering_circular_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_optimize_through_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_rename_model_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_index_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_owrt_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_table_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_unique_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_index_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_index_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (24 shared connections)
-- [Community 0](Community_0.md) (17 shared connections)
-- [Community 2](Community_2.md) (15 shared connections)
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 11](Community_11.md) (8 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 380](Community_380.md) (6 shared connections)
-- [Community 201](Community_201.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 44](Community_44.md) (4 shared connections)
-- [Community 902](Community_902.md) (4 shared connections)
-- [Community 208](Community_208.md) (3 shared connections)
+- [Community 831](Community_831.md) (11 shared connections)
+- [Community 981](Community_981.md) (6 shared connections)
+- [Community 48](Community_48.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 643](Community_643.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/views.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/urls/helper.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 235 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 100 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

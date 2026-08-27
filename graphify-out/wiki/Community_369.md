@@ -1,55 +1,60 @@
 # Community 369
 
-> 31 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **PasswordResetFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **PasswordResetForm** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.create_dummy_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.get_users()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_inactive_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_html_email_template_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_plaintext_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **_unicode_ci_compare()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_nonexistent_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_subject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_preserve_username_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_domain_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_domain_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Test the PasswordResetForm.save() method with no html_email_template_name…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Send a django.core.mail.EmailMultiAlternatives to `to_email`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Perform case-insensitive comparison of two identifiers, using the recommended…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Given an email, return matching user(s) who should receive a reset. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- *... and 6 more nodes in this community*
+- **WSGIServer** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **LiveServerThread** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.run()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **WSGIServerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **LiveServerThreadTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **ThreadedWSGIServer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.test_broken_pipe_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **LiveServerSingleThread** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **FailingLiveServerThread** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **is_broken_pipe_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **._create_server()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **._create_server()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **BaseHTTPServer that implements the Python WSGI protocol** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **A threaded version of the WSGIServer** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.terminate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Thread for running a live http server while the tests are running.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Set up the live server and databases, and then loop over handling HTTP requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **WSGIServer handles broken pipe errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.test_server_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **._create_server()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Relationships
 
-- [Community 239](Community_239.md) (4 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 445](Community_445.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 149](Community_149.md) (1 shared connections)
+- [Community 29](Community_29.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 284](Community_284.md) (4 shared connections)
+- [Community 289](Community_289.md) (2 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 348](Community_348.md) (2 shared connections)
+- [Community 539](Community_539.md) (1 shared connections)
+- [Community 759](Community_759.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 402](Community_402.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 46 (82%)
+- INFERRED: 10 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

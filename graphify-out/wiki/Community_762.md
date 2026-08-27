@@ -1,35 +1,35 @@
 # Community 762
 
-> 11 nodes · cohesion 0.27
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **locks.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_fd()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **OVERLAPPED** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **unlock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_OFFSET** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_OFFSET_UNION** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Structure** (2 connections)
-- **Portable file locking utilities. Based partially on an example by Jonathan…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Get a filedescriptor from something which could be a file or an fd.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Union** (1 connections)
+- **IntegerFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_localized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_big_num()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_float()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.test_integerfield_unicode_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **Class-defined widget is not overwritten by __init__() (#22245).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **A localized IntegerField's widget renders to a text input without any number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
 
 ## Relationships
 
-- [Community 295](Community_295.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

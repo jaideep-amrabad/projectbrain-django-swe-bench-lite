@@ -1,64 +1,58 @@
 # Community 445
 
-> 40 nodes · cohesion 0.07
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **mail/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EmailMultiAlternatives** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **send_mail()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail_managers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail_admins()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **sendtestemail.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.test_manager_and_admin_mail_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_connection_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **send_mass_mail()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **.test_empty_admins()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **FakeAUTHSMTPConnection** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.email_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.test_wrong_admins_managers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **FakeSMTPChannel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart_with_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.attach_alternative()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Send an email to this user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **mail/backends/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
-- **Send a message to the managers, as defined by the MANAGERS setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **Easy wrapper for sending a single message to a recipient list. All members of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **Given a datatuple of (subject, message, from_email, recipient_list), send each…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- *... and 15 more nodes in this community*
+- **.setUpClass()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._databases_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._databases_support_transactions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **connections_support_transactions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_teardown()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._rollback_atomics()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._pre_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._enter_atomics()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._post_teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_specified_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_transaction_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **._should_reload_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_teardown()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._reset_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_empty_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **._should_check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **EmptyDefaultDatabaseTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Return whether or not all (or specified) connections support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Open atomic blocks for multiple databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Rollback atomic blocks opened by the previous method.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 297](Community_297.md) (15 shared connections)
-- [Community 206](Community_206.md) (14 shared connections)
-- [Community 144](Community_144.md) (10 shared connections)
-- [Community 289](Community_289.md) (6 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 302](Community_302.md) (3 shared connections)
-- [Community 639](Community_639.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 0](Community_0.md) (20 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 284](Community_284.md) (2 shared connections)
+- [Community 790](Community_790.md) (1 shared connections)
+- [Community 163](Community_163.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 76 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

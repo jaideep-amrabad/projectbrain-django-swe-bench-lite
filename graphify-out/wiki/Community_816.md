@@ -1,34 +1,37 @@
 # Community 816
 
-> 10 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **MultipleLocaleActivationTransTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.get_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_template_tags_pgettext()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_single_locale_activation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_multiple_locale_deactivate_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_multiple_locale_direct_switch_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_multiple_locale_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **MultipleLocaleActivationTranslateTagTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **{% translate %} takes message contexts into account (#14806).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **Simple baseline behavior with one locale for all the supported i18n constructs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **CPointerBase** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **test_ptr.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **CPointerBaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **ptr.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **.ptr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **setter** (1 connections)
+- **Free the memory used by the C++ object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **Base class for objects that have a pointer access property that controls access…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **.test_destructor_catches_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (6 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

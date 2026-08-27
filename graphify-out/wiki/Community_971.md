@@ -1,24 +1,25 @@
 # Community 971
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **OrderWrt** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **fields/proxy.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **Field-like classes that aren't really fields. It's easier to use objects that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **A proxy for the _order database field that is used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- **EmailFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_email_regexp_for_performance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_min_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_strip_on_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_unable_to_set_strip_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
 
 ## Audit Trail
 

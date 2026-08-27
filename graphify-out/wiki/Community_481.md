@@ -1,62 +1,46 @@
 # Community 481
 
-> 27 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **smart_urlquote()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **parse_qsl()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **ParseQSLBackportTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_multivaluedict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_smart_urlquote()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **.test_parse_qsl()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parse_qsl_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parse_qsl_max_num_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_custom_iterable_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_containing_empty_sequence_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_containing_sequence_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_containing_sequence_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_containing_tuple_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_with_bytearray()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_with_bytes_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_with_sequence_of_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_none_in_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_none_in_sequence()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **Quote a URL if it isn't already quoted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- *... and 2 more nodes in this community*
+- **_AssertTemplateUsedContext** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_AssertNumQueriesContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_AssertTemplateNotUsedContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateNotUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_template_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that the template with the provided name was used in rendering the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.on_template_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 45](Community_45.md) (5 shared connections)
-- [Community 239](Community_239.md) (5 shared connections)
-- [Community 148](Community_148.md) (3 shared connections)
-- [Community 140](Community_140.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 297](Community_297.md) (1 shared connections)
-- [Community 225](Community_225.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
+- [Community 417](Community_417.md) (1 shared connections)
+- [Community 402](Community_402.md) (1 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

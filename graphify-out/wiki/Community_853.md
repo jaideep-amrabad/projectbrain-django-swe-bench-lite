@@ -1,31 +1,32 @@
 # Community 853
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **A simple cookie-based session storage implementation. The session key is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **Run Python code in a context suitable for doing versioned ORM operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.noop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 
 ## Relationships
 
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

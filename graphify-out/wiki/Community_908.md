@@ -1,30 +1,36 @@
 # Community 908
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **TestIsBoundBehavior** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_customize_management_form_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_empty_forms_are_unbound()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_form_errors_are_caught_by_formset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_management_form_invalid_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_no_data_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_with_management_data_attrs_work_fine()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **template_tests/views.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **template_response_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **.test_full_dec_templateresponse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **snark()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client_action()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **All methods of middleware are called for TemplateResponses in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

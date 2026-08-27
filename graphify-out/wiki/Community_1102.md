@@ -1,19 +1,20 @@
 # Community 1102
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **._perform_invalid_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **All the builtin backends should warn (except memcached that should error) on…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **cancel.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **handleClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
 
 ## Relationships
 
-- [Community 298](Community_298.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
 
 ## Audit Trail
 

@@ -1,26 +1,30 @@
 # Community 963
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **core.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosX()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosY()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **quickElement()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **removeChildren()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **CallbackFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **CallbackFilterTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_passes_on_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_sense()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **A logging filter that checks the return value of a given callable (which takes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 29](Community_29.md) (3 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

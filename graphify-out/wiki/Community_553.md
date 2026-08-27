@@ -1,45 +1,43 @@
 # Community 553
 
-> 19 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **BrokenLinkEmailsMiddleware** (16 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **BrokenLinkEmailsMiddlewareTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.is_ignorable_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.is_internal_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.test_referer_equal_to_requested_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_referer_equal_to_requested_url_without_trailing_slash_when_append_slash_is_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_referer_equal_to_requested_url_without_trailing_slash_when_append_slash_is_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_404_error_reporting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_404_error_reporting_ignored_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_404_error_reporting_no_referer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_referer_equal_to_requested_url_on_another_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Send broken link emails for relevant 404 NOT FOUND responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **Return True if the referring URL is the same domain as the current request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **Return True if the given request *shouldn't* notify the site managers according…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.get_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_custom_request_checker()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Some bots set the referer to the current URL to avoid being blocked by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **TestDebugSQL** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **._test_output()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorSetUpTestDataTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_setupclass_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_normal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_verbose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
-- [Community 445](Community_445.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (95%)
+- EXTRACTED: 39 (95%)
 - INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 

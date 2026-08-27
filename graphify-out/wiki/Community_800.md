@@ -1,36 +1,36 @@
 # Community 800
 
-> 10 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **assert_and_parse_html()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._assert_contains()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertContains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertHTMLEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertHTMLNotEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertNotContains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that a response indicates that some content was retrieved successfully,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertInHTML()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that two HTML snippets are semantically the same. Whitespace in most…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that two HTML snippets are not semantically equivalent.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_traverse_GFK()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_charfield_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_generic_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_nullable_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_fk_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_nonint_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **A 'content_object' can be traversed with prefetch_related() and get to related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 577](Community_577.md) (1 shared connections)
+- [Community 292](Community_292.md) (8 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
+- [Community 373](Community_373.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 14 (67%)
+- INFERRED: 7 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

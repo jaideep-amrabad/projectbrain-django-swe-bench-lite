@@ -1,50 +1,50 @@
 # Community 514
 
-> 21 nodes · cohesion 0.16
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._remake_table()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_db_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.delete_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._is_referenced_by_fk_constraint()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.add_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._collate_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Shortcut to transform a model from old_model into new_model This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Remove a field from a model. Usually involves deleting a column, but for M2Ms…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Perform a "physical" (non-ManyToMany) field update.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Alter M2Ms to repoint their to= endpoints.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Return whether or not the provided table name is referenced by another one. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **FileFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **Document** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_move_temporary_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_abstract_filefield_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_clearable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_delete_when_file_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_media_root_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_open_returns_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_unique_when_same_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_refresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **skipIf** (1 connections)
+- **FileField.model returns the concrete model for fields defined in an abstract…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FileField.save_form_data() will clear its instance attribute value if passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FileField.save_form_data() considers None to mean "no change" rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FileField.save_form_data(), if passed a truthy value, updates its instance…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **Calling delete on an unset FileField should not call the file deletion process,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **A FileField with unique=True shouldn't allow two instances with the same name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **The temporary uploaded file is moved rather than copied to the destination.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FieldField.open() returns self so it can be used as a context manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 161](Community_161.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 241](Community_241.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 37 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

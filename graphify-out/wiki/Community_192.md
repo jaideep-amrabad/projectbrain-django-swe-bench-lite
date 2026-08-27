@@ -1,61 +1,53 @@
 # Community 192
 
-> 33 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ForeignObject** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_unique_target()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_related_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_extra_descriptor_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_instance_value_for_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.test_add_foreign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.resolve_related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_to_fields_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_extra_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_foreign_related_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_local_related_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Get path from the related model to this field's model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.contribute_to_related_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.foreign_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.local_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- *... and 8 more nodes in this community*
+- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **SerializeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_field_save_and_delete_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_image_after_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Dimensions are updated correctly in various situations.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_field_save_and_delete_methods()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Enforce serialization of TestCases that share a common resource. Define a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Tests assigning an image field through the model's constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests behavior when image is not passed in constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests assigning an image in Manager.create().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Assigning ImageField to None clears dimensions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests assignment using the field's save method and deletion using the field's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Mixin class to provide common functionality to ImageField test classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 151](Community_151.md) (7 shared connections)
-- [Community 410](Community_410.md) (3 shared connections)
-- [Community 150](Community_150.md) (3 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
+- [Community 767](Community_767.md) (14 shared connections)
+- [Community 916](Community_916.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 430](Community_430.md) (1 shared connections)
-- [Community 248](Community_248.md) (1 shared connections)
-- [Community 491](Community_491.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 790](Community_790.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (89%)
-- INFERRED: 7 (11%)
+- EXTRACTED: 50 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

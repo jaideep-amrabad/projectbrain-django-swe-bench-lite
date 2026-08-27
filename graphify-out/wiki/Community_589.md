@@ -1,40 +1,46 @@
 # Community 589
 
-> 18 nodes · cohesion 0.21
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **FirstOfTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **setup** (16 connections)
-- **.test_all_false_arguments_asvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **PrefixNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **StaticNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_simple()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **do_static()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **get_media_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **get_static_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Class method to parse prefix node and return a Node.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Join the given path with the STATIC_URL setting. Usage:: {% static path [as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Populate a template variable with the static prefix, ``settings.STATIC_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Populate a template variable with the media prefix, ``settings.MEDIA_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 843](Community_843.md) (6 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

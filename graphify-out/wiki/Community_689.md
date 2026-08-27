@@ -1,37 +1,36 @@
 # Community 689
 
-> 13 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **oracle/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleSpatialRefSys** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Return the name of the metadata column used to store the feature table name.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **The GeometryColumns and SpatialRefSys models for the Oracle spatial backend. It…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Maps to the Oracle USER_SDO_GEOM_METADATA table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **# TODO: Add support for `diminfo` column (type MDSYS.SDO_DIM_ARRAY).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Maps to the Oracle MDSYS.CS_SRS table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
+- **ParsingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.parse_definition()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.assertConstraint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **IntrospectionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_and_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_column_with_operators_and_functions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_constraint_multicolumn()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **skipUnless** (2 connections)
+- **Get the primary key column regardless of whether or not it has quotation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **Parse a column or constraint definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
 
 ## Relationships
 
-- [Community 340](Community_340.md) (3 shared connections)
-- [Community 516](Community_516.md) (2 shared connections)
-- [Community 650](Community_650.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

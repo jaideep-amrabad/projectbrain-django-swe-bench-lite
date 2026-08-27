@@ -1,35 +1,32 @@
 # Community 848
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DateTimeFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_lookup_date_with_use_tz()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datetimefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_lookup_date_without_use_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_timefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datetimes_save_completely()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **requires_tz_support** (1 connections)
-- **DateTimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **TimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **._assign_simple_slice()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._checkindex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__delitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._rebuild()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._assign_extended_slice_rebuild()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Assign an extended slice by rebuilding entire list** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Assign a simple slice; Can assign slice of any length** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Get the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Delete the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 413](Community_413.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

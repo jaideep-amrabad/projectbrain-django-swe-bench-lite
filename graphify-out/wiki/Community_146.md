@@ -1,60 +1,64 @@
 # Community 146
 
-> 66 nodes · cohesion 0.05
+> 60 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Combinable** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._combine()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **CombinedExpression** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **ExpressionList** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **CombinableTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.conditional()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._parse_expressions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **DurationExpression** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **TemporalSubtraction** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **CombinedExpressionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.resolve_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.test_resolve_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__or__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.bitand()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.bitleftshift()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- *... and 41 more nodes in this community*
+- **forms_tests/tests/tests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **forms_tests/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **ModelForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ModelFormMetaclass** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **EmptyLabelTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ChoiceFieldForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ModelFormInheritanceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ChoiceModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **ChoiceOptionModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **EmptyIntegerLabelChoiceForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ModelFormCallableModelDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ChoiceFieldExclusionForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **EmptyCharLabelChoiceForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **EmptyCharLabelNoneChoiceForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **OptionalMultiChoiceModelForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **RelatedModelFormTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **TestTicket14567** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **.test_choicefield_callable_may_evaluate_to_different_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **ChoiceFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **Defaults** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **.test_html_rendering_of_prepopulated_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ManyToManyExclusionTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **.test_callable_initial_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **.test_initial_instance_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 17](Community_17.md) (12 shared connections)
-- [Community 26](Community_26.md) (8 shared connections)
-- [Community 49](Community_49.md) (7 shared connections)
-- [Community 36](Community_36.md) (6 shared connections)
-- [Community 137](Community_137.md) (4 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 395](Community_395.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 143](Community_143.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 0](Community_0.md) (11 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 53](Community_53.md) (4 shared connections)
+- [Community 93](Community_93.md) (4 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 231](Community_231.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 397](Community_397.md) (1 shared connections)
+- [Community 144](Community_144.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 149 (91%)
-- INFERRED: 14 (9%)
+- EXTRACTED: 131 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

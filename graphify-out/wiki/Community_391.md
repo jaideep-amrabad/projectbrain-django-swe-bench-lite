@@ -1,49 +1,54 @@
 # Community 391
 
-> 30 nodes · cohesion 0.13
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ConditionalGet** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertFullResponse()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertNotModified()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_modified_since()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_6()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_unmodified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_invalid_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_without_conditions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- *... and 5 more nodes in this community*
+- **WKBWriter** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **WKTWriter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **GEOSIOTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **IOBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **setter** (5 connections)
+- **_WKBReader** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **._handle_empty_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **wkt_w()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.test_empty_point_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_empty_polygon_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.write_hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.test01_wktreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test02_wktwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test03_wkbreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test04_wkbwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wkt_writer_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wkt_writer_trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wktwriter_constructor_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **Return the WKT representation of the given geometry.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.outdim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.srid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 20](Community_20.md) (21 shared connections)
+- [Community 64](Community_64.md) (6 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 74 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

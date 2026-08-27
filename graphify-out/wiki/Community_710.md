@@ -1,40 +1,34 @@
 # Community 710
 
-> 13 nodes · cohesion 0.15
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **CreateViewTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_with_special_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_restricted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_view_all_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_view_with_restricted_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_view_without_explicit_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_with_interpolated_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_with_object_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_with_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_without_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_define_both_fields_and_form_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **migration_test_data_persistence/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **migration_test_data_persistence/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
+- **MigrationDataNormalPersistenceTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **MigrationDataPersistenceTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
+- **Unmanaged** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
+- **.test_persistence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **.test_persistence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **Data loaded in migrations is available on TestCase** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **Data loaded in migrations is available if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
 
 ## Relationships
 
-- [Community 82](Community_82.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 299](Community_299.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (80%)
-- INFERRED: 4 (20%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

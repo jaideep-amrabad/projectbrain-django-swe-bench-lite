@@ -1,30 +1,36 @@
 # Community 700
 
-> 6 nodes · cohesion 0.33
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **.cleanse_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_safe_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_safe_request_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return a dictionary of the settings module with values of sensitive settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return a dictionary of request.META with sensitive values redacted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Cleanse an individual setting key/value of sensitive content. If the value is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **AsyncHandlerRequestTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_sync_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling an async view down the normal synchronous path.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_bad_request_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_unawaited_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Async variants of the normal handler request tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling a sync view down the asynchronous path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 287](Community_287.md) (3 shared connections)
-- [Community 272](Community_272.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

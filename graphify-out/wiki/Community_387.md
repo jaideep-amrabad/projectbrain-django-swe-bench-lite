@@ -1,57 +1,53 @@
 # Community 387
 
-> 30 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **UUIDPrefetchRelatedLookups** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **Person** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **prefetch_related/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **UUIDPrefetchRelated** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **House** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Room** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **LookupOrderingTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **get_prefetcher()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Ticket21760Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Flea** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Pet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.test_bug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **For the attribute 'through_attr' on the given instance, find an object that has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.all_houses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.cached_all_houses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.primary_house()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.test_prefetch_related_from_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_from_uuid_model_to_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_from_uuid_model_to_uuid_model_with_values_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_to_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_integer_pk_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_integer_pk_uuid_pk_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_uuid_pk_integer_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_uuid_pk_lookup_integer_pk2_uuid_pk2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- *... and 5 more nodes in this community*
+- **PickleabilityTestCase** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.assert_pickles()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_annotation_with_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_datetime_callable_default_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_filter_deferred()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_order_by_model_with_abstract_inheritance_and_meta_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_pickle_exists_kwargs_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_pickle_exists_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_pickle_subquery_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_specialized_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_standalone_method_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_staticmethod_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_string_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_annotation_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_annotation_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_doesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_doesnotexist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_forward_relatedobjectdoesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_manager_pickle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle_dynamic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_multipleobjectsreturned_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 158](Community_158.md) (15 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 323](Community_323.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 373](Community_373.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 672](Community_672.md) (8 shared connections)
+- [Community 1119](Community_1119.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1162](Community_1162.md) (1 shared connections)
+- [Community 1160](Community_1160.md) (1 shared connections)
+- [Community 1161](Community_1161.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (74%)
-- INFERRED: 18 (26%)
+- EXTRACTED: 53 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,53 @@
 # Community 461
 
-> 34 nodes · cohesion 0.07
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BinaryField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.has_default()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateTimeCheckMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_add_field_binary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_str_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_mutually_exclusive_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_pk_value_on_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Warn that using an actual date or datetime value is probably wrong; it's only…** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **return_None()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_placeholder()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 9 more nodes in this community*
+- **DetailViewTest** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_custom_detail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_deferred_queryset_context_object_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_deferred_queryset_template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_custom_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_custom_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk_and_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk_and_slug_mismatch_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk_ignore_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_pk_ignore_slug_mismatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_by_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_missing_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_detail_object_does_not_exist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_duplicated_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_invalid_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_invalid_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_non_model_object_with_meta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_simple_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_template_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_template_name_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_template_name_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **.test_verbose_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 184](Community_184.md) (11 shared connections)
-- [Community 138](Community_138.md) (6 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 575](Community_575.md) (3 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
+- [Community 56](Community_56.md) (5 shared connections)
+- [Community 201](Community_201.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 411](Community_411.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 30 (83%)
+- INFERRED: 6 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

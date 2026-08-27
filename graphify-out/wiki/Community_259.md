@@ -1,54 +1,55 @@
 # Community 259
 
-> 44 nodes · cohesion 0.09
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ReverseSelectRelatedTestCase** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **select_related_onetoone/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **select_related_onetoone/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child1** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Parent1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Parent2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **ReverseSelectRelatedValidationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **Child3** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child4** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **.setUpTestData()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **AdvancedUserStat** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserStat** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Image** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **LinkedList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Product** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **StatDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserStatResult** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **.test_onetoone_with_two_subclasses()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **Ticket #13839: select_related() should NOT cache None for missing objects on a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_missing_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_multiinheritance_two_subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_nullable_missing_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- *... and 19 more nodes in this community*
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AutocompleteMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **ForeignKeyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **ManyToManyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **FilteredSelectMultiple** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminSplitDateTime** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.base_url_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Media** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminIntegerFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTimeWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminURLFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.build_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.label_and_url_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.url_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **url_params_from_lookup_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminBigIntegerFieldWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminEmailInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTextareaWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 13](Community_13.md) (17 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 346](Community_346.md) (1 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (84%)
-- INFERRED: 16 (16%)
+- EXTRACTED: 84 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

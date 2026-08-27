@@ -1,26 +1,28 @@
 # Community 1051
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **WriteToStdoutStderrTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
-- **tests_buffer.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
-- **.test_fail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
-- **.test_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **InLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_in_lookup_queryset_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_in_lookup_query_evaluation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Neither pickling nor unpickling a QuerySet.query with an __in=inner_qs lookup…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 672](Community_672.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (75%)
+- INFERRED: 2 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

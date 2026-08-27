@@ -1,33 +1,37 @@
 # Community 840
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **GetStorageClassTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_get_filesystem_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_get_invalid_storage_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_get_nonexistent_storage_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_get_nonexistent_storage_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **get_storage_class returns the class for a storage backend name/path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **get_storage_class raises an error if the requested import don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **get_storage_class raises an error if the requested class don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **get_storage_class raises an error if the requested module don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_FK_validates_using_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_partial_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (4 shared connections)
-- [Community 208](Community_208.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 631](Community_631.md) (3 shared connections)
+- [Community 575](Community_575.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (84%)
+- INFERRED: 4 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

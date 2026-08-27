@@ -1,40 +1,38 @@
 # Community 683
 
-> 15 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Feed** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_feed()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.__call__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.feed_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **._get_dynamic_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_enclosures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return an extra keyword arguments dictionary that is used when initializing the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return a dictionary to use as extra context if either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return a feedgenerator.DefaultFeed object, fully populated, for this feed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **LazyStream** (12 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **._update_unget_history()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.unget()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.read()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.tell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **The LazyStream wrapper allows one to get and "unget" bytes from a stream. Given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Every LazyStream must have a producer when instantiated. A producer is an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Used when the exact number of bytes to read is unimportant. Return whatever…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Used to invalidate/disable this lazy stream. Replace the producer with an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Place bytes back onto the front of the lazy stream. Future calls to read() will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Update the unget history as a sanity check to see if we've pushed back the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
+- [Community 361](Community_361.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,20 +1,14 @@
 # Community 360
 
-> 34 nodes · cohesion 0.08
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **modelform_factory()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **FormFieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **StrictAssignmentTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **.test_empty_fields_to_construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **StrictAssignmentAll** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **StrictAssignmentFieldSpecific** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **CustomMetaclassTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 - **.test_baseform_with_widgets_in_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.test_custom_callback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.test_factory_with_widget_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
@@ -29,34 +23,40 @@
 - **.test_extra_field_modelform_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.test_save_blank_null_unique_charfield_saves_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **Regression for #19733** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 9 more nodes in this community*
+- **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return a ModelForm containing form fields for the given model. You can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **No fields should be set on a model instance if construct_instance receives…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #13095: Using base forms with widgets defined in Meta should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #15315: modelform_factory should accept widgets argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A custom formfield_callback is used if provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 139](Community_139.md) (11 shared connections)
-- [Community 311](Community_311.md) (4 shared connections)
-- [Community 282](Community_282.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 160](Community_160.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 423](Community_423.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 241](Community_241.md) (1 shared connections)
-- [Community 392](Community_392.md) (1 shared connections)
+- [Community 93](Community_93.md) (8 shared connections)
+- [Community 150](Community_150.md) (4 shared connections)
+- [Community 282](Community_282.md) (3 shared connections)
+- [Community 53](Community_53.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 124](Community_124.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 397](Community_397.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 61 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

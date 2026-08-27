@@ -1,39 +1,59 @@
 # Community 680
 
-> 14 nodes · cohesion 0.24
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **setup** (10 connections)
-- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **Without arg and when USE_L10N is True, the active language's DATE_FORMAT is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **#9520: Make sure |date doesn't blow up on non-dates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.test_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.is_in_memory_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **._start_transaction_under_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.test_check_sqlite_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_pathlib_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.create_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.disable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.enable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **._savepoint_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Start a transaction explicitly in autocommit mode. Staying in autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Raise NotSupportedError when aggregating on date/time fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **A named in-memory db should be allowed where supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_distinct_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_distinct_aggregation_multiple_args_no_distinct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_regexp_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Relationships
 
-- [Community 110](Community_110.md) (7 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 616](Community_616.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 75](Community_75.md) (3 shared connections)
+- [Community 390](Community_390.md) (1 shared connections)
+- [Community 540](Community_540.md) (1 shared connections)
+- [Community 430](Community_430.md) (1 shared connections)
+- [Community 886](Community_886.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 542](Community_542.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (79%)
-- INFERRED: 7 (21%)
+- EXTRACTED: 39 (85%)
+- INFERRED: 7 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,29 +1,24 @@
 # Community 1060
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **DecoratorFromMiddlewareTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.test_callable_process_view_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **Tests for view decorators created using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **Test a middleware that implements process_view, operating on a callable class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **DummyArrayField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 893](Community_893.md) (1 shared connections)
-- [Community 604](Community_604.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

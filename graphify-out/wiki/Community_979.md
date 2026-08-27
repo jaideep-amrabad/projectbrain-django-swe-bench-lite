@@ -1,27 +1,31 @@
 # Community 979
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **DBCacheRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **A router that puts the cache table on the 'other' database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ChildNullableParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **First** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_fk_assignment_and_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.test_save_nullable_fk_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.test_save_nullable_fk_after_parent_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 547](Community_547.md) (9 shared connections)
+- [Community 419](Community_419.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (82%)
+- INFERRED: 4 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

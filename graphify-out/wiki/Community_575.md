@@ -1,60 +1,53 @@
 # Community 575
 
-> 58 nodes · cohesion 0.04
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **IntegerField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **AutoFieldMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **AutoField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **BigAutoField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **PositiveIntegerField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **BigIntegerField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SmallIntegerField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SmallAutoField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **PositiveBigIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **PositiveIntegerRelDbTypeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **PositiveSmallIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_alter_null_to_not_null_keeping_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_smallint_pk_to_smallautofield_pk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_auto_field_quoted_db_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_autofield_pk_to_bigautofield_pk_sequence_owner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_autofield_pk_to_smallautofield_pk_sequence_owner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_null_to_not_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_pk_with_self_referential_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.rel_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Should be able to rename an IntegerField(primary_key=True) to…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_field_default_doesnt_perform_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_implicit_id_to_explicit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_int_pk_to_autofield_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 33 more nodes in this community*
+- **validation/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **test_unique.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **GetUniqueCheckTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **AuthorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **validate_answer_to_universe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_primary_key_is_considered_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_fields_get_collected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_exclusion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_gets_picked_up()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_together_gets_picked_up_and_converted_to_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **MultipleAutoFields** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Test the Meta.unique_together normalization with different sorts of objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Relationships
 
-- [Community 54](Community_54.md) (17 shared connections)
-- [Community 184](Community_184.md) (13 shared connections)
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 169](Community_169.md) (5 shared connections)
-- [Community 138](Community_138.md) (5 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 461](Community_461.md) (3 shared connections)
-- [Community 151](Community_151.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 478](Community_478.md) (1 shared connections)
-- [Community 823](Community_823.md) (1 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 841](Community_841.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 911](Community_911.md) (3 shared connections)
+- [Community 631](Community_631.md) (3 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 808](Community_808.md) (2 shared connections)
+- [Community 840](Community_840.md) (2 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Audit Trail
 
-- EXTRACTED: 120 (83%)
-- INFERRED: 24 (17%)
+- EXTRACTED: 61 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

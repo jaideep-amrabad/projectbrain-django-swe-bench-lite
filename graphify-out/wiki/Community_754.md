@@ -1,33 +1,65 @@
 # Community 754
 
-> 11 nodes · cohesion 0.20
+> 89 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **RelatedFieldWidgetWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_related_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **This class is a wrapper to a given widget to add the add icon for the admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Library** (31 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **tz.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **make_template_fragment_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
+- **templatetags/cache.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
+- **test_library.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **TestMakeTemplateFragmentKey** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **FilterRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **TagRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **SimpleTagRegistrationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **testtags.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **InclusionTagRegistrationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **CacheNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
+- **get_current_timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **localtime_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **EchoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **cache/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
+- **.filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
+- **Node** (3 connections)
+- **echo()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **.filter_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- *... and 64 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 9](Community_9.md) (24 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 126](Community_126.md) (10 shared connections)
+- [Community 207](Community_207.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 753](Community_753.md) (1 shared connections)
+- [Community 325](Community_325.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/tags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 164 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

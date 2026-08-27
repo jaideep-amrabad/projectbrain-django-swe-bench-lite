@@ -1,39 +1,37 @@
 # Community 801
 
-> 12 nodes · cohesion 0.23
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **dependency_ordered()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **DependencyOrderingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **setup_databases()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **get_unique_databases_and_mirrors()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_chained_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_circular_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_multiple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_own_alias_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_simple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Create the test databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Reorder test_databases into an order that honors the dependencies described in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Figure out which databases actually need to be created. Deduplicate entries in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Meta** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **OtherPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **UserProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **MultiUserProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **User** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Abstract** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **UserProxyProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **AnotherUserProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ManagerMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A simple abstract base class, to be used for error checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A class with the default manager from Person, plus a secondary manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 400](Community_400.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
-- [Community 389](Community_389.md) (1 shared connections)
+- [Community 516](Community_516.md) (18 shared connections)
+- [Community 331](Community_331.md) (6 shared connections)
+- [Community 904](Community_904.md) (2 shared connections)
+- [Community 1093](Community_1093.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 38 (86%)
+- INFERRED: 6 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

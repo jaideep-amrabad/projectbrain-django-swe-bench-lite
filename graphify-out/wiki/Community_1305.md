@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **explicit_default_config_empty_apps/apps.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/explicit_default_config_empty_apps/apps.py`
+- **SelectBox.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/explicit_default_config_empty_apps/apps.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
 
 ## Audit Trail
 

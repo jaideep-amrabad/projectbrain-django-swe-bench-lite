@@ -1,31 +1,34 @@
 # Community 815
 
-> 9 nodes · cohesion 0.39
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **mysql/compiler.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLCompiler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLDeleteCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLUpdateCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLAggregateCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **.as_subquery_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLInsertCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SpatialiteGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **SpatialiteSpatialRefSys** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **Return the name of the metadata column used to store the feature table name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **Return the name of the metadata column used to store the feature geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **The 'spatial_ref_sys' table from SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **The 'geometry_columns' table from SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 355](Community_355.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

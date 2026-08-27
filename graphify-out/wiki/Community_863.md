@@ -1,31 +1,35 @@
 # Community 863
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **setter** (5 connections)
-- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Turn a value into a bytestring encoded in the output charset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **ModelDefaultAutoFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_app_default_auto_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_auto_created_inherited_parent_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_auto_created_inherited_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_auto_created_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_default_auto_field_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_explicit_inherited_parent_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_explicit_inherited_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **.test_explicit_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 379](Community_379.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

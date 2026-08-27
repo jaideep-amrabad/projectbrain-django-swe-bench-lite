@@ -1,38 +1,40 @@
 # Community 713
 
-> 13 nodes · cohesion 0.21
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **m2o_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **m2o_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **ManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **MultipleManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **Relating an object to itself, many-to-one To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.test_m2o_recursive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.test_m2o_recursive2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **MemcachedCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **PyLibMCCache** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **MemcachedCacheDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PyMemcacheCache** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **An implementation of a cache binding using python-memcached** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.test_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.client_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 557](Community_557.md) (7 shared connections)
+- [Community 126](Community_126.md) (5 shared connections)
+- [Community 163](Community_163.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 28 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

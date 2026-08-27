@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **.db_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_returning_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Private API intended only to be used by Django itself. Currently only the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Private API intended only to be used by Django itself. Fields to be returned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **GetModelsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_get_model_only_returns_installed_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_get_models_only_returns_installed_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
 
 ## Relationships
 
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 209](Community_209.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

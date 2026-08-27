@@ -1,48 +1,52 @@
 # Community 418
 
-> 28 nodes · cohesion 0.14
+> 29 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **IncludeTagTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **setup** (26 connections)
-- **.test_include04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- *... and 3 more nodes in this community*
+- **timesince()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **TimesinceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_depth()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_second_before_equal_first_humanize_time_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_depth_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **Take two datetime objects and return the time between d and now as a nicely…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **Like timesince, but return a string measuring the time until the given time.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **requires_tz_support** (1 connections)
+- **Both timesince and timeuntil should work on date objects (#17937).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **Timesince should work with both date objects (#9672)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **Microseconds and seconds are ignored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 46](Community_46.md) (5 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 126](Community_126.md) (7 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 833](Community_833.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,57 +1,70 @@
 # Community 261
 
-> 55 nodes · cohesion 0.07
+> 109 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **token_view()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._get_GET_no_csrf_cookie_request()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfViewMiddlewareTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfViewMiddlewareUseSessionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **ensure_csrf_cookie_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._check_token_present()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_for_exempt_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_empty_csrf_cookie()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_GET_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_for_requires_csrf_token_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_no_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_new_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bare_secret_accepted_and_replaced()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_new_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_POST_no_csrf_cookie_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_age()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_age_none()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_ensures_csrf_cookie_with_middleware()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_view_token_invalid_chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_view_token_too_long()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_ensures_csrf_cookie_with_middleware()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_session_modify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_ensures_csrf_cookie_no_logging()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_samesite()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- *... and 30 more nodes in this community*
+- **JsonResponse** (31 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **file_uploads/views.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **InMemoryUploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **UploadedFile** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **FileUploadHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **StopUpload** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **TemporaryFileUploadHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **file_uploads/uploadhandler.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **StopUploadTemporaryFileHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- *... and 84 more nodes in this community*
 
 ## Relationships
 
-- [Community 142](Community_142.md) (43 shared connections)
-- [Community 593](Community_593.md) (8 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 35](Community_35.md) (5 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 173](Community_173.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 29](Community_29.md) (21 shared connections)
+- [Community 126](Community_126.md) (14 shared connections)
+- [Community 16](Community_16.md) (10 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 134](Community_134.md) (4 shared connections)
+- [Community 263](Community_263.md) (3 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 361](Community_361.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (88%)
-- INFERRED: 21 (12%)
+- EXTRACTED: 214 (93%)
+- INFERRED: 17 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

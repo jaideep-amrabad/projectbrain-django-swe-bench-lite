@@ -1,53 +1,43 @@
 # Community 498
 
-> 22 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **StateApps** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **InvalidBasesError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **AppConfigStub** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ValueError** (2 connections)
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.concrete_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **A model's base classes can't be resolved.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.import_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Stub of an AppConfig. Only provides a label and a dict of models.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Subclass of the global Apps registry class to better handle dynamic model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Return a clone of this registry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Deep-clone the managers using deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Create a Model object from our current state into the given apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.unregister_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **SeleniumTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_stackeds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_formset_error_input_border()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_verbose_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.assertBorder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_inline_link_absent_for_view_only_parent_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_added_stacked_inline_with_collapsed_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_collapsed_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_delete_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_delete_invalid_stacked_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_delete_invalid_tabular_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_delete_stackeds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_formset_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **The "Add another XXX" link correctly adds items to the inline form.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **The item added by the "Add another XXX" link must use the correct verbose_name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **The "Add another XXX" link correctly adds items to the stacked formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 134](Community_134.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 515](Community_515.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
+- [Community 12](Community_12.md) (12 shared connections)
+- [Community 38](Community_38.md) (7 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 33 (85%)
+- INFERRED: 6 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

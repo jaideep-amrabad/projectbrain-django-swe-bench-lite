@@ -1,40 +1,36 @@
 # Community 617
 
-> 16 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **BaseConverter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **TestBaseConv** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.convert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **test_baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.test_base11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_base20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_base7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.test_base64()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_baseconv()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **WeekArchiveViewTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_week_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_week_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_incompatible_iso_week_format_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_unknown_week_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_week_iso_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_week_start_Monday()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_week_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_week_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_week_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_week_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_week_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Relationships
 
+- [Community 56](Community_56.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

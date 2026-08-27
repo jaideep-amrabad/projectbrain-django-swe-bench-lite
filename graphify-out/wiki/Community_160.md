@@ -1,59 +1,63 @@
 # Community 160
 
-> 71 nodes · cohesion 0.06
+> 256 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **GenericRelationTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **generic_relations_regress/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **generic_relations_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **Note** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Link** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Cafe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **CharLink** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Company** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Content** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Developer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Guild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **HasLinkThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- *... and 46 more nodes in this community*
+- **queries/tests.py** (179 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **queries/models.py** (119 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **test_query.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **queries/test_bulk_update.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **Meta** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ExcludeTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Tag** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ToFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ExtraInfo** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **RelatedLookupTypeTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Item** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Number** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ManyToManyExcludeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Annotation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ObjectA** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **QuerySetExceptionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **DumbCategory** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ObjectB** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ObjectC** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Order** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Ranking** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ValuesJoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Eaten** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- *... and 231 more nodes in this community*
 
 ## Relationships
 
-- [Community 115](Community_115.md) (20 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 360](Community_360.md) (2 shared connections)
-- [Community 185](Community_185.md) (2 shared connections)
-- [Community 117](Community_117.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
+- [Community 0](Community_0.md) (58 shared connections)
+- [Community 10](Community_10.md) (51 shared connections)
+- [Community 410](Community_410.md) (36 shared connections)
+- [Community 297](Community_297.md) (35 shared connections)
+- [Community 31](Community_31.md) (8 shared connections)
+- [Community 480](Community_480.md) (7 shared connections)
+- [Community 9](Community_9.md) (7 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 84](Community_84.md) (7 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
+- [Community 423](Community_423.md) (5 shared connections)
+- [Community 409](Community_409.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 133 (75%)
-- INFERRED: 44 (25%)
+- EXTRACTED: 564 (72%)
+- INFERRED: 221 (28%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,45 +1,48 @@
 # Community 580
 
-> 18 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **oracle/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **TransactionalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_boolean_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **skipUnless** (2 connections)
-- **.test_client_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_cursor_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_dbms_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_order_of_nls_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_quote_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **%' chars are escaped for query execution.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **A stored procedure can be called through a cursor wrapper.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Cursor variables can be passed as query parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Client encoding is set correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **An 'almost right' datetime works with configured NLS parameters (#18465).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Boolean fields have check constraints on their values.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_hidden_no_data_found_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_password_with_at_sign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **SplitArrayField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **TestSplitFormField** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.test_splitarrayfield_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_splitarrayfield_remove_trailing_nulls_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **._remove_trailing_nulls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.test_rendering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_splitarraywidget_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.test_invalid_char_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_invalid_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_remove_trailing_nulls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_remove_trailing_nulls_not_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 106](Community_106.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
+- [Community 35](Community_35.md) (5 shared connections)
+- [Community 285](Community_285.md) (3 shared connections)
+- [Community 538](Community_538.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 881](Community_881.md) (2 shared connections)
+- [Community 634](Community_634.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 32 (67%)
+- INFERRED: 16 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

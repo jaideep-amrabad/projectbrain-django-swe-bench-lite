@@ -1,25 +1,29 @@
 # Community 1032
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **CoroutineClearingView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **.__del__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **Return an unawaited coroutine (common error for async views).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **check_async_unsafe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- **AsyncCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_allowed_async_unsafe_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_no_allowed_async_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **dict** (2 connections)
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 496](Community_496.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,57 +1,52 @@
 # Community 523
 
-> 23 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Lookup** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.batch_process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **CustomLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- **LookupTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- **.test_equality()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- **.test_hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- **.get_db_prep_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.apply_bilateral_transforms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_source_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.contains_aggregate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.contains_over_clause()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_db_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_group_by_cols()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.identity()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.is_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_lhs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.set_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **Signal** (22 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._live_receivers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **ModelSignal** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **dispatcher.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.connect()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._lazy_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **_make_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._clear_dead_receivers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.send_robust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.connect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Signal subclass that allows the sender to be lazily specified as a string of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **Disconnect receiver from sender for signal. If weak references are used,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Send signal from sender to all connected receivers. If any receiver raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Send signal from sender to all connected receivers catching errors. Arguments:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Filter sequence of receivers to get resolved, live receivers. This checks for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Base class for all signals Internal attributes: receivers { receiverkey (id) :…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Connect receiver to sender for signal. Arguments: receiver A function or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._remove_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 
 ## Relationships
 
-- [Community 59](Community_59.md) (8 shared connections)
-- [Community 26](Community_26.md) (8 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 121](Community_121.md) (2 shared connections)
-- [Community 395](Community_395.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 764](Community_764.md) (1 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 305](Community_305.md) (5 shared connections)
+- [Community 171](Community_171.md) (3 shared connections)
+- [Community 430](Community_430.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 546](Community_546.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (90%)
-- INFERRED: 6 (10%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

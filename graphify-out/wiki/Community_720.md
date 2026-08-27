@@ -1,39 +1,45 @@
 # Community 720
 
-> 13 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **GetFieldDisplayTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Whiz** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **WhizDelayed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **WhizIter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **WhizIterEmpty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_choices_and_field_display()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_empty_iterator_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_get_FIELD_display_translated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_iterator_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **get_choices() works with Iterators.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_overriding_inherited_FIELD_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **get_choices() interacts with get_FIELD_display() to return the expected values.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **A translated display value is coerced to str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **safe_join()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **to_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **test_os_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **SafeJoinTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.iter_template_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **ToPathTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_base_path_ends_with_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_parent_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_root_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_to_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_to_path_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **Iterate over candidate files for template_name. Ignore files that don't lie…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **Join one or more path components to the base path component intelligently.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **Convert value to a pathlib.Path instance, if not already a Path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
 
 ## Relationships
 
-- [Community 179](Community_179.md) (5 shared connections)
-- [Community 277](Community_277.md) (4 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 126](Community_126.md) (7 shared connections)
+- [Community 135](Community_135.md) (3 shared connections)
+- [Community 121](Community_121.md) (2 shared connections)
+- [Community 198](Community_198.md) (2 shared connections)
+- [Community 308](Community_308.md) (1 shared connections)
+- [Community 230](Community_230.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (86%)
-- INFERRED: 4 (14%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

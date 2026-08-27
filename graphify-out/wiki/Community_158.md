@@ -1,62 +1,59 @@
 # Community 158
 
-> 79 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **prefetch_related/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **prefetch_related/models.py** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Meta** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Book** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **MultiTableInheritanceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **test_prefetch_related_objects.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **MultiDbTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Reader** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **ForeignKeyToFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **BookWithYear** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **DefaultManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **ModelIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **AuthorAddress** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **AuthorWithAge** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Bookmark** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **TaggedItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Teacher** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Ticket19607Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Ticket21410Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Comment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- *... and 54 more nodes in this community*
+- **ExceptionReporterFilterTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **SafeExceptionReporterFilter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.is_active()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **UnsafeExceptionReporterFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **.cleanse_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_cleansed_multivaluedict()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_frame_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.cleanse_special_types()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_post_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_safe_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.user_can_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_safe_request_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.test_callable_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_callable_settings_forbidding_to_set_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_ignore_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_dictionary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_dictionary_with_non_string_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_list_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_dict_setting_with_non_str_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_meta_filtering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_settings_with_sensitive_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Reject users with is_active=False. Custom user models that don't have that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **Return a dictionary of the settings module with values of sensitive settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 387](Community_387.md) (15 shared connections)
-- [Community 18](Community_18.md) (15 shared connections)
-- [Community 373](Community_373.md) (12 shared connections)
-- [Community 323](Community_323.md) (10 shared connections)
-- [Community 327](Community_327.md) (8 shared connections)
-- [Community 17](Community_17.md) (6 shared connections)
-- [Community 115](Community_115.md) (6 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 949](Community_949.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 116](Community_116.md) (15 shared connections)
+- [Community 558](Community_558.md) (4 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 531](Community_531.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 190 (77%)
-- INFERRED: 57 (23%)
+- EXTRACTED: 73 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,25 +1,27 @@
 # Community 1020
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **GetModelsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_get_model_only_returns_installed_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_get_models_only_returns_installed_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **NoDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **databases/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **AllDatabasesTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **DefaultDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **OtherDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **.test_nothing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

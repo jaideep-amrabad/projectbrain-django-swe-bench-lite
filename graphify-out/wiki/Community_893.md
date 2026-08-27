@@ -1,30 +1,29 @@
 # Community 893
 
-> 8 nodes · cohesion 0.25
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **FullMiddleware** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.test_process_view_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.process_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **Test a middleware that implements process_view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.page()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return a valid page, even if the page argument isn't a number or isn't in range.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return a Page object for the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return an instance of a single page. This hook can be used by subclasses to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
 
 ## Relationships
 
-- [Community 1060](Community_1060.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 311](Community_311.md) (3 shared connections)
+- [Community 451](Community_451.md) (2 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

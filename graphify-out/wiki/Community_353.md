@@ -1,54 +1,56 @@
 # Community 353
 
-> 34 nodes · cohesion 0.15
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **RelatedModelsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.assertRelated()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.create_model()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **get_related_models_recursive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **_get_related_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **get_related_models_tuples()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.test_generic_fk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base_to_base_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base_to_subclass_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_circle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_hidden_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_fk_through_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_extern_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_mixed_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_nested_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- *... and 9 more nodes in this community*
+- **DeletionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_queryset_delete_returns_num_rows()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_instance_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_large_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_model_delete_returns_num_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_only_referenced_fields_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_proxied_model_duplicate_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_delete_with_keeping_parents()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_delete_with_keeping_parents_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_deletion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_hidden_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_large_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_relational_post_delete_signals_happen_before_parent_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **QuerySet.delete() should return the number of deleted rows and a dictionary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Model.delete() should return the number of deleted rows and a dictionary with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **#25685 - Deleting instances of a model with existing proxy classes should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Only referenced fields are selected during cascade deletion SELECT unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 68](Community_68.md) (15 shared connections)
+- [Community 596](Community_596.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 316](Community_316.md) (2 shared connections)
+- [Community 265](Community_265.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 94 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 35 (65%)
+- INFERRED: 19 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

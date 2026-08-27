@@ -1,34 +1,47 @@
 # Community 804
 
-> 10 nodes · cohesion 0.20
+> 18 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ThreadTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_default_connection_thread_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_closing_non_shared_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_connections_thread_local()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_pass_connection_between_threads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **The default connection (i.e. django.db.connection) is different for each thread…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **The connections are different for each thread (#17258).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **A connection can be passed from one thread to the other (#17258).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **A connection that is not explicitly shareable cannot be closed by another…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_thread_sharing_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **date()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **AddTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **setup** (9 connections)
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_add07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_escape_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_add01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **Format a date according to the given format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Tests for #11687 and #16676** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (85%)
-- INFERRED: 2 (15%)
+- EXTRACTED: 39 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

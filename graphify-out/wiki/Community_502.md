@@ -1,45 +1,44 @@
 # Community 502
 
-> 22 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **BaseMemcachedTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **MemcachedCacheTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PyLibMCCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PyMemcacheCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **skipUnless** (3 connections)
-- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_pylibmc_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_pymemcache_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_location_multiple_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_deletes_key_on_failed_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many_returns_failing_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_uses_highest_pickle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.incr_decr_type_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_pylibmc_client_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.incr_decr_type_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_pymemcache_highest_pickle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **python-memcached doesn't support default in get() so this test overrides the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **TimestampSigner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **dumps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **loads()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.timestamp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.test_decode_serializer_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Exception** (1 connections)
+- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Return URL-safe, hmac signed base64 compressed JSON string. If compress is True…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Retrieve original value and check it wasn't signed more than max_age seconds…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signature does not match.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signature timestamp is older than required max_age.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Return URL-safe, hmac signed base64 compressed JSON string. If key is None, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 298](Community_298.md) (1 shared connections)
-- [Community 1025](Community_1025.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
+- [Community 126](Community_126.md) (10 shared connections)
+- [Community 258](Community_258.md) (2 shared connections)
+- [Community 554](Community_554.md) (1 shared connections)
+- [Community 535](Community_535.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 

@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_follow_relative_redirect_no_trailing_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A URL with a relative redirect with no trailing slash can be followed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_fast_add_ignore_conflicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **A single query is necessary to add auto-created through instances if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Relationships
 
-- [Community 541](Community_541.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 438](Community_438.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

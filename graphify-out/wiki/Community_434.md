@@ -1,50 +1,66 @@
 # Community 434
 
-> 26 nodes · cohesion 0.09
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **RenameMethodsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **deprecation/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RenameMethodsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DeprecationInstanceCheck** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **warn_about_renamed_method** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DeprecationInstanceCheckTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **type** (2 connections)
-- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **Ensure the correct warnings are raised when a class that didn't rename `old`…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RenameManagerMethods** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_class_definition_warnings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_deprecated_subclass_renamed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_deprecated_subclass_renamed_and_mixins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_get_new_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_get_old_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_renamed_subclass_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **Handles the deprecation paths when renaming a method. It does the following: 1)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.test_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure the correct warnings are raised when a subclass inherit from a class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Tests the `RenameMethodsBase` type introduced to rename `get_query_set` to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure a warning is raised upon class definition to suggest renaming the faulty…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure `old` complains and not `new` when only `new` is defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- *... and 1 more nodes in this community*
+- **test_autoreload.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **WatchmanUnavailable** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **GetReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **RestartWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **django/__main__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/__main__.py`
+- **TestUtilities** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **test_module/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
+- **.patch_autoreload()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **skip_unless_watchman_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **TestCheckErrors** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **TestCommonRoots** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **on_macos_with_hfs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- **.test_watchman_available()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watchman_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_manage_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_python_m_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **utils_tests/utils.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- **Invokes django-admin when the django module is run as a script. Example: python…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/__main__.py`
+- **object** (1 connections)
+- **.test_mutates_error_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_common_roots()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_is_django_module()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_is_django_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **another_bad_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
+- **another_good_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 414](Community_414.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 706](Community_706.md) (3 shared connections)
+- [Community 298](Community_298.md) (3 shared connections)
+- [Community 254](Community_254.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 375](Community_375.md) (2 shared connections)
+- [Community 344](Community_344.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/__main__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__main__.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 63 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,49 +1,52 @@
 # Community 601
 
-> 17 nodes · cohesion 0.25
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **force_insert_update/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **Counter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **force_insert_update/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **InheritanceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **ProxyCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **InheritedCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **SubCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **ForceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **WithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **.test_force_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.test_force_update_on_inherited_model_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.assertQuerysetEqual()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_force_update_on_inherited_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.test_force_update_on_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **Tests for forcing insert and update queries (instead of Django's normal…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **Issue 13864: force_update fails on subclassed models, if they don't specify…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **urls/http.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **SimpleSitemap** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **https.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
+- **AlternatesI18nSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **SimpleI18nSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **FixedLastmodMixedSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **.items()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **SimplePagedSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **DateSiteMap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **EmptySitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **FixedLastmodSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **FixedNewerLastmodSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **LimitedI18nSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **testmodelview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **TimezoneSiteMap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **XDefaultI18nSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **HTTPSSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 308](Community_308.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 453](Community_453.md) (7 shared connections)
+- [Community 209](Community_209.md) (4 shared connections)
+- [Community 89](Community_89.md) (4 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 451](Community_451.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (78%)
-- INFERRED: 11 (22%)
+- EXTRACTED: 56 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

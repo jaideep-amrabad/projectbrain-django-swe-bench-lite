@@ -1,33 +1,32 @@
 # Community 844
 
-> 8 nodes · cohesion 0.32
+> 10 nodes · cohesion 0.44
 
 ## Key Concepts
 
-- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **File** (1 connections)
-- **A mixin for use alongside django.core.files.base.File, which provides…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **Return the (width, height) of an image, given an open file or a path. Set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **actions.js** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **reset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **showQuestion()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **hide()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **show()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **checker()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **clearAcross()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **showClear()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **updateCounter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
 
 ## Relationships
 
-- [Community 163](Community_163.md) (4 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (76%)
-- INFERRED: 4 (24%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

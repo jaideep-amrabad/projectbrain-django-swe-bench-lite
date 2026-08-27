@@ -1,35 +1,39 @@
 # Community 770
 
-> 11 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **BulkUpdateNoteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.create_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_foreign_keys_do_not_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_field_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_mixed_fields_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_unsaved_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_multiple_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **ModelPaginationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- **.test_page_getitem()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginating_unordered_object_list_raises_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_first_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_last_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginating_empty_queryset_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginating_unordered_queryset_raises_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- **Test pagination with Django model instances** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Tests proper behavior of a paginator page __getitem__ (queryset evaluation,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Unordered object list warning with an object that has an ordered attribute but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
+- [Community 311](Community_311.md) (7 shared connections)
+- [Community 451](Community_451.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 21 (81%)
+- INFERRED: 5 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

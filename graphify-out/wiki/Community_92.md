@@ -1,60 +1,58 @@
 # Community 92
 
-> 94 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseDatabaseSchemaEditor** (81 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_field()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.quote_name()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.execute()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_index_sql()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_unique_sql()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.add_field()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **split_identifier()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **._delete_constraint_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.column_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_primary_key_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.remove_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.table_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._constraint_names()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_index_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.create_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_composed_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_db_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_index_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_unique_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_check_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- *... and 69 more nodes in this community*
+- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **_i18n_cache_key_suffix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_generate_cache_header_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_generate_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **.check_accept_language_vary()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_translation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_translation_accept_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_varies_by_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key_with_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_no_i18n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key_with_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_learn_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_patch_vary_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **.test_patch_cache_control()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_patch_vary_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PrefixedCacheI18nTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PrefixedCacheUtils** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 143](Community_143.md) (17 shared connections)
-- [Community 420](Community_420.md) (9 shared connections)
-- [Community 460](Community_460.md) (8 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 571](Community_571.md) (2 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 860](Community_860.md) (2 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 548](Community_548.md) (1 shared connections)
-- [Community 696](Community_696.md) (1 shared connections)
-- [Community 514](Community_514.md) (1 shared connections)
+- [Community 71](Community_71.md) (14 shared connections)
+- [Community 16](Community_16.md) (11 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 126](Community_126.md) (8 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 138](Community_138.md) (3 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 255 (97%)
-- INFERRED: 7 (3%)
+- EXTRACTED: 109 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

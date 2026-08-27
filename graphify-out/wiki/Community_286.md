@@ -1,60 +1,64 @@
 # Community 286
 
-> 41 nodes · cohesion 0.10
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ModelToValidate** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **validation/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **BaseModelValidationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **ValidationAssertions** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **test_custom_messages.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **validation/test_validators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **TestModelsWithValidators** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **validation/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **CustomMessagesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **CustomMessagesModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_custom_null_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **.test_custom_simple_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **.test_custom_validator_passes_for_correct_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_custom_validator_raises_error_for_incorrect_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_field_validators_can_be_any_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_correct_email_value_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_FK_value_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- *... and 16 more nodes in this community*
+- **SimpleLazyObject** (52 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **test_lazyobject.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **SimpleLazyObjectTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **SimpleLazyObjectPickleTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **BaseBaz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Baz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle_with_reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **utils_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **BazProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_subquery_filter_by_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **TestUtilsSimpleLazyObjectDjangoTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **CategoryInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_list_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_trace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 394](Community_394.md) (12 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 750](Community_750.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 354](Community_354.md) (7 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 72](Community_72.md) (4 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 251](Community_251.md) (2 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 201](Community_201.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 565](Community_565.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (92%)
-- INFERRED: 9 (8%)
+- EXTRACTED: 98 (88%)
+- INFERRED: 14 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

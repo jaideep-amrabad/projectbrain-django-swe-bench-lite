@@ -1,61 +1,52 @@
 # Community 322
 
-> 52 nodes · cohesion 0.04
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Operation** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **operations/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **TestOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **more_operations.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.migration_name_fragment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return whether or not a model may be migrated. This is a thin wrapper around…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return either a list of operations the actual operation should be replaced with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return a 3-tuple of class import path (or just name if it lives under…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Base class for migration operations. It's responsible for both mutating the in-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Take the state from the previous migration, and mutate it so that it matches…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- *... and 27 more nodes in this community*
+- **IntrospectionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **ArticleReporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **CheckConstraintModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **UniqueConstraintConditionModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **District** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.test_get_constraints_indexes_orders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations_alt_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_unique_indexes_orders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_table_names_with_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names_retval_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_index_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 352](Community_352.md) (4 shared connections)
-- [Community 228](Community_228.md) (3 shared connections)
-- [Community 503](Community_503.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 232](Community_232.md) (2 shared connections)
-- [Community 795](Community_795.md) (2 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
-- [Community 532](Community_532.md) (1 shared connections)
-- [Community 549](Community_549.md) (1 shared connections)
-- [Community 450](Community_450.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 65 (87%)
+- INFERRED: 10 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

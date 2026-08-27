@@ -1,45 +1,46 @@
 # Community 513
 
-> 21 nodes · cohesion 0.18
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.file_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.save_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.read_manifest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the non-hashed URL in DEBUG mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the custom URL converter for the given file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Post process the given dictionary of files (called from collectstatic).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return a hash of the file with the given name and optional content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ManyToOneNullTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **many_to_one_null/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **many_to_one_null/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Driver** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Many-to-one relationships that can be null To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **.test_add_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_assign_clear_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_clear_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_created_via_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_created_without_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_get_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_related_null_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_remove_from_wrong_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_set_clear_non_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (5 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 208](Community_208.md) (2 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 33 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

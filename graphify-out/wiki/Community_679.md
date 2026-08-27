@@ -1,38 +1,43 @@
 # Community 679
 
-> 14 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **natural.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **DatabaseCreation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **DatabaseCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.test_create_test_db_database_exists()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.test_create_test_db_unexpected_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **.patch_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.test_clone_test_db_database_exists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.test_clone_test_db_options_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **._clone_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **._execute_create_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **._execute_raise_access_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **._execute_raise_database_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **patch** (2 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 106](Community_106.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
+- [Community 232](Community_232.md) (2 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
+- [Community 430](Community_430.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 32 (82%)
+- INFERRED: 7 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

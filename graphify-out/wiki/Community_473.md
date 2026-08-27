@@ -1,46 +1,61 @@
 # Community 473
 
-> 24 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DebugInvocationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **ErrorTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.get_runner()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.isolate_debug_test()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **test_simpletestcase.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_post_teardown_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_pre_setup_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_cleanup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_post_teardown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_pre_setup_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.skipped_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.raising_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.simple_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **object** (1 connections)
-- **skip** (1 connections)
-- **debug() bubbles up exceptions during _pre_setup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **debug() bubbles up exceptions during _post_teardown.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **Simple test run: catches errors and runs cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **Simple debug run without errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **debug() bubbles up exceptions before cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **fixtures/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ProxyModelWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.test_circular_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_circular_reference_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Test case has installed 3 fixture objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Make sure that subclasses can remove fixtures from parent class (#21089).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **There were no fixture objects installed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (4 shared connections)
+- [Community 460](Community_460.md) (12 shared connections)
+- [Community 0](Community_0.md) (11 shared connections)
+- [Community 595](Community_595.md) (6 shared connections)
+- [Community 367](Community_367.md) (5 shared connections)
+- [Community 269](Community_269.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 344](Community_344.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 71 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,43 @@
 # Community 626
 
-> 6 nodes · cohesion 0.33
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **requires_tz_support** (1 connections)
-- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **test_tablespaces.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **TablespacesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **tablespaces.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_many_to_many_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.assertNumContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_indexed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Scientist** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **.test_tablespace_ignored_for_indexed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_ignored_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **ArticleRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **ScientistRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Relationships
 
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 445](Community_445.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

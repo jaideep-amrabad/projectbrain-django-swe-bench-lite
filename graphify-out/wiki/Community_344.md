@@ -1,53 +1,68 @@
 # Community 344
 
-> 33 nodes · cohesion 0.07
+> 50 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **RawQuerySet** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._fetch_all()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._prefetch_related_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.prefetch_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.resolve_model_init_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._fetch_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return the database used if this query is executed now.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.model_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.using()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Provide an iterator which converts the results of raw SQL queries into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Resolve the init field names and value positions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Same as QuerySet.prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 8 more nodes in this community*
+- **core/management/__init__.py** (71 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **execute_from_command_line()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **ManagementUtility** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **get_commands()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **bash_completion/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **dbshell/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
+- **global_settings.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- **shell.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **Command** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **diffsettings.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **handle_default_options()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **find_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **configured_dynamic_settings_manage.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **module_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **Settings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
+- **configured_settings_manage.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_settings_manage.py`
+- **DbshellCommandTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
+- **manage.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/manage.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 57](Community_57.md) (7 shared connections)
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 180](Community_180.md) (3 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 373](Community_373.md) (1 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 269](Community_269.md) (12 shared connections)
+- [Community 18](Community_18.md) (10 shared connections)
+- [Community 126](Community_126.md) (8 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 44](Community_44.md) (5 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 240](Community_240.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_settings_manage.py`
+- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/manage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 172 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

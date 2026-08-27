@@ -1,47 +1,43 @@
 # Community 596
 
-> 20 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **TemplateCommand** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.handle()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.handle_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.download()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.validate_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **startapp.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- **.is_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.make_writeable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.splitext()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.handle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- **Determine where the app or project templates are. Use django.__path__[0] as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Copy either a Django application layout template or a Django project layout…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Download the given URL and return the file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Like os.path.splitext, but takes off .tar, too** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Extract the given file to a temporary directory and return the path of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Return True if the name looks like a URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Make sure that the file is writeable. Useful if our source is read-only.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **FastDeleteTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_fast_delete_empty_no_update_can_self_select()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_combined_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_joined_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_revm2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **#25932 - Fast deleting on backends that don't have the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 97](Community_97.md) (3 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 68](Community_68.md) (12 shared connections)
+- [Community 353](Community_353.md) (3 shared connections)
+- [Community 443](Community_443.md) (2 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 22 (63%)
+- INFERRED: 13 (37%)
 - AMBIGUOUS: 0 (0%)
 
 ---

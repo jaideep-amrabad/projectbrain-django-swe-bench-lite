@@ -1,28 +1,32 @@
 # Community 984
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **lookuperror_a/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A3** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A4** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- **ModelFormBaseTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **UUIDPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **UUIDPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_create_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **.test_update_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **.test_model_multiple_choice_field_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
 
 ## Relationships
 
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (85%)
+- INFERRED: 2 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

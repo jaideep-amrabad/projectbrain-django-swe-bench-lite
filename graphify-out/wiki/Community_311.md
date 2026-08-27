@@ -1,60 +1,60 @@
 # Community 311
 
-> 59 nodes · cohesion 0.05
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **model_formsets_regress/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **InlineFormsetTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **model_formsets_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **FormfieldShouldDeleteFormTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **User** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **FormsetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_formset_over_inherited_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **UserSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **BaseCustomDeleteFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_formset_over_to_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **RedeleteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **.test_init_database()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Host** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **Network** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **BaseCustomDeleteModelFormSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **CustomDeleteUserForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **ProfileNetwork** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **UserPreferences** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **.test_all_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_custom_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_no_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- *... and 34 more nodes in this community*
+- **Paginator** (46 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PaginationTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_invalid_page_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_range_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_sequence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.num_pages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.test_count_does_not_silence_attribute_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_count_does_not_silence_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_float_integer_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_elided_page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_no_content_allow_empty_first_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginate_misc_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginator_iteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Helper method that instantiates a Paginator object from the passed params and…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 241](Community_241.md) (16 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 811](Community_811.md) (4 shared connections)
-- [Community 360](Community_360.md) (4 shared connections)
-- [Community 215](Community_215.md) (3 shared connections)
-- [Community 152](Community_152.md) (2 shared connections)
-- [Community 249](Community_249.md) (2 shared connections)
-- [Community 324](Community_324.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 451](Community_451.md) (12 shared connections)
+- [Community 770](Community_770.md) (7 shared connections)
+- [Community 893](Community_893.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 56](Community_56.md) (2 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 300](Community_300.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 591](Community_591.md) (1 shared connections)
+- [Community 174](Community_174.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 117 (85%)
-- INFERRED: 20 (15%)
+- EXTRACTED: 81 (89%)
+- INFERRED: 10 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

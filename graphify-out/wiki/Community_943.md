@@ -1,29 +1,29 @@
 # Community 943
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **DeprecatedFieldsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_postgres_jsonfield_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_CommaSeparatedIntegerField_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_IPAddressField_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_nullbooleanfield_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **skipUnless** (1 connections)
+- **LoremTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **setup** (6 connections)
+- **.test_lorem1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_incorrect_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_multiple_paragraphs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_random()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_syntax()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

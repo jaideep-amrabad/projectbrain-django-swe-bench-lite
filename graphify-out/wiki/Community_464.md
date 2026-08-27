@@ -1,59 +1,57 @@
 # Community 464
 
-> 24 nodes · cohesion 0.14
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **render_to_string()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- **TemplateLoaderTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **select_template()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- **.test_render_to_string_with_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_javascript_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/test_templates.py`
-- **.test_render_to_string_first_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_second_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_using_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_with_list_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_with_list_first_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_with_list_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_with_list_second_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_with_list_tries_all_engines_before_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_render_to_string_with_list_using_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_select_template_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_select_template_first_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_select_template_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_select_template_second_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_select_template_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_select_template_tries_all_engines_before_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **.test_select_template_using_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
-- **Load and return a template for one of the given names. Try names in order and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- **Load a template and render it with a context. Return a string. template_name…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader.py`
+- **MigrationTestBase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **migrations/test_deprecated_fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.test_migrate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNameExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNameNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertTableExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertTableNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertUniqueConstraintExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Allows testing management commands in a temporary migrations module. Wrap all…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Contains an extended set of asserts for testing migrations and schema…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 916](Community_916.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
-- [Community 272](Community_272.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 972](Community_972.md) (1 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
+- [Community 48](Community_48.md) (9 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
+- [Community 186](Community_186.md) (1 shared connections)
+- [Community 344](Community_344.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/test_templates.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_loader/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 55 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

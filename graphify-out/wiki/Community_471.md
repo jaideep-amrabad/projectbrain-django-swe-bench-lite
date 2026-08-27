@@ -1,58 +1,52 @@
 # Community 471
 
-> 24 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **multiple_database/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **Review** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **RelationAssignmentTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Pet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **UserProfile** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **RouterModelArgumentTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **BookManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.test_generic_key_cross_database_protection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_foreign_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_one_to_one_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_generic_key_cross_database_protection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **PersonManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **Generic Key operations can span databases if they share a source** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **allow_relation() is called with unsaved model instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Operations that involve sharing generic key objects across databases raise an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_foreignkey_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **NestedObjectsTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **NestedObjects** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._connect()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **._check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **._collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_cyclic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_non_added_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_siblings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_unrelated_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_on_delete_do_nothing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_relation_on_abstract()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.add_edge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.can_fast_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.collect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.related_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Collector** (1 connections)
+- **Return the graph as a nested list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **We always want to load the objects into memory so that we can display them to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Tests for ``NestedObject`` utility collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **The nested collector doesn't query for DO_NOTHING objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **NestedObjects.collect() doesn't trip (AttributeError) on the special notation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Relationships
 
-- [Community 257](Community_257.md) (11 shared connections)
-- [Community 234](Community_234.md) (6 shared connections)
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 115](Community_115.md) (4 shared connections)
-- [Community 628](Community_628.md) (4 shared connections)
-- [Community 472](Community_472.md) (3 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 117](Community_117.md) (1 shared connections)
+- [Community 843](Community_843.md) (9 shared connections)
+- [Community 124](Community_124.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 741](Community_741.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (75%)
-- INFERRED: 18 (25%)
+- EXTRACTED: 46 (85%)
+- INFERRED: 8 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

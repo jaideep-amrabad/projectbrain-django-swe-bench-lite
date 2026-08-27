@@ -1,53 +1,62 @@
 # Community 236
 
-> 47 nodes · cohesion 0.04
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **AppsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_dynamic_load()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_app_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_app_configs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_is_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_lazy_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_model_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_singleton_master()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_bad_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_containing_app_config_apps_not_ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_import_exception_is_not_masked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_models_not_loaded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_models_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_config_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_such_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_not_an_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_one_config_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_relabeling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_two_configs_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_two_configs_one_default_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_two_default_configs_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **Load an app that provides two AppConfig classes.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_duplicate_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- *... and 22 more nodes in this community*
+- **Lower** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **IndexesTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **LowerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **IndexesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_func_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_complex_expression_custom_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_pointing_to_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_required_db_features()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_include()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_with_tablespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_num_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_func_index_pointing_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_pointing_to_non_local_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_non_local_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_condition_required_db_features()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_include_required_db_features()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_name_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (5 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 253](Community_253.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
+- [Community 117](Community_117.md) (18 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 147](Community_147.md) (6 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 242](Community_242.md) (5 shared connections)
+- [Community 119](Community_119.md) (4 shared connections)
+- [Community 31](Community_31.md) (3 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 72](Community_72.md) (3 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 202](Community_202.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 127 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

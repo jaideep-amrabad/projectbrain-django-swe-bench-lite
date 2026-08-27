@@ -1,57 +1,46 @@
 # Community 532
 
-> 28 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FieldOperation** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **RemoveField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **FieldOperationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.is_same_field_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.is_same_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.test_reference_field_by_through_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_references_field_by_from_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_references_field_by_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_references_field_by_remote_field_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_references_field_by_through()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_references_field_by_to_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_references_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.model_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **Remove a field from a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- *... and 3 more nodes in this community*
+- **RecursiveM2MTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **RecursiveSymmetricalM2MThroughTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **m2m_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **m2m_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Colleague** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Many-to-many relationships between the same two tables In this example, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_add_in_both_directions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_add_via_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_related_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
 
 ## Relationships
 
-- [Community 352](Community_352.md) (12 shared connections)
-- [Community 280](Community_280.md) (4 shared connections)
-- [Community 450](Community_450.md) (2 shared connections)
-- [Community 322](Community_322.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 599](Community_599.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 29 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

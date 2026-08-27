@@ -1,22 +1,23 @@
 # Community 1049
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_logout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_logout_cookie_sessions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_logout_with_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a logout after logging in** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **app2/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
+- **ProxyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
+- **app1/models.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
+- **NiceModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
 
 ## Relationships
 
-- [Community 541](Community_541.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
 
 ## Audit Trail
 

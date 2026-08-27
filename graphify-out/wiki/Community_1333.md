@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **contains_tuple.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/contains_tuple.py`
+- **localized.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/localized.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/contains_tuple.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/localized.py`
 
 ## Audit Trail
 

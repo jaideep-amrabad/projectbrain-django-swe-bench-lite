@@ -1,52 +1,51 @@
 # Community 381
 
-> 16 nodes · cohesion 0.19
+> 21 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **gis/admin/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
-- **gis/admin/options.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **gis/admin/widgets.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **GeoModelAdmin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **OpenLayersWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **StackedInline** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_map_widget()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.formfield_for_dbfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **OSMGeoAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **.map_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **The administration options class for Geographic models. Map settings may be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Overloaded from ModelAdmin so that an OpenLayersWidget is used for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Return a subclass of the OpenLayersWidget (or whatever was specified in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Render an OpenLayers map using the WKT of the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **Build the map options hash for the OpenLayers template.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **managers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **SitesFrameworkTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **AbstractArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **CurrentSiteManagerChecksTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **CustomArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **ExclusiveArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **SyndicatedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **._check_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **.test_invalid_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_invalid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **Use this to limit objects to those associated with the current site.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_custom_named_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_site_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_sites_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 32](Community_32.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 650](Community_650.md) (3 shared connections)
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 70](Community_70.md) (3 shared connections)
-- [Community 125](Community_125.md) (2 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 706](Community_706.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 184](Community_184.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (91%)
+- INFERRED: 6 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

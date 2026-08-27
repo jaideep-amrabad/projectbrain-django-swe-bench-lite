@@ -1,26 +1,24 @@
 # Community 1052
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **UnittestCase2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_3_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **MigrateWhenFooRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **A router that allows migrating depending on a hint.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
 
 ## Relationships
 
-- [Community 684](Community_684.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

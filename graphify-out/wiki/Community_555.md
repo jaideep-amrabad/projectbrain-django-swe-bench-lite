@@ -1,51 +1,48 @@
 # Community 555
 
-> 19 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_contextlist_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_contextlist_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_inherited_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nested_requests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **list** (1 connections)
-- **A wrapper that provides direct key access to context items contained in a list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Flattened keys of subcontexts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_15368()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Context variables can be retrieved from a single context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Context variables can be retrieved from a list of contexts** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **response.context is not lost when view call another view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Serializer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **Serializer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **JSONSerializer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **Convert a queryset to GeoJSON, http://geojson.org/** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **PythonSerializer** (1 connections)
+- **Convert a queryset to JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.loads()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Simple wrapper around json to be used in signing.dumps and signing.loads.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 279](Community_279.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 318](Community_318.md) (1 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 474](Community_474.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,38 @@
 # Community 618
 
-> 33 nodes · cohesion 0.08
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **admin_custom_urls/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **admin_custom_urls/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **AdminCustomUrlsTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **Action** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **ActionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.remove_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **PersonAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.response_post_save_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.response_post_save_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.test_add_with_GET_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_admin_URLs_no_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_basic_add_GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_basic_add_POST()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_post_save_add_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_post_save_change_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_post_url_continue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **CarAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.response_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **ModelAdmin.response_post_save_add() controls the redirection after the 'Save'…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **admin_custom_urls/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/urls.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **A ModelAdmin for the Action model that changes the URL of the add_view to '<app…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- *... and 8 more nodes in this community*
+- **DataTypesTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Donut** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **.test_error_on_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_boolean_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_date_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_datefield_auto_now_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_textfields_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_time_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_year_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **Year boundary tests (ticket #3689)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **TextField values returned from the database should be str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #8354: the MySQL and Oracle backends should raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #10970, auto_now_add for DateField should store a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (12 shared connections)
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 253](Community_253.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 21 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

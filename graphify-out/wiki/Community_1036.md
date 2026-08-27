@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **lookuperror_c/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
-- **C1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
-- **C2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
-- **C3** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- **ParameterRestrictionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_allows_non_ascii_but_valid_identifiers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_integer_parameter_name_causes_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_non_identifier_parameter_name_causes_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
 
 ## Relationships
 
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
 
 ## Audit Trail
 

@@ -1,57 +1,61 @@
 # Community 337
 
-> 39 nodes · cohesion 0.06
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Node** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **NodeTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.query()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._filter_or_exclude_inplace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.negate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **._new_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **test_tree.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_eq_children()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_eq_connector()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_eq_negated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **setter** (1 connections)
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **A single internal node in the tree graph. A Node should be viewed as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- *... and 14 more nodes in this community*
+- **RelatedField** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **SettingsReference** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.check()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **._check_clashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.related_query_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_related_query_name_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.swappable_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.delete_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.get_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.is_cached()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.set_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_referencing_to_swapped_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_related_name_is_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_relation_model_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_forward_related_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **str** (1 connections)
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 638](Community_638.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 184](Community_184.md) (5 shared connections)
+- [Community 328](Community_328.md) (4 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 107](Community_107.md) (2 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (90%)
-- INFERRED: 6 (10%)
+- EXTRACTED: 79 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

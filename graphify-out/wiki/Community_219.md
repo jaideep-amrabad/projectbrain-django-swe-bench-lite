@@ -1,60 +1,56 @@
 # Community 219
 
-> 51 nodes · cohesion 0.09
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BulkCreateTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NoFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NullableFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_nullable_fk_after_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **BigAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- *... and 26 more nodes in this community*
+- **SelectRelatedTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **select_related/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **select_related/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **SelectRelatedValidationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Domain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Species** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **TaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **.create_tree()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **Family** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Genus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **HybridSpecies** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Kingdom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Klass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Order** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Phylum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Pizza** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Running select_related() after calling values() raises a TypeError** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_access_fks_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_access_fks_without_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_list_with_depth()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_list_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_more_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (17 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 185](Community_185.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 104](Community_104.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 628](Community_628.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 148 (92%)
-- INFERRED: 13 (8%)
+- EXTRACTED: 77 (82%)
+- INFERRED: 17 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

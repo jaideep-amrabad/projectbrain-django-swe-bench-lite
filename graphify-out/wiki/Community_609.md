@@ -1,42 +1,47 @@
 # Community 609
 
-> 17 nodes · cohesion 0.26
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **StringLookupTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **string_lookup/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **string_lookup/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.test_string_form_referencing()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Foo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Whiz** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.test_ipaddress_on_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.test_queries_on_textfields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.test_unicode_chars_in_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression tests for #3937 make sure we can use unicode characters in queries.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression tests for #5087 make sure we can perform queries on TextFields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression test for #708 "like" queries on IP address fields require casting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression test for #1661 and #1662 String form referencing of models works,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.unindent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_args_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_empty_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_multiline_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_operation_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 48](Community_48.md) (6 shared connections)
+- [Community 643](Community_643.md) (1 shared connections)
+- [Community 394](Community_394.md) (1 shared connections)
+- [Community 171](Community_171.md) (1 shared connections)
+- [Community 500](Community_500.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (85%)
-- INFERRED: 6 (15%)
+- EXTRACTED: 38 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

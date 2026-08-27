@@ -1,28 +1,34 @@
 # Community 955
 
-> 6 nodes · cohesion 0.53
+> 7 nodes · cohesion 0.62
 
 ## Key Concepts
 
-- **GetLanguageInfoListTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
-- **setup** (4 connections)
-- **.test_i18n30()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
-- **.test_i18n31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
-- **.test_i18n38_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
-- **.test_no_for_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **check_cache_location_not_exposed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- **CheckCacheLocationTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.get_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_cache_path_contains_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_cache_path_inside_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_cache_path_matches_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_cache_path_not_conflict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 496](Community_496.md) (1 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
+- [Community 400](Community_400.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

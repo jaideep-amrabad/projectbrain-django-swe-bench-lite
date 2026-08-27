@@ -1,39 +1,38 @@
 # Community 745
 
-> 12 nodes · cohesion 0.26
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **reverse_lookup/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **ReverseLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **reverse_lookup/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **Choice** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **Poll** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **.test_reverse_field_name_disallowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **Reverse lookups This demonstrates the reverse lookup features of the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **If a related_name is given you can't use the field name instead** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.test_reverse_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.test_reverse_by_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **test_autofield.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **BigIntegerFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **AutoFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **AutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **BigAutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **SmallAutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **BigAutoFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **SmallAutoFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **IntegerFieldTests** (1 connections)
 
 ## Relationships
 
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 657](Community_657.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 343](Community_343.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 987](Community_987.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 24 (83%)
+- INFERRED: 5 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,30 @@
 # Community 423
 
-> 12 nodes · cohesion 0.24
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **BaseModelForm** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._save_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._update_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **For backwards-compatibility, exclude several types of fields from model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Call the instance's validate_unique() method and update the form's validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Save the many-to-many fields and generic relations for this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Save this form's self.instance object if commit=True. Otherwise, add a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **WeirdQuerysetSlicingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_resultset_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_sliced_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_sliced_subquery_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_tickets_7698_10202()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_zero_length_values_slicing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 97](Community_97.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 224](Community_224.md) (1 shared connections)
-- [Community 172](Community_172.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 360](Community_360.md) (1 shared connections)
-- [Community 249](Community_249.md) (1 shared connections)
+- [Community 160](Community_160.md) (5 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 8 (67%)
+- INFERRED: 4 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

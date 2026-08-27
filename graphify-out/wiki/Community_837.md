@@ -1,33 +1,44 @@
 # Community 837
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Account** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **BarAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FooAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **BarAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FooAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple, generic account encapsulating the information shared by all types of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A service-specific account of type Foo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A service-specific account of type Bar.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **setup** (45 connections)
+- **.test_inheritance05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance25()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_duplicate_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Two-level with double quotes instead of single quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from local context with variable parent template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 91](Community_91.md) (4 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
+- [Community 872](Community_872.md) (15 shared connections)
+- [Community 1121](Community_1121.md) (2 shared connections)
+- [Community 1122](Community_1122.md) (2 shared connections)
+- [Community 1163](Community_1163.md) (1 shared connections)
+- [Community 1164](Community_1164.md) (1 shared connections)
+- [Community 1165](Community_1165.md) (1 shared connections)
+- [Community 1166](Community_1166.md) (1 shared connections)
+- [Community 1167](Community_1167.md) (1 shared connections)
+- [Community 1168](Community_1168.md) (1 shared connections)
+- [Community 1169](Community_1169.md) (1 shared connections)
+- [Community 1170](Community_1170.md) (1 shared connections)
+- [Community 1171](Community_1171.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 55 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

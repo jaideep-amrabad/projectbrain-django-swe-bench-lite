@@ -1,59 +1,65 @@
 # Community 209
 
-> 54 nodes · cohesion 0.04
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Options** (48 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **make_immutable_fields_list()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._expire_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_base_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_path_to_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.verbose_name_raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.add_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_ancestor_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_path_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._relation_tree()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.setup_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- *... and 29 more nodes in this community*
+- **SitemapTestsBase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **_get_sitemap_full_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **TestModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **test_generic.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **PingGoogleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **GenericViewsSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **I18nTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **HTTPSDetectionSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **sitemaps_tests/test_management.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **PingGoogleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **.test_get_sitemap_full_url_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_no_sites()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_not_detected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_something()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **.test_generic_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **.test_generic_sitemap_lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **.test_sitemap_index_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **.test_sitemap_section_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **.test_secure_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **.test_secure_sitemap_section()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 862](Community_862.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 249](Community_249.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
-- [Community 552](Community_552.md) (1 shared connections)
-- [Community 491](Community_491.md) (1 shared connections)
-- [Community 1012](Community_1012.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
+- [Community 126](Community_126.md) (15 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 601](Community_601.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 225](Community_225.md) (2 shared connections)
+- [Community 453](Community_453.md) (2 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 110 (96%)
+- INFERRED: 5 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

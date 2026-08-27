@@ -1,56 +1,62 @@
 # Community 197
 
-> 55 nodes · cohesion 0.05
+> 52 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **InspectDBTestCase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **inspectdb/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **inspectdb/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **inspectdb_tables_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **InspectDBTransactionalTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **skipUnless** (6 connections)
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **.make_field_type_asserter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_include_materialized_views()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_include_partitions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_attribute_name_not_python_keyword()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_char_field_db_collation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_custom_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_special_column_name_introspection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_table_name_introspection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_text_field_db_collation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_unsupported_unique_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_foreign_data_wrapper()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_include_views()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **inspectdb_views_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_digits_column_name_introspection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_field_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_introspection_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_json_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- *... and 30 more nodes in this community*
+- **ForeignObjectRel** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ManyToOneRel** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ManyToManyRel** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **GenericRel** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.check_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Return the Field in the 'to' object to which this relationship is tied.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Used by GenericRelation to store information about the relation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (20 shared connections)
-- [Community 28](Community_28.md) (6 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 106](Community_106.md) (2 shared connections)
-- [Community 332](Community_332.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 337](Community_337.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 328](Community_328.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 184](Community_184.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (92%)
-- INFERRED: 9 (8%)
+- EXTRACTED: 68 (87%)
+- INFERRED: 10 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

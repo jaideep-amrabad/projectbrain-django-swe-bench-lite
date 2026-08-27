@@ -1,33 +1,32 @@
 # Community 902
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **HttpDateProcessingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_rfc850()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_asctime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_rfc1123()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_year_less_than_70()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_http_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **patch** (1 connections)
-- **skipIf** (1 connections)
+- **TestFormField** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_model_field_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_field_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_invalid_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_non_dict_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_not_string_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Relationships
 
-- [Community 218](Community_218.md) (4 shared connections)
-- [Community 110](Community_110.md) (4 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 783](Community_783.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (76%)
-- INFERRED: 4 (24%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,62 +1,58 @@
 # Community 395
 
-> 38 nodes · cohesion 0.09
+> 51 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **search.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **test_trigram.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **test_unaccent.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **UnaccentTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **CharFieldModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **TextFieldModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramBase** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **UnaccentTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__or__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__rand__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__ror__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **._combine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- *... and 13 more nodes in this community*
+- **Migration** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **OperationTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **OperationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.alter_gis_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **IrreversibleError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.assertColumnExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertSpatialIndexExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_blank_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_blank_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **NoRasterSupportTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_remove_geom_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_remove_raster_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.apply_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertColumnNotExists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertGeometryColumnsCount()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.suggest_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.unapply()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.test_add_raster_field_on_db_without_raster_support()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_run_python_atomic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.apply()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.mutate_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 87](Community_87.md) (12 shared connections)
-- [Community 63](Community_63.md) (11 shared connections)
-- [Community 80](Community_80.md) (5 shared connections)
-- [Community 121](Community_121.md) (4 shared connections)
-- [Community 100](Community_100.md) (4 shared connections)
-- [Community 146](Community_146.md) (3 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
+- [Community 48](Community_48.md) (11 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 22](Community_22.md) (4 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 310](Community_310.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (92%)
-- INFERRED: 9 (8%)
+- EXTRACTED: 104 (95%)
+- INFERRED: 6 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

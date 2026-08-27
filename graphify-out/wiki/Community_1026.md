@@ -1,29 +1,26 @@
 # Community 1026
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **context_processors/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **RequestContextProcessorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **.test_request_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Tests for Django's bundled context processors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Tests for the ``django.template.context_processors.request`` processor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **The request object is available in the template and that its attributes can't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **core.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **findPosX()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **findPosY()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **quickElement()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **removeChildren()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

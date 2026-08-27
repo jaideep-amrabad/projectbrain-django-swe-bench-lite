@@ -1,29 +1,28 @@
 # Community 962
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **URLHandling** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_permanent_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpPermanentRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **Tests for URL handling in views and responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **.__reduce__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **model_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Used to unpickle Model subclasses with deferred fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Hook to allow choosing the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 90](Community_90.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (75%)
+- INFERRED: 2 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

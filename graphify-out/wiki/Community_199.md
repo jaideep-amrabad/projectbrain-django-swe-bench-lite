@@ -1,51 +1,57 @@
 # Community 199
 
-> 30 nodes · cohesion 0.07
+> 24 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **AtomicTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicInsideTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicWithoutAutocommitTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_alternate_decorator_syntax_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_alternate_decorator_syntax_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_decorator_syntax_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_decorator_syntax_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_force_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_prevent_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- *... and 5 more nodes in this community*
+- **fields/json.py** (53 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformTextLookupMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **CaseInsensitiveMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformNumericLookupMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIRegex** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIStartsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasAnyKeys** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **JSONIContains** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformEndsWith** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformGt** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformGte** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIn** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformLt** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformLte** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformRegex** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformStartsWith** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.resolve_expression_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **Mixin to allow case-insensitive comparison of JSON values on MySQL. MySQL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **Mixin for combining with a lookup expecting a text lhs from a JSONField key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 
 ## Relationships
 
+- [Community 370](Community_370.md) (11 shared connections)
+- [Community 85](Community_85.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
-- [Community 960](Community_960.md) (1 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 681](Community_681.md) (2 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 83 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

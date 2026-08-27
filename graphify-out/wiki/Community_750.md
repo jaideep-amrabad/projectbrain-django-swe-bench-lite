@@ -1,38 +1,45 @@
 # Community 750
 
-> 12 nodes · cohesion 0.32
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **GenericIPAddressFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **GenericIPAddressTestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **GenericIPAddrUnpackUniqueTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_invalid_generic_ip_raises_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_v4_unpack_uniqueness_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_generic_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_v4_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_v6_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_empty_generic_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_invalid_v4_ip_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_invalid_v6_ip_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_v6_uniqueness_detection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **BaseIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ModelIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **RelatedPopulator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **FlatValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **get_related_populators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **NamedValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=False) that yields a tuple for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(named=True) that yields a namedtuple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=True) that yields single values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **RelatedPopulator is used for select_related() object instantiation. The idea is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable that yields a model instance for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values() that yields a dict for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.populate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 286](Community_286.md) (4 shared connections)
-- [Community 394](Community_394.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 292](Community_292.md) (2 shared connections)
+- [Community 359](Community_359.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

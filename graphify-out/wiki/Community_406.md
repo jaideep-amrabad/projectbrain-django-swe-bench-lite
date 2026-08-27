@@ -4,62 +4,55 @@
 
 ## Key Concepts
 
-- **.settings()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **BaseConnectionHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **DatabaseWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **EmailBackend** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **get_level_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **._get_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.configure_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.test_create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
-- **ConsoleEmailBackend** (1 connections)
-- **.prepare_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Return the message level tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.write_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **Return a unique file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **Has this model been swapped out for another? If so, return the model name of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **custom_lookups/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SubqueryTransformTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **MySQLUnixTimestamp** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **DateTimeTransform** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Div3Lookup** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Exactly** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **InMonth** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Div3BilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **LastDigitTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Mult3BilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **UpperBilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **CustomModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_rhs_op()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 - *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 112](Community_112.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 578](Community_578.md) (2 shared connections)
-- [Community 756](Community_756.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 125](Community_125.md) (1 shared connections)
-- [Community 421](Community_421.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 527](Community_527.md) (1 shared connections)
-- [Community 493](Community_493.md) (1 shared connections)
+- [Community 69](Community_69.md) (14 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 545](Community_545.md) (7 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 977](Community_977.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (55%)
-- INFERRED: 34 (45%)
+- EXTRACTED: 69 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

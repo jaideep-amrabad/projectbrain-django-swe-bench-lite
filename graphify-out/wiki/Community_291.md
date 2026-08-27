@@ -1,51 +1,61 @@
 # Community 291
 
-> 38 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **FieldDeconstructionTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_foreign_key_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_many_to_many_field_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_decimal_field_0_decimal_places()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_auto_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_big_integer_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_binary_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_boolean_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_char_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_char_field_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_csi_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_db_tablespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_decimal_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_email_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_file_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_file_path_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_float_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_generic_ip_address_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_image_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_integer_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_ip_address_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- *... and 13 more nodes in this community*
+- **FileField** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **ImageField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **FieldCallableFileStorageTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **GenerateFilenameStorageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.test_filefield_awss3_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.test_callable_function_storage_file_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_deconstruction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.test_file_field_storage_none_uses_default_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.generate_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_image_library_installed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.update_dimension_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.test_filefield_generate_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 241](Community_241.md) (4 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 610](Community_610.md) (1 shared connections)
+- [Community 202](Community_202.md) (1 shared connections)
+- [Community 897](Community_897.md) (1 shared connections)
+- [Community 230](Community_230.md) (1 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
+- [Community 579](Community_579.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 71 (92%)
+- INFERRED: 6 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,49 +1,39 @@
 # Community 343
 
-> 23 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_settings_get()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._get_test_db_params()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_oracle_managed_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_tmp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_tmp_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_tmp_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_tmp_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._get_test_db_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **.set_as_test_mirror()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **.test_db_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **Set this database up to be used in testing as a mirror of a primary database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **Return a value from the test settings dict, or a given default, or a prefixed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **Return the 'production' DB name to get the test DB creation machinery to work.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **IntegerFieldTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_backend_range_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_backend_range_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_documented_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_redundant_backend_range_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.backend_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_coercing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Values within the documented safe range pass validation, and can be saved and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Backend specific ranges can be saved without corruption.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Backend specific ranges are enforced at the model validation level (#12030).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **If there are stricter validators than the ones from the database backend then…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Relationships
 
-- [Community 686](Community_686.md) (19 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 737](Community_737.md) (3 shared connections)
-- [Community 614](Community_614.md) (2 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
+- [Community 657](Community_657.md) (6 shared connections)
+- [Community 745](Community_745.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 21 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,31 +4,26 @@
 
 ## Key Concepts
 
-- **.build_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **is_discoverable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **filter_tests_by_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.enable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Check if a test label points to a Python package or file directory. Relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **FileFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_upload_to_callable_not_checked()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_upload_to_starts_with_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_valid_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_valid_default_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 
 ## Relationships
 
-- [Community 389](Community_389.md) (3 shared connections)
-- [Community 165](Community_165.md) (2 shared connections)
-- [Community 493](Community_493.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (77%)
-- INFERRED: 3 (23%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

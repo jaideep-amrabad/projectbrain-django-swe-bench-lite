@@ -1,41 +1,37 @@
 # Community 715
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ModelMultipleChoiceFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_number_of_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_run_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_clean_does_deduplicate_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_required_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_show_hidden_initial_changed_queries_efficiently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_to_field_name_with_initial_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelMultipleChoiceField does O(1) queries instead of O(n) (#10156).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelMultipleChoiceField run given validators (#14144).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Test support of show_hidden_initial by ModelMultipleChoiceField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **FileProxyMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **Temporary file object constructor that supports reopening of the temporary file…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **A mixin class used to forward file methods to an underlaying file object. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
 
 ## Relationships
 
-- [Community 139](Community_139.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 364](Community_364.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 360](Community_360.md) (1 shared connections)
-- [Community 392](Community_392.md) (1 shared connections)
+- [Community 126](Community_126.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (75%)
-- INFERRED: 5 (25%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

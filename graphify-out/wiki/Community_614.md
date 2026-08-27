@@ -1,47 +1,50 @@
 # Community 614
 
-> 16 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.create_cursor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._maindb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.cx_oracle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.get_connection_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.oracle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._savepoint_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **This is analogous to other backends' `_nodb_connection` property, which allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **force_insert_update/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Counter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **force_insert_update/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **InheritanceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **ProxyCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **InheritedCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **SubCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **ForceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **WithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **.templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **.test_force_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_update_on_inherited_model_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.assertQuerysetEqual()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_force_update_on_inherited_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_update_on_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **Tests for forcing insert and update queries (instead of Django's normal…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **Issue 13864: force_update fails on subclassed models, if they don't specify…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 343](Community_343.md) (2 shared connections)
-- [Community 477](Community_477.md) (2 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 548](Community_548.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 615](Community_615.md) (1 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 392](Community_392.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
+- [Community 215](Community_215.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (73%)
-- INFERRED: 9 (27%)
+- EXTRACTED: 41 (79%)
+- INFERRED: 11 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

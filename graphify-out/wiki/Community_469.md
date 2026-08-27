@@ -1,48 +1,61 @@
 # Community 469
 
-> 24 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **MultiColumnFKTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_double_nested_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_foreign_key_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_forward_in_lookup_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_get_fails_on_multicolumn_mismatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_get_succeeds_on_multicolumn_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_isnull_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_forward_ignores_invalid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_forward_returns_valid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_on_self_ignores_mismatch_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_on_self_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_reverse_ignores_invalid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_reverse_returns_valid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_many_to_many_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_prefetch_foreignkey_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_prefetch_foreignkey_reverse_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_prefetch_related_m2m_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_prefetch_related_m2m_reverse_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_query_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_reverse_query_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_reverse_query_returns_correct_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_select_related_foreignkey_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **OutputWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.execute()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **LabelCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.create_parser()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **findstatic.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.check()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.run_from_argv()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **DjangoHelpFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **SystemCheckError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.check_migrations()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.get_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.print_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **._reordered_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **label_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **.add_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **HelpFormatter** (1 connections)
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 622](Community_622.md) (3 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 806](Community_806.md) (1 shared connections)
+- [Community 18](Community_18.md) (14 shared connections)
+- [Community 269](Community_269.md) (4 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 118](Community_118.md) (1 shared connections)
+- [Community 392](Community_392.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 344](Community_344.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 79 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

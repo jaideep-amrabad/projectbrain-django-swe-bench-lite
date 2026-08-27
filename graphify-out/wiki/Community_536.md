@@ -1,49 +1,53 @@
 # Community 536
 
-> 20 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Person** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **admin_docs/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.test_lazy_reference_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **Company** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.dummy_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **._get_full_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Family** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Group** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.a_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.add_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.delete_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.get_groups_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.get_status_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.rename_company()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.save_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.set_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.suffix_company_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Models for testing various aspects of the djang.contrib.admindocs app** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Stores information about a person, related to :model:`myapp.Company`. **Notes**…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Get the full name of the person** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **postgis/base.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **PostGISSchemaEditor** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **DatabaseWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **PostGISIntrospection** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **postgis/features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- **DatabaseFeatures** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- **postgis/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **.get_geometry_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **._create_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **Psycopg2DatabaseFeatures** (1 connections)
+- **Psycopg2DatabaseWrapper** (1 connections)
+- **.prepare_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **DatabaseIntrospection** (1 connections)
+- **The geometry type OID used by PostGIS does not indicate the particular type of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **.geo_quote_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
+- **Special case when dimension changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
 
 ## Relationships
 
-- [Community 98](Community_98.md) (3 shared connections)
-- [Community 466](Community_466.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 276](Community_276.md) (3 shared connections)
+- [Community 740](Community_740.md) (2 shared connections)
+- [Community 136](Community_136.md) (2 shared connections)
+- [Community 562](Community_562.md) (2 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
+- [Community 787](Community_787.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 43 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,67 +1,60 @@
 # Community 120
 
-> 75 nodes · cohesion 0.03
+> 71 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **DataSource** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **Driver** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **inspectapp/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **DataSourceTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **ogrinspect()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **OGRInspectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **ogrinfo.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
-- **mapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **DriverTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **inspectapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **ogrinfo()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
-- **get_ogr_db_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **.ensure_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **.driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.test01_valid_driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test02_invalid_driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test03_aliases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test01_valid_shp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test02_invalid_shp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test03a_layers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- *... and 50 more nodes in this community*
+- **BaseFormSet** (49 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_form_count()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.full_clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_fields()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.is_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._construct_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._should_delete_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_form_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ManagementForm** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.deleted_forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.management_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.non_form_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.ordered_forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.empty_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_p()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_ul()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.extra_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (20 shared connections)
-- [Community 38](Community_38.md) (11 shared connections)
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 61](Community_61.md) (3 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 141](Community_141.md) (2 shared connections)
-- [Community 193](Community_193.md) (2 shared connections)
-- [Community 100](Community_100.md) (2 shared connections)
+- [Community 53](Community_53.md) (3 shared connections)
+- [Community 285](Community_285.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 150](Community_150.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (96%)
-- INFERRED: 6 (4%)
+- EXTRACTED: 127 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

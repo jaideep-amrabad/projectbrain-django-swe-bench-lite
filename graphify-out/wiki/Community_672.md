@@ -1,42 +1,45 @@
 # Community 672
 
-> 14 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **datetimes/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **DateTimesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_ambiguous_and_invalid_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **queryset_pickle/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **queryset_pickle/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Event** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Container** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Happening** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **MyEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **M2MModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Numbers** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.test_pickle_filteredrelation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Edition** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.get_static_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **SomeModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **standalone_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 387](Community_387.md) (8 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 1051](Community_1051.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1095](Community_1095.md) (2 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 38 (83%)
+- INFERRED: 8 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

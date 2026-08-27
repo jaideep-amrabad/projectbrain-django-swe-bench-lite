@@ -1,45 +1,48 @@
 # Community 503
 
-> 22 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **TestOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **custom_migration_operations/operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ArgsKwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ExpandArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **KwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **CreateModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.state_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **AlterTogetherOptionOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterIndexTogether** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterUniqueTogether** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **_check_for_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.option_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Change the value of unique_together to the target one. Input value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Change the value of index_together to the target one. Input value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Relationships
 
-- [Community 322](Community_322.md) (3 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 48](Community_48.md) (7 shared connections)
+- [Community 919](Community_919.md) (3 shared connections)
+- [Community 642](Community_642.md) (2 shared connections)
+- [Community 504](Community_504.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 585](Community_585.md) (1 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
+- [Community 788](Community_788.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 37 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,40 @@
 # Community 457
 
-> 25 nodes · cohesion 0.09
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **InclusionTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **SimpleTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **TagTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_no_render_side_effect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_render_context_is_cleared()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_15070_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.verify_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tags_from_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_escaping_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_explicit_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_format_html_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_naive_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_include_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **Inclusion tag passes down `use_l10n` of context to the Context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **#23441 -- InclusionNode shouldn't modify its nodelist at render time.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **#24555 -- InclusionNode should push and pop the render_context stack when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **CheckboxSelectMultipleTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_separate_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_nested_choices_without_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_value_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **Each input gets a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **CheckboxSelectMultiple doesn't contain 'for="field_0"' in the <label> because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (10 shared connections)
-- [Community 75](Community_75.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

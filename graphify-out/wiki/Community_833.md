@@ -1,34 +1,36 @@
 # Community 833
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **QuerySetIteratorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **cursor_iter()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.test_default_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **.test_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **.test_no_chunked_reads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **Yield blocks of rows from a cursor and ensure the cursor is closed when done.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **.test_iterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **If the database backend doesn't support chunked reads, then the result of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **filesizeformat()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_localized_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_negative_numbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **Format the value like a 'human-readable' file size (i.e. 13 KB, 4.1 MB, 102…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Avoid text wrapping in the middle of a phrase by adding non-breaking spaces…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 418](Community_418.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (80%)
-- INFERRED: 3 (20%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

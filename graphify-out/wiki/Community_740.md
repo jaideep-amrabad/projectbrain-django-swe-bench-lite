@@ -1,41 +1,38 @@
 # Community 740
 
-> 12 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **watch_for_translation_changes()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **WatchForTranslationChangesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Trans** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_i18n_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_app_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_app_dirs_ignore_django_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_enabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_local_locale()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **The purpose of this class is to store the actual translation function upon…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Register file watchers for .mo files in potential locale paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **BaseSpatialFeatures** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_bbcontains_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_collect_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_contained_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_crosses_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_distances_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_dwithin_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_extent_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_isvalid_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_make_line_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_relate_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_union_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 463](Community_463.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 536](Community_536.md) (2 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
+- [Community 390](Community_390.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 21 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,47 @@
 # Community 490
 
-> 25 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **MeasureBase** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **pretty_name()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.default_units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__iadd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__imul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__isub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__itruediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__mul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__sub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.unit_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **._get_standard()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__rmul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **._set_standard()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **Return the unit value and the default units specified from the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **Retrieve the unit attribute name for the given unit string. For example, if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **TemplateViewTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **._assert_about()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_generic_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_template_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_cached_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_extra_template_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_login_required_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_name_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that simply renders a template on GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a TemplateView responds correctly to HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that renders a template on GET with the template name as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a completely generic view that renders a template on GET with the template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view must provide a template name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A generic template view passes kwargs as context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view can be customized to return extra context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view can be cached** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_extra_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 99](Community_99.md) (6 shared connections)
+- [Community 233](Community_233.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

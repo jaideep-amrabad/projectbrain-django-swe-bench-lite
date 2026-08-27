@@ -1,54 +1,57 @@
 # Community 260
 
-> 44 nodes · cohesion 0.05
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **SessionTestsMixin** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_actual_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_get_expire_at_browser_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_key_empty_string_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_key_too_short_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_key_valid_string_saved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_load_does_not_create_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_save_does_not_resurrect_session_logged_out_in_other_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Falsey values (Such as an empty string) are rejected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Strings shorter than 8 characters are rejected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Strings of length 8 and up are accepted and stored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Loading an unknown session key does not create a session record. Creating…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Sessions shouldn't be resurrected by a concurrent request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_custom_expiry_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_custom_expiry_reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_custom_expiry_seconds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_custom_expiry_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_cycle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_cycle_with_no_session_cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_decode_failure_logged_to_security()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_default_expiry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- *... and 19 more nodes in this community*
+- **TimeFormat** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.f()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.srid()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **time_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.h()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.i()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.Z()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.O()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.s()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.a()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.u()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **setter** (1 connections)
+- **Get the SRID for the geometry. Return None if no SRID is set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Set the SRID for the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 12-hour format; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 24-hour format; i.e. '00' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Minutes; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Difference to Greenwich time in hours; e.g. '+0200', '-0430'. If timezone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Seconds; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Microseconds; i.e. '000000' to '999999** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 449](Community_449.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 783](Community_783.md) (1 shared connections)
-- [Community 588](Community_588.md) (1 shared connections)
-- [Community 849](Community_849.md) (1 shared connections)
+- [Community 126](Community_126.md) (7 shared connections)
+- [Community 400](Community_400.md) (4 shared connections)
+- [Community 363](Community_363.md) (3 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 549](Community_549.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 362](Community_362.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 272](Community_272.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 42 (86%)
+- INFERRED: 7 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

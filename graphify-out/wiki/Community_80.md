@@ -1,61 +1,52 @@
 # Community 80
 
-> 100 nodes · cohesion 0.04
+> 97 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **SchemaTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **postgres_tests/test_indexes.py** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **postgres_tests/test_operations.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.get_constraints()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **postgres/indexes.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **GinIndex** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BloomIndex** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BrinIndex** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **GistIndex** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BTreeIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **PostgresIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **OpClass** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **IndexTestMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **HashIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **SpGistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BloomIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.__init__()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BrinIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **BTreeIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **GinIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **HashIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_op_class_descending_collation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_op_class_descending_partial()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- *... and 75 more nodes in this community*
+- **CustomManagerTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **custom_managers/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **custom_managers/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **CustomManagersRegressTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **CustomQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.get_queryset()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **TestCars** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **Car** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **DeconstructibleCustomManager** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **FastCarAsBase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **FastCarAsDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **BaseCustomManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **FunPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **PersonFromAbstract** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **PersonManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **PublishedBookManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **AbstractPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **OneToOneRestrictedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **RelatedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **RestrictedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **AnnotatedBookManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (17 shared connections)
 - [Community 0](Community_0.md) (9 shared connections)
-- [Community 383](Community_383.md) (9 shared connections)
-- [Community 69](Community_69.md) (7 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 81](Community_81.md) (5 shared connections)
-- [Community 395](Community_395.md) (5 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 121](Community_121.md) (4 shared connections)
-- [Community 102](Community_102.md) (4 shared connections)
-- [Community 123](Community_123.md) (4 shared connections)
+- [Community 104](Community_104.md) (5 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 699](Community_699.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 293 (90%)
-- INFERRED: 31 (10%)
+- EXTRACTED: 141 (88%)
+- INFERRED: 19 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

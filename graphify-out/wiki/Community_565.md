@@ -1,53 +1,46 @@
 # Community 565
 
-> 19 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **proxy_models/models.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyModelAdminTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **proxy_models/admin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
-- **ProxyTrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **TrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **BaseUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.test_delete_str_in_model_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **PersonManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **SubManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.test_cascade_delete_proxy_model_admin_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **proxy_models/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **By specifying the 'proxy' Meta attribute, model subclasses can specify that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **Test if admin gives warning about cascade deleting models referenced to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **Test if the admin delete page shows the correct string representation for a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **get_system_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **.test_force_bytes_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_bytes_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_bytes_memory_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_bytes_strings_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_DjangoUnicodeDecodeError()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_get_default_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_repercent_broken_unicode_recursion_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_smart_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_smart_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **The encoding of the default system locale. Fallback to 'ascii' if the #encoding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **Broken __str__ actually raises an error.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **force_bytes knows how to convert to bytes an exception containing non-ASCII…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **UnicodeDecodeError** (1 connections)
 
 ## Relationships
 
-- [Community 655](Community_655.md) (18 shared connections)
-- [Community 950](Community_950.md) (5 shared connections)
-- [Community 744](Community_744.md) (5 shared connections)
-- [Community 339](Community_339.md) (4 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 1041](Community_1041.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 70](Community_70.md) (8 shared connections)
+- [Community 29](Community_29.md) (8 shared connections)
+- [Community 286](Community_286.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (88%)
-- INFERRED: 8 (12%)
+- EXTRACTED: 36 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

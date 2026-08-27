@@ -1,49 +1,52 @@
 # Community 547
 
-> 19 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DatabaseWrapper** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.disable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.enable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.data_type_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_is_mariadb()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_server_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_server_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.sql_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Disable foreign key checks, primarily for use in adding rows with forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Re-enable foreign key checks after they have been disabled.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **many_to_one/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **many_to_one/models.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ChildStringPrimaryKeyParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **District** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ParentStringPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Relation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Third** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ToFieldChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Record** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Student** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_save_fk_after_parent_with_non_numeric_pk_set_on_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.test_relation_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Many-to-one relationships To define a many-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Second** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 125](Community_125.md) (1 shared connections)
-- [Community 571](Community_571.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 636](Community_636.md) (1 shared connections)
-- [Community 333](Community_333.md) (1 shared connections)
-- [Community 613](Community_613.md) (1 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
+- [Community 419](Community_419.md) (15 shared connections)
+- [Community 979](Community_979.md) (9 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 899](Community_899.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 1156](Community_1156.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (76%)
-- INFERRED: 8 (24%)
+- EXTRACTED: 63 (84%)
+- INFERRED: 12 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

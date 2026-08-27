@@ -1,38 +1,49 @@
 # Community 646
 
-> 15 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **JSONFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_widget_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_redisplay_wrong_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_converted_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_widget_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_formfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_valid_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **Displaying a bound form (typically due to invalid input). The form should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **The widget can be overridden with an attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **JavaScriptCatalog** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **get_formats()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **JSONCatalog** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.render_to_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.test_get_formats()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.get_catalog()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_plural()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._num_plurals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._plural_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the selected language catalog as a JavaScript library. Receive the list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the number of plurals for this catalog language, or 2 if no plural…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the plural string (including nplurals) for this catalog language, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the selected language catalog as a JSON object. Receive the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return all formats strings required for i18n to work.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
 
 ## Relationships
 
-- [Community 232](Community_232.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 377](Community_377.md) (2 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 411](Community_411.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
+- [Community 261](Community_261.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 35 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

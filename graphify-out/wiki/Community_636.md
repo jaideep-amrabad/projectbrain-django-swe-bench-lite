@@ -1,43 +1,43 @@
 # Community 636
 
-> 15 nodes · cohesion 0.23
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **DatabaseCreation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **DatabaseCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_create_test_db_database_exists()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_create_test_db_unexpected_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **.patch_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_clone_test_db_database_exists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_clone_test_db_options_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._clone_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **._execute_create_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **._execute_raise_access_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._execute_raise_database_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **patch** (2 connections)
-- **skipUnless** (1 connections)
+- **TranslationCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **check_language_settings_consistent()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **check_setting_language_code()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **check_setting_languages()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **check_setting_languages_bidi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **.test_inconsistent_language_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_valid_variant_consistent_language_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **Error if LANGUAGES setting is invalid.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **.test_invalid_language_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_invalid_languages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_invalid_languages_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_valid_language_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_valid_languages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_valid_languages_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **Error if LANGUAGE_CODE setting is invalid.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **Error if language settings are not consistent with each other.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 123](Community_123.md) (4 shared connections)
-- [Community 231](Community_231.md) (2 shared connections)
-- [Community 547](Community_547.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 14](Community_14.md) (10 shared connections)
+- [Community 496](Community_496.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (82%)
-- INFERRED: 7 (18%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

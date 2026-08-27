@@ -1,61 +1,60 @@
 # Community 383
 
-> 32 nodes · cohesion 0.08
+> 32 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **AddIndexConcurrently** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **RemoveIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RemoveIndexConcurrently** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **AddIndexConcurrentlyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_no_allow_migrate()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **._ensure_not_in_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **RemoveCollationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **RemoveIndexConcurrentlyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **skipUnless** (5 connections)
-- **NotInTransactionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.test_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_add_other_index_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_add_with_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_requires_atomic_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.test_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_requires_atomic_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **Create an index using PostgreSQL's CREATE INDEX CONCURRENTLY syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **Remove an index using PostgreSQL's DROP INDEX CONCURRENTLY syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **Remove an index from a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **fixtures_regress/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **fixtures_regress/models.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MNaturalKeyFixtureTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **BaseNKModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular2B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughBC** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughCA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular2ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular2A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleCircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleCircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Stuff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Thingy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 80](Community_80.md) (9 shared connections)
-- [Community 123](Community_123.md) (6 shared connections)
-- [Community 228](Community_228.md) (3 shared connections)
-- [Community 549](Community_549.md) (2 shared connections)
-- [Community 100](Community_100.md) (2 shared connections)
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 352](Community_352.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 650](Community_650.md) (16 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 408](Community_408.md) (10 shared connections)
+- [Community 1045](Community_1045.md) (6 shared connections)
+- [Community 1077](Community_1077.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 1007](Community_1007.md) (2 shared connections)
+- [Community 188](Community_188.md) (2 shared connections)
+- [Community 1114](Community_1114.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 1113](Community_1113.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 139 (88%)
+- INFERRED: 19 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

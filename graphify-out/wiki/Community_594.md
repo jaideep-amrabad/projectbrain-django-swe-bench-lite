@@ -1,44 +1,42 @@
 # Community 594
 
-> 17 nodes · cohesion 0.21
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **SessionStore** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._key_to_file()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.load()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._get_storage_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._last_modification()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Implement a file based session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Get the file associated with this session key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Return the modification time of the file storing the session's content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Return the expiry time of the file storing the session's content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- **skipUnless** (6 connections)
+- **GetImageDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **DimensionClosingBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_not_closing_of_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **InconsistentGetImageDimensionsBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_closing_of_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_bug_19457()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_multiple_calls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_invalid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_valid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_webp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() properly closes files (#8817)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Open files passed into get_image_dimensions() should stay opened.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() called with a filename should closed the file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() works properly after various calls using a file handler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Multiple calls of get_image_dimensions() should return the same size.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Regression test for #19457 get_image_dimensions fails on some pngs, while…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() should return (None, None) for the dimensions of invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() should catch struct.error while feeding the PIL Image…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 849](Community_849.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

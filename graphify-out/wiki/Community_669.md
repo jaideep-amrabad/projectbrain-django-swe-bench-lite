@@ -1,43 +1,44 @@
 # Community 669
 
-> 16 nodes · cohesion 0.12
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **CreateDefaultSiteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_custom_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_multi_db_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_unavailable_site_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_multi_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#15346, #15573 - create_default_site() creates an example site only if none…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#16353, #16828 - The default site creation should respect db routing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#23641 - Sending the ``post_migrate`` signal triggers creation of the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#23945 - The configured ``SITE_ID`` should be respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#24488 - The pk should default to 1 if no ``SITE_ID`` is configured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#24075 - A Site shouldn't be created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RelationAssignmentTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Pet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **UserProfile** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RouterModelArgumentTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.test_foreign_key_cross_database_protection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_foreign_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_reverse_one_to_one_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **Foreign keys can cross databases if they two databases have a common source** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **allow_relation() is called with unsaved model instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_foreignkey_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_m2m_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 244](Community_244.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 223](Community_223.md) (4 shared connections)
+- [Community 627](Community_627.md) (3 shared connections)
+- [Community 479](Community_479.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 32 (68%)
+- INFERRED: 15 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_inheritance21()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level inheritance with {{ block.super }} from parent** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_set_many_returns_empty_list_on_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **set_many() returns an empty list when all keys are inserted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 785](Community_785.md) (1 shared connections)
-- [Community 817](Community_817.md) (1 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

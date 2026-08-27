@@ -1,31 +1,33 @@
 # Community 834
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **_strip_once()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.get_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_charref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_entityref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **HTMLParser** (1 connections)
-- **Internal tag stripping utility used by strip_tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_noniterable_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_noniterable_arg_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **Join a list with a string, like Python's ``str.join(list)``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 148](Community_148.md) (1 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

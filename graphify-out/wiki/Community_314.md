@@ -1,51 +1,50 @@
 # Community 314
 
-> 23 nodes · cohesion 0.11
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **FileFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **Document** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_move_temporary_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_abstract_filefield_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_clearable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_delete_when_file_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_media_root_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_open_returns_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_unique_when_same_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_refresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **skipIf** (1 connections)
-- **FileField.model returns the concrete model for fields defined in an abstract…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **FileField.save_form_data() will clear its instance attribute value if passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **FileField.save_form_data() considers None to mean "no change" rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **FileField.save_form_data(), if passed a truthy value, updates its instance…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **Calling delete on an unset FileField should not call the file deletion process,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **A FileField with unique=True shouldn't allow two instances with the same name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **The temporary uploaded file is moved rather than copied to the destination.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **FieldField.open() returns self so it can be used as a context manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **DatabaseOperations** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **._convert_field_to_tz()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_datefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_decimalfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_ipaddressfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.distinct_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 295](Community_295.md) (5 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 208](Community_208.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 299](Community_299.md) (2 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 55 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---
