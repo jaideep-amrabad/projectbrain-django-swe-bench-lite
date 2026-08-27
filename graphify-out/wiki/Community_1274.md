@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **osm.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/osm.js`
+- **custom_columns/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/osm.js`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/__init__.py`
 
 ## Audit Trail
 

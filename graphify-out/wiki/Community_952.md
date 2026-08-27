@@ -1,28 +1,26 @@
 # Community 952
 
-> 6 nodes · cohesion 0.33
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.full_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.clean_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Call clean_fields(), clean(), and validate_unique() on the model. Raise a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Clean all fields and raise a ValidationError containing a dict of all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Hook for doing any extra model-wide validation after clean() has been called on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **DecadeFilterBookAdminWithoutParameter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_simplelistfilter_without_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Any SimpleListFilter must define a parameter_name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Relationships
 
-- [Community 123](Community_123.md) (4 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

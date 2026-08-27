@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **null_fk/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/__init__.py`
+- **bad_module.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/bad_module.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_fk/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/bad_module.py`
 
 ## Audit Trail
 

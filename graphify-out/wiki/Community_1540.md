@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_migrations_bad_pyc/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_bad_pyc/__init__.py`
+- **urls/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/empty.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_bad_pyc/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/empty.py`
 
 ## Audit Trail
 
