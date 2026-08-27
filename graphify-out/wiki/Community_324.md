@@ -1,56 +1,61 @@
 # Community 324
 
-> 24 nodes · cohesion 0.12
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **AutocompleteMixinTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AutocompleteSelect** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AutocompleteMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **NotRequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **RequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.build_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.test_render_options_not_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.media()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.optgroups()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.test_build_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_no_custom_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_not_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_get_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_media()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **Empty option is present if the field isn't required.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **Select widget mixin that loads options from AutocompleteJsonView via AJAX.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Set select2's AJAX attributes. Attributes can be set using the html5 data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Return selected options based on the ModelChoiceIterator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **BytesIO** (48 connections)
+- **FileTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_wsgirequest_with_force_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **NoNameFileTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_wsgirequest_script_url_double_slashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_file_iteration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_mac_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_windows_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_POST_binary_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_wsgirequest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_wsgirequest_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_wsgirequest_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_file_iteration_mixed_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_mac_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_unix_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_windows_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_namedtemporaryfile_closes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_resets_opened_file_to_start_and_returns_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_noname_file_default_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_noname_file_get_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_io_wrapper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_reopens_closed_file_and_returns_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (9 shared connections)
-- [Community 70](Community_70.md) (5 shared connections)
-- [Community 277](Community_277.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 282](Community_282.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 110](Community_110.md) (9 shared connections)
+- [Community 616](Community_616.md) (8 shared connections)
+- [Community 420](Community_420.md) (5 shared connections)
+- [Community 122](Community_122.md) (4 shared connections)
+- [Community 495](Community_495.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 68](Community_68.md) (2 shared connections)
+- [Community 136](Community_136.md) (2 shared connections)
+- [Community 520](Community_520.md) (2 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 383](Community_383.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (81%)
-- INFERRED: 11 (19%)
+- EXTRACTED: 46 (49%)
+- INFERRED: 48 (51%)
 - AMBIGUOUS: 0 (0%)
 
 ---

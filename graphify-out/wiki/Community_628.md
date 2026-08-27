@@ -1,38 +1,40 @@
 # Community 628
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **UserListA** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **test_mutable_list.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **mutable_list.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **UserListB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **ListMixinTestSingle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **nextRange()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._get_single_external()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._set_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._set_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **DecoratorFromMiddlewareTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **FullMiddleware** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **template_response_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **.test_full_dec_templateresponse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_process_view_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_callable_process_view_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Tests for view decorators created using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view, operating on a callable class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **All methods of middleware are called for TemplateResponses in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 383](Community_383.md) (3 shared connections)
-- [Community 487](Community_487.md) (3 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 765](Community_765.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

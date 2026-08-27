@@ -1,34 +1,40 @@
 # Community 702
 
-> 11 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **CookieSessionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_actual_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_cycle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_load_does_not_create_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_save_does_not_resurrect_session_logged_out_in_other_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **skip** (2 connections)
-- **.test_unpickling_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **expectedFailure** (1 connections)
-- **This test tested exists() in the other session backends, but that doesn't make…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **This test tested cycle_key() which would create a new session key for the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **AdminEmailHandlerTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.get_admin_email_handler()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_accepts_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_accepts_args_and_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_emit_non_ascii()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_disallowed_host_doesnt_crash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_subject_accepts_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_uses_custom_email_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_customize_send_mail_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_default_exception_reporter_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **User-supplied arguments and the EMAIL_SUBJECT_PREFIX setting are used to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **The subject is also handled if being passed a request object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **Newlines in email reports' subjects are escaped to prevent AdminErrorHandler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **#23593 - AdminEmailHandler should allow Unicode characters in the request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 186](Community_186.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 31 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,51 @@
 # Community 298
 
-> 31 nodes · cohesion 0.11
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ignore_warnings** (31 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SetLanguageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_decodes_http_referer_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_default_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_http_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_redirect_to_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_lang_from_translated_i18n_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **The set_language view redirects to '/' when there isn't a referer or "next"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to the "next" parameter for AJAX calls.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view doesn't redirect to the HTTP referer header for AJAX…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view returns 204 for AJAX calls by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The fallback to root URL for the set_language view works for AJAX calls.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view decodes the HTTP_REFERER URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Test the django.views.i18n.set_language view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Return language code for a language which is not activated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- *... and 6 more nodes in this community*
+- **LoremIpsumTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **words()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **lorem_ipsum.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **paragraphs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **sentence()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **paragraph()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **test_lorem_ipsum.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **patch** (5 connections)
+- **.test_not_common_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraph()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraphs_not_common()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence_ending()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.test_common_large_number_of_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_common_words_in_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_more_words_than_common()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_negative_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraphs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence_starts_with_capital()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_same_or_less_common_words()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **Utility functions for generating "lorem ipsum" Latin text.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a randomly generated sentence of lorem ipsum text. The first word is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a randomly generated paragraph of lorem ipsum text. The paragraph…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a list of paragraphs as returned by paragraph(). If `common` is True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (6 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 31](Community_31.md) (3 shared connections)
-- [Community 553](Community_553.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 74](Community_74.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 552](Community_552.md) (1 shared connections)
-- [Community 847](Community_847.md) (1 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 439](Community_439.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 64 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

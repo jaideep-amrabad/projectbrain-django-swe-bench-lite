@@ -1,49 +1,58 @@
 # Community 435
 
-> 24 nodes · cohesion 0.12
+> 23 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ManyToOneNullTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **many_to_one_null/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **many_to_one_null/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Reporter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Driver** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Many-to-one relationships that can be null To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **.test_add_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_assign_clear_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_clear_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_created_via_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_created_without_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_get_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_related_null_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_remove_from_wrong_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_set_clear_non_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **PasswordResetTokenGenerator** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **test_password_reset_timeout_days.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **tokens.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **test_tokens.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **TokenGeneratorTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **.check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **._make_token_with_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **.make_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **._num_seconds()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **._make_hash_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **._now()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **.test_10265()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **.test_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **.test_token_with_different_secret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **.test_check_token_with_nonexistent_token_and_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **.test_make_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **Return a token that can be used once to do a password reset for the given user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **Check that a password reset token is correct for a given user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **Hash the user's primary key and some user state that's sure to change after a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **Strategy object used to generate and check tokens for the password reset…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **The token generated for a user created in the same request will work correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **The token is valid after n seconds, but no greater.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **A valid token can be created with a secret other than SECRET_KEY by using the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 676](Community_676.md) (4 shared connections)
+- [Community 299](Community_299.md) (4 shared connections)
+- [Community 52](Community_52.md) (4 shared connections)
+- [Community 552](Community_552.md) (4 shared connections)
+- [Community 36](Community_36.md) (3 shared connections)
+- [Community 212](Community_212.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 564](Community_564.md) (2 shared connections)
+- [Community 777](Community_777.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 74 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

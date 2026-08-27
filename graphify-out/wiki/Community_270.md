@@ -1,60 +1,51 @@
 # Community 270
 
-> 24 nodes · cohesion 0.12
+> 38 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **admin/checks.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **admin/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **SimpleAdminConfig** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **_issubclass()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **check_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **_contains_subclass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **AdminConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **must_inherit_from()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **NotRelationField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **check_admin_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **admin_default_site/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
-- **Exception** (2 connections)
-- **MyCustomAdminConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
-- **.ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **The default AppConfig for admin which does autodiscovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **Simple AppConfig which does not do automatic discovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **issubclass() variant that doesn't raise an exception if cls isn't a class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Return whether or not a dotted class path (or a subclass of that class) is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that form subclasses BaseModelForm.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that the admin's dependencies are correctly installed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check one item of `list_filter`, i.e. check if it is one of three options: 1.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **FieldDeconstructionTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_foreign_key_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_many_to_many_field_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_decimal_field_0_decimal_places()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_auto_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_big_integer_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_binary_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_boolean_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_char_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_char_field_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_csi_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_db_tablespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_decimal_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_email_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_file_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_file_path_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_float_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_generic_ip_address_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_image_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_integer_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_ip_address_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 286](Community_286.md) (6 shared connections)
-- [Community 649](Community_649.md) (4 shared connections)
-- [Community 145](Community_145.md) (4 shared connections)
-- [Community 207](Community_207.md) (4 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 330](Community_330.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 78](Community_78.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 43 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

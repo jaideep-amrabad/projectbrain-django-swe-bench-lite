@@ -1,39 +1,35 @@
 # Community 744
 
-> 14 nodes · cohesion 0.24
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **setup** (10 connections)
-- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **Without arg and when USE_L10N is True, the active language's DATE_FORMAT is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **#9520: Make sure |date doesn't blow up on non-dates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **ASGIRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.COOKIES()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.GET()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_scheme()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._set_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **Custom request subclass that decodes from an ASGI-standard request dict and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
 
 ## Relationships
 
-- [Community 338](Community_338.md) (7 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 537](Community_537.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 215](Community_215.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (79%)
-- INFERRED: 7 (21%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

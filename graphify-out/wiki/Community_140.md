@@ -1,52 +1,59 @@
 # Community 140
 
-> 28 nodes · cohesion 0.07
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ManyToOneTests** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_then_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_cached_foreign_key_with_to_field_not_cleared_by_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_clear_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_create_relation_with_gettext_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_deepcopy_and_circular_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_explicit_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_instantiation_outside_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_smallautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_manager_class_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_multiple_foreignkeys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_assignment_deprecation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_foreign_key_instance_to_field_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_selects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_selects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- *... and 3 more nodes in this community*
+- **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **TestRegistration** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **admin/decorators.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **Location** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Traveler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **CustomSite** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_abstract_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_is_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_is_registered_not_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_basic_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_custom_site_not_an_admin_site()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_custom_site_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_empty_models_list_registration_fails()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_multiple_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_wrapped_class_not_a_model_admin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Tests for various ways of registering models with the admin site.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **NameAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Exception is raised when trying to register an abstract model. Refs #12004.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Checks for registered models should return true.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 581](Community_581.md) (11 shared connections)
-- [Community 885](Community_885.md) (8 shared connections)
-- [Community 845](Community_845.md) (6 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 1559](Community_1559.md) (1 shared connections)
+- [Community 482](Community_482.md) (8 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 93](Community_93.md) (3 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (70%)
-- INFERRED: 16 (30%)
+- EXTRACTED: 63 (91%)
+- INFERRED: 6 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

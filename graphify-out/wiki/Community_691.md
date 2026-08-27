@@ -1,41 +1,37 @@
 # Community 691
 
-> 16 nodes · cohesion 0.16
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface."** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **RegisterLookupMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._clear_cached_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.register_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._unregister_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (3 shared connections)
-- [Community 100](Community_100.md) (2 shared connections)
-- [Community 583](Community_583.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

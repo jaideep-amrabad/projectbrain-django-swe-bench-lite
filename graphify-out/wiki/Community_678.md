@@ -1,37 +1,37 @@
 # Community 678
 
-> 12 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **MyPerson** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **OtherPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **StatusPerson** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ManagerMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.has_special_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A simple concrete base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A proxy subclass, this should not get a new table. Overrides the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A class with the default manager from Person, plus a secondary manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A non-proxy subclass of a proxy, it should get a new table.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **AuthContextProcessorTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_user_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_session_is_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_session_not_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_message_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_perm_in_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The lazy objects returned behave just like the wrapped objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **Tests for the ``django.contrib.auth.context_processors.auth`` processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The session is not accessed simply by including the auth context processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The session is accessed if the auth context processor is used and relevant…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Relationships
 
-- [Community 595](Community_595.md) (8 shared connections)
-- [Community 505](Community_505.md) (5 shared connections)
-- [Community 320](Community_320.md) (5 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (87%)
-- INFERRED: 4 (13%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

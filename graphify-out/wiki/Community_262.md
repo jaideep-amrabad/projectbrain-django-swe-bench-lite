@@ -1,56 +1,56 @@
 # Community 262
 
-> 42 nodes · cohesion 0.09
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **defer_regress/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **DeferRegressionTest** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **defer_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **DeferDeletionSignalsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **Item** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Proxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **ProxyRelated** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **DeferAnnotateSelectRelatedTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Derived** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Leaf** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **RelatedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **SimpleItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **.test_ticket_12163()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Feature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **ItemAndSimpleItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **OneToOneItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Request** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **ResolveThis** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **SpecialFeature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- *... and 17 more nodes in this community*
+- **update/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **AdvancedTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **update/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **SimpleTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **DataPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **RelatedPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **A** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **Update changes the right number of rows for a nonempty queryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **C** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **.test_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_update_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_update_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_update_multiple_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_update_multiple_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_update_respects_to_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_update_slice_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_empty_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_empty_update_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_foreign_key_update_with_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_nonempty_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.test_nonempty_update_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 579](Community_579.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 89](Community_89.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 205](Community_205.md) (3 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 685](Community_685.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (81%)
-- INFERRED: 19 (19%)
+- EXTRACTED: 65 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

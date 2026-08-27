@@ -1,61 +1,49 @@
 # Community 420
 
-> 53 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CommonMiddleware** (38 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **CommonMiddlewareTest** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **HttpResponseNotFound** (26 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_append_slash_quoted()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_quoted_custom_urlconf()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_full_path_with_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.process_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.should_redirect_with_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.test_append_slash_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_disabled_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_have_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_have_slash_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_leading_slashes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_no_redirect_on_POST_in_DEBUG()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_no_redirect_on_POST_in_DEBUG_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_querystring()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_querystring_have_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_resource()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_resource_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_unknown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_unknown_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.process_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.test_append_slash_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_content_length_header_added()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 28 more nodes in this community*
+- **builtin_server/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WriteChunkCounterHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **FileWrapperHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **ServerHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.write()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WSGIFileWrapperTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **DummyHandler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **ServerHandlerChunksProperly** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_chunked_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_no_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_uses_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **._write()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **wsgi_app_file_wrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **send_big_data_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.send_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **wsgi_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.log_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.sendfile()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **The ServerHandler chunks data properly. Tests for #18972: The logic that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **write()' callable as specified by PEP 3333** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **The wsgi.file_wrapper works for the builtin server. Tests for #9659:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **Server handler that counts the number of chunks written after headers were…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.error_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (25 shared connections)
-- [Community 66](Community_66.md) (6 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 239](Community_239.md) (3 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 120](Community_120.md) (2 shared connections)
-- [Community 180](Community_180.md) (2 shared connections)
-- [Community 208](Community_208.md) (2 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 324](Community_324.md) (5 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 496](Community_496.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 36 (80%)
+- INFERRED: 9 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

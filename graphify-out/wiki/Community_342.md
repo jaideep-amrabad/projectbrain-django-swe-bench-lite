@@ -1,64 +1,56 @@
 # Community 342
 
-> 32 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **SimpleArrayField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSimpleFormField** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **prefix_validation_error()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
-- **error()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.run_validators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.run_validators()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.test_inlineformset_with_arrayfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_already_converted_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_delimiter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_delimiter_with_nesting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_has_changed_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_min_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_model_field_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_model_field_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_model_field_formfield_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_to_python_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **prefetch_related_objects()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **PrefetchRelatedObjectsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **DirectPrefetchedObjectCacheReuseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **get_prefetcher()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **normalize_prefetch_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **prefetch_one_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.test_m2m_then_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_prefetch_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_prefetch_object_to_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_prefetch_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_detect_is_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **._prefetch_related_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.test_foreignkey_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_foreignkey_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_m2m_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_m2m_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_unknown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **.test_add_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_detect_is_fetched_with_to_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_reverse_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_remove_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_bug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **Normalize lookups into Prefetch objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Populate prefetched object caches for a list of model instances based on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **For the attribute 'through_attr' on the given instance, find an object that has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (8 shared connections)
-- [Community 200](Community_200.md) (5 shared connections)
-- [Community 638](Community_638.md) (2 shared connections)
-- [Community 357](Community_357.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
-- [Community 96](Community_96.md) (1 shared connections)
-- [Community 541](Community_541.md) (1 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 540](Community_540.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
+- [Community 87](Community_87.md) (14 shared connections)
+- [Community 343](Community_343.md) (6 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 307](Community_307.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (71%)
-- INFERRED: 23 (29%)
+- EXTRACTED: 62 (87%)
+- INFERRED: 9 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

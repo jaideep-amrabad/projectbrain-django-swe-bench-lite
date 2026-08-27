@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_inheritance01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Standard template with no inheritance** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with variable parent-template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 705](Community_705.md) (1 shared connections)
-- [Community 736](Community_736.md) (1 shared connections)
+- [Community 707](Community_707.md) (1 shared connections)
+- [Community 737](Community_737.md) (1 shared connections)
 
 ## Source Files
 

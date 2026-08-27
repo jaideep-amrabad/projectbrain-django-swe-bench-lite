@@ -1,63 +1,57 @@
 # Community 142
 
-> 76 nodes · cohesion 0.04
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Paginator** (42 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PaginationTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **paginator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **ModelPaginationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.validate_number()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.ordered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_getitem()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginating_unordered_object_list_raises_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- *... and 51 more nodes in this community*
+- **BaseTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.get_storage()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.get_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.get_existing_storage()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.stored_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_add_lazy_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_existing_add_read_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_existing_read_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_no_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_existing_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_level_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_with_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_context_processor_message_levels()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_existing_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **With the message middleware enabled, messages are properly stored and retrieved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **Messages persist properly when multiple POSTs are made before a GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **Return the number of messages being stored after a ``storage.update()`` call.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **Reading the existing storage doesn't cause the data to be lost.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 217](Community_217.md) (6 shared connections)
-- [Community 45](Community_45.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 493](Community_493.md) (4 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 295](Community_295.md) (3 shared connections)
-- [Community 49](Community_49.md) (3 shared connections)
-- [Community 95](Community_95.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 338](Community_338.md) (2 shared connections)
+- [Community 70](Community_70.md) (9 shared connections)
+- [Community 801](Community_801.md) (9 shared connections)
+- [Community 33](Community_33.md) (4 shared connections)
+- [Community 945](Community_945.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
+- [Community 653](Community_653.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 154 (89%)
-- INFERRED: 19 (11%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

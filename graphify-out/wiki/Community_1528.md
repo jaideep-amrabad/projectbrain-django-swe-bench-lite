@@ -1,25 +1,25 @@
 # Community 1528
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **LoremTagTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **.test_lorem1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **.test_lorem_random()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **setup** (2 connections)
+- **ParameterHandlingTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_bad_parameter_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **An executemany call with too many/not enough parameters will raise an exception…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

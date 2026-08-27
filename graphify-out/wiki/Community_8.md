@@ -1,6 +1,6 @@
 # Community 8
 
-> 269 nodes · cohesion 0.01
+> 276 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **test_data_upload_settings.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 - **Exception** (14 connections)
 - **set_script_prefix()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- *... and 244 more nodes in this community*
+- *... and 251 more nodes in this community*
 
 ## Relationships
 
-- [Community 66](Community_66.md) (40 shared connections)
+- [Community 52](Community_52.md) (43 shared connections)
 - [Community 1](Community_1.md) (31 shared connections)
-- [Community 13](Community_13.md) (27 shared connections)
-- [Community 2](Community_2.md) (25 shared connections)
+- [Community 2](Community_2.md) (26 shared connections)
+- [Community 6](Community_6.md) (25 shared connections)
+- [Community 237](Community_237.md) (24 shared connections)
 - [Community 36](Community_36.md) (23 shared connections)
-- [Community 239](Community_239.md) (22 shared connections)
-- [Community 45](Community_45.md) (21 shared connections)
+- [Community 14](Community_14.md) (23 shared connections)
+- [Community 46](Community_46.md) (21 shared connections)
 - [Community 15](Community_15.md) (20 shared connections)
-- [Community 6](Community_6.md) (19 shared connections)
-- [Community 5](Community_5.md) (18 shared connections)
 - [Community 35](Community_35.md) (18 shared connections)
-- [Community 185](Community_185.md) (18 shared connections)
+- [Community 183](Community_183.md) (18 shared connections)
+- [Community 5](Community_5.md) (17 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1141 (97%)
-- INFERRED: 30 (3%)
+- EXTRACTED: 1154 (97%)
+- INFERRED: 32 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

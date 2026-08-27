@@ -1,35 +1,38 @@
 # Community 727
 
-> 10 nodes · cohesion 0.36
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **max_lengths/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **MaxLengthORMTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **IncludeTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_extends_include_missing_baseloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_missing_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_template_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_extends_include_missing_cachedloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_immediate_missing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_recursive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_from_loader_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **The correct template is identified as not existing when {% include %} specifies…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **#12787 -- The correct template is identified as not existing when {% extends %}…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **Support any render() supporting object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **#16417 -- Include tags pointing to missing templates should not raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **{% include %} keeps resolved templates constant (#27974). The CounterNode…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 66](Community_66.md) (7 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 27 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

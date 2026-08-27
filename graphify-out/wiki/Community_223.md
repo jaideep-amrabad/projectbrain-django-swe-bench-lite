@@ -1,53 +1,56 @@
 # Community 223
 
-> 21 nodes · cohesion 0.16
+> 48 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ExceptionReporterFilterTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.verify_unsafe_email()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.verify_safe_response()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.verify_safe_email()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_multivalue_dict_key_error()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_sensitive_function_arguments()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_sensitive_function_keyword_arguments()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_sensitive_method()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_sensitive_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_non_sensitive_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_callable_settings_forbidding_to_set_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Sensitive variables don't leak in the sensitive_variables decorator's frame,…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Sensitive POST parameters and frame variables cannot be seen in the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **#21098 -- Sensitive POST parameters cannot be seen in the error reports for if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **The sensitive_variables decorator works with object methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Callable settings which forbid to set attributes should not break the debug…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Asserts that certain sensitive info are not displayed in the response.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Asserts that potentially sensitive info are displayed in the email report.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Asserts that certain sensitive info are not displayed in the email report.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Sensitive information can be filtered out of error reports (#14614).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Everything (request info and frame variables) can bee seen in the default error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **BaseForm** (37 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.full_clean()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **._clean_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.add_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.add_prefix()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **._clean_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.add_initial_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.as_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.get_initial_for_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.as_p()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.as_ul()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.changed_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.non_field_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.order_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **._post_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.hidden_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.is_multipart()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.is_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.visible_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 760](Community_760.md) (9 shared connections)
-- [Community 120](Community_120.md) (7 shared connections)
-- [Community 946](Community_946.md) (6 shared connections)
-- [Community 283](Community_283.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 799](Community_799.md) (1 shared connections)
-- [Community 1561](Community_1561.md) (1 shared connections)
-- [Community 1562](Community_1562.md) (1 shared connections)
-- [Community 1563](Community_1563.md) (1 shared connections)
-- [Community 1564](Community_1564.md) (1 shared connections)
+- [Community 0](Community_0.md) (11 shared connections)
+- [Community 224](Community_224.md) (2 shared connections)
+- [Community 637](Community_637.md) (1 shared connections)
+- [Community 671](Community_671.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 255](Community_255.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
+- [Community 280](Community_280.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (86%)
-- INFERRED: 9 (14%)
+- EXTRACTED: 77 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

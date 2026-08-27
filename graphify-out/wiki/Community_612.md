@@ -1,36 +1,39 @@
 # Community 612
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **URLFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **URLField correctly validates IPv6 (#18779).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_url_regex_ticket11198()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_7()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_9()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_not_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_strip_on_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_unable_to_set_strip_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **manage_translations.py** (12 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_get_locale_dirs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **update_catalogs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **fetch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_check_diff()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **lang_stats()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_tx_resource_for_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output language statistics of committed translation files for each Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **# TODO: merge first with the latest en catalog** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Fetch translations from Transifex, wrap long lines, generate mo files.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return a tuple (contrib name, absolute path) for all locale directories,…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return the Transifex resource name** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output the approximate number of changed/added strings in the en catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Update the en/LC_MESSAGES/django.po (main and contrib) files with new/updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

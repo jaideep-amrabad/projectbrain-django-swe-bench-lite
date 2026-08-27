@@ -4,26 +4,29 @@
 
 ## Key Concepts
 
-- **IriencodeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **setup** (4 connections)
-- **.test_iriencode03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **Ensure iriencode keeps safe strings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- **mutually_referential/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **mutually_referential/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **MutuallyReferentialTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **.test_mutually_referential()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **Child** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **Mutually referential many-to-one relationships Strings can be used instead of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

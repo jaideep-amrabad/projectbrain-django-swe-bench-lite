@@ -1,34 +1,36 @@
 # Community 682
 
-> 11 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **RelatedFieldWidgetWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_related_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **This class is a wrapper to a given widget to add the add icon for the admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_traverse_GFK()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_charfield_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_generic_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_nullable_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_fk_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_nonint_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **A 'content_object' can be traversed with prefetch_related() and get to related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 87](Community_87.md) (8 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (67%)
+- INFERRED: 7 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

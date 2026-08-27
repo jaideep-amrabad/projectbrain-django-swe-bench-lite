@@ -1,44 +1,39 @@
 # Community 582
 
-> 15 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **DatabaseSchemaEditor** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._is_limited_data_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._set_field_new_type_null_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._column_default_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._delete_composed_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._rename_field_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.sql_delete_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._supports_limited_data_type_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **MySQL can remove an implicit FK index on a field when that field is covered by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **Keep the null property of the old field. If it has changed, it will be handled…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 365](Community_365.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

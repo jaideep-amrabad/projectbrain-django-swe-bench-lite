@@ -1,61 +1,54 @@
 # Community 576
 
-> 32 nodes · cohesion 0.07
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ChoicesMeta** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **enums.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **fields_for_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Choices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **apply_limit_choices_to_to_formfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **ModelFormOptions** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_empty_fields_to_fields_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.labels()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.test_fields_for_model_applies_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_subclassed_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **int** (1 connections)
-- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **str** (1 connections)
-- *... and 7 more nodes in this community*
+- **TypedMultipleChoiceField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedMultipleChoiceFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._coerce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_typedmultiplechoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **Validate that the values are in self.choices and can be coerced to the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Validate the given value against all of self.fields, which is a list of Field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Validate every value in the given list. A value is validated against the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
 
 ## Relationships
 
-- [Community 173](Community_173.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 241](Community_241.md) (1 shared connections)
-- [Community 666](Community_666.md) (1 shared connections)
-- [Community 390](Community_390.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
+- [Community 337](Community_337.md) (6 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 923](Community_923.md) (1 shared connections)
+- [Community 308](Community_308.md) (1 shared connections)
+- [Community 640](Community_640.md) (1 shared connections)
+- [Community 359](Community_359.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 45 (83%)
+- INFERRED: 9 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

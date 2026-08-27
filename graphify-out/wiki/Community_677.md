@@ -1,36 +1,37 @@
 # Community 677
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_GFK()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_charfield_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_generic_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_nullable_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_fk_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_nonint_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **A 'content_object' can be traversed with prefetch_related() and get to related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **appendInterface()** (8 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **escapeText()** (8 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendFilteredTest()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendTest()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendHeader()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **.diffPrettyHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **getNameHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **moduleListHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendBanner()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendTestResults()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendTestsList()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendUserAgent()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (8 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 344](Community_344.md) (1 shared connections)
+- [Community 312](Community_312.md) (11 shared connections)
+- [Community 481](Community_481.md) (4 shared connections)
+- [Community 692](Community_692.md) (2 shared connections)
+- [Community 589](Community_589.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (67%)
-- INFERRED: 7 (33%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

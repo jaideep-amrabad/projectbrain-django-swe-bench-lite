@@ -1,60 +1,43 @@
 # Community 219
 
-> 48 nodes · cohesion 0.08
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **QueryDict** (64 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **QueryDictTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **._assert_mutable()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.fromkeys()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **bytes_to_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.appendlist()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__setitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.setlist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_duplicates_in_fromkeys_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_empty_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_mutable_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_with_nondefault_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_with_nonempty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_multiple_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_mutable_copy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_non_default_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_querydict_fromkeys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_single_key_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_update_from_querydict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- *... and 23 more nodes in this community*
+- **.verify_unsafe_response()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **AjaxResponseExceptionReporterFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_paranoid_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_custom_exception_reporter_filter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_custom_exception_reporter_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_non_sensitive_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_ajax_response_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **It's possible to assign an exception reporter filter to the request to bypass…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Sensitive information can be filtered out of error reports. Here we…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Request info can bee seen in the default error reports for non-sensitive…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Sensitive POST parameters cannot be seen in the default error reports for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **No POST parameters can be seen in the default error reports for "paranoid"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Asserts that potentially sensitive info are displayed in the response.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 239](Community_239.md) (3 shared connections)
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 832](Community_832.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 189](Community_189.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 746](Community_746.md) (2 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 743](Community_743.md) (1 shared connections)
-- [Community 158](Community_158.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
+- [Community 123](Community_123.md) (6 shared connections)
+- [Community 763](Community_763.md) (6 shared connections)
+- [Community 884](Community_884.md) (5 shared connections)
+- [Community 733](Community_733.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 804](Community_804.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 34 (85%)
+- INFERRED: 6 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

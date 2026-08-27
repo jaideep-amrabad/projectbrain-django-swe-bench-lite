@@ -1,41 +1,45 @@
 # Community 716
 
-> 15 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **AdminEmailHandlerTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.get_admin_email_handler()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_accepts_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_accepts_args_and_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_emit_non_ascii()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_disallowed_host_doesnt_crash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_subject_accepts_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_uses_custom_email_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_customize_send_mail_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_default_exception_reporter_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **User-supplied arguments and the EMAIL_SUBJECT_PREFIX setting are used to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **The subject is also handled if being passed a request object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **Newlines in email reports' subjects are escaped to prevent AdminErrorHandler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **#23593 - AdminEmailHandler should allow Unicode characters in the request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **test_history_view.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_changed_message_uses_form_lables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **CityInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **Admin's model history change messages use form labels instead of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 75](Community_75.md) (3 shared connections)
+- [Community 99](Community_99.md) (3 shared connections)
+- [Community 296](Community_296.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 537](Community_537.md) (1 shared connections)
+- [Community 777](Community_777.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 188](Community_188.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 26 (84%)
+- INFERRED: 5 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

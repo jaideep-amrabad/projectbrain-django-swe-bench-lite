@@ -1,54 +1,62 @@
 # Community 204
 
-> 53 nodes · cohesion 0.07
+> 91 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **ReverseSelectRelatedTestCase** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **select_related_onetoone/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **select_related_onetoone/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child1** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child2** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Parent1** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Parent2** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **ReverseSelectRelatedValidationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **Child3** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child4** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserStat** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **.setUpTestData()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **AdvancedUserStat** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **StatDetails** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserStatResult** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Image** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **LinkedList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Product** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **.test_onetoone_with_two_subclasses()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **Ticket #13839: select_related() should NOT cache None for missing objects on a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_missing_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_multiinheritance_two_subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_nullable_missing_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- *... and 28 more nodes in this community*
+- **AggregationTests** (73 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Count** (59 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- **aggregation_regress/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **aggregation_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **JoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **skipUnlessAnyDBFeature()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_aggregate_annotation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_annotate_reserved_word()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **HardbackBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_annotation_disjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_conditional_aggregate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_more_more()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **ItemTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Store** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_aggregate_unmanaged_model_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_annotate_with_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_fobj_group_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_more()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_more_more_more()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_name_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 566](Community_566.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 19](Community_19.md) (40 shared connections)
+- [Community 25](Community_25.md) (12 shared connections)
+- [Community 38](Community_38.md) (9 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 64](Community_64.md) (6 shared connections)
+- [Community 18](Community_18.md) (5 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
+- [Community 89](Community_89.md) (4 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 205](Community_205.md) (2 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (85%)
-- INFERRED: 16 (15%)
+- EXTRACTED: 250 (92%)
+- INFERRED: 23 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

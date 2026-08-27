@@ -1,35 +1,38 @@
 # Community 800
 
-> 11 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **AccessorClashTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_accessor_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_clash_between_accessors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_no_clash_for_hidden_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **global_settings.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- **diffsettings.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **module_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **gettext_noop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- **Default Django settings. Override these with settings in the module pointed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.output_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.output_unified()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **Convert a module namespace to a Python dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
 
 ## Relationships
 
-- [Community 98](Community_98.md) (3 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 552](Community_552.md) (2 shared connections)
+- [Community 377](Community_377.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

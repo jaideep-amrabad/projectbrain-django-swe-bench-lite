@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **ParameterHandlingTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_bad_parameter_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **An executemany call with too many/not enough parameters will raise an exception…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **unmigrated_app_syncdb/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
+- **Classroom** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
+- **Lesson** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
 
 ## Relationships
 
+- [Community 14](Community_14.md) (1 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
 
 ## Audit Trail
 

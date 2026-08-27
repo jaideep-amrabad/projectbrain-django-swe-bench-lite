@@ -1,24 +1,30 @@
 # Community 915
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SelectFilter2.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
-- **findForm()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- **CustomContextView** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_context_object_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **CustomTemplateView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 95](Community_95.md) (4 shared connections)
+- [Community 421](Community_421.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,64 @@
 # Community 486
 
-> 20 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.make_choiceformset()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_basic_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_blank_form_unfilled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_delete_prefilled_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_total_error_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validation_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_second_form_partially_filled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_html_safe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A valid formset should have 0 total errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A formset's ManagementForm is validated once per FormSet.is_valid() call and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **FormSet.has_changed() is True if any data is passed to its forms, even if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A FormSet can be prefilled with existing data by providing a list of dicts to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A form that's displayed as blank may be submitted as blank.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If at least one field is filled out on a blank form, it will be validated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Deleting prefilled data is an error. Removing data from form fields isn't the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Make a ChoiceFormset from the given formset_data. The data should be given as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A FormSet constructor takes the same arguments as Form. Create a FormSet for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **SimpleLazyObject** (47 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **admin_checks/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **admin_checks/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **auth_tests/test_middleware.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **AuthenticationMiddleware** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **test_simplelazyobject.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **TestAuthenticationMiddleware** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **Influence** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **TestUtilsSimpleLazyObjectDjangoTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **Album** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **State** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **TwoAlbumFKAndAnE** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **AuthenticationMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **ModelBackendSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.test_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **A lazy object initialized from any function. Designed for compound objects of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Pass in a callable that returns the object to be wrapped. If copies are made of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 503](Community_503.md) (11 shared connections)
+- [Community 54](Community_54.md) (13 shared connections)
+- [Community 36](Community_36.md) (9 shared connections)
+- [Community 52](Community_52.md) (5 shared connections)
+- [Community 316](Community_316.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 171](Community_171.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 338](Community_338.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 125 (87%)
+- INFERRED: 18 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

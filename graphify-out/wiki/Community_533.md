@@ -1,59 +1,41 @@
 # Community 533
 
-> 30 nodes · cohesion 0.09
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **CheckConstraint** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **BaseConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **UniqueConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.test_remove_field_check_does_not_remove_meta_constraints()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._get_condition_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **BaseConstraintTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **._get_check_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.remove_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.test_constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_remove_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.constraint_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.create_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.remove_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- *... and 5 more nodes in this community*
+- **FieldFile** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **File** (1 connections)
 
 ## Relationships
 
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 304](Community_304.md) (5 shared connections)
-- [Community 375](Community_375.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 528](Community_528.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 264](Community_264.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

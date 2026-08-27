@@ -1,50 +1,49 @@
 # Community 472
 
-> 21 nodes · cohesion 0.14
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **distinct_on_fields/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **DistinctOnTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **distinct_on_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Celebrity** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Staff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **StaffTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Fan** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.test_basic_distinct_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_not_implemented_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_get_ordering_preserved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_in_ordered_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **Ordering shouldn't be cleared when distinct on fields are specified. refs #25081** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **QuerySet.distinct('field', ...) works** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **serializers/test_data.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **SerializerDataTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **data_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **data_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **fk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **fk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **generic_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **generic_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **im2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **im2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **im_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **im_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **inherited_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **inherited_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **m2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **m2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **o2o_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **o2o_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **pk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **pk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **A test spanning all the capabilities of all the serializers. This class defines…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 335](Community_335.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 530](Community_530.md) (3 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (86%)
-- INFERRED: 6 (14%)
+- EXTRACTED: 14 (44%)
+- INFERRED: 18 (56%)
 - AMBIGUOUS: 0 (0%)
 
 ---

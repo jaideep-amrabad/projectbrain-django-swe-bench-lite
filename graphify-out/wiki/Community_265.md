@@ -1,59 +1,54 @@
 # Community 265
 
-> 41 nodes · cohesion 0.06
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BaseCache** (33 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.get()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.get_or_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.incr_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.has_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.incr()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.__contains__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.decr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.decr_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.delete_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.get_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.get_backend_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.make_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.validate_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **Return True if the key is in the cache and has not expired.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **Set a value in the cache if the key does not already exist. If timeout is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **Fetch a given key from the cache. If the key does not exist, return default,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- *... and 16 more nodes in this community*
+- **BoundField** (27 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_widget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.subwidgets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_hidden()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Return a string of HTML for representing this as an <input type="text">.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 710](Community_710.md) (2 shared connections)
-- [Community 466](Community_466.md) (2 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 477](Community_477.md) (1 shared connections)
-- [Community 385](Community_385.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 337](Community_337.md) (2 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

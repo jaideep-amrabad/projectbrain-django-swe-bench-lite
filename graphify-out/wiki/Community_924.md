@@ -1,30 +1,29 @@
 # Community 924
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **CustomContextView** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_context_object_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **CustomTemplateView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **ModelChoiceIterator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.choice()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 424](Community_424.md) (2 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

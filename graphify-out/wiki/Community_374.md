@@ -1,65 +1,31 @@
 # Community 374
 
-> 49 nodes · cohesion 0.05
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **test_runner/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **test/runner.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **AutoIncrementResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **test_runner/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **test_debug_sql.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **connections_support_transactions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.build_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **reorder_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **is_discoverable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **RemoteTestRunner** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Through** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **SQLiteInMemoryTestDbs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_transaction_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **filter_tests_by_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **partition_suite_by_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **teardown_test_environment()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **._test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **DummyBackendTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_setup_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_empty_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **_init_worker()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- *... and 24 more nodes in this community*
+- **ValidationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_cleans_empty_string_when_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_raises_error_on_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_with_choices_cleans_valid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_with_choices_raises_error_on_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
 
 ## Relationships
 
-- [Community 220](Community_220.md) (11 shared connections)
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 449](Community_449.md) (4 shared connections)
-- [Community 669](Community_669.md) (3 shared connections)
-- [Community 281](Community_281.md) (3 shared connections)
-- [Community 187](Community_187.md) (3 shared connections)
-- [Community 583](Community_583.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (94%)
-- INFERRED: 9 (6%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

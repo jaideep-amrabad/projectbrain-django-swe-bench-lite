@@ -1,61 +1,71 @@
 # Community 119
 
-> 69 nodes · cohesion 0.04
+> 66 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FileSystemStorage** (51 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Storage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_available_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._save()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._datetime_from_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._value_or_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_valid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **OverwritingStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **CustomValidNameStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **CustomStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **DiscardingFalseContentStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **FileSystemStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_lazy_base_url_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._clear_cached_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- *... and 44 more nodes in this community*
+- **core/mail/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **mail/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **BaseEmailBackend** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **message.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **punycode()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **sanitize_address()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **mail/backends/filebased.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **smtp.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **mail/backends/base.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **forbid_multi_line_headers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **mail/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **BadHeaderError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **mail/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **console.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **send_mass_mail()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **mail/backends/dummy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **EmailBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **CachedDnsName** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **custombackend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **EmailBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **.send_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **EmailBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **.get_fqdn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 108](Community_108.md) (14 shared connections)
-- [Community 138](Community_138.md) (5 shared connections)
-- [Community 163](Community_163.md) (4 shared connections)
-- [Community 941](Community_941.md) (1 shared connections)
-- [Community 96](Community_96.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 170](Community_170.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
-- [Community 173](Community_173.md) (1 shared connections)
+- [Community 383](Community_383.md) (12 shared connections)
+- [Community 8](Community_8.md) (10 shared connections)
+- [Community 111](Community_111.md) (9 shared connections)
+- [Community 201](Community_201.md) (9 shared connections)
+- [Community 52](Community_52.md) (6 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 439](Community_439.md) (4 shared connections)
+- [Community 666](Community_666.md) (3 shared connections)
+- [Community 79](Community_79.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 96](Community_96.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 196 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

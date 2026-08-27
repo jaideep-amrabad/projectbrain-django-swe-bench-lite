@@ -1,39 +1,38 @@
 # Community 839
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Columns** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **ColumnsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Hold a reference to one or many columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.test_references_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_rename_column_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **remove_stale_contenttypes.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **NoFastDeleteCollector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **get_contenttypes_and_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **.can_fast_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **Collector** (1 connections)
+- **Always load related objects to display them when showing confirmation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
 
 ## Relationships
 
-- [Community 104](Community_104.md) (3 shared connections)
-- [Community 225](Community_225.md) (3 shared connections)
-- [Community 369](Community_369.md) (2 shared connections)
-- [Community 528](Community_528.md) (2 shared connections)
-- [Community 684](Community_684.md) (1 shared connections)
-- [Community 838](Community_838.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 664](Community_664.md) (1 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 467](Community_467.md) (2 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 494](Community_494.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

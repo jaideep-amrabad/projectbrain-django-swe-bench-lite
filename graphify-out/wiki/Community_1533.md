@@ -4,24 +4,23 @@
 
 ## Key Concepts
 
-- **LinkInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Link** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.multiline()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **migrated_unapplied_app/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
+- **OtherAuthor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

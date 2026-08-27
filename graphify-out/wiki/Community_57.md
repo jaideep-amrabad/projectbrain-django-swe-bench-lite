@@ -1,6 +1,6 @@
 # Community 57
 
-> 114 nodes · cohesion 0.04
+> 118 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -24,27 +24,27 @@
 - **postgres_tests/migrations/0002_create_test_models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
 - **NullableIntegerArrayModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
 - **Tag** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **test_apps.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
 - **BulkSaveTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
 - **test_citext.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
 - **TestOtherTypesExactQuerying** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 - **NestedIntegerArrayModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **OtherTypesArrayModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- *... and 89 more nodes in this community*
+- *... and 93 more nodes in this community*
 
 ## Relationships
 
-- [Community 451](Community_451.md) (21 shared connections)
+- [Community 447](Community_447.md) (22 shared connections)
 - [Community 85](Community_85.md) (19 shared connections)
-- [Community 4](Community_4.md) (17 shared connections)
-- [Community 122](Community_122.md) (13 shared connections)
-- [Community 113](Community_113.md) (13 shared connections)
-- [Community 453](Community_453.md) (12 shared connections)
-- [Community 200](Community_200.md) (10 shared connections)
-- [Community 133](Community_133.md) (10 shared connections)
-- [Community 13](Community_13.md) (9 shared connections)
-- [Community 275](Community_275.md) (9 shared connections)
-- [Community 304](Community_304.md) (8 shared connections)
-- [Community 279](Community_279.md) (7 shared connections)
+- [Community 3](Community_3.md) (18 shared connections)
+- [Community 126](Community_126.md) (13 shared connections)
+- [Community 400](Community_400.md) (12 shared connections)
+- [Community 115](Community_115.md) (11 shared connections)
+- [Community 196](Community_196.md) (10 shared connections)
+- [Community 138](Community_138.md) (10 shared connections)
+- [Community 14](Community_14.md) (9 shared connections)
+- [Community 274](Community_274.md) (9 shared connections)
+- [Community 30](Community_30.md) (8 shared connections)
+- [Community 305](Community_305.md) (8 shared connections)
 
 ## Source Files
 
@@ -54,6 +54,7 @@
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
@@ -65,8 +66,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 455 (90%)
-- INFERRED: 53 (10%)
+- EXTRACTED: 467 (89%)
+- INFERRED: 55 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

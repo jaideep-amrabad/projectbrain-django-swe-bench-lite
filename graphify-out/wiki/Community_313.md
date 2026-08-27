@@ -1,64 +1,57 @@
 # Community 313
 
-> 78 nodes · cohesion 0.04
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **timezones/tests.py** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **NewDatabaseTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **NewFormsTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **requires_tz_support** (17 connections)
-- **EventForm** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **LegacyFormsTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **timezones/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **EventModelForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **EventLocalizedModelForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **EventSplitForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **UnsupportedTimeZoneDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventLocalizedForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **AllDayEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **Session** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **SessionEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **.test_localized_model_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **MaybeEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **.test_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_localized_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_model_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_split_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- *... and 53 more nodes in this community*
+- **DispatcherTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.assertTestIsClean()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **dispatch/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **Callable** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **receiver_1_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **garbage_collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cached_garbaged_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_disconnection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_garbage_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_multiple_registration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.a()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cannot_connect_no_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cannot_connect_non_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_connected_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_different_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_ignored_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_values_returned_by_disconnection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_wrap_callable_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_cached_property_reuse_different_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_uid_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (16 shared connections)
-- [Community 680](Community_680.md) (15 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 9](Community_9.md) (7 shared connections)
-- [Community 33](Community_33.md) (6 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 93](Community_93.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 194](Community_194.md) (2 shared connections)
+- [Community 574](Community_574.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 197 (89%)
-- INFERRED: 25 (11%)
+- EXTRACTED: 63 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

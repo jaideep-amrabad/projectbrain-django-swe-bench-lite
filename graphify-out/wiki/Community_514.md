@@ -1,53 +1,44 @@
 # Community 514
 
-> 18 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **test_autoreload.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **WatchmanUnavailable** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **GetReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **RestartWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.patch_autoreload()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **skip_unless_watchman_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCheckErrors** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCommonRoots** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **on_macos_with_hfs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
-- **.test_watchman_available()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_manage_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_python_m_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **utils_tests/utils.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
-- **RuntimeError** (1 connections)
-- **object** (1 connections)
-- **.test_mutates_error_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_common_roots()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **MacOS 10.13 (High Sierra) and lower can use HFS+ as a filesystem. HFS+ has a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- **Tests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_copy_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **skipUnless** (1 connections)
+- **The transaction level can be configured with DATABASES…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The _nodb_connection property fallbacks to the default connection database when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **PostgreSQL shouldn't roll back SET TIME ZONE, even if the first transaction is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The connection wrapper shouldn't believe that autocommit is enabled after…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_no_is_usable_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 658](Community_658.md) (4 shared connections)
-- [Community 429](Community_429.md) (3 shared connections)
-- [Community 602](Community_602.md) (3 shared connections)
-- [Community 99](Community_99.md) (3 shared connections)
-- [Community 475](Community_475.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 483](Community_483.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 657](Community_657.md) (1 shared connections)
-- [Community 777](Community_777.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 292](Community_292.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (92%)
-- INFERRED: 4 (8%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

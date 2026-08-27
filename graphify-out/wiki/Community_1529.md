@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **0002_remove_content_type_name.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
-- **add_legacy_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
+- **SampleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **Test cases can load fixture objects into models defined in packages** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

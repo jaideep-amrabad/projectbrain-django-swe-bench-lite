@@ -1,6 +1,6 @@
 # Community 16
 
-> 317 nodes · cohesion 0.01
+> 304 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -16,7 +16,6 @@
 - **OneToOneField** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
 - **.assertForeignKeyExists()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **TextField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SlugField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **test_field_flags.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
 - **.get_constraints()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **skipUnless** (13 connections)
@@ -29,29 +28,29 @@
 - **CustomManyToManyField** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 - **.get_indexes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **._test_m2m_create()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 292 more nodes in this community*
+- **BigIntegerField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 279 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (64 shared connections)
-- [Community 13](Community_13.md) (35 shared connections)
-- [Community 23](Community_23.md) (29 shared connections)
-- [Community 58](Community_58.md) (21 shared connections)
-- [Community 69](Community_69.md) (14 shared connections)
-- [Community 4](Community_4.md) (10 shared connections)
-- [Community 201](Community_201.md) (9 shared connections)
-- [Community 213](Community_213.md) (8 shared connections)
-- [Community 19](Community_19.md) (7 shared connections)
-- [Community 373](Community_373.md) (6 shared connections)
-- [Community 533](Community_533.md) (6 shared connections)
-- [Community 329](Community_329.md) (4 shared connections)
+- [Community 10](Community_10.md) (68 shared connections)
+- [Community 14](Community_14.md) (33 shared connections)
+- [Community 18](Community_18.md) (25 shared connections)
+- [Community 59](Community_59.md) (23 shared connections)
+- [Community 71](Community_71.md) (14 shared connections)
+- [Community 3](Community_3.md) (10 shared connections)
+- [Community 197](Community_197.md) (9 shared connections)
+- [Community 210](Community_210.md) (7 shared connections)
+- [Community 20](Community_20.md) (6 shared connections)
+- [Community 370](Community_370.md) (6 shared connections)
+- [Community 531](Community_531.md) (6 shared connections)
+- [Community 239](Community_239.md) (5 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
@@ -61,8 +60,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 815 (89%)
-- INFERRED: 102 (11%)
+- EXTRACTED: 795 (89%)
+- INFERRED: 101 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

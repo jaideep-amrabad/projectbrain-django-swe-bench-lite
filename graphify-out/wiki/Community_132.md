@@ -1,58 +1,63 @@
 # Community 132
 
-> 69 nodes · cohesion 0.04
+> 76 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **SessionBase** (53 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.decode()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.cycle_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expiry_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expire_at_browser_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_session_cookie_age()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._set_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._validate_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- *... and 44 more nodes in this community*
+- **Paginator** (42 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PaginationTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **paginator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **ModelPaginationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.validate_number()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.ordered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_getitem()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginating_unordered_object_list_raises_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [Community 66](Community_66.md) (8 shared connections)
-- [Community 847](Community_847.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 529](Community_529.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 213](Community_213.md) (6 shared connections)
+- [Community 46](Community_46.md) (5 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 492](Community_492.md) (4 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 296](Community_296.md) (3 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 95](Community_95.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 299](Community_299.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 154 (89%)
+- INFERRED: 19 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

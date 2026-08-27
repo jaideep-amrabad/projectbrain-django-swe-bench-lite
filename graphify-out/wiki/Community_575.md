@@ -1,53 +1,50 @@
 # Community 575
 
-> 23 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **TypedMultipleChoiceField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TypedMultipleChoiceFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.validate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._coerce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_typedmultiplechoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.test_typedmultiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.test_typedmultiplechoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.test_typedmultiplechoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.test_typedmultiplechoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.test_typedmultiplechoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.test_typedmultiplechoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.test_typedmultiplechoicefield_7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.test_typedmultiplechoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **Validate that the values are in self.choices and can be coerced to the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Validate the given value against all of self.fields, which is a list of Field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Validate every value in the given list. A value is validated against the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **runtests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **setup()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **django_tests()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **default_test_processes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **bisect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_installed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **paired_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **actual_test_processes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.test_add_arguments_debug_mode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **ArgumentParser** (2 connections)
+- **get_test_modules()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **Default number of test processes when using the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 365](Community_365.md) (6 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 267](Community_267.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 403](Community_403.md) (1 shared connections)
-- [Community 635](Community_635.md) (1 shared connections)
-- [Community 360](Community_360.md) (1 shared connections)
+- [Community 448](Community_448.md) (5 shared connections)
+- [Community 216](Community_216.md) (3 shared connections)
+- [Community 289](Community_289.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 673](Community_673.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (83%)
-- INFERRED: 9 (17%)
+- EXTRACTED: 52 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

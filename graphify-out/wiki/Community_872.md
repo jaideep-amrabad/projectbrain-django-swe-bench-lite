@@ -1,31 +1,25 @@
 # Community 872
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.deferred_to_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **add_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **is_reverse_o2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_loaded_field_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **If any fields are marked to be deferred, return a dictionary mapping models to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add "value" to the set of values for "key", whether or not "key" already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Check if the given field is reverse-o2o. The field is expected to be some sort…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Convert the self.deferred_loading data structure to an alternate data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **FakeAUTHSMTPConnection** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.ehlo()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **A SMTP connection pretending support for the AUTH command. It does not, but at…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTP** (1 connections)
 
 ## Relationships
 
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

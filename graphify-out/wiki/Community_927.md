@@ -1,34 +1,27 @@
 # Community 927
 
-> 7 nodes · cohesion 0.29
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Place** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Supplier** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 810](Community_810.md) (3 shared connections)
-- [Community 780](Community_780.md) (3 shared connections)
-- [Community 115](Community_115.md) (3 shared connections)
-- [Community 732](Community_732.md) (3 shared connections)
-- [Community 926](Community_926.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (75%)
-- INFERRED: 5 (25%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

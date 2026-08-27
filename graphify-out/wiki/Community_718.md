@@ -1,38 +1,47 @@
 # Community 718
 
-> 10 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **TestManagerInheritance** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **CustomManager** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_deconstruct_from_queryset_failing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_base_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_default_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_implicit_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_manager_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **MemberManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **jinja2.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **Jinja2** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **Template** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **get_exception_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.template_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **A container to hold debug information as described in the template API…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **Format exception information for display on the debug page using the structure…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 482](Community_482.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 118](Community_118.md) (4 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 178](Community_178.md) (2 shared connections)
+- [Community 330](Community_330.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 491](Community_491.md) (1 shared connections)
+- [Community 505](Community_505.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (72%)
-- INFERRED: 5 (28%)
+- EXTRACTED: 40 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

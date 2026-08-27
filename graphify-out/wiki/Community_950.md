@@ -4,27 +4,29 @@
 
 ## Key Concepts
 
-- **IsActiveTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_is_active_field_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_builtin_user_isactive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Tests the behavior of the guaranteed is_active attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **tests that the default value for is_active is provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **ReservedName** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **EscapingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_union_with_values_list_and_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_ticket_7302()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

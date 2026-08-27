@@ -1,53 +1,61 @@
 # Community 80
 
-> 63 nodes · cohesion 0.05
+> 115 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **custom_managers/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **custom_managers/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **CustomManagersRegressTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **CustomQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Book** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **TestCars** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **FastCarAsBase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FastCarAsDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FunPerson** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **BaseCustomManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **OneToOneRestrictedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PersonFromAbstract** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PersonManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PublishedBookManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RelatedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RestrictedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **AbstractPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **AnnotatedBookManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- *... and 38 more nodes in this community*
+- **QuerySet** (102 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._chain()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._not_support_combined_queries()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.dates()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.exclude()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._create_object_from_params()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._filter_or_exclude()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._combinator_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.select_for_update()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.complex_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.defer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._extract_model_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 90 more nodes in this community*
 
 ## Relationships
 
-- [Community 482](Community_482.md) (11 shared connections)
-- [Community 118](Community_118.md) (5 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 307](Community_307.md) (7 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 38](Community_38.md) (4 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 87](Community_87.md) (3 shared connections)
+- [Community 25](Community_25.md) (3 shared connections)
+- [Community 370](Community_370.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 421](Community_421.md) (2 shared connections)
+- [Community 806](Community_806.md) (2 shared connections)
+- [Community 467](Community_467.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (85%)
-- INFERRED: 18 (15%)
+- EXTRACTED: 209 (91%)
+- INFERRED: 20 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,23 +1,29 @@
 # Community 952
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **bad_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
-- **bad_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
+- **captured_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **captured_stdin()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Return a context manager used by captured_stdout/stdin/stderr that temporarily…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Capture the input to sys.stdin: with captured_stdin() as stdin:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,23 @@
 # Community 1542
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **unmigrated_app_syncdb/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
-- **Classroom** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
-- **Lesson** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
+- **.date_interval_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Implement the date interval functionality for expressions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 113](Community_113.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_syncdb/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

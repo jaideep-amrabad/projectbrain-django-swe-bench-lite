@@ -1,36 +1,30 @@
 # Community 787
 
-> 12 nodes · cohesion 0.17
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ListDisplayEditableTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_list_display_first_item_in_list_editable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_list_display_first_item_in_list_editable_no_list_display_links()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_list_display_first_item_same_as_list_editable_first_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_list_display_first_item_same_as_list_editable_no_list_display_links()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_list_display_links_is_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_both_list_editable_and_list_display_links()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **list_display and list_editable can contain the same values when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **The first item in list_display can be the same as the first in list_editable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **The first item in list_display can be in list_editable as long as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **The first item in list_display cannot be the same as the first item in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **The first item in list_display cannot be in list_editable if list_display_links…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **GetDefaultUsernameTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_actual_implementation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_i18n()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Relationships
 
-- [Community 60](Community_60.md) (8 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,45 @@
 # Community 469
 
-> 22 nodes · cohesion 0.13
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Collector** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.can_fast_delete()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.get_del_batches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **._has_signal_listeners()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **get_candidate_relations_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.add_field_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.instances_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.test_fast_delete_instance_set_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Schedule a field update. 'objs' must be a homogeneous iterable collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Determine if the objects in the given queryset-like or single object can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Return the objs in suitably sized batches for the used connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Add 'objs' to the collection of objects to be deleted as well as all parent…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Get a QuerySet of objects related to `objs` via the relation `related`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Add 'objs' to the collection of objects to be deleted. If the call is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **BashCompletionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **._run_autocomplete()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **._user_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_app_completion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_completed_subcommand()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_custom_command()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_django_admin_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_manage_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_subcommands()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Testing the Python level bash completion code. This requires setting up the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Set the environment and the list of command line arguments. This sets the bash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **django_admin.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **manage.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **A custom command can autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Subcommands can be autocompleted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Show option flags in case a subcommand is completed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **No errors, just an empty list if there are no autocomplete options** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Application names will be autocompleted for an AppCommand** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 176](Community_176.md) (3 shared connections)
-- [Community 97](Community_97.md) (2 shared connections)
-- [Community 79](Community_79.md) (2 shared connections)
-- [Community 145](Community_145.md) (2 shared connections)
-- [Community 768](Community_768.md) (2 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 114](Community_114.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

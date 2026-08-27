@@ -1,63 +1,60 @@
 # Community 162
 
-> 31 nodes · cohesion 0.09
+> 84 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **gis/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/__init__.py`
-- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **geoadmin/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **GeoAdminTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoRSS2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **geoadmin/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
-- **City** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
-- **geoadmin/admin.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
-- **UnmodifiableAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
-- **.test_olwidget_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **TestGeoAtom2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.test_olmap_OSM_rendering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **.test_olmap_WMS_rendering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **TestGeoAtom1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
-- **.test_ensure_geographic_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **.test_olwidget_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **.test_olwidget_invalid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- **Changes are accurately noticed by OpenLayersWidget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- *... and 6 more nodes in this community*
+- **UserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserCreationFormTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **SetPasswordForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **SetPasswordFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **TestDataMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ReadOnlyPasswordHashField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ReadOnlyPasswordHashWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ReadOnlyPasswordHashTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **patch** (4 connections)
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_help_text_translation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- *... and 59 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (6 shared connections)
-- [Community 93](Community_93.md) (4 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 182](Community_182.md) (2 shared connections)
-- [Community 217](Community_217.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
-- [Community 296](Community_296.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 41](Community_41.md) (12 shared connections)
+- [Community 36](Community_36.md) (10 shared connections)
+- [Community 134](Community_134.md) (6 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 377](Community_377.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 398](Community_398.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 163 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

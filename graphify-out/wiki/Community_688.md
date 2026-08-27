@@ -1,36 +1,50 @@
 # Community 688
 
-> 11 nodes · cohesion 0.25
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **join()** (10 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **internalStart()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **sourceFromStacktrace()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **createModule()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **generateHash()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **internalStop()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **Test()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **extend()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **extractStacktrace()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **internalRecover()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **array()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **SimpleTemplateResponse** (28 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.resolve_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.rendered_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.test_post_callbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.add_post_render_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.resolve_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **._response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_pickling_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_repickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **Accept a template object, path-to-template, or list of paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Return the freshly rendered content for the template and context described by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Add a new post-rendering callback. If the response has already been rendered,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Render (thereby finalizing) the content of the response. If the content has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Rendering a template response triggers the post-render callbacks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Relationships
 
-- [Community 310](Community_310.md) (13 shared connections)
-- [Community 747](Community_747.md) (2 shared connections)
-- [Community 671](Community_671.md) (2 shared connections)
-- [Community 586](Community_586.md) (1 shared connections)
-- [Community 484](Community_484.md) (1 shared connections)
+- [Community 281](Community_281.md) (8 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
+- [Community 178](Community_178.md) (3 shared connections)
+- [Community 764](Community_764.md) (3 shared connections)
+- [Community 549](Community_549.md) (2 shared connections)
+- [Community 675](Community_675.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

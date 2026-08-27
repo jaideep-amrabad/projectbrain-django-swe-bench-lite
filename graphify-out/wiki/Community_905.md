@@ -4,25 +4,23 @@
 
 ## Key Concepts
 
-- **ArticleWithAuthor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.test_get_next_previous_by_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **Regression tests for #8076 get_(next/previous)_by_date should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_inheritance30()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance33()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Base template, putting block in a conditional {% if %} tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 461](Community_461.md) (2 shared connections)
-- [Community 332](Community_332.md) (2 shared connections)
-- [Community 618](Community_618.md) (1 shared connections)
+- [Community 707](Community_707.md) (2 shared connections)
+- [Community 737](Community_737.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

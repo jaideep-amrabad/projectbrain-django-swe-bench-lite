@@ -1,60 +1,32 @@
 # Community 261
 
-> 42 nodes · cohesion 0.06
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **admin_scripts/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **AdminScriptTestCase** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **ArgumentOrder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **._test()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.run_test()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **SettingsCustomLoggingTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **DjangoAdminSuggestions** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Dumpdata** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_pks_parsing()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **MainModule** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **SettingsConfigTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_no_suggestions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_suggestions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **ManageRunserverEmptyAllowedHosts** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_empty_allowed_hosts_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **._ext_backend_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_short_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_short_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_program_name_in_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_runs_django_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- *... and 17 more nodes in this community*
+- **XmlSerializerTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **.test_control_char_failure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **.test_no_dtd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **Serializing control characters with XML should fail as those characters are not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **The XML deserializer shouldn't allow a DTD. This is the most straightforward…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (23 shared connections)
-- [Community 212](Community_212.md) (12 shared connections)
-- [Community 124](Community_124.md) (10 shared connections)
-- [Community 272](Community_272.md) (9 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 81](Community_81.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 560](Community_560.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 170 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

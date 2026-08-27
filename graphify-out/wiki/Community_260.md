@@ -1,50 +1,56 @@
 # Community 260
 
-> 37 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.parse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- *... and 12 more nodes in this community*
+- **defer_regress/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **DeferRegressionTest** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **defer_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **DeferDeletionSignalsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **Item** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Proxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ProxyRelated** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **DeferAnnotateSelectRelatedTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Derived** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Leaf** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **RelatedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **SimpleItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **.test_ticket_12163()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Feature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ItemAndSimpleItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **OneToOneItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Request** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ResolveThis** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **SpecialFeature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (5 shared connections)
-- [Community 454](Community_454.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 581](Community_581.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 81 (81%)
+- INFERRED: 19 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

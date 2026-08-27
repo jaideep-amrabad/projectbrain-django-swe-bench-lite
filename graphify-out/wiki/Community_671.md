@@ -1,37 +1,41 @@
 # Community 671
 
-> 12 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **appendInterface()** (8 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **escapeText()** (8 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendFilteredTest()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendTest()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendHeader()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffPrettyHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getNameHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **moduleListHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendBanner()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendTestResults()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendTestsList()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendUserAgent()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **BaseModelForm** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._save_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._update_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **For backwards-compatibility, exclude several types of fields from model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Call the instance's validate_unique() method and update the form's validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Save the many-to-many fields and generic relations for this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Save this form's self.instance object if commit=True. Otherwise, add a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 310](Community_310.md) (11 shared connections)
-- [Community 484](Community_484.md) (4 shared connections)
-- [Community 688](Community_688.md) (2 shared connections)
-- [Community 586](Community_586.md) (1 shared connections)
+- [Community 224](Community_224.md) (2 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
+- [Community 578](Community_578.md) (1 shared connections)
+- [Community 408](Community_408.md) (1 shared connections)
+- [Community 240](Community_240.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

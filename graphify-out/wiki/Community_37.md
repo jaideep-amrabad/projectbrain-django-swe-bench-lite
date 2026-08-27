@@ -1,6 +1,6 @@
 # Community 37
 
-> 148 nodes · cohesion 0.03
+> 142 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -17,7 +17,6 @@
 - **Driver** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
 - **gdal/error.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
 - **GDALBase** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
-- **crypto.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
 - **test_encoding.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
 - **datasource.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
 - **feature.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
@@ -29,26 +28,26 @@
 - **band.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
 - **gdal/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
 - **SRSException** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- *... and 123 more nodes in this community*
+- **python.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- *... and 117 more nodes in this community*
 
 ## Relationships
 
-- [Community 83](Community_83.md) (39 shared connections)
-- [Community 141](Community_141.md) (31 shared connections)
-- [Community 127](Community_127.md) (21 shared connections)
+- [Community 84](Community_84.md) (39 shared connections)
+- [Community 147](Community_147.md) (31 shared connections)
+- [Community 131](Community_131.md) (21 shared connections)
 - [Community 92](Community_92.md) (20 shared connections)
 - [Community 39](Community_39.md) (19 shared connections)
-- [Community 71](Community_71.md) (18 shared connections)
-- [Community 75](Community_75.md) (15 shared connections)
-- [Community 184](Community_184.md) (14 shared connections)
-- [Community 13](Community_13.md) (14 shared connections)
+- [Community 73](Community_73.md) (18 shared connections)
+- [Community 182](Community_182.md) (14 shared connections)
+- [Community 77](Community_77.md) (13 shared connections)
+- [Community 14](Community_14.md) (13 shared connections)
 - [Community 1](Community_1.md) (12 shared connections)
+- [Community 542](Community_542.md) (11 shared connections)
 - [Community 8](Community_8.md) (11 shared connections)
-- [Community 627](Community_627.md) (9 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
@@ -68,10 +67,11 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geometry.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 710 (95%)
+- EXTRACTED: 679 (95%)
 - INFERRED: 36 (5%)
 - AMBIGUOUS: 0 (0%)
 

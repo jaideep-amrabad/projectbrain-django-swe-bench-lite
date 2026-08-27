@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_limiting_max_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Limiting the maximum number of forms with max_num.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_non_form_errors_run_full_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **If non_form_errors() is called without calling is_valid() first, it should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (1 shared connections)
-- [Community 503](Community_503.md) (1 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
 
 ## Source Files
 

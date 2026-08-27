@@ -1,29 +1,41 @@
 # Community 771
 
-> 8 nodes · cohesion 0.43
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SpacelessTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **setup** (6 connections)
-- **.test_spaceless01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **migrate_signals/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **MigrateSignalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **Receiver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **.test_migrations_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **OneTimeReceiver** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **.test_call_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **Special receiver for handle the fact that test runner calls migrate for several…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **If all apps have migrations, migration signals should be sent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

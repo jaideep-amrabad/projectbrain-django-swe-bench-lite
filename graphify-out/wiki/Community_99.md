@@ -1,69 +1,59 @@
 # Community 99
 
-> 72 nodes · cohesion 0.04
+> 91 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **.import_module()** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **extend_sys_path()** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **TestIterModulesAndFiles** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **EggLoadingTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestSysPathDirectories** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.load_disk()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- **.test_calendar_show_date_from_input()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.migrations_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- **NamespacePackageAppTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.basedir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_egg1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- *... and 47 more nodes in this community*
+- **admin_views/models.py** (156 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ChildOfReferer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **CoverLetter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **CyclicOne** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **CyclicTwo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Gadget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **GenRelReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ParentWithDependentChildren** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ParentWithUUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **PrePopulatedPostLargeSlug** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Promo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Recommendation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Recommender** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ReferencedByGenRel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Report** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Simple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Sketch** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Title** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Topping** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **UndeletableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **UnorderedObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (16 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 64](Community_64.md) (4 shared connections)
-- [Community 301](Community_301.md) (3 shared connections)
-- [Community 514](Community_514.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 158](Community_158.md) (3 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 464](Community_464.md) (3 shared connections)
-- [Community 621](Community_621.md) (2 shared connections)
+- [Community 75](Community_75.md) (66 shared connections)
+- [Community 403](Community_403.md) (17 shared connections)
+- [Community 93](Community_93.md) (9 shared connections)
+- [Community 120](Community_120.md) (5 shared connections)
+- [Community 716](Community_716.md) (3 shared connections)
+- [Community 750](Community_750.md) (3 shared connections)
+- [Community 693](Community_693.md) (3 shared connections)
+- [Community 537](Community_537.md) (3 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 899](Community_899.md) (2 shared connections)
+- [Community 836](Community_836.md) (2 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 143 (77%)
-- INFERRED: 42 (23%)
+- EXTRACTED: 239 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

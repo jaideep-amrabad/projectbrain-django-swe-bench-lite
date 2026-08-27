@@ -1,45 +1,54 @@
 # Community 504
 
-> 19 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ArchiveIndexViewTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **_make_books()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_paginated_archive_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_paginated_archive_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_allow_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_by_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_custom_sorting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_custom_sorting_dec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_template_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_without_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **date_list should be sorted descending in index** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **proxy_models/models.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyModelAdminTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **proxy_models/admin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
+- **ProxyTrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **TrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **BaseUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.test_delete_str_in_model_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **PersonManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **SubManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.test_cascade_delete_proxy_model_admin_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **proxy_models/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **By specifying the 'proxy' Meta attribute, model subclasses can specify that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **Test if admin gives warning about cascade deleting models referenced to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **Test if the admin delete page shows the correct string representation for a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 
 ## Relationships
 
-- [Community 424](Community_424.md) (7 shared connections)
+- [Community 598](Community_598.md) (18 shared connections)
+- [Community 821](Community_821.md) (5 shared connections)
+- [Community 683](Community_683.md) (5 shared connections)
+- [Community 321](Community_321.md) (4 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 880](Community_880.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 591](Community_591.md) (1 shared connections)
-- [Community 516](Community_516.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 59 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

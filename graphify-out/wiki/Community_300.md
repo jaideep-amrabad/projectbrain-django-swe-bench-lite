@@ -1,55 +1,53 @@
 # Community 300
 
-> 39 nodes · cohesion 0.06
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **FileUploadTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **CountingMD5PasswordHasher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **._test_base64_upload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_file_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_big_base64_newlines_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_big_base64_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_blank_filenames()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_content_type_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_dangerous_file_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_empty_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_file_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_file_error_blocking()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_filename_case_preservation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_filename_overflow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_truncated_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **Test receiving file upload when filename is encoded with RFC2231 (#22971).** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **Hasher that counts how many times it computes a hash.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_broken_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- *... and 14 more nodes in this community*
+- **SyndicationFeed** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Atom1Feed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **RssFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **rfc3339_date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_item_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_root_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write_items()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.latest_post_date()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.item_attributes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.root_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **RssUserland091Feed** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.writeString()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.endChannelElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_root_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.root_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Return extra attributes to place on the root (i.e. feed/channel) element.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 185](Community_185.md) (4 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
+- [Community 368](Community_368.md) (10 shared connections)
+- [Community 510](Community_510.md) (4 shared connections)
+- [Community 226](Community_226.md) (2 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 633](Community_633.md) (1 shared connections)
+- [Community 453](Community_453.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 67 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

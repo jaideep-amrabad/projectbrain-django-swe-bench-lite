@@ -1,33 +1,34 @@
 # Community 759
 
-> 8 nodes · cohesion 0.39
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **floatformat()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_float_dunder_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_infinity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_inputs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_low_decimal_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_zero_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **Display a float to a specified number of decimal places. If called without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **test_caches.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **CheckCacheSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **check_default_cache_is_configured()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- **.func()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_default_cache_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_default_cache_not_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **Don't error if 'default' is present in CACHES setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **Error if 'default' not present in CACHES setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
+- EXTRACTED: 19 (95%)
 - INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 

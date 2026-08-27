@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **DatabaseSequenceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
-- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
-- **skipUnless** (1 connections)
+- **unmigrated_app_simple/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
+- **UnmigratedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
+- **A model that is in a migration-less app (which this app is if its migrations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
 
 ## Relationships
 
+- [Community 14](Community_14.md) (1 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
 
 ## Audit Trail
 

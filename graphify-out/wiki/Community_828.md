@@ -1,33 +1,27 @@
 # Community 828
 
-> 10 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **SQLInsertCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.assemble_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.field_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.prepare_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.pre_save_val()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Take a field and a value intended to be saved on that field, and return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Prepare a value to be used in a query by resolving it if it is an expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Get the given field's value off the given obj. pre_save() is used for things…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Take a sequence of N fields and a sequence of M rows of values, and generate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **NoDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **databases/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **AllDatabasesTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **DefaultDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **OtherDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **.test_nothing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
 
 ## Relationships
 
-- [Community 146](Community_146.md) (3 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,32 +1,33 @@
 # Community 770
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.46
 
 ## Key Concepts
 
-- **BinaryFieldTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **DataModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_set_and_retrieve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter_bytearray()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter_memoryview()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **ExplicitRelatedNameClashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_explicit_related_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

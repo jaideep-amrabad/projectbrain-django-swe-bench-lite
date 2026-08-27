@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_formset_validate_max_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If validate_max is set and max_num is less than TOTAL_FORMS in the data, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_with_ordering_and_deletion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **FormSets with ordering + deletion.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (1 shared connections)
-- [Community 503](Community_503.md) (1 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
 
 ## Source Files
 

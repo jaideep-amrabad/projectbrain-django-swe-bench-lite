@@ -1,47 +1,39 @@
 # Community 603
 
-> 21 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **datetime_safe.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **DatetimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **test_datetime_safe.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **time** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **date** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **new_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **new_datetime()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **strftime()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.test_compare_datetimes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.test_safe_strftime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.test_zero_padding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.strftime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.strftime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **_findall()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **Generate a safe date from a datetime.date object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **Generate a safe datetime from a datetime.date or datetime.datetime object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **Regression for #12524 Pre-1000AD dates are padded with zeros if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **real_date** (1 connections)
-- **real_time** (1 connections)
+- **RequestMethodStringDataTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_empty_string_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view with string data via request method POST** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view with string data via request method PUT** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view with string data via request method PATCH** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view with empty string data via request method GET/POST/HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_json_bytes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_json_charset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_json_multiple_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_json_structured_suffixes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_json_wrong_header()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 338](Community_338.md) (8 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

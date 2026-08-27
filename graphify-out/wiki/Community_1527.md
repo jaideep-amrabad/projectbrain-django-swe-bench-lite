@@ -1,25 +1,25 @@
 # Community 1527
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **GetAvailableLanguagesTagTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_available_languages.py`
-- **.test_i18n12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_available_languages.py`
-- **.test_no_as_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_available_languages.py`
-- **setup** (2 connections)
+- **DatabaseSequenceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_available_languages.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

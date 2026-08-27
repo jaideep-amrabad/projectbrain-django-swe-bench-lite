@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_empty_ordered_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Ordering fields are allowed to be left blank. If they are left blank, they'll…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_iteration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Formset instances are iterable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (1 shared connections)
-- [Community 503](Community_503.md) (1 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
 
 ## Source Files
 

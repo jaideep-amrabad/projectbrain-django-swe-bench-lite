@@ -1,58 +1,66 @@
 # Community 276
 
-> 39 nodes · cohesion 0.08
+> 62 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **xml_serializer.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DefusedExpatParser** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DTDForbidden** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_object()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **EntitiesForbidden** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DefusedXmlException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **ExternalReferenceForbidden** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_fk_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_m2m_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._make_parser()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **getInnerText()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._get_model_from_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.external_entity_ref_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.start_doctype_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.unparsed_entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **_ExpatParser** (1 connections)
-- **.reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- *... and 14 more nodes in this community*
+- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **auth/management/__init__.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **auth/apps.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
+- **auth_tests/test_checks.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **auth/checks.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
+- **create_permissions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **CreatePermissionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.formfield_for_foreignkey()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_manytomany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.ready()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
+- **_get_builtin_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **.formfield_for_dbfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **check_models_permissions()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
+- **update_last_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.formfield_for_choice_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_autocomplete_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_field_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_view_on_site_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **AuthConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
+- **check_user_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
+- **_get_all_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **.get_empty_value_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_prepopulated_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 511](Community_511.md) (5 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 187](Community_187.md) (2 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 531](Community_531.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
-- [Community 263](Community_263.md) (1 shared connections)
+- [Community 40](Community_40.md) (11 shared connections)
+- [Community 41](Community_41.md) (10 shared connections)
+- [Community 36](Community_36.md) (6 shared connections)
+- [Community 79](Community_79.md) (5 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 109](Community_109.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 86](Community_86.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 164 (94%)
+- INFERRED: 11 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

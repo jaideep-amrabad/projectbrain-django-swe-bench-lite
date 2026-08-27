@@ -1,59 +1,50 @@
 # Community 258
 
-> 72 nodes · cohesion 0.03
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseExpression** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **OrderBy** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.copy()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_expressions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.as_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._resolve_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **DurationValue** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.asc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.convert_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.desc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_group_by_cols()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.identity()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._output_field_or_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.select_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- *... and 47 more nodes in this community*
+- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.parse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_not()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_not_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (10 shared connections)
-- [Community 254](Community_254.md) (6 shared connections)
-- [Community 356](Community_356.md) (6 shared connections)
-- [Community 54](Community_54.md) (6 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 84](Community_84.md) (3 shared connections)
-- [Community 146](Community_146.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 197](Community_197.md) (2 shared connections)
-- [Community 96](Community_96.md) (1 shared connections)
+- [Community 23](Community_23.md) (5 shared connections)
+- [Community 451](Community_451.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (95%)
-- INFERRED: 7 (5%)
+- EXTRACTED: 57 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

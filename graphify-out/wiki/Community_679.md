@@ -1,34 +1,39 @@
 # Community 679
 
-> 12 nodes · cohesion 0.23
+> 12 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **ExceptionsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **setup** (5 connections)
-- **.test_exception01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **.test_exception02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **.test_exception03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **.test_exception04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **.test_exception05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for invalid template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for invalid variable template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for extra {% extends %} tags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for custom tags used in child with {% load %} tag in parent,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for block.super used in base template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **IsolationLevelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **mysql/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.get_isolation_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **get_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_connect_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_default_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_setting_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_uppercase_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_auto_is_null_auto_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_isolation_level_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

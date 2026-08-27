@@ -1,59 +1,65 @@
 # Community 94
 
-> 91 nodes · cohesion 0.02
+> 84 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **admin_views/models.py** (156 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ChildOfReferer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CoverLetter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CyclicOne** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CyclicTwo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Gadget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **GenRelReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentWithDependentChildren** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentWithUUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PrePopulatedPostLargeSlug** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Promo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Recommendation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Recommender** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReferencedByGenRel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Report** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Simple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Sketch** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Title** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Topping** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **UndeletableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **UnorderedObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- *... and 66 more nodes in this community*
+- **BaseDatabaseIntrospection** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **DatabaseIntrospection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **django/db/backends/mysql/introspection.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **sqlite3/introspection.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.identifier_converter()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **spatialite/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **base/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **django/db/backends/oracle/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **postgresql/introspection.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_constraints()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.django_table_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_migratable_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.identifier_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.installed_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.sequence_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.table_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_primary_key_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **FlexibleFieldLookupDict** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **GeoFlexibleFieldLookupDict** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_primary_key_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- *... and 59 more nodes in this community*
 
 ## Relationships
 
-- [Community 73](Community_73.md) (66 shared connections)
-- [Community 430](Community_430.md) (17 shared connections)
-- [Community 93](Community_93.md) (9 shared connections)
-- [Community 118](Community_118.md) (5 shared connections)
-- [Community 715](Community_715.md) (3 shared connections)
-- [Community 749](Community_749.md) (3 shared connections)
-- [Community 689](Community_689.md) (3 shared connections)
-- [Community 539](Community_539.md) (3 shared connections)
-- [Community 89](Community_89.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 901](Community_901.md) (2 shared connections)
-- [Community 836](Community_836.md) (2 shared connections)
+- [Community 14](Community_14.md) (8 shared connections)
+- [Community 77](Community_77.md) (4 shared connections)
+- [Community 74](Community_74.md) (4 shared connections)
+- [Community 152](Community_152.md) (3 shared connections)
+- [Community 197](Community_197.md) (3 shared connections)
+- [Community 253](Community_253.md) (3 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 701](Community_701.md) (2 shared connections)
+- [Community 129](Community_129.md) (2 shared connections)
+- [Community 631](Community_631.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 239 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 152 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

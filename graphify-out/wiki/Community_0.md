@@ -1,6 +1,6 @@
 # Community 0
 
-> 330 nodes · cohesion 0.01
+> 313 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -11,7 +11,6 @@
 - **utils/html.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **utils/text.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 - **format_html()** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **lazystr()** (36 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 - **escape()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **forms/utils.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
 - **forms/forms.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
@@ -24,27 +23,28 @@
 - **test_html.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
 - **boundfield.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **TestUtilsHtml** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **TestUtilsText** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
 - **Input** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **Media** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **ErrorDict** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
 - **test_geoforms.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- *... and 305 more nodes in this community*
+- **templatetags/static.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **html_safe()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- *... and 288 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (90 shared connections)
-- [Community 5](Community_5.md) (68 shared connections)
-- [Community 145](Community_145.md) (40 shared connections)
-- [Community 11](Community_11.md) (36 shared connections)
-- [Community 365](Community_365.md) (26 shared connections)
-- [Community 74](Community_74.md) (22 shared connections)
-- [Community 19](Community_19.md) (21 shared connections)
-- [Community 50](Community_50.md) (15 shared connections)
-- [Community 27](Community_27.md) (14 shared connections)
-- [Community 295](Community_295.md) (14 shared connections)
-- [Community 247](Community_247.md) (14 shared connections)
-- [Community 64](Community_64.md) (13 shared connections)
+- [Community 1](Community_1.md) (83 shared connections)
+- [Community 5](Community_5.md) (61 shared connections)
+- [Community 124](Community_124.md) (41 shared connections)
+- [Community 12](Community_12.md) (33 shared connections)
+- [Community 337](Community_337.md) (25 shared connections)
+- [Community 40](Community_40.md) (22 shared connections)
+- [Community 20](Community_20.md) (19 shared connections)
+- [Community 51](Community_51.md) (15 shared connections)
+- [Community 246](Community_246.md) (14 shared connections)
+- [Community 23](Community_23.md) (14 shared connections)
+- [Community 296](Community_296.md) (11 shared connections)
+- [Community 223](Community_223.md) (11 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1298 (95%)
-- INFERRED: 64 (5%)
+- EXTRACTED: 1244 (95%)
+- INFERRED: 65 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,44 +1,45 @@
 # Community 675
 
-> 18 nodes · cohesion 0.13
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **test_api.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **ApiTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **DummyStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **CustomRequest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **CustomRequestApiTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__getattribute__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_middleware_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_middleware_missing_silently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_request_is_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **dummy message-store to test the api methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **add_message() should use ducktyping to allow request wrappers such as the one…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **require_jinja2()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **RenderTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_template_engine()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_render_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **Decorator to enable a Jinja2 template engine in addition to the regular Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **A template view may provide a template engine.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_multiple_templates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
 
 ## Relationships
 
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 181](Community_181.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 281](Community_281.md) (2 shared connections)
+- [Community 529](Community_529.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
+- [Community 688](Community_688.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
+- EXTRACTED: 24 (96%)
 - INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 

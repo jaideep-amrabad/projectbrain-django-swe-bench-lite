@@ -1,67 +1,55 @@
 # Community 301
 
-> 116 nodes · cohesion 0.03
+> 39 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **CommandTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **makemessages.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **user_commands/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **management/templates.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **TemplateCommand** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **popen_wrapper()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- **compilemessages.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
-- **is_ignored_path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- **.handle()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.build_potfiles()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **find_command()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.process_locale_dir()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.write_po_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.handle_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **get_random_secret_key()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- **UtilsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.compile_messages()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
-- **.download()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **handle_extensions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
-- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
-- **write_pot_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **startproject.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
-- *... and 91 more nodes in this community*
+- **FileUploadTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **CountingMD5PasswordHasher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **._test_base64_upload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_unicode_file_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_unicode_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_big_base64_newlines_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_big_base64_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_blank_filenames()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_content_type_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_dangerous_file_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_empty_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_file_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_file_error_blocking()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_filename_case_preservation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_filename_overflow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_truncated_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **Test receiving file upload when filename is encoded with RFC2231 (#22971).** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **Hasher that counts how many times it computes a hash.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_broken_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (41 shared connections)
-- [Community 81](Community_81.md) (14 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 228](Community_228.md) (4 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 328](Community_328.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 99](Community_99.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
+- [Community 183](Community_183.md) (4 shared connections)
+- [Community 296](Community_296.md) (2 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 268 (96%)
-- INFERRED: 12 (4%)
+- EXTRACTED: 47 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

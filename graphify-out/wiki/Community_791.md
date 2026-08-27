@@ -1,38 +1,28 @@
 # Community 791
 
-> 11 nodes · cohesion 0.31
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **add_level_messages()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **get_level()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.get_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_default_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_high_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_low_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_settings_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **set_level()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return the minimum level of messages to be recorded. The default level is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Set the minimum level of messages to be recorded, and return ``True`` if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add 6 messages from different levels (including a custom one) to a storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **GenericIPAddressFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_generic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_generic_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_ipv4_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_ipv6_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_invalid_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
 
 ## Relationships
 
-- [Community 137](Community_137.md) (9 shared connections)
-- [Community 638](Community_638.md) (3 shared connections)
-- [Community 955](Community_955.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

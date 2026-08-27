@@ -1,60 +1,54 @@
 # Community 287
 
-> 35 nodes · cohesion 0.10
+> 35 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **distapp/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **DistanceTest** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **distapp/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **NamedModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **.get_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **AustraliaCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **CensusZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Interstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasCityFt** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasInterstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **.test_geodetic_distance_lookups()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_lookups_with_expression_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_dwithin()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_dwithin_with_expression_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_mysql_geodetic_distance_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **City model on projected coordinate system for South Texas.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Same City model as above, but U.S. survey feet are the units.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **City model for Australia, using WGS84.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **must_be()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **ModelAdminChecks** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_date_hierarchy()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_max_show_all()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_per_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_select_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_as()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_on_top()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_action_permission_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_actions_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check save_as is a boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check save_on_top is a boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check all inline model admin classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check one inline model admin.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 - *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (20 shared connections)
-- [Community 59](Community_59.md) (7 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 254](Community_254.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 558](Community_558.md) (2 shared connections)
-- [Community 347](Community_347.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 203](Community_203.md) (18 shared connections)
+- [Community 269](Community_269.md) (6 shared connections)
+- [Community 680](Community_680.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (85%)
-- INFERRED: 17 (15%)
+- EXTRACTED: 93 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

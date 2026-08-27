@@ -1,74 +1,56 @@
 # Community 245
 
-> 106 nodes · cohesion 0.03
+> 36 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **functions/text.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Left** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Transform** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Transform** (15 connections)
-- **test_trim.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
-- **Repeat** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Chr** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **LPad** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Ord** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Right** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA224** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **ReverseTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- **Reverse** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA256** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA384** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA512** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **OracleHashMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **PostgreSQLSHAMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA1** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Trim** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **MD5** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **MySQLSHA2Mixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **RPad** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **ChrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
-- *... and 81 more nodes in this community*
+- **DateFormat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.r()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.t()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.E()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.l()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.n()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.U()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.b()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.F()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.I()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.j()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.o()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.S()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month, textual, 3 letters, lowercase; e.g. 'jan** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, textual, 3 letters; e.g. 'Fri** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Alternative month names as required by some locales. Proprietary extension.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month, textual, long; e.g. 'January** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **1' if Daylight Savings Time, '0' otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the month without leading zeros; i.e. '1' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, textual, long; e.g. 'Friday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Boolean for whether it is a leap year; i.e. True or False** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (79 shared connections)
-- [Community 335](Community_335.md) (15 shared connections)
-- [Community 126](Community_126.md) (12 shared connections)
-- [Community 38](Community_38.md) (11 shared connections)
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 59](Community_59.md) (4 shared connections)
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 451](Community_451.md) (3 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 616](Community_616.md) (2 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 866](Community_866.md) (2 shared connections)
+- [Community 379](Community_379.md) (1 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
+- [Community 530](Community_530.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 - [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_md5.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_pad.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_repeat.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha1.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha224.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha384.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha512.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 303 (98%)
-- INFERRED: 6 (2%)
+- EXTRACTED: 43 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

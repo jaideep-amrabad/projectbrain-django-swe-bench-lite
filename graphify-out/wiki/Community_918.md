@@ -1,31 +1,23 @@
 # Community 918
 
-> 7 nodes · cohesion 0.43
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Tan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **TanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- **.integer_field_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Given an integer field internal type (e.g. 'PositiveIntegerField'), return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 337](Community_337.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 113](Community_113.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

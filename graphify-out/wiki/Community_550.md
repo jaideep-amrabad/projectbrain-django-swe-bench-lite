@@ -1,44 +1,41 @@
 # Community 550
 
-> 17 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **TestDebugSQL** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **._test_output()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_normal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_verbose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 663](Community_663.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 289](Community_289.md) (2 shared connections)
+- [Community 216](Community_216.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 32 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

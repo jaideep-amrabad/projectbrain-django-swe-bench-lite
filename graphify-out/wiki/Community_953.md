@@ -1,24 +1,29 @@
 # Community 953
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **good_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
-- **good_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
+- **LocaleRegexDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **Return a compiled regular expression based on the active language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 250](Community_250.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

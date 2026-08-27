@@ -1,57 +1,67 @@
 # Community 253
 
-> 43 nodes · cohesion 0.06
+> 57 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **RouterTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **TestRouter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **AuthRouter** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **WriteRouter** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **multiple_database/routers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **ConnectionRouterTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_partial_router()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_selection()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_router_init_arg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_router_init_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_generic_key_cross_database_protection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.allow_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.db_for_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.test_db_selection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_foreign_key_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_generic_key_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_cross_database_protection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_o2o_cross_database_protection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Control all database operations on models in the contrib.auth application.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Point all read operations on auth models to 'default** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Point all operations on auth models to 'other** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Allow any relation if a model in Auth is involved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- *... and 18 more nodes in this community*
+- **BaseSpatialFeatures** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **OracleGISSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **MySQLGISSchemaEditor** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- **gis/db/backends/oracle/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/base.py`
+- **DatabaseFeatures** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **MySQLIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/base.py`
+- **gis/db/backends/oracle/features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
+- **DatabaseFeatures** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
+- **gis/db/backends/oracle/introspection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/introspection.py`
+- **OracleIntrospection** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/introspection.py`
+- **._create_spatial_index_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.geo_quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.remove_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.run_geometry_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.column_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 366](Community_366.md) (10 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 214](Community_214.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 713](Community_713.md) (2 shared connections)
-- [Community 569](Community_569.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (10 shared connections)
+- [Community 32](Community_32.md) (6 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 94](Community_94.md) (3 shared connections)
+- [Community 152](Community_152.md) (2 shared connections)
+- [Community 427](Community_427.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 631](Community_631.md) (2 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
+- [Community 701](Community_701.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (87%)
-- INFERRED: 10 (13%)
+- EXTRACTED: 103 (92%)
+- INFERRED: 9 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

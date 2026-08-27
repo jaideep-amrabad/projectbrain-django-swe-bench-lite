@@ -1,34 +1,40 @@
 # Community 833
 
-> 9 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **showmigrations.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **._validate_app_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Show all known migrations (or only those of the specified app_names) in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Show a list of all migrations on the system, or only those of some named apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **make_data_div()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **.test_large_deletes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **filter** (3 connections)
+- **trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **Regression for #13309 -- if the number of objects > chunk size, deletion still…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **A filter that uses a decorator (@mark_safe).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **A noop filter that always return its first argument and does nothing with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 228](Community_228.md) (3 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
+- [Community 145](Community_145.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,58 @@
 # Community 437
 
-> 24 nodes · cohesion 0.11
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **FieldOverridesByFormMetaForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **TestFieldOverridesByFormMeta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **CustomCleanTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **CustomWriterForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **IncompleteCategoryFormWithExclude** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **IncompleteCategoryFormWithFields** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_blank_false_with_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_form_clean_applies_to_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_override_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A form that replaces the model's url field with a custom one. This should…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_field_type_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_label_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_widget_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_notrequired_overrides_notblank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validates_with_replaced_field_excluded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validates_with_replaced_field_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Regression for #12596: Calling super from ModelForm.clean() should be optional.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression test for #12960. Make sure the cleaned_data returned from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A ModelForm with a model with a field set to blank=False and the form field set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.setUpClass()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._databases_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._databases_support_transactions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **SerializeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_teardown()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._rollback_atomics()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._pre_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__call__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._enter_atomics()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._post_teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **LiveServerPort** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_specified_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **._remove_databases_failures()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_reload_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_teardown()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._reset_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Open atomic blocks for multiple databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 173](Community_173.md) (12 shared connections)
-- [Community 230](Community_230.md) (4 shared connections)
-- [Community 390](Community_390.md) (2 shared connections)
-- [Community 397](Community_397.md) (2 shared connections)
-- [Community 268](Community_268.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 391](Community_391.md) (1 shared connections)
-- [Community 650](Community_650.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 3](Community_3.md) (10 shared connections)
+- [Community 185](Community_185.md) (6 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 322](Community_322.md) (2 shared connections)
+- [Community 468](Community_468.md) (1 shared connections)
+- [Community 358](Community_358.md) (1 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (77%)
-- INFERRED: 13 (23%)
+- EXTRACTED: 80 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

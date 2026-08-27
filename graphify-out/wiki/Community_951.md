@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **OperationsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- **oracle/test_operations.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- **.test_bulk_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- **.test_sequence_name_truncation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- **skipUnless** (1 connections)
+- **.test_numpy_array_index01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **.test_numpy_array_index02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **setup** (2 connections)
+- **Numpy's array-index syntax allows a template to access a certain item of a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **Fail silently when the array index is out of range.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

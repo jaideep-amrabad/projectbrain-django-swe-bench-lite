@@ -1,11 +1,12 @@
 # Community 555
 
-> 16 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.20
 
 ## Key Concepts
 
 - **check_framework/test_templates.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 - **.func()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **checks/templates.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
 - **CheckTemplateStringIfInvalidTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 - **CheckTemplateSettingsAppDirsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 - **check_setting_app_dirs_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
@@ -23,11 +24,12 @@
 
 ## Relationships
 
+- [Community 86](Community_86.md) (4 shared connections)
 - [Community 1](Community_1.md) (4 shared connections)
-- [Community 86](Community_86.md) (3 shared connections)
 - [Community 2](Community_2.md) (3 shared connections)
-- [Community 135](Community_135.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 482](Community_482.md) (2 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
@@ -36,7 +38,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 35 (95%)
+- EXTRACTED: 40 (95%)
 - INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 

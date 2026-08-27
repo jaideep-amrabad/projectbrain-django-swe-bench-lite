@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **FixtureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
-- **.test_loaddata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
-- **Fixtures can load data into models defined in packages** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **test_migrations_atomic_operation/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
+- **raise_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

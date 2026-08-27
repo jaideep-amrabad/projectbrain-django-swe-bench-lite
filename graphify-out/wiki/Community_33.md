@@ -1,17 +1,16 @@
 # Community 33
 
-> 186 nodes · cohesion 0.02
+> 200 nodes · cohesion 0.01
 
 ## Key Concepts
 
 - **reverse()** (363 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 - **TestInline** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **NamespaceTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 - **AdminDocViewTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - **override_script_prefix** (16 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **AdminCustomUrlsTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
 - **URLPatternReverse** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 - **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **SeleniumTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **AdminTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 - **SiteEachContextTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
 - **MultiDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
@@ -25,26 +24,27 @@
 - **.test_localize_pk_shortcut()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **UrlconfSubstitutionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **.test_computed_list_display_localization()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_add_with_GET_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_admin_URLs_no_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_basic_add_GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_basic_add_POST()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- *... and 161 more nodes in this community*
+- **.test_namespaced_view_detail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_view_detail_as_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_view_index_with_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **skipUnless** (3 connections)
+- **.test_callable_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- *... and 175 more nodes in this community*
 
 ## Relationships
 
-- [Community 62](Community_62.md) (28 shared connections)
-- [Community 209](Community_209.md) (26 shared connections)
-- [Community 15](Community_15.md) (24 shared connections)
-- [Community 269](Community_269.md) (21 shared connections)
-- [Community 2](Community_2.md) (20 shared connections)
-- [Community 70](Community_70.md) (18 shared connections)
-- [Community 208](Community_208.md) (16 shared connections)
-- [Community 49](Community_49.md) (12 shared connections)
-- [Community 295](Community_295.md) (11 shared connections)
-- [Community 159](Community_159.md) (11 shared connections)
+- [Community 206](Community_206.md) (26 shared connections)
+- [Community 15](Community_15.md) (25 shared connections)
+- [Community 65](Community_65.md) (25 shared connections)
+- [Community 2](Community_2.md) (19 shared connections)
+- [Community 72](Community_72.md) (18 shared connections)
+- [Community 180](Community_180.md) (12 shared connections)
+- [Community 50](Community_50.md) (12 shared connections)
+- [Community 160](Community_160.md) (11 shared connections)
 - [Community 93](Community_93.md) (11 shared connections)
-- [Community 775](Community_775.md) (9 shared connections)
+- [Community 296](Community_296.md) (10 shared connections)
+- [Community 777](Community_777.md) (9 shared connections)
+- [Community 208](Community_208.md) (8 shared connections)
 
 ## Source Files
 
@@ -52,7 +52,6 @@
 - `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
@@ -67,8 +66,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 616 (96%)
-- INFERRED: 28 (4%)
+- EXTRACTED: 627 (96%)
+- INFERRED: 23 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

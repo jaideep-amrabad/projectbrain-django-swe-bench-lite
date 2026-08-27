@@ -1,38 +1,32 @@
 # Community 889
 
-> 8 nodes · cohesion 0.36
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **test_db_returning.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **ReturningValuesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **ReturningModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **NonIntegerPKReturningModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_bulk_insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **.test_insert_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **.test_insert_returning_multiple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **.test_insert_returning_non_integer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **Exp** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ExpTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (5 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (83%)
-- INFERRED: 5 (17%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

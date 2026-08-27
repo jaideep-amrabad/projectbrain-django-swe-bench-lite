@@ -1,55 +1,51 @@
 # Community 375
 
-> 29 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **constraints/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **UniqueConstraintTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **CheckConstraintTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **constraints/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintProduct** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **ChildModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **get_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **AbstractModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.test_abstract_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_model_validation_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_model_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_eq()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **Partial unique constraints are ignored by Model.validate_unique().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_condition_must_be_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction_with_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **PrefetchRelatedTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_onetoone_reverse_with_to_field_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreign_key_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_forward_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_in_and_prefetch_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_one_to_one_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_invalid_final_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_onetoone_reverse_no_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_overriding_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_survives_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **Regression test for #20242 - QuerySet "in" didn't work the first time when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **A m2m can be followed through another m2m.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 533](Community_533.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 87](Community_87.md) (8 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 343](Community_343.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 38 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

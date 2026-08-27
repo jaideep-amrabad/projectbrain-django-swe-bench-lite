@@ -1,54 +1,43 @@
 # Community 279
 
-> 31 nodes · cohesion 0.08
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **TestQuerying** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **HStoreModel** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **SimpleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_sql_injection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_save_load_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_value_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_roundtrip_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_val_cast_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_field_chaining()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_has_any_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_has_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_in_generator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- *... and 6 more nodes in this community*
+- **forms/ranges.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **BaseRangeField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **RangeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **HiddenRangeWidget** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DateRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DateTimeRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DecimalRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **IntegerRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **A widget that splits input into two <input type="hidden"> inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
 
 ## Relationships
 
-- [Community 57](Community_57.md) (7 shared connections)
-- [Community 451](Community_451.md) (6 shared connections)
-- [Community 254](Community_254.md) (4 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 583](Community_583.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 447](Community_447.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,60 @@
 # Community 113
 
-> 84 nodes · cohesion 0.03
+> 92 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **TestQuerying** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **JSONField** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **TestFormField** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **KeyTransform** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **TestChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **JsonAdapter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **KeyTextTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.test_key_transform_expression()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_nested_key_transform_expression()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.test_ordering_grouping_by_key_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.test_invalid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_valid_default_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_redisplay_wrong_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_key_sql_injection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_nested_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- *... and 59 more nodes in this community*
+- **BaseDatabaseOperations** (89 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.window_frame_rows_start_end()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.combine_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.distinct_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.limit_offset_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.autoinc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.binary_placeholder_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.cache_key_culling_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.deferrable_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.end_transaction_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.execute_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.explain_query_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.fetch_returned_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.field_cast_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- *... and 67 more nodes in this community*
 
 ## Relationships
 
-- [Community 57](Community_57.md) (13 shared connections)
-- [Community 451](Community_451.md) (7 shared connections)
-- [Community 25](Community_25.md) (5 shared connections)
-- [Community 200](Community_200.md) (3 shared connections)
-- [Community 552](Community_552.md) (2 shared connections)
-- [Community 254](Community_254.md) (2 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 636](Community_636.md) (7 shared connections)
+- [Community 760](Community_760.md) (4 shared connections)
+- [Community 939](Community_939.md) (3 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 390](Community_390.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 336](Community_336.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 292](Community_292.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (92%)
-- INFERRED: 11 (8%)
+- EXTRACTED: 139 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

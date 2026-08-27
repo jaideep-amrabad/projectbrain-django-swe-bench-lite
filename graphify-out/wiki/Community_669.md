@@ -1,37 +1,45 @@
 # Community 669
 
-> 12 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **dependency_ordered()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **DependencyOrderingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **get_unique_databases_and_mirrors()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **setup_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_chained_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_circular_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_multiple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_own_alias_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_simple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Create the test databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Reorder test_databases into an order that honors the dependencies described in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Figure out which databases actually need to be created. Deduplicate entries in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **DatabaseSchemaEditor** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **IndexColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **._create_like_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._alter_column_type_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **._create_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._delete_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._field_data_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._field_indexes_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._index_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.add_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.remove_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **Return the statement to create an index with varchar operator pattern when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
 
 ## Relationships
 
-- [Community 374](Community_374.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
+- [Community 842](Community_842.md) (1 shared connections)
+- [Community 221](Community_221.md) (1 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

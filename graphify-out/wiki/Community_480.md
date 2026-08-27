@@ -1,62 +1,62 @@
 # Community 480
 
-> 35 nodes · cohesion 0.08
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **.apps()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **StateApps** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ProxyModelWithSameAppLabelTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **AppConfigStub** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ProxyModelWithDifferentAppLabelTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.test_migrate_with_existing_target_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.concrete_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_has_now_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **inlineformset_factory()** (62 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **TestModelFormsetOverridesTroughFormMeta** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_ignores_default_pks_on_submit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_alternate_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_auto_parent_uuid_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_child_editable_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_uuid_parent_auto_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inline_formsets_with_nullable_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_wrong_fk_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_delete_already_deleted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_resubmit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_custom_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_custom_save_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_multi_table_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_unique_together_with_inlineformset_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_unique_true_enforces_max_num_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_field_class_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_labels_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 - *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 636](Community_636.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 180](Community_180.md) (1 shared connections)
+- [Community 184](Community_184.md) (21 shared connections)
+- [Community 172](Community_172.md) (14 shared connections)
+- [Community 187](Community_187.md) (12 shared connections)
+- [Community 199](Community_199.md) (10 shared connections)
+- [Community 729](Community_729.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 680](Community_680.md) (1 shared connections)
+- [Community 408](Community_408.md) (1 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (77%)
-- INFERRED: 16 (23%)
+- EXTRACTED: 105 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

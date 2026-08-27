@@ -1,36 +1,39 @@
 # Community 725
 
-> 10 nodes · cohesion 0.31
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **m2m_multiple/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **m2m_multiple/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **M2MMultipleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **.test_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Multiple many-to-many relationships between the same two tables In this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **setup** (10 connections)
+- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **Without arg and when USE_L10N is True, the active language's DATE_FORMAT is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **#9520: Make sure |date doesn't blow up on non-dates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 338](Community_338.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 299](Community_299.md) (7 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 535](Community_535.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 27 (79%)
+- INFERRED: 7 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,56 +1,57 @@
 # Community 137
 
-> 26 nodes · cohesion 0.14
+> 69 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **BaseTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_storage()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_existing_storage()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.stored_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_add_lazy_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_add_read_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_read_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_no_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_level_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_with_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_context_processor_message_levels()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **With the message middleware enabled, messages are properly stored and retrieved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **Messages persist properly when multiple POSTs are made before a GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **Return the number of messages being stored after a ``storage.update()`` call.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **Reading the existing storage doesn't cause the data to be lost.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- *... and 1 more nodes in this community*
+- **SessionBase** (53 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.decode()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.cycle_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expire_at_browser_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_session_cookie_age()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._set_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._validate_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Community 68](Community_68.md) (9 shared connections)
-- [Community 791](Community_791.md) (9 shared connections)
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 955](Community_955.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 571](Community_571.md) (1 shared connections)
-- [Community 638](Community_638.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 52](Community_52.md) (8 shared connections)
+- [Community 849](Community_849.md) (1 shared connections)
+- [Community 581](Community_581.md) (1 shared connections)
+- [Community 527](Community_527.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 338](Community_338.md) (1 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
+- EXTRACTED: 100 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 

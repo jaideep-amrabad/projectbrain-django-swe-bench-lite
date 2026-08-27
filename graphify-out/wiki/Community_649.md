@@ -1,52 +1,41 @@
 # Community 649
 
-> 18 nodes · cohesion 0.16
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **InlineModelAdminChecks** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **_get_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._check_exclude_of_parent_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_formset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **GenericInlineModelAdminChecks** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **._check_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **.test_foreign_keys_in_parents()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **Check that extra is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that max_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that min_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check formset is a subclass of BaseModelFormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_exclude_of_parent_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **._check_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **Find and return the ForeignKey from model to parent if there is one (return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **CreateViewTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_with_special_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_restricted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_view_all_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_view_with_restricted_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_view_without_explicit_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_with_interpolated_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_with_object_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_with_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_create_without_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_define_both_fields_and_form_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Relationships
 
-- [Community 270](Community_270.md) (4 shared connections)
-- [Community 286](Community_286.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 199](Community_199.md) (2 shared connections)
-- [Community 207](Community_207.md) (2 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 540](Community_540.md) (1 shared connections)
-- [Community 189](Community_189.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 421](Community_421.md) (1 shared connections)
+- [Community 724](Community_724.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 16 (80%)
+- INFERRED: 4 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

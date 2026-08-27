@@ -1,63 +1,59 @@
 # Community 118
 
-> 71 nodes · cohesion 0.04
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **GenericForeignKey** (110 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **GenericRelation** (87 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **AbstractInheritanceTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **GenericRelationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **GenericForeignKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **.get_content_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.test_pointing_to_swapped_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **SpecialGenericRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **._check_content_type_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **._check_generic_foreign_key_existence()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.get_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **._get_path_info_with_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **._is_matching_generic_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.test_generic_foreign_key_checks_are_performed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **.test_field_name_ending_with_underscore()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **.test_valid_generic_relationship()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **.test_valid_generic_relationship_with_explicit_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **.test_valid_self_referential_generic_relationship()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **.test_virtual_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.lookup_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **._check_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **._check_object_id_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.get_filter_kwargs_for_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- *... and 46 more nodes in this community*
+- **renderers.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **test_renderers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **DjangoTemplates** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Jinja2()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **TemplatesSetting** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **Jinja2Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.test_installed_apps_template_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.engine()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load Django templates from the built-in widget templates in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load Jinja2 templates from the built-in widget templates in django/forms/jinja2…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load templates using template.loader.get_template() which is configured based…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **skipIf** (1 connections)
+- **Can find a custom template in INSTALLED_APPS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
 
 ## Relationships
 
-- [Community 114](Community_114.md) (19 shared connections)
-- [Community 147](Community_147.md) (14 shared connections)
-- [Community 164](Community_164.md) (12 shared connections)
-- [Community 199](Community_199.md) (6 shared connections)
-- [Community 495](Community_495.md) (6 shared connections)
-- [Community 89](Community_89.md) (6 shared connections)
-- [Community 319](Community_319.md) (5 shared connections)
-- [Community 94](Community_94.md) (5 shared connections)
-- [Community 80](Community_80.md) (5 shared connections)
-- [Community 87](Community_87.md) (5 shared connections)
-- [Community 256](Community_256.md) (4 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 718](Community_718.md) (4 shared connections)
+- [Community 330](Community_330.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 178](Community_178.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 637](Community_637.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (66%)
-- INFERRED: 88 (34%)
+- EXTRACTED: 67 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

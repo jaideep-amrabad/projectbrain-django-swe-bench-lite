@@ -1,54 +1,52 @@
 # Community 274
 
-> 40 nodes · cohesion 0.08
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **IntrospectionTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **introspection/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **introspection/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Reporter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **ArticleReporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **CheckConstraintModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **City** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **District** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **.test_get_constraints_indexes_orders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_relations_alt_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_bigautofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_smallautofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_table_names_with_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **RangesModel** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestQuerying** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestQueryingWithRanges** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_f_ranges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_all_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_model_set_on_base_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_range_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_range_object_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_unbounded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_serialize_range_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_adjacent_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contains_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_endswith()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_fully_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_fully_lt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 - *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (7 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 187](Community_187.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
+- [Community 57](Community_57.md) (9 shared connections)
+- [Community 447](Community_447.md) (5 shared connections)
+- [Community 305](Community_305.md) (3 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (88%)
-- INFERRED: 9 (12%)
+- EXTRACTED: 60 (87%)
+- INFERRED: 9 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

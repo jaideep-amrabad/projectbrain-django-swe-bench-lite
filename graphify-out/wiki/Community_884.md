@@ -1,27 +1,34 @@
 # Community 884
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **.test_session_modifying_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_session_engine_is_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that modifies the session** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.verify_unsafe_email()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **ExceptionReportTestMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_paranoid_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.verify_paranoid_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.verify_paranoid_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Asserts that no variables or POST parameters are displayed in the response.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **No POST parameters and frame variables can be seen in the default error reports…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Asserts that potentially sensitive info are displayed in the email report.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 524](Community_524.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 763](Community_763.md) (7 shared connections)
+- [Community 219](Community_219.md) (5 shared connections)
+- [Community 733](Community_733.md) (3 shared connections)
+- [Community 284](Community_284.md) (3 shared connections)
+- [Community 123](Community_123.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (87%)
+- INFERRED: 4 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

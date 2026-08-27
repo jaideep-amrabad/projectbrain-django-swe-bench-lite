@@ -1,27 +1,28 @@
 # Community 936
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **DefaultConnectionProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **Proxy for accessing the default DatabaseWrapper object's attributes. If you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **ModelPickleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_unsupported_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_with_getstate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **#21430 -- Verifies a warning is raised for models that are unpickled without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **A model may override __getstate__() to choose the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

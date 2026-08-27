@@ -1,55 +1,58 @@
 # Community 206
 
-> 52 nodes · cohesion 0.05
+> 51 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **syndication_tests/feeds.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2Feed** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestAtomFeed** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestSingleEnclosureAtomFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestSingleEnclosureRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **ArticlesFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLatestFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **NaiveDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateContextFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureAtomFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureRSSFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkFalse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TZAwareDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkTrue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **syndication_tests/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
-- **TestCustomFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestFeedUrlFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLanguageFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss091Feed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_pubdate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_pubdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **A feed to test that RSS feeds raise an exception with multiple enclosures.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **A feed to test defining item titles and descriptions with templates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- *... and 27 more nodes in this community*
+- **AdminActionsTest** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_non_localized_pk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_action_column_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_actions_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_custom_function_action_no_perm_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_custom_function_action_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_custom_function_action_with_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_custom_function_mail_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_default_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_delete_selected_uses_get_deleted_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_media_from_actions_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_custom_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_default_delete_action_no_change_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_default_delete_action_protected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_without_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_without_action_still_has_jquery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_multiple_actions_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_popup_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_popup_template_response_on_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_selection_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_user_message_on_no_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_user_message_on_none_selected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_default_delete_action_nonexistent_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_delete_queryset_hook()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_default_delete_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 629](Community_629.md) (8 shared connections)
-- [Community 50](Community_50.md) (4 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 370](Community_370.md) (1 shared connections)
-- [Community 822](Community_822.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 33](Community_33.md) (26 shared connections)
+- [Community 134](Community_134.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 693](Community_693.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1550](Community_1550.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 927](Community_927.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 81 (90%)
+- INFERRED: 9 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

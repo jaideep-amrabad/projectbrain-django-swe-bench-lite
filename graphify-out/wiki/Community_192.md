@@ -1,59 +1,60 @@
 # Community 192
 
-> 57 nodes · cohesion 0.06
+> 54 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **serializer.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSerializer** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **serializer_factory()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSequenceSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DeconstructableSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize_deconstructed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ModelFieldSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ModelManagerSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ChoicesSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._serialize_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FrozensetSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FunctoolsPartialSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **IterableSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- *... and 32 more nodes in this community*
+- **OrderingTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.assertQuerysetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_extra_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_extra_ordering_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_constant_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_constant_value_without_output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_fk_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (6 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 532](Community_532.md) (3 shared connections)
-- [Community 384](Community_384.md) (3 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 409](Community_409.md) (2 shared connections)
-- [Community 170](Community_170.md) (2 shared connections)
-- [Community 180](Community_180.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 402](Community_402.md) (2 shared connections)
-- [Community 232](Community_232.md) (2 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 25](Community_25.md) (8 shared connections)
+- [Community 181](Community_181.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 299](Community_299.md) (4 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 205](Community_205.md) (3 shared connections)
+- [Community 257](Community_257.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 685](Community_685.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 131 (96%)
-- INFERRED: 5 (4%)
+- EXTRACTED: 98 (91%)
+- INFERRED: 10 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

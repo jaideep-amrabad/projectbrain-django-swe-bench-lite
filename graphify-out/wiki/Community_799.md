@@ -1,42 +1,30 @@
 # Community 799
 
-> 11 nodes · cohesion 0.20
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **LoggingCaptureMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **I18nLoggingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SetupDefaultLoggingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Capture the output from the 'django' logger and store it on the class's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_i18n_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_i18n_page_not_found_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **RunTestsExceptionHandlingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_run_checks_passes_and_teardown_raises()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_run_checks_raises()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_run_checks_raises_and_teardown_raises()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Teardown functions are run when run_checks() raises SystemCheckError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **SystemCheckError is surfaced when run_checks() raises SystemCheckError and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Exceptions on teardown are surfaced if no exceptions happen during run_checks().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 405](Community_405.md) (2 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 760](Community_760.md) (1 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 216](Community_216.md) (4 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

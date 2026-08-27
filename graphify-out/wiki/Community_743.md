@@ -1,35 +1,34 @@
 # Community 743
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **ASGIRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.COOKIES()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.GET()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **._get_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **._get_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **._get_scheme()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **._set_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **Custom request subclass that decodes from an ASGI-standard request dict and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **CPointerBase** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **test_ptr.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **CPointerBaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **ptr.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **Free the memory used by the C++ object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **Base class for objects that have a pointer access property that controls access…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **.test_destructor_catches_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
+- [Community 77](Community_77.md) (4 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

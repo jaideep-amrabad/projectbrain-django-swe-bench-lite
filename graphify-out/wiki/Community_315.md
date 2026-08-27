@@ -1,59 +1,64 @@
 # Community 315
 
-> 35 nodes · cohesion 0.08
+> 97 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **AdminSeleniumTestCase** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **SeleniumTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_page_loaded()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_popup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.test_add_row_selection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_textarea_trailing_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.get_css_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.get_select_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Block until page has started to load.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Return the value for the CSS attribute of a DOM element specified by the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Return the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Return True if the element identified by `selector` has the CSS class `klass`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- *... and 10 more nodes in this community*
+- **timezones/tests.py** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **NewDatabaseTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **NewFormsTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **requires_tz_support** (17 connections)
+- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **EventForm** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **LegacyFormsTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezones/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **EventModelForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **ForcedTimeZoneDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **EventLocalizedModelForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **EventSplitForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 530](Community_530.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
+- [Community 18](Community_18.md) (12 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 33](Community_33.md) (7 shared connections)
+- [Community 9](Community_9.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 193](Community_193.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 248 (90%)
+- INFERRED: 28 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

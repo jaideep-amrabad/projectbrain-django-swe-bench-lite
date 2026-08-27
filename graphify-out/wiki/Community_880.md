@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Regression test for #6886 (the related-object cache)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **ProxyBug** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyProxyBug** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Proxy of an inherited class** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A proxy of proxy model with related field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 489](Community_489.md) (2 shared connections)
-- [Community 354](Community_354.md) (2 shared connections)
-- [Community 593](Community_593.md) (1 shared connections)
+- [Community 598](Community_598.md) (4 shared connections)
+- [Community 504](Community_504.md) (2 shared connections)
+- [Community 321](Community_321.md) (2 shared connections)
+- [Community 821](Community_821.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

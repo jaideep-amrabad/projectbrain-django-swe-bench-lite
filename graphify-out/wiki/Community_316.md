@@ -1,53 +1,56 @@
 # Community 316
 
-> 33 nodes · cohesion 0.15
+> 42 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TestConnectionOnCommit** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.assertDone()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.do()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **ForcedError** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **transaction_hooks/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.notify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_no_hooks_run_from_failed_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **transaction_hooks/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- **Thing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- **.assertNotified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_delays_execution_until_after_transaction_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_discards_hooks_from_rolled_back_savepoint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_does_not_execute_if_transaction_rolled_back()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_error_in_hook_doesnt_prevent_clearing_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_executes_only_after_final_transaction_committed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_after_rollback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_on_reconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_inner_savepoint_does_not_affect_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_inner_savepoint_rolled_back_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_no_savepoints_atomic_merged_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_db_query_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_executes_immediately_if_no_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hook_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_after_successful_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_runs_hooks_in_order_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- *... and 8 more nodes in this community*
+- **LazyObjectTestCase** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.lazy_wrap()** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Foo** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **SimpleLazyObjectTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_cached_property_set_name_not_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_copy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_delattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_getattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_setattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_setattr2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.lazy_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_cmp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 187](Community_187.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 486](Community_486.md) (5 shared connections)
+- [Community 171](Community_171.md) (3 shared connections)
+- [Community 468](Community_468.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 346](Community_346.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 88 (94%)
+- INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

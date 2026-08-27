@@ -1,28 +1,28 @@
 # Community 956
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **lookuperror_a/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A3** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A4** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- **GetOrCreateThroughManyToMany** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_create_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_something()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 772](Community_772.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (71%)
+- INFERRED: 2 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

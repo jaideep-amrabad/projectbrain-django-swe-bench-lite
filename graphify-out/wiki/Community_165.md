@@ -1,56 +1,59 @@
 # Community 165
 
-> 54 nodes · cohesion 0.04
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **data.py** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BaseModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **ExplicitInheritBaseModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **GenericData** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **InheritBaseModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **LengthModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **AutoNowDateTimeData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BigIntegerData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BinaryData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BooleanData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BooleanPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **CharData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **CharPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DateData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DatePKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DateTimeData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DateTimePKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DecimalData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DecimalPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **EmailData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **EmailPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **FileData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **FilePathData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **FilePathPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **FKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- *... and 29 more nodes in this community*
+- **StaticFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **StaticFilesHandlerMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- **ASGIStaticFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **ManageRunserverMigrationWarning** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **staticfiles/management/commands/runserver.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.serve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_base_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- **RunserverCommand** (3 connections)
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_migration_warning_multiple_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_migration_warning_one_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Common methods used by WSGI and ASGI handlers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Return the relative path to the media file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Serve the request path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 932](Community_932.md) (5 shared connections)
-- [Community 226](Community_226.md) (3 shared connections)
-- [Community 118](Community_118.md) (3 shared connections)
-- [Community 89](Community_89.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 1546](Community_1546.md) (1 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 528](Community_528.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 259](Community_259.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 52 (87%)
+- INFERRED: 8 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

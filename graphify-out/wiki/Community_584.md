@@ -1,39 +1,43 @@
 # Community 584
 
-> 15 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **_AssertTemplateUsedContext** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **_AssertTemplateNotUsedContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertTemplateNotUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertTemplateUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._assert_template_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that the template with the provided name was used in rendering the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.on_template_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 337](Community_337.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,44 +1,35 @@
 # Community 732
 
-> 14 nodes · cohesion 0.15
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **ModelInheritanceTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **.test_abstract_parent_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_init_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_mixin_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_set_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **.test_abstract()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_custompk_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_meta_fields_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_model_with_distinct_accessors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_model_with_distinct_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_reverse_relation_for_different_hierarchy_tree()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **SaveDeleteHookTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **Adding hooks before/after saving and deleting To execute arbitrary code around…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
 
 ## Relationships
 
-- [Community 810](Community_810.md) (7 shared connections)
-- [Community 780](Community_780.md) (4 shared connections)
-- [Community 927](Community_927.md) (3 shared connections)
-- [Community 69](Community_69.md) (3 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
-- [Community 926](Community_926.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 957](Community_957.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (65%)
-- INFERRED: 13 (35%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

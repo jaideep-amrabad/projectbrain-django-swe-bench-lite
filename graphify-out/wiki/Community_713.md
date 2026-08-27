@@ -1,37 +1,39 @@
 # Community 713
 
-> 10 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ConnectionRouter** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.allow_migrate_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.get_migratable_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.routers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **._router_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **If routers is not specified, default to settings.DATABASE_ROUTERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Return app models allowed to be migrated on provided db.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **PreparedGeometry** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.prepared()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Return a PreparedGeometry corresponding to this geometry -- it is optimized for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.contains_properly()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.covers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.crosses()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.disjoint()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.intersects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.overlaps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.touches()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.within()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **A geometry that is prepared for performing certain operations. At the moment…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
 
 ## Relationships
 
-- [Community 198](Community_198.md) (2 shared connections)
-- [Community 253](Community_253.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 366](Community_366.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 77](Community_77.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_follow_relative_redirect_no_trailing_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A URL with a relative redirect with no trailing slash can be followed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_form_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST erroneous data to a form** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 524](Community_524.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,32 +1,26 @@
 # Community 868
 
-> 8 nodes · cohesion 0.36
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Degrees** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **DegreesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **FormsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **ArticleForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **.test_foreign_object_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 337](Community_337.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

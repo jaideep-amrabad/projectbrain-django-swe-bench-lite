@@ -1,6 +1,6 @@
 # Community 1
 
-> 498 nodes · cohesion 0.01
+> 507 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **base/test_operations.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
 - **test_underscore_syntax.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
 - **test_include.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- *... and 473 more nodes in this community*
+- *... and 482 more nodes in this community*
 
 ## Relationships
 
-- [Community 27](Community_27.md) (140 shared connections)
-- [Community 64](Community_64.md) (136 shared connections)
-- [Community 5](Community_5.md) (111 shared connections)
-- [Community 4](Community_4.md) (95 shared connections)
-- [Community 11](Community_11.md) (92 shared connections)
-- [Community 0](Community_0.md) (90 shared connections)
-- [Community 21](Community_21.md) (64 shared connections)
+- [Community 66](Community_66.md) (136 shared connections)
+- [Community 28](Community_28.md) (133 shared connections)
+- [Community 5](Community_5.md) (108 shared connections)
+- [Community 3](Community_3.md) (94 shared connections)
+- [Community 12](Community_12.md) (84 shared connections)
+- [Community 0](Community_0.md) (83 shared connections)
+- [Community 23](Community_23.md) (68 shared connections)
 - [Community 2](Community_2.md) (49 shared connections)
-- [Community 50](Community_50.md) (42 shared connections)
+- [Community 51](Community_51.md) (42 shared connections)
+- [Community 14](Community_14.md) (42 shared connections)
 - [Community 9](Community_9.md) (37 shared connections)
-- [Community 22](Community_22.md) (35 shared connections)
-- [Community 13](Community_13.md) (35 shared connections)
+- [Community 79](Community_79.md) (36 shared connections)
 
 ## Source Files
 
@@ -66,12 +66,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3993 (99%)
+- EXTRACTED: 4006 (99%)
 - INFERRED: 34 (1%)
 - AMBIGUOUS: 0 (0%)
 

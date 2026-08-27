@@ -1,50 +1,51 @@
 # Community 465
 
-> 21 nodes · cohesion 0.14
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **TestUtils** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **parse_rst()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **parse_docstring()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **admin_docs/test_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **AdminDocsSimpleTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
-- **trim_docstring()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **.test_description_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_parse_rst()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_title_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_initial_header_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_parse_docstring()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_publish_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_trim_docstring()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **Uniformly trim leading/trailing whitespace from docstrings. Based on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **Parse out the parts of a docstring. Return (title, body, metadata).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **Convert the string from reST to an XHTML fragment.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **skipUnless** (1 connections)
-- **Django shouldn't break the default role for interpreted text when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **This __doc__ output is required for testing. I copied this example from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **parse_rst() should use `cmsreference` as the default role.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **CustomManagerTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **DeconstructibleCustomManager** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.test_abstract_model_with_custom_manager_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_custom_manager_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_deconstruct_from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_filtering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_init_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_manager_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_manager_use_queryset_methods()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_no_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_queryset_and_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_queryset_copied_to_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_removal_through_default_fk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_removal_through_default_gfk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_removal_through_specified_fk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_removal_through_specified_gfk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_slow_removal_through_default_fk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_slow_removal_through_default_gfk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_slow_removal_through_specified_fk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_slow_removal_through_specified_gfk_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_deconstruct_as_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_deconstruct_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_fk_related_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 159](Community_159.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 81](Community_81.md) (11 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 719](Community_719.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 49 (86%)
+- INFERRED: 8 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

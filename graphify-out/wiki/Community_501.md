@@ -1,42 +1,52 @@
 # Community 501
 
-> 19 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **GetImageDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **skipUnless** (5 connections)
-- **DimensionClosingBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_not_closing_of_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **InconsistentGetImageDimensionsBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_closing_of_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_bug_19457()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_multiple_calls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_invalid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_valid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_webp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() properly closes files (#8817)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Open files passed into get_image_dimensions() should stay opened.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() called with a filename should closed the file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() works properly after various calls using a file handler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Multiple calls of get_image_dimensions() should return the same size.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Regression test for #19457 get_image_dimensions fails on some pngs, while…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() should return (None, None) for the dimensions of invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() should catch struct.error while feeding the PIL Image…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **FormsFormsetTestCase** (57 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_with_deletion_invalid_deleted_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_limiting_extra_lest_than_max_num()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_max_num_zero()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_more_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_second_form_partially_filled_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_clean_hook()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_error_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validate_min_excludes_empty_forms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_management_form_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_non_form_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **A partially completed form is invalid.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **The extra argument works when the formset is pre-filled with initial data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **deleted_forms works on a valid formset even if a deleted form would have been…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **FormSets have a clean() hook for doing extra validation that isn't tied to any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **max_num has no effect when extra is less than max_num.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **If max_num is 0 then no form is rendered at all, regardless of extra, unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **The management form has the correct prefix.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Formset's forms use the formset's error_class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 163](Community_163.md) (3 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
+- [Community 436](Community_436.md) (17 shared connections)
+- [Community 483](Community_483.md) (11 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 978](Community_978.md) (1 shared connections)
+- [Community 961](Community_961.md) (1 shared connections)
+- [Community 962](Community_962.md) (1 shared connections)
+- [Community 959](Community_959.md) (1 shared connections)
+- [Community 975](Community_975.md) (1 shared connections)
+- [Community 980](Community_980.md) (1 shared connections)
+- [Community 967](Community_967.md) (1 shared connections)
+- [Community 968](Community_968.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 70 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

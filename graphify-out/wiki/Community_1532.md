@@ -4,24 +4,23 @@
 
 ## Key Concepts
 
-- **DependentChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **DependentChildInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Issue #20522 Model that depends on validation of the parent class for one of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_create_with_duplicate_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **If you specify an existing primary key, but different other fields, then you…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_manual_primary_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
+- [Community 668](Community_668.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

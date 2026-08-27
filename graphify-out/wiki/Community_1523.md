@@ -1,26 +1,27 @@
 # Community 1523
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **SafeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
-- **setup** (2 connections)
-- **.test_safe01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
-- **.test_safe02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
+- **Serializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.register()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.unregister()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
+- [Community 381](Community_381.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

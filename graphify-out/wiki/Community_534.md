@@ -1,46 +1,46 @@
 # Community 534
 
-> 17 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Join** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **BaseTable** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.equals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.demote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.promote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.equals()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **The BaseTable class is used for base table references in FROM clause. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Used by sql.Query and sql.SQLCompiler to generate JOIN clauses into the FROM…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Generate the full LEFT OUTER JOIN sometable ON sometable.somecol =…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **UpdateQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_values()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **InsertQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_related_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **._setup_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.update_batch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.test_sql_insert_compiler_return_id_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.get_related_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.insert_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Convert a dictionary of field name to value mappings into an update query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Append a sequence of (field, model, value) triples to the internal list that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Add (name, value) to an update query for an ancestor model. Update are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Return a list of query objects: one for each update required to an ancestor…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Run on initialization and at the end of chaining. Any attributes that would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Regression test for #14019: SQLInsertCompiler.as_sql() failure** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 258](Community_258.md) (1 shared connections)
-- [Community 634](Community_634.md) (1 shared connections)
-- [Community 335](Community_335.md) (1 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 685](Community_685.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (87%)
-- INFERRED: 4 (13%)
+- EXTRACTED: 28 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

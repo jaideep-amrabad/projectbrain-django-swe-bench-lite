@@ -1,6 +1,6 @@
 # Community 330
 
-> 42 nodes · cohesion 0.07
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -9,6 +9,7 @@
 - **test_django.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 - **BaseEngine** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
 - **DjangoTemplatesTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **EngineHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
 - **InvalidTemplateLibrary** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
 - **get_package_libraries()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
 - **Template** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
@@ -23,28 +24,27 @@
 - **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
 - **.get_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
 - **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
 - **.test_debug_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 - **.test_non_debug_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 - **.test_templatetag_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 - **.app_dirname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- *... and 17 more nodes in this community*
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 64](Community_64.md) (13 shared connections)
-- [Community 492](Community_492.md) (6 shared connections)
+- [Community 66](Community_66.md) (13 shared connections)
+- [Community 491](Community_491.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
 - [Community 2](Community_2.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 270](Community_270.md) (3 shared connections)
-- [Community 129](Community_129.md) (3 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 269](Community_269.md) (3 shared connections)
+- [Community 118](Community_118.md) (3 shared connections)
 - [Community 9](Community_9.md) (3 shared connections)
-- [Community 157](Community_157.md) (3 shared connections)
-- [Community 726](Community_726.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 345](Community_345.md) (2 shared connections)
-- [Community 99](Community_99.md) (2 shared connections)
+- [Community 159](Community_159.md) (3 shared connections)
+- [Community 718](Community_718.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 344](Community_344.md) (2 shared connections)
 
 ## Source Files
 
@@ -52,12 +52,13 @@
 - `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
 - `raw/code/hyd-evaluation/django-django/django/template/context.py`
 - `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (92%)
-- INFERRED: 10 (8%)
+- EXTRACTED: 126 (91%)
+- INFERRED: 12 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

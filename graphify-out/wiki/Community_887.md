@@ -1,27 +1,29 @@
 # Community 887
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **test_module/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
-- **another_bad_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
-- **another_good_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
-- **SiteMock** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
+- **.attach()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Initialize a single email message (which can be sent to multiple recipients).** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file with the given filename and content. The filename can be omitted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file from the filesystem. Set the mimetype to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 111](Community_111.md) (3 shared connections)
+- [Community 383](Community_383.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

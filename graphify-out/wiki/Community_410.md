@@ -1,61 +1,51 @@
 # Community 410
 
-> 26 nodes · cohesion 0.14
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **managers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **SitesFrameworkTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **AbstractArticle** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **CurrentSiteManagerChecksTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **._get_field_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **CustomArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **ExclusiveArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **SyndicatedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **._check_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **._check_table_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.test_invalid_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_invalid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Return self.__field_name or 'site' or 'sites'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Use this to limit objects to those associated with the current site.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_custom_named_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_site_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- *... and 1 more nodes in this community*
+- **BaseContext** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **RenderContext** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.new()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **._reset_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.set_upward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.test_render_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 66](Community_66.md) (6 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 57 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

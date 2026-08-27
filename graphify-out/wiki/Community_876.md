@@ -1,33 +1,28 @@
 # Community 876
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **DateTimeInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **.test_render_formatted()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **.test_locale_aware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **.test_render_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **The microseconds are trimmed on display, by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **Use 'format' to change the way a value is displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **DerivedM** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BaseM** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
 
 ## Relationships
 
-- [Community 338](Community_338.md) (4 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 459](Community_459.md) (2 shared connections)
+- [Community 621](Community_621.md) (1 shared connections)
+- [Community 332](Community_332.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (69%)
-- INFERRED: 5 (31%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

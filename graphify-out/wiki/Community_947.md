@@ -1,27 +1,32 @@
 # Community 947
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **.date_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.time_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Given a lookup_type of 'hour', 'minute' or 'second', return the SQL that…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Given a lookup_type of 'year', 'month', or 'day', return the SQL that extracts…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **GrandChild** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **InheritanceUniqueTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 111](Community_111.md) (3 shared connections)
+- [Community 782](Community_782.md) (3 shared connections)
+- [Community 815](Community_815.md) (2 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
+- [Community 723](Community_723.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (71%)
+- INFERRED: 4 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

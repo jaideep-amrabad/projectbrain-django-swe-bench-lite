@@ -1,49 +1,64 @@
 # Community 530
 
-> 17 nodes · cohesion 0.18
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **test_liveserver.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **StaticLiveServerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
-- **testing.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
-- **LiveServerBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **StaticLiveServerChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **StaticLiveServerView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.test_collectstatic_emulation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.raises_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.urlopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **Extend django.test.LiveServerTestCase to transparently overlay at test…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
-- **A subset of the tests in tests/servers/tests exercising…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **StaticLiveServerTestCase use of staticfiles' serve() allows it to discover…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **.test_test_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **core/serializers/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **test_natural.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **deserialize()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **serialize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **SerializerDoesNotExist** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **_load_serializers()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **register_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **BadSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **get_serializer()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **get_deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **unregister_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **natural_pk_mti_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **pk_with_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **get_serializer_formats()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **serializerTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **forward_ref_fk_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_fk_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_m2m_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_m2m_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **natural_key_serializer_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **natural_key_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **Deserializer** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **get_public_serializer_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 167](Community_167.md) (2 shared connections)
-- [Community 470](Community_470.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 315](Community_315.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 185](Community_185.md) (8 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 472](Community_472.md) (3 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 447](Community_447.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 110 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

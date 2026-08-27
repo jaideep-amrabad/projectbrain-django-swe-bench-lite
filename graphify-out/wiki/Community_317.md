@@ -1,51 +1,60 @@
 # Community 317
 
-> 42 nodes · cohesion 0.05
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseContext** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **RenderContext** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.push()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.push_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.new()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **._reset_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.set_upward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.test_render_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- *... and 17 more nodes in this community*
+- **AdminSeleniumTestCase** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **SeleniumTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_page_loaded()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_popup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.test_add_row_selection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_textarea_trailing_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.get_css_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.get_select_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block until page has started to load.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Return the value for the CSS attribute of a DOM element specified by the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Return the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Return True if the element identified by `selector` has the CSS class `klass`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 64](Community_64.md) (6 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
+- [Community 813](Community_813.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 64 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

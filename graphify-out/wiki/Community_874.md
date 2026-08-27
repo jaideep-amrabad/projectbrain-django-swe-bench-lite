@@ -1,37 +1,27 @@
 # Community 874
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.w()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **ISO-8601 week number of year, weeks starting on Monday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the year; i.e. '0' to '365** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **The backend doesn't store an unlimited number of queries (#12581).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_serialize_local_function_reference()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **TestModel1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **A reference in a local scope can't be serialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Relationships
 
-- [Community 246](Community_246.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 587](Community_587.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 413](Community_413.md) (1 shared connections)
+- [Community 227](Community_227.md) (2 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

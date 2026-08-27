@@ -1,47 +1,45 @@
 # Community 454
 
-> 20 nodes · cohesion 0.16
+> 22 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **TestOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **custom_migration_operations/operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **ArgsKwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **ArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **ExpandArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **KwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **CreateModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.state_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 260](Community_260.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
+- [Community 339](Community_339.md) (3 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

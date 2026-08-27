@@ -1,59 +1,48 @@
 # Community 429
 
-> 28 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **autoreload.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **StatReloader** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_modules_and_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **start_django()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_all_python_module_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **run_with_reloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **ensure_echo_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_child_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **restart_with_reloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.snapshot_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **sys_path_directories()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **check_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **trigger_reload()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **raise_last_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Iterate through all modules needed to be watched.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Return a tuple of common roots that are shared between the given paths. File…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Yield absolute directories from sys.path, ignoring entries that don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Return the executable. This contains a workaround for Windows if the executable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Yield all files that need to be watched, including module files and files…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- *... and 3 more nodes in this community*
+- **OnDeleteTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **create_a()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_auto_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cascade_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cascade_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cascade_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_do_nothing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_do_nothing_qscount()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_o2o_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_protect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setdefault_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setnull_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setnull_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setvalue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_inheritance_cascade_down()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_inheritance_cascade_up()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_non_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **A models.DO_NOTHING relation doesn't trigger a query.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Relationships
 
-- [Community 483](Community_483.md) (7 shared connections)
-- [Community 636](Community_636.md) (4 shared connections)
-- [Community 514](Community_514.md) (3 shared connections)
-- [Community 574](Community_574.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 464](Community_464.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 173](Community_173.md) (11 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 45 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

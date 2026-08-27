@@ -1,64 +1,63 @@
 # Community 120
 
-> 84 nodes · cohesion 0.05
+> 71 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **test_debug.py** (57 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **view_tests/views.py** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **views/debug.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **technical_500_response()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **sensitive_post_parameters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
-- **sensitive_variables()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
-- **SafeExceptionReporterFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **technical_404_response()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **logconfig.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- **custom_exception_reporter_filter_view()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **send_log()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **CallableSettingWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **cleanse_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **default_urlconf()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **paranoid_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **sensitive_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **decorators/debug.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
-- **multivalue_dict_key_error()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **get_safe_settings()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.is_active()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **MyEmailBackend** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- **non_sensitive_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **sensitive_args_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **sensitive_kwargs_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **UnsafeExceptionReporterFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- *... and 59 more nodes in this community*
+- **GenericForeignKey** (110 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **GenericRelation** (87 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **AbstractInheritanceTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **GenericRelationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- **GenericForeignKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- **.get_content_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.test_pointing_to_swapped_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- **SpecialGenericRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **._check_content_type_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **._check_generic_foreign_key_existence()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.get_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **._get_path_info_with_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **._is_matching_generic_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.test_generic_foreign_key_checks_are_performed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- **.test_field_name_ending_with_underscore()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- **.test_valid_generic_relationship()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- **.test_valid_generic_relationship_with_explicit_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- **.test_valid_self_referential_generic_relationship()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- **.test_virtual_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.lookup_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._check_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **._check_object_id_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.get_filter_kwargs_for_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 8](Community_8.md) (11 shared connections)
-- [Community 188](Community_188.md) (10 shared connections)
-- [Community 41](Community_41.md) (9 shared connections)
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 45](Community_45.md) (7 shared connections)
-- [Community 223](Community_223.md) (7 shared connections)
-- [Community 180](Community_180.md) (6 shared connections)
-- [Community 14](Community_14.md) (6 shared connections)
-- [Community 760](Community_760.md) (6 shared connections)
-- [Community 36](Community_36.md) (5 shared connections)
-- [Community 239](Community_239.md) (4 shared connections)
+- [Community 116](Community_116.md) (19 shared connections)
+- [Community 151](Community_151.md) (14 shared connections)
+- [Community 163](Community_163.md) (12 shared connections)
+- [Community 195](Community_195.md) (6 shared connections)
+- [Community 494](Community_494.md) (6 shared connections)
+- [Community 89](Community_89.md) (6 shared connections)
+- [Community 320](Community_320.md) (5 shared connections)
+- [Community 99](Community_99.md) (5 shared connections)
+- [Community 81](Community_81.md) (5 shared connections)
+- [Community 87](Community_87.md) (5 shared connections)
+- [Community 239](Community_239.md) (5 shared connections)
+- [Community 204](Community_204.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
 
 ## Audit Trail
 
-- EXTRACTED: 283 (92%)
-- INFERRED: 23 (8%)
+- EXTRACTED: 168 (66%)
+- INFERRED: 88 (34%)
 - AMBIGUOUS: 0 (0%)
 
 ---

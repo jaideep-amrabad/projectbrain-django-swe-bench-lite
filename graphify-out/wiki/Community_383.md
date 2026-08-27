@@ -1,54 +1,58 @@
 # Community 383
 
-> 28 nodes · cohesion 0.08
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ListMixin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.extend()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.append()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__iadd__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__imul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__mul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__rmul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add to another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add another list-like object to self** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **A base class which provides complete list interface. Derived classes must call…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list count method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list append method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list extend method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list insert method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- *... and 3 more nodes in this community*
+- **EmailMultiAlternatives** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMultipart** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **MIMEMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_attachments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMessage** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_attachment()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_safe_mime_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_safe_mime_multipart_with_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **._create_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.attach_alternative()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.as_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Return the entire formatted message as a string. Optional `unixfrom' when True,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **MIMEMessage** (1 connections)
+- **MIMEMultipart** (1 connections)
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 708](Community_708.md) (6 shared connections)
-- [Community 756](Community_756.md) (5 shared connections)
-- [Community 628](Community_628.md) (3 shared connections)
-- [Community 859](Community_859.md) (2 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 119](Community_119.md) (12 shared connections)
+- [Community 111](Community_111.md) (11 shared connections)
+- [Community 201](Community_201.md) (3 shared connections)
 - [Community 37](Community_37.md) (1 shared connections)
+- [Community 398](Community_398.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 780](Community_780.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 74 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

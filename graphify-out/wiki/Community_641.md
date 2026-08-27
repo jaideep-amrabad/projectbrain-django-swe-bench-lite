@@ -1,41 +1,38 @@
 # Community 641
 
-> 13 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **datetimes/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **DateTimesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.stop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_availability()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.should_stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watch_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Wait until Django reports that the apps have been loaded. If the given thread…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **This generator is called in a loop from run_loop. It's important that the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 389](Community_389.md) (4 shared connections)
+- [Community 557](Community_557.md) (3 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 478](Community_478.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

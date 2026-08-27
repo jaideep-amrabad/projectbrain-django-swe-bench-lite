@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_formset_with_deletion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **formset_factory's can_delete argument adds a boolean "delete" field to each…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_invalid_deleted_form_with_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Can get ordered_forms from a valid formset even if a deleted form would have…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (1 shared connections)
-- [Community 503](Community_503.md) (1 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
 
 ## Source Files
 

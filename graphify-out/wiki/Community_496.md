@@ -1,46 +1,52 @@
 # Community 496
 
-> 16 nodes · cohesion 0.18
+> 19 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **WSGIRequestHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **test_basehttp.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **WSGIRequestHandlerTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.test_strips_underscore_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **Stub** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.get_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Copy of WSGIRequestHandler.handle() but with different ServerHandler** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.address_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **WSGIRequestHandler ignores headers containing underscores. This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.sendall()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.as_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.unindent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_args_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_empty_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_multiline_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_operation_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **Return a string of the file contents.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 613](Community_613.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 323](Community_323.md) (3 shared connections)
+- [Community 176](Community_176.md) (3 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 381](Community_381.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
 - [Community 6](Community_6.md) (1 shared connections)
-- [Community 321](Community_321.md) (1 shared connections)
-- [Community 181](Community_181.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- [Community 420](Community_420.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 40 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

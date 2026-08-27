@@ -1,33 +1,35 @@
 # Community 729
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **CITextTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_equal_lowercase()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_fail_citext_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_lookups_description_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_lookups_email()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_lookups_name_char()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **citext removes the need for iexact as the index is case-insensitive.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **Creating an entry for a citext field used as a primary key which clashes with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **FormfieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Callback** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_inlineformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_modelformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.assertCallbackCalled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_inlineformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_modelformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Regression for #13095 and #17683: Using base forms with widgets defined in Meta…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Relationships
 
-- [Community 57](Community_57.md) (3 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 199](Community_199.md) (4 shared connections)
+- [Community 480](Community_480.md) (2 shared connections)
+- [Community 184](Community_184.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **DependentChildAdminForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Issue #20522 Form to test child dependency on parent object's validation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ReportAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 

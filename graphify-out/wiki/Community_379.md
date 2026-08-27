@@ -1,54 +1,49 @@
 # Community 379
 
-> 30 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **RelatedLookupTypeTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **UnionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ObjectA** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ObjectC** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ValuesJoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.check_union()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ProxyObjectA** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ChildObjectA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_A_AB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_A_AB2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_AB_ACB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BA_BCA__BAB_BAC_BCA()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BAB_BAC()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BAB_BACB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **A ValueError is raised when the incorrect object type is passed to a query…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_correct_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_values_queryset_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_wrong_backward_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_wrong_type_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_21376()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Tests for the union of two querysets. Bug #12252.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 5 more nodes in this community*
+- **TimeFormat** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.h()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.i()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.O()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.T()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.Z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.a()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.u()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 12-hour format; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 24-hour format; i.e. '00' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Minutes; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Difference to Greenwich time in hours; e.g. '+0200', '-0430'. If timezone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone of this machine; e.g. 'EST' or 'MDT'. If timezone information is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Microseconds; i.e. '000000' to '999999** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.B()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (18 shared connections)
-- [Community 61](Community_61.md) (7 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 475](Community_475.md) (3 shared connections)
+- [Community 353](Community_353.md) (2 shared connections)
+- [Community 535](Community_535.md) (1 shared connections)
+- [Community 245](Community_245.md) (1 shared connections)
+- [Community 921](Community_921.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 234](Community_234.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (69%)
-- INFERRED: 22 (31%)
+- EXTRACTED: 34 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

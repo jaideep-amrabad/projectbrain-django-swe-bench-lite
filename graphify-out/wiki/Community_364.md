@@ -1,50 +1,60 @@
 # Community 364
 
-> 25 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **NaturalKeyFixtureTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dependency_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_deserialize_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_on_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_normal_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dependency_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_dangling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_long()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_normal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_tight_circular()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_tight_circular_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test for ticket #13030 - Python based parser version natural keys deserialize…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test for ticket #13030 - XML version natural keys deserialize with fk to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Natural key requirements are taken into account when serializing models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **It doesn't matter what order you mention the models, Store *must* be serialized…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Normal primary keys work on a model with natural key capabilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **multiple_database/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **multiple_database/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **Pet** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **Review** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RelationAssignmentTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **UserProfile** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RouterModelArgumentTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **BookManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **ModelMetaRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **NoRelationRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_foreign_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_reverse_one_to_one_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **PersonManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **AntiPetRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 348](Community_348.md) (12 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 440](Community_440.md) (10 shared connections)
+- [Community 571](Community_571.md) (7 shared connections)
+- [Community 229](Community_229.md) (7 shared connections)
+- [Community 434](Community_434.md) (5 shared connections)
+- [Community 89](Community_89.md) (4 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 681](Community_681.md) (4 shared connections)
+- [Community 777](Community_777.md) (3 shared connections)
+- [Community 120](Community_120.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (74%)
-- INFERRED: 10 (26%)
+- EXTRACTED: 96 (84%)
+- INFERRED: 18 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

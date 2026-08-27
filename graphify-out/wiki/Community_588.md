@@ -1,44 +1,35 @@
 # Community 588
 
-> 22 nodes · cohesion 0.09
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **InclusionTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **SimpleTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_no_render_side_effect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_render_context_is_cleared()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_15070_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.verify_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tags_from_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_escaping_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_explicit_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_format_html_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_naive_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_include_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **Inclusion tag passes down `use_l10n` of context to the Context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **#23441 -- InclusionNode shouldn't modify its nodelist at render time.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **#24555 -- InclusionNode should push and pop the render_context stack when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **TestInspectMethods** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **test_inspect.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_method_has_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.all_kinds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.just_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_func_accepts_var_args_has_var_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_func_accepts_var_args_no_var_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_all_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (10 shared connections)
-- [Community 64](Community_64.md) (7 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

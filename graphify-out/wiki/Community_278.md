@@ -1,62 +1,54 @@
 # Community 278
 
-> 39 nodes · cohesion 0.07
+> 31 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **inspectapp/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **gis_tests/test_data.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **ogrinspect()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **OGRInspectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **TestDataMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **inspectapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- **TestDS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestGeom** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestObj** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **get_ogr_db_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **get_ds_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **strconvert()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.geometries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestGeomSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **AllOGRFields** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- **.test_time_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **tuplize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.test_date_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_management_command()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_mapping_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_poly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_poly_multi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- *... and 14 more nodes in this community*
+- **TestQuerying** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **HStoreModel** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **SimpleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_sql_injection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_save_load_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_value_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_roundtrip_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_val_cast_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_field_chaining()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_any_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_in_generator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (7 shared connections)
-- [Community 83](Community_83.md) (6 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 558](Community_558.md) (1 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 57](Community_57.md) (7 shared connections)
+- [Community 447](Community_447.md) (6 shared connections)
+- [Community 181](Community_181.md) (4 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 47 (84%)
+- INFERRED: 9 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

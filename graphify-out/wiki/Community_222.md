@@ -1,52 +1,57 @@
 # Community 222
 
-> 49 nodes · cohesion 0.06
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **SecurityMiddlewareTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.process_response()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.process_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_content_type_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_content_type_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_content_type_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_no_redirect_ssl()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_redirect_exempt()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_redirect_ssl_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_ssl_redirect_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_ssl_redirect_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_include_subdomains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_no_include_subdomains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_no_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_only_if_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_subdomains_and_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_xss_filter_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_xss_filter_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- *... and 24 more nodes in this community*
+- **serializers/models/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Movie** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **CategoryMetaData** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **ProxyBaseModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_serialize_superfluous_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **ProxyProxyBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **AuthorProfile** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **CategoryMetaDataManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (23 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
+- [Community 185](Community_185.md) (6 shared connections)
+- [Community 164](Community_164.md) (3 shared connections)
+- [Community 690](Community_690.md) (3 shared connections)
 - [Community 14](Community_14.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 938](Community_938.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 600](Community_600.md) (1 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 47 (84%)
+- INFERRED: 9 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

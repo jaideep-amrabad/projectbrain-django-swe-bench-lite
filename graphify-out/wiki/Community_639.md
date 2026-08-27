@@ -1,37 +1,36 @@
 # Community 639
 
-> 13 nodes · cohesion 0.17
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **BaseMemcachedTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_location_multiple_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_deletes_key_on_failed_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many_returns_failing_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_zero_cull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **On memcached, we don't introduce a duplicate key validation step (for speed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **ConnectionRouter** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.allow_migrate_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.get_migratable_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.routers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **._router_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **If routers is not specified, default to settings.DATABASE_ROUTERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Return app models allowed to be migrated on provided db.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
+- [Community 194](Community_194.md) (2 shared connections)
+- [Community 440](Community_440.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
+- EXTRACTED: 19 (95%)
 - INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 

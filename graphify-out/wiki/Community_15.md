@@ -1,6 +1,6 @@
 # Community 15
 
-> 320 nodes · cohesion 0.01
+> 301 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -13,7 +13,6 @@
 - **URLResolver** (31 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **get_resolver()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **urls/base.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **NoReverseMatch** (25 connections) — `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
 - **urls/i18n.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
 - **get_callable()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
@@ -29,22 +28,23 @@
 - **conf.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
 - **Resolver404** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
 - **URLPattern** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- *... and 295 more nodes in this community*
+- **IncludeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- *... and 276 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (33 shared connections)
-- [Community 45](Community_45.md) (32 shared connections)
-- [Community 14](Community_14.md) (32 shared connections)
-- [Community 11](Community_11.md) (26 shared connections)
-- [Community 33](Community_33.md) (24 shared connections)
-- [Community 66](Community_66.md) (23 shared connections)
-- [Community 86](Community_86.md) (22 shared connections)
-- [Community 2](Community_2.md) (21 shared connections)
+- [Community 46](Community_46.md) (31 shared connections)
+- [Community 13](Community_13.md) (30 shared connections)
+- [Community 12](Community_12.md) (26 shared connections)
+- [Community 237](Community_237.md) (26 shared connections)
+- [Community 1](Community_1.md) (26 shared connections)
+- [Community 33](Community_33.md) (25 shared connections)
+- [Community 52](Community_52.md) (23 shared connections)
+- [Community 86](Community_86.md) (21 shared connections)
 - [Community 8](Community_8.md) (20 shared connections)
-- [Community 217](Community_217.md) (19 shared connections)
-- [Community 239](Community_239.md) (18 shared connections)
-- [Community 41](Community_41.md) (15 shared connections)
+- [Community 2](Community_2.md) (19 shared connections)
+- [Community 42](Community_42.md) (17 shared connections)
+- [Community 93](Community_93.md) (14 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1071 (97%)
-- INFERRED: 38 (3%)
+- EXTRACTED: 1037 (97%)
+- INFERRED: 32 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

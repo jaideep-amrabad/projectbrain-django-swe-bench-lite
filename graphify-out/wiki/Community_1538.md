@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **.test_get_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Using a property with a setter implemented is allowed.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **test_migrations_run_before/0003_third.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_run_before/0003_third.py`
+- **Migration** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_run_before/0003_third.py`
+- **This is a wee bit crazy, but it's just to show that run_before works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_run_before/0003_third.py`
 
 ## Relationships
 
-- [Community 647](Community_647.md) (1 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_run_before/0003_third.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

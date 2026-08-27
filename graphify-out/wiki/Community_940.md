@@ -1,31 +1,29 @@
 # Community 940
 
-> 6 nodes · cohesion 0.53
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **empty/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **empty/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **EmptyModelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty model tests These test that things behave sensibly for the rare corner-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
+- **ExtraWhere** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.add_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add data to the various extra_* attributes for user-created additions to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

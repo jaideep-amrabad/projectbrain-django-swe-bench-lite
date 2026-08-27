@@ -1,29 +1,36 @@
 # Community 789
 
-> 7 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **GenericIPAddressFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
-- **.test_generic_ipaddress_as_generic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
-- **.test_generic_ipaddress_as_generic_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
-- **.test_generic_ipaddress_as_ipv4_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
-- **.test_generic_ipaddress_as_ipv6_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
-- **.test_generic_ipaddress_invalid_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
-- **.test_generic_ipaddress_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **ListDisplayEditableTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_list_display_first_item_in_list_editable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_list_display_first_item_in_list_editable_no_list_display_links()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_list_display_first_item_same_as_list_editable_first_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_list_display_first_item_same_as_list_editable_no_list_display_links()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_list_display_links_is_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_both_list_editable_and_list_display_links()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **list_display and list_editable can contain the same values when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **The first item in list_display can be the same as the first in list_editable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **The first item in list_display can be in list_editable as long as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **The first item in list_display cannot be the same as the first item in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **The first item in list_display cannot be in list_editable if list_display_links…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 63](Community_63.md) (8 shared connections)
+- [Community 149](Community_149.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

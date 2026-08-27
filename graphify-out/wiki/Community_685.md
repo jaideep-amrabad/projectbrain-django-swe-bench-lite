@@ -1,43 +1,52 @@
 # Community 685
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return a dict containing the year, month, and day of the current value. Use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return a value as it should appear when rendered in a template.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Build an attribute dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Given a dictionary of data and this widget's name, return the value of this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return the HTML ID attribute of this Widget for use by a <label>, given the ID…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **FieldError** (64 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **SQLInsertCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.build_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.assemble_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.field_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.prepare_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.try_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.pre_save_val()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.add_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Some kind of problem with a model field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **Take a field and a value intended to be saved on that field, and return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Prepare a value to be used in a query by resolving it if it is an expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Get the given field's value off the given obj. pre_save() is used for things…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Take a sequence of N fields and a sequence of M rows of values, and generate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Try to extract transforms and lookup from given lhs. The lhs value is something…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Helper method for build_lookup(). Try to fetch and initialize a transform for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add items from the 'ordering' sequence to the query's "order by" clause. These…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 717](Community_717.md) (3 shared connections)
-- [Community 149](Community_149.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 296](Community_296.md) (1 shared connections)
-- [Community 587](Community_587.md) (1 shared connections)
+- [Community 150](Community_150.md) (7 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 168](Community_168.md) (6 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
+- [Community 257](Community_257.md) (2 shared connections)
+- [Community 578](Community_578.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 534](Community_534.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 89 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

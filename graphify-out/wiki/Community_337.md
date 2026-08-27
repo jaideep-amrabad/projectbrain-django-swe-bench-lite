@@ -1,66 +1,60 @@
 # Community 337
 
-> 81 nodes · cohesion 0.03
+> 67 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Transform** (17 connections)
-- **Cot** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Radians** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ACos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ATan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Ceil** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Sin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Sqrt** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Abs** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Floor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Round** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Sign** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **AbsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- **ACosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **ATanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
-- **CeilTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **CotTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **FloorTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- **RadiansTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **RoundTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **SignTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
-- **SinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- **SqrtTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sqrt.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- *... and 56 more nodes in this community*
+- **Field** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **CharField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **IntegerField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **BooleanField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **DecimalField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.run_validators()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **FloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **GenericIPAddressField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **URLField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **UUIDField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **EmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.get_bound_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (61 shared connections)
-- [Community 126](Community_126.md) (11 shared connections)
-- [Community 902](Community_902.md) (1 shared connections)
-- [Community 903](Community_903.md) (1 shared connections)
-- [Community 868](Community_868.md) (1 shared connections)
-- [Community 904](Community_904.md) (1 shared connections)
-- [Community 917](Community_917.md) (1 shared connections)
-- [Community 918](Community_918.md) (1 shared connections)
+- [Community 0](Community_0.md) (25 shared connections)
+- [Community 5](Community_5.md) (10 shared connections)
+- [Community 576](Community_576.md) (6 shared connections)
+- [Community 134](Community_134.md) (4 shared connections)
+- [Community 139](Community_139.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 308](Community_308.md) (3 shared connections)
+- [Community 670](Community_670.md) (2 shared connections)
+- [Community 923](Community_923.md) (2 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 265](Community_265.md) (2 shared connections)
+- [Community 941](Community_941.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sqrt.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 191 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 152 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

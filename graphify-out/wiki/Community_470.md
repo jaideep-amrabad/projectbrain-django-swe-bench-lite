@@ -1,58 +1,50 @@
 # Community 470
 
-> 21 nodes · cohesion 0.13
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **LiveServerTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **classproperty** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **test_liveserverthread.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **ClassPropertyTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **LiveServerThreadTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **._create_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._tearDownClassInternal()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.test_getter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.test_override_getter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **Do basically the same as TransactionTestCase but also launch a live HTTP server…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **distinct_on_fields/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **DistinctOnTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **distinct_on_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Celebrity** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Staff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **StaffTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Fan** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.test_basic_distinct_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_not_implemented_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_on_get_ordering_preserved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_on_in_ordered_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **Ordering shouldn't be cleared when distinct on fields are specified. refs #25081** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **QuerySet.distinct('field', ...) works** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 11](Community_11.md) (6 shared connections)
-- [Community 321](Community_321.md) (3 shared connections)
-- [Community 530](Community_530.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 314](Community_314.md) (2 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
-- [Community 212](Community_212.md) (1 shared connections)
-- [Community 941](Community_941.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 130](Community_130.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 205](Community_205.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 38 (86%)
+- INFERRED: 6 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

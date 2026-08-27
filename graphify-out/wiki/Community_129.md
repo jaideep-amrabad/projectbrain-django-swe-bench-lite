@@ -1,59 +1,64 @@
 # Community 129
 
-> 25 nodes · cohesion 0.14
+> 74 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **renderers.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **test_renderers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplates** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **TemplatesSetting** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **Jinja2Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.test_installed_apps_template_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.engine()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load Django templates from the built-in widget templates in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load Jinja2 templates from the built-in widget templates in django/forms/jinja2…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load templates using template.loader.get_template() which is configured based…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **skipIf** (1 connections)
-- **Can find a custom template in INSTALLED_APPS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **PostGISOperations** (38 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **FakePostGISOperations** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **TestPostGISVersionCheck** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **DatabaseWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **PostGISGeometryColumns** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **PostGISSpatialRefSys** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **._get_postgis_func()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **PostGISIntrospection** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **DatabaseFeatures** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- **postgis/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **.spatial_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **ST_Polygon** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **.postgis_lib_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_proj_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.geo_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **._normalize_distance_lookup_arg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.parse_raster()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.proj_version_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **FakeConnection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 726](Community_726.md) (4 shared connections)
-- [Community 330](Community_330.md) (3 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 180](Community_180.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 633](Community_633.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
+- [Community 14](Community_14.md) (18 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 631](Community_631.md) (2 shared connections)
+- [Community 94](Community_94.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 427](Community_427.md) (2 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 253](Community_253.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
+- [Community 158](Community_158.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (88%)
-- INFERRED: 9 (12%)
+- EXTRACTED: 122 (91%)
+- INFERRED: 12 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

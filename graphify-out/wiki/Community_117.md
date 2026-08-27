@@ -1,75 +1,48 @@
 # Community 117
 
-> 113 nodes · cohesion 0.02
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **django/db/backends/mysql/base.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **DatabaseWrapper** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **DatabaseFeatures** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **BaseDatabaseClient** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **DatabaseCreation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **MySQLGISSchemaEditor** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **DatabaseCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **DatabaseClient** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- **DatabaseFeatures** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- **CursorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **mysql/creation.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- **postgresql/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **test_postgresql.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **MySQLIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **base/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **mysql/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- **mysql/test_features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **test_oracle.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **OracleDbshellTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **._run_dbshell()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- *... and 88 more nodes in this community*
+- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_select_related_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_update_query_counts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_exclude_inherited_on_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_filter_inherited_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_filter_inherited_on_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_filter_on_parent_returns_object_of_parent_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_inherited_does_not_exist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_inherited_multiple_objects_returned_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_parent_cache_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_parent_child_one_to_one_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_parent_child_one_to_one_link_on_nonrelated_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_parent_fields_available_for_filtering_in_child_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_related_objects_for_inherited_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_select_related_works_on_parent_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_update_inherited_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_update_works_on_parent_and_child_models_at_once()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_values_works_on_parent_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **#23370 - Should be able to defer child fields when using select_related() from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Update queries do not generate unnecessary queries (#18304).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (19 shared connections)
-- [Community 19](Community_19.md) (12 shared connections)
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 42](Community_42.md) (8 shared connections)
-- [Community 100](Community_100.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 691](Community_691.md) (3 shared connections)
-- [Community 153](Community_153.md) (3 shared connections)
-- [Community 485](Community_485.md) (3 shared connections)
-- [Community 627](Community_627.md) (2 shared connections)
+- [Community 919](Community_919.md) (3 shared connections)
+- [Community 815](Community_815.md) (2 shared connections)
+- [Community 917](Community_917.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 947](Community_947.md) (1 shared connections)
+- [Community 782](Community_782.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 225 (91%)
-- INFERRED: 23 (9%)
+- EXTRACTED: 22 (73%)
+- INFERRED: 8 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

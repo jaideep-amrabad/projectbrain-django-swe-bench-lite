@@ -1,48 +1,60 @@
 # Community 115
 
-> 21 nodes · cohesion 0.10
+> 67 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_select_related_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_query_counts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_exclude_inherited_on_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_inherited_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_inherited_on_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_on_parent_returns_object_of_parent_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_inherited_does_not_exist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_inherited_multiple_objects_returned_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_cache_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_child_one_to_one_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_child_one_to_one_link_on_nonrelated_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_fields_available_for_filtering_in_child_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_related_objects_for_inherited_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_select_related_works_on_parent_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_inherited_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_works_on_parent_and_child_models_at_once()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_values_works_on_parent_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **#23370 - Should be able to defer child fields when using select_related() from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Update queries do not generate unnecessary queries (#18304).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **TestQuerying** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **JSONField** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **KeyTransform** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **TestChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **JsonAdapter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **KeyTextTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.test_key_transform_expression()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.test_nested_key_transform_expression()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.test_ordering_grouping_by_key_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.test_invalid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.test_valid_default_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.test_key_sql_injection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.test_nested_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 927](Community_927.md) (3 shared connections)
-- [Community 810](Community_810.md) (2 shared connections)
-- [Community 926](Community_926.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 957](Community_957.md) (1 shared connections)
-- [Community 780](Community_780.md) (1 shared connections)
+- [Community 57](Community_57.md) (11 shared connections)
+- [Community 447](Community_447.md) (7 shared connections)
+- [Community 25](Community_25.md) (5 shared connections)
+- [Community 196](Community_196.md) (3 shared connections)
+- [Community 540](Community_540.md) (2 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 544](Community_544.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (73%)
-- INFERRED: 8 (27%)
+- EXTRACTED: 107 (91%)
+- INFERRED: 11 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

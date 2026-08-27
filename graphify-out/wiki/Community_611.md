@@ -1,37 +1,46 @@
 # Community 611
 
-> 14 nodes · cohesion 0.18
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **MessageTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **DummyObj** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_not_equal_to_non_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_no_hint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_with_given_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_equal_to_same_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_equal_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_not_equal_to_different_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_manager_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_model_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_no_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **dictsort()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **dictsortreversed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **_property_resolver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **.test_dictsort_complex_sorting_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_invalid_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_invalid_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_sort_list_of_tuple_like_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_sort_list_of_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **.test_sort_list_of_tuple_like_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **.test_sort_list_of_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **When arg is convertible to float, behave like operator.itemgetter(arg)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Given a list of dicts, return that list sorted by the property given in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Given a list of dicts, return that list sorted in reverse order by the property…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Since dictsort uses template.Variable under the hood, it can sort on keys like…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **If dictsort is passed something other than a list of dictionaries, fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **If dictsortreversed is passed something other than a list of dictionaries, fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 38 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

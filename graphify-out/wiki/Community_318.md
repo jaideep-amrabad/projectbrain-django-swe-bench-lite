@@ -1,51 +1,54 @@
 # Community 318
 
-> 45 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **archive.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **BaseArchive** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **TestArchive** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **test_archive.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.test_extract_file_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- *... and 20 more nodes in this community*
+- **TestConnectionOnCommit** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.assertDone()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.do()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **ForcedError** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **transaction_hooks/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.notify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_no_hooks_run_from_failed_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **transaction_hooks/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
+- **Thing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
+- **.assertNotified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_delays_execution_until_after_transaction_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_discards_hooks_from_rolled_back_savepoint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_does_not_execute_if_transaction_rolled_back()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_error_in_hook_doesnt_prevent_clearing_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_executes_only_after_final_transaction_committed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_after_rollback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_on_reconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_inner_savepoint_does_not_affect_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_inner_savepoint_rolled_back_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_no_savepoints_atomic_merged_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_db_query_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_executes_immediately_if_no_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hook_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_after_successful_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_runs_hooks_in_order_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 301](Community_301.md) (1 shared connections)
+- [Community 155](Community_155.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 88 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

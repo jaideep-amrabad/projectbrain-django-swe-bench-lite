@@ -1,49 +1,39 @@
 # Community 553
 
-> 17 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Settings** (16 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_timeout()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **TestListSettings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_use_both_settings_init_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_settings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_tuple_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.is_overridden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.test_access_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **The token is valid after n days, but no greater.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **Make sure settings that should be lists or tuples throw ImproperlyConfigured if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ContentTypeManager** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._add_to_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._get_from_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._get_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_by_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.test_cache_not_shared_between_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Lookup a ContentType by ID. Use the same shared cache as get_for_model (though…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Clear out the content-type cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Insert a ContentType into the cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Return the ContentType object for a given model, creating the ContentType if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Given *models, return a dictionary mapping {model: content_type}.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
 
 ## Relationships
 
-- [Community 428](Community_428.md) (4 shared connections)
-- [Community 439](Community_439.md) (4 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 298](Community_298.md) (2 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 89](Community_89.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,59 +1,62 @@
 # Community 155
 
-> 62 nodes · cohesion 0.04
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SpatialRefSysMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **oracle/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **spatialite/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **backends/base/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **OracleGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleSpatialRefSys** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **SpatialiteGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **SpatialiteSpatialRefSys** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.angular_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.angular_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.datum()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.ellipsoid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.geographic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.get_spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.get_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.linear_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.linear_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.local()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.projected()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- *... and 37 more nodes in this community*
+- **db/transaction.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **force_insert_update/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Counter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **force_insert_update/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **InheritanceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **ProxyCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **InheritedCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **SubCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **ForceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **WithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **set_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **set_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.test_force_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 125](Community_125.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
-- [Community 558](Community_558.md) (1 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (22 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 185](Community_185.md) (3 shared connections)
+- [Community 318](Community_318.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 136 (92%)
+- INFERRED: 12 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

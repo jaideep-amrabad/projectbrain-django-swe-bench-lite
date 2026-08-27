@@ -1,39 +1,57 @@
 # Community 580
 
-> 15 nodes · cohesion 0.19
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._is_limited_data_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._set_field_new_type_null_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._column_default_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._delete_composed_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._rename_field_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.sql_delete_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._supports_limited_data_type_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **MySQL can remove an implicit FK index on a field when that field is covered by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **Keep the null property of the old field. If it has changed, it will be handled…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **many_to_one/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **many_to_one/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **MultipleObjectsReturned** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **City** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **District** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Relation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Third** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Record** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Student** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_relation_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **The query returned multiple objects when only one was expected.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Many-to-one relationships To define a many-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Second** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 146](Community_146.md) (11 shared connections)
+- [Community 875](Community_875.md) (10 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 848](Community_848.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
+- [Community 685](Community_685.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 63 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

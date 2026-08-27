@@ -1,61 +1,49 @@
 # Community 552
 
-> 29 nodes · cohesion 0.11
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Cast** (46 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **CastTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_expression_wrapped_with_parentheses_on_postgresql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_to_char_field_with_max_length()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_aggregate()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_cast_from_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_to_decimal_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_postgresql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_cast_from_db_date_to_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_date_group_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_python_to_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_python_to_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_to_char_field_without_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_to_text_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **Coerce an expression to a new field type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- *... and 4 more nodes in this community*
+- **Settings** (16 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_timeout()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **TestListSettings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_use_both_settings_init_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_settings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_tuple_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.is_overridden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.test_access_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **The token is valid after n days, but no greater.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **Make sure settings that should be lists or tuples throw ImproperlyConfigured if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 558](Community_558.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 103](Community_103.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 335](Community_335.md) (2 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
+- [Community 426](Community_426.md) (4 shared connections)
+- [Community 435](Community_435.md) (4 shared connections)
+- [Community 800](Community_800.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 91](Community_91.md) (2 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 448](Community_448.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

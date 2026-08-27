@@ -1,65 +1,51 @@
 # Community 198
 
-> 29 nodes · cohesion 0.11
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **test/signals.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **receiver()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **set_urlconf()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **reset_format_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **root_urlconf_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **reset_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **clear_routers_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **localize_settings_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **reset_template_engines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **user_model_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **reset_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **auth_password_validators_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **clear_cache_handlers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **clear_serializers_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **complex_setting_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **file_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **language_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **static_finders_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **static_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **update_connections_time_zone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **update_installed_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **.test_receiver_signal_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_receiver_single_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **Reset the URLconf after each request is finished.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- *... and 4 more nodes in this community*
+- **DeferTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.assert_delayed()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **defer/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **TestDefer2** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **BigChildDeferTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **defer/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Primary** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **RefreshPrimaryProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **BigChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **ChildProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Secondary** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **AssertionMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **.test_defer_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_subclass_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_only_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_only_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_baseclass_when_subclass_has_no_added_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_foreign_keys_are_deferred_and_not_traversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_none_to_clear_deferred_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 574](Community_574.md) (7 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 36](Community_36.md) (5 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 308](Community_308.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 713](Community_713.md) (2 shared connections)
-- [Community 211](Community_211.md) (2 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 90 (89%)
+- INFERRED: 11 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

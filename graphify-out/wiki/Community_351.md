@@ -1,48 +1,60 @@
 # Community 351
 
-> 32 nodes · cohesion 0.11
+> 95 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **WidthRatioTagTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **setup** (26 connections)
-- **.test_widthratio06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio11()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio15()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_typeerror_as_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio12a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio12b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio13a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio13b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio14a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio14b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- *... and 7 more nodes in this community*
+- **.login()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **AuthViewsTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LogoutTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.confirm_logged_out()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **ChangePasswordTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginRedirectAuthenticatedUser** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginRedirectUrlTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **logout_then_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.assertFormError()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.assertLoginRedirectURLEqual()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LogoutThenLoginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default_logout_then_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginSuccessURLAllowedHostsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check_https()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_then_login_with_custom_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **AuthViewNamedURLTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_custom_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_named_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_next_page_specified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- *... and 70 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 36](Community_36.md) (12 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 33](Community_33.md) (7 shared connections)
+- [Community 296](Community_296.md) (4 shared connections)
+- [Community 752](Community_752.md) (3 shared connections)
+- [Community 272](Community_272.md) (3 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 338](Community_338.md) (2 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 199 (97%)
+- INFERRED: 7 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

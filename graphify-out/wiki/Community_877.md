@@ -4,25 +4,23 @@
 
 ## Key Concepts
 
-- **DerivedM** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BaseM** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **DirectorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
 
 ## Relationships
 
-- [Community 461](Community_461.md) (2 shared connections)
-- [Community 618](Community_618.md) (1 shared connections)
-- [Community 332](Community_332.md) (1 shared connections)
+- [Community 488](Community_488.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

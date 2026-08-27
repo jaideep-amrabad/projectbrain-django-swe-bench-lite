@@ -1,50 +1,60 @@
 # Community 67
 
-> 114 nodes · cohesion 0.03
+> 113 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **IfTagTests** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **setup** (114 connections)
-- **.test_else_if_tag_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_not_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_not_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_not_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_not_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag_and01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- *... and 89 more nodes in this community*
+- **admin_filters/tests.py** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **ListFiltersTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdmin** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **select_by()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeListFilterWithTitleAndParameter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **EmployeeAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **BookAdminRelatedOnlyFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdminWithCustomQueryset** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DepartmentListFilterLookupWithNonStringValue** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **CustomUserAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_datefieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_datefieldlistfilter_with_time_zone_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_parameter_ends_with__in__or__isnull()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.verify_booleanfieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdmin2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdminWithTupleBooleanFilter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdminWithUnderscoreLookupAndTuple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookmarkAdminGenericRelation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeFilterBookAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- *... and 88 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 797](Community_797.md) (2 shared connections)
-- [Community 1560](Community_1560.md) (2 shared connections)
+- [Community 109](Community_109.md) (16 shared connections)
+- [Community 89](Community_89.md) (6 shared connections)
+- [Community 709](Community_709.md) (4 shared connections)
+- [Community 93](Community_93.md) (3 shared connections)
+- [Community 254](Community_254.md) (3 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 296](Community_296.md) (2 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
+- [Community 777](Community_777.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 230 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 218 (96%)
+- INFERRED: 8 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **BasicFormTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_late_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **A form can be marked invalid in the form_valid() method (#25548).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **ObjectDoesNotExistDetail** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **CustomMultipleObjectMixinView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 421](Community_421.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

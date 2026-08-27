@@ -1,33 +1,25 @@
 # Community 890
 
-> 8 nodes · cohesion 0.36
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **EscapeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **setup** (4 connections)
-- **.test_escape01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **The "escape" filter works the same whether autoescape is on or off, but it has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **objectType()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **registerLoggingCallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **registerLoggingCallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 312](Community_312.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

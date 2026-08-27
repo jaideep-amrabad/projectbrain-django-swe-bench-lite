@@ -1,37 +1,44 @@
 # Community 643
 
-> 13 nodes · cohesion 0.15
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **This field will allow querying and fetching the currently active translation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **The set of articletranslation should not set any local fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **BCryptSHA256PasswordHasher** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Argon2PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **._load_library()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **._decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **BCryptPasswordHasher** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Secure password hashing using the argon2 algorithm. This is the winner of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Split an encoded hash and return: ( algorithm, variety, version, time_cost,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Secure password hashing using the bcrypt algorithm (recommended) This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Secure password hashing using the bcrypt algorithm This is considered by many…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 
 ## Relationships
 
-- [Community 567](Community_567.md) (4 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 373](Community_373.md) (1 shared connections)
+- [Community 53](Community_53.md) (9 shared connections)
+- [Community 573](Community_573.md) (3 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

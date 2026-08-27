@@ -1,58 +1,59 @@
 # Community 417
 
-> 59 nodes · cohesion 0.07
+> 26 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CsrfViewMiddlewareTestMixin** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **token_view()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._get_GET_no_csrf_cookie_request()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfViewMiddlewareTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfViewMiddlewareUseSessionsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **ensure_csrf_cookie_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._check_token_present()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_GET_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_for_exempt_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_for_requires_csrf_token_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_empty_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_no_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_POST_no_csrf_cookie_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_csrf_cookie()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_new_csrf_cookie()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bare_secret_accepted_and_replaced()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_new_csrf_cookie()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_cookie_not_reset_on_accepted_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_ensures_csrf_cookie_no_logging()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_malformed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_no_csrf_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_response_get_token_not_used()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_put_and_delete_allowed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_age_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- *... and 34 more nodes in this community*
+- **test_unique.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **GetUniqueCheckTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **PerformUniqueChecksTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **FlexibleDatePost** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueErrorsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_with_nullable_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_is_considered_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_fields_get_collected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_exclusion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_gets_picked_up()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_together_gets_picked_up_and_converted_to_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_not_performed_when_adding_and_pk_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_not_performed_when_not_adding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_performed_when_adding_and_pk_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **unique_for_date/year/month checks shouldn't trigger when the associated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 479](Community_479.md) (29 shared connections)
-- [Community 32](Community_32.md) (12 shared connections)
-- [Community 847](Community_847.md) (4 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 180](Community_180.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 323](Community_323.md) (8 shared connections)
+- [Community 490](Community_490.md) (5 shared connections)
+- [Community 62](Community_62.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 173](Community_173.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Audit Trail
 
-- EXTRACTED: 148 (87%)
-- INFERRED: 23 (13%)
+- EXTRACTED: 56 (85%)
+- INFERRED: 10 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

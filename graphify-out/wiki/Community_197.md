@@ -1,60 +1,61 @@
 # Community 197
 
-> 54 nodes · cohesion 0.05
+> 53 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **OrderingTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **ordering/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **ordering/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.assertQuerysetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_extra_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_extra_ordering_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_constant_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_constant_value_without_output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_fk_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- *... and 29 more nodes in this community*
+- **Index** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **indexes/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesPostgreSQLTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **PartialIndexTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **indexes/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **SchemaIndexesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **SchemaIndexesMySQLTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **PartialIndexConditionIgnoredTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesNotPostgreSQLTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **IndexedArticle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **IndexTogetherSingleList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_no_index_for_foreignkey()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **._get_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **ArticleTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **CurrentTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **IndexedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **.test_condition_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_boolean_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_integer_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_is_null_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_partial_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (8 shared connections)
-- [Community 254](Community_254.md) (5 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 338](Community_338.md) (4 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 335](Community_335.md) (3 shared connections)
-- [Community 258](Community_258.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 64](Community_64.md) (13 shared connections)
+- [Community 16](Community_16.md) (9 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 185](Community_185.md) (6 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 94](Community_94.md) (3 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 193](Community_193.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 232](Community_232.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (91%)
-- INFERRED: 10 (9%)
+- EXTRACTED: 107 (77%)
+- INFERRED: 32 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

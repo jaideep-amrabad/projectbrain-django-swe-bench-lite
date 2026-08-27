@@ -1,36 +1,39 @@
 # Community 642
 
-> 13 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **RenameMethodsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure the correct warnings are raised when a class that didn't rename `old`…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_class_definition_warnings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_deprecated_subclass_renamed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_deprecated_subclass_renamed_and_mixins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_get_new_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_get_old_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_renamed_subclass_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure the correct warnings are raised when a subclass inherit from a class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Tests the `RenameMethodsBase` type introduced to rename `get_query_set` to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure a warning is raised upon class definition to suggest renaming the faulty…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure `old` complains and not `new` when only `new` is defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure `old` complains when only `old` is defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **ArticleAdmin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_override_change_form_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_override_change_list_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **CustomArticleAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.changelist_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.save_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.changelist_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.modeladmin_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.order_by_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Tests various hooks for using custom templates and contexts.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **admin_modify template tags follow the standard search pattern…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **admin_list template tags follow the standard search pattern…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 93](Community_93.md) (4 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,31 @@
 # Community 865
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **AutoescapeStringfilterTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **UnsafeClass** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **setup** (4 connections)
-- **.test_autoescape_stringfilter01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **Filters decorated with stringfilter still respect is_safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.deferred_to_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **add_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **is_reverse_o2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_loaded_field_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **If any fields are marked to be deferred, return a dictionary mapping models to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add "value" to the set of values for "key", whether or not "key" already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Check if the given field is reverse-o2o. The field is expected to be some sort…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Convert the self.deferred_loading data structure to an alternate data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 407](Community_407.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

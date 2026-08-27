@@ -1,33 +1,24 @@
 # Community 926
 
-> 7 nodes · cohesion 0.33
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Restaurant** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Rating** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **NamedURL** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **rpm-install.sh** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
+- **rpm-install.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
 
 ## Relationships
 
-- [Community 780](Community_780.md) (6 shared connections)
-- [Community 810](Community_810.md) (4 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 732](Community_732.md) (2 shared connections)
-- [Community 927](Community_927.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (83%)
-- INFERRED: 4 (17%)
+- EXTRACTED: 1 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

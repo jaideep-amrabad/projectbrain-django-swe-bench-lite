@@ -1,41 +1,48 @@
 # Community 446
 
-> 17 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **JsonSerializerTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **Invalid many-to-many keys should throw a helpful error message. This tests the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **If there is an invalid field value, the error message should contain the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **Invalid foreign keys with a natural key should throw a helpful error message,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **Invalid many-to-many keys should throw a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **If there is an invalid primary key, the error message should contain the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **CaseInsensitiveMapping** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **Mapping** (1 connections)
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Mapping allowing case-insensitive key lookups. Original case of keys is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.test_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_del()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Relationships
 
-- [Community 187](Community_187.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 945](Community_945.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
+- [Community 402](Community_402.md) (5 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 280](Community_280.md) (2 shared connections)
+- [Community 747](Community_747.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

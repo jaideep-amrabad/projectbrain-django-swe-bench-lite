@@ -1,46 +1,38 @@
 # Community 607
 
-> 20 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **dictsort()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **dictsortreversed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **_property_resolver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **.test_dictsort_complex_sorting_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **.test_invalid_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **.test_invalid_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **.test_sort_list_of_tuple_like_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **.test_sort_list_of_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **.test_sort_list_of_tuple_like_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **.test_sort_list_of_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **When arg is convertible to float, behave like operator.itemgetter(arg)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **Given a list of dicts, return that list sorted by the property given in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **Given a list of dicts, return that list sorted in reverse order by the property…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **Since dictsort uses template.Variable under the hood, it can sort on keys like…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **If dictsort is passed something other than a list of dictionaries, fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **If dictsortreversed is passed something other than a list of dictionaries, fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **LineString** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._listarr()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the X coordinates in a list.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **LinearRing** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the Point at the given index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of points in the LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the tuple representation of this LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Internal routine that returns a sequence (list) corresponding with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 64](Community_64.md) (3 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,31 +1,34 @@
 # Community 919
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.get_template()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- **.render_to_string()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- **.select_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- **.find_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- **Return a compiled Template object for the given template name, handling…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- **Render the template specified by template_name with the given context. For use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- **Given a list of template names, return the first that can be loaded.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **Place** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Supplier** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (4 shared connections)
-- [Community 180](Community_180.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 815](Community_815.md) (3 shared connections)
+- [Community 782](Community_782.md) (3 shared connections)
+- [Community 117](Community_117.md) (3 shared connections)
+- [Community 723](Community_723.md) (3 shared connections)
+- [Community 917](Community_917.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (75%)
+- INFERRED: 5 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

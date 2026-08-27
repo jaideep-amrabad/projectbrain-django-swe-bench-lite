@@ -1,62 +1,65 @@
 # Community 107
 
-> 74 nodes · cohesion 0.03
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ModelAdmin** (149 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **get_content_type_for_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_changelist_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_changelist_formset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.log_change()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.get_sortable_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **._create_formsets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_action()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **._get_base_actions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_formsets_with_inlines()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_list_display()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_search_results()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_urls()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.log_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.log_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.test_log_actions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.get_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.delete_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_changeform_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_changelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_deleted_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **._get_edited_object_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_inline_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- *... and 49 more nodes in this community*
+- **staticfiles/storage.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **LazyObject** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **staticfiles/utils.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **get_storage_class()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **staticfiles_tests/test_utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
+- **check_settings()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **GetStorageClassTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **matches_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **._setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **DefaultAdminSite** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **ConfiguredStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **get_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **DefaultStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.__reduce__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **unpickle_lazyobject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.test_get_filesystem_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_invalid_storage_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_nonexistent_storage_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_nonexistent_storage_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **CheckSettingsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
+- **.test_media_url_in_static_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
+- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 74](Community_74.md) (54 shared connections)
-- [Community 60](Community_60.md) (22 shared connections)
-- [Community 65](Community_65.md) (16 shared connections)
-- [Community 144](Community_144.md) (15 shared connections)
-- [Community 282](Community_282.md) (7 shared connections)
-- [Community 93](Community_93.md) (6 shared connections)
-- [Community 277](Community_277.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 292](Community_292.md) (4 shared connections)
-- [Community 295](Community_295.md) (4 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 136](Community_136.md) (6 shared connections)
+- [Community 538](Community_538.md) (6 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 143](Community_143.md) (3 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 195 (82%)
-- INFERRED: 42 (18%)
+- EXTRACTED: 107 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

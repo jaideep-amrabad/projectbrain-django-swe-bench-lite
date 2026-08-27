@@ -1,31 +1,32 @@
 # Community 779
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **.register()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.unregister()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **AlreadyRegistered** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **NotRegistered** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Exception** (2 connections)
-- **Unregister the given model(s). If a model isn't already registered, raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Register the given model(s) with the given admin class. The model(s) should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **BaseReloaderTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_wait_for_apps_ready_checks_for_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_wait_for_apps_ready_without_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_files_with_recursive_glob()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_run_loop_catches_stopiteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_run_loop_stop_and_return()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_dir_with_unresolvable_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_with_glob()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 62](Community_62.md) (3 shared connections)
+- [Community 473](Community_473.md) (2 shared connections)
+- [Community 513](Community_513.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

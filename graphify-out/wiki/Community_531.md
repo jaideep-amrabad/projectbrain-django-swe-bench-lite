@@ -1,64 +1,59 @@
 # Community 531
 
-> 42 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **core/serializers/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **test_natural.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **deserialize()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **serialize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **SerializerDoesNotExist** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **_load_serializers()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **register_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **BadSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **get_serializer()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **get_deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **unregister_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **natural_pk_mti_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **pk_with_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **get_serializer_formats()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **serializerTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **forward_ref_fk_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_fk_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_m2m_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_m2m_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_key_serializer_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_key_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **Deserializer** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **get_public_serializer_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- *... and 17 more nodes in this community*
+- **CheckConstraint** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **BaseConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **UniqueConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.test_remove_field_check_does_not_remove_meta_constraints()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **._get_condition_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **BaseConstraintTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **._get_check_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.remove_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.test_constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_remove_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.constraint_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.create_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.remove_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 187](Community_187.md) (8 shared connections)
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 474](Community_474.md) (3 shared connections)
-- [Community 121](Community_121.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 451](Community_451.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 276](Community_276.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 16](Community_16.md) (6 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 305](Community_305.md) (5 shared connections)
+- [Community 372](Community_372.md) (2 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 110 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 63 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

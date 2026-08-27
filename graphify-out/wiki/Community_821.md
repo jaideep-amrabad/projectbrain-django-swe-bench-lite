@@ -1,46 +1,31 @@
 # Community 821
 
-> 12 nodes · cohesion 0.17
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **require_jinja2()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **RenderTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_template_engine()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_render_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **Decorator to enable a Jinja2 template engine in addition to the regular Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **A template view may provide a template engine.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_multiple_templates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **Issue** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Improvement** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Bug** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyImprovement** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A model that has relation to a proxy model or to a proxy of proxy model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 250](Community_250.md) (2 shared connections)
-- [Community 404](Community_404.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 434](Community_434.md) (1 shared connections)
-- [Community 283](Community_283.md) (1 shared connections)
-- [Community 663](Community_663.md) (1 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
+- [Community 598](Community_598.md) (5 shared connections)
+- [Community 504](Community_504.md) (5 shared connections)
+- [Community 321](Community_321.md) (4 shared connections)
+- [Community 880](Community_880.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 15 (75%)
+- INFERRED: 5 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

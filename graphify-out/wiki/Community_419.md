@@ -1,59 +1,56 @@
 # Community 419
 
-> 26 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **test_unique.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **GetUniqueCheckTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **PerformUniqueChecksTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **FlexibleDatePost** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueErrorsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_for_date_with_nullable_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_primary_key_is_considered_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_fields_get_collected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_for_date_exclusion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_for_date_gets_picked_up()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_together_gets_picked_up_and_converted_to_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_primary_key_unique_check_not_performed_when_adding_and_pk_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_primary_key_unique_check_not_performed_when_not_adding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_primary_key_unique_check_performed_when_adding_and_pk_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **unique_for_date/year/month checks shouldn't trigger when the associated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- *... and 1 more nodes in this community*
+- **.get_traceback_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **FakeSMTPServer** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTPBackendStoppedServerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTPBackendTestsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_traceback_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Return a dictionary containing traceback information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return HTML version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return plain text version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.flush_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.process_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Asyncore SMTP server wrapped into a thread. Based on DummyFTPServer from:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **These tests require a separate class, because the FakeSMTPServer is shut down…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 322](Community_322.md) (8 shared connections)
-- [Community 491](Community_491.md) (5 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 186](Community_186.md) (4 shared connections)
+- [Community 119](Community_119.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (85%)
-- INFERRED: 10 (15%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

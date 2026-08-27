@@ -1,39 +1,33 @@
 # Community 774
 
-> 12 nodes · cohesion 0.17
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **InvalidCreateArgumentsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Thing** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **.capitalized_name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **setter** (1 connections)
-- **.name_in_all_caps()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **.test_get_or_create_with_invalid_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_invalid_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_multiple_invalid_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_property_attribute_without_setter_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_property_attribute_without_setter_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_invalid_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_invalid_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **EscapeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **setup** (4 connections)
+- **.test_escape01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **.test_escape02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **.test_escape_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **.test_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **.test_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **The "escape" filter works the same whether autoescape is on or off, but it has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
 
 ## Relationships
 
-- [Community 106](Community_106.md) (3 shared connections)
-- [Community 647](Community_647.md) (1 shared connections)
-- [Community 962](Community_962.md) (1 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (78%)
-- INFERRED: 4 (22%)
+- EXTRACTED: 15 (88%)
+- INFERRED: 2 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,44 @@
 # Community 707
 
-> 22 nodes · cohesion 0.10
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SimpleListFilter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **ListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **NotNinetiesListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.expected_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.has_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **Return True if some choices would be output for this filter.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **Return choices ready to be output in the template. `changelist` is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **Return the filtered queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **Return the list of parameter names that are expected from the request's query…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **Return the value (in string format) provided in the request's query string for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **Must be overridden to return a list of tuples (value, verbose value)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.expected_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.has_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **setup** (45 connections)
+- **.test_inheritance05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance25()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_duplicate_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Two-level with double quotes instead of single quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from local context with variable parent template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 65](Community_65.md) (4 shared connections)
-- [Community 93](Community_93.md) (2 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 255](Community_255.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 270](Community_270.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
+- [Community 737](Community_737.md) (15 shared connections)
+- [Community 904](Community_904.md) (2 shared connections)
+- [Community 905](Community_905.md) (2 shared connections)
+- [Community 989](Community_989.md) (1 shared connections)
+- [Community 990](Community_990.md) (1 shared connections)
+- [Community 991](Community_991.md) (1 shared connections)
+- [Community 992](Community_992.md) (1 shared connections)
+- [Community 993](Community_993.md) (1 shared connections)
+- [Community 994](Community_994.md) (1 shared connections)
+- [Community 995](Community_995.md) (1 shared connections)
+- [Community 996](Community_996.md) (1 shared connections)
+- [Community 997](Community_997.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 55 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

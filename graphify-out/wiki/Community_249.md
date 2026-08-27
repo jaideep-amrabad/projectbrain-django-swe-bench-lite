@@ -1,58 +1,62 @@
 # Community 249
 
-> 44 nodes · cohesion 0.11
+> 63 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **BulkCreateTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Country** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NoFields** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NullableFields** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_bulk_insert_nullable_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_explicit_batch_size_efficiency()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- *... and 19 more nodes in this community*
+- **Client** (39 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **FlatpageCSRFTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **RedirectCycleError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.logout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__call__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **conditional_content_removal()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **closing_iterator_wrapper()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.head()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.patch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.post()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.put()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **.store_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (17 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 335](Community_335.md) (2 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
+- [Community 36](Community_36.md) (9 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 272](Community_272.md) (3 shared connections)
+- [Community 88](Community_88.md) (3 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 100](Community_100.md) (3 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 180](Community_180.md) (2 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 616](Community_616.md) (2 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (92%)
-- INFERRED: 11 (8%)
+- EXTRACTED: 112 (93%)
+- INFERRED: 9 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

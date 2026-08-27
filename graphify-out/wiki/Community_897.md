@@ -4,24 +4,23 @@
 
 ## Key Concepts
 
-- **WorkerInlineAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Worker** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.view_on_site()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ModelWithStringPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

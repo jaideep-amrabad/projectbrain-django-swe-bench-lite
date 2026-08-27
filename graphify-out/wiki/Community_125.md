@@ -1,61 +1,63 @@
 # Community 125
 
-> 64 nodes · cohesion 0.04
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **PostGISOperations** (38 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **FakePostGISOperations** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **TestPostGISVersionCheck** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **PostGISGeometryColumns** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **PostGISSpatialRefSys** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **._get_postgis_func()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.spatial_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **ST_Polygon** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_lib_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_proj_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.geo_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **._normalize_distance_lookup_arg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.parse_raster()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.proj_version_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **FakeConnection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.convert_extent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.convert_extent3d()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.distance_expr_for_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- *... and 39 more nodes in this community*
+- **serializers/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **DeserializationError** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Deserializer()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **pyyaml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **DeserializedObject** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.save_deferred_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **deserialize_m2m_values()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **M2MDeserializationError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **build_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **_get_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **DjangoSafeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.WithData()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **deserialize_fk_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Exception** (3 connections)
+- **SerializationError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Something bad happened during serialization.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (13 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 100](Community_100.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 182](Community_182.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 325](Community_325.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 185](Community_185.md) (6 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 57](Community_57.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 224](Community_224.md) (3 shared connections)
+- [Community 530](Community_530.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 347](Community_347.md) (2 shared connections)
+- [Community 102](Community_102.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 341](Community_341.md) (2 shared connections)
+- [Community 239](Community_239.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (92%)
-- INFERRED: 9 (8%)
+- EXTRACTED: 96 (94%)
+- INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

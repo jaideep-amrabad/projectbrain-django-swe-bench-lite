@@ -1,74 +1,67 @@
 # Community 239
 
-> 145 nodes · cohesion 0.02
+> 71 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **http/__init__.py** (147 connections) — `raw/code/hyd-evaluation/django-django/django/http/__init__.py`
-- **http/response.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseBase** (37 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **StreamingHttpResponse** (32 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **httpwrappers/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **FileResponse** (27 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **redirects_tests/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **HttpResponsePermanentRedirect** (17 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseNotAllowed** (16 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **redirects/middleware.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/middleware.py`
-- **HttpResponseNotModified** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **parse_cookie()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
-- **CookieTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **HttpResponseSubclassesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **FileResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **responses/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **redirects/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/models.py`
-- **test_fileresponse.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **RedirectFallbackMiddleware** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/middleware.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **OSError** (6 connections)
-- **Redirect** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/models.py`
-- **DisallowedRedirect** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- *... and 120 more nodes in this community*
+- **contenttypes/fields.py** (56 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **ForeignObjectRel** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ObjectDoesNotExist** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **ManyToOneRel** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ManyToManyRel** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ReverseGenericManyToOneDescriptor** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **OneToOneRel** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **CustomForeignObjectRel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **GenericRel** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **DO_NOTHING()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **models/fields/mixins.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **create_generic_related_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.related_manager_cls()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **FeedDoesNotExist** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (36 shared connections)
-- [Community 66](Community_66.md) (28 shared connections)
-- [Community 8](Community_8.md) (22 shared connections)
-- [Community 1](Community_1.md) (19 shared connections)
-- [Community 15](Community_15.md) (18 shared connections)
-- [Community 45](Community_45.md) (16 shared connections)
-- [Community 208](Community_208.md) (15 shared connections)
-- [Community 217](Community_217.md) (13 shared connections)
-- [Community 41](Community_41.md) (12 shared connections)
-- [Community 35](Community_35.md) (10 shared connections)
-- [Community 180](Community_180.md) (9 shared connections)
-- [Community 185](Community_185.md) (8 shared connections)
+- [Community 14](Community_14.md) (16 shared connections)
+- [Community 20](Community_20.md) (11 shared connections)
+- [Community 16](Community_16.md) (5 shared connections)
+- [Community 120](Community_120.md) (5 shared connections)
+- [Community 89](Community_89.md) (4 shared connections)
+- [Community 59](Community_59.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 163](Community_163.md) (2 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
 - `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/http/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/cond_get_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 530 (98%)
-- INFERRED: 9 (2%)
+- EXTRACTED: 170 (94%)
+- INFERRED: 11 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

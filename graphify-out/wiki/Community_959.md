@@ -1,27 +1,24 @@
 # Community 959
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **CustomOptionsTestRunner** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **test_runner/runner.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **.run_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.test_displaying_more_than_one_blank_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **More than 1 empty form can be displayed using formset_factory's `extra`…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 220](Community_220.md) (2 shared connections)
-- [Community 374](Community_374.md) (1 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

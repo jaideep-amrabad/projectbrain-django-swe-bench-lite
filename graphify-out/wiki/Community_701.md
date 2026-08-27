@@ -1,39 +1,42 @@
 # Community 701
 
-> 11 nodes · cohesion 0.18
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **JoinReuseTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_inverted_q_across_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_disjunction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revfk_noreuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revo2o_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **The queries reuse joins sensibly (for example, direct joins are always reused).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **When a trimmable join is specified in the query (here school__), the ORM…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface."** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (4 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 333](Community_333.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 94](Community_94.md) (2 shared connections)
+- [Community 585](Community_585.md) (2 shared connections)
+- [Community 253](Community_253.md) (1 shared connections)
+- [Community 954](Community_954.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (57%)
-- INFERRED: 9 (43%)
+- EXTRACTED: 25 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,43 +1,43 @@
 # Community 525
 
-> 18 nodes · cohesion 0.11
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **StaticTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_serve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_chunked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index_custom_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_invalid_if_modified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_invalid_if_modified_since2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Tests django views in django/views/static.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **The static view can serve static media** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **The static view should stream files in chunks to avoid large memory usage** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Handle bogus If-Modified-Since values gracefully Assume that a file is modified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Handle even more bogus If-Modified-Since values gracefully Assume that a file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_copes_with_empty_path_component()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index_subdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_is_modified_since()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_not_modified_since()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_unknown_mime_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **LocMemCacheTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PicklingSideEffect** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **limit_locmem_entries** (3 connections)
+- **.test_locking_on_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_multiple_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_incr_decr_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Multiple locmem caches are isolated** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **#20613/#18541 -- Ensures pickling is done outside of the lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **incr/decr does not modify expiry time (matches memcached behavior)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **get() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **set() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **incr() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 217](Community_217.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 295](Community_295.md) (1 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

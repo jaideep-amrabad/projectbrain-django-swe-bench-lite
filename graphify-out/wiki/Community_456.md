@@ -1,62 +1,48 @@
 # Community 456
 
-> 46 nodes · cohesion 0.06
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **expressions/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **IterableLookupInnerExpressionsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Employee** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **ValuesExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
-- **Company** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **test_deprecation.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
-- **test_queryset_values.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
-- **ExpressionsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Experiment** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **Time** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **Result** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **UUID** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **GetGroupByColsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
-- **RemoteEmployee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **MissingAliasFunc** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
-- **.test_new_object_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_object_update_unsaved_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_insensitive_patterns_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_patterns_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_complex_expressions_do_not_introduce_sql_injection_via_untrusted_string_inclusion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **UUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **.test_missing_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
-- **.test_chained_values_with_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
-- **.test_values_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
-- **.test_values_expression_group_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
-- *... and 21 more nodes in this community*
+- **TemplateViewTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **._assert_about()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_generic_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_template_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_cached_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_extra_template_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_login_required_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_name_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that simply renders a template on GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a TemplateView responds correctly to HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that renders a template on GET with the template name as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a completely generic view that renders a template on GET with the template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view must provide a template name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A generic template view passes kwargs as context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view can be customized to return extra context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view can be cached** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_extra_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (18 shared connections)
-- [Community 335](Community_335.md) (16 shared connections)
-- [Community 254](Community_254.md) (12 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 534](Community_534.md) (1 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 529](Community_529.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 675](Community_675.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (77%)
-- INFERRED: 30 (23%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

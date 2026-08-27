@@ -1,60 +1,57 @@
 # Community 164
 
-> 61 nodes · cohesion 0.07
+> 54 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **model_meta/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **model_meta/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **OptionsBaseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **RelationTreeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **AbstractPerson** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **GetFieldByNameTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **Person** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **BasePerson** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **results.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/results.py`
-- **ProxyPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **ParentListTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **RelatedObjectsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._details()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **CommonAncestor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **FirstParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **Relation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **SecondParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **DataTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **Relating** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- **GetFieldsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **LabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **M2MTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **PropertyNamesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- *... and 36 more nodes in this community*
+- **data.py** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BaseModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **ExplicitInheritBaseModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **GenericData** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **InheritBaseModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **LengthModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **AutoNowDateTimeData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BigIntegerData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BinaryData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BooleanData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BooleanPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **CharData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **CharPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DateData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DatePKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DateTimeData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DateTimePKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DecimalData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DecimalPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **EmailData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **EmailPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **FileData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **FilePathData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **FilePathPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **FKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 118](Community_118.md) (12 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
+- [Community 920](Community_920.md) (5 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 120](Community_120.md) (3 shared connections)
 - [Community 89](Community_89.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 464](Community_464.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 239](Community_239.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1539](Community_1539.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_meta/results.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 133 (85%)
-- INFERRED: 24 (15%)
+- EXTRACTED: 72 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

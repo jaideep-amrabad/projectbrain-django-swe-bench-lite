@@ -1,49 +1,61 @@
 # Community 407
 
-> 27 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **AutoescapeTagTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **setup** (19 connections)
-- **.test_autoescape_filtertag01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_ifequal01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_literals01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_lookup01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_stringiterations01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_filters01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_filters02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_invalid_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_no_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Literal strings are safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Iterating over strings outputs safe characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Escape requirement survives lookup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Literal string arguments to filters, if used in the result, are safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- *... and 2 more nodes in this community*
+- **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **managers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **SitesFrameworkTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **AbstractArticle** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **CurrentSiteManagerChecksTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **._get_field_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **CustomArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **ExclusiveArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **SyndicatedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **._check_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **._check_table_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **.test_invalid_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_invalid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **Return self.__field_name or 'site' or 'sites'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **Use this to limit objects to those associated with the current site.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_custom_named_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_site_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 865](Community_865.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 58](Community_58.md) (4 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 66 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

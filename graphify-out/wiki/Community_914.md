@@ -1,23 +1,29 @@
 # Community 914
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.52
 
 ## Key Concepts
 
-- **DateTimeShortcuts.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js`
-- **TODO: IE returns wrong value for findPosX when in rtl mode** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js`
+- **MySqlDbshellCommandTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.get_command_line_arguments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_basic_params_specified_in_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_can_connect_using_sockets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_fails_with_keyerror_on_incomplete_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_options_override_settings_proper_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_ssl_certificate_is_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.prepare_sql_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Take an SQL script that may contain multiple lines and return a list of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **Model.save() invalidates stale ForeignKey relations after a primary key…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Relationships
 
-- [Community 111](Community_111.md) (1 shared connections)
+- [Community 146](Community_146.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 

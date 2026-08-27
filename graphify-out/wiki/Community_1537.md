@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **TestFieldWithValidators** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
-- **.test_all_errors_get_reported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
-- **.test_field_validators_can_be_any_iterable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
+- **test_migrations_non_atomic/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_non_atomic/0001_initial.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_non_atomic/0001_initial.py`
+- **raise_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_non_atomic/0001_initial.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_non_atomic/0001_initial.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

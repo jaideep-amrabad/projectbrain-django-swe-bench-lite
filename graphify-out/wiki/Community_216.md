@@ -1,58 +1,62 @@
 # Community 216
 
-> 25 nodes · cohesion 0.13
+> 55 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **signing.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **TimestampSigner** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **base64_hmac()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **dumps()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **get_cookie_signer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **loads()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **b64_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **b64_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.timestamp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Exception** (1 connections)
-- **Functions for creating and restoring url-safe signed JSON objects. The format…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Retrieve original value and check it wasn't signed more than max_age seconds…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signature does not match.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signature timestamp is older than required max_age.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Return URL-safe, hmac/SHA1 signed base64 compressed JSON string. If key is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **DiscoverRunner** (60 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DiscoverRunnerTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **captured_stdout()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **test_discover_runner.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_name_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **change_cwd()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_empty_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_suite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_duplicates_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_excluded_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_ignore_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_included_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_testcase_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **AliasedDefaultTestSetupTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_setup_aliased_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **DummyBackendTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_setup_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.get_resultclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.setup_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 557](Community_557.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 341](Community_341.md) (1 shared connections)
+- [Community 289](Community_289.md) (12 shared connections)
+- [Community 799](Community_799.md) (4 shared connections)
+- [Community 695](Community_695.md) (4 shared connections)
+- [Community 82](Community_82.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 575](Community_575.md) (3 shared connections)
+- [Community 778](Community_778.md) (3 shared connections)
+- [Community 79](Community_79.md) (3 shared connections)
+- [Community 550](Community_550.md) (2 shared connections)
+- [Community 445](Community_445.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 143 (94%)
+- INFERRED: 9 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

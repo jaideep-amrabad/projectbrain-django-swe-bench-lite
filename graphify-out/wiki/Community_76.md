@@ -1,6 +1,6 @@
 # Community 76
 
-> 109 nodes · cohesion 0.03
+> 98 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -13,7 +13,6 @@
 - **test_regress.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
 - **GeoLookupTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
 - **GeoModelTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **FuncTestMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
 - **test_serializers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
 - **GeoRegressionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
 - **GeoQuerySetTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
@@ -24,27 +23,28 @@
 - **GeoExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
 - **GeoJSONSerializerTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
 - **geoapp/test_sitemaps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
-- **test_gis_tests_utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
 - **PennsylvaniaCity** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
 - **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **.test_geometryfield()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
 - **.test_proxy()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **FuncTestMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
-- *... and 84 more nodes in this community*
+- **MultiFields** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **Track** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- *... and 73 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (33 shared connections)
-- [Community 75](Community_75.md) (21 shared connections)
-- [Community 4](Community_4.md) (18 shared connections)
-- [Community 182](Community_182.md) (11 shared connections)
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 17](Community_17.md) (9 shared connections)
-- [Community 166](Community_166.md) (9 shared connections)
-- [Community 13](Community_13.md) (8 shared connections)
-- [Community 59](Community_59.md) (7 shared connections)
-- [Community 31](Community_31.md) (5 shared connections)
-- [Community 347](Community_347.md) (5 shared connections)
-- [Community 162](Community_162.md) (4 shared connections)
+- [Community 18](Community_18.md) (31 shared connections)
+- [Community 77](Community_77.md) (21 shared connections)
+- [Community 3](Community_3.md) (17 shared connections)
+- [Community 427](Community_427.md) (12 shared connections)
+- [Community 60](Community_60.md) (8 shared connections)
+- [Community 17](Community_17.md) (8 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 346](Community_346.md) (6 shared connections)
+- [Community 106](Community_106.md) (6 shared connections)
+- [Community 357](Community_357.md) (5 shared connections)
+- [Community 30](Community_30.md) (5 shared connections)
 
 ## Source Files
 
@@ -55,13 +55,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 345 (90%)
-- INFERRED: 40 (10%)
+- EXTRACTED: 316 (89%)
+- INFERRED: 38 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

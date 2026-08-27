@@ -1,59 +1,51 @@
 # Community 556
 
-> 27 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **TestRegistration** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **admin/decorators.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **Location** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Traveler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **CustomSite** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_abstract_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_is_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_is_registered_not_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Tests for various ways of registering models with the admin site.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **NameAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Exception is raised when trying to register an abstract model. Refs #12004.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Checks for registered models should return true.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Checks for unregistered models should return false.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_bare_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_iterable_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_prevent_double_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_prevent_double_registration_for_custom_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_registration_with_model_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- *... and 2 more nodes in this community*
+- **BaseModelBackendTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **ModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **CustomPermissionsUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **ExtensionUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_anonymous_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_inactive_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authenticate_inactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_custom_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_all_superuser_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_no_object_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.create_users()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.create_users()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.create_users()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Regressiontest for #12462** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **#17903 -- Anonymous users shouldn't have permissions in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **#17903 -- Inactive users shouldn't have permissions in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **A superuser has all permissions. Refs #14795.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Tests for the ModelBackend using the default User model.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **An inactive user can't authenticate.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Tests for the ModelBackend using the custom ExtensionUser model. This isn't a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Tests for the ModelBackend using the CustomPermissionsUser model. As with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **A base class for tests that need to validate the ModelBackend with different…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Relationships
 
-- [Community 135](Community_135.md) (7 shared connections)
-- [Community 93](Community_93.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 36](Community_36.md) (7 shared connections)
+- [Community 30](Community_30.md) (5 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (89%)
-- INFERRED: 6 (11%)
+- EXTRACTED: 42 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

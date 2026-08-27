@@ -1,47 +1,41 @@
 # Community 506
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **TemplateStringsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **Jinja2Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_django_html_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_self_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_get_template_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_get_template_syntax_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_html_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_no_directory_traversal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_non_ascii_characters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **.test_exception_debug_info_max_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_exception_debug_info_min_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_origin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_origin_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **skipIf** (1 connections)
-- **Using 'self' in the context should not throw errors (#24538).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **TimeuntilTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **setup** (16 connections)
+- **.test_timeuntil10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil11()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **requires_tz_support** (2 connections)
+- **.test_aware_naive_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_naive_aware_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 330](Community_330.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 726](Community_726.md) (1 shared connections)
-- [Community 181](Community_181.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,63 @@
 # Community 408
 
-> 27 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **SomeClass** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.test_basic_syntax20b()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax09()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax10()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax11()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax20()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_filter_syntax23()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax24()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **OtherClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **In attribute and dict lookups that raise an unexpected exception without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **Fail silently when accessing a non-simple method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Don't silence a TypeError if it was raised inside a callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Attribute syntax allows a template to call an object's attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Multiple levels of attribute access are allowed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Fail silently when a variable's attribute isn't found.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.attribute_error_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.noisy_fail_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- *... and 2 more nodes in this community*
+- **modelform_factory()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **FormFieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_empty_fields_to_construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **CustomMetaclassTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_baseform_with_widgets_in_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_callback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_factory_with_widget_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_factory_with_all_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_setattr_raises_validation_error_field_specific()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_setattr_raises_validation_error_non_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_editable_generic_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- **.test_modelform_factory_metaclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_bad_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherit_after_custom_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_extra_field_modelform_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_blank_null_unique_charfield_saves_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #19733** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return a ModelForm containing form fields for the given model. You can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **No fields should be set on a model instance if construct_instance receives…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #13095: Using base forms with widgets defined in Meta should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 210](Community_210.md) (10 shared connections)
-- [Community 243](Community_243.md) (10 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 170](Community_170.md) (8 shared connections)
+- [Community 199](Community_199.md) (4 shared connections)
+- [Community 267](Community_267.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 671](Community_671.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 184](Community_184.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 65 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

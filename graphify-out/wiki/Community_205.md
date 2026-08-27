@@ -1,62 +1,72 @@
 # Community 205
 
-> 54 nodes · cohesion 0.06
+> 90 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **BaseEmailBackendTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **send_mail()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **.get_the_message()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **mail_managers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail_admins()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **sendtestemail.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.test_manager_and_admin_mail_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_connection_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_empty_admins()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_idn_send()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_lazy_addresses()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_html_mail_admins()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_html_mail_managers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_message_cc_header()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_send_long_lines()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.test_html_send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_plaintext_send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_recipient_without_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_send_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_mailbox_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.email_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 29 more nodes in this community*
+- **expressions/tests.py** (73 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Lower** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Coalesce** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **Upper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Concat** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Substr** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Least** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **LeastTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **test_substr.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **ConcatPair** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **ExpressionsNumericTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- **ConcatTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **StrIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **Number** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **FieldTransformTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_functions()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **CoalesceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
+- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **SubstrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.test_distinct_on_with_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_coalesce_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **LowerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- *... and 65 more nodes in this community*
 
 ## Relationships
 
-- [Community 109](Community_109.md) (13 shared connections)
-- [Community 116](Community_116.md) (9 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 444](Community_444.md) (5 shared connections)
-- [Community 386](Community_386.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 512](Community_512.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 3](Community_3.md) (59 shared connections)
+- [Community 25](Community_25.md) (21 shared connections)
+- [Community 406](Community_406.md) (16 shared connections)
+- [Community 244](Community_244.md) (15 shared connections)
+- [Community 38](Community_38.md) (11 shared connections)
+- [Community 55](Community_55.md) (9 shared connections)
+- [Community 181](Community_181.md) (8 shared connections)
+- [Community 335](Community_335.md) (8 shared connections)
+- [Community 19](Community_19.md) (7 shared connections)
+- [Community 103](Community_103.md) (6 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 130](Community_130.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_upper.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 135 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 341 (96%)
+- INFERRED: 14 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

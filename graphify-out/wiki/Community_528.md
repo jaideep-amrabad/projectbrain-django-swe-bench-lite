@@ -1,62 +1,49 @@
 # Community 528
 
-> 29 nodes · cohesion 0.08
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Table** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **ddl_references.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **postgres/constraints.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **Reference** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **TableTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **._delete_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.create_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **Helpers to manipulate deferred DDL statements that might need to be adjusted or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Return whether or not this instance references the specified table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Return whether or not this instance references the specified column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Rename all references to the old_name to the new_table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Rename all references to the old_column to the new_column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Hold a reference to a table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Base class that defines the reference interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- *... and 4 more nodes in this community*
+- **test_liveserver.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- **testing.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- **LiveServerBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.test_collectstatic_emulation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.raises_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.urlopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **Extend django.test.LiveServerTestCase to transparently overlay at test…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- **A subset of the tests in tests/servers/tests exercising…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerTestCase use of staticfiles' serve() allows it to discover…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.test_test_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
 
 ## Relationships
 
-- [Community 369](Community_369.md) (9 shared connections)
-- [Community 104](Community_104.md) (8 shared connections)
-- [Community 13](Community_13.md) (6 shared connections)
-- [Community 304](Community_304.md) (5 shared connections)
-- [Community 225](Community_225.md) (4 shared connections)
-- [Community 839](Community_839.md) (2 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 533](Community_533.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 664](Community_664.md) (1 shared connections)
-- [Community 684](Community_684.md) (1 shared connections)
+- [Community 165](Community_165.md) (2 shared connections)
+- [Community 468](Community_468.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 41 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

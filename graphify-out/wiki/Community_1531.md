@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **app_waiting_migration/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
-- **Bar** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
+- **.test_get_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Using a property with a setter implemented is allowed.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_update_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 667](Community_667.md) (1 shared connections)
+- [Community 668](Community_668.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 

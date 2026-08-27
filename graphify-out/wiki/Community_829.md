@@ -1,26 +1,33 @@
 # Community 829
 
-> 5 nodes · cohesion 0.40
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **core.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosX()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosY()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **quickElement()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **removeChildren()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **ParallelTestSuite** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **partition_suite_by_case()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Run a series of tests in parallel in several processes. While the unittest…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Distribute test cases across workers. Return an identifier of each test case…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Partition a test suite by test case, preserving the order of tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 289](Community_289.md) (2 shared connections)
+- [Community 282](Community_282.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

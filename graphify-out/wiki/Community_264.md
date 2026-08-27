@@ -1,56 +1,57 @@
 # Community 264
 
-> 40 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **update/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **AdvancedTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **update/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **SimpleTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **DataPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **RelatedPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **A** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Update changes the right number of rows for a nonempty queryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **C** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **.test_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_multiple_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_multiple_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_respects_to_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_slice_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_empty_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_empty_update_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_foreign_key_update_with_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_nonempty_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_nonempty_update_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- *... and 15 more nodes in this community*
+- **FileField** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **ImageField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **AWSS3Storage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **GenerateFilenameStorageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.test_filefield_awss3_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.test_FileField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_ImageField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.generate_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_image_library_installed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.update_dimension_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.get_valid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 335](Community_335.md) (3 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 10](Community_10.md) (8 shared connections)
+- [Community 136](Community_136.md) (5 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 210](Community_210.md) (2 shared connections)
+- [Community 533](Community_533.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 69 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

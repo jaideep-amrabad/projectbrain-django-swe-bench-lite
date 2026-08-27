@@ -1,46 +1,60 @@
 # Community 631
 
-> 20 nodes · cohesion 0.13
+> 46 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **SafeStringTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.assertRenderEqual()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **customescape** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_add_lazy_safe_text_and_safe_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_decorator_does_not_affect_promises()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_object_implementing_dunder_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_as_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_decorator_does_not_affect_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_lazy_result_implements_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_object_implementing_dunder_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_result_implements_dunder_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.__html__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **str** (1 connections)
-- **Calling str() on a SafeString instance doesn't lose the safe status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe used as a decorator leaves the result of a function unchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe doesn't affect a callable that has an __html__() method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe doesn't affect lazy strings (Promise objects).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **OGRGeomType** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
+- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Polygon** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.centroid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.get_geometry_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
+- **.test_geomtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_geomtype_25d()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **._create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._geos_ptr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.point_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.shell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.django()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
+- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
+- **.name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 39](Community_39.md) (10 shared connections)
+- [Community 37](Community_37.md) (9 shared connections)
+- [Community 131](Community_131.md) (3 shared connections)
+- [Community 129](Community_129.md) (2 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 253](Community_253.md) (2 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 76 (93%)
+- INFERRED: 6 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

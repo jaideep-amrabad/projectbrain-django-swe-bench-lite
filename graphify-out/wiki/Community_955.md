@@ -1,29 +1,27 @@
 # Community 955
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_custom_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **mysql/test_schema.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
+- **SchemaEditorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
+- **skipUnless** (1 connections)
+- **.test_quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
 
 ## Relationships
 
-- [Community 137](Community_137.md) (3 shared connections)
-- [Community 791](Community_791.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

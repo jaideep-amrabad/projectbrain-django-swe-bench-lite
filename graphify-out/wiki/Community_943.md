@@ -1,29 +1,26 @@
 # Community 943
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **test_migrations_plan/0001_initial.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **grow_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **shrink_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Shrink salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Grow salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **OperationsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **oracle/test_operations.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_bulk_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_sequence_name_truncation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

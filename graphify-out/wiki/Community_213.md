@@ -1,68 +1,73 @@
 # Community 213
 
-> 136 nodes · cohesion 0.02
+> 58 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **model_fields/models.py** (90 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **model_fields/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **model_fields/test_integerfield.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **IntegerFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **test_autofield.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **test_foreignkey.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **BasicFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **GetChoicesOrderingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **GetFieldDisplayTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **model_fields/test_genericipaddressfield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **ChoicesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Foo** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestSaveLoad** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **model_fields/test_floatfield.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **GenericIPAddressFieldTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **Bar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **model_fields/test_slugfield.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **SlugFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **GetChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **FksToBooleans** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **FkToChar** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Whiz** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestFloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **BigIntegerFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **SmallIntegerFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- *... and 111 more nodes in this community*
+- **urls/http.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **contrib/sitemaps/__init__.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **Sitemap** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **contrib/sitemaps/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **http_date()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **kml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **geoapp/urls.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
+- **SimpleSitemap** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **GenericSitemap** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **sitemap()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **flatpages/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
+- **geoapp/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
+- **.__call__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **flatpages_tests/urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/urls.py`
+- **https.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
+- **gis/sitemaps/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
+- **.get_urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **FlatPageSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
+- **KMZSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **i18n()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **index_only.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/index_only.py`
+- **._build_kml_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (22 shared connections)
-- [Community 1](Community_1.md) (20 shared connections)
-- [Community 13](Community_13.md) (11 shared connections)
-- [Community 195](Community_195.md) (9 shared connections)
-- [Community 16](Community_16.md) (8 shared connections)
-- [Community 69](Community_69.md) (8 shared connections)
-- [Community 616](Community_616.md) (7 shared connections)
-- [Community 68](Community_68.md) (5 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 163](Community_163.md) (3 shared connections)
-- [Community 425](Community_425.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
+- [Community 15](Community_15.md) (12 shared connections)
+- [Community 214](Community_214.md) (11 shared connections)
+- [Community 46](Community_46.md) (8 shared connections)
+- [Community 237](Community_237.md) (8 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 132](Community_132.md) (6 shared connections)
+- [Community 40](Community_40.md) (6 shared connections)
+- [Community 33](Community_33.md) (5 shared connections)
+- [Community 52](Community_52.md) (5 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 51](Community_51.md) (5 shared connections)
+- [Community 35](Community_35.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/index_only.py`
 
 ## Audit Trail
 
-- EXTRACTED: 301 (89%)
-- INFERRED: 37 (11%)
+- EXTRACTED: 206 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

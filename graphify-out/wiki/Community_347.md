@@ -1,66 +1,60 @@
 # Community 347
 
-> 61 nodes · cohesion 0.04
+> 87 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **LineString** (58 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **test_geos_mutation.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- **f()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **GEOSMutationTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- **._listarr()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **.test06_Collection()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **.test04_LineStringMutations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- **.test_distance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
-- **.test_threed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
-- **.test01_PointMutations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- **.test03_PointApi()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- **.array()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **.tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **Return a list or numpy array of the X variable.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **.test_crosses_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test_empty_geometries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test00_GEOSIndexException()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- **.test02_PointExceptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- **.test_ticket10432()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **._checkdim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- *... and 36 more nodes in this community*
+- **fixtures_regress/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **fixtures_regress/models.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MNaturalKeyFixtureTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **BaseNKModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Meta** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Store** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Widget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular2B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **TestLoadFixtureFromOtherAppDirectory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Absolute** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **CommonFeature** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **ExternalDependency** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughBC** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughCA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular2ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- *... and 62 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (20 shared connections)
-- [Community 23](Community_23.md) (18 shared connections)
-- [Community 17](Community_17.md) (14 shared connections)
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 191](Community_191.md) (3 shared connections)
-- [Community 287](Community_287.md) (2 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 363](Community_363.md) (12 shared connections)
+- [Community 191](Community_191.md) (10 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 777](Community_777.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_coordseq.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 131 (87%)
-- INFERRED: 20 (13%)
+- EXTRACTED: 183 (85%)
+- INFERRED: 33 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

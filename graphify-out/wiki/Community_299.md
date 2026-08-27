@@ -1,53 +1,67 @@
 # Community 299
 
-> 35 nodes · cohesion 0.08
+> 73 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SyndicationFeed** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Atom1Feed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **RssFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **rfc3339_date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write_items()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.latest_post_date()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.item_attributes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.root_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **RssUserland091Feed** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.writeString()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.endChannelElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.root_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Return extra attributes to place on the root (i.e. feed/channel) element.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- *... and 10 more nodes in this community*
+- **datetime** (390 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **DateFunctionTests** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.create_model()** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **DateFormatTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **ExtractYear** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_year_exact_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_subquery_with_parameters()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **SplitHiddenDateTimeWidgetTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- **.test_extract_duration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_year_greaterthan_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_year_lessthan_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_day_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_hour_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_minute_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_month_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_quarter_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_second_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_week_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_year_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_timezone_applied_before_truncation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **AdminSplitDateTimeWidgetTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_extract_day_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_hour_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 370](Community_370.md) (10 shared connections)
-- [Community 511](Community_511.md) (4 shared connections)
-- [Community 231](Community_231.md) (2 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 629](Community_629.md) (1 shared connections)
-- [Community 402](Community_402.md) (1 shared connections)
+- [Community 371](Community_371.md) (50 shared connections)
+- [Community 11](Community_11.md) (25 shared connections)
+- [Community 51](Community_51.md) (21 shared connections)
+- [Community 1](Community_1.md) (20 shared connections)
+- [Community 5](Community_5.md) (19 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 635](Community_635.md) (11 shared connections)
+- [Community 14](Community_14.md) (9 shared connections)
+- [Community 609](Community_609.md) (8 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 55](Community_55.md) (7 shared connections)
+- [Community 610](Community_610.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 409 (71%)
+- INFERRED: 169 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

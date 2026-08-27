@@ -1,34 +1,37 @@
 # Community 866
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **SiteManager** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.get_current()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **._get_site_by_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **._get_site_by_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **Return the current Site based on the SITE_ID in the project's settings. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **Clear the ``Site`` object cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.w()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **ISO-8601 week number of year, weeks starting on Monday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the year; i.e. '0' to '365** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **The backend doesn't store an unlimited number of queries (#12581).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 245](Community_245.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 583](Community_583.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 411](Community_411.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 12 (86%)
+- INFERRED: 2 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

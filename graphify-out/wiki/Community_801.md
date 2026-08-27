@@ -1,36 +1,39 @@
 # Community 801
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **SwappableOperationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_create_ignore_swapped()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_add_field_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_delete_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_indexes_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **Tests the AddField operation.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **Key operations ignore swappable models (we don't want to replicate all of them…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **The CreateTable operation ignores swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **Tests the DeleteModel operation ignores swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **Add/RemoveIndex operations ignore swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **add_level_messages()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **get_level()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.get_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_default_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_high_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_low_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_settings_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **set_level()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Return the minimum level of messages to be recorded. The default level is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Set the minimum level of messages to be recorded, and return ``True`` if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Add 6 messages from different levels (including a custom one) to a storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 142](Community_142.md) (9 shared connections)
+- [Community 653](Community_653.md) (3 shared connections)
+- [Community 945](Community_945.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

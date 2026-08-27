@@ -1,25 +1,30 @@
 # Community 900
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Persona** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple persona associated with accounts, to test inlining of related accounts…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.get_template()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **.render_to_string()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **.select_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **.find_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **Return a compiled Template object for the given template name, handling…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **Render the template specified by template_name with the given context. For use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **Given a list of template names, return the first that can be loaded.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 66](Community_66.md) (4 shared connections)
+- [Community 178](Community_178.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/engine.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,48 +1,55 @@
 # Community 433
 
-> 24 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **MultiColumnFKTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_double_nested_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_foreign_key_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_forward_in_lookup_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_get_fails_on_multicolumn_mismatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_get_succeeds_on_multicolumn_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_isnull_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_forward_ignores_invalid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_forward_returns_valid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_on_self_ignores_mismatch_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_on_self_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_reverse_ignores_invalid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_m2m_through_reverse_returns_valid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_many_to_many_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_prefetch_foreignkey_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_prefetch_foreignkey_reverse_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_prefetch_related_m2m_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_prefetch_related_m2m_reverse_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_query_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_reverse_query_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_reverse_query_returns_correct_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_select_related_foreignkey_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **FieldOverridesByFormMetaForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **TestFieldOverridesByFormMeta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **CustomCleanTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **CustomWriterForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **IncompleteCategoryFormWithExclude** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **IncompleteCategoryFormWithFields** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_blank_false_with_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_form_clean_applies_to_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_override_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A form that replaces the model's url field with a custom one. This should…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_field_type_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_label_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_widget_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_notrequired_overrides_notblank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_validates_with_replaced_field_excluded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_validates_with_replaced_field_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Regression for #12596: Calling super from ModelForm.clean() should be optional.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression test for #12960. Make sure the cleaned_data returned from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A ModelForm with a model with a field set to blank=False and the form field set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 567](Community_567.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 721](Community_721.md) (1 shared connections)
+- [Community 170](Community_170.md) (12 shared connections)
+- [Community 251](Community_251.md) (4 shared connections)
+- [Community 387](Community_387.md) (2 shared connections)
+- [Community 395](Community_395.md) (2 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 655](Community_655.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (77%)
+- INFERRED: 13 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

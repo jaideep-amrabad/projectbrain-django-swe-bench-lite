@@ -1,60 +1,63 @@
 # Community 65
 
-> 113 nodes · cohesion 0.03
+> 123 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **admin_filters/tests.py** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **ListFiltersTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdmin** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **select_by()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeListFilterWithTitleAndParameter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **EmployeeAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **BookAdminRelatedOnlyFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithCustomQueryset** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentListFilterLookupWithNonStringValue** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **CustomUserAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_datefieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_datefieldlistfilter_with_time_zone_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_parameter_ends_with__in__or__isnull()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.verify_booleanfieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdmin2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithTupleBooleanFilter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithUnderscoreLookupAndTuple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookmarkAdminGenericRelation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeFilterBookAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- *... and 88 more nodes in this community*
+- **admin_inlines/admin.py** (90 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **admin_inlines/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **admin_inlines/models.py** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **TestInlineMedia** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **TestInlineProtectedOnDelete** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **Inner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner2** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **TestInlineAdminForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **Child** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **FootNote** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Chapter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **ChildModel1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **ChildModel2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Holder** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Holder2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner3** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **NonAutoPKBook** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **SomeChildModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **BinaryTree** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Holder3** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner4Stacked** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner4Tabular** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Novel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Profile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- *... and 98 more nodes in this community*
 
 ## Relationships
 
-- [Community 107](Community_107.md) (16 shared connections)
-- [Community 89](Community_89.md) (6 shared connections)
-- [Community 707](Community_707.md) (4 shared connections)
+- [Community 33](Community_33.md) (25 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 620](Community_620.md) (5 shared connections)
+- [Community 89](Community_89.md) (4 shared connections)
+- [Community 124](Community_124.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
 - [Community 93](Community_93.md) (3 shared connections)
-- [Community 255](Community_255.md) (3 shared connections)
-- [Community 118](Community_118.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 775](Community_775.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 813](Community_813.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 218 (96%)
-- INFERRED: 8 (4%)
+- EXTRACTED: 257 (79%)
+- INFERRED: 70 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

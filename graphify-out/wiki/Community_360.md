@@ -1,58 +1,51 @@
 # Community 360
 
-> 22 nodes · cohesion 0.13
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **MultipleChoiceField** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **SongForm** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **MultipleChoiceFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiple_choice_list_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_multiple_choice_checkbox()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_multiple_hidden()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **MultiValueDictLike** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_hidden_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_checkbox_auto_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_empty_permitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_multiple_choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_callable_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_extracting_hidden_and_visible()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.getlist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **dict** (1 connections)
+- **regex_helper.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **normalize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **NormalizeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **NonCapture** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **flatten_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **get_quantifier()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **next_char()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **list** (3 connections)
+- **walk_to_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **test_regex_helper.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **Functions for reversing a regular expression (used in reverse URL resolving).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **r""" An iterator that yields the next character from "pattern_iter", respecting…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **The iterator is currently inside a capturing group. Walk to the close of this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Parse a quantifier from the input, where "ch" is the first character in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent multiple possibilities at this point in a pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Return True if the "source" contains an instance of "inst". False, otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Turn the given source sequence into a list of reg-exp possibilities and their…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent a capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent a non-capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **r""" Given a reg-exp pattern, normalize it to an iterable of forms that suffice…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **# FIXME: One day we'll should do this, but not in 1.0.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 77](Community_77.md) (9 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 403](Community_403.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 575](Community_575.md) (1 shared connections)
-- [Community 412](Community_412.md) (1 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
-- [Community 247](Community_247.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 541](Community_541.md) (1 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (57%)
-- INFERRED: 26 (43%)
+- EXTRACTED: 43 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

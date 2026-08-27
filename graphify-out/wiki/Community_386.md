@@ -1,58 +1,54 @@
 # Community 386
 
-> 36 nodes · cohesion 0.07
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **EmailMultiAlternatives** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **SafeMIMEMultipart** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **MIMEMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_attachments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **SafeMIMEMessage** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_attachment()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart_with_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **._create_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.attach_alternative()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.as_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Return the entire formatted message as a string. Optional `unixfrom' when True,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **MIMEMessage** (1 connections)
-- **MIMEMultipart** (1 connections)
-- *... and 11 more nodes in this community*
+- **BaseManager** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **ManagerTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **ManagerDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._get_queryset_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._set_creation_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.test_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Set the creation counter value for this instance and increment the class-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Return a new QuerySet object. Subclasses can override this method to customize…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 116](Community_116.md) (12 shared connections)
-- [Community 109](Community_109.md) (11 shared connections)
-- [Community 205](Community_205.md) (3 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 400](Community_400.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 891](Community_891.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
-- [Community 778](Community_778.md) (1 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 421](Community_421.md) (1 shared connections)
+- [Community 100](Community_100.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 37 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

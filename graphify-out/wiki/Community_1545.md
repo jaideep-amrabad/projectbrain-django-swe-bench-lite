@@ -1,26 +1,23 @@
 # Community 1545
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **test_migrations_run_before/0003_third.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_run_before/0003_third.py`
-- **Migration** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_run_before/0003_third.py`
-- **This is a wee bit crazy, but it's just to show that run_before works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_run_before/0003_third.py`
+- **.process_clob()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the value of a CLOB column, for backends that return a locator object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 113](Community_113.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_run_before/0003_third.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

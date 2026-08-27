@@ -1,58 +1,62 @@
 # Community 400
 
-> 27 nodes · cohesion 0.12
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **PasswordResetFormTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **PasswordResetForm** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.save()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.create_dummy_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_inactive_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_html_email_template_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_plaintext_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.get_users()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_nonexistent_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_subject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_preserve_username_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Test the PasswordResetForm.save() method with no html_email_template_name…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Send a django.core.mail.EmailMultiAlternatives to `to_email`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Given an email, return matching user(s) who should receive a reset. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Generate a one-use only link for resetting password and send it to the user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_constructor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Create a user and return a tuple (user_object, username, email).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Test nonexistent email address. This should not fail because it would expose…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- *... and 2 more nodes in this community*
+- **search.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **test_trigram.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **test_unaccent.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **UnaccentTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CharFieldModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TextFieldModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchQueryField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **UnaccentTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Field** (2 connections)
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 563](Community_563.md) (1 shared connections)
-- [Community 386](Community_386.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
+- [Community 57](Community_57.md) (12 shared connections)
+- [Community 85](Community_85.md) (11 shared connections)
+- [Community 381](Community_381.md) (4 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
+- [Community 335](Community_335.md) (3 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 540](Community_540.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 110 (92%)
+- INFERRED: 10 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,52 +1,54 @@
 # Community 376
 
-> 29 nodes · cohesion 0.14
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **OperationTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **OperationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.alter_gis_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertColumnExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertSpatialIndexExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_blank_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_blank_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **NoRasterSupportTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_remove_geom_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_remove_raster_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.apply_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertColumnNotExists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertGeometryColumnsCount()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_raster_field_on_db_without_raster_support()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_create_raster_model_on_db_without_raster_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_create_model_spatial_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.has_spatial_indexes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **Test the AddField operation with a geometry-enabled column.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **Test the AddField operation with a raster-enabled column.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- *... and 4 more nodes in this community*
+- **RelatedLookupTypeTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **UnionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **ObjectA** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ObjectC** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ValuesJoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.check_union()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **ProxyObjectA** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ChildObjectA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_A_AB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_A_AB2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_AB_ACB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_BA_BCA__BAB_BAC_BCA()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_BAB_BAC()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_BAB_BACB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **A ValueError is raised when the incorrect object type is passed to a query…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_correct_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_values_queryset_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_wrong_backward_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_wrong_type_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket_21376()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Tests for the union of two querysets. Bug #12252.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
+- [Community 47](Community_47.md) (18 shared connections)
+- [Community 64](Community_64.md) (7 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 166](Community_166.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 50 (69%)
+- INFERRED: 22 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

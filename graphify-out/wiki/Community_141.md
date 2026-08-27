@@ -1,67 +1,51 @@
 # Community 141
 
-> 77 nodes · cohesion 0.05
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **generation.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **gdal/prototypes/errcheck.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **ds.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
-- **gdal/prototypes/geom.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
-- **libgdal.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **raster.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
-- **prototypes/srs.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
-- **check_err()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- **double_output()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **check_geom_offset()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **void_output()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **function()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **check_arg_errcode()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_const_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_geom()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_pointer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **ptr_byref()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **const_string_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **geom_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **int_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **srs_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **std_call()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **check_envelope()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_errcode()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- *... and 52 more nodes in this community*
+- **PermLookupDict** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **PermWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **PermWrapperTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **auth/context_processors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **EQLimiterObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_permlookupdict_in()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **auth()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.test_permwrapper_in()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_iter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **Lookup by "someapp" or "someapp.someperm" in perms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **Return context variables required by apps that use Django's authentication…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (31 shared connections)
-- [Community 184](Community_184.md) (2 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 476](Community_476.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 36](Community_36.md) (5 shared connections)
+- [Community 284](Community_284.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_pad.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 179 (93%)
-- INFERRED: 13 (7%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

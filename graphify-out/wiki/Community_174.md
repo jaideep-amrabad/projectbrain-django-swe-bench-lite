@@ -1,50 +1,60 @@
 # Community 174
 
-> 22 nodes · cohesion 0.13
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **test_lazyobject.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **SimpleLazyObjectPickleTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **BaseBaz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Baz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_pickle_with_reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **utils_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **BazProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **CategoryInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__reduce_ex__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A base class with a funky __reduce__ method, meant to simulate the __reduce__…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A class that inherits from BaseBaz and has its own __reduce_ex__ method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A class that acts as a proxy for Baz. It does some scary mucking about with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Regression test for pickling a SimpleLazyObject wrapping a model (#25389). Also…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Test in a fairly synthetic setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Test on an actual model, based on the report in #25426.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **password_validation.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **CommonPasswordValidator** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **UserAttributeSimilarityValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **get_default_password_validators()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **get_password_validators()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **password_changed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **password_validators_help_texts()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **UserAttributeSimilarityValidatorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **NumericPasswordValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_custom_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_django_supplied_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 541](Community_541.md) (4 shared connections)
-- [Community 314](Community_314.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 170](Community_170.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 136 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

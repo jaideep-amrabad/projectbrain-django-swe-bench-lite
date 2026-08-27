@@ -1,46 +1,37 @@
 # Community 608
 
-> 20 nodes · cohesion 0.10
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **TestInlinePermissions** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_fk_add_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_fk_noperm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_add_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_noperm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_view_only_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **Make sure the admin respects permissions for objects that are edited inline.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_add_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_add_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_all_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_change_del_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_noperm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_add_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_noperm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_view_only_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **CursorWrapper** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **CursorDebugWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.debug_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **._execute_with_wrappers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.callproc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Relationships
 
-- [Community 33](Community_33.md) (8 shared connections)
-- [Community 62](Community_62.md) (5 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 775](Community_775.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

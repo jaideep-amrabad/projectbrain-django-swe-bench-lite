@@ -1,36 +1,37 @@
 # Community 692
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **RemoveStaleContentTypesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_true_with_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_true_without_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_contenttypes_removed_in_apps_without_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **interactive mode (the default) deletes stale content types and warns of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **interactive mode deletes stale content types even if there aren't any dependent…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **non-interactive mode deletes stale content types.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **join()** (10 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **internalStart()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **sourceFromStacktrace()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **createModule()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **generateHash()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **internalStop()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **Test()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **extend()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **extractStacktrace()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **internalRecover()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **array()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Relationships
 
-- [Community 220](Community_220.md) (4 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 312](Community_312.md) (13 shared connections)
+- [Community 748](Community_748.md) (2 shared connections)
+- [Community 677](Community_677.md) (2 shared connections)
+- [Community 589](Community_589.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (87%)
-- INFERRED: 3 (13%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

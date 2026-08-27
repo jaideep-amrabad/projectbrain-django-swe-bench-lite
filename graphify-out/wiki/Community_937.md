@@ -1,29 +1,31 @@
 # Community 937
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ModelChoiceIterator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.choice()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_data_upload_max_memory_size_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_empty_content_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_no_limit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_size_not_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 
 ## Relationships
 
-- [Community 173](Community_173.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 616](Community_616.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (80%)
+- INFERRED: 2 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

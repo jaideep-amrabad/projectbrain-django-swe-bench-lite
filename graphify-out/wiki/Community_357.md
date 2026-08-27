@@ -1,54 +1,64 @@
 # Community 357
 
-> 30 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SplitArrayWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **SplitArrayField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSplitFormField** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **TestSplitFormWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_splitarrayfield_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_rendering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_splitarraywidget_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_invalid_char_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_invalid_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_remove_trailing_nulls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_remove_trailing_nulls_not_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- *... and 5 more nodes in this community*
+- **geogapp/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **FuncTestMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- **gis/db/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/__init__.py`
+- **GeographyFunctionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **test_gis_tests_utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **GeographyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **FuncTestMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **geogapp/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **test_mutation()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **County** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **NamedModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **Zipcode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **gis_migrations/migrations/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0001_initial.py`
+- **.test_geography_area()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.test04_invalid_operators_functions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test01_fixture_load()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Migration** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0001_initial.py`
+- **.test_mutated_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expression_deep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_not_mutated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 57](Community_57.md) (6 shared connections)
-- [Community 342](Community_342.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 633](Community_633.md) (2 shared connections)
-- [Community 96](Community_96.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 60](Community_60.md) (8 shared connections)
+- [Community 18](Community_18.md) (8 shared connections)
+- [Community 76](Community_76.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 427](Community_427.md) (3 shared connections)
+- [Community 55](Community_55.md) (3 shared connections)
+- [Community 288](Community_288.md) (2 shared connections)
+- [Community 540](Community_540.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (70%)
-- INFERRED: 17 (30%)
+- EXTRACTED: 104 (92%)
+- INFERRED: 9 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

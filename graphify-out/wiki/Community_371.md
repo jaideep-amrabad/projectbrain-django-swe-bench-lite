@@ -1,43 +1,60 @@
 # Community 371
 
-> 15 nodes · cohesion 0.21
+> 50 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **forms/ranges.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **BaseRangeField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **RangeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **HiddenRangeWidget** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **DateRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **DateTimeRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **DecimalRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **IntegerRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **A widget that splits input into two <input type="hidden"> inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **datetime.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **test_extract_trunc.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **Extract** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **Trunc** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.test_extract_func_with_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractIsoYear** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **DateFunctionWithTimeZoneTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractQuarter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractWeek** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractWeekDay** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncYear** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractMinute** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncWeek** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractDay** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractMonth** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractSecond** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncMinute** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncMonth** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncQuarter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 587](Community_587.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 299](Community_299.md) (50 shared connections)
+- [Community 3](Community_3.md) (31 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
+- [Community 10](Community_10.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 181](Community_181.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 193](Community_193.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 218 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

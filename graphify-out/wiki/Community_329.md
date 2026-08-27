@@ -1,60 +1,53 @@
 # Community 329
 
-> 51 nodes · cohesion 0.04
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ForeignObjectRel** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **ManyToOneRel** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **ManyToManyRel** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **OneToOneRel** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **CustomForeignObjectRel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_related_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.check_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Return the Field in the 'to' object to which this relationship is tied.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **Display the module, class, and name of the field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 26 more nodes in this community*
+- **BuildFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **test_jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsLexer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **prepare_js_for_gettext()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Lexer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **.preprocess()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Tok** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **make_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.cleanup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.postprocess_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.work_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.lex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **JsToCForGettextTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsTokensTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.is_templatized()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Postprocess messages generated by xgettext GNU gettext utility. Transform paths…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Remove a preprocessed copy of a translatable file (if any).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Represent the state of a translatable file during the build process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Path to a file which is being fed into GNU gettext pipeline. This may be either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Preprocess (if necessary) a translatable file before passing it to xgettext GNU…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (6 shared connections)
-- [Community 19](Community_19.md) (5 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 485](Community_485.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 268](Community_268.md) (3 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (86%)
-- INFERRED: 11 (14%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

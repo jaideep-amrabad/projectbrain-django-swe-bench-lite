@@ -4,21 +4,24 @@
 
 ## Key Concepts
 
-- **.date_interval_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Implement the date interval functionality for expressions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **UnchangeableObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Model whose change_view is disabled in admin Refs #20640.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 111](Community_111.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,38 +4,36 @@
 
 ## Key Concepts
 
-- **MonthArchiveViewTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_month_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_previous_month_without_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_get_month_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view_without_month_in_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **Content can exist on any day of the previous month. Refs #14711** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **date_list should be sorted ascending in month view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **TransactionalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **skipUnless** (2 connections)
+- **.test_client_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_cursor_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_dbms_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_order_of_nls_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_quote_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **%' chars are escaped for query execution.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **A stored procedure can be called through a cursor wrapper.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **Cursor variables can be passed as query parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **Client encoding is set correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **An 'almost right' datetime works with configured NLS parameters (#18465).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_hidden_no_data_found_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_password_with_at_sign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
 
 ## Relationships
 
-- [Community 424](Community_424.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

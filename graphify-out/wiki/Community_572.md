@@ -1,50 +1,41 @@
 # Community 572
 
-> 23 nodes · cohesion 0.09
+> 16 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **BasePasswordHasher** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **BasePasswordHasherTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Abstract base class for password hashers When creating your own hasher, you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Generate a cryptographically secure nonce salt in ASCII.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Check if the given password is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Create an encoded database value. The result is normally formatted as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Return a summary of safe values. The result is a dictionary and will be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Bridge the runtime gap between the work factor supplied in `encoded` and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_load_library_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_load_library_no_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_safe_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_verify()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **null_fk_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **null_fk_ordering/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **NullFkOrderingTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Comment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **.test_ordering_across_null_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Regression tests for proper working of ForeignKey(null=True). Tests these bugs:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Regression test for #7512 ordering across nullable Foreign Keys shouldn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (7 shared connections)
-- [Community 662](Community_662.md) (3 shared connections)
-- [Community 445](Community_445.md) (2 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 27 (82%)
+- INFERRED: 6 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---
