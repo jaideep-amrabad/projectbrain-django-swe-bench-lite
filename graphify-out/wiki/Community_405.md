@@ -1,6 +1,6 @@
 # Community 405
 
-> 46 nodes · cohesion 0.05
+> 47 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -10,6 +10,7 @@
 - **KeyTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_invalid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 - **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 - **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 - **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
@@ -28,16 +29,16 @@
 - **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - **Field** (1 connections)
 - **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_field_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- *... and 21 more nodes in this community*
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 31](Community_31.md) (13 shared connections)
-- [Community 80](Community_80.md) (3 shared connections)
-- [Community 41](Community_41.md) (2 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
+- [Community 28](Community_28.md) (13 shared connections)
+- [Community 132](Community_132.md) (3 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
+- [Community 68](Community_68.md) (2 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,8 +47,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 66 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 67 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

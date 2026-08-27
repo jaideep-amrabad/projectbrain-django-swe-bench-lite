@@ -1,6 +1,6 @@
 # Community 216
 
-> 49 nodes · cohesion 0.09
+> 48 nodes · cohesion 0.10
 
 ## Key Concepts
 
@@ -29,20 +29,20 @@
 - **BigAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
 - **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
 - **SmallAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- *... and 24 more nodes in this community*
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (16 shared connections)
+- [Community 36](Community_36.md) (16 shared connections)
 - [Community 88](Community_88.md) (8 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 208](Community_208.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
@@ -51,7 +51,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 139 (91%)
+- EXTRACTED: 138 (91%)
 - INFERRED: 13 (9%)
 - AMBIGUOUS: 0 (0%)
 

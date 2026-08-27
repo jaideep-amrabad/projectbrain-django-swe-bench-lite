@@ -1,6 +1,6 @@
 # Community 157
 
-> 56 nodes · cohesion 0.05
+> 63 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -8,7 +8,9 @@
 - **FileAndImageFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **ImageFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
 - **FileInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **DirectoryCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 - **FileFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
 - **TextFileForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.test_readonly_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 - **get_img_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
@@ -22,28 +24,26 @@
 - **.test_file_field_multiple_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.test_filefield_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.test_full_clear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
 - **.from_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
 - **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_filefield_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_reopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_not_a_directory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- *... and 31 more nodes in this community*
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (7 shared connections)
-- [Community 12](Community_12.md) (7 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 22](Community_22.md) (8 shared connections)
 - [Community 85](Community_85.md) (7 shared connections)
-- [Community 261](Community_261.md) (5 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 290](Community_290.md) (4 shared connections)
-- [Community 99](Community_99.md) (4 shared connections)
-- [Community 54](Community_54.md) (3 shared connections)
+- [Community 263](Community_263.md) (5 shared connections)
+- [Community 110](Community_110.md) (5 shared connections)
+- [Community 294](Community_294.md) (4 shared connections)
+- [Community 53](Community_53.md) (3 shared connections)
+- [Community 337](Community_337.md) (3 shared connections)
 - [Community 166](Community_166.md) (3 shared connections)
-- [Community 198](Community_198.md) (3 shared connections)
-- [Community 335](Community_335.md) (2 shared connections)
+- [Community 196](Community_196.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
 - [Community 214](Community_214.md) (2 shared connections)
 
 ## Source Files
@@ -58,8 +58,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 113 (82%)
-- INFERRED: 24 (18%)
+- EXTRACTED: 127 (83%)
+- INFERRED: 26 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 # Community 16
 
-> 245 nodes · cohesion 0.02
+> 257 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -16,12 +16,12 @@
 - **GeometryCollection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
 - **LinearRing** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
 - **test_geos.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
-- **gis_migrations/test_operations.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **MultiPoint** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
 - **linestring.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
 - **MultiPolygon** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
 - **MultiLineString** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
 - **geos/coordseq.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **LinearGeometryMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **geos/prototypes/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/__init__.py`
 - **GEOSBase** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
 - **geos/io.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/io.py`
@@ -29,22 +29,22 @@
 - **geos/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
 - **.test_deconstructible()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
 - **polygon.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
-- *... and 220 more nodes in this community*
+- *... and 232 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (59 shared connections)
-- [Community 76](Community_76.md) (39 shared connections)
-- [Community 61](Community_61.md) (33 shared connections)
-- [Community 39](Community_39.md) (31 shared connections)
-- [Community 60](Community_60.md) (21 shared connections)
-- [Community 43](Community_43.md) (15 shared connections)
-- [Community 147](Community_147.md) (14 shared connections)
-- [Community 36](Community_36.md) (13 shared connections)
-- [Community 83](Community_83.md) (13 shared connections)
-- [Community 315](Community_315.md) (13 shared connections)
-- [Community 325](Community_325.md) (13 shared connections)
-- [Community 347](Community_347.md) (10 shared connections)
+- [Community 36](Community_36.md) (58 shared connections)
+- [Community 74](Community_74.md) (39 shared connections)
+- [Community 52](Community_52.md) (34 shared connections)
+- [Community 35](Community_35.md) (29 shared connections)
+- [Community 65](Community_65.md) (19 shared connections)
+- [Community 25](Community_25.md) (15 shared connections)
+- [Community 138](Community_138.md) (15 shared connections)
+- [Community 51](Community_51.md) (14 shared connections)
+- [Community 320](Community_320.md) (13 shared connections)
+- [Community 329](Community_329.md) (13 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 164](Community_164.md) (9 shared connections)
 
 ## Source Files
 
@@ -64,15 +64,15 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_coordseq.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
 
 ## Audit Trail
 
-- EXTRACTED: 855 (97%)
-- INFERRED: 30 (3%)
+- EXTRACTED: 844 (96%)
+- INFERRED: 31 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

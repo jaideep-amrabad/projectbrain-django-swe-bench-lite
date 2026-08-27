@@ -1,12 +1,14 @@
 # Community 117
 
-> 73 nodes · cohesion 0.05
+> 82 nodes · cohesion 0.05
 
 ## Key Concepts
 
 - **MigrationAutodetector** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - **._detect_changes()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - **.add_operation()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.handle()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 - **.generate_altered_fields()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - **._get_dependencies_for_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - **.through()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
@@ -23,39 +25,39 @@
 - **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - **.test_arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_custom_migration_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.describe_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 - **.arrange_for_graph()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_altered_options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- *... and 48 more nodes in this community*
+- *... and 57 more nodes in this community*
 
 ## Relationships
 
-- [Community 24](Community_24.md) (13 shared connections)
-- [Community 253](Community_253.md) (4 shared connections)
-- [Community 385](Community_385.md) (4 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 310](Community_310.md) (2 shared connections)
-- [Community 103](Community_103.md) (2 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 148](Community_148.md) (1 shared connections)
-- [Community 175](Community_175.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 185](Community_185.md) (1 shared connections)
+- [Community 21](Community_21.md) (13 shared connections)
+- [Community 97](Community_97.md) (8 shared connections)
+- [Community 542](Community_542.md) (4 shared connections)
+- [Community 62](Community_62.md) (3 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 256](Community_256.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 502](Community_502.md) (2 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 503](Community_503.md) (1 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 162 (92%)
-- INFERRED: 15 (8%)
+- EXTRACTED: 184 (90%)
+- INFERRED: 20 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

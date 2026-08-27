@@ -1,6 +1,6 @@
 # Community 98
 
-> 86 nodes · cohesion 0.04
+> 109 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -8,6 +8,7 @@
 - **MigrationLoader** (74 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 - **MigrationRecorder** (50 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
 - **LoaderTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **ExecutorTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **.build_graph()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 - **.test_migrations_applied_and_recorded_atomically()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **.test_loading_squashed_ref_squashed()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
@@ -22,29 +23,28 @@
 - **.test_loading_squashed_erroneous()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_plan_handles_repeated_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_makemigrations_inconsistent_history()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_check_consistent_history()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_explicit_missing_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_ignore_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_load_unmigrated_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_namespace_package()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_squashed_complex_multi_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_marked_as_migrated()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- *... and 61 more nodes in this community*
+- **.test_atomic_operation_in_non_atomic_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_detect_soft_applied_add_field_manytomanyfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_empty_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_mixed_plan_not_supported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_non_atomic_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_process_callback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- *... and 84 more nodes in this community*
 
 ## Relationships
 
-- [Community 177](Community_177.md) (28 shared connections)
-- [Community 8](Community_8.md) (25 shared connections)
-- [Community 1](Community_1.md) (22 shared connections)
-- [Community 411](Community_411.md) (17 shared connections)
-- [Community 11](Community_11.md) (13 shared connections)
-- [Community 103](Community_103.md) (11 shared connections)
+- [Community 97](Community_97.md) (45 shared connections)
+- [Community 9](Community_9.md) (38 shared connections)
+- [Community 176](Community_176.md) (28 shared connections)
+- [Community 10](Community_10.md) (13 shared connections)
 - [Community 161](Community_161.md) (10 shared connections)
-- [Community 24](Community_24.md) (6 shared connections)
-- [Community 768](Community_768.md) (6 shared connections)
-- [Community 23](Community_23.md) (6 shared connections)
-- [Community 820](Community_820.md) (5 shared connections)
-- [Community 69](Community_69.md) (4 shared connections)
+- [Community 148](Community_148.md) (9 shared connections)
+- [Community 23](Community_23.md) (7 shared connections)
+- [Community 62](Community_62.md) (6 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 773](Community_773.md) (6 shared connections)
+- [Community 823](Community_823.md) (5 shared connections)
+- [Community 223](Community_223.md) (5 shared connections)
 
 ## Source Files
 
@@ -58,8 +58,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 214 (58%)
-- INFERRED: 152 (42%)
+- EXTRACTED: 267 (64%)
+- INFERRED: 151 (36%)
 - AMBIGUOUS: 0 (0%)
 
 ---
