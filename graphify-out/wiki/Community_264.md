@@ -35,11 +35,11 @@
 
 - [Community 3](Community_3.md) (15 shared connections)
 - [Community 111](Community_111.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
 - [Community 13](Community_13.md) (4 shared connections)
-- [Community 768](Community_768.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 757](Community_757.md) (1 shared connections)
+- [Community 753](Community_753.md) (1 shared connections)
 
 ## Source Files
 

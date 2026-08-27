@@ -1,6 +1,6 @@
 # Community 1
 
-> 300 nodes · cohesion 0.01
+> 302 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -8,6 +8,7 @@
 - **admin/utils.py** (63 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 - **utils/http.py** (58 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
 - **admin_list.py** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **RemovedInDjango40Warning** (49 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
 - **TemplateResponse** (44 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
 - **helpers.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
 - **format_html()** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
@@ -28,23 +29,22 @@
 - **.delete_view()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - **admin_urls.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
 - **utils_tests/test_decorators.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **InlineAdminForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- *... and 275 more nodes in this community*
+- *... and 277 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (65 shared connections)
-- [Community 66](Community_66.md) (43 shared connections)
-- [Community 768](Community_768.md) (37 shared connections)
-- [Community 96](Community_96.md) (36 shared connections)
-- [Community 15](Community_15.md) (35 shared connections)
+- [Community 108](Community_108.md) (65 shared connections)
+- [Community 173](Community_173.md) (43 shared connections)
+- [Community 14](Community_14.md) (40 shared connections)
+- [Community 86](Community_86.md) (40 shared connections)
+- [Community 107](Community_107.md) (37 shared connections)
 - [Community 3](Community_3.md) (34 shared connections)
-- [Community 17](Community_17.md) (29 shared connections)
-- [Community 33](Community_33.md) (27 shared connections)
-- [Community 12](Community_12.md) (22 shared connections)
-- [Community 24](Community_24.md) (20 shared connections)
+- [Community 18](Community_18.md) (28 shared connections)
+- [Community 32](Community_32.md) (27 shared connections)
+- [Community 6](Community_6.md) (22 shared connections)
+- [Community 13](Community_13.md) (21 shared connections)
 - [Community 0](Community_0.md) (19 shared connections)
-- [Community 36](Community_36.md) (18 shared connections)
+- [Community 202](Community_202.md) (18 shared connections)
 
 ## Source Files
 
@@ -61,18 +61,18 @@
 - `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - `raw/code/hyd-evaluation/django-django/django/template/response.py`
 - `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/http.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1147 (96%)
-- INFERRED: 50 (4%)
+- EXTRACTED: 1166 (94%)
+- INFERRED: 72 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

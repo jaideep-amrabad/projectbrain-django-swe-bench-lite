@@ -13,8 +13,8 @@
 
 - [Community 3](Community_3.md) (2 shared connections)
 - [Community 13](Community_13.md) (1 shared connections)
-- [Community 768](Community_768.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 

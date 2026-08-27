@@ -1,6 +1,6 @@
 # Community 41
 
-> 116 nodes · cohesion 0.02
+> 124 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -23,28 +23,28 @@
 - **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **PasswordInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **RadioSelect** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SplitHiddenDateTimeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **.test_charfield_widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **SplitHiddenDateTimeWidgetTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
 - **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
 - **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **DateInput** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TimeInput** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 91 more nodes in this community*
+- *... and 99 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (31 shared connections)
-- [Community 48](Community_48.md) (12 shared connections)
-- [Community 297](Community_297.md) (11 shared connections)
-- [Community 66](Community_66.md) (10 shared connections)
-- [Community 425](Community_425.md) (8 shared connections)
-- [Community 258](Community_258.md) (6 shared connections)
-- [Community 401](Community_401.md) (5 shared connections)
-- [Community 161](Community_161.md) (5 shared connections)
-- [Community 345](Community_345.md) (5 shared connections)
+- [Community 6](Community_6.md) (33 shared connections)
+- [Community 296](Community_296.md) (12 shared connections)
+- [Community 198](Community_198.md) (11 shared connections)
+- [Community 173](Community_173.md) (11 shared connections)
+- [Community 394](Community_394.md) (8 shared connections)
+- [Community 150](Community_150.md) (6 shared connections)
+- [Community 333](Community_333.md) (5 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 242](Community_242.md) (5 shared connections)
+- [Community 341](Community_341.md) (5 shared connections)
 - [Community 1](Community_1.md) (4 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 768](Community_768.md) (3 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
 
 ## Source Files
 
@@ -60,14 +60,15 @@
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_numberinput.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 277 (91%)
-- INFERRED: 29 (9%)
+- EXTRACTED: 288 (90%)
+- INFERRED: 33 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

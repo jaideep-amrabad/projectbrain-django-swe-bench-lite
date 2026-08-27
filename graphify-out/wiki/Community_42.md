@@ -1,6 +1,6 @@
 # Community 42
 
-> 158 nodes · cohesion 0.03
+> 156 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
 - **CryptPasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 - **UnsaltedMD5PasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- *... and 133 more nodes in this community*
+- *... and 131 more nodes in this community*
 
 ## Relationships
 
-- [Community 17](Community_17.md) (24 shared connections)
-- [Community 15](Community_15.md) (20 shared connections)
-- [Community 13](Community_13.md) (14 shared connections)
-- [Community 287](Community_287.md) (9 shared connections)
-- [Community 314](Community_314.md) (6 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
+- [Community 18](Community_18.md) (23 shared connections)
+- [Community 14](Community_14.md) (20 shared connections)
+- [Community 13](Community_13.md) (13 shared connections)
+- [Community 285](Community_285.md) (9 shared connections)
+- [Community 312](Community_312.md) (6 shared connections)
+- [Community 64](Community_64.md) (5 shared connections)
 - [Community 3](Community_3.md) (4 shared connections)
-- [Community 66](Community_66.md) (4 shared connections)
-- [Community 768](Community_768.md) (4 shared connections)
-- [Community 204](Community_204.md) (3 shared connections)
-- [Community 409](Community_409.md) (3 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
+- [Community 173](Community_173.md) (4 shared connections)
+- [Community 107](Community_107.md) (4 shared connections)
+- [Community 194](Community_194.md) (3 shared connections)
+- [Community 408](Community_408.md) (3 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
 
 ## Source Files
 
@@ -54,12 +54,11 @@
 - `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 - `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
 
 ## Audit Trail
 
-- EXTRACTED: 426 (99%)
+- EXTRACTED: 423 (99%)
 - INFERRED: 5 (1%)
 - AMBIGUOUS: 0 (0%)
 

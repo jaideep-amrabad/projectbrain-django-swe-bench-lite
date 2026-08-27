@@ -1,6 +1,6 @@
 # Community 46
 
-> 150 nodes · cohesion 0.03
+> 160 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -13,8 +13,10 @@
 - **skipUnless** (15 connections)
 - **.get_constraints()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.get_constraints_for_column()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **BigAutoField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **schema/fields.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 - **.get_indexes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **BigIntegerField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **.test_unique_and_reverse_m2m()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **MediumBlobField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 - **._test_m2m()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
@@ -27,24 +29,22 @@
 - **.test_check_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_indexes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_order_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_primary_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_remove_constraints_capital_letters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 125 more nodes in this community*
+- *... and 135 more nodes in this community*
 
 ## Relationships
 
-- [Community 116](Community_116.md) (75 shared connections)
-- [Community 318](Community_318.md) (26 shared connections)
-- [Community 106](Community_106.md) (14 shared connections)
-- [Community 3](Community_3.md) (14 shared connections)
-- [Community 79](Community_79.md) (13 shared connections)
-- [Community 26](Community_26.md) (10 shared connections)
-- [Community 115](Community_115.md) (9 shared connections)
-- [Community 158](Community_158.md) (7 shared connections)
-- [Community 579](Community_579.md) (6 shared connections)
-- [Community 527](Community_527.md) (6 shared connections)
-- [Community 74](Community_74.md) (5 shared connections)
-- [Community 11](Community_11.md) (5 shared connections)
+- [Community 115](Community_115.md) (74 shared connections)
+- [Community 251](Community_251.md) (29 shared connections)
+- [Community 28](Community_28.md) (21 shared connections)
+- [Community 3](Community_3.md) (16 shared connections)
+- [Community 27](Community_27.md) (10 shared connections)
+- [Community 114](Community_114.md) (9 shared connections)
+- [Community 163](Community_163.md) (7 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 575](Community_575.md) (6 shared connections)
+- [Community 523](Community_523.md) (6 shared connections)
+- [Community 63](Community_63.md) (5 shared connections)
+- [Community 182](Community_182.md) (4 shared connections)
 
 ## Source Files
 
@@ -56,7 +56,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 496 (92%)
+- EXTRACTED: 516 (92%)
 - INFERRED: 43 (8%)
 - AMBIGUOUS: 0 (0%)
 
