@@ -134,7 +134,8 @@
             for (const lookup of ALL_DOWNCODE_MAPS) {
                 Object.assign(Downcoder.map, lookup);
             }
-            Downcoder.regex = new RegExp(Object.keys(Downcoder.map).join('|'), 'g');
+            Downcoder.chars = Object.keys(Downcoder.map);
+            Downcoder.regex = new RegExp(Downcoder.chars.join('|'), 'g');
         }
     };
 

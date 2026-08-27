@@ -642,9 +642,9 @@ class ModelAdmin(BaseModelAdmin):
             'jquery.init.js',
             'core.js',
             'admin/RelatedObjectLookups.js',
-            'actions.js',
+            'actions%s.js' % extra,
             'urlify.js',
-            'prepopulate.js',
+            'prepopulate%s.js' % extra,
             'vendor/xregexp/xregexp%s.js' % extra,
         ]
         return forms.Media(js=['admin/js/%s' % url for url in js])
@@ -2024,11 +2024,12 @@ class InlineModelAdmin(BaseModelAdmin):
     @property
     def media(self):
         extra = '' if settings.DEBUG else '.min'
-        js = ['vendor/jquery/jquery%s.js' % extra, 'jquery.init.js', 'inlines.js']
+        js = ['vendor/jquery/jquery%s.js' % extra, 'jquery.init.js',
+              'inlines%s.js' % extra]
         if self.filter_vertical or self.filter_horizontal:
             js.extend(['SelectBox.js', 'SelectFilter2.js'])
         if self.classes and 'collapse' in self.classes:
-            js.append('collapse.js')
+            js.append('collapse%s.js' % extra)
         return forms.Media(js=['admin/js/%s' % url for url in js])
 
     def get_extra(self, request, obj=None, **kwargs):

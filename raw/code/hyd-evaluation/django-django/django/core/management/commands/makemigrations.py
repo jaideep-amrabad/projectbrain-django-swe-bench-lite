@@ -1,6 +1,5 @@
 import os
 import sys
-import warnings
 from itertools import takewhile
 
 from django.apps import apps
@@ -8,7 +7,7 @@ from django.conf import settings
 from django.core.management.base import (
     BaseCommand, CommandError, no_translations,
 )
-from django.db import DEFAULT_DB_ALIAS, OperationalError, connections, router
+from django.db import DEFAULT_DB_ALIAS, connections, router
 from django.db.migrations import Migration
 from django.db.migrations.autodetector import MigrationAutodetector
 from django.db.migrations.loader import MigrationLoader
@@ -99,15 +98,8 @@ class Command(BaseCommand):
                     for app_label in consistency_check_labels
                     for model in apps.get_app_config(app_label).get_models()
             )):
-                try:
-                    loader.check_consistent_history(connection)
-                except OperationalError as error:
-                    warnings.warn(
-                        "Got an error checking a consistent migration history "
-                        "performed for database connection '%s': %s."
-                        % (alias, error),
-                        RuntimeWarning,
-                    )
+                loader.check_consistent_history(connection)
+
         # Before anything else, see if there's conflicting apps and drop out
         # hard if there are any and they don't want to merge
         conflicts = loader.detect_conflicts()

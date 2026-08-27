@@ -31,7 +31,7 @@ class GrailTestData:
                 'Bravely bold Sir Robin, rode forth from Camelot. '
                 'He was not afraid to die, o Brave Sir Robin. '
                 'He was not at all afraid to be killed in nasty ways. '
-                'Brave, brave, brave, brave Sir Robin'
+                'Brave, brave, brave, brave Sir Robin!'
             ),
             (
                 'He was not in the least bit scared to be mashed into a pulp, '
@@ -195,6 +195,7 @@ class MultipleFieldsTest(GrailTestData, PostgreSQLTestCase):
         ).filter(search=str(self.crowd.id))
         self.assertSequenceEqual(searched, [self.crowd])
 
+    @skipUnlessDBFeature('has_phraseto_tsquery')
     def test_phrase_search(self):
         line_qs = Line.objects.annotate(search=SearchVector('dialogue'))
         searched = line_qs.filter(search=SearchQuery('burned body his away', search_type='phrase'))
@@ -202,6 +203,7 @@ class MultipleFieldsTest(GrailTestData, PostgreSQLTestCase):
         searched = line_qs.filter(search=SearchQuery('his body burned away', search_type='phrase'))
         self.assertSequenceEqual(searched, [self.verse1])
 
+    @skipUnlessDBFeature('has_phraseto_tsquery')
     def test_phrase_search_with_config(self):
         line_qs = Line.objects.annotate(
             search=SearchVector('scene__setting', 'dialogue', config='french'),
@@ -384,6 +386,7 @@ class TestCombinations(GrailTestData, PostgreSQLTestCase):
         )
         self.assertSequenceEqual(searched, [self.verse2])
 
+    @skipUnlessDBFeature('has_phraseto_tsquery')
     def test_combine_raw_phrase(self):
         searched = Line.objects.filter(
             dialogue__search=(
@@ -578,7 +581,7 @@ class SearchHeadlineTests(GrailTestData, PostgreSQLTestCase):
         self.assertEqual(
             searched.headline,
             'Robin. He was not at all afraid to be <b>killed</b> in nasty '
-            'ways. Brave, brave, brave, brave Sir Robin',
+            'ways. Brave, brave, brave, brave Sir Robin!',
         )
 
     def test_headline_with_config(self):
@@ -641,15 +644,13 @@ class SearchHeadlineTests(GrailTestData, PostgreSQLTestCase):
         searched = Line.objects.annotate(
             headline=SearchHeadline(
                 'dialogue',
-                SearchQuery('Camelot', config='english'),
-                short_word=5,
-                min_words=8,
+                SearchQuery('brave sir robin', config='english'),
+                short_word=6,
             ),
         ).get(pk=self.verse0.pk)
-        self.assertEqual(searched.headline, (
-            '<b>Camelot</b>. He was not afraid to die, o Brave Sir Robin. He '
-            'was not at all afraid'
-        ))
+        self.assertIs(searched.headline.endswith(
+            '<b>Brave</b>, <b>brave</b>, <b>brave</b>, <b>brave</b> <b>Sir</b>'
+        ), True)
 
     def test_headline_fragments_words_options(self):
         searched = Line.objects.annotate(

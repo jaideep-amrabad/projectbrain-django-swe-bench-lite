@@ -873,15 +873,15 @@ class IncompleteCategoryFormWithExclude(forms.ModelForm):
 class ValidationTest(SimpleTestCase):
     def test_validates_with_replaced_field_not_specified(self):
         form = IncompleteCategoryFormWithFields(data={'name': 'some name', 'slug': 'some-slug'})
-        self.assertIs(form.is_valid(), True)
+        assert form.is_valid()
 
     def test_validates_with_replaced_field_excluded(self):
         form = IncompleteCategoryFormWithExclude(data={'name': 'some name', 'slug': 'some-slug'})
-        self.assertIs(form.is_valid(), True)
+        assert form.is_valid()
 
     def test_notrequired_overrides_notblank(self):
         form = CustomWriterForm({})
-        self.assertIs(form.is_valid(), True)
+        assert form.is_valid()
 
 
 class UniqueTest(TestCase):
