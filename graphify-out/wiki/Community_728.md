@@ -1,34 +1,34 @@
 # Community 728
 
-> 12 nodes · cohesion 0.23
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ExceptionsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **setup** (5 connections)
-- **.test_exception01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **.test_exception02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **.test_exception03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **.test_exception04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **.test_exception05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for invalid template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for invalid variable template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for extra {% extends %} tags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for custom tags used in child with {% load %} tag in parent,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
-- **Raise exception for block.super used in base template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **AjaxResponseExceptionReporterFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_custom_exception_reporter_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_non_sensitive_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_ajax_response_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **It's possible to assign an exception reporter filter to the request to bypass…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Sensitive information can be filtered out of error reports. Here we…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Request info can bee seen in the default error reports for non-sensitive…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
+- [Community 257](Community_257.md) (5 shared connections)
+- [Community 106](Community_106.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 638](Community_638.md) (1 shared connections)
+- [Community 829](Community_829.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,44 @@
 # Community 591
 
-> 15 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **JSONModel** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_boolean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_custom_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_empty_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_empty_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_realistic_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **JSONModel.field_custom has a custom DjangoJSONEncoder.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **FromDBValueTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **from_db_value/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **from_db_value/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **Cash** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **CashModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **CashField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.test_aggregation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_simple_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
 
 ## Relationships
 
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 90](Community_90.md) (5 shared connections)
-- [Community 571](Community_571.md) (2 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (83%)
-- INFERRED: 6 (17%)
+- EXTRACTED: 27 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

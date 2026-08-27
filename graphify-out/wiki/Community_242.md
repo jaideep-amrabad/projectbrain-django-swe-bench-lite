@@ -1,69 +1,61 @@
 # Community 242
 
-> 69 nodes · cohesion 0.05
+> 55 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **PostgreSQLTestCase** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
-- **search.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **postgres_tests/__init__.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
-- **test_aggregates.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **test_trigram.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **CITextTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **postgres_tests/test_functions.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **test_apps.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **test_citext.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **test_unaccent.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **UnaccentTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **CharFieldModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **postgres_tests/test_introspection.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
-- **TrigramBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **AggregateTestModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **StatTestModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **TextFieldModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **InspectDBTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
-- **postgres/functions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **PostgresConfigTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **RandomUUID** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- *... and 44 more nodes in this community*
+- **model_formsets/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **MexicanRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Poem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AuthorMeeting** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BetterAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ClassyMexicanRestaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Owner** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **OwnerProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **.test_inline_formsets_save_as_new()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 54](Community_54.md) (23 shared connections)
-- [Community 130](Community_130.md) (15 shared connections)
-- [Community 313](Community_313.md) (11 shared connections)
-- [Community 141](Community_141.md) (9 shared connections)
-- [Community 38](Community_38.md) (8 shared connections)
-- [Community 571](Community_571.md) (8 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 110](Community_110.md) (6 shared connections)
-- [Community 276](Community_276.md) (5 shared connections)
-- [Community 342](Community_342.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 200](Community_200.md) (4 shared connections)
+- [Community 239](Community_239.md) (33 shared connections)
+- [Community 294](Community_294.md) (13 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 216](Community_216.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 245 (93%)
-- INFERRED: 19 (7%)
+- EXTRACTED: 137 (80%)
+- INFERRED: 35 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

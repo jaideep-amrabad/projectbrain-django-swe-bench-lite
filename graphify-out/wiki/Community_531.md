@@ -1,45 +1,39 @@
 # Community 531
 
-> 21 nodes · cohesion 0.10
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **FormsMediaTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_js_three_way()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_multi_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_combine_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_construction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_html_safe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_dsl()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_extends()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_from_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_single_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_property_parent_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_css_three_way()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_js_three_way2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_multi_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **Tests for the media handling on widgets and forms** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **The relative order of scripts is preserved in a three-way merge.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **._dumpdata_assert()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **DumpDataAssertMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_proxy_with_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_proxy_without_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_filtering_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_pks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_loading_and_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_output_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **A warning is displayed if a proxy model is dumped without its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **A warning isn't displayed if a proxy model is dumped with its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 329](Community_329.md) (1 shared connections)
+- [Community 114](Community_114.md) (9 shared connections)
+- [Community 382](Community_382.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 689](Community_689.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
+- EXTRACTED: 27 (96%)
 - INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 

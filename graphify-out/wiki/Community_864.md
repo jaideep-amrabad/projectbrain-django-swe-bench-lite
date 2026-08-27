@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **DefaultCacheProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **Proxy access to the default Cache object's attributes. This allows the legacy…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

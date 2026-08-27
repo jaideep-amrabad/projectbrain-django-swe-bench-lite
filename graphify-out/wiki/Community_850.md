@@ -1,36 +1,30 @@
 # Community 850
 
-> 8 nodes · cohesion 0.46
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **model_package/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
-- **model_package/models/article.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
-- **publication.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
-- **model_package/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
-- **Publication** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
-- **Site** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
-- **Advertisement** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **JSONEqualTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_equal_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_not_equal_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 887](Community_887.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

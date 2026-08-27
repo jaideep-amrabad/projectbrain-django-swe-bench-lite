@@ -1,40 +1,39 @@
 # Community 584
 
-> 15 nodes · cohesion 0.14
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **.set_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **setter** (5 connections)
-- **._set_streaming_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **._wrap_file_to_stream_close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Turn a value into a bytestring encoded in the output charset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Wrap the file-like close() with a version that calls FileResponse.close().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Set some common response headers (Content-Length, Content-Type, and Content-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **LocMemCacheTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **limit_locmem_entries** (3 connections)
+- **.test_lru_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_multiple_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_incr_decr_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Multiple locmem caches are isolated** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **incr/decr does not modify expiry time (matches memcached behavior)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **get() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **set() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **incr() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 134](Community_134.md) (5 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 31](Community_31.md) (3 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 298](Community_298.md) (1 shared connections)
+- [Community 640](Community_640.md) (1 shared connections)
+- [Community 914](Community_914.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

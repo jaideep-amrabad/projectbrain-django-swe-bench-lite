@@ -1,42 +1,30 @@
 # Community 870
 
-> 15 nodes · cohesion 0.16
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **l10n.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **LocalizeNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **localize_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **localize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **unlocalize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **LocalizeNodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_trans.py`
-- **filter** (2 connections)
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_trans.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **Node** (1 connections)
-- **Force a value to be rendered as a non-localized value, regardless of the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **Force or prevents localization of values, regardless of the value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **Force a value to be rendered as a localized value, regardless of the value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **MigrateTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **.test_migrate_gis()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **.assertTableExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **.assertTableNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **.get_table_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **Tests basic usage of the migrate command when a model uses Geodjango fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **Tests running the migrate command in Geodjango.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 32](Community_32.md) (3 shared connections)
-- [Community 149](Community_149.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_trans.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

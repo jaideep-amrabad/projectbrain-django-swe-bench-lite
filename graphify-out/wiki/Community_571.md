@@ -1,65 +1,41 @@
 # Community 571
 
-> 65 nodes · cohesion 0.04
+> 18 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **PostgreSQLSimpleTestCase** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
-- **test_hstore.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **TestQuerying** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **HStoreModel** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **KeysValidator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **TestFormField** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **SimpleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **TestValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **PostgreSQLWidgetTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
-- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **test_integration.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_integration.py`
-- **TestModelMetaOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **skipUnless** (3 connections)
-- **.test_key_sql_injection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **PostgresIntegrationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_integration.py`
-- **TestWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_save_load_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_value_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_roundtrip_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_custom_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- *... and 40 more nodes in this community*
+- **FirstOfTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **setup** (16 connections)
+- **.test_all_false_arguments_asvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
 
 ## Relationships
 
-- [Community 54](Community_54.md) (10 shared connections)
-- [Community 242](Community_242.md) (8 shared connections)
-- [Community 94](Community_94.md) (7 shared connections)
-- [Community 110](Community_110.md) (7 shared connections)
-- [Community 90](Community_90.md) (5 shared connections)
-- [Community 223](Community_223.md) (4 shared connections)
-- [Community 384](Community_384.md) (2 shared connections)
-- [Community 591](Community_591.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 265](Community_265.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_integration.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (96%)
-- INFERRED: 6 (4%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

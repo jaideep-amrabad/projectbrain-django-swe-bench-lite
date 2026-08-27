@@ -1,56 +1,53 @@
 # Community 360
 
-> 21 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **admin_checks/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **admin_checks/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Influence** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.test_custom_modelforms_with_fields_fieldsets()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **GenericStackedInline** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **Album** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **State** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **TwoAlbumFKAndAnE** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **ValidFormFieldsets** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **ValidFields** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **AuthorsBooks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Tests of ModelAdmin system checks logic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.readonly_method_on_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **# Regression test for #8027: custom ModelForms with fields/fieldsets** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **.get_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.build_filter()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **MultiColSource** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **.build_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.check_related_objects()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.is_nullable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.split_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.check_filterable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.check_query_object_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.try_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.build_filtered_relation_q()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.resolve_lookup_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **Check whether the object passed while querying is of the correct type. If not,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Check the type of object passed to query relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Raise an error if expression cannot be used in a WHERE clause.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Try to extract transforms and lookup from given lhs. The lhs value is something…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Helper method for build_lookup(). Try to fetch and initialize a transform for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Build a WhereNode for a single filter clause but don't add it to this Query.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add a FilteredRelation object to the current filter.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **When doing an exclude against any kind of N-to-many relation, we need to use a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Check if the given field should be treated as nullable. Some backends treat ''…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (14 shared connections)
-- [Community 10](Community_10.md) (7 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 358](Community_358.md) (3 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
-- [Community 340](Community_340.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 27](Community_27.md) (11 shared connections)
+- [Community 14](Community_14.md) (8 shared connections)
+- [Community 264](Community_264.md) (6 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 100](Community_100.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (88%)
-- INFERRED: 9 (12%)
+- EXTRACTED: 51 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,43 @@
 # Community 526
 
-> 20 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **FSFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **_MediaFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.serve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__call__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **_StaticFilesHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_base_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **WSGI middleware that intercepts calls to a directory, as defined by one of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Return the relative path to the file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Handler for serving static files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Handler for serving the media files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Wrapper around default __call__ method to perform common Django test set up.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_base_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_base_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Serializer** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.serialize()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.end_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.end_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.getvalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_fk_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.start_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.start_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of the queryset starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of the queryset ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of an object starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of an object ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle each individual (non-relational) field on an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle a ForeignKey field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Return the fully serialized queryset (or None if the output stream is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Abstract serializer base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Serialize a queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 635](Community_635.md) (2 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
-- [Community 494](Community_494.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 484](Community_484.md) (1 shared connections)
+- [Community 281](Community_281.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

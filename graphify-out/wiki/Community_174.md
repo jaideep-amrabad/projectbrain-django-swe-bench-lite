@@ -1,61 +1,51 @@
 # Community 174
 
-> 58 nodes · cohesion 0.06
+> 58 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **FilteredRelation** (45 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **FilteredRelationTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **filtered_relation/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **filtered_relation/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **FilteredRelationAggregationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Editor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Borrower** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **RentalSession** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Reservation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **.test_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_union()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_with_condition_as_expression_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_as_subquery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_defer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_exclude_relation_with_join()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_internal_queryset_alias_mapping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_multiple_times()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_only_not_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_select_for_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_select_related_foreign_key_for_update_of()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_select_related_with_empty_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **GenericRelationsTests** (57 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_unsaved_instance_on_generic_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_access_content_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_access_via_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_exclude_generic_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_get_or_create_when_created()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_get_or_create_when_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_relations_m2m_mimic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_update_or_create_when_created()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_update_or_create_when_updated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_object_deletion_with_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_object_deletion_without_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_queries_across_generic_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_queries_content_type_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_query_content_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_set_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_subclasses_with_gen_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_subclasses_with_parent_gen_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_tag_deletion_related_objects_unaffected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Should be able to use update_or_create from the generic related manager to…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Should be able to use get_or_create from the generic related manager to create…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_bulk_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 - *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 85](Community_85.md) (28 shared connections)
-- [Community 44](Community_44.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 25](Community_25.md) (5 shared connections)
-- [Community 104](Community_104.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 340](Community_340.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 147](Community_147.md) (14 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 974](Community_974.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (77%)
-- INFERRED: 39 (23%)
+- EXTRACTED: 64 (84%)
+- INFERRED: 12 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

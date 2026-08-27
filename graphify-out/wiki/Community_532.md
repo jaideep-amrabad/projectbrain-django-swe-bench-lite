@@ -27,7 +27,7 @@
 
 ## Relationships
 
-- [Community 679](Community_679.md) (3 shared connections)
+- [Community 692](Community_692.md) (3 shared connections)
 
 ## Source Files
 

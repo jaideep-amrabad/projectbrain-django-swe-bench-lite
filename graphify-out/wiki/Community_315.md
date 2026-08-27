@@ -1,62 +1,67 @@
 # Community 315
 
-> 36 nodes · cohesion 0.08
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **InteractiveMigrationQuestioner** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **parse_duration()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- **get_fixed_timezone()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **dateparse.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- **parse_datetime()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- **test_dateparse.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **DurationParseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **parse_date()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- **parse_time()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
 - **.timezone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._choice_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.test_timedelta_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_auto_now_add_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Adding a NOT NULL field to a model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Changing a NULL field to NOT NULL.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Was this field really renamed?** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- *... and 11 more nodes in this community*
+- **DateParseTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_parse_datetime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_timezones()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_timezones()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **.convert_datefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.convert_datetimefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.convert_timefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_naturalday_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_parse_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_parse_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_days()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_fractions_of_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_hours_minutes_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
+- [Community 338](Community_338.md) (10 shared connections)
 - [Community 14](Community_14.md) (9 shared connections)
-- [Community 269](Community_269.md) (4 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 119](Community_119.md) (3 shared connections)
-- [Community 525](Community_525.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
+- [Community 29](Community_29.md) (6 shared connections)
+- [Community 314](Community_314.md) (3 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 145](Community_145.md) (3 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 424](Community_424.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 443](Community_443.md) (2 shared connections)
 - [Community 13](Community_13.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 630](Community_630.md) (1 shared connections)
-- [Community 367](Community_367.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
 - `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (87%)
-- INFERRED: 11 (13%)
+- EXTRACTED: 109 (96%)
+- INFERRED: 5 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

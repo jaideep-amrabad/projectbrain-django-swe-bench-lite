@@ -1,45 +1,57 @@
 # Community 282
 
-> 19 nodes · cohesion 0.11
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ManageAlternateSettings** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_output_color()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings file with a name other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail with an error when no default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands work with settings provided as argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands work if settings are provided in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py can't execute user commands without settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py output syntax color can be deactivated with the `--no-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **constraints/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **BaseConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **UniqueConstraintTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **CheckConstraintTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **constraints/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **UniqueConstraintProduct** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **BaseConstraintTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **ChildModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **get_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **AbstractModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **.test_abstract_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_model_validation_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_remove_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_model_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.constraint_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.create_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 122](Community_122.md) (9 shared connections)
-- [Community 179](Community_179.md) (9 shared connections)
-- [Community 614](Community_614.md) (9 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 266](Community_266.md) (1 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 35](Community_35.md) (4 shared connections)
+- [Community 249](Community_249.md) (3 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 77 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,56 +1,71 @@
 # Community 109
 
-> 83 nodes · cohesion 0.03
+> 85 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Operation** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **TestOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **RunSQL** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **operations/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **TestOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **custom_migration_operations/operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **more_operations.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **ArgsKwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ExpandArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **KwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **._run_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- *... and 58 more nodes in this community*
+- **encoding.py** (64 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **syndication/views.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **iri_to_uri()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **Promise** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **feedgenerator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **syndication_tests/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **test_encoding.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **make_aware()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **get_default_timezone()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Feed** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_feed()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **test_encoding_deprecations.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding_deprecations.py`
+- **is_naive()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **do_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **localtime()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **from_current_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- **get_current_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **template_localtime()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **repercent_broken_unicode()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **uri_to_iri()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **escape_uri_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **filepath_to_uri()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **smart_str()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **.test_datetime_with_tzinfo()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **.__call__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- *... and 60 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (11 shared connections)
-- [Community 342](Community_342.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 173](Community_173.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 51](Community_51.md) (25 shared connections)
+- [Community 165](Community_165.md) (16 shared connections)
+- [Community 29](Community_29.md) (14 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 373](Community_373.md) (9 shared connections)
+- [Community 25](Community_25.md) (8 shared connections)
+- [Community 67](Community_67.md) (8 shared connections)
+- [Community 50](Community_50.md) (7 shared connections)
+- [Community 13](Community_13.md) (6 shared connections)
+- [Community 38](Community_38.md) (6 shared connections)
+- [Community 142](Community_142.md) (5 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding_deprecations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 120 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 362 (95%)
+- INFERRED: 21 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

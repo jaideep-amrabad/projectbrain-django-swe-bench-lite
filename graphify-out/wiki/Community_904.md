@@ -1,30 +1,28 @@
 # Community 904
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **compare_xml()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.assertXMLEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertXMLNotEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that two XML snippets are semantically the same. Whitespace in most…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that two XML snippets are not semantically equivalent. Whitespace in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Try to do a 'xml-comparison' of want and got. Plain string comparison doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **PluralizeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.check_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_no_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_singular_and_plural_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **setup** (3 connections)
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

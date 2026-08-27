@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cancel.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **inlines.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/inlines.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/inlines.test.js`
 
 ## Audit Trail
 

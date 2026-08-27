@@ -1,65 +1,59 @@
 # Community 555
 
-> 50 nodes · cohesion 0.06
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SitemapTestsBase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- **_get_sitemap_full_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **sitemaps_tests/test_utils.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **TestModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **test_generic.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **PingGoogleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **GenericSitemap** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **ping_google()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **GenericViewsSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **I18nTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **HTTPSDetectionSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **SitemapNotFound** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/ping_google.py`
-- **.test_get_sitemap_full_url_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **.test_get_sitemap_full_url_no_sites()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **.test_get_sitemap_full_url_not_detected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **.test_something()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **.items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/ping_google.py`
-- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- *... and 25 more nodes in this community*
+- **MySQLOperations** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **MySQLGISSchemaEditor** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **MySQLIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **.gis_operators()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.column_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **MySQLDatabaseWrapper** (1 connections)
+- **.supports_spatial_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **DatabaseIntrospection** (1 connections)
+- **.from_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **.geo_db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **.get_distance()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **.select()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **.unsupported_functions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **DatabaseOperations** (1 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.skip_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 420](Community_420.md) (13 shared connections)
-- [Community 9](Community_9.md) (10 shared connections)
-- [Community 313](Community_313.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 32](Community_32.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 144](Community_144.md) (3 shared connections)
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
+- [Community 88](Community_88.md) (6 shared connections)
+- [Community 133](Community_133.md) (4 shared connections)
+- [Community 67](Community_67.md) (3 shared connections)
+- [Community 167](Community_167.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/ping_google.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (96%)
-- INFERRED: 5 (4%)
+- EXTRACTED: 46 (85%)
+- INFERRED: 8 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 # Community 103
 
-> 81 nodes · cohesion 0.04
+> 86 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -9,6 +9,7 @@
 - **GetOrCreateTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **get_or_create/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **GetOrCreateTestsWithManualPKs** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **InvalidCreateArgumentsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **Thing** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **GetOrCreateThroughManyToMany** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
@@ -22,26 +23,26 @@
 - **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **DefaultPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **.test_get_or_create_integrityerror()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **.test_creation_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **.test_updates_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **.capitalized_name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- *... and 56 more nodes in this community*
+- **.test_defaults_exact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (6 shared connections)
-- [Community 213](Community_213.md) (5 shared connections)
-- [Community 107](Community_107.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
@@ -50,7 +51,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 123 (86%)
+- EXTRACTED: 127 (86%)
 - INFERRED: 20 (14%)
 - AMBIGUOUS: 0 (0%)
 

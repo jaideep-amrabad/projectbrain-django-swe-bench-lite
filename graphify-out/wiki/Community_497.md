@@ -1,48 +1,43 @@
 # Community 497
 
-> 22 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **HumanizeTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.humanize_tester()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturaltime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday_uses_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_html_ordinal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_inflection_for_timedelta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_apnumber()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intcomma_without_number_grouping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_l10n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturaltime_as_documented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_ordinal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **MockDateTime** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **#23340 -- Verify the documented behavior of humanize.naturaltime.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **Translation of '%d day'/'%d month'/… may differ depending on the context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **Allow html in output on i18n strings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **SplitArrayField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **TestSplitFormField** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_splitarrayfield_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_rendering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_splitarraywidget_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.test_invalid_char_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_invalid_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_remove_trailing_nulls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_remove_trailing_nulls_not_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Relationships
 
-- [Community 32](Community_32.md) (5 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 313](Community_313.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 348](Community_348.md) (2 shared connections)
+- [Community 204](Community_204.md) (2 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
+- [Community 404](Community_404.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 20 (61%)
+- INFERRED: 13 (39%)
 - AMBIGUOUS: 0 (0%)
 
 ---

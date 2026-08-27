@@ -1,64 +1,57 @@
 # Community 304
 
-> 79 nodes · cohesion 0.04
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **BasicExpressionsTests** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Subquery** (45 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **OuterRef** (44 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **RawSQL** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **Exists** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **ResolvedOuterRef** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.test_group_by_exists_annotation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **.test_group_by_subquery_annotation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **SimulationRun** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **.test_aggregation_subquery_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **.test_aggregate_subquery_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_annotation_filter_with_subquery()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_rawsql_group_by_collapse()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_annotation_with_outerref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_filtering_on_annotate_that_uses_q()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_nested_subquery()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_nested_subquery_outer_ref_2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_new_object_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_object_update_unsaved_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_subquery()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_subquery_filter_by_aggregate()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_annotate_values_aggregate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_annotations_within_subquery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_nested_subquery_outer_ref_with_autofield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_new_object_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- *... and 54 more nodes in this community*
+- **CsrfViewMiddlewareTestMixin** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **post_form_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **._get_POST_request_with_token()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._get_POST_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_token_node_no_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_csrf_token_in_header_with_customized_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_bad_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_csrf_trusted_origin_allowed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_csrf_wildcard_trusted_origin_allowed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_malformed_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_request_csrf_cookie_no_token_exempt_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_reject_insecure_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_reject_insecure_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_cookie_not_reset_on_accepted_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_csrf_token_in_header()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_request_csrf_cookie_and_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_request_csrf_cookie_no_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_post_data_read_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **CsrfTokenNode works when no CSRF cookie is set.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request with a bad referer is rejected** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request from an insecure referer should be rejected.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._get_GET_csrf_cookie_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If a CSRF cookie is present but no token, the middleware rejects the incoming…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 27](Community_27.md) (33 shared connections)
-- [Community 87](Community_87.md) (18 shared connections)
-- [Community 46](Community_46.md) (16 shared connections)
-- [Community 7](Community_7.md) (12 shared connections)
-- [Community 162](Community_162.md) (8 shared connections)
-- [Community 126](Community_126.md) (5 shared connections)
-- [Community 44](Community_44.md) (5 shared connections)
-- [Community 97](Community_97.md) (4 shared connections)
-- [Community 185](Community_185.md) (4 shared connections)
-- [Community 141](Community_141.md) (4 shared connections)
-- [Community 235](Community_235.md) (4 shared connections)
-- [Community 25](Community_25.md) (4 shared connections)
+- [Community 587](Community_587.md) (13 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 782](Community_782.md) (8 shared connections)
+- [Community 419](Community_419.md) (7 shared connections)
+- [Community 197](Community_197.md) (5 shared connections)
+- [Community 956](Community_956.md) (3 shared connections)
+- [Community 893](Community_893.md) (3 shared connections)
+- [Community 577](Community_577.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 230 (86%)
-- INFERRED: 38 (14%)
+- EXTRACTED: 94 (81%)
+- INFERRED: 22 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

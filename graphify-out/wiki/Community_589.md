@@ -1,70 +1,44 @@
 # Community 589
 
-> 67 nodes · cohesion 0.04
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Lower** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Upper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Concat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Substr** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Left** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **test_substr.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **ConcatPair** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Right** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **ConcatTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
-- **StrIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- **.test_functions()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **LeftTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
-- **RightTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
-- **SubstrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **.get_substr()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **LowerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
-- **OrdTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
-- **.coalesce()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.test_mixed_char_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
-- **.test_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **UpperTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_upper.py`
-- **.test_update_with_joined_field_annotation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **._paired()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- *... and 42 more nodes in this community*
+- **FlatpageTemplateTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.test_get_flatpages_tag_for_anon_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.test_get_flatpages_with_prefix_for_anon_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.test_get_flatpages_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.test_get_flatpages_tag_for_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.test_get_flatpages_with_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.test_get_flatpages_with_prefix_for_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.test_get_flatpages_with_variable_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.test_parsing_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **The flatpage template tag retrieves unregistered prefixed flatpages by default** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **The flatpage template tag retrieve prefixed flatpages for an authenticated user** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **The prefix for the flatpage template tag can be a template variable** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **There are various ways that the flatpages template tag won't parse** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **The flatpage template tag retrieves unregistered flatpages for an anonymous user** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **The flatpage template tag retrieves all flatpages for an authenticated user** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **The flatpage template tag retrieves unregistered prefixed flatpages for an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (43 shared connections)
-- [Community 53](Community_53.md) (18 shared connections)
-- [Community 44](Community_44.md) (14 shared connections)
-- [Community 27](Community_27.md) (6 shared connections)
-- [Community 276](Community_276.md) (6 shared connections)
-- [Community 87](Community_87.md) (4 shared connections)
-- [Community 68](Community_68.md) (4 shared connections)
-- [Community 141](Community_141.md) (3 shared connections)
-- [Community 289](Community_289.md) (3 shared connections)
-- [Community 235](Community_235.md) (3 shared connections)
-- [Community 304](Community_304.md) (3 shared connections)
-- [Community 185](Community_185.md) (3 shared connections)
+- [Community 23](Community_23.md) (7 shared connections)
+- [Community 99](Community_99.md) (7 shared connections)
+- [Community 394](Community_394.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_upper.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 223 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 29 (81%)
+- INFERRED: 7 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

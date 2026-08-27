@@ -1,37 +1,34 @@
 # Community 752
 
-> 11 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **m2m_intermediary/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **m2m_intermediary/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **M2MIntermediaryTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **Writer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **.test_intermediary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **Many-to-many relationships via an intermediary table For many-to-many…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__or__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__rand__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__ror__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 525](Community_525.md) (4 shared connections)
+- [Community 506](Community_506.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (83%)
-- INFERRED: 4 (17%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,69 +1,48 @@
 # Community 562
 
-> 82 nodes · cohesion 0.03
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **auth/__init__.py** (66 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **PermissionDenied** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **constant_time_compare()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **get_user_model()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **auth_tests/test_basic.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **auth_tests/test_decorators.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **createsuperuser.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **authenticate()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **get_user()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **BasicTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **login()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **get_default_username()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **load_backend()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **AllowAllUsersModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **ImproperlyConfiguredUserModelTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **_get_backends()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **ChangedBackendSettingsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_changed_backend_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **IsActiveTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **_get_user_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **._validate_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **.test_does_not_shadow_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- *... and 57 more nodes in this community*
+- **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_field()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._make_date_lookup_arg()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._make_single_date_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **timezone_today()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_allow_future()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.uses_datetime_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Mixin class for views manipulating date-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the name of the date field to be used to filter by.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return `True` if the view should be allowed to display objects from the future.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return `True` if the date field is a `DateTimeField` and `False` if it's a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Convert a date into a datetime when the date field is a DateTimeField. When…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the lookup kwargs for filtering on a single date. If the date field is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the field or fields to use for ordering the queryset; use the date field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get a queryset properly filtered according to `allow_future` and any extra…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the current date in the current time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (20 shared connections)
-- [Community 358](Community_358.md) (15 shared connections)
-- [Community 8](Community_8.md) (15 shared connections)
-- [Community 7](Community_7.md) (10 shared connections)
-- [Community 9](Community_9.md) (9 shared connections)
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 86](Community_86.md) (8 shared connections)
-- [Community 166](Community_166.md) (8 shared connections)
-- [Community 38](Community_38.md) (8 shared connections)
-- [Community 340](Community_340.md) (7 shared connections)
-- [Community 89](Community_89.md) (7 shared connections)
-- [Community 57](Community_57.md) (6 shared connections)
+- [Community 408](Community_408.md) (12 shared connections)
+- [Community 407](Community_407.md) (5 shared connections)
+- [Community 668](Community_668.md) (3 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 676](Community_676.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 616](Community_616.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 322 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 46 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

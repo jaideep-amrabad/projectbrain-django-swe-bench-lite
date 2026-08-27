@@ -1,61 +1,59 @@
 # Community 116
 
-> 36 nodes · cohesion 0.08
+> 71 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **AdminSeleniumTestCase** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **test_widgets.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **SeleniumTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_page_loaded()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_popup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.test_add_row_selection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_textarea_trailing_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.get_css_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.get_select_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Block until page has started to load.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Return the value for the CSS attribute of a DOM element specified by the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Return the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- *... and 11 more nodes in this community*
+- **BaseExpression** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **OrderBy** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.copy()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.get_source_expressions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.as_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **._resolve_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.resolve_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.get_source_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.resolve_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.asc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.contains_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.convert_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.desc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.get_group_by_cols()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.identity()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **._output_field_or_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.select_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.resolve_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 218](Community_218.md) (2 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 313](Community_313.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 585](Community_585.md) (1 shared connections)
-- [Community 1005](Community_1005.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 14](Community_14.md) (9 shared connections)
+- [Community 41](Community_41.md) (9 shared connections)
+- [Community 48](Community_48.md) (5 shared connections)
+- [Community 31](Community_31.md) (4 shared connections)
+- [Community 98](Community_98.md) (4 shared connections)
+- [Community 100](Community_100.md) (3 shared connections)
+- [Community 525](Community_525.md) (2 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 148](Community_148.md) (2 shared connections)
+- [Community 68](Community_68.md) (2 shared connections)
+- [Community 184](Community_184.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 127 (95%)
+- INFERRED: 7 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,49 +1,49 @@
 # Community 546
 
-> 19 nodes · cohesion 0.20
+> 19 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **FormsErrorMessagesTestCase** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.assertFormErrors()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **AssertFormErrorsMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_choicefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_filefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_multiplechoicefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_regexfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_splitdatetimefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_booleanfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_charfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_datefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_datetimefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_decimalfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_emailfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_floatfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_generic_ipaddressfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_integerfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_timefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_urlfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **DataTypesTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Donut** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **datatypes/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **datatypes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **.test_error_on_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **RumBaba** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **.test_boolean_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_date_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_datefield_auto_now_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_textfields_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_time_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_year_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **This is a basic model to test saving and loading boolean and date-related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **Year boundary tests (ticket #3689)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **TextField values returned from the database should be str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #8354: the MySQL and Oracle backends should raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #10970, auto_now_add for DateField should store a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 457](Community_457.md) (2 shared connections)
-- [Community 177](Community_177.md) (2 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
-- [Community 353](Community_353.md) (1 shared connections)
-- [Community 712](Community_712.md) (1 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 424](Community_424.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

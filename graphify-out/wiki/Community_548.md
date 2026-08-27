@@ -1,46 +1,45 @@
 # Community 548
 
-> 19 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **FileFieldTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **Document** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_move_temporary_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_clearable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_delete_when_file_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_open_returns_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_unique_when_same_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_refresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **skipIf** (1 connections)
-- **FileField.save_form_data() will clear its instance attribute value if passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **FileField.save_form_data() considers None to mean "no change" rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **FileField.save_form_data(), if passed a truthy value, updates its instance…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **Calling delete on an unset FileField should not call the file deletion process,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **A FileField with unique=True shouldn't allow two instances with the same name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **The temporary uploaded file is moved rather than copied to the destination.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **FieldField.open() returns self so it can be used as a context manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FlatpageCSRFTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_unknown_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to an unknown page isn't caught as a 403 CSRF error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage can be served through a view, even when the middleware is in use** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A nonexistent flatpage raises 404 when served through a view, even when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage can be served by the fallback middleware** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A nonexistent flatpage raises a 404 when served by the fallback middleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to a flatpage served through a view will raise a CSRF error if no token…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to a flatpage served by the middleware will raise a CSRF error if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 233](Community_233.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 260](Community_260.md) (1 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 247](Community_247.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,59 +1,60 @@
 # Community 272
 
-> 41 nodes · cohesion 0.07
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **model_fields/test_uuid.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **TestAsPrimaryKey** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **TestSaveLoad** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **PrimaryKeyUUIDModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestMethods** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **TestQuerying** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **RelatedToUUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **UUIDGrandchild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **UUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestAsPrimaryKeyTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **NullableUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **UUIDChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_unsaved_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_two_level_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_uuid_pk_on_bulk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_creation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_underlying_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_update_with_related_model_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_update_with_related_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_uuid_pk_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- *... and 16 more nodes in this community*
+- **signing.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **TimestampSigner** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **JSONSerializer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **PickleSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **sessions/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- **base64_hmac()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **dumps()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **get_cookie_signer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **loads()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b64_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b64_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.timestamp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- **.loads()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- **Simple wrapper around pickle to be used in signing.dumps and signing.loads.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.loads()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 233](Community_233.md) (7 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 213](Community_213.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 125](Community_125.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
+- [Community 25](Community_25.md) (5 shared connections)
+- [Community 50](Community_50.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 165](Community_165.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 614](Community_614.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 628](Community_628.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (87%)
-- INFERRED: 11 (13%)
+- EXTRACTED: 72 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

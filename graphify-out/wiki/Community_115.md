@@ -1,61 +1,61 @@
 # Community 115
 
-> 69 nodes · cohesion 0.04
+> 77 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.check()** (68 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **OtherModelTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **IndexTogetherTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **UniqueTogetherTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **FieldNamesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **IndexesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **SelfReferentialM2MClashTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **SelfReferentialFKClashTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_ordering_allows_registered_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_swappable_missing_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_swappable_missing_app_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_db_column_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_ending_with_underscore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_including_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_name_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_pointing_to_m2m_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_pointing_to_missing_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_list_containing_non_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_non_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_non_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_pointing_to_m2m_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_pointing_to_missing_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_just_ordering_no_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- *... and 44 more nodes in this community*
+- **GenericRelationTests** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- **generic_relations_regress/models.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **generic_relations_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- **ProtectedError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Note** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Link** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Place** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Restaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Address** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Cafe** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Company** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Team** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **CharLink** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Content** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Developer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Guild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **HasLinkThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [Community 91](Community_91.md) (18 shared connections)
-- [Community 95](Community_95.md) (9 shared connections)
-- [Community 48](Community_48.md) (8 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 751](Community_751.md) (3 shared connections)
-- [Community 855](Community_855.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 845](Community_845.md) (1 shared connections)
-- [Community 663](Community_663.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 846](Community_846.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
+- [Community 117](Community_117.md) (22 shared connections)
+- [Community 14](Community_14.md) (9 shared connections)
+- [Community 431](Community_431.md) (2 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 515](Community_515.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 147 (77%)
+- INFERRED: 44 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

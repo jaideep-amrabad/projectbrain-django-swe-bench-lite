@@ -1,47 +1,47 @@
 # Community 524
 
-> 20 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._remake_table()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_db_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.delete_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._is_referenced_by_fk_constraint()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.add_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Shortcut to transform a model from old_model into new_model This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Remove a field from a model. Usually involves deleting a column, but for M2Ms…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Perform a "physical" (non-ManyToMany) field update.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Alter M2Ms to repoint their to= endpoints.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Return whether or not the provided table name is referenced by another one. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **WKTAdapter** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **OracleSpatialAdapter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **._fix_polygon()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **spatialite/adapter.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **SpatiaLiteAdapter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **base/adapter.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **._fix_geometry_collection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **._isClockwise()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **An adaptor for Geometries sent to the MySQL and Oracle database backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **Oracle requires that polygon rings are in proper orientation. This affects…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **Fix single polygon orientation as described in __init__().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **Fix polygon orientations in geometry collections as described in __init__().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **A modified shoelace algorithm to determine polygon orientation. See…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **SQLite adapter for geometry objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **.__conform__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
+- [Community 88](Community_88.md) (5 shared connections)
+- [Community 804](Community_804.md) (3 shared connections)
+- [Community 555](Community_555.md) (1 shared connections)
 - [Community 145](Community_145.md) (1 shared connections)
-- [Community 629](Community_629.md) (1 shared connections)
-- [Community 310](Community_310.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 34 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

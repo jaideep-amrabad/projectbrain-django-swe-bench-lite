@@ -1,32 +1,38 @@
 # Community 765
 
-> 10 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **MapWidget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **OLMapWidget.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.clearFeatures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.enableDrawing()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.createInteractions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.createMap()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.defaultCenter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.disableDrawing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.serializeFeatures()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **TODO: allow deleting individual features (#8972)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **m2m_intermediary/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **m2m_intermediary/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **M2MIntermediaryTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Writer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.test_intermediary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Many-to-many relationships via an intermediary table For many-to-many…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

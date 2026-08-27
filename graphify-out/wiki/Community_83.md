@@ -1,64 +1,57 @@
 # Community 83
 
-> 92 nodes · cohesion 0.04
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DiscoverRunner** (60 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **DiscoverRunnerTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **captured_stdout()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **RemoveStaleContentTypesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **test_discover_runner.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **DiscoverRunnerGetDatabasesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.get_databases()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **CustomOptionsTestRunner** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **.test_name_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **RunTestsExceptionHandlingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_interactive_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_true_with_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_true_without_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **change_cwd()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_empty_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **SQLiteInMemoryTestDbs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_transaction_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run_suite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_contenttypes_removed_in_apps_without_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_unavailable_content_type_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- *... and 67 more nodes in this community*
+- **custom_managers/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **custom_managers/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **CustomManagersRegressTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **Book** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **TestCars** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **FastCarAsBase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **FastCarAsDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **FunPerson** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **OneToOneRestrictedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **PersonFromAbstract** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **PersonManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **PublishedBookManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **RelatedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **RestrictedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **AbstractPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.test_delete_related_on_filtered_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_filtered_default_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_queryset_with_custom_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_refresh_from_db_when_default_manager_filters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_save_clears_annotations_from_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 202](Community_202.md) (8 shared connections)
-- [Community 40](Community_40.md) (5 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 340](Community_340.md) (4 shared connections)
-- [Community 425](Community_425.md) (3 shared connections)
-- [Community 271](Community_271.md) (3 shared connections)
-- [Community 153](Community_153.md) (2 shared connections)
-- [Community 606](Community_606.md) (2 shared connections)
-- [Community 453](Community_453.md) (2 shared connections)
-- [Community 714](Community_714.md) (2 shared connections)
-- [Community 519](Community_519.md) (2 shared connections)
+- [Community 265](Community_265.md) (7 shared connections)
+- [Community 117](Community_117.md) (6 shared connections)
+- [Community 643](Community_643.md) (6 shared connections)
+- [Community 685](Community_685.md) (4 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 853](Community_853.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 195 (94%)
-- INFERRED: 13 (6%)
+- EXTRACTED: 80 (82%)
+- INFERRED: 17 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

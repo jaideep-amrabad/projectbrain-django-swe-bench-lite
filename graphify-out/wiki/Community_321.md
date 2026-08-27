@@ -1,52 +1,60 @@
 # Community 321
 
-> 36 nodes · cohesion 0.06
+> 27 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **qunit.js** (84 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **checkPollution()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getUrlParams()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **decodeQueryParam()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **diff()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **inArray()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **innerEquiv()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **moduleChainIdMatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **saveGlobal()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **typeEquiv()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **applyDeprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **Assert()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **callHook()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **compareConstructors()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **errorString()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getRegExpFlags()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **id()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **is()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **isArray()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **literal()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **moduleChainNameMatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **notifyTestsRan()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **numberOfTests()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **objectValues()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **only()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- *... and 11 more nodes in this community*
+- **BaseUserManager** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **no_password.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- **with_integer_username.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_integer_username.py`
+- **CustomUserManager** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- **UserManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- **IntegerUsernameUserManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_integer_username.py`
+- **.make_random_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **CustomPermissionsUserManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_permissions.py`
+- **.create_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- **NoPasswordUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- **CustomEmailFieldUserManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_custom_email_field.py`
+- **CustomUserWithFKManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_foreign_key.py`
+- **CustomUserWithM2MManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_many_to_many.py`
+- **.normalize_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **.create_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- **.create_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- **._create_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Normalize the email address by lowercasing the domain part of it.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Generate a random password with the given length and given allowed_chars. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **.create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_permissions.py`
+- **Creates and saves a User with the given email and password.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- **.create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_custom_email_field.py`
+- **.create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_foreign_key.py`
+- **.create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_integer_username.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 527](Community_527.md) (16 shared connections)
-- [Community 746](Community_746.md) (13 shared connections)
-- [Community 717](Community_717.md) (11 shared connections)
-- [Community 810](Community_810.md) (8 shared connections)
-- [Community 1023](Community_1023.md) (2 shared connections)
-- [Community 637](Community_637.md) (1 shared connections)
+- [Community 6](Community_6.md) (14 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 780](Community_780.md) (1 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
+- [Community 460](Community_460.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_permissions.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_custom_email_field.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_foreign_key.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_integer_username.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_many_to_many.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,29 @@
 # Community 940
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **._effective_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **SchemaEditorTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
-- **.test_effective_default_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
-- **Return a field's effective database default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **SchemaEditor.effective_default() shouldn't call callable defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- **NumpyTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **.test_numpy_array_index01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **.test_numpy_array_index02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **setup** (2 connections)
+- **skipIf** (1 connections)
+- **Numpy's array-index syntax allows a template to access a certain item of a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
+- **Fail silently when the array index is out of range.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
 
 ## Relationships
 
-- [Community 145](Community_145.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_numpy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

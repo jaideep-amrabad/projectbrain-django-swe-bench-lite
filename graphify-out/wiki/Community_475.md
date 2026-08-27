@@ -1,53 +1,50 @@
 # Community 475
 
-> 22 nodes · cohesion 0.18
+> 17 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **validation/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **GenericIPAddressFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **GenericIPAddressTestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **GenericIPAddrUnpackUniqueTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_invalid_generic_ip_raises_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_v4_unpack_uniqueness_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_generic_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_v4_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_v6_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_empty_generic_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_invalid_v4_ip_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_invalid_v6_ip_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_v6_uniqueness_detection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_partial_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **force_insert_update/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Counter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **force_insert_update/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **InheritanceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **ProxyCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **InheritedCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **SubCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **ForceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **WithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **.test_force_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_update_on_inherited_model_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.assertQuerysetEqual()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_force_update_on_inherited_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_update_on_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **Tests for forcing insert and update queries (instead of Django's normal…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **Issue 13864: force_update fails on subclassed models, if they don't specify…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
 
 ## Relationships
 
-- [Community 440](Community_440.md) (5 shared connections)
-- [Community 576](Community_576.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 774](Community_774.md) (3 shared connections)
-- [Community 385](Community_385.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 515](Community_515.md) (1 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
+- [Community 149](Community_149.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 39 (78%)
+- INFERRED: 11 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

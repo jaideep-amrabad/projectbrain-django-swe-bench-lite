@@ -1,61 +1,61 @@
 # Community 200
 
-> 32 nodes · cohesion 0.11
+> 56 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **ExclusionConstraint** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **test_constraints.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **ExclusionConstraintTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.get_constraints()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._test_range_overlaps()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **SchemaTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.constraint_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **HotelReservation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_range_overlaps_custom()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_daterange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_datetimerange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_eq()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_repr()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_range_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._get_expression_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **Room** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_deconstruct_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_index_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._get_condition_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_deconstruct_index_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_empty_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- *... and 7 more nodes in this community*
+- **CommandTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **CommandParser** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **get_commands()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **find_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.test_create_parser_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_find_command_without_PATH()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_system_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.parse_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.test_call_command_no_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_option_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_option_parsing_non_string_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_explode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_no_translations_deactivate_translations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **Customized ArgumentParser class to improve some error messages and prevent…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Return the script's main help text, as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Try to fetch the given subcommand, printing a message with the appropriate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Given a path to a management directory, return a list of all the command names…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 27](Community_27.md) (9 shared connections)
-- [Community 85](Community_85.md) (8 shared connections)
-- [Community 427](Community_427.md) (5 shared connections)
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 242](Community_242.md) (4 shared connections)
-- [Community 310](Community_310.md) (3 shared connections)
-- [Community 406](Community_406.md) (3 shared connections)
-- [Community 286](Community_286.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 95](Community_95.md) (9 shared connections)
+- [Community 228](Community_228.md) (5 shared connections)
+- [Community 458](Community_458.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 696](Community_696.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 379](Community_379.md) (1 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 423](Community_423.md) (1 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (85%)
-- INFERRED: 16 (15%)
+- EXTRACTED: 87 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

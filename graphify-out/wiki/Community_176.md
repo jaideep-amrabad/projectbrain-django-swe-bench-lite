@@ -1,55 +1,63 @@
 # Community 176
 
-> 59 nodes · cohesion 0.04
+> 58 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **SelectRelatedTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **select_related/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **SelectRelatedValidationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Domain** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Species** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Family** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Genus** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **HybridSpecies** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Kingdom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Klass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Order** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Phylum** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **.create_tree()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **Running select_related() after calling values() raises a TypeError** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **select_related() also of course applies to entire lists, not just items. This…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_access_fks_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_access_fks_without_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_list_with_depth()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_list_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_list_without_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- *... and 34 more nodes in this community*
+- **ForeignObjectRel** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **reverse_related.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ManyToOneRel** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ManyToManyRel** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **OneToOneRel** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **CustomForeignObjectRel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **models/fields/mixins.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.check_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- **.delete_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.get_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.is_cached()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.set_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 340](Community_340.md) (13 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 573](Community_573.md) (1 shared connections)
+- [Community 14](Community_14.md) (9 shared connections)
+- [Community 117](Community_117.md) (5 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
+- [Community 283](Community_283.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (83%)
-- INFERRED: 17 (17%)
+- EXTRACTED: 91 (91%)
+- INFERRED: 9 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

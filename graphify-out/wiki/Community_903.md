@@ -1,28 +1,29 @@
 # Community 903
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **to_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormsetError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that a form used to render the response has a specific field error.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Put value into a list if it's not already one. Return an empty list if value is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that a formset used to render the response has a specific error. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **multi_table.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **ParentManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

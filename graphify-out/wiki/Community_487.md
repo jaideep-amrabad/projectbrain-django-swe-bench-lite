@@ -1,48 +1,56 @@
 # Community 487
 
-> 23 nodes · cohesion 0.17
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **StringLookupTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **string_lookup/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **string_lookup/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.test_string_form_referencing()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Foo** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Bar** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Base** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Whiz** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.test_ipaddress_on_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.test_queries_on_textfields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.test_unicode_chars_in_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Regression tests for #3937 make sure we can use unicode characters in queries.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression tests for #5087 make sure we can perform queries on TextFields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression test for #708 "like" queries on IP address fields require casting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression test for #1661 and #1662 String form referencing of models works,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **ClientTest** (85 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login_when_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with @login_required** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_bad_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_exc_info_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_external_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_get_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_put_body()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_get_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_get_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_post_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_put()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_query_string_encoding()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_relative_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_relative_redirect_no_trailing_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_trace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_unknown_page()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_uploading_named_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_uploading_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 982](Community_982.md) (3 shared connections)
+- [Community 983](Community_983.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 1011](Community_1011.md) (2 shared connections)
+- [Community 1013](Community_1013.md) (2 shared connections)
+- [Community 1012](Community_1012.md) (2 shared connections)
+- [Community 1014](Community_1014.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 1091](Community_1091.md) (1 shared connections)
+- [Community 1090](Community_1090.md) (1 shared connections)
+- [Community 1105](Community_1105.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (87%)
-- INFERRED: 6 (13%)
+- EXTRACTED: 89 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

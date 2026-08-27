@@ -1,49 +1,55 @@
 # Community 458
 
-> 25 nodes · cohesion 0.11
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AppConfigTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **Stub** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_dunder_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_duplicate_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_empty_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_empty_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_multiple_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_multiple_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_dunder_path_or_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_explicit_path_overrides()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_path_set_explicitly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **Unit tests for AppConfig class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If subclass sets path as class attr, no module attributes needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If path set as class attr, overrides __path__ and __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If single element in __path__, use it (in preference to __file__).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If there is no __path__ attr, use __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If the __path__ attr is empty, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If the __path__ attr is length>1, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If there is no __path__ or __file__, raise ImproperlyConfigured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If the __path__ attr is empty and there is no __file__, raise.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If the __path__ attr is length>1 and there is no __file__, raise.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If the __path__ attr contains duplicate paths and there is no __file__, they…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **LabelCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.create_parser()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.run_from_argv()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **DjangoHelpFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **handle_default_options()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.get_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.print_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **._reordered_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **label_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **.add_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **HelpFormatter** (1 connections)
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **Return the Django version, which should be correct for all built-in Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Create and return the ``ArgumentParser`` which will be used to parse the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Print the help message for this command, derived from ``self.usage()``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Set up any environment changes requested (e.g., Python path and Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **A management command which takes one or more arbitrary arguments (labels) on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Perform the command's actions for ``label``, which will be the string as given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 144](Community_144.md) (9 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 32](Community_32.md) (9 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 200](Community_200.md) (2 shared connections)
+- [Community 696](Community_696.md) (2 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

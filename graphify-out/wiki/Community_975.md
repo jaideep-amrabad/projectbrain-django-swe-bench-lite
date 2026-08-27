@@ -1,25 +1,26 @@
 # Community 975
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_template_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **The templates are loaded directly, not via a template loader, and should be…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **EscapejsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **.test_escapejs01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **.test_escapejs02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **setup** (2 connections)
 
 ## Relationships
 
-- [Community 172](Community_172.md) (1 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

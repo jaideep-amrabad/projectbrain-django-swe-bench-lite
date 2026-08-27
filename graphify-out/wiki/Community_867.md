@@ -1,29 +1,34 @@
 # Community 867
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.ordered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Warn if self.object_list is unordered (typically a QuerySet).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return True if the QuerySet is ordered -- i.e. has an order_by() clause or a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **field_defaults/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **field_defaults/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **DefaultTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **.test_field_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **Callable defaults You can pass callable objects as the ``default`` parameter to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
 
 ## Relationships
 
-- [Community 356](Community_356.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

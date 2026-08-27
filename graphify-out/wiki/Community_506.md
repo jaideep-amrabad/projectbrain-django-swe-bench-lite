@@ -1,34 +1,61 @@
 # Community 506
 
-> 9 nodes · cohesion 0.25
+> 71 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **._create_index_sql()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._index_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._get_index_tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return the SQL statement to create the index for one or several fields. `sql`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return a list of all index SQL statements (field indexes, index_together,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return a list of all index SQL statements for the specified field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **SearchVector** (44 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchQuery** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **test_search.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **MultipleFieldsTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **TestCombinations** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **TestRankingAndWeights** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchRank** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Line** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **GrailTestData** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchVectorFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SimpleSearchTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorIndexTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **Character** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **Scene** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **.test_config_from_field_explicit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_phrase_search()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_phrase_search_with_config()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchQueryTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_search_vector_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranked_custom_weights()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranking()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranking_chaining()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 145](Community_145.md) (10 shared connections)
-- [Community 455](Community_455.md) (2 shared connections)
-- [Community 310](Community_310.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
+- [Community 11](Community_11.md) (13 shared connections)
+- [Community 41](Community_41.md) (9 shared connections)
+- [Community 525](Community_525.md) (7 shared connections)
+- [Community 44](Community_44.md) (5 shared connections)
+- [Community 342](Community_342.md) (4 shared connections)
+- [Community 752](Community_752.md) (4 shared connections)
+- [Community 35](Community_35.md) (4 shared connections)
+- [Community 31](Community_31.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 190 (88%)
+- INFERRED: 25 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

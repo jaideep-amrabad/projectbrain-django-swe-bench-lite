@@ -1,59 +1,65 @@
 # Community 178
 
-> 57 nodes · cohesion 0.06
+> 138 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **autoreload.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **StatReloader** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **start_django()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_modules_and_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **run_with_reloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **ensure_echo_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_child_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_all_python_module_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **restart_with_reloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.snapshot_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- *... and 32 more nodes in this community*
+- **Apps** (85 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **ModelState** (61 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **migrations/test_state.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **StateTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **test_autodetector.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.from_model()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **ModelStateTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **migrations/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **FoodManager** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **.from_apps()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **FoodQuerySet** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **UnicodeModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **AppRegistryNotReady** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **.populate()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.check_apps_ready()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.clear_cache()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.test_custom_manager_swappable()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_remove_relations()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.get_app_config()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.get_app_configs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **NoMigrationFoodManager** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **.test_add_relations()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_manager_refer_correct_model_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_render_project_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- *... and 113 more nodes in this community*
 
 ## Relationships
 
-- [Community 435](Community_435.md) (4 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 58](Community_58.md) (3 shared connections)
-- [Community 423](Community_423.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 367](Community_367.md) (1 shared connections)
+- [Community 1](Community_1.md) (32 shared connections)
+- [Community 39](Community_39.md) (32 shared connections)
+- [Community 22](Community_22.md) (28 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 10](Community_10.md) (11 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 32](Community_32.md) (7 shared connections)
+- [Community 84](Community_84.md) (5 shared connections)
+- [Community 117](Community_117.md) (5 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 341](Community_341.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 403 (89%)
+- INFERRED: 52 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

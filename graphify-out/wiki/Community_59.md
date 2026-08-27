@@ -1,62 +1,65 @@
 # Community 59
 
-> 117 nodes · cohesion 0.03
+> 89 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **QuerySet** (102 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._chain()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._not_support_combined_queries()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.dates()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.exclude()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._create_object_from_params()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._filter_or_exclude()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._combinator_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.select_for_update()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.update_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.complex_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.defer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._extract_model_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 92 more nodes in this community*
+- **core/validators.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **validators/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **postgres/validators.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RegexValidator** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **forms/array.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **BaseValidator** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **punycode()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **TestValidatorEquality** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **EmailValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MaxValueValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MaxLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MinValueValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **ipv6.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **FileExtensionValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MinLengthValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **ProhibitNullCharactersValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **validate_ipv46_address()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **URLValidator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **ArrayMaxLengthValidator** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **validate_ipv6_address()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **RangeMaxValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RangeMinValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **_lazy_re_compile()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- *... and 64 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (8 shared connections)
-- [Community 363](Community_363.md) (7 shared connections)
-- [Community 44](Community_44.md) (4 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 129](Community_129.md) (3 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 507](Community_507.md) (2 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 97](Community_97.md) (2 shared connections)
+- [Community 0](Community_0.md) (28 shared connections)
+- [Community 13](Community_13.md) (24 shared connections)
+- [Community 11](Community_11.md) (10 shared connections)
+- [Community 50](Community_50.md) (5 shared connections)
+- [Community 636](Community_636.md) (5 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 220](Community_220.md) (4 shared connections)
+- [Community 348](Community_348.md) (3 shared connections)
+- [Community 180](Community_180.md) (3 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 609](Community_609.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 211 (91%)
-- INFERRED: 20 (9%)
+- EXTRACTED: 261 (97%)
+- INFERRED: 8 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

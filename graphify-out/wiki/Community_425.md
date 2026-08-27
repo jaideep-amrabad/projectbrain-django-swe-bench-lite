@@ -1,61 +1,62 @@
 # Community 425
 
-> 28 nodes · cohesion 0.08
+> 27 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **test/runner.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **setup_test_environment()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **reorder_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **RemoteTestRunner** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_unique_databases_and_mirrors()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **setup_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SetupTestEnvironmentTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **partition_suite_by_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **instrumented_test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **teardown_test_environment()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **_init_worker()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **_run_subsuite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_setup_test_environment_calling_more_than_once()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Run tests and record everything but don't display anything. The implementation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Switch to databases dedicated to this worker. This helper lives at module-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Run a suite of tests with a RemoteTestRunner and return a RemoteTestResult.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Reorder a test suite by test type. `classes` is a sequence of types All tests…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Partition a test suite by test type. Also prevent duplicated tests. classes is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Perform global pre-test setup, such as installing the instrumented template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Perform any global post-test teardown, such as restoring the original template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Create the test databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- *... and 3 more nodes in this community*
+- **test_autocomplete_view.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **AutocompleteJsonViewTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Book** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Answer** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **QuestionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Answer2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_get_paginator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Authorship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AnswerAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AuthorshipInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_has_view_or_change_permission_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_search_use_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A simple book that has chapters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AuthorAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_missing_search_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_must_be_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_success()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **BookAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **AdminViewBasicTestCase** (1 connections)
+- **Search results are paginated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (8 shared connections)
-- [Community 481](Community_481.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 83](Community_83.md) (3 shared connections)
-- [Community 202](Community_202.md) (3 shared connections)
-- [Community 453](Community_453.md) (3 shared connections)
-- [Community 374](Community_374.md) (2 shared connections)
-- [Community 714](Community_714.md) (2 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 42](Community_42.md) (7 shared connections)
+- [Community 66](Community_66.md) (6 shared connections)
+- [Community 82](Community_82.md) (6 shared connections)
+- [Community 21](Community_21.md) (5 shared connections)
+- [Community 201](Community_201.md) (4 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 278](Community_278.md) (2 shared connections)
+- [Community 117](Community_117.md) (2 shared connections)
+- [Community 516](Community_516.md) (1 shared connections)
+- [Community 247](Community_247.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 67 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

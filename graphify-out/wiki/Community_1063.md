@@ -1,25 +1,24 @@
 # Community 1063
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **debugtags.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
-- **go_boom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
-- **simple_tag** (1 connections)
+- **.test_inheritance20()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Two-level inheritance with {{ block.super }}** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 385](Community_385.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 773](Community_773.md) (1 shared connections)
+- [Community 796](Community_796.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

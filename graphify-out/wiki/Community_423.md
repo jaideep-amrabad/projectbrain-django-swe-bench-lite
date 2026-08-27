@@ -1,15 +1,18 @@
 # Community 423
 
-> 27 nodes · cohesion 0.11
+> 53 nodes · cohesion 0.06
 
 ## Key Concepts
 
+- **test/signals.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **receiver()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 - **Signal** (22 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 - **django/dispatch/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
 - **._live_receivers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 - **backends/signals.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
 - **ModelSignal** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
 - **dispatcher.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **reset_format_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
 - **.connect()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 - **._lazy_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
 - **_make_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
@@ -17,46 +20,48 @@
 - **.disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 - **.send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 - **.send_robust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **root_urlconf_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **clear_routers_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **localize_settings_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **reset_template_engines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **user_model_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **reset_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **reset_hashers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 - **.connect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Signal subclass that allows the sender to be lazily specified as a string of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **Disconnect receiver from sender for signal. If weak references are used,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Send signal from sender to all connected receivers. If any receiver raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Send signal from sender to all connected receivers catching errors. Arguments:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Base class for all signals Internal attributes: receivers { receiverkey (id) :…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Filter sequence of receivers to get resolved, live receivers. This checks for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Create a new signal. providing_args A list of the arguments this signal can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Connect receiver to sender for signal. Arguments: receiver A function or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- *... and 2 more nodes in this community*
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 408](Community_408.md) (7 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 358](Community_358.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 359](Community_359.md) (2 shared connections)
-- [Community 178](Community_178.md) (2 shared connections)
-- [Community 415](Community_415.md) (2 shared connections)
-- [Community 383](Community_383.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 284](Community_284.md) (4 shared connections)
+- [Community 374](Community_374.md) (4 shared connections)
+- [Community 25](Community_25.md) (4 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 213](Community_213.md) (3 shared connections)
+- [Community 342](Community_342.md) (2 shared connections)
+- [Community 158](Community_158.md) (2 shared connections)
+- [Community 356](Community_356.md) (2 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 - `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
 - `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 160 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

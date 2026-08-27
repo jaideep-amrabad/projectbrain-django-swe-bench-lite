@@ -1,61 +1,58 @@
 # Community 205
 
-> 37 nodes · cohesion 0.08
+> 44 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ignore_warnings** (48 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SetLanguageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **test_explain.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
-- **.test_setlang_decodes_http_referer_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_default_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_http_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_redirect_to_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_lang_from_translated_i18n_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
-- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_access_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
-- **The set_language view redirects to '/' when there isn't a referer or "next"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to the "next" parameter for AJAX calls.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- *... and 12 more nodes in this community*
+- **BaseEmailBackendTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_the_message()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **mail_managers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **mail_admins()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **sendtestemail.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- **.test_manager_and_admin_mail_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_empty_admins()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_idn_send()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_lazy_addresses()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_html_mail_admins()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_html_mail_managers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send_long_lines()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.flush_mailbox()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- **.handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- **.test_html_send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_plaintext_send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_recipient_without_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_mailbox_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send_verbose_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_wrong_admins_managers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (13 shared connections)
-- [Community 88](Community_88.md) (8 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 265](Community_265.md) (3 shared connections)
-- [Community 452](Community_452.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 58](Community_58.md) (2 shared connections)
-- [Community 313](Community_313.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 220](Community_220.md) (16 shared connections)
+- [Community 107](Community_107.md) (11 shared connections)
+- [Community 7](Community_7.md) (8 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 447](Community_447.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 480](Community_480.md) (2 shared connections)
+- [Community 560](Community_560.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 463](Community_463.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (98%)
+- EXTRACTED: 114 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 

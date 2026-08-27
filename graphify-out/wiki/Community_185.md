@@ -4,57 +4,51 @@
 
 ## Key Concepts
 
-- **OrderingTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **ordering/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **ordering/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.assertQuerysetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_deprecated_values_annotate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_extra_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_extra_ordering_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_constant_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_constant_value_without_output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **PickleabilityTestCase** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **queryset_pickle/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **queryset_pickle/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.assert_pickles()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **InLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Container** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Happening** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **M2MModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.test_unsupported_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **MissingDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Numbers** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **PreviousDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.test_in_lookup_queryset_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_annotation_with_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_datetime_callable_default_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_pickle_exists_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 - *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 27](Community_27.md) (8 shared connections)
-- [Community 304](Community_304.md) (4 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 589](Community_589.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (89%)
-- INFERRED: 12 (11%)
+- EXTRACTED: 86 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

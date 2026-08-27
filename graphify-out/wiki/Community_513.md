@@ -1,29 +1,50 @@
 # Community 513
 
-> 5 nodes · cohesion 0.40
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Queries2Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket4289()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket12239()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7759()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **AddIndexConcurrently** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **RemoveIndexConcurrently** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **AddIndexConcurrentlyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **._ensure_not_in_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **RemoveIndexConcurrentlyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **NotInTransactionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.test_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_add_other_index_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_add_with_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.test_requires_atomic_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **skipUnless** (2 connections)
+- **.test_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_requires_atomic_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **Remove an index using PostgreSQL's DROP INDEX CONCURRENTLY syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **Create an index using PostgreSQL's CREATE INDEX CONCURRENTLY syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 121](Community_121.md) (4 shared connections)
+- [Community 610](Community_610.md) (3 shared connections)
+- [Community 162](Community_162.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 322](Community_322.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (75%)
-- INFERRED: 2 (25%)
+- EXTRACTED: 45 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

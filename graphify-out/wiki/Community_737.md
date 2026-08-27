@@ -1,37 +1,37 @@
 # Community 737
 
-> 10 nodes · cohesion 0.40
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **stable_topological_sort()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **CyclicDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **topological_sort_as_sets()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **test_topological_sort.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **topological_sort.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **TopologicalSortTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.test_cyclic_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **ValueError** (1 connections)
-- **Variation of Kahn's algorithm (1962) that returns sets. Take a dependency graph…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **LimitChoicesToTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **StumpJokeForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **StumpJokeWithCustomFieldForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_field_with_queryset_but_no_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_choices_to_callable_for_fk_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_choices_to_callable_for_m2m_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_callable_called_each_time_form_is_instantiated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Tests the functionality of ``limit_choices_to``.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A ForeignKey can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A ManyToManyField can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A custom field with a `queryset` attribute but no `limit_choices_to` works…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 412](Community_412.md) (2 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
+- [Community 126](Community_126.md) (7 shared connections)
+- [Community 333](Community_333.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 459](Community_459.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 20 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

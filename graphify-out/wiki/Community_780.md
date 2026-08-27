@@ -1,31 +1,39 @@
 # Community 780
 
-> 10 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DriverTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test01_valid_driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test02_invalid_driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test03_aliases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **patch** (1 connections)
-- **Testing valid GDAL/OGR Data Source Drivers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **Testing invalid GDAL/OGR Data Source Drivers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **Testing driver aliases.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **Prototypes are registered only if their respective driver counts are zero.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
+- **UserManagerTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **UserManager** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **._create_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.create_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.test_make_random_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Create and save a user with the given username, email, and password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.with_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.test_create_super_user_raises_error_on_false_is_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_superuser_raises_error_on_false_is_staff()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user_email_domain_normalize()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user_email_domain_normalize_rfc3696()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user_email_domain_normalize_with_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user_is_staff()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_empty_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 277](Community_277.md) (4 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 321](Community_321.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

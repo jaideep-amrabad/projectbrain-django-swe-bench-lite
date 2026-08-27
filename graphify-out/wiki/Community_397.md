@@ -1,49 +1,62 @@
 # Community 397
 
-> 30 nodes · cohesion 0.13
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ConditionalGet** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertFullResponse()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertNotModified()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_modified_since()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_6()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_unmodified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_invalid_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_without_conditions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- *... and 5 more nodes in this community*
+- **test_runner/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **AutoIncrementResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **test_runner/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **test_debug_sql.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **connections_support_transactions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **Through** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **SQLiteInMemoryTestDbs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_transaction_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **AliasedDefaultTestSetupTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_setup_aliased_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **._test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **DummyBackendTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_setup_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_empty_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **ThroughBase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **.test_autoincrement_reset1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_autoincrement_reset2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **EmptyDefaultDatabaseTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **MockTestRunner** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Return whether or not all (or specified) connections support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **skipUnless** (1 connections)
+- **Tests for django test runner** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 212](Community_212.md) (8 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 488](Community_488.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 600](Community_600.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 834](Community_834.md) (2 shared connections)
+- [Community 433](Community_433.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 79 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,38 @@
 # Community 674
 
-> 14 nodes · cohesion 0.15
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **simple/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoCase2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **SimpleCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **SimpleCase2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoTestCase** (2 connections)
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **get_internal_wsgi_application()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **GetInternalWSGIApplicationTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_success()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_bad_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_bad_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **Load and return the WSGI application as configured by the user in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **If ``WSGI_APPLICATION`` is a dotted path, the referenced object is returned.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **If ``WSGI_APPLICATION`` is ``None``, the return value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 1060](Community_1060.md) (1 shared connections)
-- [Community 1017](Community_1017.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 809](Community_809.md) (2 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

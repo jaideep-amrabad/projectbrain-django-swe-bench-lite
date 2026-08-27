@@ -1,57 +1,52 @@
 # Community 396
 
-> 30 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SchemaTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **LastExecutedQueryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **EscapingChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **skipUnless** (6 connections)
-- **EscapingChecksDebug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_field_rename_inside_atomic_block()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **ThreadSharing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_table_rename_inside_atomic_block()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_autoincrement()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_constraint_checks_disabled_atomic_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_disable_constraint_checking_failure_disallowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_check_sqlite_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_parameter_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_large_number_of_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_no_interpolation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_parameter_quoting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **auto_increment fields are created with the AUTOINCREMENT keyword in order to be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **SQLite schema editor is not usable within an outer transaction if foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **SQLite schema editor is usable within an outer transaction as long as foreign…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **NotImplementedError is raised when a model field rename is attempted inside an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **NotImplementedError is raised when a table rename is attempted inside an atomic…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **All tests in this test case are also run with settings.DEBUG=True in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- *... and 5 more nodes in this community*
+- **MultiDBOperationTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **._test_create_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_create_model4()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **MigrateEverythingRouter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **._test_run_python()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **._test_run_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **AgnosticRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **MigrateNothingRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_create_model2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_create_model3()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.project_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **.test_run_python_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_python_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_python_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_sql_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_sql_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_sql_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **Return a ProjectState object representing the most recent state that the loaded…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **A router that doesn't allow migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **A router that always allows migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **CreateModel honors multi-db settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **Test when router doesn't have an opinion (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (6 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 213](Community_213.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 629](Community_629.md) (1 shared connections)
+- [Community 7](Community_7.md) (12 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 39](Community_39.md) (3 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 57 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

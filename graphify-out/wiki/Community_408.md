@@ -1,62 +1,54 @@
 # Community 408
 
-> 25 nodes · cohesion 0.14
+> 28 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test/signals.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **receiver()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **reset_format_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **root_urlconf_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **clear_routers_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **localize_settings_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **reset_template_engines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **user_model_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **reset_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **auth_password_validators_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **clear_cache_handlers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **clear_serializers_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **complex_setting_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **file_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **language_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **static_finders_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **static_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **update_connections_time_zone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **update_installed_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **.test_receiver_signal_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_receiver_single_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **A decorator for connecting receivers to signals. Used by passing in the signal…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Clear any cached formats. This method is provided primarily for testing…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **Reset global state when LANGUAGES setting has been changed, as some languages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **_date_from_string()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_list()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year_format()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_month()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return (date_list, items, extra_context) for this request.** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_month_format()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_day_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_list_period()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_make_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get a day format string in strptime syntax to be used to parse the day from url…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the day for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get a year format string in strptime syntax to be used to parse the year from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the year for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the aggregation period for the list of dates: 'year', 'month', or 'day'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get a date list by calling `queryset.dates/datetimes()`, checking along the way…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return `True` if this view should contain the full list of objects in the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Do the actual heavy lifting of getting the dated items; this accepts a date…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the object this request displays.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 423](Community_423.md) (7 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 32](Community_32.md) (5 shared connections)
-- [Community 319](Community_319.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 166](Community_166.md) (2 shared connections)
-- [Community 415](Community_415.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 332](Community_332.md) (2 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 107](Community_107.md) (2 shared connections)
+- [Community 562](Community_562.md) (12 shared connections)
+- [Community 407](Community_407.md) (11 shared connections)
+- [Community 616](Community_616.md) (8 shared connections)
+- [Community 106](Community_106.md) (6 shared connections)
+- [Community 676](Community_676.md) (5 shared connections)
+- [Community 668](Community_668.md) (4 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 90 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

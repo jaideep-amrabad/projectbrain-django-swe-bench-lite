@@ -1,64 +1,52 @@
 # Community 269
 
-> 26 nodes · cohesion 0.12
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **makemigrations.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **autodetector.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **squashmigrations.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- **MigrationOptimizer** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **migration.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- **.handle()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- **SwappableTuple** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **migrations/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **RegexObject** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **get_migration_name_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **swappable_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **optimizer.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.find_migration()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- **.optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.optimize_inner()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- **tuple** (1 connections)
-- **Subclass of tuple so Django can tell this was originally a swappable dependency…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Turn a setting value into a dependency.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Main optimization entry point. Pass in a list of Operation instances, get out a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Power the optimization process, where you provide a list of Operations and you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Inner optimization loop.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- *... and 1 more nodes in this community*
+- **GDALBand** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **BandList** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.statistics()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.max()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.mean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.min()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.std()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.color_interp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.pixel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.width()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.bands()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **list** (1 connections)
+- **setter** (1 connections)
+- **Return the minimum pixel value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 16](Community_16.md) (9 shared connections)
-- [Community 13](Community_13.md) (7 shared connections)
-- [Community 119](Community_119.md) (6 shared connections)
-- [Community 630](Community_630.md) (4 shared connections)
-- [Community 315](Community_315.md) (4 shared connections)
-- [Community 525](Community_525.md) (4 shared connections)
-- [Community 144](Community_144.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 58](Community_58.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
+- [Community 67](Community_67.md) (8 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 56 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,63 +1,59 @@
 # Community 262
 
-> 42 nodes · cohesion 0.07
+> 35 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Cast** (43 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **CastTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **NullIf** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **ATan2** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **NullIfTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_expression_wrapped_with_parentheses_on_postgresql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **ATan2Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
-- **.test_cast_to_char_field_with_max_length()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_null_literal()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **.test_cast_from_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_to_decimal_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_null_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_postgresql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_cast_from_db_date_to_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_date_group_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- *... and 17 more nodes in this community*
+- **managers_regress/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **managers_regress/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **ManagersRegressionTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **AbstractBase1** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **AbstractBase3** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child3** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child4** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **RelationModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **AbstractBase2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child1** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child5** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **RelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child6** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child7** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.test_regress_3871()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.test_custom_swappable_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_explicit_swappable_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_swappable_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (15 shared connections)
-- [Community 44](Community_44.md) (6 shared connections)
-- [Community 276](Community_276.md) (6 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 242](Community_242.md) (2 shared connections)
-- [Community 235](Community_235.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
+- [Community 117](Community_117.md) (7 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 859](Community_859.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 783](Community_783.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 87 (85%)
+- INFERRED: 15 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

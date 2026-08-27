@@ -1,54 +1,60 @@
 # Community 342
 
-> 34 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **postgres/operations.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **CreateExtension** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **register_type_handlers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **postgres/signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **postgres_tests/test_signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **OIDTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **get_citext_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **get_hstore_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **BtreeGinExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **BtreeGistExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **CITextExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **HStoreExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **TrigramExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **UnaccentExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.assertOIDs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_citext_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_hstore_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_register_type_handlers_no_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.test_citext_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_hstore_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- *... and 9 more nodes in this community*
+- **postgres/lookups.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **postgres/apps.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **PostgresSimpleLookup** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **PostgresConfig** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.ready()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **JSONExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.process_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.process_rhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **ContainedBy** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **DataContains** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **HasAnyKeys** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **HasKey** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Overlap** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Undo the effects of PostgresConfig.ready() when django.contrib.postgres is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Transform** (1 connections)
 
 ## Relationships
 
-- [Community 0](Community_0.md) (13 shared connections)
-- [Community 242](Community_242.md) (5 shared connections)
-- [Community 383](Community_383.md) (4 shared connections)
-- [Community 109](Community_109.md) (3 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 175](Community_175.md) (5 shared connections)
+- [Community 63](Community_63.md) (5 shared connections)
+- [Community 610](Community_610.md) (4 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 506](Community_506.md) (4 shared connections)
+- [Community 525](Community_525.md) (4 shared connections)
+- [Community 151](Community_151.md) (3 shared connections)
+- [Community 469](Community_469.md) (3 shared connections)
+- [Community 137](Community_137.md) (2 shared connections)
+- [Community 423](Community_423.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 74 (84%)
+- INFERRED: 14 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

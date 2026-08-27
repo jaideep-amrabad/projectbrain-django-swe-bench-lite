@@ -1,64 +1,57 @@
 # Community 233
 
-> 41 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **model_fields/models.py** (90 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **test_foreignkey.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **test_autofield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **Foo** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestSaveLoad** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **model_fields/test_floatfield.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **Bar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **AutoFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **model_fields/test_slugfield.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **SlugFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **FkToChar** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestFloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **AbstractPersonWithHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **FloatModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **AutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **BigAutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **BigS** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Choiceful** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **NullDurationModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PrimaryKeyCharModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **SmallAutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **UnicodeSlugField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **VerboseNameField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **BigAutoFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **SmallAutoFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- *... and 16 more nodes in this community*
+- **SessionBase** (53 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expire_at_browser_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_session_cookie_age()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._set_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._validate_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.is_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.set_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.test_cookie_worked()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Return the given session dictionary serialized and encoded as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Return True when there is no session_key and the session is empty.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Return session key that isn't being used.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Key must be truthy and at least 8 characters long. 8 characters is an arbitrary…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Validate session key on assignment. Invalid values will set to None.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (11 shared connections)
-- [Community 107](Community_107.md) (9 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 189](Community_189.md) (7 shared connections)
-- [Community 272](Community_272.md) (7 shared connections)
-- [Community 385](Community_385.md) (6 shared connections)
-- [Community 464](Community_464.md) (6 shared connections)
-- [Community 95](Community_95.md) (6 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 104](Community_104.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
+- [Community 50](Community_50.md) (6 shared connections)
+- [Community 806](Community_806.md) (5 shared connections)
+- [Community 25](Community_25.md) (3 shared connections)
+- [Community 826](Community_826.md) (2 shared connections)
+- [Community 577](Community_577.md) (1 shared connections)
+- [Community 514](Community_514.md) (1 shared connections)
+- [Community 578](Community_578.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (88%)
-- INFERRED: 20 (12%)
+- EXTRACTED: 79 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,51 @@
 # Community 629
 
-> 17 nodes · cohesion 0.12
+> 11 nodes · cohesion 0.49
 
 ## Key Concepts
 
-- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._close()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_in_memory_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._start_transaction_under_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Close the connection to the database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.create_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.disable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.enable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._savepoint_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Start a transaction explicitly in autocommit mode. Staying in autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **messages_tests/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **messages_tests/test_cookie.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **test_session.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **messages/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- **test_fallback.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **storage/base.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **messages/constants.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- **messages/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- **get_level_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- **stored_session_messages_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **Return the message level tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 80](Community_80.md) (3 shared connections)
-- [Community 107](Community_107.md) (2 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 524](Community_524.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
-- [Community 805](Community_805.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
-- [Community 278](Community_278.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 244](Community_244.md) (9 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 292](Community_292.md) (6 shared connections)
+- [Community 607](Community_607.md) (5 shared connections)
+- [Community 42](Community_42.md) (5 shared connections)
+- [Community 369](Community_369.md) (5 shared connections)
+- [Community 456](Community_456.md) (5 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 608](Community_608.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 552](Community_552.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (82%)
-- INFERRED: 6 (18%)
+- EXTRACTED: 98 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

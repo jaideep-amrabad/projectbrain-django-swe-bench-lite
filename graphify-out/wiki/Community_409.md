@@ -1,62 +1,52 @@
 # Community 409
 
-> 27 nodes · cohesion 0.09
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **LimitedStream** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **get_script_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **get_bytes_from_wsgi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **get_str_from_wsgi()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.readline()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **ScriptNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **._read_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.COOKIES()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.test_get_script_name_double_slashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Get a value from the WSGI environ dictionary as bytes. key and default should…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.test_get_script_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Return the equivalent of the HTTP request's SCRIPT_NAME environment variable.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Wrap another stream to disallow reading it past a number of bytes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- *... and 2 more nodes in this community*
+- **SimpleDatabaseOperationTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_timefield_value_unaware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_timefield_value_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_unknown_value_date()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_unknown_value_decimal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_adapt_unknown_value_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_date_extract_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_date_interval_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_datetime_cast_date_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_datetime_cast_time_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_datetime_extract_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_datetime_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_end_transaction_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_no_limit_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_pk_default_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_quote_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_regex_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_sequence_reset_by_name_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_set_time_zone_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_sql_flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (11 shared connections)
-- [Community 111](Community_111.md) (5 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 309](Community_309.md) (2 shared connections)
-- [Community 337](Community_337.md) (2 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 220](Community_220.md) (1 shared connections)
-- [Community 374](Community_374.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 - [Community 16](Community_16.md) (1 shared connections)
-- [Community 556](Community_556.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

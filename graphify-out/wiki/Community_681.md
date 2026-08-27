@@ -1,37 +1,40 @@
 # Community 681
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **RedirectTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_not_found_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_shortcircuits_non_404_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_with_append_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_with_append_slash_and_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_response_gone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **Exercise the second Redirect.DoesNotExist branch in RedirectFallbackMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **RedirectFallbackMiddleware short-circuits on non-404 requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **When the redirect target is '', return a 410** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **Place** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Restaurant** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ItalianRestaurant** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_model_inheritance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **ParkingLot3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_issue_7276()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_6755()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_7488()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Regression test for #6755** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 313](Community_313.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 345](Community_345.md) (9 shared connections)
+- [Community 505](Community_505.md) (6 shared connections)
+- [Community 680](Community_680.md) (5 shared connections)
+- [Community 1008](Community_1008.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

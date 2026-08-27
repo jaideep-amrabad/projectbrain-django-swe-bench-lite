@@ -1,31 +1,28 @@
 # Community 803
 
-> 9 nodes · cohesion 0.22
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **A simple cookie-based session storage implementation. The session key is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **GenericIPAddressFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_generic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_generic_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_ipv4_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_ipv6_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_invalid_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
 
 ## Relationships
 
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

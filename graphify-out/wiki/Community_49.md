@@ -1,61 +1,59 @@
 # Community 49
 
-> 113 nodes · cohesion 0.04
+> 88 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **SchemaTests** (175 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **schema/tests.py** (82 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **schema/models.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **.get_constraints()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **schema/fields.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **CustomManyToManyField** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **.get_indexes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_through_alter()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_create_through()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **MediumBlobField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **._test_m2m()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_db_constraint()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_remove_db_index_doesnt_remove_custom_indexes()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **.test_add_binaryfield_mediumblob()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_check_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_indexes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_order_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_primary_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_remove_constraints_capital_letters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_remove_field_unique_does_not_remove_meta_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **InheritedManyToManyField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorCharFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- *... and 88 more nodes in this community*
+- **CollectionTestCase** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.run_collectstatic()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **DummyStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **TestCollectionLinks** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **BaseStaticFilesMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **TestInteractiveMessages** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionClear** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionNonLocalStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionOverwriteWarning** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionVerbosity** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionExcludeNoDefaultIgnore** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionDryRun** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **._collectstatic_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestConfiguration** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.assertStaticRenders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.render_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **TestCollectionCustomIgnorePatterns** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_skips_newer_files_in_remote_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning_when_clearing_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning_when_overwriting_files_in_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestNoFilesCreated** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **._get_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.run_collectstatic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.test_handle_path_notimplemented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- *... and 63 more nodes in this community*
 
 ## Relationships
 
-- [Community 125](Community_125.md) (45 shared connections)
-- [Community 316](Community_316.md) (31 shared connections)
-- [Community 186](Community_186.md) (25 shared connections)
-- [Community 327](Community_327.md) (16 shared connections)
-- [Community 25](Community_25.md) (11 shared connections)
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 193](Community_193.md) (6 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 427](Community_427.md) (6 shared connections)
-- [Community 63](Community_63.md) (6 shared connections)
-- [Community 107](Community_107.md) (6 shared connections)
+- [Community 95](Community_95.md) (24 shared connections)
+- [Community 7](Community_7.md) (11 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 171](Community_171.md) (6 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 383](Community_383.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 386 (90%)
-- INFERRED: 43 (10%)
+- EXTRACTED: 171 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,40 @@
 # Community 619
 
-> 16 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **dates/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **DatesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **dates/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **.test_dates_trunc_datetime_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_avoid_datetime_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **.test_dates_fails_when_given_invalid_field_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_no_arguments_are_provided()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **skipUnless** (1 connections)
+- **commands/ogrinspect.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **get_func_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **.handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **LayerOptionAction** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **ListOptionAction** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **Custom argparse action for `ogrinspect` keywords that require a string list. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **Custom argparse action for the `ogrinspect` `layer_key` keyword option which…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 228](Community_228.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 349](Community_349.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 430](Community_430.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

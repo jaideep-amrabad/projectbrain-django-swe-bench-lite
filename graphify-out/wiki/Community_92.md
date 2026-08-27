@@ -1,53 +1,63 @@
 # Community 92
 
-> 26 nodes · cohesion 0.09
+> 84 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **PaginationTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **QuerySetPaginator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_invalid_page_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_range_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_count_does_not_silence_attribute_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_count_does_not_silence_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_float_integer_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_no_content_allow_empty_first_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginate_misc_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_querysetpaginator_deprecation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Helper method that instantiates a Paginator object from the passed params and…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Invalid page numbers result in the correct exception being raised.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Tests for the Paginator and Page classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator pages have the correct start and end indexes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator.page_range should be an iterator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator.get_page() returns a valid page even with invalid page arguments.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator.get_page() raises EmptyPage if allow_empty_first_page=False and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Helper method that checks a single attribute and gives a nice error message…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- *... and 1 more nodes in this community*
+- **contrib/admin/widgets.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **truncatewords_html()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **truncatechars_html()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
+- **FunctionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **ForeignKeyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **ManyToManyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **AdminDateWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **FilteredSelectMultiple** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **test_truncatechars_html.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **test_truncatewords_html.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
+- **AdminSplitDateTime** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.base_url_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **AdminIntegerFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminRadioSelect** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- *... and 59 more nodes in this community*
 
 ## Relationships
 
-- [Community 356](Community_356.md) (15 shared connections)
-- [Community 623](Community_623.md) (8 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 19](Community_19.md) (8 shared connections)
+- [Community 18](Community_18.md) (6 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 64](Community_64.md) (3 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 446](Community_446.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (86%)
-- INFERRED: 8 (14%)
+- EXTRACTED: 189 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

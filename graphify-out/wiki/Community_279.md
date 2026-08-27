@@ -1,55 +1,54 @@
 # Community 279
 
-> 22 nodes · cohesion 0.11
+> 31 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **StateApps** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **InvalidBasesError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **AppConfigStub** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ValueError** (2 connections)
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.concrete_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **A model's base classes can't be resolved.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.import_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Stub of an AppConfig. Only provides a label and a dict of models.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Subclass of the global Apps registry class to better handle dynamic model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Return a clone of this registry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Deep-clone the managers using deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Create a Model object from our current state into the given apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.unregister_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Storage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_available_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._save()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_valid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_accessed_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_created_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Validate the filename by calling get_valid_name() and return a filename to be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return a local filesystem path where the file can be retrieved using Python's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Delete the specified file from the storage system.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return True if a file referenced by the given name already exists in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **List the contents of the specified path. Return a 2-tuple of lists: the first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return the total size, in bytes, of the file specified by name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return an absolute URL where the file's contents can be accessed directly by a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return the last accessed time (as a datetime) of the file specified by name.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return the creation time (as a datetime) of the file specified by name. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 43](Community_43.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 367](Community_367.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 129](Community_129.md) (5 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 493](Community_493.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 46 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

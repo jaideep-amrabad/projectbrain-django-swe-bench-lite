@@ -1,25 +1,24 @@
 # Community 1024
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **AdminAutoDiscoverTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
-- **.test_double_call_autodiscover()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
-- **Test for bug #8245 - don't raise an AlreadyRegistered exception when using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,32 +1,29 @@
 # Community 853
 
-> 8 nodes · cohesion 0.25
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **XmlSerializerTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **.test_control_char_failure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **.test_no_dtd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **Serializing control characters with XML should fail as those characters are not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **The XML deserializer shouldn't allow a DTD. This is the most straightforward…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **CustomQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **._optin_private_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.optout_public_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **._private_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.public_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
 
 ## Relationships
 
-- [Community 159](Community_159.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

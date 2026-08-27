@@ -1,50 +1,48 @@
 # Community 516
 
-> 20 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **LookupError** (6 connections)
-- **.get_registered_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **.lazy_model_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **.get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **get_supported_language_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **Return the model with the given case-insensitive model_name. Raise LookupError…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **Similar to get_model(), but doesn't require that an app exists with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **Take a function and a number of ("app_label", "modelname") tuples, and when all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **Meta** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Chapter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Plot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **UserProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Color** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Color2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **PlotProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ReadablePizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ReadOnlyPizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FoodDelivery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Language** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **CategoryInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ChapterInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **User** (1 connections)
+- **Proxy a model with a different app_label.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (3 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
-- [Community 319](Community_319.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 66](Community_66.md) (14 shared connections)
+- [Community 82](Community_82.md) (13 shared connections)
+- [Community 425](Community_425.md) (1 shared connections)
+- [Community 583](Community_583.md) (1 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (71%)
-- INFERRED: 9 (29%)
+- EXTRACTED: 48 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

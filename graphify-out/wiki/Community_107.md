@@ -1,78 +1,61 @@
 # Community 107
 
-> 188 nodes · cohesion 0.02
+> 84 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **cached_property** (149 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **functional.py** (121 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **lazy()** (69 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **postgis/operations.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **state.py** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **IntegerField** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **test_promises.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **spatialite/operations.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **model_fields/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **BaseSpatialFeatures** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **gis/db/backends/mysql/operations.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
-- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **jinja2.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **FunctionalTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
-- **gis_tests/test_data.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **gis/db/backends/base/operations.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
-- **spatialite/base.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **BaseDatabaseFeatures** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **template/utils.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- **BaseEngine** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **template/backends/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **WKTAdapter** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **Jinja2** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **django/db/backends/base/features.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- *... and 163 more nodes in this community*
+- **EmailMessage** (75 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **MailTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.assertMessageHasHeaders()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SubscriberAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_decoded_attachments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.send()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.test_message_cc_header()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **HeadersCheckMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_attach_non_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_attach_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_custom_utf8_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_message_header_overrides()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.recipients()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.test_attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_attach_text_as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_attachments_MIMEText()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_attachments_two_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_cc()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_dummy_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_from_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_multiple_message_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_non_ascii_attachment_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_non_ascii_dns_non_unicode_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 59 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (48 shared connections)
-- [Community 3](Community_3.md) (42 shared connections)
-- [Community 4](Community_4.md) (36 shared connections)
-- [Community 63](Community_63.md) (31 shared connections)
-- [Community 6](Community_6.md) (29 shared connections)
-- [Community 10](Community_10.md) (24 shared connections)
-- [Community 79](Community_79.md) (16 shared connections)
-- [Community 58](Community_58.md) (14 shared connections)
-- [Community 251](Community_251.md) (13 shared connections)
-- [Community 232](Community_232.md) (13 shared connections)
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 26](Community_26.md) (11 shared connections)
+- [Community 447](Community_447.md) (14 shared connections)
+- [Community 220](Community_220.md) (11 shared connections)
+- [Community 205](Community_205.md) (11 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 582](Community_582.md) (2 shared connections)
+- [Community 480](Community_480.md) (2 shared connections)
+- [Community 901](Community_901.md) (2 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 840 (89%)
-- INFERRED: 99 (11%)
+- EXTRACTED: 179 (97%)
+- INFERRED: 5 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

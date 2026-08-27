@@ -1,53 +1,52 @@
 # Community 392
 
-> 30 nodes · cohesion 0.11
+> 30 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ConditionalGetMiddleware** (31 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **ConditionalGetMiddlewareTest** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_head()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_unsafe()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_not_modified_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_etag_extended_cache_control()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_client_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_last_modified_in_the_future()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_last_modified_in_the_past()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_no_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_same_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_client_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_different_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_no_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_same_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_middleware_calculates_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_middleware_wont_overwrite_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_no_store_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_if_modified_since_and_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_if_none_match_and_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Return True if an ETag header should be added to response.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **unmanaged_models/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **unmanaged_models/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **Meta** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **SimpleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **ManyToManyUnmanagedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **A01** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **A02** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **B01** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **B02** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **C01** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **C02** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Unmanaged2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Managed1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Intermediate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Proxy1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Proxy2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Unmanaged1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **.test_many_to_many_between_unmanaged()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.test_many_to_many_between_unmanaged_and_managed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
 - *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (7 shared connections)
-- [Community 31](Community_31.md) (3 shared connections)
-- [Community 365](Community_365.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 54 (87%)
+- INFERRED: 8 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

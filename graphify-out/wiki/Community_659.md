@@ -1,37 +1,40 @@
 # Community 659
 
-> 14 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **MessageTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **DummyObj** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_not_equal_to_non_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_no_hint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_with_given_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_equal_to_same_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_equal_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_not_equal_to_different_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_manager_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_model_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_no_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **BaseArticle** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **DateArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Regression tests for Django built-in views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An abstract article Model so that we can create article models with and without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An Article class with a get_absolute_url defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An article Model with a DateField instead of DateTimeField, for testing #7602** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

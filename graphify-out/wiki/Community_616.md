@@ -1,42 +1,48 @@
 # Community 616
 
-> 16 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ManageMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py can't execute user commands, even if settings are provided…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings.py file that doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail with an error when no settings provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py can't execute user commands without appropriate settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_month()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_year()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_previous_day()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the start date of the next interval. The interval is defined by start…** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_previous_year()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the start date of the current interval.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_current_day()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_current_year()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Mixin for views manipulating day-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid day.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the previous valid day.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid year.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the previous valid year.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next or the previous valid date. The idea is to allow links on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid month.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Relationships
 
-- [Community 122](Community_122.md) (8 shared connections)
-- [Community 179](Community_179.md) (8 shared connections)
-- [Community 614](Community_614.md) (8 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 266](Community_266.md) (1 shared connections)
+- [Community 408](Community_408.md) (8 shared connections)
+- [Community 407](Community_407.md) (6 shared connections)
+- [Community 668](Community_668.md) (4 shared connections)
+- [Community 676](Community_676.md) (3 shared connections)
+- [Community 106](Community_106.md) (2 shared connections)
+- [Community 562](Community_562.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 830](Community_830.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 46 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

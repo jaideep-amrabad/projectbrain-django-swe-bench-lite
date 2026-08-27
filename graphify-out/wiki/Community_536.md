@@ -1,54 +1,40 @@
 # Community 536
 
-> 16 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **timezones/tests.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **timezones/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **UnsupportedTimeZoneDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventLocalizedForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **AllDayEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **Session** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **SessionEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **MaybeEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **timezones/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
-- **EventAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **TimestampAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **timezones/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
-- **.test_time_zone_parameter_not_supported_if_database_supports_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **ExcludeTest17600** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_only_orders_with_all_items_having_status_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should exclude Orders which have some items with status 1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude_variation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_no_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_col_not_in_list_containing_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **expectedFailure** (2 connections)
+- **Using exclude(condition) and exclude(Q(condition)) should yield the same…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Some regressiontests for ticket #17600. Some of these likely duplicate other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should only return orders having ALL items set to status 1, or those items…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **The following case is not handled properly because SQL's COL NOT IN (list…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 418](Community_418.md) (11 shared connections)
-- [Community 76](Community_76.md) (7 shared connections)
-- [Community 687](Community_687.md) (5 shared connections)
-- [Community 537](Community_537.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 806](Community_806.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (88%)
-- INFERRED: 11 (12%)
+- EXTRACTED: 22 (76%)
+- INFERRED: 7 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

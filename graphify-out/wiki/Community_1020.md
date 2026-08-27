@@ -1,26 +1,23 @@
 # Community 1020
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **UnittestCase2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_3_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **rpm-install.sh** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
+- **rpm-install.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
 
 ## Relationships
 
-- [Community 675](Community_675.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

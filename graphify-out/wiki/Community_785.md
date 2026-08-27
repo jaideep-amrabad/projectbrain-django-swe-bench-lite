@@ -1,35 +1,38 @@
 # Community 785
 
-> 10 nodes · cohesion 0.36
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **max_lengths/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **MaxLengthORMTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **customers.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **test_agnostic_order_trimjoin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **Customer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **TestLookupQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **.test_deep_mixed_backward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **.test_deep_mixed_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 624](Community_624.md) (5 shared connections)
+- [Community 283](Community_283.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 24 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

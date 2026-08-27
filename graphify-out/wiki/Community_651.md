@@ -1,39 +1,37 @@
 # Community 651
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **tests_sample.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **doctests.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **TestDjangoTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **TestVanillaUnittest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **TestZimpleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **factorial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **EmptyTestCase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **Doctest example from the official Python documentation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **Return the factorial of n, an exact integer >= 0. >>> [factorial(n) for n in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **sample/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
-- **load_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **DjangoTestCase** (1 connections)
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **ExcludedLocaleExtractionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertNotRecentlyModified()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertRecentlyModified()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **SymlinkExtractorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **._set_times_for_all_po_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_multiple_locales_excluded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_multiple_locales_excluded_with_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_one_locale_excluded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_one_locale_excluded_with_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_symlink()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Assert that file was recently modified (modification time was less than 10…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Assert that file was not recently modified (modification time was more than 10…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Set access and modification times to the Unix epoch time for all the .po files.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
+- [Community 95](Community_95.md) (5 shared connections)
+- [Community 519](Community_519.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,48 +1,47 @@
 # Community 557
 
-> 18 nodes · cohesion 0.20
+> 18 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.unindent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_args_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_empty_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_multiline_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_nested_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_nested_operation_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **ASGITest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **get_asgi_application()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **asgi/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **._get_scope()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **async_to_sync** (7 connections)
+- **core/asgi.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **.test_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_asgi_application()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_query_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_non_unicode_query_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_wrong_connection_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **The public interface to Django's ASGI support. Return an ASGI 3 callable.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **get_asgi_application() returns a functioning ASGI callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **Makes sure that FileResponse works over ASGI.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
 
 ## Relationships
 
-- [Community 173](Community_173.md) (4 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 - [Community 94](Community_94.md) (2 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 52 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

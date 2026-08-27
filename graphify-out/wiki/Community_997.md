@@ -1,21 +1,20 @@
 # Community 997
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **FakeAUTHSMTPConnection** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.ehlo()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A SMTP connection pretending support for the AUTH command. It does not, but at…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTP** (1 connections)
+- **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._relation_tree()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **This method is used by each model to find its reverse objects. As this method…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Relationships
 
-- [Community 187](Community_187.md) (1 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 

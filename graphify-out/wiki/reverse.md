@@ -2,7 +2,7 @@
 
 > God node · 362 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 12](Community_12.md)
+**Community:** [Community 21](Community_21.md)
 
 ## Connections by Relation
 
@@ -43,8 +43,8 @@
 - admin/utils.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- test_client_regress/tests.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
+- test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - admin/sites.py `EXTRACTED`
 - contrib/admin/widgets.py `EXTRACTED`

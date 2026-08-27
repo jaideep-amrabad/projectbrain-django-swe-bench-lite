@@ -1,53 +1,63 @@
 # Community 281
 
-> 38 nodes · cohesion 0.06
+> 63 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FormMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **FormMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.get_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_success_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.form_invalid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.form_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_form_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_success_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.form_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_form_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_success_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.test_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.get_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Return the keyword arguments for instantiating the form.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Return the URL to redirect to after processing a valid form.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.test_get_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **Provide a way to show and handle a form in a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **If the form is valid, save the associated model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Handle GET requests: instantiate a blank version of the form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- *... and 13 more nodes in this community*
+- **serializers/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **json.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **Serializer** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **python.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **DeserializationError** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Deserializer()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **pyyaml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **geojson.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **DeserializedObject** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.save_deferred_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **deserialize_m2m_values()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **M2MDeserializationError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **build_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **_get_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **DjangoSafeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.WithData()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **deserialize_fk_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Exception** (3 connections)
+- **SerializationError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (12 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 270](Community_270.md) (5 shared connections)
+- [Community 628](Community_628.md) (4 shared connections)
+- [Community 522](Community_522.md) (4 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 105](Community_105.md) (3 shared connections)
+- [Community 67](Community_67.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 362](Community_362.md) (2 shared connections)
+- [Community 382](Community_382.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 149 (96%)
+- INFERRED: 6 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

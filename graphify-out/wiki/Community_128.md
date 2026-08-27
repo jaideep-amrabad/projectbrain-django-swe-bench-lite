@@ -1,63 +1,61 @@
 # Community 128
 
-> 72 nodes · cohesion 0.03
+> 76 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ForeignObject** (53 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **RelativeFieldTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **M2mThroughFieldsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **TestModelCheckTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_unique_target()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_instance_value_for_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.test_check_composite_foreign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_check_subset_composite_foreign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_foreign_key_to_isolate_apps_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_many_to_many_through_isolate_apps_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_many_to_many_to_isolate_apps_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_add_foreign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_to_fields_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_extra_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_foreign_related_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_local_related_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.resolve_related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- *... and 47 more nodes in this community*
+- **MigrationAutodetector** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._detect_changes()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.add_operation()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.through()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.generate_altered_fields()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._get_dependencies_for_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_created_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._sort_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **migrations/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **RegexObject** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_renamed_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **get_migration_name_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_altered_options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_created_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [Community 95](Community_95.md) (7 shared connections)
-- [Community 125](Community_125.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 744](Community_744.md) (3 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 104](Community_104.md) (3 shared connections)
-- [Community 49](Community_49.md) (3 shared connections)
-- [Community 120](Community_120.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 528](Community_528.md) (2 shared connections)
-- [Community 193](Community_193.md) (2 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
+- [Community 22](Community_22.md) (7 shared connections)
+- [Community 32](Community_32.md) (6 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 422](Community_422.md) (4 shared connections)
+- [Community 80](Community_80.md) (3 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 186](Community_186.md) (2 shared connections)
+- [Community 151](Community_151.md) (2 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 117 (91%)
-- INFERRED: 12 (9%)
+- EXTRACTED: 170 (91%)
+- INFERRED: 17 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

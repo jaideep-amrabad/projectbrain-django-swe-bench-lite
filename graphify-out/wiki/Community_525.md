@@ -1,56 +1,62 @@
 # Community 525
 
-> 21 nodes · cohesion 0.10
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **MigrationWriter** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Serializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.test_migration_file_header_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_simple_migration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_sorted_imports()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.unregister_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_models_import_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_migration_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_non_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.register()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.unregister()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.filename()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Take a Migration instance and is able to produce the contents of the migration…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Tests serializing a simple migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **#24155 - Tests ordering of imports.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **Test comments at top of file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **django.db.models shouldn't be imported if unused.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **search.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedExpression** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **test_trigram.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **SearchVectorField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TextFieldModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **DurationExpression** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **SQLiteNumericMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **TemporalSubtraction** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **SearchQueryField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Field** (2 connections)
+- **._combine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.compile()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 230](Community_230.md) (12 shared connections)
-- [Community 383](Community_383.md) (5 shared connections)
-- [Community 269](Community_269.md) (4 shared connections)
-- [Community 315](Community_315.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 242](Community_242.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 173](Community_173.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 11](Community_11.md) (9 shared connections)
+- [Community 506](Community_506.md) (7 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 342](Community_342.md) (4 shared connections)
+- [Community 752](Community_752.md) (4 shared connections)
+- [Community 118](Community_118.md) (3 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 121](Community_121.md) (2 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (82%)
-- INFERRED: 10 (18%)
+- EXTRACTED: 99 (93%)
+- INFERRED: 7 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

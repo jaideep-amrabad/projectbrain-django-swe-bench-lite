@@ -1,59 +1,63 @@
 # Community 134
 
-> 27 nodes · cohesion 0.09
+> 73 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **HttpResponseBase** (37 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **OSError** (6 connections)
-- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.test_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.test_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **._content_type_for_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Convert headers key/value to ascii/latin-1 native strings. `charset` must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Case-insensitive check for a header.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Set a header unless it has already been set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- *... and 2 more nodes in this community*
+- **Paginator** (43 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PaginationTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **paginator.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **ModelPaginationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **QuerySetPaginator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.validate_number()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.ordered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_getitem()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginating_unordered_object_list_raises_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 584](Community_584.md) (5 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 835](Community_835.md) (4 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 320](Community_320.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 895](Community_895.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 51](Community_51.md) (7 shared connections)
+- [Community 238](Community_238.md) (6 shared connections)
+- [Community 523](Community_523.md) (6 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 473](Community_473.md) (3 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 290](Community_290.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 140](Community_140.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (87%)
-- INFERRED: 7 (13%)
+- EXTRACTED: 160 (88%)
+- INFERRED: 21 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

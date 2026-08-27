@@ -1,20 +1,20 @@
 # Community 1058
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Test** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/pattern_tests.py`
-- **pattern_tests.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/pattern_tests.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/pattern_tests.py`
+- **.test_inheritance15()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **A block within another block** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 773](Community_773.md) (1 shared connections)
+- [Community 796](Community_796.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/pattern_tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

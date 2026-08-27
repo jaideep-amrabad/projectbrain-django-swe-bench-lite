@@ -4,48 +4,49 @@
 
 ## Key Concepts
 
-- **BasicExtractorTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_blocktrans_trimmed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_po_file_encoding_when_updating()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_pot_charset_header_is_utf8()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_use_i18n_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_find_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_message_context_extractor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertMsgStr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_comments_extractor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_context_in_single_quotes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_special_char_extracted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_decode_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **makemessages also runs successfully when USE_I18N is False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **test xgettext warning about multiple bare interpolation placeholders** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Message contexts are correctly extracted for the {% trans %} and {% blocktrans…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Template comment tags on the same line of other constructs (#19552)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **find_files only discover files having the proper extensions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Update of PO file doesn't corrupt it with non-UTF-8 encoding on Windows…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Content-Type: ... charset=CHARSET is replaced with charset=UTF-8** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **JsonSerializerTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Score** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_float_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **SerializerAPITests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_stream_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_indentation_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Invalid many-to-many keys should throw a helpful error message. This tests the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **If there is an invalid field value, the error message should contain the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Invalid foreign keys with a natural key should throw a helpful error message,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Invalid many-to-many keys should throw a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **If there is an invalid primary key, the error message should contain the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Float values serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 512](Community_512.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 993](Community_993.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 694](Community_694.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 234](Community_234.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 30 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

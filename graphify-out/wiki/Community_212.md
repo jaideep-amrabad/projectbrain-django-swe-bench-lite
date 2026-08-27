@@ -1,58 +1,60 @@
 # Community 212
 
-> 30 nodes · cohesion 0.11
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **timesince()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **TimesinceTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timeuntil()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **utils_tests/test_timesince.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Avoid text wrapping in the middle of a phrase by adding non-breaking spaces…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **Take two datetime objects and return the time between d and now as a nicely…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **Like timesince, but return a string measuring the time until the given time.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **requires_tz_support** (1 connections)
-- **Timesince should work with both date objects (#9672)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **# NOTE: \xa0 avoids wrapping between value and unit** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Microseconds and seconds are ignored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- *... and 5 more nodes in this community*
+- **DiscoverRunner** (60 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DiscoverRunnerTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_name_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **change_cwd()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_empty_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_suite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_add_arguments_debug_mode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_duplicates_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_excluded_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_ignore_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_included_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_testcase_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **ArgumentParser** (2 connections)
+- **.get_resultclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.setup_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.setup_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.suite_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.teardown_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 32](Community_32.md) (7 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 841](Community_841.md) (1 shared connections)
-- [Community 232](Community_232.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 848](Community_848.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 397](Community_397.md) (8 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 878](Community_878.md) (4 shared connections)
+- [Community 600](Community_600.md) (2 shared connections)
+- [Community 488](Community_488.md) (2 shared connections)
+- [Community 943](Community_943.md) (2 shared connections)
+- [Community 883](Community_883.md) (2 shared connections)
+- [Community 379](Community_379.md) (2 shared connections)
+- [Community 200](Community_200.md) (1 shared connections)
+- [Community 778](Community_778.md) (1 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
+- [Community 849](Community_849.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 108 (92%)
+- INFERRED: 10 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

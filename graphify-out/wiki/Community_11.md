@@ -1,69 +1,78 @@
 # Community 11
 
-> 161 nodes · cohesion 0.02
+> 256 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **datetime** (387 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **Article** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **basic/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **DateFormatTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- **test_input_formats.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **ModelRefreshTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelInstanceCreationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **datetime_safe.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **parse_http_date()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **ModelLookupTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **LocalizedDateTimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **DatetimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **EmptyQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **basic/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelectOnSaveTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **CustomDateTimeInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **DateTimeInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **test_datetime_safe.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **time** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **SimpleDateTimeFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **HttpDateProcessingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **ArticleSelectOnSave** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- *... and 136 more nodes in this community*
+- **core/__init__.py** (101 connections) — `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
+- **test_array.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **PostgreSQLTestCase** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
+- **postgres_tests/models.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **postgres_tests/test_json.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **test_ranges.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **fields/array.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **test_hstore.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **fields/jsonb.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **postgres_tests/__init__.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
+- **RangesModel** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestQuerying** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **PostgreSQLModel** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **test_aggregates.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **DjangoJSONEncoder** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **fields/hstore.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **TestSaveLoad** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **JSONModel** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestQuerying** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **IntegerArrayModel** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **Transform** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **postgres/fields/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
+- **HStoreModel** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **general.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **postgres/forms/__init__.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/__init__.py`
+- *... and 231 more nodes in this community*
 
 ## Relationships
 
-- [Community 32](Community_32.md) (39 shared connections)
-- [Community 97](Community_97.md) (37 shared connections)
-- [Community 1](Community_1.md) (28 shared connections)
-- [Community 6](Community_6.md) (20 shared connections)
-- [Community 10](Community_10.md) (16 shared connections)
-- [Community 7](Community_7.md) (11 shared connections)
-- [Community 3](Community_3.md) (11 shared connections)
-- [Community 38](Community_38.md) (10 shared connections)
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 511](Community_511.md) (7 shared connections)
-- [Community 670](Community_670.md) (7 shared connections)
-- [Community 208](Community_208.md) (6 shared connections)
+- [Community 0](Community_0.md) (48 shared connections)
+- [Community 14](Community_14.md) (37 shared connections)
+- [Community 404](Community_404.md) (23 shared connections)
+- [Community 1](Community_1.md) (20 shared connections)
+- [Community 148](Community_148.md) (18 shared connections)
+- [Community 187](Community_187.md) (15 shared connections)
+- [Community 506](Community_506.md) (13 shared connections)
+- [Community 50](Community_50.md) (12 shared connections)
+- [Community 31](Community_31.md) (10 shared connections)
+- [Community 59](Community_59.md) (10 shared connections)
+- [Community 44](Community_44.md) (10 shared connections)
+- [Community 214](Community_214.md) (9 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/__main__.py`
+- `raw/code/hyd-evaluation/django-django/django/bin/django-admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_messages/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_warning/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 503 (73%)
-- INFERRED: 183 (27%)
+- EXTRACTED: 882 (93%)
+- INFERRED: 68 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

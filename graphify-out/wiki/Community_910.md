@@ -1,25 +1,25 @@
 # Community 910
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **context_processors/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **RequestContextProcessorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **.test_request_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Tests for Django's bundled context processors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Tests for the ``django.template.context_processors.request`` processor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **The request object is available in the template and that its attributes can't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **RequestFactoryStateTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.common_test_that_should_always_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request_after_client()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request_after_client_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Regression tests for #15929.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 247](Community_247.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 

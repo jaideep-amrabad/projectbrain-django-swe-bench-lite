@@ -1,64 +1,57 @@
 # Community 159
 
-> 43 nodes · cohesion 0.06
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **SerializersTestBase** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **serializers/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **serializers/test_json.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **test_yaml.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **test_xml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **serializers/models/__init__.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/__init__.py`
-- **YamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **SerializersTransactionTestBase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **YamlSerializerTransactionTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **JsonSerializerTransactionTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **XmlSerializerTransactionTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_forward_refs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **skipUnless** (2 connections)
-- **.test_altering_serialized_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deserialize_force_insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deterministic_mapping_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pkless_serialized_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_field_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_specific_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- *... and 18 more nodes in this community*
+- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **StartsWithRelation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **ForwardOneToOneDescriptor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **create_forward_many_to_many_manager()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **BrokenContainsRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **create_reverse_many_to_one_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.related_manager_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.RelatedObjectDoesNotExist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__reduce__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **._get_set_deprecation_msg_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the forward relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the reverse relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related object on the forward side of a many-to-one or one-to-…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 259](Community_259.md) (8 shared connections)
-- [Community 124](Community_124.md) (6 shared connections)
-- [Community 38](Community_38.md) (6 shared connections)
-- [Community 213](Community_213.md) (6 shared connections)
-- [Community 154](Community_154.md) (5 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 486](Community_486.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
+- [Community 14](Community_14.md) (12 shared connections)
+- [Community 133](Community_133.md) (3 shared connections)
+- [Community 117](Community_117.md) (3 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 283](Community_283.md) (2 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 704](Community_704.md) (1 shared connections)
+- [Community 930](Community_930.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 77 (90%)
+- INFERRED: 9 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

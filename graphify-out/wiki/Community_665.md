@@ -1,47 +1,40 @@
 # Community 665
 
-> 14 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **model_inheritance_regress/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **AbstractEvent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BachelorParty** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Supplier** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BirthdayParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **MessyBachelorParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Profile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **SelfRefChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **SelfRefParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Wholesaler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Regression tests for Model inheritance behavior.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **make_data_div()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **.test_large_deletes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **filter** (3 connections)
+- **trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **Regression for #13309 -- if the number of objects > chunk size, deletion still…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **A filter that uses a decorator (@mark_safe).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **A noop filter that always return its first argument and does nothing with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Relationships
 
-- [Community 502](Community_502.md) (20 shared connections)
-- [Community 352](Community_352.md) (10 shared connections)
-- [Community 666](Community_666.md) (5 shared connections)
-- [Community 1049](Community_1049.md) (2 shared connections)
-- [Community 1048](Community_1048.md) (1 shared connections)
-- [Community 1000](Community_1000.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 385](Community_385.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 225](Community_225.md) (3 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
+- [Community 139](Community_139.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (85%)
-- INFERRED: 9 (15%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

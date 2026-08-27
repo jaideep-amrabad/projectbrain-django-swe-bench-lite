@@ -1,52 +1,64 @@
 # Community 350
 
-> 41 nodes · cohesion 0.06
+> 27 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FixtureLoadingTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **._dumpdata_assert()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **DumpDataAssertMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_proxy_with_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_proxy_without_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_progressbar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_file_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_filtering_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_pks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_exclude_option_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_load_fixture_with_special_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_null_characters_on_postgresql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loading_and_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loading_stdin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_output_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_stdin_without_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_ambiguous_compressed_fixture()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compress_format_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compressed_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compressed_specified_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_db_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- *... and 16 more nodes in this community*
+- **dummy/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **BaseDatabaseClient** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **DatabaseClient** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **postgresql/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- **base/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **mysql/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **DatabaseClient** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- **sqlite3/client.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- **spatialite/client.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- **DatabaseWrapper** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **complain()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **DatabaseClient** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **DatabaseCreation** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **DatabaseIntrospection** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **DatabaseOperations** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **ignore()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **Encapsulate backend-specific methods for opening a client shell.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **Dummy database backend for Django. Django uses this if the database ENGINE…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **.settings_to_cmd_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 478](Community_478.md) (11 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 167](Community_167.md) (7 shared connections)
+- [Community 152](Community_152.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 133](Community_133.md) (4 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 108](Community_108.md) (3 shared connections)
+- [Community 145](Community_145.md) (3 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (86%)
-- INFERRED: 9 (14%)
+- EXTRACTED: 71 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

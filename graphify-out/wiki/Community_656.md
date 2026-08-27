@@ -1,40 +1,38 @@
 # Community 656
 
-> 14 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Element** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.i()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **._count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.append()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **normalize_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.finalize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **Minutes; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **RequestMethodTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method POST** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method OPTIONS** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method PUT** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method DELETE** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method PATCH** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 713](Community_713.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 492](Community_492.md) (1 shared connections)
-- [Community 561](Community_561.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

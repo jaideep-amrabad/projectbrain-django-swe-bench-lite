@@ -1,57 +1,50 @@
 # Community 490
 
-> 31 nodes · cohesion 0.08
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **CaseInsensitiveMapping** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.parse_header_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_parse_header_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Mapping** (1 connections)
-- **Allow header lookup using underscores in place of hyphens.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **OrderedSet** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **OrderedSetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **Return all the ancestors of this model as a list ordered by MRO. Useful for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
 - **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
 - **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Mapping allowing case-insensitive key lookups. Original case of keys is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_del()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- *... and 6 more nodes in this community*
+- **A set which keeps the ordering of the inserted items.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
 
 ## Relationships
 
-- [Community 163](Community_163.md) (6 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 220](Community_220.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 252](Community_252.md) (3 shared connections)
+- [Community 326](Community_326.md) (2 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
+- [Community 957](Community_957.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 636](Community_636.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

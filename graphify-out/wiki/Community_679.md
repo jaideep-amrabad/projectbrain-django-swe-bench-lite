@@ -1,38 +1,43 @@
 # Community 679
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **UserListA** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **test_mutable_list.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **mutable_list.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **UserListB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **ListMixinTestSingle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **nextRange()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._get_single_external()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._set_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._set_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **ModelInheritanceTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_abstract_parent_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_init_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_mixin_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_set_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_abstract()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_custompk_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_meta_fields_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_model_with_distinct_accessors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_model_with_distinct_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_reverse_relation_for_different_hierarchy_tree()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 419](Community_419.md) (3 shared connections)
-- [Community 532](Community_532.md) (3 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 768](Community_768.md) (9 shared connections)
+- [Community 769](Community_769.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 712](Community_712.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 932](Community_932.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (65%)
+- INFERRED: 13 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,50 @@
 # Community 730
 
-> 12 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **XMLEqualTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_comment_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_doctype_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_with_leading_or_trailing_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_not_equal_with_whitespace_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **LookupError** (6 connections)
+- **.get_registered_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.lazy_model_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **get_supported_language_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **Return the model with the given case-insensitive model_name. Raise LookupError…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Similar to get_model(), but doesn't require that an app exists with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **Take a function and a number of ("app_label", "modelname") tuples, and when all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 178](Community_178.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (71%)
+- INFERRED: 9 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

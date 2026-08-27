@@ -1,28 +1,28 @@
 # Community 873
 
-> 5 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.test_request_and_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_and_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **A simple exception report can be generated** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **test_migrations_plan/0001_initial.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **grow_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **shrink_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **Shrink salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **Grow salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
 
 ## Relationships
 
-- [Community 169](Community_169.md) (3 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

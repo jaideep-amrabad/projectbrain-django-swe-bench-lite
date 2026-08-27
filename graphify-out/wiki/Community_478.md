@@ -1,61 +1,52 @@
 # Community 478
 
-> 44 nodes · cohesion 0.07
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **fixtures/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **fixtures/models.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyThing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ForwardReferenceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Manager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- *... and 19 more nodes in this community*
+- **gis_tests/test_data.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestDataMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestDS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestGeom** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestObj** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **get_ds_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **strconvert()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.geometries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestGeomSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **tuplize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **This module has the mock object definitions used to hold reference geometry for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Turn all nested sequences to tuples in given sequence.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Converts all keys in dictionary to str type.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Base testing object, turns keyword args into attributes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Object for testing GDAL data sources.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Testing object used for wrapping reference geometry data in GEOS/GDAL tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Each attribute of this object is a list of `TestGeom` instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Mixin used for GEOS/GDAL test cases that defines a `geometries` property, which…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
 
 ## Relationships
 
-- [Community 350](Community_350.md) (11 shared connections)
-- [Community 340](Community_340.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 101](Community_101.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 67](Community_67.md) (2 shared connections)
+- [Community 804](Community_804.md) (2 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (88%)
-- INFERRED: 12 (12%)
+- EXTRACTED: 44 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

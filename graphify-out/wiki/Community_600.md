@@ -1,38 +1,41 @@
 # Community 600
 
-> 14 nodes · cohesion 0.14
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **PreparedGeometry** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.prepared()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **Return a PreparedGeometry corresponding to this geometry -- it is optimized for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.contains_properly()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.covers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.crosses()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.disjoint()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.intersects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.overlaps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.touches()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **.within()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
-- **A geometry that is prepared for performing certain operations. At the moment…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **TestDebugSQL** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **._test_output()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_normal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_verbose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 397](Community_397.md) (2 shared connections)
+- [Community 212](Community_212.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 32 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

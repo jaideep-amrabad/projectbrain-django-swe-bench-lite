@@ -1,31 +1,32 @@
 # Community 817
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **QuerysetOrderedTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_annotated_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_cleared_default_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_empty_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_explicit_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_default_or_explicit_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_order_by_extra()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Tests for the Queryset.ordered attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **GetStorageClassTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_filesystem_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_invalid_storage_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_nonexistent_storage_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_nonexistent_storage_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **get_storage_class returns the class for a storage backend name/path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **get_storage_class raises an error if the requested import don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **get_storage_class raises an error if the requested class don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **get_storage_class raises an error if the requested module don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 51](Community_51.md) (5 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (73%)
-- INFERRED: 3 (27%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

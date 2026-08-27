@@ -1,31 +1,31 @@
 # Community 911
 
-> 6 nodes · cohesion 0.53
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **empty/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **empty/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **EmptyModelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty model tests These test that things behave sensibly for the rare corner-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
+- **CSRFEnabledClientTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Client** (3 connections)
+- **.test_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **CustomTestClient** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A client can be instantiated with CSRF checks enabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 487](Community_487.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

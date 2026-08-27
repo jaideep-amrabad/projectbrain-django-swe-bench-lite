@@ -1,55 +1,67 @@
 # Community 165
 
-> 60 nodes · cohesion 0.05
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **RawQueryTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **raw_query/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertSuccessfulRawQuery()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **raw_query/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **.assertNoAnnotations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertProcessed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_pyformat_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **FriendlyAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **.assertAnnotations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **BookFkAsPk** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **Coffee** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **MixedCaseIDColumn** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **Reviewer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **.test_db_column_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_extra_conversions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_FK_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_order_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_pk_with_mixed_case_db_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_simple_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Test passing optional query parameters** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- *... and 35 more nodes in this community*
+- **force_bytes()** (57 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **force_str()** (51 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **encode_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **encode_multipart()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **is_protected_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **DummyFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **UploadedFileEncodingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.layer_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.auth_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.auth_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test_file_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_guesses_content_type_on_file_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_force_bytes_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.vsi_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 363](Community_363.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 109](Community_109.md) (16 shared connections)
+- [Community 67](Community_67.md) (14 shared connections)
+- [Community 101](Community_101.md) (7 shared connections)
+- [Community 85](Community_85.md) (7 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 70](Community_70.md) (4 shared connections)
+- [Community 127](Community_127.md) (4 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
+- [Community 25](Community_25.md) (4 shared connections)
+- [Community 50](Community_50.md) (4 shared connections)
+- [Community 804](Community_804.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (92%)
-- INFERRED: 9 (8%)
+- EXTRACTED: 177 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

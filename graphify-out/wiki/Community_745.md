@@ -1,35 +1,35 @@
 # Community 745
 
-> 8 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **RedirectCycleError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Exception** (1 connections)
-- **A HTTP Handler that can be used for testing purposes. Use the WSGI interface to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **The test client has been asked to follow a redirect loop.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ReadLimitedStreamTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_body_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_read_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_read_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_read_numbytes_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_read_numbytes_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.body, HttpRequest.read(), and HttpRequest.read(BUFFER) have proper…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.body on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.read() on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.read(LARGE_BUFFER) on a test client GET request should return the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.read() on a test client PUT request with some payload should return…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.read(LARGE_BUFFER) on a test client PUT request with some payload…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 375](Community_375.md) (2 shared connections)
-- [Community 372](Community_372.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 933](Community_933.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

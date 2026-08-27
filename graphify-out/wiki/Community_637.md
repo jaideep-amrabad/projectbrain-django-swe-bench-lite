@@ -1,38 +1,36 @@
 # Community 637
 
-> 15 nodes · cohesion 0.32
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **DiffMatchPatch()** (16 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.DiffMain()** (7 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCleanupMerge()** (6 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffLineMode()** (6 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCompute()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCleanupSemantic()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCommonPrefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCommonSuffix()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffHalfMatch()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffBisect()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffBisectSplit()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCharsToLines()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCleanupEfficiency()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCommonOverlap()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffLinesToChars()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **yesno()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_false_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none_three_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none_two_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_true_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **Given a string mapping values for true, false, and (optionally) None, return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 321](Community_321.md) (1 shared connections)
-- [Community 717](Community_717.md) (1 shared connections)
-- [Community 746](Community_746.md) (1 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

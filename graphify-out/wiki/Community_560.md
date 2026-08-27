@@ -1,44 +1,43 @@
 # Community 560
 
-> 18 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **HTMLEqualTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **parse_html()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_contains_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_html_contain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_html_parser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parse_html_in_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parsing_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_self_closing_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unicode_handling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Take a string that contains *valid* HTML and turn it into a Python object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_class_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_complex_examples()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_ignore_comments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_normalize_refs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unequal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **BrokenLinkEmailsMiddleware** (14 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **BrokenLinkEmailsMiddlewareTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.is_ignorable_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.is_internal_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.test_referer_equal_to_requested_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_without_trailing_slash_when_append_slash_is_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_without_trailing_slash_when_append_slash_is_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting_ignored_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting_no_referer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_on_another_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Send broken link emails for relevant 404 NOT FOUND responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **Return True if the referring URL is the same domain as the current request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **Return True if the given request *shouldn't* notify the site managers according…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_custom_request_checker()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Some bots set the referer to the current URL to avoid being blocked by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 713](Community_713.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 205](Community_205.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
+- EXTRACTED: 35 (97%)
 - INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 

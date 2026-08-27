@@ -1,74 +1,64 @@
 # Community 58
 
-> 112 nodes · cohesion 0.03
+> 26 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **encoding.py** (64 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **force_str()** (51 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **SimpleLazyObject** (47 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **views/debug.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **libgeos.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
-- **version.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **iri_to_uri()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **get_version()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **test_encoding.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **Promise** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **get_docs_version()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **templatetags/static.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **get_version_tuple()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **test_encoding_deprecations.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding_deprecations.py`
-- **.get_traceback_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **technical_404_response()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **staticfiles_tests/test_forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_forms.py`
-- **static()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **repercent_broken_unicode()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **uri_to_iri()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **default_urlconf()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **escape_uri_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **filepath_to_uri()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- *... and 87 more nodes in this community*
+- **auth/management/__init__.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **auth/apps.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
+- **auth/checks.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
+- **create_permissions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **auth/signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/signals.py`
+- **CreatePermissionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.ready()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
+- **_get_builtin_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **check_models_permissions()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
+- **update_last_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **AuthConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
+- **check_user_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
+- **_get_all_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **.test_create_permissions_checks_contenttypes_created()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_permission_with_proxy_content_type_created()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_unavailable_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_default_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **Creates permissions for all installed apps that need permissions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **Return (codename, name) for all permissions in the given opts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **Return (codename, name) for all autogenerated permissions. By default, this is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **A signal receiver which updates the last_login date for the user logging in.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **#24075 - Permissions shouldn't be created or deleted if the ContentType or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **`post_migrate` handler ordering isn't guaranteed. Simulate a case where…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (39 shared connections)
-- [Community 277](Community_277.md) (28 shared connections)
-- [Community 6](Community_6.md) (20 shared connections)
-- [Community 107](Community_107.md) (14 shared connections)
-- [Community 4](Community_4.md) (13 shared connections)
-- [Community 3](Community_3.md) (13 shared connections)
-- [Community 5](Community_5.md) (11 shared connections)
-- [Community 55](Community_55.md) (11 shared connections)
-- [Community 66](Community_66.md) (11 shared connections)
-- [Community 32](Community_32.md) (9 shared connections)
-- [Community 94](Community_94.md) (9 shared connections)
-- [Community 7](Community_7.md) (8 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 25](Community_25.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 117](Community_117.md) (3 shared connections)
+- [Community 69](Community_69.md) (3 shared connections)
+- [Community 137](Community_137.md) (2 shared connections)
+- [Community 122](Community_122.md) (2 shared connections)
+- [Community 164](Community_164.md) (2 shared connections)
+- [Community 423](Community_423.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding_deprecations.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
-- `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/signals.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 516 (94%)
-- INFERRED: 31 (6%)
+- EXTRACTED: 81 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,63 @@
 # Community 90
 
-> 93 nodes · cohesion 0.03
+> 117 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **TestQuerying** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **postgres_tests/test_json.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **fields/jsonb.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **JSONField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **TestFormField** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **KeyTransformTextLookupMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **KeyTransform** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **TestChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **JsonAdapter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **KeyTextTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **TestValidation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.test_ordering_grouping_by_key_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.test_invalid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_valid_default_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_redisplay_wrong_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_key_sql_injection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_custom_encoder()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- *... and 68 more nodes in this community*
+- **.settings()** (42 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **settings_tests/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **SettingsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **LazySettings** (19 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Settings** (15 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **UserSettingsHolder** (13 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **OverrideSettingsIsolationOnExceptionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ClassDecoratedTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
+- **.check_settings()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **ChildDecoratedTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ClassDecoratedTestCaseSuper** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.check_spy_receiver_exit_calls()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_both()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_enter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_exit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ParentDecoratedTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **TestComplexSettingOverride** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.modify_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_override_settings_nested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- *... and 92 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (9 shared connections)
-- [Community 54](Community_54.md) (8 shared connections)
-- [Community 571](Community_571.md) (5 shared connections)
-- [Community 591](Community_591.md) (5 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 232](Community_232.md) (3 shared connections)
-- [Community 242](Community_242.md) (3 shared connections)
-- [Community 223](Community_223.md) (3 shared connections)
-- [Community 265](Community_265.md) (2 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
+- [Community 7](Community_7.md) (22 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 51](Community_51.md) (11 shared connections)
+- [Community 379](Community_379.md) (5 shared connections)
+- [Community 44](Community_44.md) (5 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 856](Community_856.md) (2 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 122](Community_122.md) (2 shared connections)
+- [Community 56](Community_56.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 171 (94%)
-- INFERRED: 11 (6%)
+- EXTRACTED: 202 (82%)
+- INFERRED: 43 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

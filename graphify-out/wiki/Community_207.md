@@ -1,61 +1,69 @@
 # Community 207
 
-> 51 nodes · cohesion 0.06
+> 41 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Index** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **indexes/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesPostgreSQLTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **indexes/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **SchemaIndexesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **SchemaIndexesMySQLTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexConditionIgnoredTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesNotPostgreSQLTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **IndexedArticle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **IndexTogetherSingleList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **._get_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **ArticleTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **CurrentTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **IndexedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **.test_condition_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_boolean_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_integer_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_is_null_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_partial_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_ops_class_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- *... and 26 more nodes in this community*
+- **skipIfDBFeature()** (75 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **select_for_update/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **test_tablespaces.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **TablespacesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **tablespaces.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **select_for_update/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **DatabaseOperationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **sql_for_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_many_to_many_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_field_rename_inside_atomic_block()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.assertNumContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_indexed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **SkippingClassTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_table_rename_inside_atomic_block()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_extract_duration_without_native_duration_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_max_length_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Scientist** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **.test_tablespace_ignored_for_indexed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_ignored_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 85](Community_85.md) (13 shared connections)
-- [Community 213](Community_213.md) (6 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 25](Community_25.md) (5 shared connections)
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 125](Community_125.md) (4 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 35](Community_35.md) (18 shared connections)
+- [Community 14](Community_14.md) (12 shared connections)
+- [Community 24](Community_24.md) (11 shared connections)
+- [Community 46](Community_46.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 57](Community_57.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 241](Community_241.md) (3 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 224](Community_224.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (78%)
-- INFERRED: 30 (22%)
+- EXTRACTED: 165 (96%)
+- INFERRED: 6 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

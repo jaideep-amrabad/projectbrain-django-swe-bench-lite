@@ -1,26 +1,30 @@
 # Community 884
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **DjangoSafeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.represent_decimal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.represent_ordered_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **SafeDumper** (1 connections)
+- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **DBStore** (1 connections)
+- **A database session store, that handles updating the account ID column inside…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **.create_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **.get_model_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **.get_session_cookie_age()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 514](Community_514.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

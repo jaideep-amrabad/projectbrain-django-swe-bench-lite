@@ -1,40 +1,34 @@
 # Community 664
 
-> 14 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **m2m_and_m2o/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **m2m_and_m2o/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **Issue** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **RelatedObjectTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **RelatedObjectUnicodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **StringReferenceModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **.test_m2m_and_m2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **.test_m2m_with_unicode_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **Many-to-many and many-to-one relationships to the same table Make sure to set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **Regression test for #6045: references to other models can be strings, providing…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **.test_related_objects_have_name_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **TestRelatedFieldsAdminOrdering** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.check_ordering_of_field_choices()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_custom_queryset_still_wins()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_admin_ordering_beats_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_admin_with_no_ordering_fallback_to_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_no_admin_fallback_to_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Custom queryset has still precedence (#21405)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
+- [Community 296](Community_296.md) (3 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (86%)
-- INFERRED: 4 (14%)
+- EXTRACTED: 15 (83%)
+- INFERRED: 3 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

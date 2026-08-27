@@ -1,43 +1,38 @@
 # Community 598
 
-> 17 nodes · cohesion 0.16
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **FromDBValueTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
-- **from_db_value/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
-- **from_db_value/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- **Cash** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- **CashModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- **CashField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- **.test_aggregation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
-- **.test_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
-- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
-- **.test_simple_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
-- **.test_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
-- **.test_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **ProxyRelatedModelTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **ForProxyModelModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **.test_default_behavior()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_proxy_is_returned()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_works_normally()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_relation_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_query_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **The default for for_concrete_model should be True** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **When for_concrete_model is False, we should still be able to get an instance of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Instances of the proxy should be returned when for_concrete_model is False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 147](Community_147.md) (8 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
+- [Community 449](Community_449.md) (1 shared connections)
 - [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 22 (79%)
+- INFERRED: 6 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

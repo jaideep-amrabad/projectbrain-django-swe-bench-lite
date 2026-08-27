@@ -1,64 +1,69 @@
 # Community 52
 
-> 125 nodes · cohesion 0.03
+> 104 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **ChangeListTests** (90 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **admin_changelist/tests.py** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **admin_changelist/admin.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **admin_changelist/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **test_date_hierarchy.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **._create_superuser()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **ChildAdmin** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **ConcertAdmin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DateHierarchyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **EventAdmin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **._mocked_authenticated_request()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **SwallowAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Musician** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **.test_changelist_view_list_editable_changed_objects_uses_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_dynamic_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_no_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **CustomPaginationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **CustomPaginator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListDisplayChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListDisplayLinksChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListFilterChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicSearchFieldsChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **EmptyValueChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **FilteredChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- *... and 100 more nodes in this community*
+- **prototypes/io.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **libgeos.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
+- **GEOSFuncFactory** (31 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
+- **geos/prototypes/errcheck.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
+- **geos/prototypes/geom.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/geom.py`
+- **GEOSFunc** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/threadsafe.py`
+- **topology.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/topology.py`
+- **prototypes/coordseq.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/coordseq.py`
+- **misc.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/misc.py`
+- **.func()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
+- **predicates.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/predicates.py`
+- **threadsafe.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/threadsafe.py`
+- **geos_version_tuple()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
+- **check_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
+- **check_geom()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
+- **check_sized_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
+- **last_arg_byref()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
+- **prototypes/prepared.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/prepared.py`
+- **check_cs_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/coordseq.py`
+- **check_cs_op()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/coordseq.py`
+- **check_minus_one()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
+- **check_predicate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
+- **geos_char_p** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/geom.py`
+- **GEOSContextHandle** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/threadsafe.py`
+- **geos_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
+- *... and 79 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (15 shared connections)
-- [Community 12](Community_12.md) (8 shared connections)
-- [Community 57](Community_57.md) (7 shared connections)
-- [Community 86](Community_86.md) (6 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 294](Community_294.md) (6 shared connections)
-- [Community 38](Community_38.md) (6 shared connections)
-- [Community 32](Community_32.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
+- [Community 804](Community_804.md) (29 shared connections)
+- [Community 402](Community_402.md) (8 shared connections)
+- [Community 88](Community_88.md) (7 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 663](Community_663.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/coordseq.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/geom.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/misc.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/predicates.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/prepared.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/threadsafe.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/topology.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
 
 ## Audit Trail
 
-- EXTRACTED: 334 (87%)
-- INFERRED: 48 (13%)
+- EXTRACTED: 230 (94%)
+- INFERRED: 15 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

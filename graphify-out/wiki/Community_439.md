@@ -1,51 +1,52 @@
 # Community 439
 
-> 27 nodes · cohesion 0.17
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **patch** (19 connections)
-- **ReloaderTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.increment_mtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **IntegrationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.ensure_file()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **StatReloaderTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.tick_twice()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **StartDjangoTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_glob()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_multiple_globs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_multiple_recursive_globs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_nested_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_overlapping_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_overlapping_globs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.set_mtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_tick_does_not_trigger_twice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_echo_on_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_starts_thread_with_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watchman_becomes_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_snapshot_files_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **skipIf** (1 connections)
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- *... and 2 more nodes in this community*
+- **ExistingRelatedInstancesTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **known_related_objects/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **known_related_objects/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **Organiser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Pool** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **PoolStyle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Tournament** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Existing related object instance caching. Queries are not redone when going…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key_multiple_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_and()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or_different_cached_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or_only_one_with_precache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 435](Community_435.md) (8 shared connections)
-- [Community 515](Community_515.md) (8 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 704](Community_704.md) (1 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 34 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

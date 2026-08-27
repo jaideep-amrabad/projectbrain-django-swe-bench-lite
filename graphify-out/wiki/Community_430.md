@@ -1,55 +1,47 @@
 # Community 430
 
-> 28 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **UUIDPrefetchRelatedLookups** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **Person** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **prefetch_related/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **UUIDPrefetchRelated** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **House** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Room** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **LookupOrderingTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Ticket21760Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Flea** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Pet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.test_bug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.all_houses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.cached_all_houses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.primary_house()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.test_prefetch_related_from_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_from_uuid_model_to_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_from_uuid_model_to_uuid_model_with_values_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_prefetch_related_to_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_integer_pk_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_integer_pk_uuid_pk_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_integer_pk_lookup_uuid_pk_integer_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_uuid_pk_lookup_integer_pk2_uuid_pk2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.test_from_uuid_pk_lookup_uuid_pk_integer_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- *... and 3 more nodes in this community*
+- **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.unindent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_args_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_empty_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_multiline_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_operation_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 
 ## Relationships
 
-- [Community 129](Community_129.md) (14 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 362](Community_362.md) (3 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 151](Community_151.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 619](Community_619.md) (1 shared connections)
+- [Community 455](Community_455.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (73%)
-- INFERRED: 17 (27%)
+- EXTRACTED: 35 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

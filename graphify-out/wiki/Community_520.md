@@ -1,43 +1,41 @@
 # Community 520
 
-> 20 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Serializer** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.serialize()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.end_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.end_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.getvalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.handle_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.handle_fk_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.handle_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.start_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.start_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called when serializing of the queryset starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called when serializing of the queryset ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called when serializing of an object starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called when serializing of an object ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called to handle each individual (non-relational) field on an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called to handle a ForeignKey field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called to handle a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Return the fully serialized queryset (or None if the output stream is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Abstract serializer base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Serialize a queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **FormfieldShouldDeleteFormTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **BaseCustomDeleteFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_init_database()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **BaseCustomDeleteModelFormSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_all_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_custom_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_no_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.add_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **._should_delete_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **A formset mix-in that lets a form decide if it's to be deleted. Works for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Regression for #14099: BaseModelFormSet should use ModelFormSet method…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Model FormSet with CustomDelete MixIn** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Add test data to database via formset** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Verify base formset doesn't modify database** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Verify base formset honors DELETE field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Verify DeleteFormset ignores DELETE field and uses form method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Relationships
 
-- [Community 486](Community_486.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
+- [Community 306](Community_306.md) (4 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

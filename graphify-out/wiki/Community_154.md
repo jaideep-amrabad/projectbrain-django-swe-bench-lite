@@ -1,62 +1,59 @@
 # Community 154
 
-> 36 nodes · cohesion 0.08
+> 62 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **serializers/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **DeserializationError** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Deserializer()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **DeserializedObject** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.save_deferred_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **deserialize_m2m_values()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Deserializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **M2MDeserializationError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **build_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **_get_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.WithData()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **deserialize_fk_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Exception** (3 connections)
-- **SerializationError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Something bad happened during serialization.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Module for abstract serializer/unserializer base classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- *... and 11 more nodes in this community*
+- **syndication_tests/feeds.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss2Feed** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **Entry** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
+- **TestAtomFeed** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **MyCustomAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestSingleEnclosureRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
+- **ArticlesFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestLatestFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **NaiveDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TemplateContextFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TemplateFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestMultipleEnclosureAtomFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestMultipleEnclosureRSSFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss2FeedWithGuidIsPermaLinkFalse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TZAwareDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestNoPubdateFeed** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss2FeedWithGuidIsPermaLinkTrue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **syndication_tests/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
+- **syndication/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
+- **TestCustomFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestFeedUrlFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestLanguageFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss091Feed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_pubdate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 159](Community_159.md) (5 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 401](Community_401.md) (3 shared connections)
-- [Community 259](Community_259.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 368](Community_368.md) (2 shared connections)
-- [Community 478](Community_478.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
-- [Community 520](Community_520.md) (1 shared connections)
+- [Community 109](Community_109.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 211](Community_211.md) (3 shared connections)
+- [Community 315](Community_315.md) (2 shared connections)
+- [Community 927](Community_927.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 92 (93%)
+- INFERRED: 7 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

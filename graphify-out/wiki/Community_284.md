@@ -1,54 +1,59 @@
 # Community 284
 
-> 28 nodes · cohesion 0.11
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **BaseOrderWithRespectToTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **Answer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **TestOrderWithRespectToOneToOnePK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **base_tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Dimension** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Entity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Question** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.test_set_order_unrelated_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Component** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **.test_duplicate_order_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_change_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_default_to_insertion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_item_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_previous_and_next_in_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_recursive_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **The tests are shared with contenttypes_tests and so shouldn't import or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **An answer that's not related isn't updated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- *... and 3 more nodes in this community*
+- **trans_real.py** (45 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **translation()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language_from_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_supported_language_variant()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **check_for_language()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **gettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language_from_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **ngettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **pgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **all_locale_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **catalog()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **do_ntranslate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **parse_accept_lang_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **deactivate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **deactivate_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **gettext_noop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Translation helper functions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return a translation object in the default 'django' domain.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Fetch the translation object for a given language and install it as the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Uninstall the active translation object so that further _() calls resolve to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 340](Community_340.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 423](Community_423.md) (4 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 318](Community_318.md) (3 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 84 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

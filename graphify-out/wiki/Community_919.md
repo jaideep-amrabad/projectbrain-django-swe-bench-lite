@@ -1,29 +1,26 @@
 # Community 919
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **or_lookups/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
-- **or_lookups/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
-- **OR lookups To perform an OR lookup, or a lookup that combines ANDs and ORs,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
+- **OtherRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **.db_for_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,31 @@
 # Community 868
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a valid page, even if the page argument isn't a number or isn't in range.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a Page object for the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return an instance of a single page. This hook can be used by subclasses to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **FileSaveRaceConditionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **SlowFile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.save_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_race_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.chunks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 623](Community_623.md) (2 shared connections)
-- [Community 356](Community_356.md) (2 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

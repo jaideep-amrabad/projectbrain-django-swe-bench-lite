@@ -1,70 +1,54 @@
 # Community 519
 
-> 77 nodes · cohesion 0.04
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **sites_tests/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **get_current_site()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/shortcuts.py`
-- **flatpages/views.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/views.py`
-- **SitesFrameworkTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **sites/shortcuts.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/shortcuts.py`
-- **create_default_site()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- **RequestSite** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **CreateDefaultSiteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **flatpages.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
-- **RequestSiteTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **flatpage()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/views.py`
-- **CurrentSiteMiddleware** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
-- **sites/middleware.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
-- **clear_site_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.test_clear_site_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_clear_site_cache_domain()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_get_current_site()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_get_current_site_host_with_trailing_dot()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_get_current_site_no_site_id_and_handle_port_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **FlatpageNode** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
-- **get_flatpages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
-- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_custom_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_multi_db_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- *... and 52 more nodes in this community*
+- **ExtractorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertLocationCommentPresent()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **LocationCommentsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertLocationCommentNotPresent()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **._assertPoLocComment()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_full()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_never()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_location_comments_for_templatized_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **._get_token_line_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_location_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_location_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **requires_gettext_019** (3 connections)
+- **Check the opposite of assertLocationComment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Behavior is correct if --no-location switch is specified. See #16903.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Behavior is correct if --no-location switch isn't specified.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Ensure no leaky paths in comments, e.g. #: path\to\file.html.py:123 Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=full** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=file** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=never** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **r""" self.assertLocationCommentPresent('django.po', 42, 'dirA', 'dirB',…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (16 shared connections)
-- [Community 15](Community_15.md) (14 shared connections)
-- [Community 9](Community_9.md) (11 shared connections)
-- [Community 71](Community_71.md) (10 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 144](Community_144.md) (7 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 313](Community_313.md) (5 shared connections)
-- [Community 89](Community_89.md) (4 shared connections)
-- [Community 167](Community_167.md) (4 shared connections)
-- [Community 420](Community_420.md) (4 shared connections)
-- [Community 398](Community_398.md) (4 shared connections)
+- [Community 651](Community_651.md) (5 shared connections)
+- [Community 95](Community_95.md) (4 shared connections)
+- [Community 708](Community_708.md) (4 shared connections)
+- [Community 479](Community_479.md) (3 shared connections)
+- [Community 898](Community_898.md) (2 shared connections)
+- [Community 1004](Community_1004.md) (1 shared connections)
+- [Community 963](Community_963.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 964](Community_964.md) (1 shared connections)
+- [Community 965](Community_965.md) (1 shared connections)
+- [Community 1005](Community_1005.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/views.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 224 (96%)
-- INFERRED: 9 (4%)
+- EXTRACTED: 58 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

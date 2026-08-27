@@ -1,64 +1,65 @@
 # Community 290
 
-> 40 nodes · cohesion 0.06
+> 139 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Form** (24 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **test_formsets.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **RendererTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **all_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **CustomRenderer** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **FormsetAsTagTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **TestIsBoundBehavior** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **ManagementForm** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **AllValidTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_invalid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **DjangoTemplates** (3 connections)
-- **.test_attribute_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_kwarg_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_kwarg_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **BaseFavoriteDrinksFormSet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **CustomKwargForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.assertWidgetRendersTo()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
-- **.test_attribute_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **ArticleForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Choice** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **FavoriteDrinkForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- *... and 15 more nodes in this community*
+- **ChangeListTests** (92 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **admin_changelist/tests.py** (89 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **admin_changelist/admin.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **admin_changelist/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **test_date_hierarchy.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **._create_superuser()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **ChildAdmin** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **ConcertAdmin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **DateHierarchyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **EventAdmin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **._mocked_authenticated_request()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_result_list_empty_changelist_value()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_result_list_html()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_result_list_set_empty_value_display_in_model_admin()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_result_list_set_empty_value_display_on_admin_site()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **SwallowAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **Musician** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **.test_changelist_view_list_editable_changed_objects_uses_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_dynamic_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_no_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **pagination()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **CustomPaginationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **CustomPaginator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **DynamicListDisplayChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- *... and 114 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (14 shared connections)
+- [Community 21](Community_21.md) (12 shared connections)
+- [Community 23](Community_23.md) (9 shared connections)
+- [Community 42](Community_42.md) (6 shared connections)
 - [Community 6](Community_6.md) (6 shared connections)
-- [Community 73](Community_73.md) (5 shared connections)
-- [Community 137](Community_137.md) (4 shared connections)
-- [Community 60](Community_60.md) (3 shared connections)
-- [Community 170](Community_170.md) (3 shared connections)
-- [Community 384](Community_384.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 172](Community_172.md) (1 shared connections)
-- [Community 225](Community_225.md) (1 shared connections)
-- [Community 640](Community_640.md) (1 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
+- [Community 295](Community_295.md) (6 shared connections)
+- [Community 473](Community_473.md) (6 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 99](Community_99.md) (5 shared connections)
+- [Community 29](Community_29.md) (4 shared connections)
+- [Community 31](Community_31.md) (4 shared connections)
+- [Community 112](Community_112.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (92%)
-- INFERRED: 8 (8%)
+- EXTRACTED: 359 (87%)
+- INFERRED: 55 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,38 @@
 # Community 574
 
-> 18 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FirstOfTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **setup** (16 connections)
-- **.test_all_false_arguments_asvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
-- **.test_firstof15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **devDependencies** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

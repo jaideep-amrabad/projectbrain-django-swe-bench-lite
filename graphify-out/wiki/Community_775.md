@@ -4,32 +4,30 @@
 
 ## Key Concepts
 
-- **ThreadTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_default_connection_thread_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_closing_non_shared_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_connections_thread_local()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_pass_connection_between_threads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **The default connection (i.e. django.db.connection) is different for each thread…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **The connections are different for each thread (#17258).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **A connection can be passed from one thread to the other (#17258).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **A connection that is not explicitly shareable cannot be closed by another…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_thread_sharing_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **._assign_simple_slice()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._checkindex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__delitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._rebuild()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._assign_extended_slice_rebuild()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Assign an extended slice by rebuilding entire list** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Assign a simple slice; Can assign slice of any length** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Get the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Delete the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Relationships
 
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
-- [Community 639](Community_639.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 403](Community_403.md) (6 shared connections)
+- [Community 828](Community_828.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (85%)
-- INFERRED: 2 (15%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

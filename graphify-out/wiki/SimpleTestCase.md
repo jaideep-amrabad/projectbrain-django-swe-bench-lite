@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1178 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1184 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 6](Community_6.md)
+**Community:** [Community 0](Community_0.md)
 
 ## Connections by Relation
 
@@ -22,9 +22,9 @@
 - test_auth_backends.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - multiple_database/tests.py `EXTRACTED`
@@ -40,8 +40,8 @@
 - FormsFormsetTestCase `EXTRACTED`
 - WidgetTest `EXTRACTED`
 - MailTests `EXTRACTED`
-- AdminScriptTestCase `EXTRACTED`
 - WriterTests `EXTRACTED`
+- AdminScriptTestCase `EXTRACTED`
 - UrlTagTests `EXTRACTED`
 - InheritanceTests `EXTRACTED`
 - OGRGeomTest `EXTRACTED`
@@ -58,13 +58,13 @@
 - .assertRedirects() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
 - .__call__() `EXTRACTED`
+- ._validate_databases() `EXTRACTED`
 - ._add_databases_failures() `EXTRACTED`
 - .modify_settings() `EXTRACTED`
 - ._assert_contains() `EXTRACTED`
 - .assertTemplateUsed() `EXTRACTED`
 - .assertTemplateNotUsed() `EXTRACTED`
 - ._assertFooMessage() `EXTRACTED`
-- ._validate_databases() `EXTRACTED`
 - ._remove_databases_failures() `EXTRACTED`
 - .tearDownClass() `EXTRACTED`
 - .assertURLEqual() `EXTRACTED`

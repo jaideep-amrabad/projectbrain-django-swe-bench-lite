@@ -1,62 +1,40 @@
 # Community 453
 
-> 28 nodes · cohesion 0.10
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **override_system_checks** (29 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **CheckCommandTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **SilencingCheckTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.build_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **is_discoverable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_silenced_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_silenced_warning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **filter_tests_by_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_fail_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_given_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_given_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_invalid_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_list_deployment_check_included()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_list_deployment_check_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_list_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_list_tags_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_simple_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_tags_deployment_check_included()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_tags_deployment_check_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.enable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Check if a test label points to a Python package or file directory. Relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Act as a decorator. Override list of registered system checks. Useful when you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- *... and 3 more nodes in this community*
+- **._save_table()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.save()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.save_base()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._save_parents()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.get_deferred_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._do_insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._do_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.refresh_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Return a set containing names of deferred fields for this instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Reload field values from the database. By default, the reloading happens from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Save the current instance. Override this in a subclass if you want to control…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Handle the parts of saving which should be done only once per save, yet need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Save all the parents of cls using values from self.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Do the heavy-lifting involved in saving. Update or insert the data for a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Try to update the model. Return True if the model was updated (if an update…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Do an INSERT. If update_pk is defined then this method should return the new pk…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 40](Community_40.md) (13 shared connections)
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 425](Community_425.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 83](Community_83.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 654](Community_654.md) (1 shared connections)
-- [Community 386](Community_386.md) (1 shared connections)
-- [Community 874](Community_874.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 102](Community_102.md) (10 shared connections)
+- [Community 575](Community_575.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

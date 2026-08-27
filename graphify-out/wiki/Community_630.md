@@ -1,46 +1,41 @@
 # Community 630
 
-> 15 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Migration** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **IrreversibleError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.unapply()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.apply()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.mutate_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Take a project_state representing all migrations prior to this one and a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **RuntimeError** (1 connections)
-- **An irreversible migration is about to be reversed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **The base class for all migrations. Migration files will import this from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Take a ProjectState and return a new one with the migration's operations…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.func()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **CheckTemplateStringIfInvalidTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **CheckTemplateSettingsAppDirsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_setting_app_dirs_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **check_string_if_invalid_is_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_first_is_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **Error if template loaders are specified and APP_DIRS is True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (5 shared connections)
-- [Community 269](Community_269.md) (4 shared connections)
-- [Community 377](Community_377.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 315](Community_315.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 81](Community_81.md) (2 shared connections)
+- [Community 122](Community_122.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (85%)
-- INFERRED: 5 (15%)
+- EXTRACTED: 30 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

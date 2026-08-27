@@ -1,47 +1,52 @@
 # Community 580
 
-> 17 nodes · cohesion 0.19
+> 27 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **GenericInlineFormsetTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **generic_inlineformset_factory()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **.test_get_queryset_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_incorrect_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_meta_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_as_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_initial_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_for_concrete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_for_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_uses_form_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **Return a ``GenericInlineFormSet`` for the given kwargs. You must provide…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **BaseGenericInlineFormSet.get_queryset() adds default ordering, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **TaggedItemForm has a widget defined in Meta.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **The save_as_new parameter creates new items that are associated with the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **FieldFile** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **ImageFile** (1 connections)
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **File** (1 connections)
+- **Custom Field File class that records whether or not the underlying file was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 99](Community_99.md) (6 shared connections)
-- [Community 340](Community_340.md) (3 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 183](Community_183.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 722](Community_722.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
+- [Community 198](Community_198.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 260](Community_260.md) (2 shared connections)
+- [Community 347](Community_347.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (85%)
-- INFERRED: 6 (15%)
+- EXTRACTED: 39 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,62 @@
 # Community 97
 
-> 90 nodes · cohesion 0.06
+> 64 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **datetime.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **test_extract_trunc.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **DateFunctionTests** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.create_model()** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **Extract** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractYear** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **Trunc** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.test_extract_func_with_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **ExtractIsoYear** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **DateFunctionWithTimeZoneTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **ExtractQuarter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractWeek** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractWeekDay** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncYear** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractMinute** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncWeek** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.test_extract_year_exact_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.test_trunc_subquery_with_parameters()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- *... and 65 more nodes in this community*
+- **filters.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **FieldListFilter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **SimpleListFilter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **RelatedFieldListFilter** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **ListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **AllValuesFieldListFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **ChoicesFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **DateFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **prepare_lookup_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **RelatedOnlyFieldListFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **get_model_from_relation()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **reverse_field_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.field_admin_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **NotNinetiesListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.field_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.expected_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (37 shared connections)
-- [Community 38](Community_38.md) (32 shared connections)
-- [Community 47](Community_47.md) (8 shared connections)
-- [Community 102](Community_102.md) (5 shared connections)
-- [Community 25](Community_25.md) (4 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
-- [Community 304](Community_304.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 32](Community_32.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 276](Community_276.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
+- [Community 42](Community_42.md) (10 shared connections)
+- [Community 473](Community_473.md) (10 shared connections)
+- [Community 73](Community_73.md) (7 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 68](Community_68.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 317 (90%)
-- INFERRED: 36 (10%)
+- EXTRACTED: 133 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

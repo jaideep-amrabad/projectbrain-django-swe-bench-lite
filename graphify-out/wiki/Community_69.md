@@ -1,66 +1,63 @@
 # Community 69
 
-> 158 nodes · cohesion 0.03
+> 71 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Http404** (66 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **admin/sites.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **urls/base.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **NoReverseMatch** (25 connections) — `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
-- **list.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **MultipleObjectMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **contenttypes/views.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
-- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Resolver404** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
-- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **translate_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_date_field()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 133 more nodes in this community*
+- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **InlineModelAdmin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **contenttypes/admin.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **.get_formset()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_form()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **.formfield_for_foreignkey()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **AutocompleteSelectMultiple** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **modelform_defines_fields()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.formfield_for_manytomany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_fieldsets()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_readonly_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_dbfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changelist_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **GenericInlineModelAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **GenericInlineModelAdminChecks** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **.formfield_for_choice_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_autocomplete_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_exclude()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_field_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **StackedInline** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_formset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **.get_empty_value_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (28 shared connections)
-- [Community 10](Community_10.md) (26 shared connections)
-- [Community 32](Community_32.md) (18 shared connections)
-- [Community 4](Community_4.md) (15 shared connections)
-- [Community 34](Community_34.md) (14 shared connections)
-- [Community 48](Community_48.md) (11 shared connections)
-- [Community 7](Community_7.md) (8 shared connections)
-- [Community 107](Community_107.md) (6 shared connections)
-- [Community 86](Community_86.md) (6 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 218](Community_218.md) (5 shared connections)
-- [Community 338](Community_338.md) (4 shared connections)
+- [Community 53](Community_53.md) (26 shared connections)
+- [Community 473](Community_473.md) (11 shared connections)
+- [Community 68](Community_68.md) (7 shared connections)
+- [Community 117](Community_117.md) (5 shared connections)
+- [Community 144](Community_144.md) (4 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 431](Community_431.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 449](Community_449.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 547 (98%)
-- INFERRED: 11 (2%)
+- EXTRACTED: 182 (94%)
+- INFERRED: 11 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

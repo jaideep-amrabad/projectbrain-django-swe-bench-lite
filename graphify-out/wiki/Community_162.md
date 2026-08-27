@@ -1,63 +1,59 @@
 # Community 162
 
-> 80 nodes · cohesion 0.03
+> 86 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Expression** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **Ref** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **ReprTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Col** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **CombinedExpression** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.test_expressions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **ExpressionList** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **Random** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **StdDev** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **Variance** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.test_filtered_aggregates()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_aggregates()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **._parse_expressions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **Star** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **SimpleExpressionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **DurationExpression** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **SQLiteNumericMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **TemporalSubtraction** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.test_stddev()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **._get_repr_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- *... and 55 more nodes in this community*
+- **Operation** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **RunSQL** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **AddIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RemoveIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **operations/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **AddConstraint** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **TestOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- **IndexOperation** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **more_operations.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **._run_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (22 shared connections)
-- [Community 44](Community_44.md) (16 shared connections)
-- [Community 87](Community_87.md) (9 shared connections)
-- [Community 304](Community_304.md) (8 shared connections)
-- [Community 27](Community_27.md) (7 shared connections)
-- [Community 102](Community_102.md) (7 shared connections)
-- [Community 46](Community_46.md) (7 shared connections)
-- [Community 88](Community_88.md) (6 shared connections)
-- [Community 126](Community_126.md) (6 shared connections)
-- [Community 28](Community_28.md) (6 shared connections)
-- [Community 276](Community_276.md) (6 shared connections)
-- [Community 141](Community_141.md) (4 shared connections)
+- [Community 1](Community_1.md) (17 shared connections)
+- [Community 610](Community_610.md) (3 shared connections)
+- [Community 496](Community_496.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 151](Community_151.md) (2 shared connections)
+- [Community 513](Community_513.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 208 (89%)
-- INFERRED: 26 (11%)
+- EXTRACTED: 127 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

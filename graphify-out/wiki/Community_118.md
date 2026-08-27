@@ -1,60 +1,69 @@
 # Community 118
 
-> 75 nodes · cohesion 0.04
+> 65 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **EmailMessage** (75 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **MailTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_decoded_attachments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.send()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_non_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_utf8_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_message_header_overrides()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.recipients()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_text_as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_MIMEText()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_two_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_cc()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_dummy_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_from_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_multiple_message_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_attachment_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_dns_non_unicode_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_recipients_with_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_reply_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_space_continuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 50 more nodes in this community*
+- **Func** (87 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **expressions_window/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **annotations/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **window.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **annotations/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **comparison.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **test_gis_tests_utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **Ntile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **FuncTestMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_custom_functions_can_ref_other_functions()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **test_mutation()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **FirstValue** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **LagLeadFunction** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **RowNumber** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **Company** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **.test_custom_functions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **TestRangeContainsLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **IntervalToSeconds** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- **SecondsToInterval** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- **CumeDist** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **LastValue** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **PercentRank** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **Rank** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **DepartmentStore** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **Store** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 187](Community_187.md) (14 shared connections)
-- [Community 307](Community_307.md) (13 shared connections)
-- [Community 441](Community_441.md) (6 shared connections)
-- [Community 865](Community_865.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 485](Community_485.md) (2 shared connections)
-- [Community 921](Community_921.md) (2 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
-- [Community 586](Community_586.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 98](Community_98.md) (34 shared connections)
+- [Community 31](Community_31.md) (23 shared connections)
+- [Community 14](Community_14.md) (22 shared connections)
+- [Community 46](Community_46.md) (22 shared connections)
+- [Community 26](Community_26.md) (11 shared connections)
+- [Community 11](Community_11.md) (8 shared connections)
+- [Community 41](Community_41.md) (8 shared connections)
+- [Community 229](Community_229.md) (6 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 316](Community_316.md) (5 shared connections)
+- [Community 48](Community_48.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions_window/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 283 (95%)
+- INFERRED: 15 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

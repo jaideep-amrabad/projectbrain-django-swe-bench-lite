@@ -1,50 +1,55 @@
 # Community 493
 
-> 22 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseFeatures** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **mysql/test_features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **TestFeatures** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **.can_introspect_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **._mysql_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.test_skip_locked_no_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **.test_supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **.can_introspect_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.has_select_for_update_skip_locked()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.has_zoneinfo_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.ignores_table_name_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.is_sql_auto_is_null_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.needs_explain_extended()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_column_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_default_in_lead_lag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_over_clause()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **All storage engines except MyISAM support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **Internal method used in Django tests. Don't rely on this from your code** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **Confirm support for introspected foreign keys** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **skipUnless** (1 connections)
-- **All storage engines except MyISAM support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **locks.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **file_move_safe()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **cache/backends/filebased.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **move.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **_fd()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **OVERLAPPED** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **.test_file_move_copystat_cifs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **unlock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **FileMoveSafeTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **_OFFSET** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **_OFFSET_UNION** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Structure** (2 connections)
+- **_samefile()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **.test_file_move_overwrite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **File-based cache backend** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **Portable file locking utilities. Based partially on an example by Jonathan…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Get a filedescriptor from something which could be a file or an fd.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Move a file in the safest way possible:: >>> from django.core.files.move import…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **Move a file from one location to another in the safest way possible. First, try…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **file_move_safe() ignores a copystat() EPERM PermissionError. This happens when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Union** (1 connections)
 
 ## Relationships
 
-- [Community 107](Community_107.md) (5 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 346](Community_346.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 259](Community_259.md) (5 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 494](Community_494.md) (2 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 279](Community_279.md) (1 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 47 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

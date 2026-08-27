@@ -1,32 +1,30 @@
 # Community 839
 
-> 8 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **AsyncUnsafeTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **DatabaseConnectionTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.dangerous_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_async_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_get_async_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **async_to_sync** (2 connections)
-- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **async_unsafe decorator should work correctly and returns the correct message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **DateInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_l10n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **Should be able to initialize from a string value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

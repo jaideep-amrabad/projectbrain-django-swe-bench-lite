@@ -1,61 +1,64 @@
 # Community 93
 
-> 49 nodes · cohesion 0.05
+> 96 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **LazySettings** (19 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Settings** (15 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **UserSettingsHolder** (13 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **diffsettings.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **module_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **.configured()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.FILE_CHARSET()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__getattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.is_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.test_configure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_evaluated_lazysettings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- *... and 24 more nodes in this community*
+- **WSGIRequest** (72 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **RequestsTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **FakePayload** (35 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxMemorySizeMultipartPostTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxMemorySizeFormPostTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsFormPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsMultipartPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **RequestHeadersTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **DataUploadMaxNumberOfFieldsGet** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_alternate_charset_POST()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.urlencode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_body_after_POST_multipart_form_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_body_after_POST_multipart_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_non_ascii_POST()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read_and_stream_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read_and_stream_read_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_immutable_for_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_multipart_with_content_length_zero()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_read_after_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_value_after_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- *... and 71 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (7 shared connections)
-- [Community 313](Community_313.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 136](Community_136.md) (3 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 205](Community_205.md) (1 shared connections)
-- [Community 471](Community_471.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 4](Community_4.md) (17 shared connections)
+- [Community 289](Community_289.md) (17 shared connections)
+- [Community 50](Community_50.md) (13 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 56](Community_56.md) (7 shared connections)
+- [Community 247](Community_247.md) (5 shared connections)
+- [Community 632](Community_632.md) (4 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/test_fakepayload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 206 (90%)
+- INFERRED: 24 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

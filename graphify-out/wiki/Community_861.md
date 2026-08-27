@@ -1,34 +1,34 @@
 # Community 861
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **render_flatpage()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/views.py`
-- **.admin_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **csrf_protect** (2 connections)
-- **Decorator to create an admin view attached to this ``AdminSite``. This wraps…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Internal interface to the flat page view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/views.py`
+- **CallableVariablesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **Doodad** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_do_not_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_do_not_call_and_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
 
 ## Relationships
 
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 519](Community_519.md) (2 shared connections)
-- [Community 238](Community_238.md) (2 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 214](Community_214.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 99](Community_99.md) (4 shared connections)
+- [Community 441](Community_441.md) (2 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 10 (56%)
+- INFERRED: 8 (44%)
 - AMBIGUOUS: 0 (0%)
 
 ---

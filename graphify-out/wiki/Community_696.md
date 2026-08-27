@@ -1,44 +1,63 @@
 # Community 696
 
-> 13 nodes · cohesion 0.17
+> 51 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **model_fields/test_datetimefield.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **DateTimeFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_lookup_date_with_use_tz()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **DateTimeModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ValidationTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datetimefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_lookup_date_without_use_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_timefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datetimes_save_completely()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **requires_tz_support** (1 connections)
-- **DateTimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **TimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datefield_cleans_date()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **no_style()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **loaddata.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **color.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **color_style()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **Command** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.execute()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **OutputWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **make_style()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **.find_fixtures()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.load_label()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **ManageTestserver** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.loaddata()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.parse_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.check_migrations()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.test_params_to_runserver()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **supports_color()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **.fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **humanize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **SingleZipReader** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.test_testserver_handle_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_sequence_name_length_limits_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_generic_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 233](Community_233.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 32](Community_32.md) (16 shared connections)
+- [Community 228](Community_228.md) (6 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 24](Community_24.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 258](Community_258.md) (4 shared connections)
+- [Community 57](Community_57.md) (4 shared connections)
+- [Community 462](Community_462.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 385](Community_385.md) (3 shared connections)
+- [Community 123](Community_123.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 148 (97%)
+- INFERRED: 5 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

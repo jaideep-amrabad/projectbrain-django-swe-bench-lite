@@ -1,29 +1,28 @@
 # Community 957
 
-> 5 nodes · cohesion 0.60
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **GetChoicesOrderingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.assertChoicesEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_get_choices_reverse_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **reorder_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **partition_suite_by_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Reorder a test suite by test type. `classes` is a sequence of types All tests…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Partition a test suite by test type. Also prevent duplicated tests. classes is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 233](Community_233.md) (2 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 883](Community_883.md) (1 shared connections)
+- [Community 490](Community_490.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (80%)
-- INFERRED: 2 (20%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

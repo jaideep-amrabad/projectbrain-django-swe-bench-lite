@@ -1,53 +1,59 @@
 # Community 325
 
-> 36 nodes · cohesion 0.06
+> 27 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **CommandTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_create_parser_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_find_command_without_PATH()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_system_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_no_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_option_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_option_parsing_non_string_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_explode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_no_translations_deactivate_translations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_unrecognized_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_with_required_parameters_in_mixed_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_with_required_parameters_in_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_a_command_with_no_app_labels_and_parameters_should_raise_a_command_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_a_command_with_only_empty_parameter_should_ends_gracefully()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_command_with_app_labels_and_parameters_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_command_with_parameters_and_app_labels_at_the_end_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_check_migrations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command_add_arguments_after_common_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command_style()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_language_preserved()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_output_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_subparser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_subparser_dest_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- *... and 11 more nodes in this community*
+- **templatize()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **Lexer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **template.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **Token** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.create_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **DebugLexer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **smart_split()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **TranslatorCommentWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **trim_whitespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **blankout()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **.test_token_smart_split()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.split_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **templatize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **A token representing a string from the template. token_type A TokenType, either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Return a list of tokens from a given template_string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Convert the given token string into a new Token object and return it. If in_tag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Split a template string into tokens and annotates each token with its start and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **r""" Generator that splits a string by spaces, leaving quoted phrases together.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Change every non-whitespace character to the given char. Used in the templatize…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **Turn a Django template into something that is understood by xgettext. It does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 331](Community_331.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 337](Community_337.md) (1 shared connections)
+- [Community 228](Community_228.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

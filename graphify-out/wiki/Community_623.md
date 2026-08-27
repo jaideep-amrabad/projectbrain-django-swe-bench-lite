@@ -1,49 +1,46 @@
 # Community 623
 
-> 14 nodes · cohesion 0.24
+> 16 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **paginator.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.validate_number()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.test_get_page_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Exception** (1 connections)
-- **RuntimeWarning** (1 connections)
-- **Validate the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **A Paginator subclass can use the ``_get_page`` hook to return an alternative to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **dates/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **DatesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **dates/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **.test_dates_trunc_datetime_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_avoid_datetime_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **.test_dates_fails_when_given_invalid_field_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_no_arguments_are_provided()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 356](Community_356.md) (9 shared connections)
-- [Community 92](Community_92.md) (8 shared connections)
-- [Community 420](Community_420.md) (6 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 57](Community_57.md) (4 shared connections)
-- [Community 69](Community_69.md) (3 shared connections)
-- [Community 107](Community_107.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 572](Community_572.md) (2 shared connections)
-- [Community 868](Community_868.md) (2 shared connections)
-- [Community 862](Community_862.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (87%)
-- INFERRED: 10 (13%)
+- EXTRACTED: 32 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,67 +1,70 @@
 # Community 142
 
-> 44 nodes · cohesion 0.07
+> 132 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **signing.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **crypto.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **tokens.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **salted_hmac()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **signed_cookies_tests/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/tests.py`
-- **test_tokens.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **signing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **freeze_time()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Signer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **TimestampSigner** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **PickleSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
-- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.test_max_age_expiration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
-- **sessions/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
-- **base64_hmac()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **dumps()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **get_cookie_signer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **loads()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **b64_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **TestTimestampSigner** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **b64_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- *... and 19 more nodes in this community*
+- **http/response.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HttpResponseBase** (37 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **FileResponse** (27 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **views/static.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
+- **http_date()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **tests/test_static.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **HttpResponseNotAllowed** (16 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HttpResponseNotModified** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **serve()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
+- **static()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
+- **HttpResponseSubclassesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **FileResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **parse_http_date()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **responses/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **urls/static.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
+- **StaticHelperTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **OSError** (6 connections)
+- **DisallowedRedirect** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HttpResponseRedirectBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **require_http_methods()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **directory_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
+- **was_modified_since()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
+- *... and 107 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (16 shared connections)
-- [Community 517](Community_517.md) (6 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 562](Community_562.md) (5 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 277](Community_277.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 31](Community_31.md) (3 shared connections)
-- [Community 167](Community_167.md) (2 shared connections)
+- [Community 23](Community_23.md) (27 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 51](Community_51.md) (14 shared connections)
+- [Community 42](Community_42.md) (14 shared connections)
+- [Community 94](Community_94.md) (10 shared connections)
+- [Community 75](Community_75.md) (9 shared connections)
+- [Community 37](Community_37.md) (8 shared connections)
+- [Community 50](Community_50.md) (7 shared connections)
+- [Community 28](Community_28.md) (7 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 29](Community_29.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- `raw/code/hyd-evaluation/django-django/django/views/static.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 351 (96%)
+- INFERRED: 15 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

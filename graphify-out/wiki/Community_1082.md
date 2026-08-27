@@ -1,26 +1,24 @@
 # Community 1082
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **_urlparse()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **_urlsplit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **Parse a URL into 6 components:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **Parse a URL into 5 components: <scheme>://<netloc>/<path>?<query>#<fragment>…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **.test_force_login_with_backend_missing_get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **force_login() skips auth backends without a get_user() method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 827](Community_827.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 487](Community_487.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

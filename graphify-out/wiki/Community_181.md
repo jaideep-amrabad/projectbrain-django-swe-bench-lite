@@ -1,53 +1,59 @@
 # Community 181
 
-> 52 nodes · cohesion 0.05
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **CreatesuperuserManagementCommandTestCase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **mock_inputs()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **MockTTY** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_default_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_keyboard_interrupt()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_swappable_user_missing_required_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_input_not_found()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_basic_usage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_environment_variable_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_existing_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_existing_username_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_existing_username_provided_via_option_and_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_fields_with_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_fields_with_fk_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_ignore_environment_variable_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_ignore_environment_variable_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_invalid_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_non_ascii_verbose_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_password_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_password_validation_bypass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_skip_if_not_in_TTY()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_swappable_user_username_non_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_usermodel_without_password_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_validate_password_against_required_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- *... and 27 more nodes in this community*
+- **Options** (45 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._expire_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._property_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.verbose_name_raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_ancestor_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_path_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.setup_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.default_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.fields_map()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._forward_fields_map()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.installed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.label_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.managers_map()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (13 shared connections)
-- [Community 9](Community_9.md) (10 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 459](Community_459.md) (1 shared connections)
+- [Community 474](Community_474.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 947](Community_947.md) (2 shared connections)
+- [Community 997](Community_997.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 490](Community_490.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
+- [Community 575](Community_575.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

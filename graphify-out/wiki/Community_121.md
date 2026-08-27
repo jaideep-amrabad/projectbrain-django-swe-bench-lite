@@ -1,55 +1,61 @@
 # Community 121
 
-> 75 nodes · cohesion 0.05
+> 74 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **model_inheritance/tests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **model_inheritance/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **ModelInheritanceTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Restaurant** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Place** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **GrandChild** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **CommonInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **InheritanceUniqueTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **GrandParent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Supplier** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Attachment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Chef** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **SubBase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Worker** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- *... and 50 more nodes in this community*
+- **test_indexes.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **SchemaTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.get_constraints()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **BrinIndex** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **postgres/indexes.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **BTreeIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **GinIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **PostgresIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **GistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **HashIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **SpGistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **IndexTestMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **CharFieldModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **BrinIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **BTreeIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **GinIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **HashIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **SpGistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_partial_gin_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_partial_gin_index_with_tablespace()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_brin_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.check_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 95](Community_95.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 265](Community_265.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 14](Community_14.md) (11 shared connections)
+- [Community 11](Community_11.md) (9 shared connections)
+- [Community 404](Community_404.md) (7 shared connections)
+- [Community 513](Community_513.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 525](Community_525.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 322](Community_322.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (86%)
-- INFERRED: 23 (14%)
+- EXTRACTED: 186 (89%)
+- INFERRED: 22 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

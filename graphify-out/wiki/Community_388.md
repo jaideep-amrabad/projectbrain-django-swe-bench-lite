@@ -1,49 +1,45 @@
 # Community 388
 
-> 22 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **tz.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **get_current_timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **localtime_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Node** (3 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **# HACK: datetime instances cannot be assigned new attributes. Define a subclass** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``get_current_timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Force or prevent conversion of datetime objects to local time, regardless of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Enable a given time zone just for this block. The ``timezone`` argument must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Store the name of the current time zone in the context. Usage:: {%…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **# HACK: the convert_to_local_time flag will prevent** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``localtime_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **NaturalKeyFixtureTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_deserialize_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_on_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_normal_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_dangling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_long()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_normal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_tight_circular()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_tight_circular_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Test for ticket #13030 - Python based parser version natural keys deserialize…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Test for ticket #13030 - XML version natural keys deserialize with fk to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Natural key requirements are taken into account when serializing models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **It doesn't matter what order you mention the models, Store *must* be serialized…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Normal primary keys work on a model with natural key capabilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 32](Community_32.md) (5 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 149](Community_149.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 362](Community_362.md) (10 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (72%)
+- INFERRED: 9 (28%)
 - AMBIGUOUS: 0 (0%)
 
 ---

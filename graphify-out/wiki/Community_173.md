@@ -1,60 +1,61 @@
 # Community 173
 
-> 55 nodes · cohesion 0.06
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **serializer.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSerializer** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **serializer_factory()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSequenceSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DeconstructableSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize_deconstructed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ModelFieldSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ModelManagerSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._serialize_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FrozensetSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FunctoolsPartialSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **IterableSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **RegexSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **SequenceSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- *... and 30 more nodes in this community*
+- **delete/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **DeletionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **delete/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **R** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **M** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Base** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **get_default_r()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **HiddenUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **HiddenUserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **M2MFrom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **M2MTo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **MR** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **MRNull** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Origin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Referrer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **S** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **T** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_queryset_delete_returns_num_rows()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 58](Community_58.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 557](Community_557.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 383](Community_383.md) (3 shared connections)
-- [Community 109](Community_109.md) (2 shared connections)
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 230](Community_230.md) (2 shared connections)
-- [Community 147](Community_147.md) (2 shared connections)
-- [Community 761](Community_761.md) (1 shared connections)
+- [Community 466](Community_466.md) (11 shared connections)
+- [Community 596](Community_596.md) (9 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 665](Community_665.md) (2 shared connections)
+- [Community 515](Community_515.md) (1 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 335](Community_335.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 100 (81%)
+- INFERRED: 24 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

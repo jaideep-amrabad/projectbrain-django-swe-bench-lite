@@ -1,69 +1,61 @@
 # Community 53
 
-> 85 nodes · cohesion 0.04
+> 123 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **functions/text.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Length** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Transform** (15 connections)
-- **test_pad.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_pad.py`
-- **test_trim.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
-- **Chr** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **LPad** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Ord** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Repeat** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA224** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **ReverseTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- **Reverse** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA256** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA384** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA512** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **OracleHashMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **PostgreSQLSHAMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA1** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Trim** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **MD5** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **MySQLSHA2Mixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **RPad** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **ChrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
-- **LengthTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
-- *... and 60 more nodes in this community*
+- **ModelAdmin** (149 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.changeform_view()** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.changelist_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.delete_view()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_add()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **add_preserved_filters()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_preserved_filters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_change()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_change_permission()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.render_change_form()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.history_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_delete()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **get_content_type_for_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_actions()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._get_obj_does_not_exist_redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_view_or_change_permission()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.message_user()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_action()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._response_post_save()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_add_permission()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._has_any_perms_for_target_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_delete_permission()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_action_choices()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_model_perms()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- *... and 98 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (64 shared connections)
-- [Community 589](Community_589.md) (18 shared connections)
-- [Community 68](Community_68.md) (10 shared connections)
-- [Community 44](Community_44.md) (5 shared connections)
-- [Community 27](Community_27.md) (5 shared connections)
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 276](Community_276.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 30](Community_30.md) (29 shared connections)
+- [Community 69](Community_69.md) (26 shared connections)
+- [Community 473](Community_473.md) (18 shared connections)
+- [Community 42](Community_42.md) (17 shared connections)
+- [Community 73](Community_73.md) (16 shared connections)
+- [Community 21](Community_21.md) (7 shared connections)
+- [Community 427](Community_427.md) (7 shared connections)
+- [Community 295](Community_295.md) (7 shared connections)
+- [Community 351](Community_351.md) (5 shared connections)
+- [Community 37](Community_37.md) (4 shared connections)
+- [Community 296](Community_296.md) (3 shared connections)
+- [Community 349](Community_349.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_pad.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_repeat.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha224.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha512.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 261 (98%)
-- INFERRED: 6 (2%)
+- EXTRACTED: 359 (89%)
+- INFERRED: 43 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---
