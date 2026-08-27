@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **auth/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/__init__.py`
+- **gis/db/backends/mysql/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/__init__.py`
 
 ## Audit Trail
 

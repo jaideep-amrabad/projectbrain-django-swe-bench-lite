@@ -1,6 +1,6 @@
 # Community 380
 
-> 31 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -8,7 +8,6 @@
 - **DecadeListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 - **DecadeListFilterWithTitleAndParameter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 - **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 - **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 - **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 - **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
@@ -27,24 +26,25 @@
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 - **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- *... and 6 more nodes in this community*
+- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 201](Community_201.md) (20 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 73](Community_73.md) (5 shared connections)
-- [Community 584](Community_584.md) (5 shared connections)
-- [Community 712](Community_712.md) (4 shared connections)
+- [Community 204](Community_204.md) (19 shared connections)
+- [Community 74](Community_74.md) (10 shared connections)
+- [Community 580](Community_580.md) (5 shared connections)
+- [Community 704](Community_704.md) (4 shared connections)
 - [Community 7](Community_7.md) (3 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
 - [Community 5](Community_5.md) (2 shared connections)
-- [Community 458](Community_458.md) (2 shared connections)
+- [Community 456](Community_456.md) (2 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
 - [Community 40](Community_40.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 93 (93%)
-- INFERRED: 7 (7%)
+- EXTRACTED: 91 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

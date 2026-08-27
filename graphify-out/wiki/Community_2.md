@@ -1,6 +1,6 @@
 # Community 2
 
-> 275 nodes · cohesion 0.01
+> 280 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -17,6 +17,7 @@
 - **date()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **IfNode** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 - **items_for_result()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **render_value_in_context()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - **ForNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 - **IfEqualNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 - **WithNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
@@ -28,23 +29,22 @@
 - **result_headers()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
 - **templatetags/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
 - **AutoEscapeControlNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **CycleNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- *... and 250 more nodes in this community*
+- *... and 255 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (130 shared connections)
-- [Community 121](Community_121.md) (20 shared connections)
-- [Community 198](Community_198.md) (14 shared connections)
-- [Community 580](Community_580.md) (11 shared connections)
+- [Community 1](Community_1.md) (135 shared connections)
+- [Community 301](Community_301.md) (20 shared connections)
+- [Community 168](Community_168.md) (13 shared connections)
+- [Community 576](Community_576.md) (11 shared connections)
 - [Community 5](Community_5.md) (8 shared connections)
-- [Community 236](Community_236.md) (7 shared connections)
+- [Community 346](Community_346.md) (7 shared connections)
+- [Community 74](Community_74.md) (7 shared connections)
 - [Community 7](Community_7.md) (7 shared connections)
-- [Community 73](Community_73.md) (6 shared connections)
-- [Community 29](Community_29.md) (6 shared connections)
-- [Community 307](Community_307.md) (5 shared connections)
+- [Community 28](Community_28.md) (6 shared connections)
+- [Community 306](Community_306.md) (5 shared connections)
 - [Community 40](Community_40.md) (4 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 609 (87%)
-- INFERRED: 89 (13%)
+- EXTRACTED: 621 (87%)
+- INFERRED: 90 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

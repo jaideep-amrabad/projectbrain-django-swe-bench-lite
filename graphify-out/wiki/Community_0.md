@@ -1,6 +1,6 @@
 # Community 0
 
-> 561 nodes · cohesion 0.01
+> 556 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -10,12 +10,12 @@
 - **db/migrations/__init__.py** (158 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/__init__.py`
 - **django/apps/__init__.py** (102 connections) — `raw/code/hyd-evaluation/django-django/django/apps/__init__.py`
 - **core/__init__.py** (100 connections) — `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
-- **contenttypes/models.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
 - **db/models/base.py** (57 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 - **contenttypes/fields.py** (56 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
 - **timezones/tests.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **state.py** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - **core/serializers/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **auth_tests/test_management.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **models/options.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - **test/runner.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 - **serializers/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 - **test_autodetector.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
@@ -29,29 +29,28 @@
 - **xml_serializer.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 - **model_fields/test_durationfield.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
 - **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- *... and 536 more nodes in this community*
+- *... and 531 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (171 shared connections)
-- [Community 37](Community_37.md) (107 shared connections)
-- [Community 1](Community_1.md) (102 shared connections)
-- [Community 73](Community_73.md) (94 shared connections)
-- [Community 8](Community_8.md) (80 shared connections)
-- [Community 47](Community_47.md) (44 shared connections)
-- [Community 19](Community_19.md) (44 shared connections)
-- [Community 3](Community_3.md) (42 shared connections)
-- [Community 22](Community_22.md) (40 shared connections)
-- [Community 24](Community_24.md) (29 shared connections)
-- [Community 372](Community_372.md) (26 shared connections)
-- [Community 87](Community_87.md) (22 shared connections)
+- [Community 5](Community_5.md) (173 shared connections)
+- [Community 74](Community_74.md) (108 shared connections)
+- [Community 36](Community_36.md) (104 shared connections)
+- [Community 1](Community_1.md) (103 shared connections)
+- [Community 8](Community_8.md) (54 shared connections)
+- [Community 24](Community_24.md) (50 shared connections)
+- [Community 44](Community_44.md) (44 shared connections)
+- [Community 39](Community_39.md) (44 shared connections)
+- [Community 21](Community_21.md) (43 shared connections)
+- [Community 113](Community_113.md) (22 shared connections)
+- [Community 33](Community_33.md) (21 shared connections)
+- [Community 14](Community_14.md) (20 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/apps/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0002_logentry_remove_auto_add.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0003_logentry_add_action_flag_choices.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
@@ -68,11 +67,12 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0010_alter_group_name_max_length.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3122 (99%)
-- INFERRED: 24 (1%)
+- EXTRACTED: 3068 (99%)
+- INFERRED: 23 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---
