@@ -1,6 +1,6 @@
 # Community 87
 
-> 91 nodes · cohesion 0.06
+> 90 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -10,7 +10,6 @@
 - **.create_model()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
 - **Extract** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
 - **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractYear** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
 - **Trunc** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
 - **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
 - **.test_extract_func_with_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
@@ -29,22 +28,23 @@
 - **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
 - **TruncHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
 - **TruncWeek** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- *... and 66 more nodes in this community*
+- **.test_extract_year_exact_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- *... and 65 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (37 shared connections)
-- [Community 22](Community_22.md) (33 shared connections)
-- [Community 53](Community_53.md) (7 shared connections)
-- [Community 93](Community_93.md) (6 shared connections)
-- [Community 65](Community_65.md) (6 shared connections)
-- [Community 47](Community_47.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 340](Community_340.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 177](Community_177.md) (2 shared connections)
+- [Community 19](Community_19.md) (38 shared connections)
+- [Community 10](Community_10.md) (32 shared connections)
+- [Community 48](Community_48.md) (8 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 60](Community_60.md) (6 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 73](Community_73.md) (3 shared connections)
+- [Community 591](Community_591.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 328 (90%)
+- EXTRACTED: 321 (90%)
 - INFERRED: 35 (10%)
 - AMBIGUOUS: 0 (0%)
 

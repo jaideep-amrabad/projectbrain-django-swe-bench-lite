@@ -1,6 +1,6 @@
 # Community 130
 
-> 70 nodes · cohesion 0.04
+> 67 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -29,31 +29,29 @@
 - **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 - **.extra_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 - **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- *... and 45 more nodes in this community*
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (5 shared connections)
-- [Community 309](Community_309.md) (3 shared connections)
-- [Community 521](Community_521.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 200](Community_200.md) (1 shared connections)
-- [Community 473](Community_473.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 623](Community_623.md) (1 shared connections)
-- [Community 939](Community_939.md) (1 shared connections)
+- [Community 42](Community_42.md) (4 shared connections)
+- [Community 346](Community_346.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 123](Community_123.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 132](Community_132.md) (2 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (98%)
+- EXTRACTED: 125 (98%)
 - INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
