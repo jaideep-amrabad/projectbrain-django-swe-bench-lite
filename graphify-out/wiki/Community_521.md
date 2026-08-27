@@ -29,8 +29,8 @@
 
 - [Community 3](Community_3.md) (4 shared connections)
 - [Community 79](Community_79.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 279](Community_279.md) (1 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 280](Community_280.md) (1 shared connections)
 
 ## Source Files
 

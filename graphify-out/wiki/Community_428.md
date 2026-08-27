@@ -33,9 +33,9 @@
 
 ## Relationships
 
-- [Community 400](Community_400.md) (4 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 396](Community_396.md) (4 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
