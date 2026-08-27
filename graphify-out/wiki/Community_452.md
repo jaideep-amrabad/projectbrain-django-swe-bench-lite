@@ -1,48 +1,51 @@
 # Community 452
 
-> 23 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **UniqueConstraintTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **Product** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **CheckConstraintTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_model_validation_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_model_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.test_deconstruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_eq()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **Partial unique constraints are ignored by Model.validate_unique().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_condition_must_be_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction_with_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_eq()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_eq_with_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_repr_with_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.initial_form_count()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_form_count()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.is_valid()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.deleted_forms()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.management_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.ordered_forms()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._should_delete_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ManagementForm** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.extra_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return the total number of forms in this FormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return the number of forms that are required in this FormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of all the initial forms in this formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of all the extra forms in this formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of form.cleaned_data dicts for every form in self.forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of forms that have been marked for deletion.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of form in the order specified by the incoming data. Raise an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Keep track of how many form instances are displayed on the page. If adding new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return whether or not the form was marked for deletion.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return True if every form in self.forms is valid.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return the ManagementForm instance for this FormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
+- [Community 269](Community_269.md) (14 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 940](Community_940.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 560](Community_560.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

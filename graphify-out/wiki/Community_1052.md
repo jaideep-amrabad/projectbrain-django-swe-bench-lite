@@ -4,23 +4,24 @@
 
 ## Key Concepts
 
-- **bad_tag.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
-- **badsimpletag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
-- **badtag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
-- **simple_tag** (1 connections)
+- **OverriddenRedirectMiddlewareTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_response_gone_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_response_redirect_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 817](Community_817.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,29 @@
 # Community 865
 
-> 8 nodes · cohesion 0.32
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **JSONField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **InvalidJSONInput** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **JSONString** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.bound_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **str** (2 connections)
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- **GetDefaultUsernameTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_actual_implementation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_i18n()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (3 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 817](Community_817.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

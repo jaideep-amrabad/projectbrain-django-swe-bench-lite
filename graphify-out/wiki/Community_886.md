@@ -1,32 +1,32 @@
 # Community 886
 
-> 8 nodes · cohesion 0.46
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **ReverseQueryNameClashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_reverse_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **choices/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- **choices/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- **ChoicesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- **Specifying 'choices' for a field Most fields take a ``choices`` parameter,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- **.test_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 600](Community_600.md) (1 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 817](Community_817.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

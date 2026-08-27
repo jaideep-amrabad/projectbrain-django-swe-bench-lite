@@ -1,51 +1,45 @@
 # Community 572
 
-> 25 nodes · cohesion 0.09
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ExtendsNode** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **BlockNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **BlockContext** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **IncludeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.super()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.get_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **ExtendsNodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_extends_node_repr()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.find_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **Node** (3 connections)
-- **.add_blocks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.get_block()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.pop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.push()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **Render the specified template and context. Cache the template object in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **This is a wrapper around engine.find_template(). A history is kept in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **FieldFile** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **ImageFile** (1 connections)
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **File** (1 connections)
 
 ## Relationships
 
-- [Community 13](Community_13.md) (18 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 600](Community_600.md) (1 shared connections)
+- [Community 68](Community_68.md) (2 shared connections)
+- [Community 492](Community_492.md) (2 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (82%)
-- INFERRED: 9 (18%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

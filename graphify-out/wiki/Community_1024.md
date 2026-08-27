@@ -1,27 +1,23 @@
 # Community 1024
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **custombackend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **EmailBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **.send_messages()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **A custom backend for testing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **timeparse.test.js** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
+- **time()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
 
 ## Relationships
 
-- [Community 750](Community_750.md) (2 shared connections)
-- [Community 953](Community_953.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

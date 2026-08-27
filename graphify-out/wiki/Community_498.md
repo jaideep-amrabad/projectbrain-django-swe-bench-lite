@@ -1,57 +1,40 @@
 # Community 498
 
-> 29 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Index** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **SchemaIndexesPostgreSQLTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.check_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **._get_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.test_condition_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_boolean_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_integer_restriction_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_is_null_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_partial_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_ops_class_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_ops_class_partial_tablespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **skipUnless** (2 connections)
-- **.test_create_index_ignores_opclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_ops_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_ops_class_multiple_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_text_indexes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_virtual_relation_indexes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.remove_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- *... and 4 more nodes in this community*
+- **TestQuerying** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_adjacent_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contains_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_endswith()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_fully_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_fully_lt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_isempty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_not_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_not_lt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_overlap()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_startswith()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_startswith_chaining()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (11 shared connections)
-- [Community 24](Community_24.md) (11 shared connections)
-- [Community 62](Community_62.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (77%)
-- INFERRED: 18 (23%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

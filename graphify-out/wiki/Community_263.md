@@ -1,55 +1,64 @@
 # Community 263
 
-> 39 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **PasswordResetTest** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_different_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset_already_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_invalid_link_if_going_directly_to_the_final_reset_password_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_poisoned_http_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_poisoned_http_host_admin_site()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_display_user_from_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_found_custom_from()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_extra_email_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_html_mail_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- *... and 14 more nodes in this community*
+- **admin_changelist/tests.py** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **admin_changelist/admin.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **admin_changelist/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **test_date_hierarchy.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **Musician** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **CustomPaginationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **CustomPaginator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **EmptyValueChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **CustomIdUser** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **Swallow** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **ChordsBandAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **NoListDisplayLinksParentAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **QuartetAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **ChordsMusician** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **OrderedObject** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **Quartet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **UnorderedObject** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **Band** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **CharPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **ChordsBand** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- **Concert** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 921](Community_921.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 1012](Community_1012.md) (1 shared connections)
-- [Community 661](Community_661.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
+- [Community 172](Community_172.md) (42 shared connections)
+- [Community 20](Community_20.md) (11 shared connections)
+- [Community 56](Community_56.md) (8 shared connections)
+- [Community 474](Community_474.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 795](Community_795.md) (5 shared connections)
+- [Community 724](Community_724.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 139](Community_139.md) (3 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 817](Community_817.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 178 (86%)
+- INFERRED: 28 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

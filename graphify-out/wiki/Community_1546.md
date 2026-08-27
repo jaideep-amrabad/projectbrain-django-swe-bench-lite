@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **migrations2/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations2/models.py`
+- **broken_tags.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/importerror/templatetags/broken_tags.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations2/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/importerror/templatetags/broken_tags.py`
 
 ## Audit Trail
 

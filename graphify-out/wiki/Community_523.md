@@ -1,53 +1,50 @@
 # Community 523
 
-> 19 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **NodeNotFoundError** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **test_graph.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **NodeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.remove_replaced_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.remove_replacement_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.raise_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.test_node_not_found_error_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
-- **.test_dummynode_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_node_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **An attempt on a node is made that is not available in the graph.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **Remove each of the `replaced` nodes (when they exist). Any dependencies that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **The inverse operation to `remove_replaced_nodes`. Almost. Remove the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **A node that doesn't correspond to a migration file on disk. (A squashed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **default_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **Exception** (1 connections)
+- **Attempt to add a message to the request using the 'messages' app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Return the message storage on the request if it exists, otherwise return an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Add a message with the ``DEBUG`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Add a message with the ``SUCCESS`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Add a message with the ``WARNING`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Return a lazy 'messages' context variable as well as 'DEFAULT_MESSAGE_LEVELS'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- **Callable with the same interface as the storage classes. This isn't just…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
 
 ## Relationships
 
-- [Community 50](Community_50.md) (6 shared connections)
-- [Community 289](Community_289.md) (6 shared connections)
-- [Community 600](Community_600.md) (4 shared connections)
-- [Community 717](Community_717.md) (4 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 751](Community_751.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 1002](Community_1002.md) (1 shared connections)
-- [Community 1099](Community_1099.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 91](Community_91.md) (6 shared connections)
+- [Community 227](Community_227.md) (4 shared connections)
+- [Community 181](Community_181.md) (3 shared connections)
+- [Community 117](Community_117.md) (3 shared connections)
+- [Community 187](Community_187.md) (2 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 43 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

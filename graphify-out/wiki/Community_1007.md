@@ -1,30 +1,25 @@
 # Community 1007
 
-> 5 nodes · cohesion 0.40
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **SomeChildModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **SomeChildModelForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
-- **SomeChildModelInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.test_response_resolver_match_redirect_follow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_response_resolver_match_regular_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The response ResolverMatch instance contains the correct information when…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 215](Community_215.md) (3 shared connections)
-- [Community 309](Community_309.md) (2 shared connections)
-- [Community 197](Community_197.md) (1 shared connections)
+- [Community 466](Community_466.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (70%)
-- INFERRED: 3 (30%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

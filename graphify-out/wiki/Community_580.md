@@ -4,37 +4,37 @@
 
 ## Key Concepts
 
-- **DecimalFieldTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_save_without_float_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_fetch_from_db_without_float_rounding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_filter_with_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_lookup_really_big_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_roundtrip_with_trailing_zeros()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_decimal_places_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_whole_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **skipIf** (1 connections)
-- **Should be able to filter decimal fields using strings (#8023).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Ensure decimals don't go through a corrupting float conversion during save…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Really big values can be used in a filter statement.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Trailing zeros in the fractional part aren't truncated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **SquashMigrationsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.test_squashed_name_with_start_migration_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.test_squashed_name_without_start_migration_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.test_squashmigrations_invalid_start()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.test_squashmigrations_optimizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.test_squashmigrations_squashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.test_squashmigrations_valid_start()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.test_ticket_23799_squashmigrations_no_optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.test_squashmigrations_initial_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **Tests running the squashmigrations command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **squashmigrations squashes migrations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **squashmigrations optimizes operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **squashmigrations --no-optimize doesn't optimize operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **squashmigrations accepts a starting migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **squashmigrations doesn't accept a starting migration after the ending migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **--squashed-name specifies the new migration's name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **--squashed-name also works if a start migration is omitted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (4 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 116](Community_116.md) (8 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,26 +1,23 @@
 # Community 1053
 
-> 4 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **tag_27584.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
-- **BadNode** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
-- **badtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **.test_stdin_without_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Reading from stdin raises an error if format isn't specified.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 355](Community_355.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
