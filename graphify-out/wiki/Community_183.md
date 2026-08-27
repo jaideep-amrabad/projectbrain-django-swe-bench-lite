@@ -1,6 +1,6 @@
 # Community 183
 
-> 54 nodes · cohesion 0.05
+> 58 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -9,6 +9,7 @@
 - **TablespacesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 - **tablespaces.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
 - **DatabaseOperationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **TextFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 - **sql_for_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 - **MySQLPKZeroTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 - **.test_tablespace_for_many_to_many_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
@@ -25,26 +26,25 @@
 - **.test_skip_if_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 - **.test_skip_unless_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 - **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_max_length_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 - **.test_empty_string_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
 - **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- **Scientist** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- **.test_tablespace_ignored_for_indexed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- *... and 29 more nodes in this community*
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 26](Community_26.md) (13 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
+- [Community 0](Community_0.md) (17 shared connections)
+- [Community 27](Community_27.md) (16 shared connections)
 - [Community 13](Community_13.md) (9 shared connections)
-- [Community 12](Community_12.md) (6 shared connections)
-- [Community 41](Community_41.md) (6 shared connections)
-- [Community 43](Community_43.md) (5 shared connections)
-- [Community 447](Community_447.md) (4 shared connections)
-- [Community 208](Community_208.md) (3 shared connections)
-- [Community 137](Community_137.md) (3 shared connections)
-- [Community 65](Community_65.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
+- [Community 288](Community_288.md) (6 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 209](Community_209.md) (3 shared connections)
+- [Community 134](Community_134.md) (3 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 56](Community_56.md) (3 shared connections)
+- [Community 802](Community_802.md) (2 shared connections)
 
 ## Source Files
 
@@ -53,6 +53,7 @@
 - `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
@@ -64,8 +65,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 179 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 185 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

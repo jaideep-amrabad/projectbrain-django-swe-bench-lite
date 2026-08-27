@@ -13,8 +13,8 @@
 
 ## Relationships
 
-- [Community 188](Community_188.md) (3 shared connections)
-- [Community 355](Community_355.md) (2 shared connections)
+- [Community 191](Community_191.md) (3 shared connections)
+- [Community 359](Community_359.md) (2 shared connections)
 
 ## Source Files
 

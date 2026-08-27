@@ -13,7 +13,7 @@
 
 ## Relationships
 
-- [Community 40](Community_40.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
 - [Community 13](Community_13.md) (1 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
 
