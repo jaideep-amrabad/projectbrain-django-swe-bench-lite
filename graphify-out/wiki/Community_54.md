@@ -1,61 +1,67 @@
 # Community 54
 
-> 62 nodes · cohesion 0.04
+> 133 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **QuerySet** (98 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.dates()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._combinator_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._merge_sanity_check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.select_for_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.update_or_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__references_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._filter_or_exclude_inplace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._validate_values_are_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._values()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.values_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **DoesNotExistQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **._add_hints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._has_filters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 37 more nodes in this community*
+- **expressions/tests.py** (76 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Lower** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Expression** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Ref** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Col** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **CombinedExpression** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **expressions/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **.__init__()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **IterableLookupInnerExpressionsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Employee** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **ReprTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **ExpressionList** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **text/test_lower.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **test_right.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- **Company** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **ValuesExpressionsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- **Right** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Experiment** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **test_queryset_values.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- **ExpressionsNumericTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **ExpressionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **._parse_expressions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Number** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **Time** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **FieldTransformTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- *... and 108 more nodes in this community*
 
 ## Relationships
 
-- [Community 270](Community_270.md) (26 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 780](Community_780.md) (6 shared connections)
-- [Community 328](Community_328.md) (6 shared connections)
-- [Community 16](Community_16.md) (5 shared connections)
-- [Community 957](Community_957.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
-- [Community 169](Community_169.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 302](Community_302.md) (1 shared connections)
+- [Community 0](Community_0.md) (35 shared connections)
+- [Community 40](Community_40.md) (34 shared connections)
+- [Community 72](Community_72.md) (29 shared connections)
+- [Community 45](Community_45.md) (23 shared connections)
+- [Community 389](Community_389.md) (12 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 47](Community_47.md) (10 shared connections)
+- [Community 28](Community_28.md) (8 shared connections)
+- [Community 24](Community_24.md) (7 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 127](Community_127.md) (5 shared connections)
+- [Community 438](Community_438.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (90%)
-- INFERRED: 16 (10%)
+- EXTRACTED: 391 (88%)
+- INFERRED: 52 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

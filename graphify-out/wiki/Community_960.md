@@ -1,37 +1,28 @@
 # Community 960
 
-> 8 nodes · cohesion 0.25
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **media()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **static()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **A set of request processors that return dictionaries to be merged into a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **Add static-related context variables to the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **Add media-related context variables to the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **AuthTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_auth_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_dumpdata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **The methods on the auth manager obey database hints** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **dumpdata honors allow_migrate restrictions on the router** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 172](Community_172.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 580](Community_580.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 1029](Community_1029.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
+- [Community 389](Community_389.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

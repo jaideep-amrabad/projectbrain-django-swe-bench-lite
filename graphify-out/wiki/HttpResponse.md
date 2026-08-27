@@ -1,8 +1,8 @@
 # HttpResponse
 
-> God node · 306 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 310 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 56](Community_56.md)
+**Community:** [Community 9](Community_9.md)
 
 ## Connections by Relation
 
@@ -55,8 +55,8 @@
 
 ### inherits
 - HttpResponseBase `EXTRACTED`
-- SimpleTemplateResponse `EXTRACTED`
 - JsonResponse `EXTRACTED`
+- SimpleTemplateResponse `EXTRACTED`
 - HttpResponseNotAllowed `EXTRACTED`
 - HttpResponseNotModified `EXTRACTED`
 - HttpResponseServerError `EXTRACTED`

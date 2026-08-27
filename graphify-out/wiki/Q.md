@@ -1,8 +1,8 @@
 # Q
 
-> God node · 283 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 288 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 16](Community_16.md)
+**Community:** [Community 20](Community_20.md)
 
 ## Connections by Relation
 

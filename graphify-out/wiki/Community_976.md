@@ -1,35 +1,31 @@
 # Community 976
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **LastExecutedQueryTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_last_executed_query_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_last_executed_query_without_previous_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_query_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_debug_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_last_executed_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **last_executed_query should not raise an exception even if no previous query has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **last_executed_query() returns a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **CustomTemplateBooleanFieldListFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.expected_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
 
 ## Relationships
 
-- [Community 102](Community_102.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 441](Community_441.md) (1 shared connections)
-- [Community 1050](Community_1050.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 802](Community_802.md) (3 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (73%)
-- INFERRED: 4 (27%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

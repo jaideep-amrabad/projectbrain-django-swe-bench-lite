@@ -1,40 +1,44 @@
 # Community 764
 
-> 12 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **AsyncClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **RedirectCycleError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Exception** (1 connections)
-- **A HTTP Handler that can be used for testing purposes. Use the WSGI interface to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **An async version of ClientHandler.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **The test client has been asked to follow a redirect loop.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **prefix_validation_error()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
+- **error()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.run_validators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.run_validators()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **._post_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Add a message with the ``ERROR`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Prefix a validation error message while maintaining the existing validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
 
 ## Relationships
 
 - [Community 7](Community_7.md) (6 shared connections)
-- [Community 363](Community_363.md) (2 shared connections)
-- [Community 498](Community_498.md) (2 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 675](Community_675.md) (1 shared connections)
+- [Community 492](Community_492.md) (3 shared connections)
+- [Community 321](Community_321.md) (2 shared connections)
+- [Community 521](Community_521.md) (2 shared connections)
+- [Community 204](Community_204.md) (2 shared connections)
+- [Community 473](Community_473.md) (1 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 24 (75%)
+- INFERRED: 8 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,9 +4,10 @@
 
 ## Key Concepts
 
-- **BaseDatabaseOperations** (88 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **BaseDatabaseOperations** (87 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - **.window_frame_rows_start_end()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - **.combine_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - **.distinct_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - **.limit_offset_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - **.window_frame_range_start_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
@@ -28,23 +29,22 @@
 - **.execute_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - **.explain_query_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - **.fetch_returned_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.field_cast_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - *... and 79 more nodes in this community*
 
 ## Relationships
 
 - [Community 0](Community_0.md) (11 shared connections)
-- [Community 717](Community_717.md) (7 shared connections)
-- [Community 901](Community_901.md) (4 shared connections)
-- [Community 996](Community_996.md) (3 shared connections)
-- [Community 512](Community_512.md) (2 shared connections)
-- [Community 591](Community_591.md) (1 shared connections)
+- [Community 675](Community_675.md) (7 shared connections)
+- [Community 827](Community_827.md) (4 shared connections)
+- [Community 939](Community_939.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
 - [Community 407](Community_407.md) (1 shared connections)
-- [Community 274](Community_274.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
+- [Community 148](Community_148.md) (1 shared connections)
+- [Community 287](Community_287.md) (1 shared connections)
 - [Community 288](Community_288.md) (1 shared connections)
-- [Community 302](Community_302.md) (1 shared connections)
-- [Community 629](Community_629.md) (1 shared connections)
+- [Community 566](Community_566.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 145 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 144 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

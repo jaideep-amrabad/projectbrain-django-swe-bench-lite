@@ -1,33 +1,27 @@
 # Community 981
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **LongNameTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_sequence_name_length_limits_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_sequence_name_length_limits_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_sequence_name_length_limits_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Long primary keys and model names can result in a sequence name that exceeds…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Test creation of model with long name and long pk name doesn't error. Ref #8901** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **An m2m save of a model with a long name and a long m2m field name doesn't error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Sequence resetting as part of a flush with model with long name and long pk…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **_is_relevant_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **_related_non_m2m_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **_all_related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **When altering the given field, must constraints on its model from the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (2 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (83%)
-- INFERRED: 2 (17%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

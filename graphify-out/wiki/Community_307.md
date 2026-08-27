@@ -1,6 +1,6 @@
 # Community 307
 
-> 35 nodes · cohesion 0.09
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -21,6 +21,7 @@
 - **.test_get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 - **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 - **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_table_names_with_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 - **.test_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 - **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 - **.test_django_table_names_retval_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
@@ -28,16 +29,15 @@
 - **.test_get_constraints_index_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 - **.test_get_primary_key_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 - **.test_get_table_description_col_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_table_description_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- *... and 10 more nodes in this community*
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
 - [Community 0](Community_0.md) (5 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 162](Community_162.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
+- [Community 43](Community_43.md) (5 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 263](Community_263.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,8 +46,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 60 (88%)
-- INFERRED: 8 (12%)
+- EXTRACTED: 60 (87%)
+- INFERRED: 9 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---
