@@ -2,7 +2,7 @@
 
 > God node · 237 connections · `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 
-**Community:** [Community 3](Community_3.md)
+**Community:** [Community 18](Community_18.md)
 
 ## Connections by Relation
 
@@ -16,8 +16,8 @@
 - linebreaks_filter() `EXTRACTED`
 - html_safe() `EXTRACTED`
 - SafeString `EXTRACTED`
-- linenumbers() `EXTRACTED`
 - floatformat() `EXTRACTED`
+- linenumbers() `EXTRACTED`
 - urlizetrunc() `EXTRACTED`
 - urlize() `EXTRACTED`
 - items_for_result() `EXTRACTED`
@@ -40,12 +40,12 @@
 - defaulttags.py `EXTRACTED`
 - django/forms/widgets.py `EXTRACTED`
 - utils/html.py `EXTRACTED`
+- template/base.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
 - admin_list.py `EXTRACTED`
-- template/base.py `EXTRACTED`
 - contrib/admin/widgets.py `EXTRACTED`
-- decorators/tests.py `EXTRACTED`
 - trans_real.py `EXTRACTED`
+- decorators/tests.py `EXTRACTED`
 - helpers.py `EXTRACTED`
 - admin_utils/tests.py `EXTRACTED`
 - templatetags/i18n.py `EXTRACTED`

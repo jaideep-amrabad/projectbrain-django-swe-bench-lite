@@ -1,24 +1,27 @@
 # Community 1112
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_force_login_without_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **force_login() without passing a backend and with multiple backends configured…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **tag_27584.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **BadNode** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **badtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 452](Community_452.md) (1 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
