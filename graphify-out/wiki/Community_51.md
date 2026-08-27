@@ -1,6 +1,6 @@
 # Community 51
 
-> 73 nodes · cohesion 0.05
+> 71 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -29,16 +29,16 @@
 - **.get_month_format()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_previous_month()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **timezone_today()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 48 more nodes in this community*
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 318](Community_318.md) (35 shared connections)
-- [Community 11](Community_11.md) (11 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
+- [Community 545](Community_545.md) (35 shared connections)
+- [Community 217](Community_217.md) (11 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 - [Community 879](Community_879.md) (1 shared connections)
 
 ## Source Files
@@ -47,7 +47,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 175 (99%)
+- EXTRACTED: 173 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **update_only_fields/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/__init__.py`
+- **transactions/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/__init__.py`
 
 ## Audit Trail
 

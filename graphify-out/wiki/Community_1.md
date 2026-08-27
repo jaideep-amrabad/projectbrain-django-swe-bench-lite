@@ -1,12 +1,13 @@
 # Community 1
 
-> 383 nodes · cohesion 0.01
+> 433 nodes · cohesion 0.01
 
 ## Key Concepts
 
 - **django/urls/__init__.py** (212 connections) — `raw/code/hyd-evaluation/django-django/django/urls/__init__.py`
 - **auth/models.py** (119 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 - **User** (86 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **RequestFactory** (81 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 - **contrib/admin/__init__.py** (74 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
 - **auth_tests/test_views.py** (68 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - **auth/__init__.py** (66 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
@@ -18,9 +19,8 @@
 - **contrib/__init__.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/__init__.py`
 - **admin/sites.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - **auth/admin.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
+- **TemplateResponse** (44 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
 - **auth/forms.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Site** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **sites/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 - **Client** (39 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 - **auth_tests/test_management.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 - **auth_tests/test_models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
@@ -29,22 +29,22 @@
 - **auth_tests/models/__init__.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/__init__.py`
 - **test_autocomplete_view.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
 - **admin_views/test_actions.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- *... and 358 more nodes in this community*
+- *... and 408 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (132 shared connections)
-- [Community 45](Community_45.md) (87 shared connections)
-- [Community 3](Community_3.md) (85 shared connections)
-- [Community 4](Community_4.md) (53 shared connections)
-- [Community 9](Community_9.md) (49 shared connections)
-- [Community 0](Community_0.md) (45 shared connections)
-- [Community 41](Community_41.md) (43 shared connections)
-- [Community 74](Community_74.md) (41 shared connections)
-- [Community 7](Community_7.md) (41 shared connections)
-- [Community 406](Community_406.md) (38 shared connections)
-- [Community 71](Community_71.md) (35 shared connections)
-- [Community 135](Community_135.md) (32 shared connections)
+- [Community 217](Community_217.md) (147 shared connections)
+- [Community 49](Community_49.md) (90 shared connections)
+- [Community 3](Community_3.md) (80 shared connections)
+- [Community 5](Community_5.md) (52 shared connections)
+- [Community 0](Community_0.md) (49 shared connections)
+- [Community 11](Community_11.md) (45 shared connections)
+- [Community 409](Community_409.md) (45 shared connections)
+- [Community 32](Community_32.md) (43 shared connections)
+- [Community 9](Community_9.md) (42 shared connections)
+- [Community 4](Community_4.md) (41 shared connections)
+- [Community 8](Community_8.md) (38 shared connections)
+- [Community 41](Community_41.md) (35 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 2423 (99%)
-- INFERRED: 22 (1%)
+- EXTRACTED: 2520 (99%)
+- INFERRED: 28 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

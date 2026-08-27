@@ -16,11 +16,11 @@
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
 - [Community 41](Community_41.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 827](Community_827.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
