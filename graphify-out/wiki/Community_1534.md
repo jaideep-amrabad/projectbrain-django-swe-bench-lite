@@ -1,25 +1,22 @@
 # Community 1534
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **unmigrated_app_simple/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
-- **UnmigratedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
-- **A model that is in a migration-less app (which this app is if its migrations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
+- **inspectapp/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/__init__.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unmigrated_app_simple/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

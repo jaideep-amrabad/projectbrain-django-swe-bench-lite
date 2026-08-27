@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1180 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1187 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 1](Community_1.md)
+**Community:** [Community 2](Community_2.md)
 
 ## Connections by Relation
 
@@ -39,9 +39,9 @@
 - SystemChecksTestCase `EXTRACTED`
 - FormsFormsetTestCase `EXTRACTED`
 - WidgetTest `EXTRACTED`
-- MailTests `EXTRACTED`
 - WriterTests `EXTRACTED`
 - AdminScriptTestCase `EXTRACTED`
+- MailTests `EXTRACTED`
 - UrlTagTests `EXTRACTED`
 - InheritanceTests `EXTRACTED`
 - OGRGeomTest `EXTRACTED`
@@ -55,9 +55,9 @@
 
 ### method
 - .settings() `EXTRACTED`
+- ._setup_and_call() `EXTRACTED`
 - .assertRedirects() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
-- .__call__() `EXTRACTED`
 - ._validate_databases() `EXTRACTED`
 - ._add_databases_failures() `EXTRACTED`
 - .modify_settings() `EXTRACTED`
@@ -67,13 +67,13 @@
 - ._assertFooMessage() `EXTRACTED`
 - ._remove_databases_failures() `EXTRACTED`
 - .tearDownClass() `EXTRACTED`
+- .__call__() `EXTRACTED`
+- .debug() `EXTRACTED`
 - .assertURLEqual() `EXTRACTED`
 - .assertContains() `EXTRACTED`
 - .assertNotContains() `EXTRACTED`
 - .assertFormError() `EXTRACTED`
 - .assertFormsetError() `EXTRACTED`
-- ._assert_template_used() `EXTRACTED`
-- .assertRaisesMessage() `EXTRACTED`
 
 ---
 

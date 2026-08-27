@@ -1,23 +1,31 @@
 # Community 1074
 
-> 1 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **prepopulate_init.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate_init.js`
+- **SchemaIndexesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_index_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_index_name_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **Test index handling by the db.backends.schema infrastructure.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **Index names should be deterministic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **Index names on the built-in database backends:: * Are truncated as needed. *…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_index_together()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_index_together_single_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 322](Community_322.md) (3 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate_init.js`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

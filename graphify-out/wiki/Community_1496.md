@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **no_urls.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/no_urls.py`
+- **fixtures_model_package/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/no_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/__init__.py`
 
 ## Audit Trail
 

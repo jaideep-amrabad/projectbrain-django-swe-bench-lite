@@ -41,8 +41,8 @@
 - modeladmin/test_checks.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - main.py `EXTRACTED`
-- admin/checks.py `EXTRACTED`
 - test_extract_trunc.py `EXTRACTED`
+- admin/checks.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - postgres_tests/test_json.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
