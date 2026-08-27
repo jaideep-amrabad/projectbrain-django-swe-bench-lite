@@ -1,14 +1,12 @@
 # Community 200
 
-> 55 nodes · cohesion 0.05
+> 50 nodes · cohesion 0.05
 
 ## Key Concepts
 
 - **IntegerField** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **AutoField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **AutoFieldMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **BigAutoField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **PositiveIntegerField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **BigIntegerField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **SmallAutoField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
@@ -29,22 +27,24 @@
 - **.test_alter_primary_key_quoted_db_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_alter_textual_field_keep_null_status()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_char_field_pk_to_auto_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 30 more nodes in this community*
+- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 43](Community_43.md) (15 shared connections)
-- [Community 5](Community_5.md) (14 shared connections)
-- [Community 177](Community_177.md) (13 shared connections)
-- [Community 168](Community_168.md) (5 shared connections)
-- [Community 141](Community_141.md) (5 shared connections)
-- [Community 79](Community_79.md) (4 shared connections)
-- [Community 406](Community_406.md) (3 shared connections)
-- [Community 105](Community_105.md) (3 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 360](Community_360.md) (2 shared connections)
-- [Community 461](Community_461.md) (1 shared connections)
+- [Community 44](Community_44.md) (15 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 210](Community_210.md) (9 shared connections)
+- [Community 171](Community_171.md) (5 shared connections)
+- [Community 128](Community_128.md) (4 shared connections)
+- [Community 83](Community_83.md) (4 shared connections)
+- [Community 108](Community_108.md) (3 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 800](Community_800.md) (2 shared connections)
 - [Community 90](Community_90.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 115 (82%)
-- INFERRED: 25 (18%)
+- EXTRACTED: 97 (80%)
+- INFERRED: 25 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---
