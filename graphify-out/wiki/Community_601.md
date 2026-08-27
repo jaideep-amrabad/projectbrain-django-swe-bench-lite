@@ -24,11 +24,12 @@
 
 ## Relationships
 
-- [Community 217](Community_217.md) (3 shared connections)
-- [Community 600](Community_600.md) (2 shared connections)
-- [Community 841](Community_841.md) (2 shared connections)
-- [Community 403](Community_403.md) (2 shared connections)
-- [Community 565](Community_565.md) (1 shared connections)
+- [Community 677](Community_677.md) (2 shared connections)
+- [Community 855](Community_855.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 575](Community_575.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,12 +1,12 @@
 # Community 201
 
-> 48 nodes · cohesion 0.08
+> 47 nodes · cohesion 0.08
 
 ## Key Concepts
 
 - **TestStatisticsAggregate** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 - **statistics.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **StatAggregate** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **StatAggregate** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
 - **CovarPop** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
 - **RegrAvgX** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
 - **RegrCount** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
@@ -29,17 +29,18 @@
 - **.test_covar_pop_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 - **.test_covar_pop_sample_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 - **.test_missing_arguments_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- *... and 23 more nodes in this community*
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 79](Community_79.md) (5 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 333](Community_333.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 107](Community_107.md) (5 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
@@ -48,7 +49,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 67 (68%)
+- EXTRACTED: 66 (68%)
 - INFERRED: 31 (32%)
 - AMBIGUOUS: 0 (0%)
 

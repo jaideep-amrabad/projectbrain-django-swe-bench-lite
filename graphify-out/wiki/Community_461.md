@@ -1,6 +1,6 @@
 # Community 461
 
-> 23 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
@@ -13,6 +13,7 @@
 - **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 - **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 - **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **ProxyModelWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
 - **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 - **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 - **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
@@ -30,29 +31,30 @@
 
 ## Relationships
 
-- [Community 315](Community_315.md) (7 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 861](Community_861.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 32](Community_32.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 900](Community_900.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 1080](Community_1080.md) (2 shared connections)
-- [Community 217](Community_217.md) (2 shared connections)
+- [Community 420](Community_420.md) (8 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 878](Community_878.md) (5 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 911](Community_911.md) (3 shared connections)
+- [Community 1099](Community_1099.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 686](Community_686.md) (2 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
 - `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 - `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 75 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

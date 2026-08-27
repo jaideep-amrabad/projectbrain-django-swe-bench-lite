@@ -1,14 +1,15 @@
 # Q
 
-> God node · 223 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 224 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 24](Community_24.md)
 
 ## Connections by Relation
 
 ### calls
 - .test_expressions() `INFERRED`
 - .test_filtered_aggregates() `INFERRED`
+- .test_invalid_filter() `INFERRED`
 - .test_aggregate() `INFERRED`
 - ._test_range_overlaps() `INFERRED`
 - ._filter_or_exclude() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_aggregate_subquery_annotation() `INFERRED`
 - .test_all_gis_lookups_with_rasters() `INFERRED`
 - .test_dwithin_gis_lookup_output_with_rasters() `INFERRED`
-- .test_range_overlaps_custom() `INFERRED`
 
 ### contains
 - query_utils.py `EXTRACTED`

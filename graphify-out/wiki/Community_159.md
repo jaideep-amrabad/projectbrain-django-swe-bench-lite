@@ -1,11 +1,13 @@
 # Community 159
 
-> 44 nodes · cohesion 0.08
+> 55 nodes · cohesion 0.07
 
 ## Key Concepts
 
 - **model_formsets/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 - **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
 - **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
 - **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
 - **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
@@ -26,35 +28,34 @@
 - **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
 - **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
 - **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **CustomPrimaryKey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Membership** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- *... and 19 more nodes in this community*
+- **.test_inline_formsets_save_as_new()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 157](Community_157.md) (32 shared connections)
-- [Community 627](Community_627.md) (9 shared connections)
-- [Community 828](Community_828.md) (5 shared connections)
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 193](Community_193.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
+- [Community 231](Community_231.md) (33 shared connections)
+- [Community 268](Community_268.md) (13 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 212](Community_212.md) (2 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 221](Community_221.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (81%)
-- INFERRED: 27 (19%)
+- EXTRACTED: 137 (80%)
+- INFERRED: 35 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---
