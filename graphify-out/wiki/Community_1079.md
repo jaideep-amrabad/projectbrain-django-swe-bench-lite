@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **.test_unit_conversions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_unit_conversions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing default units during maths** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_init_invalid_a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_init_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **Testing initialization from invalid units** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
 
 ## Relationships
 
-- [Community 725](Community_725.md) (1 shared connections)
-- [Community 726](Community_726.md) (1 shared connections)
+- [Community 730](Community_730.md) (1 shared connections)
+- [Community 731](Community_731.md) (1 shared connections)
 
 ## Source Files
 

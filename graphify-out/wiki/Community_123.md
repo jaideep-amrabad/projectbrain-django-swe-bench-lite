@@ -1,52 +1,58 @@
 # Community 123
 
-> 27 nodes · cohesion 0.10
+> 76 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **LoginView** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **LogoutView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **PasswordResetConfirmView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_redirect_url()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_success_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_next_page()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.form_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **SuccessURLAllowedHostsMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_form_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_success_url_allowed_hosts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_form_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_form_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_form_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Log out the user and display the 'You are logged out' message.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Logout may be done via POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Display the login form and handle the login action.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- *... and 2 more nodes in this community*
+- **.run_manage()** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **CommandTypes** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ColorCommand** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_multiple_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_base_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_base_command_with_wrong_option()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_help_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_label_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_label_command_multiple_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_noargs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_specific_help()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_invalid_app_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_no_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_some_invalid_app_labels()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [Community 99](Community_99.md) (19 shared connections)
-- [Community 501](Community_501.md) (6 shared connections)
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 503](Community_503.md) (1 shared connections)
+- [Community 110](Community_110.md) (24 shared connections)
+- [Community 257](Community_257.md) (18 shared connections)
+- [Community 292](Community_292.md) (12 shared connections)
+- [Community 260](Community_260.md) (10 shared connections)
+- [Community 564](Community_564.md) (9 shared connections)
+- [Community 628](Community_628.md) (9 shared connections)
+- [Community 627](Community_627.md) (8 shared connections)
+- [Community 629](Community_629.md) (8 shared connections)
+- [Community 602](Community_602.md) (8 shared connections)
+- [Community 63](Community_63.md) (6 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 897](Community_897.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (100%)
+- EXTRACTED: 232 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

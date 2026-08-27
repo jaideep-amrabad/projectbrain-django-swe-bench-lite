@@ -4,30 +4,29 @@
 
 ## Key Concepts
 
-- **ReservedName** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **EscapingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_union_with_values_list_and_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_ticket_7302()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **TestMethods** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_key_transform_text_lookup_mixin_non_key_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_deconstruct_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_get_transforms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 977](Community_977.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 639](Community_639.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 204](Community_204.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (82%)
-- INFERRED: 2 (18%)
+- EXTRACTED: 8 (80%)
+- INFERRED: 2 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

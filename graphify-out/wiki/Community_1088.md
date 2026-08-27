@@ -10,8 +10,8 @@
 
 ## Relationships
 
-- [Community 802](Community_802.md) (2 shared connections)
-- [Community 845](Community_845.md) (2 shared connections)
+- [Community 805](Community_805.md) (2 shared connections)
+- [Community 848](Community_848.md) (2 shared connections)
 
 ## Source Files
 

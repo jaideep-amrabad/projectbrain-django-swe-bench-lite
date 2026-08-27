@@ -1,56 +1,65 @@
 # Community 245
 
-> 52 nodes · cohesion 0.04
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **URLTestCaseBase** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLRedirectTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **clear_url_caches()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **URLPrefixTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLTranslationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **PathUnusedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLRedirectWithoutTrailingSlashSettingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLRedirectWithoutTrailingSlashTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLVaryAcceptLanguageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLNamespaceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_invalid_prefix_use()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **Tests the redirect when the requested URL doesn't end with a slash…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_account_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_not_prefixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_prefixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_custom_redirect_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_en_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_not_prefixed_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_no_prefix_translated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_translate_url_utility()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_users_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_no_lang_activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- *... and 27 more nodes in this community*
+- **TemplateDoesNotExist** (39 connections) — `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
+- **template/backends/dummy.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- **Origin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **filesystem.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **Loader** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **cached.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **loaders/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **loaders/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **TemplateStrings** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- **Loader** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **Template** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- **.get_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- **.get_template_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- **Exception** (2 connections)
+- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **.get_template_sources()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.loader_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 99](Community_99.md) (11 shared connections)
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1](Community_1.md) (19 shared connections)
+- [Community 52](Community_52.md) (7 shared connections)
+- [Community 138](Community_138.md) (7 shared connections)
+- [Community 726](Community_726.md) (5 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 290](Community_290.md) (3 shared connections)
+- [Community 224](Community_224.md) (3 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 718](Community_718.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 111 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

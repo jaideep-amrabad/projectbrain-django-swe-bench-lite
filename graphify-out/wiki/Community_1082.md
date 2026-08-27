@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **The optimizer does nothing on a single operation, and that it does it in just…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RemoveField should absorb AlterField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 808](Community_808.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 797](Community_797.md) (1 shared connections)
 
 ## Source Files
 

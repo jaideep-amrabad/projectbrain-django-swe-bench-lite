@@ -1,68 +1,38 @@
 # Community 709
 
-> 51 nodes · cohesion 0.07
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Func** (98 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **expressions_window/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **django/db/models/aggregates.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **window.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **functions/mixins.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- **Lead** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **NthValue** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **Lag** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **ValidationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
-- **Ntile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **test_validation.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
-- **FixDurationInputMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- **FirstValue** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **LagLeadFunction** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **RowNumber** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **partition()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **postgres/functions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- **IntervalToSeconds** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **SecondsToInterval** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **CumeDist** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **LastValue** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **PercentRank** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **Rank** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **.resolve_expression()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **TransactionNow** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- *... and 26 more nodes in this community*
+- **UserListA** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **test_mutable_list.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **mutable_list.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **UserListB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **ListMixinTestSingle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **nextRange()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **._get_single_external()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **._set_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **._set_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (37 shared connections)
-- [Community 22](Community_22.md) (33 shared connections)
-- [Community 72](Community_72.md) (13 shared connections)
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 38](Community_38.md) (8 shared connections)
-- [Community 10](Community_10.md) (8 shared connections)
-- [Community 197](Community_197.md) (6 shared connections)
-- [Community 141](Community_141.md) (6 shared connections)
-- [Community 778](Community_778.md) (5 shared connections)
-- [Community 57](Community_57.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 86](Community_86.md) (4 shared connections)
+- [Community 402](Community_402.md) (3 shared connections)
+- [Community 546](Community_546.md) (3 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 279 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

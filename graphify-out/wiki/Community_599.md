@@ -1,50 +1,58 @@
 # Community 599
 
-> 24 nodes · cohesion 0.08
+> 23 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **TestModelDetailView** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_with_no_backward_relations_render_only_relevant_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **TestDataMixin** (2 connections)
-- **.test_app_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_descriptions_render_correctly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_instance_of_property_methods_are_displayed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_method_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_methods_with_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_methods_with_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_methods_with_arguments_display_arguments_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_methods_with_multiple_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_with_many_to_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods that begin with strings defined in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods that take arguments should also displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods with arguments should have their arguments displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods with keyword arguments should have their arguments displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods with multiple arguments should have all their arguments displayed, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Model properties are displayed as fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **The ``description`` field should render correctly for each field type.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **A model with ``related_name`` of `+` shouldn't show backward relationship links.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_detail_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_docstring_renders_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Client** (36 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **nested_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.head()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.patch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.post()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.put()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **A class that can act as a client for testing purposes. It allows the user to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Request a response from the server using GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Request a response from the server using POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Request a response from the server using HEAD.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Request a response from the server using OPTIONS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Send a resource to the server using PUT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Send a resource to the server using PATCH.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Send a DELETE request to the server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Send a TRACE request to the server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Follow any redirects by requesting responses from the server using GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **A view that uses test client to call another view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 651](Community_651.md) (2 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
+- [Community 52](Community_52.md) (5 shared connections)
+- [Community 99](Community_99.md) (3 shared connections)
+- [Community 149](Community_149.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 225](Community_225.md) (2 shared connections)
+- [Community 802](Community_802.md) (1 shared connections)
+- [Community 567](Community_567.md) (1 shared connections)
+- [Community 616](Community_616.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 58 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

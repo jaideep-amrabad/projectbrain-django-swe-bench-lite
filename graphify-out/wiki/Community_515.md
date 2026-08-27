@@ -1,63 +1,50 @@
 # Community 515
 
-> 26 nodes · cohesion 0.09
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **View** (42 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **nested_urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
-- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **._allowed_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.http_method_not_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **XViewCallableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
-- **XViewClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
-- **Http404View** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
-- **View3** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **classmethod** (1 connections)
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **Handle responding to requests for the OPTIONS HTTP verb.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Intentionally simple parent class for all views. Only implements dispatch-by-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Constructor. Called in the URLconf; can contain helpful extra keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Main entry point for a request-response process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Initialize attributes shared by all view methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.dispatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **view1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
-- *... and 1 more nodes in this community*
+- **test_lazyobject.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **SimpleLazyObjectPickleTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **BaseBaz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Baz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle_with_reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **utils_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **BazProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **CategoryInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__reduce_ex__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A base class with a funky __reduce__ method, meant to simulate the __reduce__…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A class that inherits from BaseBaz and has its own __reduce_ex__ method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A class that acts as a proxy for Baz. It does some scary mucking about with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Regression test for pickling a SimpleLazyObject wrapping a model (#25389). Also…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Test in a fairly synthetic setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Test on an actual model, based on the report in #25426.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (7 shared connections)
-- [Community 99](Community_99.md) (4 shared connections)
-- [Community 59](Community_59.md) (4 shared connections)
-- [Community 44](Community_44.md) (4 shared connections)
-- [Community 375](Community_375.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 742](Community_742.md) (2 shared connections)
-- [Community 281](Community_281.md) (2 shared connections)
-- [Community 743](Community_743.md) (2 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 88](Community_88.md) (4 shared connections)
+- [Community 284](Community_284.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 40 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **contenttypes/management/commands/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/__init__.py`
+- **auth/handlers/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/__init__.py`
 
 ## Audit Trail
 

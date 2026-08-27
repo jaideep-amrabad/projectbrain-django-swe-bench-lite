@@ -1,34 +1,41 @@
 # Community 737
 
-> 13 nodes · cohesion 0.28
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ResetCycleTagTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **setup** (11 connections)
-- **.test_resetcycle01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **CheckMessage** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **messages.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **Critical** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **Debug** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **Info** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.is_serious()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.is_silenced()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 3](Community_3.md) (8 shared connections)
+- [Community 403](Community_403.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 303](Community_303.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

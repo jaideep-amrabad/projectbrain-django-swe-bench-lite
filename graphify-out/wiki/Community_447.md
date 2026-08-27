@@ -1,51 +1,63 @@
 # Community 447
 
-> 25 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **CheckboxInputTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **CheckboxInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_render_check_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_check_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_render_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Only return the 'value' attribute if value isn't empty.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_get_context_does_not_mutate_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict_string_int()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Using any value that's not in ('', None, False, True) will check the checkbox…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Integers are handled by value, not as booleans (#17114).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **You can pass 'check_test' to the constructor. This is a callable that takes the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Calling check_test() shouldn't swallow exceptions (#17888).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **The CheckboxInput widget will return False if the key is not found in the data…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **View** (42 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **nested_urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **._allowed_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.http_method_not_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **XViewCallableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- **XViewClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- **Http404View** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- **View3** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **classmethod** (1 connections)
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Handle responding to requests for the OPTIONS HTTP verb.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Intentionally simple parent class for all views. Only implements dispatch-by-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Constructor. Called in the URLconf; can contain helpful extra keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Main entry point for a request-response process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Initialize attributes shared by all view methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.dispatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **view1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 54](Community_54.md) (4 shared connections)
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 224](Community_224.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
+- [Community 76](Community_76.md) (7 shared connections)
+- [Community 52](Community_52.md) (4 shared connections)
+- [Community 57](Community_57.md) (4 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 134](Community_134.md) (4 shared connections)
+- [Community 29](Community_29.md) (3 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
+- [Community 281](Community_281.md) (2 shared connections)
+- [Community 310](Community_310.md) (2 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 238](Community_238.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 69 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -14,7 +14,7 @@
 
 - [Community 0](Community_0.md) (1 shared connections)
 - [Community 20](Community_20.md) (1 shared connections)
-- [Community 697](Community_697.md) (1 shared connections)
+- [Community 703](Community_703.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,47 +1,38 @@
 # Community 678
 
-> 19 nodes · cohesion 0.11
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **UserSettingsHolder** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.disable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Holder for user configured settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Requests for configuration variables not in this class are satisfied from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Set the value of setting. Clear all cached values if _wrapped changes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Delete a setting and clear it from cache if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Called to manually configure the settings. The 'default_settings' parameter…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__dir__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.is_overridden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **PreparedGeometry** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.prepared()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Return a PreparedGeometry corresponding to this geometry -- it is optimized for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.contains_properly()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.covers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.crosses()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.disjoint()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.intersects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.overlaps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.touches()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **.within()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **A geometry that is prepared for performing certain operations. At the moment…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
 
 ## Relationships
 
-- [Community 228](Community_228.md) (3 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
+- [Community 42](Community_42.md) (4 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

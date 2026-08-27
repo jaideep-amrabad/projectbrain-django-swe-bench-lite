@@ -1,49 +1,61 @@
 # Community 348
 
-> 14 nodes · cohesion 0.21
+> 31 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **crypto.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **salted_hmac()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **test_crypto.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **InvalidAlgorithm** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **TestUtilsCryptoMisc** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.get_session_auth_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **.test_constant_time_compare()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_invalid_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_salted_hmac()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **Return an HMAC of the password field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **ValueError** (1 connections)
-- **Django's standard crypto functions and utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **Algorithm is not supported by hashlib.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **Return the HMAC of 'value', using a key generated from key_salt and a secret…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **schema/tests.py** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **schema/models.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorCharFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorTextFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithDefaultHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithEvenLongerName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithIndexedName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithIndexedNameAndBirthday** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithUniqueName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithUniqueNameAndBirthday** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookForeignObj** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWeak** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithLongName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithO2O** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithoutAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithSlug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **IntegerPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Note** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **NoteRename** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 99](Community_99.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 647](Community_647.md) (4 shared connections)
-- [Community 236](Community_236.md) (3 shared connections)
-- [Community 628](Community_628.md) (3 shared connections)
-- [Community 455](Community_455.md) (2 shared connections)
-- [Community 300](Community_300.md) (2 shared connections)
-- [Community 496](Community_496.md) (1 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 529](Community_529.md) (1 shared connections)
+- [Community 33](Community_33.md) (29 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 113](Community_113.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 140](Community_140.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 136 (83%)
+- INFERRED: 27 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

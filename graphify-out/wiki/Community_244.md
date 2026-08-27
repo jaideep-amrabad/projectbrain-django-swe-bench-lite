@@ -1,65 +1,53 @@
 # Community 244
 
-> 36 nodes · cohesion 0.08
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **TemplateDoesNotExist** (39 connections) — `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
-- **template/backends/dummy.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **Origin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **filesystem.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **Loader** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **cached.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **loaders/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **loaders/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
-- **TemplateStrings** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **Loader** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
-- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **Template** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **.get_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **.get_template_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **Exception** (2 connections)
-- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
-- **.get_template_sources()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.loader_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- *... and 11 more nodes in this community*
+- **WKBWriter** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **WKTWriter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **GEOSIOTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **IOBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **setter** (5 connections)
+- **_WKBReader** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **._handle_empty_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **wkt_w()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.test_empty_point_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_empty_polygon_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.write_hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.test01_wktreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test02_wktwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test03_wkbreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test04_wkbwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wkt_writer_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wkt_writer_trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wktwriter_constructor_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **Return the WKT representation of the given geometry.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.outdim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.srid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (19 shared connections)
-- [Community 99](Community_99.md) (7 shared connections)
-- [Community 496](Community_496.md) (6 shared connections)
-- [Community 549](Community_549.md) (5 shared connections)
-- [Community 39](Community_39.md) (3 shared connections)
-- [Community 58](Community_58.md) (3 shared connections)
-- [Community 290](Community_290.md) (3 shared connections)
-- [Community 209](Community_209.md) (3 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 713](Community_713.md) (2 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 42](Community_42.md) (21 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 74 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,35 @@
 # Community 418
 
-> 31 nodes · cohesion 0.17
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **schema/tests.py** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **schema/models.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorCharFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorTextFieldWithIndex** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithDefaultHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithEvenLongerName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithIndexedName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithIndexedNameAndBirthday** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithUniqueName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithUniqueNameAndBirthday** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookForeignObj** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWeak** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithLongName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithO2O** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithoutAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithSlug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **IntegerPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Note** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **NoteRename** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- *... and 6 more nodes in this community*
+- **test_database.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **check_database_backends()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
+- **DatabaseCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **.test_mysql_strict_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **.test_database_checks_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 33](Community_33.md) (29 shared connections)
-- [Community 0](Community_0.md) (13 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
 
 ## Audit Trail
 
-- EXTRACTED: 136 (83%)
-- INFERRED: 27 (17%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

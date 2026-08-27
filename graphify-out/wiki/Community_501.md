@@ -1,61 +1,64 @@
 # Community 501
 
-> 28 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **method_decorator()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **MethodDecoratorTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **ClsDec** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_argumented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_class_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_invalid_method_name_to_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_invalid_non_callable_attribute_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_new_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_tuple_of_decorators()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_bad_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_descriptors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **myattr2_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **myattr_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Convert a function decorator into a method decorator** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_preserve_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Tests for method_decorator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **A decorator that sets a new attribute on the method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **@method_decorator can be used to decorate a class and its methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- *... and 3 more nodes in this community*
+- **contrib/sitemaps/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **paginator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **sitemap()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.validate_number()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **.page()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- **index_only.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/index_only.py`
+- **x_robots_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **.get_elided_page_range()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Exception** (1 connections)
+- **RuntimeWarning** (1 connections)
+- **Return a 1-based range of pages with some values elided. If the page range is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Validate the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return a valid page, even if the page argument isn't a number or isn't in range.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return a Page object for the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return an instance of a single page. This hook can be used by subclasses to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 99](Community_99.md) (9 shared connections)
-- [Community 123](Community_123.md) (6 shared connections)
-- [Community 743](Community_743.md) (2 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 439](Community_439.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 129](Community_129.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
+- [Community 115](Community_115.md) (18 shared connections)
+- [Community 52](Community_52.md) (7 shared connections)
+- [Community 16](Community_16.md) (4 shared connections)
+- [Community 679](Community_679.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 576](Community_576.md) (3 shared connections)
+- [Community 77](Community_77.md) (3 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/index_only.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 99 (91%)
+- INFERRED: 10 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,45 +1,42 @@
 # Community 714
 
-> 19 nodes · cohesion 0.19
+> 13 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **patch** (25 connections)
-- **TestChildArguments** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **StartDjangoTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **dict** (6 connections)
-- **RunWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_calls_start_django()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_calls_sys_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_swallows_keyboard_interrupt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_as_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_as_non_django_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_echo_on_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_starts_thread_with_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watchman_becomes_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_entrypoint_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_exe_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_raises_runtimeerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_warnoptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_setting_timeout_from_environment_variable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **EmailValidator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **DeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.validate_domain_part()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_domain_whitelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_whitelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.domain_whitelist()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_domain_whitelist_access_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_domain_whitelist_set_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_whitelist_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **setter** (1 connections)
 
 ## Relationships
 
-- [Community 294](Community_294.md) (8 shared connections)
-- [Community 666](Community_666.md) (5 shared connections)
-- [Community 356](Community_356.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 739](Community_739.md) (1 shared connections)
+- [Community 419](Community_419.md) (6 shared connections)
+- [Community 107](Community_107.md) (2 shared connections)
+- [Community 999](Community_999.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 30 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

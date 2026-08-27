@@ -33,8 +33,8 @@
 
 ## Relationships
 
-- [Community 41](Community_41.md) (11 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
+- [Community 42](Community_42.md) (11 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
 
 ## Source Files
 

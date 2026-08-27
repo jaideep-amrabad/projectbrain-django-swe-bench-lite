@@ -1,62 +1,61 @@
 # Community 116
 
-> 41 nodes · cohesion 0.06
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Note** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ExtraInfo** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **BulkUpdateNoteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **Queries5Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **DisjunctiveFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CloneTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **LeafA** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **RawQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.create_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_evaluated_queryset_as_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_fields_cloning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_model_options_cloning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **GeneratorExpressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__deepcopy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_foreign_keys_do_not_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_field_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_mixed_fields_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_unsaved_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_ticket5261()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Cloning a queryset does not get out of hand. While complete testing is…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- *... and 16 more nodes in this community*
+- **method_decorator()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **MethodDecoratorTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **ClsDec** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.test_argumented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_class_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_invalid_method_name_to_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_invalid_non_callable_attribute_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_new_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_tuple_of_decorators()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_bad_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_descriptors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **myattr2_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **myattr_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Convert a function decorator into a method decorator** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_preserve_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Tests for method_decorator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **A decorator that sets a new attribute on the method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (9 shared connections)
-- [Community 977](Community_977.md) (8 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 108](Community_108.md) (4 shared connections)
-- [Community 56](Community_56.md) (4 shared connections)
-- [Community 389](Community_389.md) (4 shared connections)
-- [Community 261](Community_261.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 511](Community_511.md) (1 shared connections)
-- [Community 1013](Community_1013.md) (1 shared connections)
-- [Community 811](Community_811.md) (1 shared connections)
-- [Community 797](Community_797.md) (1 shared connections)
+- [Community 52](Community_52.md) (9 shared connections)
+- [Community 482](Community_482.md) (6 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 310](Community_310.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 149](Community_149.md) (1 shared connections)
+- [Community 238](Community_238.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (69%)
-- INFERRED: 30 (31%)
+- EXTRACTED: 67 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

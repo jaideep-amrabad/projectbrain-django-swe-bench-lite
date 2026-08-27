@@ -1,61 +1,47 @@
 # Community 431
 
-> 30 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **captured_stdout()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **RemoveStaleContentTypesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **shell/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **ShellCommandTestCase** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **captured_stdin()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_stdin_read()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **.test_stdin_read_globals()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **.test_stdin_read_inline_function_call()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **captured_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **patch** (5 connections)
-- **.test_contenttypes_removed_for_apps_not_in_installed_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_contenttypes_removed_in_installed_apps_without_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_true_with_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_interactive_true_without_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **.test_shell_with_bpython_not_installed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **.test_shell_with_ipython_not_installed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **skipIf** (3 connections)
-- **.test_command_option_globals()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **.test_command_option_inline_function_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **dict** (2 connections)
-- **.test_command_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **Return a context manager used by captured_stdout/stdin/stderr that temporarily…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Capture the output of sys.stdout: with captured_stdout() as stdout:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Capture the input to sys.stdin: with captured_stdin() as stdin:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- *... and 5 more nodes in this community*
+- **register_type_handlers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **postgres/signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **postgres_tests/test_signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **OIDTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **get_citext_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **get_hstore_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **PostgresConfigTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- **.test_register_type_handlers_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- **.assertOIDs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_citext_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_hstore_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_register_type_handlers_no_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_register_serializer_for_migrations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- **.test_citext_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_hstore_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **Return hstore and hstore array OIDs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **Return citext array OIDs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **Registering type handlers for the nodb connection does nothing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (14 shared connections)
-- [Community 62](Community_62.md) (5 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 28](Community_28.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 158](Community_158.md) (3 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 247](Community_247.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 109](Community_109.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 402](Community_402.md) (1 shared connections)
+- [Community 37](Community_37.md) (7 shared connections)
+- [Community 152](Community_152.md) (5 shared connections)
+- [Community 379](Community_379.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 46 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

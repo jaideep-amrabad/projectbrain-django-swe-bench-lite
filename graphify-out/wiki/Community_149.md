@@ -1,57 +1,60 @@
 # Community 149
 
-> 67 nodes · cohesion 0.06
+> 66 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **GenericRelationTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **generic_relations_regress/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **generic_relations_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **Note** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Link** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Cafe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **CharLink** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Company** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Content** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Developer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Guild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **HasLinkThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- *... and 42 more nodes in this community*
+- **test_client/views.py** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **test_client/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **trace_view()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **RequestFactoryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **get_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **AsyncRequestFactoryTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **form_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **post_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **TwoArgException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **AsyncClientTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **_post_view_redirect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **CSRFEnabledClientTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **form_view_with_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **nesting_exception_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **put_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **CustomTestClientTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Client** (3 connections)
+- **.test_get_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_request_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_trace_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **bad_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **BaseTestFormSet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **double_redirect_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 132](Community_132.md) (19 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 354](Community_354.md) (2 shared connections)
-- [Community 151](Community_151.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 38](Community_38.md) (20 shared connections)
+- [Community 29](Community_29.md) (14 shared connections)
+- [Community 52](Community_52.md) (13 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 18](Community_18.md) (7 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 359](Community_359.md) (3 shared connections)
+- [Community 599](Community_599.md) (3 shared connections)
+- [Community 181](Community_181.md) (3 shared connections)
+- [Community 551](Community_551.md) (3 shared connections)
+- [Community 186](Community_186.md) (3 shared connections)
+- [Community 72](Community_72.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (75%)
-- INFERRED: 43 (25%)
+- EXTRACTED: 180 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

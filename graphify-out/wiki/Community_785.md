@@ -1,51 +1,34 @@
 # Community 785
 
-> 15 nodes · cohesion 0.30
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **runtests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **setup()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **django_tests()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **default_test_processes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_runner()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **bisect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_installed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **paired_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **RemovedInDjango50Warning** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **actual_test_processes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_test_modules()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **PendingDeprecationWarning** (1 connections)
-- **Default number of test processes when using the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **SQLInsertCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.assemble_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.field_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.prepare_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.pre_save_val()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.execute_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Take a field and a value intended to be saved on that field, and return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Prepare a value to be used in a query by resolving it if it is an expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Get the given field's value off the given obj. pre_save() is used for things…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Take a sequence of N fields and a sequence of M rows of values, and generate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 230](Community_230.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 998](Community_998.md) (3 shared connections)
-- [Community 145](Community_145.md) (3 shared connections)
-- [Community 62](Community_62.md) (2 shared connections)
-- [Community 110](Community_110.md) (2 shared connections)
-- [Community 832](Community_832.md) (2 shared connections)
-- [Community 441](Community_441.md) (1 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 496](Community_496.md) (1 shared connections)
+- [Community 215](Community_215.md) (3 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

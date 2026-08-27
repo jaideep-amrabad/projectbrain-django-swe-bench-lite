@@ -13,10 +13,10 @@
 
 ## Relationships
 
-- [Community 277](Community_277.md) (6 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
-- [Community 341](Community_341.md) (1 shared connections)
+- [Community 278](Community_278.md) (6 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
+- [Community 344](Community_344.md) (1 shared connections)
 
 ## Source Files
 

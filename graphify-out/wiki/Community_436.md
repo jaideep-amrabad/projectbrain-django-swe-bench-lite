@@ -1,51 +1,50 @@
 # Community 436
 
-> 26 nodes · cohesion 0.10
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ExistingRelatedInstancesTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **known_related_objects/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **known_related_objects/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **Organiser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **Pool** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **PoolStyle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **Tournament** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **Existing related object instance caching. Queries are not redone when going…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_foreign_key_multiple_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_foreign_key_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_queryset_and()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_queryset_or()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_queryset_or_different_cached_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_queryset_or_only_one_with_precache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_reverse_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_reverse_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_reverse_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_reverse_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- *... and 1 more nodes in this community*
+- **AppConfigTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Stub** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_dunder_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_duplicate_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_empty_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_empty_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_dunder_path_or_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_path_overrides()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_path_set_explicitly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_app_default_auto_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_default_auto_field_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_invalid_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Unit tests for AppConfig class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If subclass sets path as class attr, no module attributes needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If path set as class attr, overrides __path__ and __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If single element in __path__, use it (in preference to __file__).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If there is no __path__ attr, use __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is empty, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is length>1, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If there is no __path__ or __file__, raise ImproperlyConfigured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is empty and there is no __file__, raise.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 69](Community_69.md) (11 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 52 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

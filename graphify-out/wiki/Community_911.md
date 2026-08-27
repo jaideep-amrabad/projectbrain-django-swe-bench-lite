@@ -1,30 +1,36 @@
 # Community 911
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **SpacelessTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **setup** (6 connections)
-- **.test_spaceless01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **EngineHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **.templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **.test_autoescape_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **templates is an optional list of template engine definitions (structured like…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 224](Community_224.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 600](Community_600.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (88%)
+- INFERRED: 2 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

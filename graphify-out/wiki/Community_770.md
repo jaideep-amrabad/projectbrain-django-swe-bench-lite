@@ -1,42 +1,43 @@
 # Community 770
 
-> 16 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **CheckMessage** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **messages.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **Critical** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **Debug** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **Info** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.is_serious()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.is_silenced()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **template_tests/views.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **template_tests/urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/urls.py`
+- **alternate_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/alternate_urls.py`
+- **template_response_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **.test_full_dec_templateresponse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **template_tests/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/__init__.py`
+- **snark()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client_action()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **All methods of middleware are called for TemplateResponses in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 399](Community_399.md) (3 shared connections)
+- [Community 76](Community_76.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 301](Community_301.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/alternate_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

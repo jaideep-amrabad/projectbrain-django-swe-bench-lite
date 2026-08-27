@@ -1,32 +1,32 @@
 # Community 942
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **DeletionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_outdated_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **Make sure that an add form that is filled out, but marked for deletion doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **Make sure that a change form that is filled out, but marked for deletion…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **mutually_referential/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **mutually_referential/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **MutuallyReferentialTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **.test_mutually_referential()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **Child** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **Mutually referential many-to-one relationships Strings can be used instead of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
 
 ## Relationships
 
-- [Community 189](Community_189.md) (3 shared connections)
-- [Community 238](Community_238.md) (3 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

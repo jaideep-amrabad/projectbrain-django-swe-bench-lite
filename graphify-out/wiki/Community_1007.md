@@ -12,9 +12,9 @@
 
 ## Relationships
 
-- [Community 467](Community_467.md) (1 shared connections)
+- [Community 472](Community_472.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
 
 ## Source Files
 

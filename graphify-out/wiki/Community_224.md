@@ -1,57 +1,64 @@
 # Community 224
 
-> 45 nodes · cohesion 0.06
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ClearableFileInputTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **ClearableFileInput** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **FileInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **FakeFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.clear_checkbox_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.is_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_clear_input_checked_returns_false_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_render_as_subwidget()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.clear_checkbox_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_widget_attrs_default_accept()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_clear_input_renders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_html_escaped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_widget_attrs_accept_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_clear_input_checked_returns_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders_only_if_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_html_does_not_mask_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_render_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- *... and 20 more nodes in this community*
+- **DjangoTemplates** (25 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **django.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **test_django.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **DjangoTemplatesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **template/autoreload.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
+- **InvalidTemplateLibrary** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **get_package_libraries()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **Template** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **make_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **get_template_directories()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
+- **copy_exception()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **get_installed_libraries()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **reraise()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.test_render_requires_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **template_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
+- **.get_templatetag_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **is_django_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.test_templatetag_discovery_import_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **reset_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
+- **watch_for_template_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
+- **.get_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.test_debug_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **.test_non_debug_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 266](Community_266.md) (5 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 73](Community_73.md) (3 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 479](Community_479.md) (1 shared connections)
-- [Community 447](Community_447.md) (1 shared connections)
-- [Community 240](Community_240.md) (1 shared connections)
+- [Community 1](Community_1.md) (15 shared connections)
+- [Community 70](Community_70.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 39](Community_39.md) (4 shared connections)
+- [Community 138](Community_138.md) (3 shared connections)
+- [Community 245](Community_245.md) (3 shared connections)
+- [Community 433](Community_433.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 155](Community_155.md) (3 shared connections)
+- [Community 911](Community_911.md) (3 shared connections)
+- [Community 107](Community_107.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (85%)
-- INFERRED: 12 (15%)
+- EXTRACTED: 121 (92%)
+- INFERRED: 11 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

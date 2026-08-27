@@ -1,13 +1,12 @@
 # Community 20
 
-> 120 nodes · cohesion 0.02
+> 117 nodes · cohesion 0.02
 
 ## Key Concepts
 
 - **TransactionTestCase** (134 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **timezones/tests.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 - **core/serializers/__init__.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **model_fields/test_uuid.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 - **serializers/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 - **serializers/test_json.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
 - **model_fields/test_durationfield.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
@@ -29,22 +28,23 @@
 - **._fixture_teardown()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **._rollback_atomics()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **.tearDownClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- *... and 95 more nodes in this community*
+- **._pre_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 92 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (33 shared connections)
-- [Community 3](Community_3.md) (30 shared connections)
-- [Community 0](Community_0.md) (21 shared connections)
-- [Community 421](Community_421.md) (18 shared connections)
-- [Community 2](Community_2.md) (17 shared connections)
-- [Community 29](Community_29.md) (15 shared connections)
-- [Community 274](Community_274.md) (12 shared connections)
-- [Community 584](Community_584.md) (12 shared connections)
-- [Community 650](Community_650.md) (11 shared connections)
-- [Community 99](Community_99.md) (11 shared connections)
+- [Community 1](Community_1.md) (29 shared connections)
+- [Community 2](Community_2.md) (28 shared connections)
+- [Community 0](Community_0.md) (18 shared connections)
+- [Community 425](Community_425.md) (18 shared connections)
+- [Community 32](Community_32.md) (17 shared connections)
+- [Community 3](Community_3.md) (15 shared connections)
+- [Community 589](Community_589.md) (12 shared connections)
+- [Community 618](Community_618.md) (11 shared connections)
+- [Community 52](Community_52.md) (10 shared connections)
 - [Community 207](Community_207.md) (9 shared connections)
 - [Community 93](Community_93.md) (9 shared connections)
+- [Community 37](Community_37.md) (6 shared connections)
 
 ## Source Files
 
@@ -57,7 +57,6 @@
 - `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 - `raw/code/hyd-evaluation/django-django/tests/serializers/models/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
 - `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
@@ -65,12 +64,13 @@
 - `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 - `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
 - `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
 - `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 533 (98%)
+- EXTRACTED: 504 (98%)
 - INFERRED: 11 (2%)
 - AMBIGUOUS: 0 (0%)
 

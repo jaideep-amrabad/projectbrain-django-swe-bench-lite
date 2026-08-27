@@ -1,25 +1,26 @@
 # Community 1059
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **debugtags.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
-- **go_boom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
-- **simple_tag** (1 connections)
+- **.test_session_modifying_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_session_engine_is_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that modifies the session** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 551](Community_551.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

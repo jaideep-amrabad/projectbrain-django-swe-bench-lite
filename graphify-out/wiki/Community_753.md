@@ -1,51 +1,51 @@
 # Community 753
 
-> 20 nodes · cohesion 0.11
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **LookupError** (6 connections)
-- **.get_registered_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **.lazy_model_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **.get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **get_supported_language_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **Return the model with the given case-insensitive model_name. Raise LookupError…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **Similar to get_model(), but doesn't require that an app exists with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **Take a function and a number of ("app_label", "modelname") tuples, and when all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **AdminAuthenticationForm** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **admin_views/forms.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **admin/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **admin_views/test_forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **MediaActionForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **AdminPasswordChangeForm** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **AdminAuthenticationFormTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **CustomAdminAuthenticationForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **ActionForm** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.confirm_login_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **.clean_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **A custom authentication form used in the admin app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (3 shared connections)
-- [Community 863](Community_863.md) (1 shared connections)
-- [Community 784](Community_784.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 52](Community_52.md) (7 shared connections)
+- [Community 72](Community_72.md) (5 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 387](Community_387.md) (2 shared connections)
+- [Community 748](Community_748.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 592](Community_592.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (71%)
-- INFERRED: 9 (29%)
+- EXTRACTED: 48 (87%)
+- INFERRED: 7 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

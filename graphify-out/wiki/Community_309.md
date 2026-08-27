@@ -1,6 +1,6 @@
 # Community 309
 
-> 38 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
@@ -17,6 +17,7 @@
 - **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 - **Host** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
 - **Network** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **CustomDeleteUserForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 - **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
 - **ProfileNetwork** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
 - **UserPreferences** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
@@ -28,23 +29,22 @@
 - **.test_inline_model_with_to_field_to_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 - **.test_save_as_new_with_new_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 - **UserSiteForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Place** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- *... and 13 more nodes in this community*
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 237](Community_237.md) (11 shared connections)
-- [Community 238](Community_238.md) (5 shared connections)
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 839](Community_839.md) (4 shared connections)
-- [Community 528](Community_528.md) (4 shared connections)
-- [Community 354](Community_354.md) (4 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 380](Community_380.md) (3 shared connections)
+- [Community 236](Community_236.md) (11 shared connections)
+- [Community 237](Community_237.md) (5 shared connections)
+- [Community 50](Community_50.md) (5 shared connections)
+- [Community 842](Community_842.md) (4 shared connections)
+- [Community 532](Community_532.md) (4 shared connections)
+- [Community 358](Community_358.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 311](Community_311.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
 - [Community 121](Community_121.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 91 (82%)
-- INFERRED: 20 (18%)
+- EXTRACTED: 96 (83%)
+- INFERRED: 20 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---
