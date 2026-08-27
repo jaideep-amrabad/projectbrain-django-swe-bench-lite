@@ -17,11 +17,12 @@
 
 ## Relationships
 
-- [Community 639](Community_639.md) (5 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
+- [Community 642](Community_642.md) (5 shared connections)
+- [Community 88](Community_88.md) (4 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
-- [Community 560](Community_560.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
+- [Community 545](Community_545.md) (1 shared connections)
 
 ## Source Files
 

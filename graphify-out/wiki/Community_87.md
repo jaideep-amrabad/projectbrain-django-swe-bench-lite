@@ -1,18 +1,20 @@
 # Community 87
 
-> 104 nodes · cohesion 0.03
+> 98 nodes · cohesion 0.04
 
 ## Key Concepts
 
+- **.connection()** (137 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
 - **MigrationLoader** (74 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 - **MigrationRecorder** (50 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
 - **LoaderTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.build_graph()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **showmigrations.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
 - **.load_disk()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **.test_migrations_applied_and_recorded_atomically()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **.test_loading_squashed_ref_squashed()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.ensure_schema()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
+- **.test_apply_all_replaced_marks_replacement_as_applied()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_migrate_marks_replacement_applied_even_if_it_did_nothing()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **.test_check_consistent_history_squashed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_first()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_load()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
@@ -21,46 +23,46 @@
 - **.test_loading_squashed_complex_multi_apps_partially_applied()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_loading_squashed_erroneous()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_plan_handles_repeated_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.show_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
 - **.migrations_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 - **.test_makemigrations_inconsistent_history()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 - **.test_check_consistent_history()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_explicit_missing_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_ignore_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 - **.test_load_unmigrated_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- *... and 79 more nodes in this community*
+- *... and 73 more nodes in this community*
 
 ## Relationships
 
-- [Community 123](Community_123.md) (28 shared connections)
-- [Community 127](Community_127.md) (26 shared connections)
-- [Community 5](Community_5.md) (22 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 7](Community_7.md) (9 shared connections)
-- [Community 261](Community_261.md) (6 shared connections)
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 60](Community_60.md) (4 shared connections)
-- [Community 162](Community_162.md) (4 shared connections)
-- [Community 102](Community_102.md) (4 shared connections)
-- [Community 525](Community_525.md) (3 shared connections)
-- [Community 259](Community_259.md) (2 shared connections)
+- [Community 153](Community_153.md) (43 shared connections)
+- [Community 122](Community_122.md) (26 shared connections)
+- [Community 5](Community_5.md) (25 shared connections)
+- [Community 190](Community_190.md) (21 shared connections)
+- [Community 6](Community_6.md) (13 shared connections)
+- [Community 18](Community_18.md) (7 shared connections)
+- [Community 106](Community_106.md) (6 shared connections)
+- [Community 736](Community_736.md) (6 shared connections)
+- [Community 126](Community_126.md) (6 shared connections)
+- [Community 267](Community_267.md) (6 shared connections)
+- [Community 830](Community_830.md) (4 shared connections)
+- [Community 624](Community_624.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 
 ## Audit Trail
 
-- EXTRACTED: 236 (80%)
-- INFERRED: 59 (20%)
+- EXTRACTED: 231 (58%)
+- INFERRED: 165 (42%)
 - AMBIGUOUS: 0 (0%)
 
 ---

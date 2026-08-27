@@ -1,6 +1,6 @@
 # Community 769
 
-> 10 nodes · cohesion 0.24
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
@@ -8,25 +8,23 @@
 - **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 - **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.test_changed_message_uses_form_lables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 - **CityInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 - **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 - **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **Admin's model history change messages use form labels instead of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Relationships
 
-- [Community 84](Community_84.md) (3 shared connections)
-- [Community 100](Community_100.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 256](Community_256.md) (2 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
+- [Community 83](Community_83.md) (3 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 258](Community_258.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
 - [Community 5](Community_5.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 589](Community_589.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
@@ -36,8 +34,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 26 (84%)
-- INFERRED: 5 (16%)
+- EXTRACTED: 24 (83%)
+- INFERRED: 5 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

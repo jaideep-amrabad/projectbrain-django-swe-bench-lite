@@ -1,6 +1,6 @@
 # Community 318
 
-> 39 nodes · cohesion 0.06
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -22,25 +22,26 @@
 - **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 - **.test_handle_accepts_httpstatus_enum_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 - **.test_middleware_returns_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 - **.test_middleware_initialized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 - **Calling an async view down the normal synchronous path.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 - **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
 - **.test_bad_request_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 - **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- *... and 14 more nodes in this community*
+- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_unawaited_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
 - [Community 5](Community_5.md) (6 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 273](Community_273.md) (4 shared connections)
-- [Community 355](Community_355.md) (3 shared connections)
-- [Community 365](Community_365.md) (2 shared connections)
-- [Community 507](Community_507.md) (1 shared connections)
+- [Community 65](Community_65.md) (5 shared connections)
+- [Community 159](Community_159.md) (2 shared connections)
+- [Community 189](Community_189.md) (2 shared connections)
+- [Community 656](Community_656.md) (1 shared connections)
+- [Community 803](Community_803.md) (1 shared connections)
+- [Community 597](Community_597.md) (1 shared connections)
 
 ## Source Files
 
@@ -50,8 +51,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 72 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 72 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

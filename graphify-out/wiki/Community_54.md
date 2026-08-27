@@ -1,10 +1,9 @@
 # Community 54
 
-> 95 nodes · cohesion 0.06
+> 81 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **functions/__init__.py** (178 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
 - **db_functions/models.py** (64 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
 - **math.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
 - **FloatModel** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
@@ -29,26 +28,26 @@
 - **test_round.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
 - **test_sign.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
 - **Log** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- *... and 70 more nodes in this community*
+- **ATan2** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- *... and 56 more nodes in this community*
 
 ## Relationships
 
-- [Community 416](Community_416.md) (67 shared connections)
-- [Community 2](Community_2.md) (39 shared connections)
-- [Community 43](Community_43.md) (33 shared connections)
-- [Community 834](Community_834.md) (32 shared connections)
-- [Community 52](Community_52.md) (27 shared connections)
-- [Community 51](Community_51.md) (21 shared connections)
-- [Community 57](Community_57.md) (21 shared connections)
-- [Community 662](Community_662.md) (20 shared connections)
-- [Community 74](Community_74.md) (13 shared connections)
-- [Community 27](Community_27.md) (13 shared connections)
-- [Community 20](Community_20.md) (13 shared connections)
-- [Community 114](Community_114.md) (5 shared connections)
+- [Community 0](Community_0.md) (53 shared connections)
+- [Community 158](Community_158.md) (33 shared connections)
+- [Community 42](Community_42.md) (31 shared connections)
+- [Community 835](Community_835.md) (23 shared connections)
+- [Community 1](Community_1.md) (23 shared connections)
+- [Community 56](Community_56.md) (19 shared connections)
+- [Community 17](Community_17.md) (11 shared connections)
+- [Community 47](Community_47.md) (10 shared connections)
+- [Community 46](Community_46.md) (7 shared connections)
+- [Community 116](Community_116.md) (5 shared connections)
+- [Community 182](Community_182.md) (5 shared connections)
+- [Community 75](Community_75.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
@@ -68,10 +67,11 @@
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_pi.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
 
 ## Audit Trail
 
-- EXTRACTED: 632 (100%)
+- EXTRACTED: 462 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

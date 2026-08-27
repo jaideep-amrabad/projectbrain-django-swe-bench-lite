@@ -1,6 +1,6 @@
 # Community 136
 
-> 75 nodes · cohesion 0.04
+> 73 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -8,7 +8,6 @@
 - **MailTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.get_decoded_attachments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.send()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_attach_non_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_attach_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_custom_utf8_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
@@ -29,22 +28,23 @@
 - **.test_reply_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_space_continuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - **.test_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 50 more nodes in this community*
+- **.test_unicode_address_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 189](Community_189.md) (15 shared connections)
-- [Community 330](Community_330.md) (13 shared connections)
-- [Community 446](Community_446.md) (7 shared connections)
-- [Community 871](Community_871.md) (3 shared connections)
+- [Community 332](Community_332.md) (13 shared connections)
+- [Community 451](Community_451.md) (12 shared connections)
+- [Community 191](Community_191.md) (9 shared connections)
+- [Community 874](Community_874.md) (3 shared connections)
 - [Community 5](Community_5.md) (3 shared connections)
-- [Community 627](Community_627.md) (2 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 441](Community_441.md) (2 shared connections)
-- [Community 918](Community_918.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 194](Community_194.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 630](Community_630.md) (2 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 446](Community_446.md) (2 shared connections)
+- [Community 923](Community_923.md) (2 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
+- [Community 825](Community_825.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 165 (98%)
+- EXTRACTED: 162 (98%)
 - INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
