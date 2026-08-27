@@ -1,30 +1,46 @@
 # Community 917
 
-> 8 nodes · cohesion 0.25
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_commit_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_create_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_rollback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return a quoted version of the given table, index, or column name. Do not quote…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for starting a new savepoint. Only required if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for committing the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for rolling back the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ImageFile** (1 connections)
+- **File** (1 connections)
+- **A mixin for use alongside django.core.files.base.File, which provides…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **Return the (width, height) of an image, given an open file or a path. Set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **Custom Field File class that records whether or not the underlying file was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (4 shared connections)
+- [Community 767](Community_767.md) (3 shared connections)
+- [Community 191](Community_191.md) (3 shared connections)
+- [Community 206](Community_206.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 610](Community_610.md) (1 shared connections)
+- [Community 604](Community_604.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (84%)
+- INFERRED: 5 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

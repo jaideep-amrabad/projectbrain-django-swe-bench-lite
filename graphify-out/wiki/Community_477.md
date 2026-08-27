@@ -1,54 +1,50 @@
 # Community 477
 
-> 23 nodes · cohesion 0.21
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.get_session_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_session_data()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_session_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_flush_used_backends()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_cookie_storage()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_cookie_messages_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_no_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback_only()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_messages_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Set ``request.COOKIES`` with the encoded data and remove the storage backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **(1) A short number of messages whose data size doesn't exceed what is allowed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **If the data exceeds what is allowed in a cookie, messages which did not fit are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Large messages, none of which fit in a cookie, are stored in the SessionBackend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Return the storage totals from both cookie and session backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Sets the messages into the backend request's session and remove the backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **UpdateOrCreateTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **GetOrCreateTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_defaults_exact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_or_create_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_or_create_redundant_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_or_create_with_pk_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_create_with_duplicate_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **If you have a field named defaults and want to use it as an exact lookup, you…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **`defaults` aren't evaluated if the instance isn't created.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **If you specify an existing primary key, but different other fields, then you…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **If you don't specify a value or default value for all required fields, you will…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Using the pk property of a model is allowed.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Using a property with a setter implemented is allowed.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_create_with_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_create_with_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_defaults_exact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_error_contains_full_traceback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_integrity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_manual_primary_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_update_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_update_with_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 579](Community_579.md) (5 shared connections)
-- [Community 676](Community_676.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 980](Community_980.md) (2 shared connections)
-- [Community 743](Community_743.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 268](Community_268.md) (1 shared connections)
-- [Community 556](Community_556.md) (1 shared connections)
+- [Community 189](Community_189.md) (13 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 54 (84%)
+- INFERRED: 10 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

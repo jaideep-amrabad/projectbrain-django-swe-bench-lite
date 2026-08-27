@@ -1,50 +1,62 @@
 # Community 350
 
-> 35 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.parse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- *... and 10 more nodes in this community*
+- **Lower** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **IndexesTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **LowerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **IndexesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_func_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_complex_expression_custom_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_pointing_to_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_required_db_features()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_include()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_with_tablespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_num_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_func_index_pointing_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_pointing_to_non_local_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_non_local_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_condition_required_db_features()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_include_required_db_features()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_name_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 520](Community_520.md) (1 shared connections)
+- [Community 115](Community_115.md) (18 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 144](Community_144.md) (6 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
+- [Community 16](Community_16.md) (5 shared connections)
+- [Community 237](Community_237.md) (5 shared connections)
+- [Community 83](Community_83.md) (4 shared connections)
+- [Community 117](Community_117.md) (4 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 287](Community_287.md) (3 shared connections)
+- [Community 199](Community_199.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 127 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

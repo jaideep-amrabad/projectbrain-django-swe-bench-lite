@@ -1,53 +1,51 @@
 # Community 418
 
-> 29 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **timesince()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **TimesinceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_second_before_equal_first_humanize_time_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Take two datetime objects and return the time between d and now as a nicely…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **Like timesince, but return a string measuring the time until the given time.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **requires_tz_support** (1 connections)
-- **Both timesince and timeuntil should work on date objects (#17937).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Timesince should work with both date objects (#9672)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Microseconds and seconds are ignored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **RelatedModelsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.assertRelated()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.create_model()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_generic_fk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_base_to_base_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_base_to_subclass_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_circle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_direct_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_direct_hidden_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_direct_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_direct_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_fk_through_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_intermediate_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_intermediate_m2m_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_intermediate_m2m_extern_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_intermediate_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_multiple_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_multiple_mixed_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_multiple_nested_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_nested_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_nested_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_nested_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_nested_proxy_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (7 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 833](Community_833.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 191](Community_191.md) (1 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 83 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

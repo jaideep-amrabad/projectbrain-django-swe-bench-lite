@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **GetModelsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_get_model_only_returns_installed_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_get_models_only_returns_installed_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **SlugFieldTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
+- **.test_empty_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
+- **.test_slugfield_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
+- **.test_slugfield_unicode_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
 
 ## Audit Trail
 

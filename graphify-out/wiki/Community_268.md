@@ -1,58 +1,58 @@
 # Community 268
 
-> 42 nodes · cohesion 0.09
+> 47 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BaseTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_storage()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **add_level_messages()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **get_level()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.get_existing_storage()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_response()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.stored_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_default_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_high_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_low_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_middleware_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_middleware_disabled_fail_silently()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_settings_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **set_level()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.test_add_lazy_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_custom_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_add_read_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_read_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_no_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_level_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- *... and 17 more nodes in this community*
+- **BaseContext** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **test_context.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **context.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **RenderContext** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **ContextPopException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.new()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **._reset_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.set_upward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.test_render_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 579](Community_579.md) (10 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 334](Community_334.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 676](Community_676.md) (1 shared connections)
-- [Community 477](Community_477.md) (1 shared connections)
-- [Community 980](Community_980.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
+- [Community 10](Community_10.md) (9 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 204](Community_204.md) (5 shared connections)
+- [Community 408](Community_408.md) (4 shared connections)
+- [Community 133](Community_133.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (98%)
+- EXTRACTED: 86 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 

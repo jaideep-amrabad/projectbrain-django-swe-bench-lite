@@ -1,20 +1,21 @@
 # Community 1052
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **MigrateWhenFooRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **A router that allows migrating depending on a hint.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **calendar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **calendarMonth()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **Calendar()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **onClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
 
 ## Audit Trail
 

@@ -1,48 +1,46 @@
 # Community 566
 
-> 20 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **distinct_on_fields/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **DistinctOnTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **distinct_on_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Celebrity** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Staff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **StaffTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Fan** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.test_basic_distinct_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_get_ordering_preserved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_in_ordered_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **Ordering shouldn't be cleared when distinct on fields are specified. refs #25081** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **QuerySet.distinct('field', ...) works** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **get_system_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **.test_force_bytes_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_bytes_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_bytes_memory_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_bytes_strings_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_DjangoUnicodeDecodeError()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_get_default_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_repercent_broken_unicode_recursion_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_smart_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_smart_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **The encoding of the default system locale. Fallback to 'ascii' if the #encoding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **Broken __str__ actually raises an error.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **force_bytes knows how to convert to bytes an exception containing non-ASCII…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **UnicodeDecodeError** (1 connections)
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 65](Community_65.md) (8 shared connections)
+- [Community 125](Community_125.md) (8 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 36 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

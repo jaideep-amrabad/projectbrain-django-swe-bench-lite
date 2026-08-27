@@ -1,60 +1,61 @@
 # Community 289
 
-> 29 nodes · cohesion 0.09
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **WSGIHandler** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **HandlerRequestTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **HandlerTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **test_exception.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **ExceptionHandlerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **.get_suspicious_environ()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **.test_data_upload_max_memory_size_exceeded()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **.test_data_upload_max_number_fields_exceeded()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **.test_invalid_multipart_boundary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_bad_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_handle_accepts_httpstatus_enum_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_middleware_returns_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_middleware_initialized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.test_bad_request_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_environ_path_info_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **A non-UTF-8 path populates PATH_INFO with an URL-encoded path and produces a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- *... and 4 more nodes in this community*
+- **FileField** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **ImageField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **FieldCallableFileStorageTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **GenerateFilenameStorageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.test_filefield_awss3_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.test_callable_function_storage_file_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_deconstruction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.test_file_field_storage_none_uses_default_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.generate_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_image_library_installed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.update_dimension_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.test_filefield_generate_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (10 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 101](Community_101.md) (6 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 369](Community_369.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 402](Community_402.md) (1 shared connections)
-- [Community 539](Community_539.md) (1 shared connections)
-- [Community 700](Community_700.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 236](Community_236.md) (4 shared connections)
+- [Community 161](Community_161.md) (3 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 610](Community_610.md) (1 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 896](Community_896.md) (1 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 71 (92%)
+- INFERRED: 6 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

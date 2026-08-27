@@ -20,11 +20,11 @@
 
 ## Relationships
 
-- [Community 163](Community_163.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 434](Community_434.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 414](Community_414.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 421](Community_421.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,39 +1,39 @@
 # Community 741
 
-> 13 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **oracle/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleSpatialRefSys** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Return the name of the metadata column used to store the feature table name.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **The GeometryColumns and SpatialRefSys models for the Oracle spatial backend. It…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Maps to the Oracle USER_SDO_GEOM_METADATA table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **# TODO: Add support for `diminfo` column (type MDSYS.SDO_DIM_ARRAY).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Maps to the Oracle MDSYS.CS_SRS table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
+- **CookieStorage** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._store()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._update_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Store the messages to a cookie and return a list of any messages which could…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Return an encoded version of the messages list which can be stored as plain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Safely decode an encoded text stream back into a list of messages. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Store messages in a cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Retrieve a list of messages from the messages cookie. If the not_finished…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Either set the cookie with the encoded data if there is any data to store, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
 
 ## Relationships
 
-- [Community 355](Community_355.md) (2 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
+- [Community 558](Community_558.md) (4 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 580](Community_580.md) (2 shared connections)
+- [Community 680](Community_680.md) (1 shared connections)
+- [Community 478](Community_478.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (81%)
+- INFERRED: 5 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,65 +1,63 @@
 # Community 167
 
-> 58 nodes · cohesion 0.04
+> 68 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **display()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **ArticleAdmin** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Article** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **admin/decorators.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **AdminTemplateTagsTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **PostAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.test_submit_row()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_change_form_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_change_list_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_show_save_and_add_another()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.action_checkbox()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.colored_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **CustomArticleAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **LinkInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.multiline_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **AdminOrderedModelMethod** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Link** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.age_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.event_date_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_from_model_with_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- **admin_ordered_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **AdminOrderedAdminMethodAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.some_admin_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.modeladmin_year()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- *... and 33 more nodes in this community*
+- **RequestFactory** (90 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ASGIRequest** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.generic()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **AsyncRequestFactory** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **RequestFactoryStateTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ReverseLazyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.generic()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **RequestFactoryEnvironmentTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.common_test_that_should_always_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **._base_scope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.check_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._encode_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.head()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.patch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.put()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [Community 77](Community_77.md) (16 shared connections)
-- [Community 94](Community_94.md) (5 shared connections)
-- [Community 843](Community_843.md) (5 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 60](Community_60.md) (3 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 351](Community_351.md) (1 shared connections)
+- [Community 125](Community_125.md) (15 shared connections)
+- [Community 97](Community_97.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 109](Community_109.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 628](Community_628.md) (4 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 606](Community_606.md) (3 shared connections)
+- [Community 230](Community_230.md) (2 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (94%)
-- INFERRED: 7 (6%)
+- EXTRACTED: 201 (96%)
+- INFERRED: 8 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

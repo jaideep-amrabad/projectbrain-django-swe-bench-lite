@@ -4,58 +4,60 @@
 
 ## Key Concepts
 
-- **FileField** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **ImageField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **FieldCallableFileStorageTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **GenerateFilenameStorageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **.test_filefield_awss3_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.test_callable_function_storage_file_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_deconstruction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.test_file_field_storage_none_uses_default_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._check_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._check_upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.generate_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._check_image_library_installed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.update_dimension_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.test_filefield_generate_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **override** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **I18NViewTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **DjangoJSONEncoderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_i18n_different_non_english_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_english_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_BMP_char()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_english_default_english_userpref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_fallback_language_plural()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_fallback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_unknown_package_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsoni18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsoni18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_lazy_string_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_get_text_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_i18n_english_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_with_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_USE_I18N_False()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ContextDecorator** (1 connections)
+- **.test_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
 - *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 241](Community_241.md) (4 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 610](Community_610.md) (1 shared connections)
-- [Community 202](Community_202.md) (1 shared connections)
-- [Community 897](Community_897.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 268](Community_268.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 845](Community_845.md) (2 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
+- [Community 531](Community_531.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 149](Community_149.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (92%)
-- INFERRED: 6 (8%)
+- EXTRACTED: 81 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

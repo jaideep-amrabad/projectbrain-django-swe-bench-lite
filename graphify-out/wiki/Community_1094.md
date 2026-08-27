@@ -1,26 +1,24 @@
 # Community 1094
 
-> 4 nodes · cohesion 0.33
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_delete_str_in_model_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_cascade_delete_proxy_model_admin_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **Test if admin gives warning about cascade deleting models referenced to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **Test if the admin delete page shows the correct string representation for a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **urlify.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **downcode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **URLify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
 
 ## Relationships
 
-- [Community 516](Community_516.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

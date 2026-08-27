@@ -1,39 +1,33 @@
 # Community 743
 
-> 13 nodes · cohesion 0.19
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **CookieStorage** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._store()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._update_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store the messages to a cookie and return a list of any messages which could…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Return an encoded version of the messages list which can be stored as plain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Safely decode an encoded text stream back into a list of messages. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store messages in a cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Retrieve a list of messages from the messages cookie. If the not_finished…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Either set the cookie with the encoded data if there is any data to store, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Relationships
 
-- [Community 556](Community_556.md) (4 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 579](Community_579.md) (2 shared connections)
-- [Community 676](Community_676.md) (1 shared connections)
-- [Community 477](Community_477.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 714](Community_714.md) (1 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (81%)
-- INFERRED: 5 (19%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

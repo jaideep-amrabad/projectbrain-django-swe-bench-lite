@@ -1,58 +1,58 @@
 # Community 392
 
-> 33 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check_url_config()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckUrlConfigTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **check_url_namespaces_unique()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **get_warning_for_invalid_pattern()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **check_resolver()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckCustomErrorHandlersTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **UpdatedToPathTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **_load_all_namespaces()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **.test_no_root_urlconf_in_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_bad_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_bad_handlers_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_good_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_slash_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_non_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_resolver_recursive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_included_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_tuple_not_url_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_include_with_dollar()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_name_with_colon()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_no_warnings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_no_warnings_i18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_caret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_re_named_group()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- *... and 8 more nodes in this community*
+- **MultiValueFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **MultiValueField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.compress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_as_table_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_cleaned_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_has_changed_first_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_has_changed_last_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_no_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Return a single value for the given list of values. The values can be assumed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Aggregate the logic of multiple Fields. Its clean() method takes a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (18 shared connections)
-- [Community 14](Community_14.md) (15 shared connections)
-- [Community 115](Community_115.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 180](Community_180.md) (2 shared connections)
-- [Community 496](Community_496.md) (2 shared connections)
-- [Community 519](Community_519.md) (2 shared connections)
-- [Community 469](Community_469.md) (1 shared connections)
-- [Community 614](Community_614.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 40](Community_40.md) (4 shared connections)
+- [Community 154](Community_154.md) (4 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 96](Community_96.md) (3 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (92%)
-- INFERRED: 8 (8%)
+- EXTRACTED: 55 (89%)
+- INFERRED: 7 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

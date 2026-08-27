@@ -1,53 +1,55 @@
 # Community 331
 
-> 37 nodes · cohesion 0.05
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ProxyModelTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_swappable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_basic_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_basic_proxy_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_correct_type_proxy_of_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_inheritance_new_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_new_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_no_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_proxy_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_proxy_included_in_ancestors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_proxy_model_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_same_manager_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_abstract_base_with_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_concrete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_filter_proxy_relation_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_myperson_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_no_base_classes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_otherperson_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_permissions_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_proxy_bug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_proxy_for_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_proxy_load_from_fixture()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_proxy_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- *... and 12 more nodes in this community*
+- **Message** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **filter_tests_by_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **MessageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **._prepare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.enable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.level_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Prepare the message for serialization by forcing the ``message`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Represent an actual message that can be stored in any of the supported storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **With the message middleware enabled, messages are properly stored and retrieved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **Messages persist properly when multiple POSTs are made before a GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Relationships
 
-- [Community 516](Community_516.md) (13 shared connections)
-- [Community 801](Community_801.md) (6 shared connections)
-- [Community 904](Community_904.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 1093](Community_1093.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 580](Community_580.md) (6 shared connections)
+- [Community 558](Community_558.md) (3 shared connections)
+- [Community 265](Community_265.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 680](Community_680.md) (1 shared connections)
+- [Community 976](Community_976.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 864](Community_864.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (65%)
-- INFERRED: 23 (35%)
+- EXTRACTED: 38 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

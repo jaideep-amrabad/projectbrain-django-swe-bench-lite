@@ -1,33 +1,35 @@
 # Community 817
 
-> 11 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **MapWidget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **OLMapWidget.js** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.clearFeatures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.enableDrawing()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **GeometryTypeControl()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.createInteractions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.createMap()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.defaultCenter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.disableDrawing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.serializeFeatures()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **TODO: allow deleting individual features (#8972)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **SpatialiteGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **SpatialiteSpatialRefSys** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **Return the name of the metadata column used to store the feature table name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **Return the name of the metadata column used to store the feature geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **The 'spatial_ref_sys' table from SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **The 'geometry_columns' table from SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 349](Community_349.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

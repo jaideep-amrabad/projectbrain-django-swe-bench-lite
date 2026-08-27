@@ -1,40 +1,58 @@
 # Community 752
 
-> 13 nodes · cohesion 0.24
+> 55 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **TypedChoiceField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TypedChoiceFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **._coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_typedchoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **Validate that the value can be coerced to the right type (if not empty).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **templatetags/i18n.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **Node** (8 connections)
+- **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **BlockTranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetLanguageInfoListNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **TranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_available_languages()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_current_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_current_language_bidi()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_language_info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_language_info_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_translate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetAvailableLanguagesNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetCurrentLanguageBidiNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetCurrentLanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetLanguageInfoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **LanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name_translated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **filter** (4 connections)
+- **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 41](Community_41.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 4](Community_4.md) (13 shared connections)
+- [Community 8](Community_8.md) (12 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 204](Community_204.md) (4 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 278](Community_278.md) (2 shared connections)
+- [Community 139](Community_139.md) (2 shared connections)
+- [Community 753](Community_753.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (69%)
-- INFERRED: 8 (31%)
+- EXTRACTED: 122 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

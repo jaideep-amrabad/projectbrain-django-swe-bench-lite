@@ -1,53 +1,60 @@
 # Community 380
 
-> 33 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **AutoPKChildOfUUIDPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AutoPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ChildRelatedViaAK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ChildWithEditablePK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ParentWithUUIDAlternateKey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **UUIDPKChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **UUIDPKChildOfAutoPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **UUIDPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **.test_inlineformset_factory_ignores_default_pks_on_submit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_alternate_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_auto_parent_uuid_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_child_editable_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_uuid_parent_auto_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- *... and 8 more nodes in this community*
+- **fixtures_regress/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **fixtures_regress/models.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MNaturalKeyFixtureTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **BaseNKModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular2B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughBC** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughCA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular2ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular2A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleCircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleCircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Stuff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Thingy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 109](Community_109.md) (33 shared connections)
-- [Community 122](Community_122.md) (8 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 648](Community_648.md) (16 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 407](Community_407.md) (10 shared connections)
+- [Community 1037](Community_1037.md) (6 shared connections)
+- [Community 1068](Community_1068.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 1002](Community_1002.md) (2 shared connections)
+- [Community 188](Community_188.md) (2 shared connections)
+- [Community 1104](Community_1104.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 1103](Community_1103.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (86%)
-- INFERRED: 14 (14%)
+- EXTRACTED: 139 (88%)
+- INFERRED: 19 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

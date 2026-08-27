@@ -1,32 +1,53 @@
 # Community 488
 
-> 6 nodes · cohesion 0.33
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ManageRunserverMigrationWarning** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **RunserverCommand** (3 connections)
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_migration_warning_multiple_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_migration_warning_one_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **LocMemCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **cache/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._has_expired()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **liberal_backend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.has_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **LiberalKeyValidationMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.test_use_as_contextmanager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **._cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **Thread-safe in-memory cache backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.validate_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **The connection can be used as a contextmanager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 309](Community_309.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 276](Community_276.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 - [Community 7](Community_7.md) (1 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 335](Community_335.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (75%)
-- INFERRED: 3 (25%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,24 +1,27 @@
 # Community 1100
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_dump_and_load_m2m_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test serializing and deserializing back models with simple M2M relations** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **FunkyTag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Because we all know there's only one real use case for GFKs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 182](Community_182.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

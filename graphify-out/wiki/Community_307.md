@@ -1,60 +1,64 @@
 # Community 307
 
-> 30 nodes · cohesion 0.10
+> 61 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **search.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramBase** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **SearchQueryField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **Field** (2 connections)
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__or__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__rand__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__ror__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **._combine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.test_trigram_similarity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **.test_trigram_similarity_alternate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- *... and 5 more nodes in this community*
+- **ASGIHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **ASGITest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **ASGIStaticFilesHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **get_asgi_application()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **StaticFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **StaticFilesHandlerMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **staticfiles_tests/test_handlers.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- **staticfiles/management/commands/runserver.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- **.__call__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.test_static_file_response()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **TestASGIStaticFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **.create_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.send_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.serve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.read_body()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_base_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_response_async()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 35](Community_35.md) (8 shared connections)
-- [Community 194](Community_194.md) (7 shared connections)
-- [Community 399](Community_399.md) (5 shared connections)
-- [Community 34](Community_34.md) (4 shared connections)
-- [Community 306](Community_306.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 84](Community_84.md) (1 shared connections)
-- [Community 220](Community_220.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 125](Community_125.md) (13 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 116](Community_116.md) (3 shared connections)
+- [Community 455](Community_455.md) (2 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
+- [Community 996](Community_996.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 247](Community_247.md) (1 shared connections)
+- [Community 744](Community_744.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (93%)
-- INFERRED: 6 (7%)
+- EXTRACTED: 127 (91%)
+- INFERRED: 12 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

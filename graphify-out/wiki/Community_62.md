@@ -1,56 +1,60 @@
 # Community 62
 
-> 106 nodes · cohesion 0.03
+> 54 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ExtractorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **BasicExtractorTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **ExcludedLocaleExtractionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertLocationCommentPresent()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **LocationCommentsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._run_makemessages()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertLocationCommentNotPresent()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertNotMsgId()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertNotRecentlyModified()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertRecentlyModified()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **IgnoredExtractorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **symlinks_supported()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **CopyPluralFormsExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **CustomLayoutExtractionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **JavascriptExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_media_static_dirs_ignored()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **KeepPotFileExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_add_location_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._assertPoLocComment()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_default_root_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_add_location_full()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_add_location_never()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_location_comments_for_templatized_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **MultipleLocaleExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *... and 81 more nodes in this community*
+- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **utils_tests/test_http.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **url_has_allowed_host_and_scheme()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **urlsafe_base64_encode()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **base36_to_int()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **int_to_base36()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **is_same_domain()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **Base36IntTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **URLHasAllowedHostAndSchemeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **urlsafe_base64_decode()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **.test_roundtrip()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **IsSameDomainTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_multivaluedict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_roundtrip()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_input_too_large()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_invalid_literal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_negative_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_to_base36_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_to_int_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **EscapeLeadingSlashesTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_bad()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_good()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 269](Community_269.md) (19 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
+- [Community 66](Community_66.md) (13 shared connections)
+- [Community 105](Community_105.md) (6 shared connections)
+- [Community 450](Community_450.md) (4 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 845](Community_845.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 120](Community_120.md) (3 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 167](Community_167.md) (2 shared connections)
+- [Community 198](Community_198.md) (2 shared connections)
+- [Community 284](Community_284.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 173 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 147 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

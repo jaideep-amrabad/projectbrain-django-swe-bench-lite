@@ -35,8 +35,8 @@
 
 - [Community 473](Community_473.md) (12 shared connections)
 - [Community 1](Community_1.md) (5 shared connections)
-- [Community 367](Community_367.md) (5 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
+- [Community 361](Community_361.md) (5 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
 - [Community 595](Community_595.md) (1 shared connections)
 

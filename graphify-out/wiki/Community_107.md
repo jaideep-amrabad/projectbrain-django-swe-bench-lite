@@ -1,60 +1,61 @@
 # Community 107
 
-> 73 nodes · cohesion 0.05
+> 77 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **MigrationAutodetector** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._detect_changes()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.add_operation()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_altered_fields()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._get_dependencies_for_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.through()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._sort_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_renamed_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.test_arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_custom_migration_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.arrange_for_graph()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_altered_options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- *... and 48 more nodes in this community*
+- **ModelFormsetTest** (68 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **modelformset_factory()** (56 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **model_formsets/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Poet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **DeletionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **MexicanRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Player** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Poem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AuthorMeeting** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BetterAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ClassyMexicanRestaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Owner** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **OwnerProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **.test_inline_formsets_save_as_new()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_custom_save_method_related_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **CustomPrimaryKey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Membership** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (13 shared connections)
-- [Community 48](Community_48.md) (7 shared connections)
-- [Community 310](Community_310.md) (3 shared connections)
-- [Community 186](Community_186.md) (2 shared connections)
-- [Community 337](Community_337.md) (2 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 395](Community_395.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
-- [Community 371](Community_371.md) (1 shared connections)
-- [Community 585](Community_585.md) (1 shared connections)
+- [Community 376](Community_376.md) (33 shared connections)
+- [Community 121](Community_121.md) (29 shared connections)
+- [Community 147](Community_147.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 154](Community_154.md) (3 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 218](Community_218.md) (2 shared connections)
+- [Community 605](Community_605.md) (2 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
+- [Community 354](Community_354.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 162 (92%)
-- INFERRED: 15 (8%)
+- EXTRACTED: 202 (87%)
+- INFERRED: 31 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

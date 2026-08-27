@@ -1,53 +1,40 @@
 # Community 627
 
-> 29 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **RouteForWriteTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **RouterAttributeErrorTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **AttributeErrorRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **The AttributeError from AttributeErrorRouter bubbles up** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_fk_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- *... and 4 more nodes in this community*
+- **FirstOfTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **setup** (16 connections)
+- **.test_all_false_arguments_asvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
+- **.test_firstof15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 669](Community_669.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 1048](Community_1048.md) (1 shared connections)
-- [Community 985](Community_985.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_firstof.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

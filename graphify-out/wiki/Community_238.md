@@ -1,53 +1,53 @@
 # Community 238
 
-> 47 nodes · cohesion 0.04
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **AppsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_dynamic_load()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_app_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_app_configs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_is_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_lazy_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_model_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_singleton_master()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_bad_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_containing_app_config_apps_not_ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_import_exception_is_not_masked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_models_not_loaded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_models_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_config_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_such_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_not_an_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_one_config_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_relabeling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_two_configs_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_two_configs_one_default_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_two_default_configs_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **Load an app that provides two AppConfig classes.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_duplicate_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- *... and 22 more nodes in this community*
+- **ClearableFileInputTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **test_clearablefileinput.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **FakeFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_clear_input_checked_returns_false_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_clear_input_renders_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_render_as_subwidget()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_clear_input_renders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_html_escaped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_clear_input_checked_returns_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_clear_input_renders_only_if_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_html_does_not_mask_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_render_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_return_false_if_url_does_not_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_url_as_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **ClearableFileInput.value_from_datadict returns False if the clear checkbox is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **ClearableFileInput.value_from_datadict never returns False if the field is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **A ClearableFileInput should not mask exceptions produced while checking that it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **A ClearableFileInput with is_required False and rendered with an initial value…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **A ClearableFileInput should escape name, filename, and URL when rendering HTML…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **A ClearableFileInput with is_required=True does not render a clear checkbox.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **A ClearableFileInput instantiated with no initial value does not render a clear…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **Quacks like a FieldFile (has a .url and string representation), but doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 61](Community_61.md) (5 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 228](Community_228.md) (3 shared connections)
+- [Community 81](Community_81.md) (3 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 36 (86%)
+- INFERRED: 6 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,36 +1,33 @@
 # Community 749
 
-> 13 nodes · cohesion 0.21
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.RelatedObjectDoesNotExist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Get the related instance through the reverse relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Accessor to the related object on the reverse side of a one-to-one relation. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.is_cached()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **AlterModelOptions** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Set new model options that don't directly affect the database schema (like…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 748](Community_748.md) (3 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 640](Community_640.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

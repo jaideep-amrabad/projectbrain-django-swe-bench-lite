@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **SecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **SuperSecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Secret! Not registered with the admin!** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **GetChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_lazy_strings_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_blank_in_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_blank_in_grouped_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_empty_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 60](Community_60.md) (2 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

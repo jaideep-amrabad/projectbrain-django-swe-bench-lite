@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **NKManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_inherited_models_selects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **#24156 - Objects from child models where the parent's m2m field uses…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Relationships
 
-- [Community 383](Community_383.md) (1 shared connections)
+- [Community 435](Community_435.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 

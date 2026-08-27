@@ -1,24 +1,22 @@
 # Community 1076
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **StateProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
+- [Community 804](Community_804.md) (3 shared connections)
+- [Community 515](Community_515.md) (2 shared connections)
+- [Community 328](Community_328.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 

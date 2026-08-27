@@ -1,38 +1,33 @@
 # Community 780
 
-> 12 nodes · cohesion 0.21
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **AutocompleteJsonView** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.process_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.get_paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Check if user has permission to access the related model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Return a JsonResponse with search results of the form: { results: [{id: "123"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Use the ModelAdmin's paginator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Return queryset based on ModelAdmin.get_search_results().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Validate request integrity, extract and return request parameters. Since the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Handle AutocompleteWidget's AJAX requests for data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **CheckSessionCookieHttpOnlyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_httponly_both()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_httponly_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_httponly_with_installed_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_httponly_with_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **If SESSION_COOKIE_HTTPONLY is on, there's no warning about it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **Warn if SESSION_COOKIE_HTTPONLY is off and "django.contrib.sessions" is in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **Warn if SESSION_COOKIE_HTTPONLY is off and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **If SESSION_COOKIE_HTTPONLY is off and we find both the session app and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 301](Community_301.md) (2 shared connections)
-- [Community 591](Community_591.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

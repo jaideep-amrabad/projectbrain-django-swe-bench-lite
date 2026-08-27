@@ -1,54 +1,51 @@
 # Community 359
 
-> 34 nodes · cohesion 0.07
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **RawQuerySet** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._fetch_all()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._prefetch_related_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.prefetch_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.resolve_model_init_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._fetch_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return the database used if this query is executed now.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.model_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.using()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_rawqueryset_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Provide an iterator which converts the results of raw SQL queries into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Resolve the init field names and value positions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 9 more nodes in this community*
+- **custom_pk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **BasicCustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **CustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **custom_pk/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- **Employee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- **Business** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_pk_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_querysets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_querysets_related_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_querysets_relational()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_custom_pk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_required_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- **Using a custom primary key By default, Django adds an ``"id"`` field to each…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_custom_field_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_unicode_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_unique_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_zero_non_autoincrement_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 174](Community_174.md) (7 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 161](Community_161.md) (3 shared connections)
-- [Community 750](Community_750.md) (1 shared connections)
-- [Community 175](Community_175.md) (1 shared connections)
-- [Community 433](Community_433.md) (1 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 796](Community_796.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 50 (88%)
+- INFERRED: 7 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

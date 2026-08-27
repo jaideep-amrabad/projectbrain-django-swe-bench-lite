@@ -1,46 +1,43 @@
 # Community 550
 
-> 21 nodes · cohesion 0.10
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **serializers/test_data.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **SerializerDataTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **data_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **data_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **fk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **fk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **generic_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **generic_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **inherited_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **inherited_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **m2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **m2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **o2o_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **o2o_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **pk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **pk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **A test spanning all the capabilities of all the serializers. This class defines…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **FastDeleteTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_fast_delete_empty_no_update_can_self_select()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_combined_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_joined_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_revm2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **#25932 - Fast deleting on backends that don't have the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 537](Community_537.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
+- [Community 63](Community_63.md) (12 shared connections)
+- [Community 377](Community_377.md) (3 shared connections)
+- [Community 440](Community_440.md) (2 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (44%)
-- INFERRED: 18 (56%)
+- EXTRACTED: 22 (63%)
+- INFERRED: 13 (37%)
 - AMBIGUOUS: 0 (0%)
 
 ---

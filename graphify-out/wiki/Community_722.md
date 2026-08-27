@@ -1,33 +1,31 @@
 # Community 722
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **URLResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **Tests if the response has the correct language code.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_en_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_en_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_nl_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_nl_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_not_prefixed_with_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_pt_br_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_wrong_en_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_wrong_nl_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.z()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.x()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.y()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **setter** (4 connections)
+- **Return the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Set the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Return a tuple of the point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Set the coordinates of the point with the given tuple.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

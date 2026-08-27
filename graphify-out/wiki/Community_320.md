@@ -4,53 +4,49 @@
 
 ## Key Concepts
 
-- **admin_ordering/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **TestRelatedFieldsAdminOrdering** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **TestAdminOrdering** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **admin_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **TestInlineModelAdminOrdering** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **Band** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **DynOrderingBandAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **.check_ordering_of_field_choices()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **SongInlineDefaultOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **SongInlineNewOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **MockSuperUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_dynamic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_specified_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_custom_queryset_still_wins()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- **Let's make sure that ModelAdmin.get_queryset uses the ordering we define in…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **The default ordering should be by name, as specified in the inner Meta class.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_admin_ordering_beats_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **IntrospectionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **ArticleReporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **CheckConstraintModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **UniqueConstraintConditionModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **District** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.test_get_constraints_indexes_orders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations_alt_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_unique_indexes_orders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_table_names_with_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names_retval_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_index_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 94](Community_94.md) (4 shared connections)
-- [Community 42](Community_42.md) (4 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 246](Community_246.md) (2 shared connections)
-- [Community 201](Community_201.md) (1 shared connections)
-- [Community 843](Community_843.md) (1 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (86%)
-- INFERRED: 12 (14%)
+- EXTRACTED: 65 (87%)
+- INFERRED: 10 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

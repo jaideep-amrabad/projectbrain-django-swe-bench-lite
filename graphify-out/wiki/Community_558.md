@@ -1,61 +1,62 @@
 # Community 558
 
-> 40 nodes · cohesion 0.06
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **test_debug.py** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **technical_404_response()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **CallableSettingWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **default_urlconf()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **get_default_exception_reporter_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **CustomExceptionReporterFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **NonDjangoTemplatesDebugViewTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **CallableSettingWrapperTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **ExceptionCycleWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.test_handle_db_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **DecoratorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **get_exception_reporter_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **DebugViewQueriesAllowedTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **index_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **CustomExceptionReporterFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_cleansed_substitute_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_hidden_settings_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_setting_allows_custom_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_not_found_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **The templates are loaded directly, not via a template loader, and should be…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- *... and 15 more nodes in this community*
+- **BaseStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **storage/cookie.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **SessionStorage** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **FallbackStorage** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **MessageDecoder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **fallback.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **storage/session.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.process_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._loaded_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._prepare_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **MessageSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **.serialize_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **._set_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **._store()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **.deserialize_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 116](Community_116.md) (18 shared connections)
-- [Community 48](Community_48.md) (8 shared connections)
-- [Community 9](Community_9.md) (8 shared connections)
-- [Community 143](Community_143.md) (7 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 158](Community_158.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
+- [Community 580](Community_580.md) (10 shared connections)
+- [Community 680](Community_680.md) (5 shared connections)
+- [Community 741](Community_741.md) (4 shared connections)
+- [Community 331](Community_331.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 478](Community_478.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 85 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

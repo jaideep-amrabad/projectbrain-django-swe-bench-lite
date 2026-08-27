@@ -15,9 +15,9 @@
 ## Relationships
 
 - [Community 470](Community_470.md) (1 shared connections)
-- [Community 113](Community_113.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 

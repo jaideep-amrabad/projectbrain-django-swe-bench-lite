@@ -1,60 +1,78 @@
 # Community 66
 
-> 67 nodes · cohesion 0.05
+> 137 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **utils_tests/test_http.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **url_has_allowed_host_and_scheme()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **urlsafe_base64_encode()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **base36_to_int()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **parse_http_date()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **int_to_base36()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **is_same_domain()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **Base36IntTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **URLHasAllowedHostAndSchemeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **urlsafe_base64_decode()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **HttpDateProcessingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_rfc850()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_roundtrip()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **ETagProcessingTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_asctime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_rfc1123()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_year_less_than_70()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **IsSameDomainTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_multivaluedict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_roundtrip()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_input_too_large()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_invalid_literal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- *... and 42 more nodes in this community*
+- **utils/cache.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **MiddlewareMixin** (49 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **utils/http.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **test_middleware_mixin.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **middleware/csrf.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **deprecation.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **locale.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- **decorators/cache.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **middleware/cache.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **middleware/common.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **MiddlewareMixinTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **sessions/middleware.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **patch_vary_headers()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **FetchFromCacheMiddleware** (14 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **UpdateCacheMiddleware** (14 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **middleware/gzip.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **get_conditional_response()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **log_response()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **CacheMiddleware** (11 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **middleware/http.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **LocaleMiddleware** (11 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- **admindocs/middleware.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- **MessageMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **SecurityMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
+- **empty_response()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 112 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (16 shared connections)
-- [Community 99](Community_99.md) (6 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 452](Community_452.md) (4 shared connections)
-- [Community 121](Community_121.md) (4 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 843](Community_843.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 200](Community_200.md) (2 shared connections)
+- [Community 7](Community_7.md) (59 shared connections)
+- [Community 161](Community_161.md) (20 shared connections)
+- [Community 51](Community_51.md) (20 shared connections)
+- [Community 87](Community_87.md) (14 shared connections)
+- [Community 303](Community_303.md) (13 shared connections)
+- [Community 62](Community_62.md) (13 shared connections)
+- [Community 18](Community_18.md) (12 shared connections)
+- [Community 125](Community_125.md) (11 shared connections)
+- [Community 277](Community_277.md) (11 shared connections)
+- [Community 284](Community_284.md) (11 shared connections)
+- [Community 120](Community_120.md) (10 shared connections)
+- [Community 61](Community_61.md) (10 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (97%)
-- INFERRED: 5 (3%)
+- EXTRACTED: 588 (96%)
+- INFERRED: 25 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

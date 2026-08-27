@@ -35,16 +35,16 @@
 
 - [Community 0](Community_0.md) (19 shared connections)
 - [Community 2](Community_2.md) (6 shared connections)
-- [Community 31](Community_31.md) (6 shared connections)
-- [Community 220](Community_220.md) (4 shared connections)
-- [Community 50](Community_50.md) (4 shared connections)
+- [Community 34](Community_34.md) (6 shared connections)
+- [Community 217](Community_217.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
 - [Community 33](Community_33.md) (4 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 85](Community_85.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 77](Community_77.md) (4 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
 - [Community 32](Community_32.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 147](Community_147.md) (2 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 144](Community_144.md) (2 shared connections)
 
 ## Source Files
 

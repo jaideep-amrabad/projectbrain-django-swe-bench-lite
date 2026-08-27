@@ -1,42 +1,34 @@
 # Community 665
 
-> 16 nodes · cohesion 0.14
+> 11 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **ManageMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py can't execute user commands, even if settings are provided…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings.py file that doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail with an error when no settings provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py can't execute user commands without appropriate settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ExecuteWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.mock_wrapper()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_nested_wrapper_invoked()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.call_execute()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.call_executemany()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_database_queried()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_wrapper_connection_specific()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_wrapper_invoked()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_wrapper_invoked_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_outer_wrapper_blocks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_wrapper_gets_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (8 shared connections)
-- [Community 83](Community_83.md) (8 shared connections)
-- [Community 170](Community_170.md) (8 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 295](Community_295.md) (1 shared connections)
+- [Community 99](Community_99.md) (6 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (81%)
+- INFERRED: 6 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

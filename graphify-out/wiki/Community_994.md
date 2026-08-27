@@ -1,22 +1,23 @@
 # Community 994
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **OtherRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **.db_for_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **AssertWarnsMessageTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_context_manager_failure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_special_re_chars()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 

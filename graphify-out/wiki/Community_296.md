@@ -1,55 +1,60 @@
 # Community 296
 
-> 40 nodes · cohesion 0.07
+> 39 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **PasswordResetTest** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_custom_reset_url_token_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_different_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset_already_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_invalid_link_if_going_directly_to_the_final_reset_password_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_poisoned_http_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_poisoned_http_host_admin_site()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_custom_reset_url_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_display_user_from_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_found_custom_from()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_extra_email_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- *... and 15 more nodes in this community*
+- **DatabaseWrapper** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **Tests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **CursorDebugWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.ensure_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.make_debug_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_copy_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_database_name_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_cursor_raises_postgres_authentication_failure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_service_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_service_name_default_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **BaseCursorDebugWrapper** (1 connections)
+- **.copy_expert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 862](Community_862.md) (4 shared connections)
-- [Community 508](Community_508.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 452](Community_452.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
-- [Community 726](Community_726.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 70](Community_70.md) (4 shared connections)
+- [Community 312](Community_312.md) (2 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
+- [Community 637](Community_637.md) (1 shared connections)
+- [Community 427](Community_427.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
+- [Community 789](Community_789.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 58 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

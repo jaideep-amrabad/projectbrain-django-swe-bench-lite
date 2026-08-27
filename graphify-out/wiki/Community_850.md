@@ -4,32 +4,28 @@
 
 ## Key Concepts
 
-- **ManifestStaticFilesStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **StaticFilesStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **ExtraPatternsStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **NoneHashStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **SimpleStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **Standard file system storage for static files. The defaults for ``location``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **A static file system storage backend which also saves hashed copies of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.file_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **A storage class to test pattern substitutions with more than one pattern entry.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.file_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._assign_simple_slice()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._checkindex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__delitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._rebuild()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._assign_extended_slice_rebuild()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Assign an extended slice by rebuilding entire list** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Assign a simple slice; Can assign slice of any length** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Get the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Delete the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (6 shared connections)
-- [Community 521](Community_521.md) (2 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 452](Community_452.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

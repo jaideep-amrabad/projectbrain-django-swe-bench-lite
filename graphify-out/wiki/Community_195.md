@@ -1,66 +1,61 @@
 # Community 195
 
-> 53 nodes · cohesion 0.05
+> 52 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **no_style()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
-- **color_style()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
-- **Command** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **OperationsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- **make_style()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
-- **.find_fixtures()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.load_label()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **PostgreSQLOperationsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
-- **SQLiteOperationsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
-- **.loaddata()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.parse_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **MySQLOperationsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
-- **SqlFlushTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **supports_color()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
-- **.fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **humanize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.test_sequence_name_length_limits_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_generic_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Style** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
-- **.test_execute_sql_flush_statements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_sql_flush_no_tables()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
-- **.test_sql_flush_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
-- **.test_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- *... and 28 more nodes in this community*
+- **ForeignObjectRel** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ManyToOneRel** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ManyToManyRel** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **GenericRel** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **.check_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Return the Field in the 'to' object to which this relationship is tied.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Used by GenericRelation to store information about the relation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (23 shared connections)
-- [Community 269](Community_269.md) (5 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 469](Community_469.md) (2 shared connections)
-- [Community 344](Community_344.md) (2 shared connections)
-- [Community 376](Community_376.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 663](Community_663.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 127](Community_127.md) (1 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 298](Community_298.md) (1 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 68 (87%)
+- INFERRED: 10 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

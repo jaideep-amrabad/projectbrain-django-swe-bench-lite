@@ -1,42 +1,29 @@
 # Community 545
 
-> 21 nodes · cohesion 0.12
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **FullMiddleware** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_process_view_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 406](Community_406.md) (7 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

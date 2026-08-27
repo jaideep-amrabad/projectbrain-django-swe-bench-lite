@@ -1,57 +1,64 @@
 # Community 278
 
-> 65 nodes · cohesion 0.06
+> 56 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ConditionalGetMiddleware** (34 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **GZipMiddleware** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 40 more nodes in this community*
+- **trans_real.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **SafeData** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- **linebreaks_filter()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **translation()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language_from_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_supported_language_variant()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **check_for_language()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **gettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **to_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **get_language_from_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **ngettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **pgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **all_locale_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **catalog()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **do_ntranslate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **parse_accept_lang_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.test_lazy_string_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **.__html__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- **deactivate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **deactivate_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (11 shared connections)
-- [Community 176](Community_176.md) (10 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 134](Community_134.md) (2 shared connections)
-- [Community 129](Community_129.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 8](Community_8.md) (10 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 15](Community_15.md) (6 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 25](Community_25.md) (4 shared connections)
+- [Community 204](Community_204.md) (3 shared connections)
+- [Community 139](Community_139.md) (3 shared connections)
+- [Community 246](Community_246.md) (3 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 373](Community_373.md) (3 shared connections)
+- [Community 752](Community_752.md) (2 shared connections)
+- [Community 580](Community_580.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 123 (84%)
-- INFERRED: 24 (16%)
+- EXTRACTED: 131 (89%)
+- INFERRED: 17 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

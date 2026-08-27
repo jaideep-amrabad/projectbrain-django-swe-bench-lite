@@ -1,63 +1,61 @@
 # Community 180
 
-> 54 nodes · cohesion 0.05
+> 138 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **get_resolver()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **LocaleRegexDescriptorTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- **ResolverTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **test_resolvers.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- **RoutePattern** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **._check_pattern_startswith_slash()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **_route_to_regex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **CheckURLMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.describe()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **._check_include_trailing_dollar()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.test_populate_concurrency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **RegexPatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- **RoutePatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **LocaleRegexDescriptorPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- **.test_regex_compile_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- **.test_404_tried_urls_have_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_non_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_resolver_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_resolver_reverse_conflict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_reverse_lazy_object_coercion_by_resolve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **ResolverCacheTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- **.test_resolver_cache_default__root_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- *... and 29 more nodes in this community*
+- **IntegerField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DecimalField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **CharField** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DateField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DateTimeField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **AutoFieldMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **GenericIPAddressField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **UUIDField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **FilePathField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SmallIntegerField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **BooleanField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **IPAddressField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SmallAutoField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveBigIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveIntegerRelDbTypeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveSmallIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SlugField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **EmailField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 113 more nodes in this community*
 
 ## Relationships
 
-- [Community 115](Community_115.md) (16 shared connections)
-- [Community 9](Community_9.md) (6 shared connections)
-- [Community 141](Community_141.md) (5 shared connections)
-- [Community 126](Community_126.md) (5 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 171](Community_171.md) (3 shared connections)
-- [Community 116](Community_116.md) (3 shared connections)
-- [Community 233](Community_233.md) (3 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 392](Community_392.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
+- [Community 127](Community_127.md) (35 shared connections)
+- [Community 154](Community_154.md) (21 shared connections)
+- [Community 877](Community_877.md) (6 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 429](Community_429.md) (5 shared connections)
+- [Community 75](Community_75.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 857](Community_857.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 190](Community_190.md) (4 shared connections)
+- [Community 750](Community_750.md) (3 shared connections)
+- [Community 86](Community_86.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 133 (95%)
-- INFERRED: 7 (5%)
+- EXTRACTED: 302 (96%)
+- INFERRED: 13 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

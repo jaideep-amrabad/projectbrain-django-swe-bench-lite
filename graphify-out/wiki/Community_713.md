@@ -1,40 +1,38 @@
 # Community 713
 
-> 14 nodes · cohesion 0.18
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **MemcachedCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **PyLibMCCache** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **MemcachedCacheDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PyMemcacheCache** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **An implementation of a cache binding using python-memcached** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.test_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.client_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **test_autofield.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **BigIntegerFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **AutoFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **AutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **BigAutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **SmallAutoModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **BigAutoFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **SmallAutoFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **IntegerFieldTests** (1 connections)
 
 ## Relationships
 
-- [Community 557](Community_557.md) (7 shared connections)
-- [Community 126](Community_126.md) (5 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 616](Community_616.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 338](Community_338.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 947](Community_947.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 24 (83%)
+- INFERRED: 5 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

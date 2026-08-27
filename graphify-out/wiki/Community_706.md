@@ -1,40 +1,52 @@
 # Community 706
 
-> 15 nodes · cohesion 0.13
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **WatchmanReloaderTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_availability()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_availability_lower_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watched_roots_contains_sys_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_server_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_server_status_raises_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_pywatchman_not_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_update_watches_raises_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_glob_ignores_non_existing_directories_two_levels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_glob_multiple_patterns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_glob_uses_existing_parent_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watched_roots_contains_directory_globs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watched_roots_contains_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Reporter** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **AtomicErrorsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **DisableDurabiltityCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMiscTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **DurableTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_allows_queries_after_fixing_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_does_not_leak_savepoints_on_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_wrap_callable_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_orm_query_after_error_and_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction_after_client_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.test_atomic_prevents_calling_transaction_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_setting_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_nested_both_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_nested_inner_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_nested_outer_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 298](Community_298.md) (3 shared connections)
-- [Community 434](Community_434.md) (3 shared connections)
-- [Community 414](Community_414.md) (3 shared connections)
-- [Community 375](Community_375.md) (1 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 536](Community_536.md) (1 shared connections)
+- [Community 548](Community_548.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 47 (84%)
+- INFERRED: 9 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,56 +1,54 @@
 # Community 351
 
-> 27 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **TestRegistration** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Location** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Traveler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **CustomSite** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_abstract_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_is_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_is_registered_not_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Tests for various ways of registering models with the admin site.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **NameAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Exception is raised when trying to register an abstract model. Refs #12004.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Checks for registered models should return true.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Checks for unregistered models should return false.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_bare_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_iterable_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_prevent_double_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_prevent_double_registration_for_custom_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_registration_with_model_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_registration_with_star_star_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- *... and 2 more nodes in this community*
+- **BuildFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **test_jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsLexer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **prepare_js_for_gettext()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Lexer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **.preprocess()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Tok** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **make_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.cleanup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.postprocess_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.work_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.lex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **JsToCForGettextTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsTokensTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.is_templatized()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Postprocess messages generated by xgettext GNU gettext utility. Transform paths…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Remove a preprocessed copy of a translatable file (if any).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Represent the state of a translatable file during the build process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Path to a file which is being fed into GNU gettext pipeline. This may be either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Preprocess (if necessary) a translatable file before passing it to xgettext GNU…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 496](Community_496.md) (6 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 266](Community_266.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 204](Community_204.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

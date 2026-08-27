@@ -1,53 +1,65 @@
 # Community 487
 
-> 24 nodes · cohesion 0.14
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **LocMemCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **cache/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._has_expired()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **liberal_backend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.has_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **LiberalKeyValidationMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **.test_use_as_contextmanager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **._cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **Thread-safe in-memory cache backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.validate_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **The connection can be used as a contextmanager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SessionMiddleware** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **.middleware()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- **SessionMiddlewareTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **SessionInterrupted** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **.test_empty_session_saved()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_httponly_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_no_httponly_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_samesite_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_secure_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_delete_on_end_with_custom_domain_and_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_flush_empty_without_session_cookie_doesnt_set_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_delete_on_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_update_error_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **SessionMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.test_coroutine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **.test_passing_explicit_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **.response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- **.get_response_touching_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_save_on_500()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **custom_urlconf_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **The session was interrupted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **If request.session was modified, or if the configuration is to save the session…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 277](Community_277.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 340](Community_340.md) (1 shared connections)
+- [Community 66](Community_66.md) (8 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 231](Community_231.md) (4 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 61 (79%)
+- INFERRED: 16 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

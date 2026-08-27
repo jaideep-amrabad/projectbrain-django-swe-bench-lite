@@ -1,35 +1,39 @@
 # Community 785
 
-> 12 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **EmailBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **._send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.send_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.connection_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **A helper method that does the actual sending.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **A wrapper that manages the SMTP network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Ensure an open connection to the email server. Return whether or not a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Close the connection to the email server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **HStoreField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_none_allowed_as_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_not_a_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **Field** (1 connections)
 
 ## Relationships
 
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 335](Community_335.md) (1 shared connections)
+- [Community 35](Community_35.md) (4 shared connections)
+- [Community 727](Community_727.md) (2 shared connections)
+- [Community 902](Community_902.md) (1 shared connections)
+- [Community 684](Community_684.md) (1 shared connections)
+- [Community 453](Community_453.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,53 @@
 # Community 310
 
-> 36 nodes · cohesion 0.08
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **InteractiveMigrationQuestioner** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **QuestionerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._choice_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.test_timedelta_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.test_ask_initial_with_disabled_migrations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_auto_now_add_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Adding a NOT NULL field to a model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Changing a NULL field to NOT NULL.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- *... and 11 more nodes in this community*
+- **DatabaseOperations** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **._convert_field_to_tz()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.force_no_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.binary_placeholder_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.combine_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.convert_booleanfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.convert_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.convert_uuidfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (11 shared connections)
-- [Community 48](Community_48.md) (6 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 108](Community_108.md) (3 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 103](Community_103.md) (2 shared connections)
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 395](Community_395.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (87%)
-- INFERRED: 12 (13%)
+- EXTRACTED: 53 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

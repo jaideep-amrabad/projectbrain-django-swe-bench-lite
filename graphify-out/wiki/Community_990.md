@@ -1,24 +1,26 @@
 # Community 990
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **I18nStringLiteralTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **setup** (4 connections)
-- **.test_i18n13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **.test_i18n14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **.test_i18n15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **.test_i18n16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **translation of constant strings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- **URLHandling** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **test_specials.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **.test_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **.test_permanent_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **A non-ASCII argument to HttpRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **A non-ASCII argument to HttpPermanentRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **Tests for URL handling in views and responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
 
 ## Audit Trail
 

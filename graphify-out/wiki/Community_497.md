@@ -4,52 +4,52 @@
 
 ## Key Concepts
 
-- **ChangeList** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_queryset()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_filters_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_ordering_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_ordering_field_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.apply_select_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **._get_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **._get_deterministic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.url_for_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_results()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.has_related_field_in_list_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **ChangeListSearchForm** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Return all params except IGNORED_PARAMS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Return the proper model field name corresponding to the given field_name to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Return the list of ordering fields for the change list. First check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Ensure a deterministic order across all database backends. Search for a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Return a dictionary of ordering field column numbers and asc/desc.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **UserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserCreationFormTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_create_form_validates_password_with_all_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **._post_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_both_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_normalize_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **A form that creates a user, with no privileges, from the given username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **To prevent almost identical usernames, visually identical but differing by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **UserCreationForm password validation uses all of the form's data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form_hidden_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form_with_different_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 843](Community_843.md) (11 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 77](Community_77.md) (2 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 318](Community_318.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 630](Community_630.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 679](Community_679.md) (1 shared connections)
+- [Community 880](Community_880.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 881](Community_881.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 813](Community_813.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (88%)
-- INFERRED: 7 (12%)
+- EXTRACTED: 48 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

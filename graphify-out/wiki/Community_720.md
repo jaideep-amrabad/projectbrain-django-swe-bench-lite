@@ -1,45 +1,39 @@
 # Community 720
 
-> 14 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **safe_join()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **to_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **test_os_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **SafeJoinTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.iter_template_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **ToPathTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_base_path_ends_with_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_parent_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_root_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_to_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_to_path_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **Iterate over candidate files for template_name. Ignore files that don't lie…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **Join one or more path components to the base path component intelligently.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **Convert value to a pathlib.Path instance, if not already a Path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **UpdateQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_values()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_related_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **._setup_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.update_batch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.get_related_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Append a sequence of (field, model, value) triples to the internal list that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Add (name, value) to an update query for an ancestor model. Update are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Return a list of query objects: one for each update required to an ancestor…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Run on initialization and at the end of chaining. Any attributes that would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Convert a dictionary of field name to value mappings into an update query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (7 shared connections)
-- [Community 135](Community_135.md) (3 shared connections)
-- [Community 121](Community_121.md) (2 shared connections)
-- [Community 198](Community_198.md) (2 shared connections)
-- [Community 308](Community_308.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 186](Community_186.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

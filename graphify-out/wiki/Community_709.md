@@ -1,43 +1,41 @@
 # Community 709
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **autodiscover()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
-- **.test_autodiscover_modules_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_found_but_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_found_with_registry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_one_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_keeps_intact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_resets_after_erroneous_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_resets_after_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **Auto-discover INSTALLED_APPS modules and fail silently when not present. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **core/management/commands/inspectdb.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle_inspection()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **gis/management/commands/inspectdb.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **InspectDBCommand** (1 connections)
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (4 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 345](Community_345.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

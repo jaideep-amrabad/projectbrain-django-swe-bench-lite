@@ -1,40 +1,52 @@
 # Community 670
 
-> 16 nodes · cohesion 0.24
+> 19 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **null_fk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **null_fk/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **NullFkTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **PropertyValue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **SystemDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.test_combine_isnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Property** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Regression tests for proper working of ForeignKey(null=True).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.test_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **filtered_relation/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **filtered_relation/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **FilteredRelationAnalyticalAggregationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **FilteredRelationAggregationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **.test_aggregate()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Editor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **.test_aggregate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **BookDailySales** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **ExchangeRate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Borrower** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Currency** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **RentalSession** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Reservation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Seller** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **filtered_relation() not only improves performance but also creates correct…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
+- [Community 13](Community_13.md) (10 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 101](Community_101.md) (4 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (81%)
-- INFERRED: 7 (19%)
+- EXTRACTED: 61 (75%)
+- INFERRED: 20 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

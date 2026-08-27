@@ -1,26 +1,25 @@
 # Community 1054
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TestSingleEnclosureAtomFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **A feed to test that Atom feeds work with a single enclosure.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_enclosure_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_enclosure_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_mime_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.metadata()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **setter** (1 connections)
+- **Return the metadata for this raster or band. The return value is a nested…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **Set the metadata. Update only the domains that are contained in the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
 
 ## Relationships
 
-- [Community 185](Community_185.md) (2 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

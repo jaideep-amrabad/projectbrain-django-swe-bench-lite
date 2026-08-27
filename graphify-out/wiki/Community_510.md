@@ -1,52 +1,59 @@
 # Community 510
 
-> 23 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **LogEntryTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_change_message_localized_datetime_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_recentactions_without_content_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_change_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_change_message_not_json()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_proxy_model_content_type_is_used_for_log_entries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_action_flag_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_log_action()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **LogEntry.get_edited_object() returns the edited object of a LogEntry object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **LogEntry.get_admin_url returns a URL to edit the entry's object or None for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **If a LogEntry is missing content_type it will not display it in span tag under…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **Log entries for proxy models should have the proxy model's contenttype (#21084).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **LogEntry.action_time is a timestamp of the date when the entry was created. It…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **LogEntry.change_message is stored as a dumped JSON structure to be able to get…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **LogEntry.change_message was a string before Django 1.10.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **Localized date/time inputs shouldn't affect changed form data detection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **foreign_object/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **foreign_object/models/__init__.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
+- **foreign_object/models/article.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **person.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ArticleTranslation** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **NewsArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **Country** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **ArticleIdea** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ArticleTag** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_foreign_key_raises_informative_does_not_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 29](Community_29.md) (5 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 843](Community_843.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 865](Community_865.md) (5 shared connections)
+- [Community 760](Community_760.md) (4 shared connections)
+- [Community 475](Community_475.md) (4 shared connections)
+- [Community 161](Community_161.md) (3 shared connections)
+- [Community 154](Community_154.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 931](Community_931.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 87 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

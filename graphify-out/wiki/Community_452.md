@@ -1,63 +1,53 @@
 # Community 452
 
-> 44 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **PasswordResetTokenGenerator** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **PasswordResetConfirmClient** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **AuthTemplateTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **TokenGeneratorTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._make_token_with_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.test_password_reset_confirm_view_custom_username_hint()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **MockedPasswordResetTokenGenerator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.make_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.test_password_reset_confirm_view_valid_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **._num_seconds()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._get_password_reset_confirm_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **._make_hash_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._now()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.test_password_reset_confirm_view_invalid_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_10265()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_secret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **extract_token_from_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_check_token_with_nonexistent_token_and_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_make_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- *... and 19 more nodes in this community*
+- **ListMixin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._set_slice()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__setitem__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._assign_extended_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._check_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._set_single_rebuild()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__mul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__rmul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Set the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **add another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **add to another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **A base class which provides complete list interface. Derived classes must call…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Standard list count method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Standard list insert method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Standard list pop method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 99](Community_99.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 66](Community_66.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 862](Community_862.md) (2 shared connections)
-- [Community 296](Community_296.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 554](Community_554.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
+- [Community 850](Community_850.md) (8 shared connections)
+- [Community 740](Community_740.md) (3 shared connections)
+- [Community 929](Community_929.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 1055](Community_1055.md) (2 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 86 (93%)
-- INFERRED: 6 (7%)
+- EXTRACTED: 52 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

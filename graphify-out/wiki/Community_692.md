@@ -1,40 +1,35 @@
 # Community 692
 
-> 15 nodes · cohesion 0.13
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DecimalFieldTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_localized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_support_decimal_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_support_thousands_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_widget_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_decimalfield_scientific()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **.test_enter_a_number_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **A localized DecimalField's widget renders to a text input without number input…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **StartsWithRelation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **BrokenContainsRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_extra_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **A ForeignObject that uses StartsWith operator in its joins instead of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **This model is designed to yield no join conditions and raise an exception in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_path_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_reverse_path_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 947](Community_947.md) (1 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

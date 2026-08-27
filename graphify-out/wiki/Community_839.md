@@ -1,35 +1,33 @@
 # Community 839
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **Modules deep inside an egg can still be tested for existence** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **The Custom Loader test is exactly the same as the EggLoader, but it uses a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **Module existence can be tested inside eggs** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **ForceEscapeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **setup** (8 connections)
+- **.test_force_escape01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **Force_escape is applied immediately. It can be used to provide double-escaping,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (4 shared connections)
-- [Community 375](Community_375.md) (2 shared connections)
-- [Community 186](Community_186.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

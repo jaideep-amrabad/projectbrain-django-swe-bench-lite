@@ -1,38 +1,42 @@
 # Community 693
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **JSONFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_widget_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_redisplay_wrong_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_converted_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_widget_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_formfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_valid_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **Displaying a bound form (typically due to invalid input). The form should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **The widget can be overridden with an attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **DateFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **GetDate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_date_changed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_label_association()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_invalid_date_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_strptime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **field.strptime() doesn't raise a UnicodeEncodeError (#16123)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **DateField.has_changed() with SelectDateWidget works with a localized date…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

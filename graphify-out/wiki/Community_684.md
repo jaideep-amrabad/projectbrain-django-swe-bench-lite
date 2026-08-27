@@ -1,35 +1,49 @@
 # Community 684
 
-> 11 nodes · cohesion 0.31
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **yesno()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **.test_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **.test_false_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **.test_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **.test_none_three_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **.test_none_two_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **.test_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **.test_true_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
-- **Given a string mapping values for true, false, and (optionally) None, return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **JSONField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.test_func_index_json_key_transform()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **._check_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.from_db_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **Field** (1 connections)
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 35](Community_35.md) (4 shared connections)
+- [Community 77](Community_77.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 197](Community_197.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 325](Community_325.md) (1 shared connections)
+- [Community 785](Community_785.md) (1 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

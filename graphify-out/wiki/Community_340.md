@@ -1,52 +1,67 @@
 # Community 340
 
-> 38 nodes · cohesion 0.08
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseEmailBackendTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_the_message()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.assertMessageHasHeaders()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_empty_admins()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_idn_send()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_lazy_addresses()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_html_mail_admins()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_html_mail_managers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_message_cc_header()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_send_long_lines()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_html_send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_plaintext_send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_recipient_without_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_send_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **HeadersCheckMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_mailbox_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_send_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_send_verbose_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_close_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Regression test for #7722** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.assertStartsWith()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 13 more nodes in this community*
+- **gis/admin/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
+- **gis/admin/options.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **gis/admin/widgets.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **geoadmin/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **GeoAdminTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **GeoModelAdmin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **OpenLayersWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **gis_tests/admin.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/admin.py`
+- **geoadmin/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **City** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **StackedInline** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_map_widget()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **geoadmin/admin.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
+- **.formfield_for_dbfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **OSMGeoAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **.map_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **UnmodifiableAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
+- **.test_olwidget_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.test_olmap_OSM_rendering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_olmap_WMS_rendering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **The administration options class for Geographic models. Map settings may be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **Injects OpenLayers JavaScript into the admin.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 168](Community_168.md) (15 shared connections)
-- [Community 113](Community_113.md) (13 shared connections)
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 463](Community_463.md) (4 shared connections)
-- [Community 487](Community_487.md) (1 shared connections)
+- [Community 11](Community_11.md) (12 shared connections)
+- [Community 90](Community_90.md) (5 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 134](Community_134.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 92 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

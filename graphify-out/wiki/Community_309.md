@@ -1,64 +1,60 @@
 # Community 309
 
-> 61 nodes · cohesion 0.05
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ASGIHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **ASGITest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **ASGIStaticFilesHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **get_asgi_application()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
-- **StaticFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **StaticFilesHandlerMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **staticfiles_tests/test_handlers.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
-- **staticfiles/management/commands/runserver.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
-- **.__call__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.test_static_file_response()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **TestASGIStaticFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
-- **.create_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.send_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.get_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.serve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.read_body()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.get_base_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.get_response_async()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- *... and 36 more nodes in this community*
+- **Paginator** (46 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PaginationTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_invalid_page_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_range_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_sequence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.num_pages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.test_count_does_not_silence_attribute_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_count_does_not_silence_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_float_integer_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_elided_page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_no_content_allow_empty_first_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginate_misc_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginator_iteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Helper method that instantiates a Paginator object from the passed params and…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (13 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 118](Community_118.md) (3 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 116](Community_116.md) (2 shared connections)
-- [Community 106](Community_106.md) (2 shared connections)
-- [Community 488](Community_488.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 289](Community_289.md) (1 shared connections)
-- [Community 759](Community_759.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 449](Community_449.md) (12 shared connections)
+- [Community 770](Community_770.md) (7 shared connections)
+- [Community 891](Community_891.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 171](Community_171.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
-- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (91%)
-- INFERRED: 12 (9%)
+- EXTRACTED: 81 (89%)
+- INFERRED: 10 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

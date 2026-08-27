@@ -1,64 +1,62 @@
 # Community 31
 
-> 159 nodes · cohesion 0.02
+> 176 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **F** (420 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **NonAggregateAnnotationTestCase** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **annotations/tests.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **ExpressionWrapper** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **AliasTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **FTimeDeltaTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **ExpressionOperatorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **annotations/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **FTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_custom_functions_can_ref_other_functions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **Company** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **Store** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **.test_custom_functions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_grouping_by_q_expression_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_q_expression_annotation_with_aggregation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_date_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_datetime_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_time_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **DepartmentStore** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **.test_alias_annotate_with_aggregation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_annotation_in_f_grouped_by_annotation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- *... and 134 more nodes in this community*
+- **.assertIsInvalid()** (79 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **modeladmin/test_checks.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.assertIsValid()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **CheckTestCase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ValidationTestModel** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **TabularInline** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **FieldsetsCheckTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ListFilterTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **Band** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **AutocompleteFieldsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **InlinesCheckTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **modeladmin/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **ListDisplayLinksCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **OrderingCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **PrepopulatedFieldsCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.assertIsInvalidRegexp()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ListDisplayEditableTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ValidationTestInlineModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **DateHierarchyCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **FormsetCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ListDisplayTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **RadioFieldsCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ExtraCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **FieldsCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **FilterHorizontalCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- *... and 151 more nodes in this community*
 
 ## Relationships
 
-- [Community 32](Community_32.md) (69 shared connections)
-- [Community 33](Community_33.md) (57 shared connections)
-- [Community 17](Community_17.md) (42 shared connections)
-- [Community 72](Community_72.md) (34 shared connections)
-- [Community 34](Community_34.md) (30 shared connections)
-- [Community 10](Community_10.md) (23 shared connections)
-- [Community 0](Community_0.md) (21 shared connections)
-- [Community 24](Community_24.md) (21 shared connections)
-- [Community 213](Community_213.md) (13 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 74](Community_74.md) (12 shared connections)
-- [Community 85](Community_85.md) (11 shared connections)
+- [Community 42](Community_42.md) (29 shared connections)
+- [Community 37](Community_37.md) (9 shared connections)
+- [Community 154](Community_154.md) (7 shared connections)
+- [Community 240](Community_240.md) (5 shared connections)
+- [Community 436](Community_436.md) (4 shared connections)
+- [Community 300](Community_300.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 90](Community_90.md) (3 shared connections)
+- [Community 845](Community_845.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 719 (95%)
-- INFERRED: 41 (5%)
+- EXTRACTED: 378 (81%)
+- INFERRED: 88 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

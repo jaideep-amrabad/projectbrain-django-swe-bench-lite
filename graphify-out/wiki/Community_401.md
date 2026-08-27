@@ -1,56 +1,46 @@
 # Community 401
 
-> 20 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **RequestContext** (30 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **remote_user_auth_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **RequestContextTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_url_namespace01()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url_namespace02()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url_namespace_explicit_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url_namespace_no_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_copy_request_context_twice()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_include_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_url_namespace03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_modify_context_and_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_stack_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_context_comparable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **This subclass of template.Context automatically populates itself using the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.bind_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.new()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **Dummy view for remote user tests** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **#24273 -- Copy twice shouldn't raise an exception** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **#15721 -- ``{% include %}`` and ``RequestContext`` should work together.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **Optimized RequestContext construction (#7116).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **FSFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_MediaFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.serve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_StaticFilesHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **WSGI middleware that intercepts calls to a directory, as defined by one of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Return the relative path to the file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Handler for serving static files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Handler for serving the media files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 177](Community_177.md) (10 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 271](Community_271.md) (4 shared connections)
-- [Community 233](Community_233.md) (4 shared connections)
-- [Community 135](Community_135.md) (3 shared connections)
-- [Community 55](Community_55.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 267](Community_267.md) (2 shared connections)
-- [Community 630](Community_630.md) (1 shared connections)
-- [Community 574](Community_574.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 247](Community_247.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 468](Community_468.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 379](Community_379.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

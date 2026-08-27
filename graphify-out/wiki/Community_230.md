@@ -1,61 +1,63 @@
 # Community 230
 
-> 68 nodes · cohesion 0.04
+> 48 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **FileSystemStorage** (53 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Storage** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_available_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._save()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._datetime_from_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._value_or_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_valid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **CallableStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **CustomValidNameStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **CustomStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **DiscardingFalseContentStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **FileSystemStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_lazy_base_url_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **._clear_cached_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- *... and 43 more nodes in this community*
+- **resolve()** (47 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **SimplifiedURLTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **ConversionExceptionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **LookaheadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **ResolverMatchTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **ConverterTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **empty_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- **.test_matching_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_converter_resolve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_converter_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_converter_reverse_with_second_layer_instance_namespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.test_invalid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_invalid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_valid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_valid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_resolver_match_on_request_before_resolution()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_urlpattern_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_resolve_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_resolve_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_reverse_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_reverse_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_nonmatching_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (14 shared connections)
-- [Community 241](Community_241.md) (4 shared connections)
-- [Community 308](Community_308.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 1044](Community_1044.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
-- [Community 509](Community_509.md) (1 shared connections)
-- [Community 970](Community_970.md) (1 shared connections)
-- [Community 861](Community_861.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
+- [Community 14](Community_14.md) (11 shared connections)
+- [Community 5](Community_5.md) (8 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 408](Community_408.md) (4 shared connections)
+- [Community 114](Community_114.md) (3 shared connections)
+- [Community 181](Community_181.md) (3 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 138](Community_138.md) (3 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 167](Community_167.md) (2 shared connections)
+- [Community 490](Community_490.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 132 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 121 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

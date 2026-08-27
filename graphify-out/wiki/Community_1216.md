@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a URL that redirects elsewhere** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_reverse_lazy_decodes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **reverse_lazy() works in the test client** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 573](Community_573.md) (1 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
 
 ## Source Files
 

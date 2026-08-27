@@ -1,32 +1,36 @@
 # Community 844
 
-> 10 nodes · cohesion 0.44
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **actions.js** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **reset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **showQuestion()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **hide()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **show()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **checker()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **clearAcross()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **showClear()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **updateCounter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **PerformUniqueChecksTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **FlexibleDatePost** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueErrorsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_unique_for_date_with_nullable_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_not_performed_when_adding_and_pk_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_not_performed_when_not_adding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_performed_when_adding_and_pk_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **unique_for_date/year/month checks shouldn't trigger when the associated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 576](Community_576.md) (7 shared connections)
+- [Community 629](Community_629.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (84%)
+- INFERRED: 4 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

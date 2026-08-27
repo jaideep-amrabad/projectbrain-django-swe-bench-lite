@@ -1,45 +1,41 @@
 # Community 468
 
-> 26 nodes · cohesion 0.08
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TimezoneTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **needs_zoneinfo()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_get_default_timezone_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_zoneinfo_ambiguous()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_zoneinfo_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive_zoneinfo()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_activate_invalid_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_fixedoffset_negative_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_fixedoffset_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_get_default_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_is_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_is_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_localdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_pytz_ambiguous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_pytz_non_existent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive_pytz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override_decorator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override_fixed_offset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- *... and 1 more nodes in this community*
+- **_AssertTemplateUsedContext** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_AssertNumQueriesContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_AssertTemplateNotUsedContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateNotUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_template_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that the template with the provided name was used in rendering the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.on_template_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 414](Community_414.md) (1 shared connections)
+- [Community 401](Community_401.md) (1 shared connections)
+- [Community 379](Community_379.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 

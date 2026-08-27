@@ -1,28 +1,29 @@
 # Community 1024
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **TestLoader** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **TestFinder** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.find_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.load_module()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **get_key_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **default_key_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Default function to generate keys. Construct the key used by all other methods.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Function to decide which key function to use. Default to ``default_key_func``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 276](Community_276.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

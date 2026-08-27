@@ -1,28 +1,27 @@
 # Community 1014
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **ModelPickleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_with_getstate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **#21430 -- Verifies a warning is raised for models that are unpickled without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **A model may override __getstate__() to choose the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **GetLanguageInfoListTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **setup** (4 connections)
+- **.test_i18n30()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_i18n31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_i18n38_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_no_for_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

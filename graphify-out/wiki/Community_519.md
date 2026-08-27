@@ -1,61 +1,53 @@
 # Community 519
 
-> 22 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **.settings()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **BaseConnectionHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **check_setting_file_upload_temp_dir()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
-- **FilesCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- **BaseConnectionHandlerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
-- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **get_level_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **.configure_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.test_file_upload_temp_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- **.test_file_upload_temp_dir_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- **.test_create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
-- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Return the message level tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Create a prefix operator, given a binding power and a function that evaluates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 390](Community_390.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 392](Community_392.md) (2 shared connections)
-- [Community 582](Community_582.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 556](Community_556.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 496](Community_496.md) (1 shared connections)
+- [Community 266](Community_266.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (57%)
-- INFERRED: 28 (43%)
+- EXTRACTED: 40 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

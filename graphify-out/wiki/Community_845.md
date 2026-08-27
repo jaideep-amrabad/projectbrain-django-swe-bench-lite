@@ -1,32 +1,78 @@
 # Community 845
 
-> 10 nodes · cohesion 0.24
+> 200 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **.strftime()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getTwoDigitMonth()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getAbbrevMonthName()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getFullMonthName()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getTwoDigitTwelveHour()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getTwelveHours()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getTwoDigitDate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getTwoDigitHour()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getTwoDigitMinute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **.getTwoDigitSecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **contrib/admin/options.py** (105 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **admin/utils.py** (63 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **admin_list.py** (57 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **utils/text.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **helpers.py** (45 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **main.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **admin/checks.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **admin_utils/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **admin_views/test_actions.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **FieldDoesNotExist** (29 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **capfirst()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **filters.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **SuspiciousOperation** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **contenttypes/admin.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **UtilsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **admin_utils/models.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **actions.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- **ObjectDoesNotExist** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **test_adminsite.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **display_for_field()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **IncorrectLookupParameters** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **templatetags/static.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **admin_urls.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- **Exception** (15 connections)
+- **test_date_hierarchy.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- *... and 175 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 161](Community_161.md) (49 shared connections)
+- [Community 154](Community_154.md) (49 shared connections)
+- [Community 1](Community_1.md) (36 shared connections)
+- [Community 0](Community_0.md) (35 shared connections)
+- [Community 25](Community_25.md) (33 shared connections)
+- [Community 7](Community_7.md) (32 shared connections)
+- [Community 2](Community_2.md) (30 shared connections)
+- [Community 125](Community_125.md) (20 shared connections)
+- [Community 42](Community_42.md) (19 shared connections)
+- [Community 90](Community_90.md) (18 shared connections)
+- [Community 347](Community_347.md) (17 shared connections)
+- [Community 8](Community_8.md) (17 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/constants.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 1050 (96%)
+- INFERRED: 41 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

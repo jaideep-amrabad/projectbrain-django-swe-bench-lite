@@ -1,28 +1,29 @@
 # Community 918
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **DeprecatedFieldsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_postgres_jsonfield_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_CommaSeparatedIntegerField_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_IPAddressField_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_nullbooleanfield_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **skipUnless** (1 connections)
+- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_commit_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_create_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_rollback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return a quoted version of the given table, index, or column name. Do not quote…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for starting a new savepoint. Only required if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for committing the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for rolling back the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 67](Community_67.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

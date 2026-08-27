@@ -1,27 +1,27 @@
 # Community 1023
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **LocalizedModelFormTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_form_applies_localize_to_all_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_form_applies_localize_to_some_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_form_refuses_arbitrary_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **RenameContentType** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **._rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **.rename_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **.rename_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

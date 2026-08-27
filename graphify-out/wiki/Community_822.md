@@ -1,37 +1,34 @@
 # Community 822
 
-> 10 nodes · cohesion 0.24
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **ConnectionRouter** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.allow_migrate_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.get_migratable_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.routers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **._router_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **If routers is not specified, default to settings.DATABASE_ROUTERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Return app models allowed to be migrated on provided db.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_noniterable_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_noniterable_arg_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **Join a list with a string, like Python's ``str.join(list)``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 305](Community_305.md) (2 shared connections)
-- [Community 479](Community_479.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,34 @@
 # Community 656
 
-> 12 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **TranslationCatalog** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Simulate a dict for DjangoTranslation._catalog so as multiple catalogs with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.plural()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
+- [Community 373](Community_373.md) (2 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (82%)
-- INFERRED: 3 (18%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

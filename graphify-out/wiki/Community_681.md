@@ -1,50 +1,39 @@
 # Community 681
 
-> 15 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **JSONField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.test_func_index_json_key_transform()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **._check_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.from_db_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **Field** (1 connections)
+- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_object()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_fk_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_m2m_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._make_parser()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **getInnerText()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._get_model_from_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Create a hardened XML parser (no custom/external entities).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Convert an <object> node to a DeserializedObject.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Handle a <field> node for a ForeignKey** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Handle a <field> node for a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Look up a model from a <object model=...> or a <field rel=... to=...> node.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Get all the inner text of a DOM node (recursively).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 199](Community_199.md) (2 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 317](Community_317.md) (1 shared connections)
-- [Community 326](Community_326.md) (1 shared connections)
-- [Community 783](Community_783.md) (1 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 494](Community_494.md) (2 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

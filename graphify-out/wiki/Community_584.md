@@ -1,44 +1,46 @@
 # Community 584
 
-> 19 nodes · cohesion 0.18
+> 19 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.normalize_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._drop_identity()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._is_identity_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_column_type_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._get_default_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_column_collation_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **test_natural.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **deserialize()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **serialize()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **fk_as_pk_natural_key_not_called()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **natural_pk_mti_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **pk_with_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **serializerTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **forward_ref_fk_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_fk_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_m2m_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_m2m_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **natural_key_serializer_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **natural_key_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **NaturalKeySerializerTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **Serialize a queryset (or any iterator that returns database objects) using a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **Deserialize a stream or a string. Return an iterator that yields ``(obj,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **The deserializer works with natural keys when the primary key has a default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **The deserializer doesn't rely on natural keys when a model has a custom primary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **If serializing objects in a multi-table inheritance relationship using natural…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
-- [Community 290](Community_290.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 539](Community_539.md) (3 shared connections)
+- [Community 356](Community_356.md) (1 shared connections)
+- [Community 552](Community_552.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 49 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

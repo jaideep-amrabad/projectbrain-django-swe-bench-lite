@@ -1,42 +1,48 @@
 # Community 569
 
-> 16 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **DiffSettings** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.assertNotInOutput()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_basic()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_default()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_unified()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_unified_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_settings_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_dynamic_settings_configured()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Utility assertion: assert that the given message exists in the output** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for diffsettings management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Runs without error and emits settings diff.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **The all option also shows settings with the default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **The --default option specifies an alternate settings module for comparison.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **--output=unified emits settings diff in unified mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **--output=unified --all emits settings diff in unified mode and includes…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **m2m_through/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **m2m_through/models.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **CustomMembership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Ingredient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Recipe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Invitation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **PersonSelfRefM2M** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **RecipeIngredient** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Relationship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **SymmetricalFriendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **TestNoDefaultsOrNulls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (8 shared connections)
-- [Community 170](Community_170.md) (8 shared connections)
-- [Community 83](Community_83.md) (7 shared connections)
-- [Community 196](Community_196.md) (5 shared connections)
-- [Community 295](Community_295.md) (5 shared connections)
+- [Community 273](Community_273.md) (7 shared connections)
+- [Community 868](Community_868.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 1072](Community_1072.md) (4 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 50 (78%)
+- INFERRED: 14 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,68 +1,51 @@
 # Community 344
 
-> 50 nodes · cohesion 0.05
+> 35 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **core/management/__init__.py** (71 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **execute_from_command_line()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **ManagementUtility** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **get_commands()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **bash_completion/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **dbshell/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
-- **global_settings.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
-- **shell.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **Command** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **diffsettings.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **handle_default_options()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **find_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **configured_dynamic_settings_manage.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **module_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **Settings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
-- **configured_settings_manage.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_settings_manage.py`
-- **DbshellCommandTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
-- **manage.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/manage.py`
-- *... and 25 more nodes in this community*
+- **DatabaseFeatures** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **TestFeatures** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.allows_auto_pk_0()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_introspect_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **._mysql_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.test_allows_auto_pk_0()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.test_skip_locked_no_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.test_supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.can_introspect_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_introspect_json_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_return_columns_from_insert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.django_test_skips()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_select_for_update_nowait()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_select_for_update_of()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_select_for_update_skip_locked()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_zoneinfo_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.ignores_table_name_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.introspected_field_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.is_sql_auto_is_null_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supported_explain_formats()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_column_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_default_in_lead_lag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_explain_analyze()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_expression_indexes()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 269](Community_269.md) (12 shared connections)
-- [Community 18](Community_18.md) (10 shared connections)
-- [Community 126](Community_126.md) (8 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 7](Community_7.md) (6 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 44](Community_44.md) (5 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 240](Community_240.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 195](Community_195.md) (2 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_settings_manage.py`
-- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/manage.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 172 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 42 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

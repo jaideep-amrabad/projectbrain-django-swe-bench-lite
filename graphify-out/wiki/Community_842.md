@@ -1,33 +1,35 @@
 # Community 842
 
-> 7 nodes · cohesion 0.48
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DateHierarchyTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.assertDateParams()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params_with_dst_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params_with_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **Modules deep inside an egg can still be tested for existence** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **The Custom Loader test is exactly the same as the EggLoader, but it uses a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **Module existence can be tested inside eggs** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 843](Community_843.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 371](Community_371.md) (2 shared connections)
+- [Community 185](Community_185.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (71%)
-- INFERRED: 6 (29%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

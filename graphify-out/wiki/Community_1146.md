@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **TestManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Relationships
 
-- [Community 383](Community_383.md) (1 shared connections)
+- [Community 549](Community_549.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Audit Trail
 

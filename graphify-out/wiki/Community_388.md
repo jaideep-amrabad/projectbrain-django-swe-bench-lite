@@ -1,48 +1,65 @@
 # Community 388
 
-> 32 nodes · cohesion 0.11
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **WidthRatioTagTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **setup** (26 connections)
-- **.test_widthratio06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio11()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio15()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_typeerror_as_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio12a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio12b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio13a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio13b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio14a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio14b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- **.test_widthratio19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
-- *... and 7 more nodes in this community*
+- **register()** (52 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **security/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **_security_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_content_type_nosniff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_referrer_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_security_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_ssl_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_sts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_sts_include_subdomains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_sts_preload()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_xframe_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_xframe_options_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **_xframe_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_csrf_cookie_secure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **check_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **FlatPageAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
+- **SiteAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
+- **check_all_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
+- **check_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **check_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **.test_basic_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_custom_site_not_an_admin_site()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 16](Community_16.md) (15 shared connections)
+- [Community 444](Community_444.md) (6 shared connections)
+- [Community 90](Community_90.md) (5 shared connections)
+- [Community 634](Community_634.md) (4 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 956](Community_956.md) (2 shared connections)
+- [Community 716](Community_716.md) (2 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
+- [Community 1025](Community_1025.md) (1 shared connections)
+- [Community 955](Community_955.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 102 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

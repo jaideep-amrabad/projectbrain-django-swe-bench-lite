@@ -1,43 +1,44 @@
 # Community 637
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Team** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **TeamField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_custom_field_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Return a string of the query last executed by the given cursor, with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Custom fields serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **DatabaseSchemaEditor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **IndexColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **._create_like_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._alter_column_type_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._field_base_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._field_data_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **._create_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._delete_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._field_indexes_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._index_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.add_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.remove_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **Return the statement to create an index with varchar operator pattern when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
 
 ## Relationships
 
-- [Community 482](Community_482.md) (3 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 424](Community_424.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
+- [Community 428](Community_428.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 32 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -32,7 +32,7 @@
 
 ## Relationships
 
-- [Community 511](Community_511.md) (4 shared connections)
+- [Community 510](Community_510.md) (4 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 - [Community 24](Community_24.md) (1 shared connections)
 

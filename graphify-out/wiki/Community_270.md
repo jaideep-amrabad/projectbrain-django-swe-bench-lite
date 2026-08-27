@@ -4,59 +4,55 @@
 
 ## Key Concepts
 
-- **UniqueConstraint** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **BaseConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **CheckConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **SchemaTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._get_condition_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **BaseConstraintTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_check_constraint_daterange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_datetimerange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_remove_field_check_does_not_remove_meta_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._get_check_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.test_check_constraint_range_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_remove_field_unique_does_not_remove_meta_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_remove_unique_together_does_not_remove_meta_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.test_opclass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_opclass_include()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_opclass_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.assertOutput()** (142 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageAlternateSettings** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **StartApp** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_output_color()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_importable_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_invalid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **fulldefault: manage.py can execute user commands when default settings are…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_importable_target_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (7 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 213](Community_213.md) (6 shared connections)
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 264](Community_264.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 194](Community_194.md) (1 shared connections)
+- [Community 89](Community_89.md) (59 shared connections)
+- [Community 102](Community_102.md) (41 shared connections)
+- [Community 258](Community_258.md) (20 shared connections)
+- [Community 667](Community_667.md) (9 shared connections)
+- [Community 725](Community_725.md) (8 shared connections)
+- [Community 688](Community_688.md) (8 shared connections)
+- [Community 271](Community_271.md) (8 shared connections)
+- [Community 668](Community_668.md) (8 shared connections)
+- [Community 763](Community_763.md) (4 shared connections)
+- [Community 926](Community_926.md) (3 shared connections)
+- [Community 755](Community_755.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (84%)
-- INFERRED: 16 (16%)
+- EXTRACTED: 233 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

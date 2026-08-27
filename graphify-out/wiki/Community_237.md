@@ -1,63 +1,52 @@
 # Community 237
 
-> 47 nodes · cohesion 0.05
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.apps()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **StateApps** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **InvalidBasesError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **ProxyModelWithSameAppLabelTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **AppConfigStub** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ProxyModelWithDifferentAppLabelTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **MultiDBProxyModelAppLabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_with_existing_target_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **ManyToManyFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **ValueError** (2 connections)
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.concrete_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.test_migrate_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- *... and 22 more nodes in this community*
+- **SimpleIndexesTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **model_indexes/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **Book** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **AbstractModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **ChildModel1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **ChildModel2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- **.test_name_auto_generation_with_quoted_db_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_abstract_children()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_condition_must_be_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_condition_requires_index_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_deconstruct_with_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_deconstruct_with_include()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_deconstruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_eq()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_fields_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_include_requires_index_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_include_requires_list_or_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_index_fields_strings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_index_fields_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_name_auto_generation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_name_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_opclasses_and_fields_same_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_opclasses_requires_index_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 48](Community_48.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
-- [Community 310](Community_310.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
-- [Community 356](Community_356.md) (1 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 350](Community_350.md) (5 shared connections)
+- [Community 150](Community_150.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (80%)
-- INFERRED: 18 (20%)
+- EXTRACTED: 45 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,63 +4,58 @@
 
 ## Key Concepts
 
-- **test_storage.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **cases.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **test_finders.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- **StaticFilesTestCase** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **TestDefaults** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **BaseStaticFilesMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **staticfiles_tests/test_views.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **TestServeStatic** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **staticfiles/__init__.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/__init__.py`
-- **.assertFileContains()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **TestFinders** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- **TestExtraPatternsStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestAppDirectoriesFinder** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- **TestDefaultStorageFinder** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- **TestFileSystemFinder** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- **staticfiles_tests/test_templatetags.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_templatetags.py`
-- **TestServeDisabled** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **TestServeStaticWithDefaultURL** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **TestServeStaticWithURLHelper** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **.assertStaticRenders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.render_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **staticfiles_tests/settings.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/settings.py`
-- **TestRunserver** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionNoneHashStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestTemplateTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_templatetags.py`
+- **BaseFormSet** (49 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_form_count()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.full_clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_fields()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.is_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._construct_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._should_delete_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_form_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ManagementForm** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.deleted_forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.management_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.non_form_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.ordered_forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.empty_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_p()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_ul()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.extra_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 - *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 87](Community_87.md) (17 shared connections)
-- [Community 4](Community_4.md) (16 shared connections)
-- [Community 226](Community_226.md) (7 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 126](Community_126.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 309](Community_309.md) (3 shared connections)
-- [Community 344](Community_344.md) (2 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 244](Community_244.md) (3 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 154](Community_154.md) (3 shared connections)
+- [Community 147](Community_147.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 56](Community_56.md) (2 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/settings.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_templatetags.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 193 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 130 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

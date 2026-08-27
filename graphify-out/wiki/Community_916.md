@@ -1,46 +1,35 @@
 # Community 916
 
-> 16 nodes · cohesion 0.14
+> 8 nodes · cohesion 0.46
 
 ## Key Concepts
 
-- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ImageFile** (1 connections)
-- **File** (1 connections)
-- **A mixin for use alongside django.core.files.base.File, which provides…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **Return the (width, height) of an image, given an open file or a path. Set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **Custom Field File class that records whether or not the underlying file was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **check_url_settings()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **CheckURLSettingsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **E006()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **.test_media_url_no_slash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_static_url_no_slash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_empty_string_no_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_slash_no_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_static_url_double_slash_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
 
 ## Relationships
 
-- [Community 767](Community_767.md) (3 shared connections)
-- [Community 192](Community_192.md) (3 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 610](Community_610.md) (1 shared connections)
-- [Community 604](Community_604.md) (1 shared connections)
+- [Community 16](Community_16.md) (6 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (84%)
-- INFERRED: 5 (16%)
+- EXTRACTED: 26 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,70 @@
 # Community 256
 
-> 44 nodes · cohesion 0.05
+> 109 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **UpdateOrCreateTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **GetOrCreateTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_exact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_redundant_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_pk_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_create_with_duplicate_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **If you have a field named defaults and want to use it as an exact lookup, you…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **`defaults` aren't evaluated if the instance isn't created.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **If you specify an existing primary key, but different other fields, then you…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **If you don't specify a value or default value for all required fields, you will…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Using the pk property of a model is allowed.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Using a property with a setter implemented is allowed.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_create_with_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_create_with_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_exact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_error_contains_full_traceback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_integrity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_manual_primary_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_with_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- *... and 19 more nodes in this community*
+- **JsonResponse** (31 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **file_uploads/views.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **InMemoryUploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **UploadedFile** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **FileUploadHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **StopUpload** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **TemporaryFileUploadHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **file_uploads/uploadhandler.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **StopUploadTemporaryFileHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- *... and 84 more nodes in this community*
 
 ## Relationships
 
-- [Community 339](Community_339.md) (13 shared connections)
+- [Community 125](Community_125.md) (21 shared connections)
+- [Community 206](Community_206.md) (11 shared connections)
+- [Community 18](Community_18.md) (10 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 132](Community_132.md) (4 shared connections)
+- [Community 259](Community_259.md) (3 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 228](Community_228.md) (2 shared connections)
+- [Community 182](Community_182.md) (2 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (84%)
-- INFERRED: 10 (16%)
+- EXTRACTED: 214 (93%)
+- INFERRED: 17 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

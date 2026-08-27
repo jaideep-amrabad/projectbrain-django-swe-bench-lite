@@ -1,38 +1,36 @@
 # Community 759
 
-> 9 nodes · cohesion 0.31
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **PostgreSqlDbshellCommandTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.settings_to_cmd_args_env()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_sigint_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_accent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_crash_password_does_not_leak()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_nopass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_service()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_ssl_certificate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **skipUnless** (1 connections)
+- **SIGINT is ignored in Python and passed to psql to abort queries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Relationships
 
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 369](Community_369.md) (1 shared connections)
-- [Community 883](Community_883.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
+- [Community 427](Community_427.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (85%)
-- INFERRED: 3 (15%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

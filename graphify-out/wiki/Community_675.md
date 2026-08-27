@@ -1,43 +1,41 @@
 # Community 675
 
-> 15 nodes · cohesion 0.20
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **UserChangeForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_bug_17944_empty_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_unknown_password_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_unmanageable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_19349_bound_password_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_validity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **The change form does not return the password value** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_14242()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_excluded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **TestQueryingWithRanges** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **BigAutoFieldModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **SmallAutoFieldModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **.test_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_big_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_f_ranges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_small_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_biginteger_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_date_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_date_range_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_datetime_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_decimal_field_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_float_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_integer_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_small_integer_field_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 499](Community_499.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
-- [Community 880](Community_880.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 811](Community_811.md) (1 shared connections)
+- [Community 35](Community_35.md) (8 shared connections)
+- [Community 382](Community_382.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (85%)
+- INFERRED: 4 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

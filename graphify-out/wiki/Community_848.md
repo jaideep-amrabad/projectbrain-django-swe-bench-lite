@@ -1,31 +1,35 @@
 # Community 848
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **._assign_simple_slice()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._checkindex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__delitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._rebuild()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._assign_extended_slice_rebuild()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Assign an extended slice by rebuilding entire list** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Assign a simple slice; Can assign slice of any length** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Get the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Delete the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **._validate_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **.get_input_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **._get_input_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **.add_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **Override this method if you want to customize data inputs or validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **Validate username. If invalid, return a string error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
 
 ## Relationships
 
-- [Community 413](Community_413.md) (8 shared connections)
+- [Community 606](Community_606.md) (3 shared connections)
+- [Community 845](Community_845.md) (3 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

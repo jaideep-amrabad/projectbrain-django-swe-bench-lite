@@ -1,63 +1,62 @@
 # Community 119
 
-> 73 nodes · cohesion 0.05
+> 61 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Index** (69 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **indexes/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesPostgreSQLTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **Article** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **indexes/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **SchemaIndexesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **CoveringIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesMySQLTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.create_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **CoveringIndexIgnoredTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexConditionIgnoredTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_partial_func_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_index_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **IndexedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **IndexedArticle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **IndexTogetherSingleList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesNotPostgreSQLTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_func_index_nonexistent_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **._get_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- *... and 48 more nodes in this community*
+- **SettingsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.settings()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **OverrideSettingsIsolationOnExceptionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ClassDecoratedTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **clear_script_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **.check_settings()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ClassDecoratedTestCaseSuper** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **MediaURLStaticURLPrefixTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.set_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.check_spy_receiver_exit_calls()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_both()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_enter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_exit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_add_script_name_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_not_prefixed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_nested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_reusable_on_enter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_context_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_incorrect_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.disable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_max_recursion_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_method_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_setupclass_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (22 shared connections)
-- [Community 37](Community_37.md) (18 shared connections)
-- [Community 10](Community_10.md) (13 shared connections)
-- [Community 24](Community_24.md) (8 shared connections)
-- [Community 147](Community_147.md) (5 shared connections)
-- [Community 236](Community_236.md) (4 shared connections)
-- [Community 31](Community_31.md) (3 shared connections)
-- [Community 110](Community_110.md) (3 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 429](Community_429.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
+- [Community 5](Community_5.md) (14 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 583](Community_583.md) (3 shared connections)
+- [Community 235](Community_235.md) (2 shared connections)
+- [Community 758](Community_758.md) (1 shared connections)
+- [Community 533](Community_533.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
+- [Community 389](Community_389.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 169 (78%)
-- INFERRED: 48 (22%)
+- EXTRACTED: 96 (84%)
+- INFERRED: 18 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

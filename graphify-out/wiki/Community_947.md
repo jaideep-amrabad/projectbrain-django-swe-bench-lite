@@ -1,28 +1,30 @@
 # Community 947
 
-> 6 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **PluralizeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.check_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_no_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_singular_and_plural_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **setup** (3 connections)
+- **AutoFieldInheritanceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **.field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.test_isinstance_of_autofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **Makes ReverseManyToOneDescriptor work in both directions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.test_issubclass_of_autofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 692](Community_692.md) (1 shared connections)
+- [Community 713](Community_713.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

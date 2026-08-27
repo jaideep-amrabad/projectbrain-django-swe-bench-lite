@@ -1,54 +1,45 @@
 # Community 421
 
-> 29 nodes · cohesion 0.07
+> 19 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **OneToOneTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_hidden_accessor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_accessed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_relationship_cache_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_null_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_to_null_cached_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_o2o_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_o2o_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_manager_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_manager_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_nullable_o2o_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_o2o_primary_key_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_primary_key_to_field_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_rel_pk_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_rel_pk_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_setter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_update_one_to_one_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression test for #9023: accessing the reverse relationship shouldn't result…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- *... and 4 more nodes in this community*
+- **patch** (25 connections)
+- **TestChildArguments** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **StartDjangoTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **dict** (6 connections)
+- **RunWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_calls_start_django()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_calls_sys_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_swallows_keyboard_interrupt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_run_as_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_run_as_non_django_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_echo_on_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_starts_thread_with_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watchman_becomes_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_entrypoint_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_exe_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_runtimeerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_warnoptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_setting_timeout_from_environment_variable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 597](Community_597.md) (14 shared connections)
-- [Community 698](Community_698.md) (9 shared connections)
-- [Community 1118](Community_1118.md) (2 shared connections)
-- [Community 1091](Community_1091.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1158](Community_1158.md) (1 shared connections)
-- [Community 1159](Community_1159.md) (1 shared connections)
+- [Community 295](Community_295.md) (8 shared connections)
+- [Community 431](Community_431.md) (5 shared connections)
+- [Community 707](Community_707.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 777](Community_777.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (74%)
-- INFERRED: 15 (26%)
+- EXTRACTED: 51 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

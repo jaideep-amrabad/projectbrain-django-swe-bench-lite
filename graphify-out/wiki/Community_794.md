@@ -1,35 +1,38 @@
 # Community 794
 
-> 12 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **MyAutoField** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **MyWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.get_db_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **AuthContextProcessorTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_user_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_session_is_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_session_not_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_message_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_perm_in_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The lazy objects returned behave just like the wrapped objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **Tests for the ``django.contrib.auth.context_processors.auth`` processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The session is not accessed simply by including the auth context processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The session is accessed if the auth context processor is used and relevant…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Relationships
 
-- [Community 365](Community_365.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

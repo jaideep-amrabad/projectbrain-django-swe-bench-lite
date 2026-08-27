@@ -1,62 +1,51 @@
 # Community 319
 
-> 23 nodes · cohesion 0.09
+> 38 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **StreamingHttpResponse** (28 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **FileCloseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_conditional_content_removal()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
-- **download()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **StreamingHttpResponseTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **ConditionalContentTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
-- **ReverseInnerInStreaming** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
-- **ReverseOuterInStreaming** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
-- **streaming()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_streaming_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_streaming_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **streaming_example_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
-- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
-- **A streaming HTTP response class with an iterator as content. This should only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **._set_streaming_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Content is removed from regular and streaming responses with a status_code of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
+- **FieldDeconstructionTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_foreign_key_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_many_to_many_field_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_decimal_field_0_decimal_places()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_auto_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_big_integer_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_binary_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_boolean_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_char_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_char_field_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_csi_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_db_tablespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_decimal_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_email_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_file_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_file_path_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_float_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_generic_ip_address_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_image_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_integer_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_ip_address_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (8 shared connections)
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 141](Community_141.md) (3 shared connections)
-- [Community 121](Community_121.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 77](Community_77.md) (2 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
-- [Community 250](Community_250.md) (1 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 43 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

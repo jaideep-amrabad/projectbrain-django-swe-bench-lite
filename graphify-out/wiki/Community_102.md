@@ -1,65 +1,58 @@
 # Community 102
 
-> 80 nodes · cohesion 0.05
+> 79 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **generation.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **gdal/prototypes/errcheck.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **libgdal.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **ds.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
-- **gdal/prototypes/geom.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
-- **raster.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
-- **prototypes/srs.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
-- **check_err()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- **double_output()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **gdal_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **check_geom_offset()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **void_output()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **function()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **check_arg_errcode()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_const_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_geom()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_pointer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **check_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **ptr_byref()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **const_string_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **geom_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **int_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **srs_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **gdal_full_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **std_call()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- *... and 55 more nodes in this community*
+- **.run_manage()** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **CommandTypes** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ColorCommand** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_multiple_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_base_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_base_command_with_wrong_option()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_help_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_label_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_label_command_multiple_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_noargs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_specific_help()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_invalid_app_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_no_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_some_invalid_app_labels()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (33 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 182](Community_182.md) (2 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 921](Community_921.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
+- [Community 270](Community_270.md) (41 shared connections)
+- [Community 258](Community_258.md) (18 shared connections)
+- [Community 89](Community_89.md) (18 shared connections)
+- [Community 271](Community_271.md) (12 shared connections)
+- [Community 667](Community_667.md) (8 shared connections)
+- [Community 668](Community_668.md) (8 shared connections)
+- [Community 20](Community_20.md) (6 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 926](Community_926.md) (3 shared connections)
+- [Community 755](Community_755.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (94%)
-- INFERRED: 13 (6%)
+- EXTRACTED: 232 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

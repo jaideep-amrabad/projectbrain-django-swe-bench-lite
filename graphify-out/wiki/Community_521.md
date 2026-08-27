@@ -1,47 +1,44 @@
 # Community 521
 
-> 22 nodes · cohesion 0.16
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.file_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.save_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.read_manifest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the non-hashed URL in DEBUG mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the custom URL converter for the given file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Post process the given dictionary of files (called from collectstatic).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return a hash of the file with the given name and optional content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (4 shared connections)
-- [Community 42](Community_42.md) (3 shared connections)
-- [Community 241](Community_241.md) (2 shared connections)
-- [Community 850](Community_850.md) (2 shared connections)
+- [Community 135](Community_135.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 628](Community_628.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

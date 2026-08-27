@@ -1,37 +1,38 @@
 # Community 793
 
-> 12 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **DatabaseCreationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.patch_execute_statements()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_oracle_managed_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **object** (3 connections)
-- **._execute_raise_insufficient_privileges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_tablespace_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._test_database_passwd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **patch** (1 connections)
-- **skipUnless** (1 connections)
+- **TestReadOnlyChangeViewInlinePermissions** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_extra_inlines_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_get_to_change_url_is_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_delete_buttons_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_are_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_main_model_is_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_post_to_change_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_submit_line_shows_only_close_button()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 313](Community_313.md) (3 shared connections)
-- [Community 103](Community_103.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 39](Community_39.md) (3 shared connections)
+- [Community 221](Community_221.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

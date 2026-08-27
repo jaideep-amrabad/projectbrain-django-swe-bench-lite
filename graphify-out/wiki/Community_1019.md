@@ -1,22 +1,22 @@
 # Community 1019
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **OverwritingStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **Overwrite existing files instead of appending a suffix to generate an unused…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **Override the effort to find an used name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Feed** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **BaseFeed** (1 connections)
+- **.feed_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.item_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **This is a subclass of the `Feed` from `django.contrib.syndication`. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
 
 ## Audit Trail
 

@@ -1,51 +1,53 @@
 # Community 381
 
-> 21 nodes · cohesion 0.18
+> 32 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **managers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **SitesFrameworkTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **AbstractArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **CurrentSiteManagerChecksTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **CustomArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **ExclusiveArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **SyndicatedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **._check_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.test_invalid_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_invalid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Use this to limit objects to those associated with the current site.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_custom_named_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_site_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_sites_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **M2MRegressionTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- **m2m_regress/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **m2m_regress/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- **RegressionModelSplit** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **SelfRefer** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **SelfReferChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **SelfReferChildSibling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **TagCollection** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **BadModelWithSplit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **Entry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **Line** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **Worksheet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **.test_m2m_inheritance_symmetry()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- **.test_m2m_abstract_split()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- **.test_m2m_pk_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- **.split()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **Model with a split method should not cause an error in add_lazy_relation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 184](Community_184.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 843](Community_843.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 58 (85%)
+- INFERRED: 10 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,68 +1,53 @@
 # Community 215
 
-> 76 nodes · cohesion 0.03
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **sql/query.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Join** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **BaseTable** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **subqueries.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **sql/constants.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/constants.py`
-- **MultiColSource** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
-- **sql/datastructures.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Count** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **Star** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **MultiJoin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **JoinPromoter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **AggregateQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **ExtraWhere** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **DeleteQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **InsertQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **refs_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **Empty** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.delete_batch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **add_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **get_children_from_q()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **is_reverse_o2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.add_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- *... and 51 more nodes in this community*
+- **OptimizerTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.assertOptimizesTo()** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_alter_alter_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_delete_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_delete_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_no_reordering_of_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_reordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_reordering_circular_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_optimize_through_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_rename_model_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_index_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_owrt_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_table_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_unique_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_index_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_index_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (28 shared connections)
-- [Community 2](Community_2.md) (16 shared connections)
-- [Community 34](Community_34.md) (7 shared connections)
-- [Community 13](Community_13.md) (6 shared connections)
-- [Community 84](Community_84.md) (4 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 214](Community_214.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 160](Community_160.md) (2 shared connections)
-- [Community 173](Community_173.md) (2 shared connections)
+- [Community 834](Community_834.md) (11 shared connections)
+- [Community 977](Community_977.md) (6 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 641](Community_641.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/constants.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 173 (94%)
-- INFERRED: 12 (6%)
+- EXTRACTED: 100 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

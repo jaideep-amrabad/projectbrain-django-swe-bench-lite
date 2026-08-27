@@ -4,27 +4,26 @@
 
 ## Key Concepts
 
-- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **TestComplexSettingOverride** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_complex_override_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Regression test for #19031** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Relationships
 
-- [Community 383](Community_383.md) (6 shared connections)
-- [Community 188](Community_188.md) (2 shared connections)
-- [Community 408](Community_408.md) (1 shared connections)
-- [Community 650](Community_650.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (79%)
-- INFERRED: 3 (21%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

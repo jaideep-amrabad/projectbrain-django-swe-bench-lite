@@ -1,39 +1,33 @@
 # Community 783
 
-> 12 nodes · cohesion 0.18
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **HStoreField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_none_allowed_as_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_not_a_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **Field** (1 connections)
+- **CheckSessionCookieSecureTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_both()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_with_installed_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_with_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **Warn if SESSION_COOKIE_SECURE is off and "django.contrib.sessions" is in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **Warn if SESSION_COOKIE_SECURE is off and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **If SESSION_COOKIE_SECURE is off and we find both the session app and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **If SESSION_COOKIE_SECURE is on, there's no warning about it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 727](Community_727.md) (2 shared connections)
-- [Community 902](Community_902.md) (1 shared connections)
-- [Community 681](Community_681.md) (1 shared connections)
-- [Community 454](Community_454.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

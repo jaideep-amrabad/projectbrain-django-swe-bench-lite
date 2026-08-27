@@ -1,48 +1,43 @@
 # Community 631
 
-> 18 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ModelToValidate** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **BaseModelValidationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **TestModelsWithValidators** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_custom_validator_passes_for_correct_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_custom_validator_raises_error_for_incorrect_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_field_validators_can_be_any_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **.test_correct_email_value_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_FK_value_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_custom_validate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_full_clean_does_not_mutate_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_limited_FK_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_malformed_slug_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_missing_required_field_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_text_greater_that_charfields_max_length_raises_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_with_correct_value_model_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_email_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_FK_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_url_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **PostGISAdapter** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **to_pgraster()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **.getquoted()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **pack()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **.__conform__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.prepare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **._fix_polygon()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Initialize on the spatial object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Does the given protocol conform to what Psycopg2 expects?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **This method allows escaping the binary in the style required by the server's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Return a properly quoted string for use in PostgreSQL/PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Pack data into hex string with little endian format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Convert a GDALRaster into PostGIS Raster format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
 
 ## Relationships
 
-- [Community 841](Community_841.md) (4 shared connections)
-- [Community 911](Community_911.md) (4 shared connections)
-- [Community 575](Community_575.md) (3 shared connections)
-- [Community 840](Community_840.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

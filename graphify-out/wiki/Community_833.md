@@ -1,35 +1,33 @@
 # Community 833
 
-> 8 nodes · cohesion 0.32
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **filesizeformat()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
-- **.test_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
-- **.test_localized_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
-- **.test_negative_numbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
-- **Format the value like a 'human-readable' file size (i.e. 13 KB, 4.1 MB, 102…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **Avoid text wrapping in the middle of a phrase by adding non-breaking spaces…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **M2mThroughFieldsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_explicit_field_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_invalid_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_field_argument_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_intersection_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_superset_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **ManyToManyField accepts the ``through_fields`` kwarg only if an intermediary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **Mixing up the order of link fields to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **Providing invalid field names to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **If ``through_fields`` kwarg is given, it must specify both link fields of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

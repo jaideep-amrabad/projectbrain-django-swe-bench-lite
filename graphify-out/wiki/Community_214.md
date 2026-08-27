@@ -1,54 +1,51 @@
 # Community 214
 
-> 38 nodes · cohesion 0.07
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Node** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **NodeTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **tree.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.negate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **._new_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **test_tree.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__hash__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_eq_children()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_eq_connector()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_eq_negated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **A class for storing a tree graph. Primarily used for filter constructs in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **A single internal node in the tree graph. A Node should be viewed as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **Negate the sense of the root connector.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- *... and 13 more nodes in this community*
+- **DeferTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.assert_delayed()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **defer/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **TestDefer2** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **BigChildDeferTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **defer/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Primary** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **RefreshPrimaryProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **BigChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **ChildProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Secondary** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **AssertionMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **.test_defer_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_subclass_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_only_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_only_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_baseclass_when_subclass_has_no_added_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_foreign_keys_are_deferred_and_not_traversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_none_to_clear_deferred_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 215](Community_215.md) (3 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 174](Community_174.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 90 (90%)
+- INFERRED: 10 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

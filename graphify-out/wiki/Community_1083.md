@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **FakeAUTHSMTPConnection** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.ehlo()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A SMTP connection pretending support for the AUTH command. It does not, but at…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTP** (1 connections)
+- **ProxyBug** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyProxyBug** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Proxy of an inherited class** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A proxy of proxy model with related field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 804](Community_804.md) (4 shared connections)
+- [Community 515](Community_515.md) (3 shared connections)
+- [Community 328](Community_328.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

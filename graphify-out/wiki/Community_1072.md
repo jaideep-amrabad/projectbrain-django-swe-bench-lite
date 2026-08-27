@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **._perform_invalid_key_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **While other backends merely warn, memcached should raise for an invalid key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **M2mThroughToFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_retrieval()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Relationships
 
-- [Community 302](Community_302.md) (2 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
+- [Community 569](Community_569.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (62%)
+- INFERRED: 3 (38%)
 - AMBIGUOUS: 0 (0%)
 
 ---

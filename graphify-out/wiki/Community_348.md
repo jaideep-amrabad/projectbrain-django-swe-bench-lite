@@ -1,49 +1,52 @@
 # Community 348
 
-> 18 nodes · cohesion 0.14
+> 35 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **WSGIRequestHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **WSGIRequestHandlerTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **QuietWSGIRequestHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.test_strips_underscore_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **Stub** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.get_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Copy of WSGIRequestHandler.handle() but with different ServerHandler** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.address_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **A WSGIRequestHandler that doesn't log to standard output any of the requests…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **WSGIRequestHandler ignores headers containing underscores. This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.sendall()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **LazyObjectTestCase** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.lazy_wrap()** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Foo** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_delattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_getattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_setattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_setattr2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.lazy_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_cmp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_delitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 134](Community_134.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 369](Community_369.md) (2 shared connections)
-- [Community 539](Community_539.md) (1 shared connections)
-- [Community 284](Community_284.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 285](Community_285.md) (7 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (82%)
-- INFERRED: 7 (18%)
+- EXTRACTED: 77 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

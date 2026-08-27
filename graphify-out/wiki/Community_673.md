@@ -1,35 +1,44 @@
 # Community 673
 
-> 11 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **SessionStore** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **DBStore** (1 connections)
-- **Implement cached, database backed sessions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **Remove the current session data from the database and regenerate the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RelationAssignmentTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Pet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **UserProfile** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RouterModelArgumentTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.test_foreign_key_cross_database_protection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_foreign_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_reverse_one_to_one_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **Foreign keys can cross databases if they two databases have a common source** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **allow_relation() is called with unsaved model instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_foreignkey_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_m2m_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 455](Community_455.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 220](Community_220.md) (4 shared connections)
+- [Community 625](Community_625.md) (3 shared connections)
+- [Community 480](Community_480.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 32 (68%)
+- INFERRED: 15 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

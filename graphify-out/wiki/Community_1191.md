@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **test_client_regress/context_processors.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
-- **special()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- **.test_force_login_without_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **force_login() without passing a backend and with multiple backends configured…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

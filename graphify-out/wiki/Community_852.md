@@ -1,31 +1,35 @@
 # Community 852
 
-> 7 nodes · cohesion 0.48
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **LoginRedirectUrlTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.assertLoginRedirectURLEqual()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_custom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_named()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_remote()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Tests for settings.LOGIN_REDIRECT_URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **ManifestStaticFilesStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **StaticFilesStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ExtraPatternsStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **NoneHashStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **SimpleStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **Standard file system storage for static files. The defaults for ``location``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **A static file system storage backend which also saves hashed copies of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.file_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **A storage class to test pattern substitutions with more than one pattern entry.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.file_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
+- [Community 161](Community_161.md) (6 shared connections)
+- [Community 520](Community_520.md) (2 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,45 +1,47 @@
 # Community 640
 
-> 17 nodes · cohesion 0.15
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.test_parse_constraint_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface."** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **RenameModel** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **ModelOperation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **ModelOptionOperation** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.references_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.new_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.old_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Relationships
 
+- [Community 43](Community_43.md) (5 shared connections)
+- [Community 586](Community_586.md) (2 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 506](Community_506.md) (2 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
-- [Community 336](Community_336.md) (1 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 920](Community_920.md) (2 shared connections)
+- [Community 503](Community_503.md) (2 shared connections)
+- [Community 502](Community_502.md) (2 shared connections)
+- [Community 639](Community_639.md) (1 shared connections)
+- [Community 390](Community_390.md) (1 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
+- [Community 749](Community_749.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 34 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

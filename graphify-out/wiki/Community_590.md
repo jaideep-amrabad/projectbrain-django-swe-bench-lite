@@ -1,42 +1,46 @@
 # Community 590
 
-> 19 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **normalize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **NonCapture** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **flatten_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **get_quantifier()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **next_char()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **list** (3 connections)
-- **walk_to_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **r""" An iterator that yields the next character from "pattern_iter", respecting…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **The iterator is currently inside a capturing group. Walk to the close of this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Parse a quantifier from the input, where "ch" is the first character in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Return True if the "source" contains an instance of "inst". False, otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Turn the given source sequence into a list of reg-exp possibilities and their…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Represent multiple possibilities at this point in a pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Represent a capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Represent a non-capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **r""" Given a reg-exp pattern, normalize it to an iterable of forms that suffice…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **PrefixNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **StaticNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_simple()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **do_static()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **get_media_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **get_static_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.handle_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Class method to parse prefix node and return a Node.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Join the given path with the STATIC_URL setting. Usage:: {% static path [as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Populate a template variable with the static prefix, ``settings.STATIC_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **Populate a template variable with the media prefix, ``settings.MEDIA_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
+- [Community 845](Community_845.md) (6 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **.test_inheritance22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level inheritance with {{ block.super }} from grandparent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **ModelWithStringPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 790](Community_790.md) (2 shared connections)
-- [Community 822](Community_822.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

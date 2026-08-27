@@ -1,48 +1,45 @@
 # Community 638
 
-> 22 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **.add_field()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.column_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.table_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.create_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._fk_constraint_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.skip_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._column_default_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.prepare_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return a list of all index SQL statements (field indexes, index_together,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return a list of all index SQL statements for the specified field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Take a model and return its table definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Take a field and return its column definition. The field must already have had…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Some backends don't accept default values for certain columns types (i.e. MySQL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Only used for backends which have requires_literal_defaults feature** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return the SQL to use in a DEFAULT clause. The resulting string should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Create a table and any accompanying indexes or unique constraints for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.test_parse_constraint_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface."** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
 
 ## Relationships
 
-- [Community 145](Community_145.md) (24 shared connections)
-- [Community 358](Community_358.md) (4 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 562](Community_562.md) (1 shared connections)
-- [Community 431](Community_431.md) (1 shared connections)
+- [Community 505](Community_505.md) (2 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

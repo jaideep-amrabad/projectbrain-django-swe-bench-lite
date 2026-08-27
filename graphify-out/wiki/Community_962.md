@@ -1,28 +1,31 @@
 # Community 962
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.__reduce__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **model_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Used to unpickle Model subclasses with deferred fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Hook to allow choosing the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **CallbackFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **CallbackFilterTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_passes_on_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_sense()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **A logging filter that checks the return value of a given callable (which takes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
 
 ## Relationships
 
-- [Community 90](Community_90.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (75%)
-- INFERRED: 2 (25%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

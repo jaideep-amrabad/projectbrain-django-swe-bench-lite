@@ -1,58 +1,66 @@
 # Community 150
 
-> 63 nodes · cohesion 0.05
+> 62 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **model_formsets_regress/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **InlineFormsetTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **model_formsets_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **FormfieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **FormfieldShouldDeleteFormTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **User** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **FormsetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_formset_over_inherited_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **UserSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **BaseCustomDeleteFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_formset_over_to_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **RedeleteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **Callback** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_init_database()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Host** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **Network** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **BaseCustomDeleteModelFormSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **CustomDeleteUserForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inlineformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_modelformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **ProfileNetwork** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **UserPreferences** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- *... and 38 more nodes in this community*
+- **Upper** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **OrderingTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_composite_func_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.assertQuerysetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_specified_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_specified_ordering_by_f_expression_without_asc_desc()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_overlap_charfield_including_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **UpperBilateral** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- **.test_clone_with_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_deconstruct_with_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.test_expressions_and_fields_mutually_exclusive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 122](Community_122.md) (12 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 109](Community_109.md) (7 shared connections)
-- [Community 360](Community_360.md) (4 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 120](Community_120.md) (2 shared connections)
-- [Community 206](Community_206.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 285](Community_285.md) (2 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 34](Community_34.md) (10 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 237](Community_237.md) (3 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (87%)
-- INFERRED: 19 (13%)
+- EXTRACTED: 139 (94%)
+- INFERRED: 9 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

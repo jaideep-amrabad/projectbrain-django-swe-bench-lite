@@ -1,64 +1,44 @@
 # Community 535
 
-> 40 nodes · cohesion 0.07
+> 22 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **messages_tests/urls.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **never_cache()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **.each_context()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **messages_tests/test_mixins.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **.login()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **._build_app_dict()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.index()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **SuccessMessageMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **.admin_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.app_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.get_app_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.has_permission()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **SuccessMessageMixinTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **ContactFormViewWithMsg** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **.logout()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.password_change()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **messages/views.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **b64_decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **add()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **add_template_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **.password_change_done()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.test_set_messages_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **show()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **show_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **csrf_protect** (2 connections)
-- *... and 15 more nodes in this community*
+- **TimesinceTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **setup** (18 connections)
+- **.test_timesince12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince13()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **requires_tz_support** (2 connections)
+- **.test_timesince01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **#20246 - \xa0 in output avoids line-breaks between value and unit** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
 
 ## Relationships
 
-- [Community 36](Community_36.md) (11 shared connections)
-- [Community 12](Community_12.md) (8 shared connections)
-- [Community 42](Community_42.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 138](Community_138.md) (4 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 99](Community_99.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 579](Community_579.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 41 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

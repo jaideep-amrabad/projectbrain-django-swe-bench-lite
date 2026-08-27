@@ -4,23 +4,21 @@
 
 ## Key Concepts
 
-- **TestModelCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_check_composite_foreign_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_check_subset_composite_foreign_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 511](Community_511.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 574](Community_574.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

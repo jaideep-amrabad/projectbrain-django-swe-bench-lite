@@ -1,57 +1,58 @@
 # Community 199
 
-> 24 nodes · cohesion 0.15
+> 52 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **fields/json.py** (53 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformTextLookupMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **CaseInsensitiveMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformNumericLookupMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformIContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformIEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformIExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformIRegex** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformIStartsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **HasAnyKeys** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **JSONIContains** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformEndsWith** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformGt** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformGte** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformIn** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformLt** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformLte** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformRegex** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformStartsWith** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.resolve_expression_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **Mixin to allow case-insensitive comparison of JSON values on MySQL. MySQL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **Mixin for combining with a lookup expecting a text lhs from a JSONField key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **BulkCreateTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **bulk_create/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **bulk_create/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **NoFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **NullableFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_nullable_fk_after_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **BigAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 370](Community_370.md) (11 shared connections)
-- [Community 85](Community_85.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 681](Community_681.md) (2 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 183](Community_183.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
+- [Community 24](Community_24.md) (17 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 350](Community_350.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 149 (92%)
+- INFERRED: 13 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

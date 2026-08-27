@@ -1,58 +1,54 @@
 # Community 302
 
-> 39 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseCacheTests** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_binary_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_read_for_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_read_for_model_instance_with_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_versioning_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_versioning_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_versioning_get_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_versioning_get_set_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_versioning_has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_versioning_incr_decr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_write_for_model_instance_with_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_close()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cull_delete_when_store_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_custom_key_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_decr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_decr_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_expiration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_float_timeout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 14 more nodes in this community*
+- **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **ChoicesTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Constants** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Separator** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Suit** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **YearInSchool** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **bytes** (1 connections)
+- **float** (1 connections)
+- **.test_integerchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_invalid_definition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_blank_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_bool_unsupported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_labels_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_timezone_unsupported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 1070](Community_1070.md) (4 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 1071](Community_1071.md) (2 shared connections)
-- [Community 1072](Community_1072.md) (2 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
-- [Community 227](Community_227.md) (1 shared connections)
-- [Community 608](Community_608.md) (1 shared connections)
-- [Community 1134](Community_1134.md) (1 shared connections)
-- [Community 1137](Community_1137.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 1138](Community_1138.md) (1 shared connections)
-- [Community 1136](Community_1136.md) (1 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (98%)
+- EXTRACTED: 53 (98%)
 - INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 

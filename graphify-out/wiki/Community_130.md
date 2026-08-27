@@ -1,56 +1,59 @@
 # Community 130
 
-> 69 nodes · cohesion 0.06
+> 69 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **delete_regress/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **delete_regress/models.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **DeleteCascadeTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **ProxyDeleteTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **DeleteCascadeTransactionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **DeleteTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.create_image()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **DeleteLockingTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Book** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFileProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Award** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Email** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **File** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooImage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooPhoto** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **OrderedPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **DeleteDistinct** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **LargeDeleteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **generic_views/test_base.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **ViewTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **decorator()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **SimpleView** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **GetContextDataTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **._assert_allows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **AboutTemplateView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **InstanceView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **PostOnlyView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **UseMultipleObjectMixinTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **._assert_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options_for_get_and_post_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options_for_get_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options_for_post_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **AboutTemplateAttributeView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **DecoratedDispatchView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **SingleObjectTemplateResponseMixinTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_args_kwargs_request_on_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_calling_more_than_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_and_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_and_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_no_init_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 - *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (13 shared connections)
-- [Community 24](Community_24.md) (5 shared connections)
-- [Community 104](Community_104.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 53](Community_53.md) (5 shared connections)
+- [Community 110](Community_110.md) (5 shared connections)
+- [Community 84](Community_84.md) (4 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
+- [Community 284](Community_284.md) (2 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 353](Community_353.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 135 (80%)
-- INFERRED: 34 (20%)
+- EXTRACTED: 114 (84%)
+- INFERRED: 22 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

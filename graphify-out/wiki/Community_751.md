@@ -1,33 +1,40 @@
 # Community 751
 
-> 9 nodes · cohesion 0.25
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **TypedChoiceField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedChoiceFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **._coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_typedchoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **Validate that the value can be coerced to the right type (if not empty).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 712](Community_712.md) (1 shared connections)
-- [Community 308](Community_308.md) (1 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (69%)
+- INFERRED: 8 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

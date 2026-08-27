@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_inherited_models_selects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **#24156 - Objects from child models where the parent's m2m field uses…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_inheritance03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with no redefinitions on third level** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 438](Community_438.md) (1 shared connections)
+- [Community 840](Community_840.md) (1 shared connections)
+- [Community 872](Community_872.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,51 +1,42 @@
 # Community 591
 
-> 23 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **MultipleObjectMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **BaseListView** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.paginate_queryset()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_context_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_allow_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginate_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginate_orphans()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **A mixin for views manipulating multiple objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the name of the item to be used in the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the context for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **A base view for displaying a list of objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the list of items for this view. The return value must be an iterable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the field or fields to use for ordering the queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Paginate the queryset, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the number of items to paginate by, or ``None`` for no pagination.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return an instance of the paginator for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the maximum number of orphans extend the last page by when paginating.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return ``True`` if the view should display empty lists and ``False`` if a 404…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **normalize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **NonCapture** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **flatten_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **get_quantifier()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **next_char()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **list** (3 connections)
+- **walk_to_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **r""" An iterator that yields the next character from "pattern_iter", respecting…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **The iterator is currently inside a capturing group. Walk to the close of this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Parse a quantifier from the input, where "ch" is the first character in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Return True if the "source" contains an instance of "inst". False, otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Turn the given source sequence into a list of reg-exp possibilities and their…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent multiple possibilities at this point in a pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent a capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent a non-capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **r""" Given a reg-exp pattern, normalize it to an iterable of forms that suffice…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 411](Community_411.md) (5 shared connections)
-- [Community 780](Community_780.md) (1 shared connections)
-- [Community 311](Community_311.md) (1 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

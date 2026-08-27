@@ -1,39 +1,59 @@
 # Community 683
 
-> 15 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **LazyStream** (12 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **._update_unget_history()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.unget()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.read()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.tell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **The LazyStream wrapper allows one to get and "unget" bytes from a stream. Given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Every LazyStream must have a producer when instantiated. A producer is an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used when the exact number of bytes to read is unimportant. Return whatever…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used to invalidate/disable this lazy stream. Replace the producer with an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Place bytes back onto the front of the lazy stream. Future calls to read() will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Update the unget history as a sanity check to see if we've pushed back the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.test_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.is_in_memory_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **._start_transaction_under_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.test_check_sqlite_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_pathlib_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.create_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.disable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.enable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **._savepoint_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Start a transaction explicitly in autocommit mode. Staying in autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Raise NotSupportedError when aggregating on date/time fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **A named in-memory db should be allowed where supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_distinct_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_distinct_aggregation_multiple_args_no_distinct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_regexp_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 613](Community_613.md) (1 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 387](Community_387.md) (1 shared connections)
+- [Community 542](Community_542.md) (1 shared connections)
+- [Community 427](Community_427.md) (1 shared connections)
+- [Community 886](Community_886.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 544](Community_544.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 39 (85%)
+- INFERRED: 7 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

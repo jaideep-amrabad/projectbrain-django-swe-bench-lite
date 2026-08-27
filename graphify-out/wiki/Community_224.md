@@ -1,50 +1,45 @@
 # Community 224
 
-> 41 nodes · cohesion 0.05
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **NamespaceTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_ambiguous_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_ambiguous_urlpattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_lookup_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_lookup_object_with_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_lookup_object_without_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_name_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_object_default_namespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_current_app_no_partial_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_embedded_namespace_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_multiple_namespace_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_namespace_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_namespace_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_namespace_pattern_with_variable_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_namespaces_with_variables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_nested_app_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_nested_namespace_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_non_existent_namespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_normal_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_simple_included_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_special_chars_namespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **Names deployed via dynamic URL objects that require namespaces can't be…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **Nonexistent namespaces raise errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **Normal lookups work as expected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- *... and 16 more nodes in this community*
+- **FileBasedCacheTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **FileBasedCachePathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_dir_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_clear_does_not_remove_cache_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_creates_cache_dir_if_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_empty_cache_file_considered_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_does_not_ignore_non_filenotfound_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_ignores_enoent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_ignores_non_cache_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **skipIf** (1 connections)
+- **Specific test cases for the file-based cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (21 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 303](Community_303.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
+- [Community 587](Community_587.md) (1 shared connections)
+- [Community 1061](Community_1061.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

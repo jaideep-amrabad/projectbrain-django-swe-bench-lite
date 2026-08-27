@@ -1,74 +1,53 @@
 # Community 175
 
-> 101 nodes · cohesion 0.03
+> 47 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **CaptureQueriesContext** (77 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SelectForUpdateTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.has_for_update_sql()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_changelist_view_list_editable_changed_objects_uses_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_geoagg_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test_create_child_no_update()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Country** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.end_blocking_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_generated()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_generated_nowait()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_generated_of()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_generated_skip_locked()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_raw_lock_not_available()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_update_sql_generated_no_key()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_add_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.start_blocking_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_model_inheritance_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_model_inheritance_nested_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_model_inheritance_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_model_proxy_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_multilevel_model_inheritance_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_related_model_inheritance_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- *... and 76 more nodes in this community*
+- **AppsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_dynamic_load()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_get_app_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_get_app_configs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_is_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_lazy_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_model_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_singleton_master()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_bad_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_get_containing_app_config_apps_not_ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_import_exception_is_not_masked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_models_not_loaded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_models_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_config_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_such_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_not_an_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_one_config_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_relabeling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_two_configs_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_two_configs_one_default_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_two_default_configs_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that provides two AppConfig classes.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_duplicate_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 24](Community_24.md) (38 shared connections)
-- [Community 103](Community_103.md) (26 shared connections)
-- [Community 86](Community_86.md) (22 shared connections)
-- [Community 0](Community_0.md) (21 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 386](Community_386.md) (4 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 123](Community_123.md) (3 shared connections)
-- [Community 936](Community_936.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 160](Community_160.md) (2 shared connections)
+- [Community 58](Community_58.md) (5 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 59](Community_59.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 275 (88%)
-- INFERRED: 39 (12%)
+- EXTRACTED: 59 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

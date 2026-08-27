@@ -1,59 +1,64 @@
 # Community 83
 
-> 87 nodes · cohesion 0.05
+> 119 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **.assertNoOutput()** (144 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.run_django_admin()** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **StartProject** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DjangoAdminSettingsDirectory** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DjangoAdminAlternateSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DjangoAdminMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DjangoAdminNoSettings** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- *... and 62 more nodes in this community*
+- **expressions/tests.py** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Expression** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Ref** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Col** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **CombinedExpression** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **ExpressionList** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__init__()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **expressions/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **IterableLookupInnerExpressionsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Employee** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **ReprTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Company** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **ValuesExpressionsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- **Experiment** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **test_queryset_values.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- **ExpressionsNumericTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **ExpressionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **._parse_expressions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Number** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **Time** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **FieldTransformTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_functions()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **DurationExpression** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **TemporalSubtraction** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Result** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- *... and 94 more nodes in this community*
 
 ## Relationships
 
-- [Community 170](Community_170.md) (55 shared connections)
-- [Community 196](Community_196.md) (20 shared connections)
-- [Community 105](Community_105.md) (17 shared connections)
-- [Community 581](Community_581.md) (16 shared connections)
-- [Community 725](Community_725.md) (16 shared connections)
-- [Community 686](Community_686.md) (16 shared connections)
-- [Community 295](Community_295.md) (15 shared connections)
-- [Community 586](Community_586.md) (8 shared connections)
-- [Community 665](Community_665.md) (8 shared connections)
-- [Community 569](Community_569.md) (7 shared connections)
-- [Community 925](Community_925.md) (3 shared connections)
-- [Community 756](Community_756.md) (1 shared connections)
+- [Community 34](Community_34.md) (30 shared connections)
+- [Community 30](Community_30.md) (21 shared connections)
+- [Community 0](Community_0.md) (21 shared connections)
+- [Community 2](Community_2.md) (20 shared connections)
+- [Community 32](Community_32.md) (19 shared connections)
+- [Community 33](Community_33.md) (13 shared connections)
+- [Community 186](Community_186.md) (7 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 170](Community_170.md) (5 shared connections)
+- [Community 367](Community_367.md) (5 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 80](Community_80.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 363 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 328 (87%)
+- INFERRED: 51 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

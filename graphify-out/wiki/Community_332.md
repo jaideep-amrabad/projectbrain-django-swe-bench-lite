@@ -1,52 +1,57 @@
 # Community 332
 
-> 37 nodes · cohesion 0.09
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **AutoescapeTagTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **setup** (18 connections)
-- **filter_tests/test_autoescape.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **AutoescapeStringfilterTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **SafeClass** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **UnsafeClass** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **setup** (4 connections)
-- **.test_autoescape_stringfilter01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_stringfilter04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- **.test_autoescape_filtertag01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_literals01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_lookup01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_stringiterations01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_filters01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_filters02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- *... and 12 more nodes in this community*
+- **BaseEmailBackend** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **mail/backends/base.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **mail/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **console.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **mail/backends/dummy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **EmailBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **custombackend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **EmailBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **.send_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **EmailBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.write_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Base email backend class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Open a network connection. This method can be overwritten by backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Close a network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Base class for email backend implementations. Subclasses must at least…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 9](Community_9.md) (10 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
+- [Community 165](Community_165.md) (6 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 787](Community_787.md) (1 shared connections)
+- [Community 912](Community_912.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 59 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

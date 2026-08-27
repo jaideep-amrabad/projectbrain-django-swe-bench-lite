@@ -1,46 +1,63 @@
 # Community 583
 
-> 19 nodes · cohesion 0.20
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **test_natural.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **deserialize()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **serialize()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **fk_as_pk_natural_key_not_called()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_pk_mti_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **pk_with_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **serializerTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **forward_ref_fk_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_fk_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_m2m_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_m2m_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_key_serializer_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_key_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **NaturalKeySerializerTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **Serialize a queryset (or any iterator that returns database objects) using a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **Deserialize a stream or a string. Return an iterator that yields ``(obj,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **The deserializer works with natural keys when the primary key has a default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **The deserializer doesn't rely on natural keys when a model has a custom primary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **If serializing objects in a multi-table inheritance relationship using natural…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **runtests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **test.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **NullTimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **setup()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **django_tests()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **default_test_processes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **get_runner()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ParallelTestSuite** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **bisect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_installed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **paired_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.run_from_argv()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **partition_suite_by_case()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 537](Community_537.md) (3 shared connections)
-- [Community 362](Community_362.md) (1 shared connections)
-- [Community 550](Community_550.md) (1 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 44](Community_44.md) (5 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 266](Community_266.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 845](Community_845.md) (3 shared connections)
+- [Community 119](Community_119.md) (3 shared connections)
+- [Community 518](Community_518.md) (2 shared connections)
+- [Community 606](Community_606.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 205](Community_205.md) (1 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 117 (94%)
+- INFERRED: 7 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

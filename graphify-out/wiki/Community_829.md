@@ -1,35 +1,33 @@
 # Community 829
 
-> 11 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **AccessorClashTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_accessor_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_clash_between_accessors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_no_clash_for_hidden_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **DateHierarchyTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.assertDateParams()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params_with_dst_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params_with_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 845](Community_845.md) (2 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (71%)
+- INFERRED: 6 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

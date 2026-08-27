@@ -1,50 +1,36 @@
 # Community 614
 
-> 18 nodes · cohesion 0.23
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **force_insert_update/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **Counter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **force_insert_update/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **InheritanceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **ProxyCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **InheritedCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **SubCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **ForceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **WithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **.templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- **.test_force_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.test_force_update_on_inherited_model_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.assertQuerysetEqual()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_force_update_on_inherited_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.test_force_update_on_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **Tests for forcing insert and update queries (instead of Django's normal…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **Issue 13864: force_update fails on subclassed models, if they don't specify…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **UserWithPermTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_backend_without_with_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_custom_backend()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_custom_backend_pass_obj()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_multiple_backends()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_invalid_backend_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_invalid_permission_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_invalid_permission_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_nonexistent_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_nonexistent_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 135](Community_135.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 392](Community_392.md) (1 shared connections)
-- [Community 443](Community_443.md) (1 shared connections)
-- [Community 215](Community_215.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (79%)
-- INFERRED: 11 (21%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

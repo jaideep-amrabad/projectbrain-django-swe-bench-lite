@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **TestLoadFixtureFromOtherAppDirectory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Absolute** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **#23612 -- fixtures path should be normalized to allow referencing relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixtures_loaded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (2 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 380](Community_380.md) (3 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 6 (75%)
+- INFERRED: 2 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

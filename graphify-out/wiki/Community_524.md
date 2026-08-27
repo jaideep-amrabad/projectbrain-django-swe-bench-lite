@@ -1,52 +1,55 @@
 # Community 524
 
-> 17 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **fields_for_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **apply_limit_choices_to_to_formfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Colour** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ModelToDictTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_empty_fields_to_fields_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_fields_for_model_applies_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_subclassed_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Return a dictionary containing form fields for the given model. ``fields`` is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Return a dict containing the data in ``instance`` suitable for passing as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Apply limit_choices_to to the formfield's queryset if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **An argument of fields=() to fields_for_model should return an empty dictionary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Data for a ManyToManyField is a list rather than a lazy QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **CustomManyToManyField** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **create_reverse_many_to_one_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.related_manager_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **._get_set_deprecation_msg_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.related_manager_cls()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related objects manager on the reverse side of a many-to-one…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related objects through the reverse relation. With the example above,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Create a manager for the reverse side of a many-to-one relation. This manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related objects manager on the forward and reverse sides of a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **._get_set_deprecation_msg_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **Ticket #24104 - Need to have a custom ManyToManyField, which is not an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (7 shared connections)
-- [Community 53](Community_53.md) (3 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 1088](Community_1088.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 206](Community_206.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 564](Community_564.md) (1 shared connections)
-- [Community 282](Community_282.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 298](Community_298.md) (2 shared connections)
+- [Community 746](Community_746.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
+- [Community 692](Community_692.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 37 (84%)
+- INFERRED: 7 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

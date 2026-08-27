@@ -1,34 +1,43 @@
 # Community 710
 
-> 11 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **migration_test_data_persistence/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **migration_test_data_persistence/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **MigrationDataNormalPersistenceTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **MigrationDataPersistenceTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **Unmanaged** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **.test_persistence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **.test_persistence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Data loaded in migrations is available on TestCase** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Data loaded in migrations is available if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **autodiscover()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- **.test_autodiscover_modules_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_found_but_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_found_with_registry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_one_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_validate_registry_keeps_intact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_validate_registry_resets_after_erroneous_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_validate_registry_resets_after_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **Auto-discover INSTALLED_APPS modules and fail silently when not present. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 90](Community_90.md) (2 shared connections)
+- [Community 340](Community_340.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,52 +1,40 @@
 # Community 705
 
-> 33 nodes · cohesion 0.06
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Reporter** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **AtomicErrorsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **DisableDurabiltityCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicMiscTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **DurableTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_allows_queries_after_fixing_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_does_not_leak_savepoints_on_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_wrap_callable_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_orm_query_after_error_and_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_queries_in_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_queries_in_broken_transaction_after_client_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **.test_atomic_prevents_calling_transaction_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_setting_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_mark_for_rollback_on_error_in_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_mark_for_rollback_on_error_in_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_both_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_inner_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_outer_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- *... and 8 more nodes in this community*
+- **tests_sample.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **doctests.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **TestDjangoTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **TestVanillaUnittest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **TestZimpleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **factorial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **EmptyTestCase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **Doctest example from the official Python documentation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **Return the factorial of n, an exact integer >= 0. >>> [factorial(n) for n in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **sample/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
+- **load_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **DjangoTestCase** (1 connections)
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (16 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 534](Community_534.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

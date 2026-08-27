@@ -1,47 +1,43 @@
 # Community 571
 
-> 18 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **NoYamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **YamlImportModuleMock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_deserializer_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_dumpdata_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_unicode_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Provides a wrapped import_module function to simulate yaml ImportError In order…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Not having pyyaml installed provides a misleading error Refs: #12756** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Removes imported yaml and stubs importlib.import_module** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Puts yaml back if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml serializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml deserializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Calling dumpdata produces an error when yaml package missing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **NestedForeignKeysTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **nested_foreign_keys/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **nested_foreign_keys/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **DeeplyNestedForeignKeysTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Screening** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Movie** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Package** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **ScreeningNullFK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **PackageNullFK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey_NullFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance_null_FK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_null_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
 
 ## Relationships
 
-- [Community 482](Community_482.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
-- [Community 424](Community_424.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 34 (74%)
+- INFERRED: 12 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

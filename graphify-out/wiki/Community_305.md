@@ -1,65 +1,60 @@
 # Community 305
 
-> 27 nodes · cohesion 0.13
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **test/signals.py** (54 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **receiver()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **reset_format_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **root_urlconf_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **close_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **clear_cache_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **clear_routers_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **localize_settings_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **reset_template_engines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **user_model_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **reset_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **reset_hashers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **auth_password_validators_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **clear_serializers_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **complex_setting_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **file_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **language_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **static_finders_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **static_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **update_connections_time_zone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **update_installed_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **.test_receiver_signal_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_receiver_single_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **A decorator for connecting receivers to signals. Used by passing in the signal…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- *... and 2 more nodes in this community*
+- **search.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramBase** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **SearchQueryField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Field** (2 connections)
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__or__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__rand__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__ror__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_trigram_similarity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **.test_trigram_similarity_alternate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (8 shared connections)
-- [Community 251](Community_251.md) (6 shared connections)
-- [Community 523](Community_523.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 135](Community_135.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 279](Community_279.md) (3 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 546](Community_546.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 822](Community_822.md) (2 shared connections)
-- [Community 216](Community_216.md) (2 shared connections)
+- [Community 35](Community_35.md) (10 shared connections)
+- [Community 193](Community_193.md) (7 shared connections)
+- [Community 398](Community_398.md) (5 shared connections)
+- [Community 83](Community_83.md) (4 shared connections)
+- [Community 304](Community_304.md) (4 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 217](Community_217.md) (1 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 78 (93%)
+- INFERRED: 6 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

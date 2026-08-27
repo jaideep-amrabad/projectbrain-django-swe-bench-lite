@@ -1,55 +1,54 @@
 # Community 182
 
-> 55 nodes · cohesion 0.04
+> 56 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Envelope** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **OGREnvelope** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **EnvelopeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.__eq__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.expand_to_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **._from_sequence()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.envelope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.extent()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test02_properties()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test03_equivalence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test07_expand_to_include_envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test08_expand_to_include_point()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **TestPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.ll()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.max_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.max_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.min_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.min_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.ur()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **.wkt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **Return the value of the maximum X coordinate.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- *... and 30 more nodes in this community*
+- **FileStorageTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._test_file_time_getter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._test_file_time_getter_tz_handling_off()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._test_file_time_getter_tz_handling_on()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **CustomStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **DiscardingFalseContentStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_chunks_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_accessed_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_created_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_modified_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_save_with_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_save_without_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_listdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_makedirs_race_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_remove_race_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_setting_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **OverwritingStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_save_overwrite_behavior()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **requires_tz_support** (3 connections)
+- **.test_custom_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_custom_storage_discarding_empty_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (14 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 102](Community_102.md) (2 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
+- [Community 236](Community_236.md) (15 shared connections)
+- [Community 161](Community_161.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 256](Community_256.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (91%)
-- INFERRED: 8 (9%)
+- EXTRACTED: 86 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

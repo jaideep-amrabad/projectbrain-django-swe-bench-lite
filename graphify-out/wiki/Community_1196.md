@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_follow_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A URL that redirects can be followed to termination.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_incomplete_data_form_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST incomplete data to a form using multiple templates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 573](Community_573.md) (1 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
 
 ## Source Files
 

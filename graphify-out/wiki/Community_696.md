@@ -4,38 +4,39 @@
 
 ## Key Concepts
 
-- **AdminEmailHandlerTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.get_admin_email_handler()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_accepts_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_accepts_args_and_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_emit_non_ascii()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_disallowed_host_doesnt_crash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_subject_accepts_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_uses_custom_email_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_customize_send_mail_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_default_exception_reporter_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **User-supplied arguments and the EMAIL_SUBJECT_PREFIX setting are used to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **The subject is also handled if being passed a request object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **Newlines in email reports' subjects are escaped to prevent AdminErrorHandler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **#23593 - AdminEmailHandler should allow Unicode characters in the request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **GeographyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **geogapp/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **County** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **NamedModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **Zipcode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.test05_geography_layermapping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test01_fixture_load()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test04_invalid_operators_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **Ensure geography features loaded properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Ensuring exceptions are raised for operators & functions invalid on geography…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Testing LayerMapping support on models with geography fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 663](Community_663.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 28 (85%)
+- INFERRED: 5 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,29 +1,33 @@
 # Community 913
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **UUIDFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_clean_value_with_dashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **ReturningValuesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **ReturningModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_bulk_insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **.test_insert_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **.test_insert_returning_multiple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **.test_insert_returning_non_integer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 155](Community_155.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 78](Community_78.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (72%)
+- INFERRED: 5 (28%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Return an exact copy of this ModelState.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.test_zero_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Passing in zero into timeout results in a value that is not cached** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 

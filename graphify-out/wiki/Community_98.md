@@ -1,62 +1,64 @@
 # Community 98
 
-> 85 nodes · cohesion 0.03
+> 80 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **LookupTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **lookup/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **lookup/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **DecimalFieldLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **lookup/test_decimalfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **TimeFieldLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **IsNullWithNoneAsRHS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Season** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Alarm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Freebie** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Game** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Product** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Stock** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.test_regex_backreferencing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **NulledTextField** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **NulledTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_custom_field_none_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_custom_lookup_none_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- *... and 60 more nodes in this community*
+- **generation.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- **gdal/prototypes/errcheck.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **libgdal.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **ds.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
+- **gdal/prototypes/geom.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
+- **raster.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
+- **prototypes/srs.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
+- **check_err()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- **double_output()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- **gdal_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **check_geom_offset()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **void_output()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- **function()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **check_arg_errcode()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **check_const_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **check_geom()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **check_pointer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **check_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **ptr_byref()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- **const_string_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- **geom_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- **int_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- **srs_output()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- **gdal_full_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **std_call()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (18 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 24](Community_24.md) (5 shared connections)
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 84](Community_84.md) (3 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
+- [Community 65](Community_65.md) (33 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 158](Community_158.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 142 (90%)
-- INFERRED: 16 (10%)
+- EXTRACTED: 188 (94%)
+- INFERRED: 13 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

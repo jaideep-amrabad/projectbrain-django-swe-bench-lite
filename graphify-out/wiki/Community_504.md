@@ -1,35 +1,42 @@
 # Community 504
 
-> 11 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **AlterOrderWithRespectTo** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Represent a change with the order_with_respect_to option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 642](Community_642.md) (2 shared connections)
-- [Community 503](Community_503.md) (2 shared connections)
-- [Community 919](Community_919.md) (1 shared connections)
+- [Community 154](Community_154.md) (5 shared connections)
+- [Community 180](Community_180.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

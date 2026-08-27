@@ -1,60 +1,54 @@
 # Community 311
 
-> 38 nodes · cohesion 0.08
+> 38 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Paginator** (46 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PaginationTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_invalid_page_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_range_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_sequence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.num_pages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.test_count_does_not_silence_attribute_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_count_does_not_silence_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_float_integer_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_elided_page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_no_content_allow_empty_first_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginate_misc_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginator_iteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Helper method that instantiates a Paginator object from the passed params and…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **DatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_settings_get()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._get_test_db_params()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_db()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_db()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_user_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_allow_fail_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._handle_objects_preventing_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._switch_to_test_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_oracle_managed_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 451](Community_451.md) (12 shared connections)
-- [Community 770](Community_770.md) (7 shared connections)
-- [Community 893](Community_893.md) (3 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 843](Community_843.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 591](Community_591.md) (1 shared connections)
-- [Community 174](Community_174.md) (1 shared connections)
+- [Community 795](Community_795.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 288](Community_288.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (89%)
-- INFERRED: 10 (11%)
+- EXTRACTED: 103 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

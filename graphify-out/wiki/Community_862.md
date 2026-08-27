@@ -1,37 +1,30 @@
 # Community 862
 
-> 10 nodes · cohesion 0.22
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **CustomUserPasswordResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **UUIDUserPasswordResetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._read_signup_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_valid_custom_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **A uidb64 that decodes to a non-UUID doesn't crash.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **MigrationSuggestNameTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_auto()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_none_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_none_name_with_initial_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_single_operation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_two_create_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_two_create_models_with_initial_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Relationships
 
-- [Community 296](Community_296.md) (4 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 452](Community_452.md) (2 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

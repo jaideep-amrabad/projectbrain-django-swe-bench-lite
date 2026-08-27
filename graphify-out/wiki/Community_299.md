@@ -1,60 +1,62 @@
 # Community 299
 
-> 39 nodes · cohesion 0.06
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DatabaseWrapper** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **Tests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **CursorDebugWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_nodb_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.ensure_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.make_debug_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_copy_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_database_name_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_nodb_cursor_raises_postgres_authentication_failure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_service_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_service_name_default_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **BaseCursorDebugWrapper** (1 connections)
-- **.copy_expert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- *... and 14 more nodes in this community*
+- **WhereNode** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **NothingNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **WhereNodeTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.c()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.clone()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.test_empty_full_handling_conjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_full_handling_disjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.count()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **DummyNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_nodes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **MockCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **._contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **._contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.relabel_aliases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.relabeled_clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.resolve_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **._resolve_leaf()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **._resolve_node()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.split_having()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **Return the total number of objects, across all pages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **Relabel the alias values of any children. 'change_map' is a dictionary mapping…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **Create a clone of the tree. Must only be called on root nodes (nodes with empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 75](Community_75.md) (4 shared connections)
-- [Community 314](Community_314.md) (2 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
-- [Community 639](Community_639.md) (1 shared connections)
-- [Community 430](Community_430.md) (1 shared connections)
-- [Community 563](Community_563.md) (1 shared connections)
-- [Community 787](Community_787.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
+- [Community 75](Community_75.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 80](Community_80.md) (3 shared connections)
+- [Community 155](Community_155.md) (3 shared connections)
+- [Community 99](Community_99.md) (3 shared connections)
+- [Community 186](Community_186.md) (2 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 309](Community_309.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
+- [Community 356](Community_356.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 140](Community_140.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (88%)
-- INFERRED: 8 (12%)
+- EXTRACTED: 60 (80%)
+- INFERRED: 15 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

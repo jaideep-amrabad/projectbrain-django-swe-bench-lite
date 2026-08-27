@@ -1,36 +1,35 @@
 # Community 797
 
-> 12 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **many_to_many/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **AbstractArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **InheritedArticleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **InheritedArticleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **NoDeletedArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **Many-to-many relationships To define a many-to-many relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **UserArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **FilePathFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.assertChoices()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **fix_os_paths()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_allow_folders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_fix_os_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_no_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive_folders_without_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive_no_folders_or_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_nonexistent_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 978](Community_978.md) (3 shared connections)
-- [Community 438](Community_438.md) (3 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

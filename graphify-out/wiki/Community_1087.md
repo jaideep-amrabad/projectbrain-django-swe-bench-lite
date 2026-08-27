@@ -1,16 +1,18 @@
 # Community 1087
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_response_resolver_match_redirect_follow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_response_resolver_match_regular_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The response ResolverMatch instance contains the correct information when…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_session_modifying_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_session_engine_is_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that modifies the session** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 541](Community_541.md) (2 shared connections)
+- [Community 574](Community_574.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
 
 ## Source Files
 
@@ -18,7 +20,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

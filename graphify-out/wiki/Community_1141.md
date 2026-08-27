@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **good_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
-- **good_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
+- **TestExtraJoinFilterQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_extra_join_filter_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 510](Community_510.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

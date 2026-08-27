@@ -1,42 +1,38 @@
 # Community 695
 
-> 15 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **GeographyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **geogapp/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **County** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **NamedModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **Zipcode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **.test05_geography_layermapping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **.test01_fixture_load()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **.test04_invalid_operators_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **Ensure geography features loaded properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **Ensuring exceptions are raised for operators & functions invalid on geography…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **Testing LayerMapping support on models with geography fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **JSONFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_custom_widget_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_redisplay_wrong_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_converted_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_custom_widget_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_formfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_valid_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **Displaying a bound form (typically due to invalid input). The form should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **The widget can be overridden with an attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (85%)
-- INFERRED: 5 (15%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

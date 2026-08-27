@@ -1,28 +1,30 @@
 # Community 922
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **FileFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_upload_to_callable_not_checked()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_upload_to_starts_with_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_valid_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_valid_default_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **SkippingTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_skip_if_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_skip_unless_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **._assert_skipping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Testing the django.test.skipUnlessDBFeature decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Testing the django.test.skipIfDBFeature decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

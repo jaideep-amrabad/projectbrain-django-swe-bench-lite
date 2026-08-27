@@ -1,64 +1,59 @@
 # Community 398
 
-> 33 nodes · cohesion 0.09
+> 26 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **resolve_url()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **redirect_to_login()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **ResolveUrlTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **resolve_url/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **RedirectToLoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **UnimportantThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- **.test_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_view_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_redirect_to_login_with_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_to_login_with_lazy_and_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_domain()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_full_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_lazy_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_non_view_callable_raises_no_reverse_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_relative_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_url_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_valid_view_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **resolve_url/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
-- **some_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
-- **Redirect the user to the login page, passing the given 'next' page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Return a URL appropriate for the arguments passed. The arguments could be: * A…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **Tests for the redirect_to_login view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- **Tests for the resolve_url() function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **Passing a URL path to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- *... and 8 more nodes in this community*
+- **SearchHeadlineTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchHeadline** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchConfig** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.from_parameter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_headline()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchConfigTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_headline_with_config_from_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_from_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_headline_fragments_words_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_headline_highlight_all_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_headline_short_word_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_headline_with_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_headline_separator_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_headline_untyped_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.get_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 99](Community_99.md) (5 shared connections)
-- [Community 251](Community_251.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 304](Community_304.md) (2 shared connections)
-- [Community 347](Community_347.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 89](Community_89.md) (2 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
+- [Community 193](Community_193.md) (21 shared connections)
+- [Community 32](Community_32.md) (6 shared connections)
+- [Community 305](Community_305.md) (5 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 217](Community_217.md) (1 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
+- [Community 877](Community_877.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 76 (93%)
+- INFERRED: 6 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

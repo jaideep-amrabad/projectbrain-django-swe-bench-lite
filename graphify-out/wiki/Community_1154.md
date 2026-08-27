@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_fast_add_ignore_conflicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **A single query is necessary to add auto-created through instances if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_inheritance02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Standard two-level inheritance** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 438](Community_438.md) (1 shared connections)
+- [Community 840](Community_840.md) (1 shared connections)
+- [Community 872](Community_872.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

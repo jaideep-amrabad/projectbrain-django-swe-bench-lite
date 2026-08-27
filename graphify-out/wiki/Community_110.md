@@ -1,62 +1,63 @@
 # Community 110
 
-> 106 nodes · cohesion 0.03
+> 75 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **ForeignKey** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **CASCADE()** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.column_classes()** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.assertForeignKeyExists()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_repoint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **PROTECT()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.test_alter_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_fk_to_o2o()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_o2o_to_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_to_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_db_table()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_fk_db_constraint()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_create()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_create_through()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_through_alter()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_no_db_constraint_added_during_primary_key_change()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.assertForeignKeyNotExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.get_constraints_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_foreign_key_quoted_db_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_fk()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_fk_to_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_inline_fk()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_unique_no_unnecessary_fk_drops()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_foreign_key_long_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_field_fk_attributes_noop()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 81 more nodes in this community*
+- **AnonymousUser** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **view()** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- **AnonymousUserTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **UserPassesTestTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **PermissionsRequiredMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **AccessMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **._test_redirect()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **_user_get_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **_user_has_module_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **_user_has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.test_login_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.get_group_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_user_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.test_access_mixin_permission_denied_remote_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_access_mixin_permission_denied_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_stacked_mixins_not_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_raise_exception_custom_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_raise_exception_custom_message_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_user_passes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_request_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- *... and 50 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (67 shared connections)
-- [Community 24](Community_24.md) (17 shared connections)
-- [Community 2](Community_2.md) (14 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 328](Community_328.md) (6 shared connections)
-- [Community 184](Community_184.md) (6 shared connections)
-- [Community 317](Community_317.md) (4 shared connections)
-- [Community 119](Community_119.md) (3 shared connections)
-- [Community 877](Community_877.md) (3 shared connections)
-- [Community 337](Community_337.md) (2 shared connections)
-- [Community 789](Community_789.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 606](Community_606.md) (8 shared connections)
+- [Community 292](Community_292.md) (6 shared connections)
+- [Community 130](Community_130.md) (5 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 410](Community_410.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 303](Community_303.md) (2 shared connections)
+- [Community 556](Community_556.md) (1 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
 
 ## Audit Trail
 
-- EXTRACTED: 256 (86%)
-- INFERRED: 42 (14%)
+- EXTRACTED: 120 (80%)
+- INFERRED: 30 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

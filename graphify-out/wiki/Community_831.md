@@ -4,33 +4,33 @@
 
 ## Key Concepts
 
-- **EmptyManager** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **.test_create_model_add_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_rename_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_rename_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AddField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AlterField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RenameField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RemoveField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel should absorb RenameModels.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **AsyncHandlerRequestTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_sync_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling an async view down the normal synchronous path.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_bad_request_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_unawaited_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Async variants of the normal handler request tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling a sync view down the asynchronous path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 218](Community_218.md) (11 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 247](Community_247.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

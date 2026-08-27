@@ -1,65 +1,43 @@
 # Community 496
 
-> 31 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **register()** (52 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **security/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **_security_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_content_type_nosniff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_referrer_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_security_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_ssl_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_include_subdomains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_preload()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_options_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_xframe_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_csrf_cookie_secure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **check_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **FlatPageAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
-- **SiteAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
-- **check_all_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- **check_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **.test_basic_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_custom_site_not_an_admin_site()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- *... and 6 more nodes in this community*
+- **FileWrapperHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WriteChunkCounterHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **ServerHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.write()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **DummyHandler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_chunked_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_no_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **._write()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **send_big_data_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.send_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **wsgi_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.log_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.sendfile()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **Server handler that counts the number of chunks written after headers were…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **write()' callable as specified by PEP 3333** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.error_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (15 shared connections)
-- [Community 351](Community_351.md) (6 shared connections)
-- [Community 94](Community_94.md) (5 shared connections)
-- [Community 636](Community_636.md) (4 shared connections)
-- [Community 956](Community_956.md) (2 shared connections)
-- [Community 714](Community_714.md) (2 shared connections)
-- [Community 392](Community_392.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 1032](Community_1032.md) (1 shared connections)
-- [Community 955](Community_955.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
+- [Community 125](Community_125.md) (7 shared connections)
+- [Community 132](Community_132.md) (4 shared connections)
+- [Community 883](Community_883.md) (3 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 30 (83%)
+- INFERRED: 6 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

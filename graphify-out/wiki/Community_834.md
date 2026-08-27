@@ -1,34 +1,36 @@
 # Community 834
 
-> 8 nodes · cohesion 0.39
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_noniterable_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_noniterable_arg_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **Join a list with a string, like Python's ``str.join(list)``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **EmptyManager** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **.test_create_model_add_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_rename_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_rename_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **AddField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **AlterField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RenameField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RemoveField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel should absorb RenameModels.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 215](Community_215.md) (11 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,65 +1,62 @@
 # Community 86
 
-> 50 nodes · cohesion 0.06
+> 99 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.captured_queries()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **CreateCollation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **ExplainTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **CaptureQueriesContextManagerTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **CollationOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **RemoveCollation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **CreateCollationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **CreateExtensionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_ticket11881()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **.test_create_non_deterministic_collation()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_no_allow_migrate()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_no_allow_migrate()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_no_allow_migrate()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_remove()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_create_collation_alternate_provider()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_allow_migrate()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_create_existing_extension()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_drop_nonexistent_extension()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **RemoveCollationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **skipUnless** (5 connections)
-- **.test_mysql_analyze()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_mysql_text_to_traditional()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_postgres_options()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.create_collation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- *... and 25 more nodes in this community*
+- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **test_extract_trunc.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **DateFunctionTests** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.create_model()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **Extract** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractYear** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **Trunc** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **DateFunctionWithTimeZoneTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_func_with_timezone()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractIsoYear** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractWeekDay** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncDate** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncTime** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.test_trunc_timezone_applied_before_truncation()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractIsoWeekDay** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractQuarter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractWeek** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **Now** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncYear** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.get_timezones()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractMinute** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- *... and 74 more nodes in this community*
 
 ## Relationships
 
-- [Community 175](Community_175.md) (22 shared connections)
-- [Community 103](Community_103.md) (21 shared connections)
-- [Community 22](Community_22.md) (14 shared connections)
-- [Community 152](Community_152.md) (12 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 160](Community_160.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
+- [Community 6](Community_6.md) (38 shared connections)
+- [Community 3](Community_3.md) (28 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 161](Community_161.md) (7 shared connections)
+- [Community 33](Community_33.md) (6 shared connections)
+- [Community 75](Community_75.md) (6 shared connections)
+- [Community 30](Community_30.md) (5 shared connections)
+- [Community 34](Community_34.md) (5 shared connections)
+- [Community 180](Community_180.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 127](Community_127.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (72%)
-- INFERRED: 48 (28%)
+- EXTRACTED: 350 (90%)
+- INFERRED: 37 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

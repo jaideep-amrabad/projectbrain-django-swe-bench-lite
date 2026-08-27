@@ -1,58 +1,51 @@
 # Community 92
 
-> 37 nodes · cohesion 0.08
+> 86 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **_i18n_cache_key_suffix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_generate_cache_header_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_generate_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **.check_accept_language_vary()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_i18n_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_i18n_translation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_i18n_translation_accept_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_varies_by_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_cache_key_with_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_no_i18n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_cache_key_with_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_learn_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_patch_vary_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **.test_patch_cache_control()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_patch_vary_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PrefixedCacheI18nTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PrefixedCacheUtils** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 12 more nodes in this community*
+- **ModelInheritanceTest** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **model_inheritance_regress/models.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **model_inheritance_regress/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **Place** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Meta** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Restaurant** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Congressman** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ArticleWithAuthor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BachelorParty** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot4A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot4B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Station** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_model_inheritance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BirthdayParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BusStation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **CertificationAudit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **DerivedM** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Evaluation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **InternalCertificationAudit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (14 shared connections)
-- [Community 16](Community_16.md) (11 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 126](Community_126.md) (8 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 138](Community_138.md) (3 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 227](Community_227.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 168 (86%)
+- INFERRED: 28 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

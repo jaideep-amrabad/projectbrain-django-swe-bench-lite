@@ -4,24 +4,22 @@
 
 ## Key Concepts
 
-- **FunkyTag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Because we all know there's only one real use case for GFKs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ModifyingSaveData** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **A save method that modifies the data in the object. A user-defined save()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 153](Community_153.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

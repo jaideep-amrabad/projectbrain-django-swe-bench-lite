@@ -1,38 +1,37 @@
 # Community 789
 
-> 9 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **PositiveIntegerField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_alter_null_to_not_null_keeping_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_null_to_not_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_field_default_doesnt_perform_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **#23738 - Can change a nullable field with default to non-nullable with the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **No queries are performed if a field default changes and the field's not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **#23609 - Tests handling of default values when altering from NULL to NOT NULL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **DatabaseIntrospection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 612](Community_612.md) (2 shared connections)
-- [Community 110](Community_110.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (79%)
-- INFERRED: 4 (21%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

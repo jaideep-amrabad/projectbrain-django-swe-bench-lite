@@ -1,30 +1,26 @@
 # Community 960
 
-> 6 nodes · cohesion 0.47
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **SkippingTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_skip_if_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_skip_unless_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **._assert_skipping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Testing the django.test.skipUnlessDBFeature decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Testing the django.test.skipIfDBFeature decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **OtherRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **.db_for_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
 
 ## Relationships
 
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

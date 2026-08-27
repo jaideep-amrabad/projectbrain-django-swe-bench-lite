@@ -1,42 +1,35 @@
 # Community 650
 
-> 17 nodes · cohesion 0.13
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Meta** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Store** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Widget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **CommonFeature** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **WidgetProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Feature** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Plant** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **SpecialArticle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **SessionStore** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **DBStore** (1 connections)
+- **Implement cached, database backed sessions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **Remove the current session data from the database and regenerate the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
 
 ## Relationships
 
-- [Community 383](Community_383.md) (16 shared connections)
-- [Community 188](Community_188.md) (4 shared connections)
-- [Community 408](Community_408.md) (3 shared connections)
-- [Community 1045](Community_1045.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 454](Community_454.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (83%)
-- INFERRED: 7 (17%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

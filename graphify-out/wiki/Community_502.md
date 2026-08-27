@@ -1,49 +1,48 @@
 # Community 502
 
-> 23 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **TimestampSigner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **dumps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **loads()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.timestamp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.test_decode_serializer_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Exception** (1 connections)
-- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Return URL-safe, hmac signed base64 compressed JSON string. If compress is True…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Retrieve original value and check it wasn't signed more than max_age seconds…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signature does not match.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signature timestamp is older than required max_age.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Return URL-safe, hmac signed base64 compressed JSON string. If key is None, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **AlterTogetherOptionOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterIndexTogether** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterUniqueTogether** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **_check_for_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.option_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Change the value of unique_together to the target one. Input value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Change the value of index_together to the target one. Input value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (10 shared connections)
-- [Community 258](Community_258.md) (2 shared connections)
-- [Community 554](Community_554.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
+- [Community 43](Community_43.md) (7 shared connections)
+- [Community 920](Community_920.md) (3 shared connections)
+- [Community 640](Community_640.md) (2 shared connections)
+- [Community 503](Community_503.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 586](Community_586.md) (1 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
+- [Community 749](Community_749.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 37 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

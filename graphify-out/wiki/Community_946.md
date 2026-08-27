@@ -1,27 +1,27 @@
 # Community 946
 
-> 6 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **multi_table.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **ParentManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_overridden_get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_overridden_get_lookup_chain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_overridden_get_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_overridden_get_transform_chain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
+- [Community 405](Community_405.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

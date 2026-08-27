@@ -1,49 +1,52 @@
 # Community 525
 
-> 22 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Meta** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Chapter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Plot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **UserProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Language** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PlotProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadablePizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadOnlyPizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FoodDelivery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CategoryInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ChapterInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **User** (1 connections)
-- **Proxy a model with a different app_label.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Signal** (22 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._live_receivers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **ModelSignal** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **dispatcher.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.connect()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._lazy_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **_make_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._clear_dead_receivers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.send_robust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.connect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Signal subclass that allows the sender to be lazily specified as a string of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **Disconnect receiver from sender for signal. If weak references are used,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Send signal from sender to all connected receivers. If any receiver raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Send signal from sender to all connected receivers catching errors. Arguments:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Filter sequence of receivers to get resolved, live receivers. This checks for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Base class for all signals Internal attributes: receivers { receiverkey (id) :…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Connect receiver to sender for signal. Arguments: receiver A function or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._remove_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (14 shared connections)
-- [Community 60](Community_60.md) (13 shared connections)
-- [Community 301](Community_301.md) (1 shared connections)
-- [Community 616](Community_616.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 125](Community_125.md) (5 shared connections)
+- [Community 246](Community_246.md) (5 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 168](Community_168.md) (3 shared connections)
+- [Community 427](Community_427.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 548](Community_548.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

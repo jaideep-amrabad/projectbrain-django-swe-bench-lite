@@ -1,62 +1,43 @@
 # Community 416
 
-> 29 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Media** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **stable_topological_sort()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **CyclicDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **topological_sort_as_sets()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **test_topological_sort.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.merge()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **topological_sort.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **.absolute_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TopologicalSortTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.render_css()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._get_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **._css()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._js()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_cyclic_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **Return all media required to render the widgets on this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.__add__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return a Media object that only contains media of the given type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Merge lists while trying to keep the relative order of the elements. Warn if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 4 more nodes in this community*
+- **.paginate_queryset()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_context_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_allow_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_paginate_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_paginate_orphans()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Get the name of the item to be used in the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Get the context for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return the list of items for this view. The return value must be an iterable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return the field or fields to use for ordering the queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Paginate the queryset, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Get the number of items to paginate by, or ``None`` for no pagination.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return an instance of the paginator for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return the maximum number of orphans extend the last page by when paginating.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return ``True`` if the view should display empty lists and ``False`` if a 404…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 
 ## Relationships
 
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 53](Community_53.md) (4 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 156](Community_156.md) (1 shared connections)
-- [Community 843](Community_843.md) (1 shared connections)
-- [Community 506](Community_506.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 53](Community_53.md) (10 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 33 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

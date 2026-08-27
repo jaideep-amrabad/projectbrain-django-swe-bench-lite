@@ -4,24 +4,25 @@
 
 ## Key Concepts
 
-- **Section** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple section that links to articles, to test linking to related items in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A property that simply returns the name. Used to test #24461** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **TransactionsPerRequestTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_auto_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_auto_transaction_async_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_auto_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

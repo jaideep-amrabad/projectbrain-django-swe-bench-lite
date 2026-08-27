@@ -1,61 +1,64 @@
 # Community 397
 
-> 34 nodes · cohesion 0.08
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ModelFormBasicTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelOtherFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BigIntForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **RoykoForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_recleaning_model_form_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_non_editable_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_big_integer_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_http_prefixing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_url_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- *... and 9 more nodes in this community*
+- **resolve_url()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **redirect_to_login()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **ResolveUrlTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **resolve_url/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **RedirectToLoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **UnimportantThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
+- **.test_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_view_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_redirect_to_login_with_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_to_login_with_lazy_and_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_domain()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_full_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_lazy_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_non_view_callable_raises_no_reverse_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_relative_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_url_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_valid_view_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **resolve_url/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
+- **some_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
+- **Redirect the user to the login page, passing the given 'next' page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **Return a URL appropriate for the arguments passed. The arguments could be: * A…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **Tests for the redirect_to_login view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
+- **Tests for the resolve_url() function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **Passing a URL path to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 93](Community_93.md) (14 shared connections)
-- [Community 1088](Community_1088.md) (5 shared connections)
-- [Community 515](Community_515.md) (2 shared connections)
-- [Community 492](Community_492.md) (2 shared connections)
-- [Community 983](Community_983.md) (1 shared connections)
-- [Community 282](Community_282.md) (1 shared connections)
-- [Community 768](Community_768.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 360](Community_360.md) (1 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 105](Community_105.md) (5 shared connections)
+- [Community 606](Community_606.md) (4 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 303](Community_303.md) (2 shared connections)
+- [Community 342](Community_342.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (81%)
-- INFERRED: 15 (19%)
+- EXTRACTED: 82 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

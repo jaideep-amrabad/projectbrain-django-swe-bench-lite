@@ -1,53 +1,63 @@
 # Community 387
 
-> 32 nodes · cohesion 0.09
+> 31 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **PickleabilityTestCase** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.assert_pickles()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_with_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_datetime_callable_default_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_filter_deferred()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_order_by_model_with_abstract_inheritance_and_meta_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_exists_kwargs_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_exists_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_subquery_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_specialized_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_standalone_method_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_staticmethod_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_string_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_doesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_doesnotexist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_forward_relatedobjectdoesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_manager_pickle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_model_pickle_dynamic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_multipleobjectsreturned_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- *... and 7 more nodes in this community*
+- **spatialite/base.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
+- **SpatialiteSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **DatabaseWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
+- **DatabaseFeatures** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- **spatialite/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **SpatiaLiteIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **spatialite/client.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- **SpatiaLiteClient** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- **FlexibleFieldLookupDict** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **GeoFlexibleFieldLookupDict** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.geo_quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.alter_db_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.remove_geometry_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **DatabaseClient** (1 connections)
+- **.prepare_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
+- **.django_test_skips()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- **.supports_area_geodetic()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- **DatabaseIntrospection** (1 connections)
+- **Subclass that includes updates the `base_data_types_reverse` dict for geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **.get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **DatabaseSchemaEditor** (1 connections)
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 672](Community_672.md) (8 shared connections)
-- [Community 1119](Community_1119.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1162](Community_1162.md) (1 shared connections)
-- [Community 1160](Community_1160.md) (1 shared connections)
-- [Community 1161](Community_1161.md) (1 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 425](Community_425.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 518](Community_518.md) (2 shared connections)
+- [Community 427](Community_427.md) (2 shared connections)
+- [Community 134](Community_134.md) (2 shared connections)
+- [Community 683](Community_683.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 738](Community_738.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (90%)
-- INFERRED: 6 (10%)
+- EXTRACTED: 59 (91%)
+- INFERRED: 6 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

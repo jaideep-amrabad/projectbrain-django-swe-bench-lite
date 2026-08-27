@@ -1,57 +1,55 @@
 # Community 293
 
-> 30 nodes · cohesion 0.08
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **MultiValueFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **BasicFieldsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_field_deepcopies_widget_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **DisabledFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **Field** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_cooperative_multiple_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_field_sets_widget_is_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_disabled_field_has_changed_always_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_as_table_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_cleaned_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_first_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_last_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_no_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **Nested** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_bad_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- *... and 5 more nodes in this community*
+- **PasswordResetTest** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._test_confirm_start()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_custom_reset_url_token_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_different_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset_already_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_invalid_link_if_going_directly_to_the_final_reset_password_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_poisoned_http_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_poisoned_http_host_admin_site()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_custom_reset_url_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_display_user_from_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_email_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_email_found_custom_from()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_email_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_extra_email_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (7 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 41](Community_41.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 379](Community_379.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
+- [Community 863](Community_863.md) (4 shared connections)
+- [Community 507](Community_507.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 450](Community_450.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 646](Community_646.md) (1 shared connections)
+- [Community 726](Community_726.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (87%)
-- INFERRED: 7 (13%)
+- EXTRACTED: 70 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

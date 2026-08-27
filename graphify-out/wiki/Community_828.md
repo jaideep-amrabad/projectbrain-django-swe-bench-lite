@@ -1,36 +1,34 @@
 # Community 828
 
-> 11 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **SpatialRefSysTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **.test_add_entry()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **.SpatialRefSys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **.test_ellipsoid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **.test_get_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **.test_osr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **.test_retrieve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **Test the ellipsoid property.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **Test adding a new entry in the SpatialRefSys model using the add_srs_entry…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **Test retrieval of SpatialRefSys model objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **Test getting OSR objects from SpatialRefSys model objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **MySqlDbshellCommandTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.settings_to_cmd_args_env()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_basic_params_specified_in_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_can_connect_using_sockets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_fails_with_keyerror_on_incomplete_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_options_charset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_options_override_settings_proper_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_options_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_ssl_certificate_is_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_crash_password_does_not_leak()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
+- [Community 427](Community_427.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

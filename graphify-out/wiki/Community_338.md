@@ -1,49 +1,39 @@
 # Community 338
 
-> 36 nodes · cohesion 0.07
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **BaseArchive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.target_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Exception** (1 connections)
-- **If the file in the archive has some permissions (this assumes a file won't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- *... and 11 more nodes in this community*
+- **IntegerFieldTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_backend_range_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_backend_range_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_documented_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_redundant_backend_range_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.backend_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_coercing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Values within the documented safe range pass validation, and can be saved and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Backend specific ranges can be saved without corruption.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Backend specific ranges are enforced at the model validation level (#12030).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **If there are stricter validators than the ones from the database backend then…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (7 shared connections)
-- [Community 843](Community_843.md) (1 shared connections)
+- [Community 616](Community_616.md) (6 shared connections)
+- [Community 713](Community_713.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,29 +1,27 @@
 # Community 1015
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **MigrateTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_to_other_database_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **SyncOnlyDefaultDatabaseRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_to_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Regression test for #16039: migrate with --database option.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **NoDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **databases/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **AllDatabasesTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **DefaultDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **OtherDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **.test_nothing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

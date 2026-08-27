@@ -1,49 +1,49 @@
 # Community 484
 
-> 25 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **CustomTestRunnerOptionsSettingsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **SetupDatabasesTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **CustomTestRunnerOptionsCmdlineTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Ticket17477RegressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_setup_test_database_aliases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_ticket_17477()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_no_testrunner()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_testrunner_equals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_testrunner_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_all_options_given()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_default_and_given_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_default_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_option_name_and_value_separated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Custom runners can add command line arguments. The runner is specified through…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Custom runners can add command line arguments when the runner is specified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **manage.py help test' works after r16352.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **The default database must be the first because data migrations use the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_destroy_test_db_restores_db_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_serialized_off()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_setup_aliased_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **setup()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **I18nTransTagTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n24()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n25()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n35()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n36()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_context_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_context_noop()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_duplicate_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_missing_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_missing_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_no_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_trans_tag_using_a_string_that_looks_like_str_fmt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **simple translation of a string delimited by '.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **simple translation of a string to German** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **simple non-translation (only marking) of a string to German** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **Using filters with the {% translate %} tag (#5972).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 196](Community_196.md) (3 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 48 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

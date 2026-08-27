@@ -1,67 +1,44 @@
 # Community 411
 
-> 105 nodes · cohesion 0.03
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **View** (42 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **generic/__init__.py** (41 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
-- **edit.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **generic/base.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **detail.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **SingleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **TemplateResponseMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **SingleObjectMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **ContextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDetailView** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **CreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **DeletionMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **ArchiveIndexView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 80 more nodes in this community*
+- **ExcludeTest17600** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **NullInExcludeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_only_orders_with_all_items_having_status_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should exclude Orders which have some items with status 1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude_variation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_no_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_col_not_in_list_containing_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_double_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **expectedFailure** (2 connections)
+- **Using exclude(condition) and exclude(Q(condition)) should yield the same…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_null_in_exclude_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Some regressiontests for ticket #17600. Some of these likely duplicate other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should only return orders having ALL items set to status 1, or those items…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **The following case is not handled properly because SQL's COL NOT IN (list…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (42 shared connections)
-- [Community 6](Community_6.md) (20 shared connections)
-- [Community 89](Community_89.md) (18 shared connections)
-- [Community 76](Community_76.md) (17 shared connections)
-- [Community 126](Community_126.md) (15 shared connections)
-- [Community 56](Community_56.md) (14 shared connections)
-- [Community 129](Community_129.md) (9 shared connections)
-- [Community 99](Community_99.md) (5 shared connections)
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 446](Community_446.md) (5 shared connections)
-- [Community 591](Community_591.md) (5 shared connections)
-- [Community 131](Community_131.md) (5 shared connections)
+- [Community 13](Community_13.md) (6 shared connections)
+- [Community 155](Community_155.md) (5 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 374 (99%)
-- INFERRED: 5 (1%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

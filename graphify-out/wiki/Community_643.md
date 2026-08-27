@@ -1,47 +1,28 @@
 # Community 643
 
-> 17 nodes · cohesion 0.18
+> 6 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **serializer_factory()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DeconstructableSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize_deconstructed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ModelFieldSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ModelManagerSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ChoicesSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._serialize_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FunctoolsPartialSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **RegexSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **PluralizeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.check_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_no_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_singular_and_plural_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **setup** (3 connections)
 
 ## Relationships
 
-- [Community 48](Community_48.md) (10 shared connections)
-- [Community 394](Community_394.md) (7 shared connections)
-- [Community 819](Community_819.md) (1 shared connections)
-- [Community 609](Community_609.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

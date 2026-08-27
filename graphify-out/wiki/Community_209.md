@@ -1,65 +1,60 @@
 # Community 209
 
-> 41 nodes · cohesion 0.07
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **SitemapTestsBase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- **_get_sitemap_full_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **TestModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **test_generic.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **PingGoogleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **GenericViewsSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **I18nTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **HTTPSDetectionSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **sitemaps_tests/test_management.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
-- **PingGoogleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
-- **.test_get_sitemap_full_url_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **.test_get_sitemap_full_url_no_sites()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **.test_get_sitemap_full_url_not_detected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **.test_something()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- **.test_generic_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_generic_sitemap_lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_sitemap_index_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **.test_sitemap_section_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **.test_secure_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **.test_secure_sitemap_section()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- *... and 16 more nodes in this community*
+- **AdminSeleniumTestCase** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **test_widgets.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.wait_page_loaded()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_page_ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_and_switch_to_popup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.deselect_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.select_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.test_textarea_trailing_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block until the page is ready.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block until a new page has loaded and is ready.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Select the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Deselect the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (15 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 601](Community_601.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 225](Community_225.md) (2 shared connections)
-- [Community 453](Community_453.md) (2 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 375](Community_375.md) (3 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 300](Community_300.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 110 (96%)
-- INFERRED: 5 (4%)
+- EXTRACTED: 72 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,38 @@
 # Community 744
 
-> 13 nodes · cohesion 0.27
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **DatabaseCache** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **._base_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **._base_delete_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **._cull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.get_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 307](Community_307.md) (1 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 379](Community_379.md) (1 shared connections)
+- [Community 883](Community_883.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (85%)
+- INFERRED: 3 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

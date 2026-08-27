@@ -1,35 +1,37 @@
 # Community 738
 
-> 14 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **TemplateTagTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **setup** (12 connections)
-- **.test_templatetag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **BaseSpatialFeatures** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_bbcontains_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_collect_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_contained_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_crosses_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_distances_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_dwithin_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_extent_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_isvalid_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_make_line_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_relate_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_union_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 538](Community_538.md) (2 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
+- [Community 387](Community_387.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 21 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

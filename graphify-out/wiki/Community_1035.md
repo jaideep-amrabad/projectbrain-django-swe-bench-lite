@@ -1,26 +1,28 @@
 # Community 1035
 
-> 5 nodes · cohesion 0.60
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Django uses "format" style placeholders, but pysqlite2 uses "qmark" style. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **CheckCacheSettingsAppDirsTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_default_cache_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_default_cache_not_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **Don't error if 'default' is present in CACHES setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **Error if 'default' not present in CACHES setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

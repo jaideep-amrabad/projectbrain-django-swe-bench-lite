@@ -4,54 +4,48 @@
 
 ## Key Concepts
 
-- **MigrationTestBase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **migrations/test_deprecated_fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
-- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
-- **.test_migrate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
-- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexNameExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexNameNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertTableExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertTableNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertUniqueConstraintExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Allows testing management commands in a temporary migrations module. Wrap all…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Contains an extended set of asserts for testing migrations and schema…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **SignalTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **LazyModelRefTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **BaseSignalSetup** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.receiver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_disconnect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_register_model_class_senders_immediately()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_already_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_not_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_decorators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_delete_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_disconnect_in_dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_lazy_model_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_model_pre_init_and_post_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_save_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_invalid_sender_model_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **patch** (1 connections)
+- **Signals that disconnect when being called don't mess future dispatching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **Model signals registered with model classes as senders don't use the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 48](Community_48.md) (9 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 114](Community_114.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 375](Community_375.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
-- [Community 344](Community_344.md) (1 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 40 (85%)
+- INFERRED: 7 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

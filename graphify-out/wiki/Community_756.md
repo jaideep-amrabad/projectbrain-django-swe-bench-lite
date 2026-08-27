@@ -1,39 +1,40 @@
 # Community 756
 
-> 13 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **ArgumentOrder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **._test()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_short_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_short_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for 2-stage argument parsing scheme. django-admin command arguments are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options are correctly handled when they are passed before and after a setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ChangelistTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.get_user_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_view_user_password_is_readonly()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_password_passes_user_to_has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_not_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_changelist_disallows_password_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_bad_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_different_user_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **get_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 295](Community_295.md) (1 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
-- [Community 170](Community_170.md) (1 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 646](Community_646.md) (1 shared connections)
+- [Community 726](Community_726.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

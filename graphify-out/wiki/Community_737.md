@@ -1,35 +1,31 @@
 # Community 737
 
-> 14 nodes · cohesion 0.23
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **RegroupTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **setup** (9 connections)
-- **.test_regroup02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup_unpack()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **Test for silent failure when target variable isn't found** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **Regression tests for #17675 The date template filter has expects_localtime =…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **The join template filter has needs_autoescape = True** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **timezones/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- **EventAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **TimestampAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **timezones/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 575](Community_575.md) (2 shared connections)
+- [Community 90](Community_90.md) (2 shared connections)
+- [Community 809](Community_809.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

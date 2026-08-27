@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **.test_view_with_method_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_method_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with a @login_required method** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_implicit_savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **skipIf** (1 connections)
+- **MySQL implicitly rolls back savepoints when it deadlocks (#22291).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Relationships
 
-- [Community 541](Community_541.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,39 +1,34 @@
 # Community 858
 
-> 10 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.parse_header_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_parse_header_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **Allow header lookup using underscores in place of hyphens.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **RawQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **._execute_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.params_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **A single raw SQL query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
-- [Community 548](Community_548.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 186](Community_186.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

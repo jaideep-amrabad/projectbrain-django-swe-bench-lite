@@ -4,38 +4,41 @@
 
 ## Key Concepts
 
-- **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_custom_auth_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_custom_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should send user_logged_out signal if user was logged in.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_without_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_without_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should work whether the user is logged in or not (#9978).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a logout after logging in with custom authentication backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should send signal even if user not authenticated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Login should send user_logged_in signal on successful login.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Login shouldn't send signal if user wasn't logged in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **The session isn't lost if a user logs in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_session_initiated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone_with_microsecond()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_unsupported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_auto_now_and_auto_now_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_execute_accepts_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_execute_returns_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_filter_date_field_with_aware_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime_with_microsecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_datetime_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_datetimes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_raw_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 630](Community_630.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 575](Community_575.md) (5 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 809](Community_809.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 25 (81%)
+- INFERRED: 6 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

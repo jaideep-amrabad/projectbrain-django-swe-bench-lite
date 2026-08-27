@@ -1,46 +1,51 @@
 # Community 400
 
-> 20 nodes · cohesion 0.19
+> 21 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **FileBasedCache** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._key_to_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.set()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._cull()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.has_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._is_expired()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.touch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.clear()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._list_cache_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._createdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._write_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Convert a key into a cache file path. Basically this is the root cache path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Remove all the cache files.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Take an open cache file `f` and delete it if it's expired.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Get a list of paths to all the cache files. These are all the files in the root…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Remove random cache entries if max_entries is reached at a ratio of num_entries…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **managers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **SitesFrameworkTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **AbstractArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **CurrentSiteManagerChecksTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **CustomArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **ExclusiveArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **SyndicatedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **._check_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **.test_invalid_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_invalid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **Use this to limit objects to those associated with the current site.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_custom_named_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_site_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **.test_sites_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
 
 ## Relationships
 
-- [Community 260](Community_260.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
-- [Community 955](Community_955.md) (1 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 298](Community_298.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (87%)
-- INFERRED: 6 (13%)
+- EXTRACTED: 61 (91%)
+- INFERRED: 6 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

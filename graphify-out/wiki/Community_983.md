@@ -4,28 +4,26 @@
 
 ## Key Concepts
 
-- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **MarkupField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (3 shared connections)
-- [Community 397](Community_397.md) (1 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
+- [Community 677](Community_677.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

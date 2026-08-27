@@ -1,60 +1,52 @@
 # Community 383
 
-> 32 nodes · cohesion 0.17
+> 32 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **fixtures_regress/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **fixtures_regress/models.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MNaturalKeyFixtureTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **BaseNKModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular2B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughBC** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughCA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular2ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular2A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleCircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleCircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Stuff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Thingy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **PrefetchRelatedTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_filter_deferred()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_onetoone_reverse_with_to_field_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreign_key_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_forward_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_in_and_prefetch_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_one_to_one_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_invalid_final_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_onetoone_reverse_no_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_overriding_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_survives_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 650](Community_650.md) (16 shared connections)
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 408](Community_408.md) (10 shared connections)
-- [Community 1045](Community_1045.md) (6 shared connections)
-- [Community 1077](Community_1077.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 1007](Community_1007.md) (2 shared connections)
-- [Community 188](Community_188.md) (2 shared connections)
-- [Community 1114](Community_1114.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 1113](Community_1113.md) (2 shared connections)
+- [Community 290](Community_290.md) (8 shared connections)
+- [Community 78](Community_78.md) (4 shared connections)
+- [Community 369](Community_369.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (88%)
-- INFERRED: 19 (12%)
+- EXTRACTED: 42 (88%)
+- INFERRED: 6 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

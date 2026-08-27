@@ -1,53 +1,58 @@
 # Community 449
 
-> 27 nodes · cohesion 0.08
+> 21 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **SomeClass** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.test_basic_syntax20b()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax09()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax10()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax11()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax20()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_filter_syntax23()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax24()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **OtherClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **In attribute and dict lookups that raise an unexpected exception without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **Fail silently when accessing a non-simple method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Don't silence a TypeError if it was raised inside a callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Attribute syntax allows a template to call an object's attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Multiple levels of attribute access are allowed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Fail silently when a variable's attribute isn't found.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.attribute_error_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.noisy_fail_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- *... and 2 more nodes in this community*
+- **contrib/sitemaps/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **paginator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **sitemap()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.validate_number()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **index_only.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/index_only.py`
+- **x_robots_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **.get_elided_page_range()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.test_get_page_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Exception** (1 connections)
+- **RuntimeWarning** (1 connections)
+- **Return a 1-based range of pages with some values elided. If the page range is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Validate the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **A Paginator subclass can use the ``_get_page`` hook to return an alternative to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Relationships
 
-- [Community 210](Community_210.md) (10 shared connections)
-- [Community 249](Community_249.md) (10 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 7](Community_7.md) (12 shared connections)
+- [Community 309](Community_309.md) (12 shared connections)
+- [Community 560](Community_560.md) (4 shared connections)
+- [Community 770](Community_770.md) (4 shared connections)
+- [Community 135](Community_135.md) (3 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 601](Community_601.md) (3 shared connections)
+- [Community 845](Community_845.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/index_only.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 93 (90%)
+- INFERRED: 10 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

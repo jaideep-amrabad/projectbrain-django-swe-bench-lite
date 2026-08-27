@@ -1,39 +1,45 @@
 # Community 748
 
-> 13 nodes · cohesion 0.19
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ForwardOneToOneDescriptor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__reduce__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Get the related instance through the forward relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Accessor to the related object on the forward side of a many-to-one or one-to-…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.is_cached()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.RelatedObjectDoesNotExist()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Pickling should return the instance attached by self.field on the model, not a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **BaseIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ModelIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **RelatedPopulator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **FlatValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **get_related_populators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **NamedValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=False) that yields a tuple for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(named=True) that yields a namedtuple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=True) that yields single values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **RelatedPopulator is used for select_related() object instantiation. The idea is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable that yields a model instance for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values() that yields a dict for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.populate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 749](Community_749.md) (3 shared connections)
-- [Community 761](Community_761.md) (1 shared connections)
-- [Community 328](Community_328.md) (1 shared connections)
-- [Community 371](Community_371.md) (1 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 290](Community_290.md) (2 shared connections)
+- [Community 353](Community_353.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

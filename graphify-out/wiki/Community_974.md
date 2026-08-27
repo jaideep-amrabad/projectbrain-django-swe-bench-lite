@@ -1,30 +1,32 @@
 # Community 974
 
-> 7 nodes · cohesion 0.38
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **MigrateTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.test_migrate_gis()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.assertTableExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.assertTableNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.get_table_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **Tests basic usage of the migrate command when a model uses Geodjango fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **Tests running the migrate command in Geodjango.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Publication** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_reverse_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
 
 ## Relationships
 
+- [Community 435](Community_435.md) (4 shared connections)
+- [Community 800](Community_800.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **TestExtraJoinFilterQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_extra_join_filter_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_model_pickle_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Test intentionally the automatically created through model.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 511](Community_511.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

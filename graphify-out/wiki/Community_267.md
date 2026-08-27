@@ -1,70 +1,62 @@
 # Community 267
 
-> 40 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **auth_tests/urls.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **render()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **permission_required()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- **PermissionsRequiredDecoratorTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **shortcuts/views.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
-- **context_processors/views.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
-- **info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **context_processors/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
-- **auth_processor_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **login_and_permission_required_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **DebugObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
-- **context_processors/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/urls.py`
-- **debug_processor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
-- **shortcuts/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
-- **.test_many_permissions_in_set_pass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_many_permissions_pass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_permissioned_denied_exception_raised()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_permissioned_denied_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_single_permission_pass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **auth_processor_attr_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **auth_processor_no_attr_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **auth_processor_perm_in_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **auth_processor_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **auth_processor_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **permission_required_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- *... and 15 more nodes in this community*
+- **UniqueConstraint** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **BaseConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **CheckConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **SchemaTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- **._get_condition_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **BaseConstraintTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_check_constraint_daterange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- **.test_check_constraint_datetimerange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- **.test_remove_field_check_does_not_remove_meta_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **._get_check_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.test_check_constraint_range_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- **.test_remove_field_unique_does_not_remove_meta_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_remove_unique_together_does_not_remove_meta_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.test_opclass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- **.test_opclass_include()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- **.test_opclass_partial()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.constraint_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **.create_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 251](Community_251.md) (6 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 116](Community_116.md) (6 shared connections)
-- [Community 163](Community_163.md) (4 shared connections)
-- [Community 579](Community_579.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 99](Community_99.md) (3 shared connections)
-- [Community 94](Community_94.md) (3 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 304](Community_304.md) (2 shared connections)
-- [Community 401](Community_401.md) (2 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 210](Community_210.md) (6 shared connections)
+- [Community 38](Community_38.md) (6 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 260](Community_260.md) (2 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 864](Community_864.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 84 (84%)
+- INFERRED: 16 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

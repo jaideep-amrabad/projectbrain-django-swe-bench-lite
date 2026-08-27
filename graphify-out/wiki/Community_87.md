@@ -1,62 +1,58 @@
 # Community 87
 
-> 100 nodes · cohesion 0.03
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **staticfiles_tests/test_management.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **CollectionTestCase** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.run_collectstatic()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **DummyStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **TestCollectionLinks** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollection** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestFindStatic** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestInteractiveMessages** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionClear** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionNonLocalStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionOverwriteWarning** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionVerbosity** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionDryRun** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionExcludeNoDefaultIgnore** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestConfiguration** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **._collectstatic_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionCustomIgnorePatterns** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_skips_newer_files_in_remote_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_warning_when_clearing_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_warning_when_overwriting_files_in_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestNoFilesCreated** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.run_collectstatic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_handle_path_notimplemented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- *... and 75 more nodes in this community*
+- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **_i18n_cache_key_suffix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_generate_cache_header_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_generate_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **.check_accept_language_vary()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_translation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_translation_accept_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_varies_by_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key_with_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_no_i18n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key_with_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_learn_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_patch_vary_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **.test_patch_cache_control()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_patch_vary_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PrefixedCacheI18nTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PrefixedCacheUtils** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 118](Community_118.md) (17 shared connections)
-- [Community 7](Community_7.md) (15 shared connections)
-- [Community 4](Community_4.md) (11 shared connections)
-- [Community 126](Community_126.md) (7 shared connections)
-- [Community 226](Community_226.md) (3 shared connections)
-- [Community 196](Community_196.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 375](Community_375.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 469](Community_469.md) (1 shared connections)
+- [Community 66](Community_66.md) (14 shared connections)
+- [Community 18](Community_18.md) (11 shared connections)
+- [Community 5](Community_5.md) (9 shared connections)
+- [Community 161](Community_161.md) (8 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 135](Community_135.md) (3 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 216 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 109 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

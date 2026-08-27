@@ -1,31 +1,39 @@
 # Community 746
 
-> 9 nodes · cohesion 0.33
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **.z()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **.x()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **.y()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **setter** (4 connections)
-- **Return the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **Set the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **Return a tuple of the point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **Set the coordinates of the point with the given tuple.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ForwardOneToOneDescriptor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__reduce__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the forward relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related object on the forward side of a many-to-one or one-to-…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.is_cached()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.RelatedObjectDoesNotExist()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Pickling should return the instance attached by self.field on the model, not a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (6 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 747](Community_747.md) (3 shared connections)
+- [Community 760](Community_760.md) (1 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

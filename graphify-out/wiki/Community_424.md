@@ -1,60 +1,61 @@
 # Community 424
 
-> 35 nodes · cohesion 0.06
+> 28 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **SerializersTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **YamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **skipUnless** (2 connections)
-- **.test_altering_serialized_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deserialize_force_insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deterministic_mapping_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pkless_serialized_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_field_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_specific_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serializer_roundtrip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_yaml_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Basic serialization works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized content can be deserialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **The ability to create new objects by modifying serialized content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **If you use your own primary key field (such as a OneToOneField), it doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- *... and 10 more nodes in this community*
+- **BaseHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.get_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **set_urlconf()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **.get_response_async()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **AsyncClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.resolve_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **async_to_sync** (5 connections)
+- **.adapt_method_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.check_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.make_view_atomic()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.process_exception_by_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **reset_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Resolve and call the view, then apply view, exception, and template_response…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Adapt a method to be in the correct "mode": - If is_async is False: -…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Return an HttpResponse object for the given HttpRequest.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Asynchronous version of get_response. Funneling everything, including WSGI,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Retrieve/set the urlconf for the request. Return the view resolved, with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Raise an error if the view returned None or an uncalled coroutine.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Pass the exception to the exception middleware. If no middleware return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Reset the URLconf after each request is finished.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 482](Community_482.md) (5 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 600](Community_600.md) (1 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
-- [Community 941](Community_941.md) (1 shared connections)
-- [Community 571](Community_571.md) (1 shared connections)
-- [Community 988](Community_988.md) (1 shared connections)
-- [Community 637](Community_637.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 125](Community_125.md) (10 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
+- [Community 246](Community_246.md) (2 shared connections)
+- [Community 611](Community_611.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
+- [Community 628](Community_628.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 59 (86%)
+- INFERRED: 10 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

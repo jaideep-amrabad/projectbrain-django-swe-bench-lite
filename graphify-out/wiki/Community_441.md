@@ -1,50 +1,39 @@
 # Community 441
 
-> 28 nodes · cohesion 0.10
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **UpdateOnlyFieldsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **update_only_fields/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **update_only_fields/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **ProxyEmployee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Account** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **NonConcreteField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.get_attname_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.test_empty_update_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_num_queries_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_select_related_only_interaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_fk_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_incorrect_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance_with_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- *... and 3 more nodes in this community*
+- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **setup** (10 connections)
+- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **Without arg and when USE_L10N is True, the active language's DATE_FORMAT is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **#9520: Make sure |date doesn't blow up on non-dates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 543](Community_543.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 27 (79%)
+- INFERRED: 7 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

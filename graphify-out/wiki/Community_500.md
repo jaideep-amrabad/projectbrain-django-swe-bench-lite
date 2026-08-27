@@ -1,43 +1,52 @@
 # Community 500
 
-> 18 nodes · cohesion 0.14
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FileWrapperHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **WriteChunkCounterHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **ServerHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.write()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **DummyHandler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.test_chunked_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.test_file_wrapper_no_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **._write()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **send_big_data_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.send_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **wsgi_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.log_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.sendfile()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **Server handler that counts the number of chunks written after headers were…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **write()' callable as specified by PEP 3333** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
-- **.error_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **fields_for_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **apply_limit_choices_to_to_formfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Colour** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ModelToDictTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_empty_fields_to_fields_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_fields_for_model_applies_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_subclassed_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Return a dictionary containing form fields for the given model. ``fields`` is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return a dict containing the data in ``instance`` suitable for passing as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Apply limit_choices_to to the formfield's queryset if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **An argument of fields=() to fields_for_model should return an empty dictionary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Data for a ManyToManyField is a list rather than a lazy QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (7 shared connections)
-- [Community 134](Community_134.md) (4 shared connections)
-- [Community 883](Community_883.md) (3 shared connections)
-- [Community 609](Community_609.md) (1 shared connections)
+- [Community 88](Community_88.md) (7 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 1078](Community_1078.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 565](Community_565.md) (1 shared connections)
+- [Community 281](Community_281.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (83%)
-- INFERRED: 6 (17%)
+- EXTRACTED: 35 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

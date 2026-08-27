@@ -1,57 +1,55 @@
 # Community 453
 
-> 25 nodes · cohesion 0.11
+> 27 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Sitemap** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **GenericSitemap** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.get_urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **._urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **FlatPageSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
-- **._items()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.test_sitemap_get_urls_no_site_2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.get_domain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **._languages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **._location()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.test_sitemap_get_urls_no_site_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
-- **.items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.get_protocol()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.test_generic_sitemap_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **This method is overridden so the appropriate `geo_format` attribute is placed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **Check we get ImproperlyConfigured if we don't pass a site object to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **Check we get ImproperlyConfigured when we don't pass a site object to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **Check to make sure that the raw item is included with each Sitemap.get_url()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **TestQuerying** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **KeyTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.test_key_transform_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_field_chaining()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_any_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_in_generator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_keys_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_order_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_usage_in_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (7 shared connections)
-- [Community 601](Community_601.md) (7 shared connections)
-- [Community 327](Community_327.md) (3 shared connections)
-- [Community 225](Community_225.md) (3 shared connections)
-- [Community 209](Community_209.md) (2 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 35](Community_35.md) (7 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 785](Community_785.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 40 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

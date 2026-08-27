@@ -1,50 +1,46 @@
 # Community 534
 
-> 30 nodes · cohesion 0.07
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **AtomicTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicInsideTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicWithoutAutocommitTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_alternate_decorator_syntax_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_alternate_decorator_syntax_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_decorator_syntax_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_decorator_syntax_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_force_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_prevent_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- *... and 5 more nodes in this community*
+- **RecursiveM2MTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **RecursiveSymmetricalM2MThroughTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **m2m_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **m2m_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Colleague** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Many-to-many relationships between the same two tables In this example, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_add_in_both_directions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_add_via_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_related_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 705](Community_705.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 29 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

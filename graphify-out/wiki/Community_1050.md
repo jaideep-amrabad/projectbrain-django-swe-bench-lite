@@ -1,24 +1,28 @@
 # Community 1050
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_check_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
-- **patch** (1 connections)
-- **Test if backend specific checks are performed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
+- **AssertURLEqualTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_msg_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

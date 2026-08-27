@@ -1,59 +1,62 @@
 # Community 128
 
-> 117 nodes · cohesion 0.02
+> 63 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Field** (86 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **BinaryField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.has_default()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_type()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_from_object()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **BooleanField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateTimeCheckMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.cast_db_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_type_parameters()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_str_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 92 more nodes in this community*
+- **middleware_exceptions/middleware.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **utils/decorators.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **admin_docs/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- **async_only_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorators/gzip.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **make_middleware_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **_multi_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **XViewCallableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- **XViewClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 179](Community_179.md) (30 shared connections)
-- [Community 13](Community_13.md) (9 shared connections)
-- [Community 612](Community_612.md) (4 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 432](Community_432.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 255](Community_255.md) (1 shared connections)
-- [Community 199](Community_199.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
+- [Community 18](Community_18.md) (10 shared connections)
+- [Community 53](Community_53.md) (6 shared connections)
+- [Community 66](Community_66.md) (5 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 105](Community_105.md) (2 shared connections)
+- [Community 317](Community_317.md) (2 shared connections)
+- [Community 284](Community_284.md) (2 shared connections)
+- [Community 303](Community_303.md) (2 shared connections)
+- [Community 90](Community_90.md) (2 shared connections)
+- [Community 135](Community_135.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 214 (96%)
-- INFERRED: 9 (4%)
+- EXTRACTED: 143 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

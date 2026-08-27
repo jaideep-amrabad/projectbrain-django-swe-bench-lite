@@ -1,6 +1,6 @@
 # Community 2
 
-> 368 nodes · cohesion 0.01
+> 364 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -23,28 +23,28 @@
 - **django/db/backends/oracle/base.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 - **_lazy_re_compile()** (41 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
 - **sql/compiler.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **utils/autoreload.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 - **postgresql/base.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
 - **django/db/backends/oracle/operations.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
 - **base/base.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **django/db/backends/mysql/base.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - **django/db/backends/utils.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- *... and 343 more nodes in this community*
+- **db/utils.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- *... and 339 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (196 shared connections)
-- [Community 126](Community_126.md) (91 shared connections)
-- [Community 13](Community_13.md) (75 shared connections)
-- [Community 48](Community_48.md) (62 shared connections)
-- [Community 29](Community_29.md) (38 shared connections)
-- [Community 6](Community_6.md) (33 shared connections)
-- [Community 843](Community_843.md) (31 shared connections)
-- [Community 1](Community_1.md) (29 shared connections)
-- [Community 82](Community_82.md) (28 shared connections)
-- [Community 5](Community_5.md) (25 shared connections)
-- [Community 75](Community_75.md) (25 shared connections)
-- [Community 9](Community_9.md) (22 shared connections)
+- [Community 0](Community_0.md) (186 shared connections)
+- [Community 154](Community_154.md) (76 shared connections)
+- [Community 7](Community_7.md) (73 shared connections)
+- [Community 43](Community_43.md) (60 shared connections)
+- [Community 161](Community_161.md) (44 shared connections)
+- [Community 125](Community_125.md) (40 shared connections)
+- [Community 845](Community_845.md) (30 shared connections)
+- [Community 1](Community_1.md) (30 shared connections)
+- [Community 74](Community_74.md) (28 shared connections)
+- [Community 6](Community_6.md) (27 shared connections)
+- [Community 70](Community_70.md) (26 shared connections)
+- [Community 8](Community_8.md) (24 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 2406 (94%)
-- INFERRED: 151 (6%)
+- EXTRACTED: 2397 (94%)
+- INFERRED: 153 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

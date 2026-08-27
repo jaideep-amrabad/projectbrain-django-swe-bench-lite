@@ -1,52 +1,62 @@
 # Community 439
 
-> 25 nodes · cohesion 0.18
+> 27 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ModelAdminPermissionTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockAddUser** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_add_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_change_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_delete_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_module_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_view_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockChangeUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockDeleteUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockViewUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_inline_has_add_permission_uses_obj()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_get_deleted_objects_with_custom_has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **ModelAdmin.get_deleted_objects() uses ModelAdmin.has_delete_permission() for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_view_permission() returns True for users who can view objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_add_permission returns True for users who can add objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_change_permission returns True for users who can edit objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_delete_permission returns True for users who can delete objects and False…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **as_module_permission returns True for users who have any permission for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **AuthenticationForm** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **AuthenticationFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.confirm_login_allowed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_inactive_user_incorrect_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.get_invalid_login_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **PermissionAdminAuthenticationForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
+- **.test_username_field_max_length_defaults_to_254()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_max_length_matches_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **CustomRequestAuthenticationForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **.confirm_login_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
+- **.test_custom_login_allowed_policy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_get_invalid_login_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_inactive_user_i18n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_invalid_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_login_failed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.get_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Base class for authenticating users. Extend this to get a form that accepts…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Controls whether the given User may log in. This is a policy setting,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 42](Community_42.md) (7 shared connections)
-- [Community 36](Community_36.md) (7 shared connections)
-- [Community 246](Community_246.md) (4 shared connections)
-- [Community 30](Community_30.md) (4 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 40](Community_40.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 154](Community_154.md) (3 shared connections)
+- [Community 845](Community_845.md) (2 shared connections)
+- [Community 90](Community_90.md) (2 shared connections)
+- [Community 264](Community_264.md) (2 shared connections)
+- [Community 606](Community_606.md) (2 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 880](Community_880.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 813](Community_813.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 67 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

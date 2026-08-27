@@ -1,47 +1,34 @@
 # Community 529
 
-> 22 nodes · cohesion 0.11
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **LocalizedTimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **CustomTimeInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **SimpleTimeFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **TimeFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **TimeFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized TimeFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized TimeFields act as unlocalized widgets** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized TimeFields in a non-localized environment act as unlocalized widgets** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **BaseMemcachedTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_location_multiple_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_memcached_deletes_key_on_failed_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_many_returns_failing_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 142](Community_142.md) (2 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
+- [Community 1063](Community_1063.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

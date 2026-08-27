@@ -1,47 +1,49 @@
 # Community 372
 
-> 22 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ChangepasswordManagementCommandTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **object** (9 connections)
-- **.test_password_validation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_system_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_changes_joes_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_works_with_nonascii_output()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_max_tries_exits_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_passing_stdin()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_with_database_option_uses_given_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_get_pass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_get_pass_no_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_nonexistent_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **The system username is used if --username isn't provided.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **Executing the changepassword management command should change joe's password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **A CommandError should be thrown by handle() if the user enters in mismatched…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **A CommandError should be raised if the user enters in passwords which fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **#21627 -- Executing the changepassword management command should allow non-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **changepassword --database should operate on the specified DB.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **You can pass a stdin object as an option and it should be available on…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **TermColorTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **parse_color_setting()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **colorize()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **termcolors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **make_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **test_termcolors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_color()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_palette()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_role()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_color_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_empty_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_multiple_roles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_opts_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_override_nocolor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (10 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
+- [Community 194](Community_194.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

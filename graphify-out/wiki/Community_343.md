@@ -1,39 +1,49 @@
 # Community 343
 
-> 14 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **IntegerFieldTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_backend_range_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_backend_range_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_documented_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_redundant_backend_range_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.backend_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_coercing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **Values within the documented safe range pass validation, and can be saved and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **Backend specific ranges can be saved without corruption.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **Backend specific ranges are enforced at the model validation level (#12030).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **If there are stricter validators than the ones from the database backend then…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **WSGIRequestHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **WSGIRequestHandlerTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **QuietWSGIRequestHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.test_strips_underscore_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **Stub** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.get_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **Copy of WSGIRequestHandler.handle() but with different ServerHandler** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.address_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **A WSGIRequestHandler that doesn't log to standard output any of the requests…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **WSGIRequestHandler ignores headers containing underscores. This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.sendall()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
 
 ## Relationships
 
-- [Community 657](Community_657.md) (6 shared connections)
-- [Community 745](Community_745.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
+- [Community 125](Community_125.md) (4 shared connections)
+- [Community 97](Community_97.md) (3 shared connections)
+- [Community 132](Community_132.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 379](Community_379.md) (2 shared connections)
+- [Community 541](Community_541.md) (1 shared connections)
+- [Community 283](Community_283.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 32 (82%)
+- INFERRED: 7 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,60 @@
 # Community 247
 
-> 45 nodes · cohesion 0.04
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TestFormField** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_form_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_has_changed_first()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_has_changed_last()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_form_as_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_has_changed_first()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_has_changed_last()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- *... and 20 more nodes in this community*
+- **WSGIHandler** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **HandlerRequestTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **HandlerTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **test_exception.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **ExceptionHandlerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **.get_suspicious_environ()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **.test_data_upload_max_memory_size_exceeded()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **.test_data_upload_max_number_fields_exceeded()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **.test_invalid_multipart_boundary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_bad_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_non_ascii_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_non_ascii_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_handle_accepts_httpstatus_enum_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_middleware_returns_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_middleware_initialized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.test_bad_request_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_environ_path_info_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_invalid_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **A non-UTF-8 path populates PATH_INFO with an URL-encoded path and produces a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 125](Community_125.md) (10 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 97](Community_97.md) (6 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 379](Community_379.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 307](Community_307.md) (1 shared connections)
+- [Community 401](Community_401.md) (1 shared connections)
+- [Community 541](Community_541.md) (1 shared connections)
+- [Community 831](Community_831.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 65 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

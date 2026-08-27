@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NormalizeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_escape()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_backreference()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_named()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_noncapturing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_positional()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
 
 ## Relationships
 
-- [Community 718](Community_718.md) (2 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

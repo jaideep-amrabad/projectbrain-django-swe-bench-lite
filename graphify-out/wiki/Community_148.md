@@ -1,56 +1,58 @@
 # Community 148
 
-> 72 nodes · cohesion 0.03
+> 63 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SessionBase** (54 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.cycle_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expiry_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expire_at_browser_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_session_cookie_age()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._set_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._validate_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **no_clear_expired.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/no_clear_expired.py`
-- **SessionStore** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/no_clear_expired.py`
-- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- *... and 47 more nodes in this community*
+- **model_meta/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **model_meta/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **OptionsBaseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **AbstractPerson** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **RelationTreeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **BasePerson** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **GetFieldByNameTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Person** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **results.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/results.py`
+- **ProxyPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **ParentListTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **RelatedObjectsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._details()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **CommonAncestor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **FirstParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **Relation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **SecondParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **DataTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **PropertyNamesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Relating** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **AbstractModelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **GetFieldsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **LabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (7 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 849](Community_849.md) (1 shared connections)
-- [Community 455](Community_455.md) (1 shared connections)
-- [Community 635](Community_635.md) (1 shared connections)
-- [Community 658](Community_658.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
+- [Community 101](Community_101.md) (12 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 298](Community_298.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/no_clear_expired.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/results.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 135 (84%)
+- INFERRED: 26 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

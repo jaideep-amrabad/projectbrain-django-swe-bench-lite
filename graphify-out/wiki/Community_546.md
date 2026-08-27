@@ -1,57 +1,44 @@
 # Community 546
 
-> 29 nodes · cohesion 0.14
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DispatcherTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.assertTestIsClean()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **dispatch/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **Callable** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **receiver_1_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **garbage_collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cached_garbaged_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_disconnection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_garbage_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_multiple_registration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.a()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cannot_connect_no_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cannot_connect_non_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_connected_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_different_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_ignored_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_values_returned_by_disconnection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cached_property_reuse_different_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
-- **.test_has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_uid_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_no_receivers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- *... and 4 more nodes in this community*
+- **BashCompletionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **._run_autocomplete()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **._user_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_app_completion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_completed_subcommand()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_custom_command()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_django_admin_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_manage_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_subcommands()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Testing the Python level bash completion code. This requires setting up the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Set the environment and the list of command line arguments. This sets the bash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **django_admin.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **manage.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **A custom command can autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Subcommands can be autocompleted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Show option flags in case a subcommand is completed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **No errors, just an empty list if there are no autocomplete options** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Application names will be autocompleted for an AppCommand** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 305](Community_305.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 705](Community_705.md) (1 shared connections)
-- [Community 175](Community_175.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 339](Community_339.md) (2 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (87%)
-- INFERRED: 9 (13%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

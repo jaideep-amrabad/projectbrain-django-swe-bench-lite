@@ -1,26 +1,29 @@
 # Community 1025
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **AssertRaisesMsgTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_special_re_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_assert_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **assertRaisesMessage shouldn't interpret RE special chars.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **check_async_unsafe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- **AsyncCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_allowed_async_unsafe_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_no_allowed_async_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **dict** (2 connections)
 
 ## Relationships
 
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

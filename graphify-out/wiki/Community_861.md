@@ -1,31 +1,31 @@
 # Community 861
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **FileStoragePathParsing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_directory_with_dot()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_first_character_dot()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **Regression test for #9610. If the directory name contains a dot and the file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **File names with a dot as their first character don't have an extension, and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **override** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **deactivate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__enter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **ContextDecorator** (1 connections)
+- **Unset the time zone for the current thread. Django will then use the time zone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Temporarily set the time zone for the current thread. This is a context manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Set the time zone for the current thread. The ``timezone`` argument must be an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Relationships
 
-- [Community 241](Community_241.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
+- [Community 161](Community_161.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

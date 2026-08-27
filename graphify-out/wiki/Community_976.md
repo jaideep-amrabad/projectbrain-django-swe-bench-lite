@@ -1,31 +1,37 @@
 # Community 976
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **SignalsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.register_finished()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.register_started()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_request_signals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_request_signals_streaming_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **SessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_safedata()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.get_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_messages_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **A message containing SafeData keeps its safe status when retrieved from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 580](Community_580.md) (2 shared connections)
+- [Community 478](Community_478.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
+- [Community 558](Community_558.md) (1 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 331](Community_331.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

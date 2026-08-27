@@ -1,57 +1,64 @@
 # Community 363
 
-> 30 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.g()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **MiscTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **get_language_from_request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **CountrySpecificLanguageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_support_for_deprecated_chinese_language_codes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_cache_resetting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_english_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_language_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_literal_http_header()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_path_real()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_supported_language_variant_real()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_patterns_returns_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_special_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_check_for_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_request_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_specific_language_codes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_path_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_supported_language_variant_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_spec_http_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Hour, 12-hour format without leading zeros; i.e. '1' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Hour, 24-hour format without leading zeros; i.e. '0' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_check_for_language_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **With a non-English LANGUAGE_CODE and if the active language is English or one…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Testing HTTP header parsing. First, we test that we can parse the values…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- *... and 5 more nodes in this community*
+- **Length** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **TestQuerying** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **Repeat** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.assertSequenceEqualWithoutHyphens()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- **LengthTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
+- **.test_filter_with_expr()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_distinct_on_with_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **RepeatTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_repeat.py`
+- **.test_chaining_transforms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_repeat.py`
+- **.test_nested_function_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- **.test_func_transform_bilateral()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- **.test_func_transform_bilateral_multivalue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- **.test_function_as_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
+- **.test_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
+- **.test_negative_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_repeat.py`
+- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_endswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_icontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_iendswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_iexact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_istartswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 260](Community_260.md) (3 shared connections)
-- [Community 142](Community_142.md) (3 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 191](Community_191.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 48](Community_48.md) (6 shared connections)
+- [Community 34](Community_34.md) (6 shared connections)
+- [Community 64](Community_64.md) (4 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 144](Community_144.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 287](Community_287.md) (1 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_repeat.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (77%)
-- INFERRED: 14 (23%)
+- EXTRACTED: 86 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

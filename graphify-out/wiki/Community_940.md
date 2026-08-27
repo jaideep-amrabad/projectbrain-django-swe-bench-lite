@@ -1,32 +1,27 @@
 # Community 940
 
-> 8 nodes · cohesion 0.32
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **BinaryFieldTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **DataModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_set_and_retrieve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter_bytearray()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **.test_filter_memoryview()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **not_installed/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **M2MRelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **NotInstalledModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **RelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
 
 ## Relationships
 
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

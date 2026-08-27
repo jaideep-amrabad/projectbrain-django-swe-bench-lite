@@ -1,41 +1,36 @@
 # Community 735
 
-> 14 nodes · cohesion 0.29
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **proxy_model_inheritance/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **MultiTableInheritanceProxyTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **proxy_model_inheritance/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ProxyModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ConcreteModelSubclass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ConcreteModelSubclassProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ProxyModelInheritanceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **.test_table_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **.test_model_subclass_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **.test_deletion_through_intermediate_proxy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Proxy model inheritance across apps can result in migrate not creating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Deleting an instance of a model proxying a multi-table inherited subclass…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **RegroupTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **setup** (9 connections)
+- **.test_regroup02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup_unpack()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **Test for silent failure when target variable isn't found** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **Regression tests for #17675 The date template filter has expects_localtime =…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **The join template filter has needs_autoescape = True** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 375](Community_375.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 344](Community_344.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,66 +1,66 @@
 # Community 304
 
-> 46 nodes · cohesion 0.06
+> 47 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **decorators/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **CacheMiddlewareTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **user_passes_test()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- **cache_page()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **staff_member_required()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
-- **views/decorators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
-- **admin_views/views.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
-- **hello_world_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **cache_control()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **DecoratorsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Admin2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.test_cache_page_timeout()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cached_control_private_not_cached()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_constructor()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **decorators/clickjacking.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **xframe_options_exempt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **.my_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.test_304_response_has_http_caching_headers_but_not_cached()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_require_safe_accepts_only_safe_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **xframe_options_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **xframe_options_sameorigin()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **secure_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
-- **secure_view2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
-- **.test_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 21 more nodes in this community*
+- **postgres/apps.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **postgres/lookups.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **IndexExpression** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **register_type_handlers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **PostgresConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **postgres/signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **postgres_tests/test_signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **OIDTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **get_citext_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **get_hstore_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **PostgresConfigTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **.process_rhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_register_type_handlers_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- **.assertOIDs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_citext_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_hstore_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (13 shared connections)
-- [Community 51](Community_51.md) (7 shared connections)
-- [Community 16](Community_16.md) (7 shared connections)
-- [Community 99](Community_99.md) (5 shared connections)
-- [Community 251](Community_251.md) (4 shared connections)
-- [Community 126](Community_126.md) (4 shared connections)
-- [Community 43](Community_43.md) (4 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 267](Community_267.md) (2 shared connections)
+- [Community 35](Community_35.md) (9 shared connections)
+- [Community 184](Community_184.md) (8 shared connections)
+- [Community 106](Community_106.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 366](Community_366.md) (5 shared connections)
+- [Community 193](Community_193.md) (4 shared connections)
+- [Community 305](Community_305.md) (4 shared connections)
+- [Community 144](Community_144.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 170](Community_170.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (91%)
-- INFERRED: 13 (9%)
+- EXTRACTED: 131 (87%)
+- INFERRED: 19 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

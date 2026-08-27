@@ -1,45 +1,43 @@
 # Community 621
 
-> 18 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **test_api.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **ApiTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **DummyStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **CustomRequest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **CustomRequestApiTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__getattribute__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_middleware_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_middleware_missing_silently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_request_is_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **dummy message-store to test the api methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **add_message() should use ducktyping to allow request wrappers such as the one…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **DecimalFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **BigD** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_save_without_float_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_filter_with_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_lookup_really_big_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_roundtrip_with_trailing_zeros()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_fetch_from_db_without_float_rounding()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_decimal_places_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_whole_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Should be able to filter decimal fields using strings (#8023).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Ensure decimals don't go through a corrupting float conversion during save…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Really big values can be used in a filter statement.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Trailing zeros in the fractional part aren't truncated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 201](Community_201.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 21 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

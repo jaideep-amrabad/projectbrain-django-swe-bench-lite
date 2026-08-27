@@ -1,33 +1,34 @@
 # Community 895
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **ModelsPermissionsChecksTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_clashing_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_custom_permission_codename_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_custom_permission_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_empty_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_model_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_non_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_verbose_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **DateTimesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_ambiguous_and_invalid_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (83%)
+- INFERRED: 3 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

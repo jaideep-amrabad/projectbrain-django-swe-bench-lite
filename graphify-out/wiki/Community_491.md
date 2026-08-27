@@ -1,57 +1,57 @@
 # Community 491
 
-> 24 nodes · cohesion 0.16
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **distapp/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **DistanceTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **distapp/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **NamedModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **AustraliaCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **CensusZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Interstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasCityFt** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasInterstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **.test_dwithin_with_expression_rhs_not_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **City model on projected coordinate system for South Texas.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Same City model as above, but U.S. survey feet are the units.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **City model for Australia, using WGS84.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Model for a few South Texas ZIP codes (in original Census NAD83).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Model for a few South Texas ZIP codes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Geodetic model for U.S. Interstates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Projected model for South Texas Interstates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Test initialization of distance models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **# TODO: test with spheroid argument (True and False)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **FieldOverridesByFormMetaForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **TestFieldOverridesByFormMeta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **CustomCleanTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Character** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **CustomWriterForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **IncompleteCategoryFormWithExclude** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **IncompleteCategoryFormWithFields** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_save_blank_false_with_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_model_form_clean_applies_to_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_override_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A form that replaces the model's url field with a custom one. This should…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_field_type_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_label_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_widget_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_notrequired_overrides_notblank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_validates_with_replaced_field_excluded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_validates_with_replaced_field_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 24](Community_24.md) (19 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 20](Community_20.md) (7 shared connections)
-- [Community 46](Community_46.md) (4 shared connections)
-- [Community 32](Community_32.md) (4 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
+- [Community 88](Community_88.md) (14 shared connections)
+- [Community 1078](Community_1078.md) (6 shared connections)
+- [Community 281](Community_281.md) (3 shared connections)
+- [Community 396](Community_396.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 514](Community_514.md) (1 shared connections)
+- [Community 768](Community_768.md) (1 shared connections)
+- [Community 565](Community_565.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (85%)
-- INFERRED: 15 (15%)
+- EXTRACTED: 50 (77%)
+- INFERRED: 15 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

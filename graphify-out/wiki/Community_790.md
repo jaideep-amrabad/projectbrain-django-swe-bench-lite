@@ -1,39 +1,32 @@
 # Community 790
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **_DatabaseFailure** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._add_databases_failures()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.modify_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._validate_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **A context manager that temporarily sets a setting and reverts to the original…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **.show_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **.show_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **._validate_app_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **Show all known migrations (or only those of the specified app_names) in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **Show a list of all migrations on the system, or only those of some named apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 509](Community_509.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 445](Community_445.md) (1 shared connections)
-- [Community 192](Community_192.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
+- [Community 99](Community_99.md) (3 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

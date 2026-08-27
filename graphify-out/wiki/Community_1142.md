@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **Circle4** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **commands/javascript.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
+- **mfunc()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
 
 ## Relationships
 
-- [Community 383](Community_383.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

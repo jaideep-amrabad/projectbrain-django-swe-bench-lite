@@ -1,43 +1,49 @@
 # Community 498
 
-> 18 nodes · cohesion 0.12
+> 23 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **SeleniumTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_add_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_add_stackeds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_formset_error_input_border()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inlines_verbose_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.assertBorder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_add_inline_link_absent_for_view_only_parent_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_added_stacked_inline_with_collapsed_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_collapsed_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_delete_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_delete_invalid_stacked_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_delete_invalid_tabular_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_delete_stackeds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_formset_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **The "Add another XXX" link correctly adds items to the inline form.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **The item added by the "Add another XXX" link must use the correct verbose_name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **The "Add another XXX" link correctly adds items to the stacked formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **gis/feeds.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_georss_element()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoFeedMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **W3CGeoFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Rss201rev2Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_georss_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.georss_coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **In GeoRSS coordinate pairs are ordered by lat/lon and separated by a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Adds a GeoRSS point with the given coords using the given handler. Handles the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Add a GeoRSS XML element using the given item and handler.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **This mixin provides the necessary routines for SyndicationFeed subclasses to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (12 shared connections)
-- [Community 38](Community_38.md) (7 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 212](Community_212.md) (1 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 257](Community_257.md) (3 shared connections)
+- [Community 368](Community_368.md) (1 shared connections)
+- [Community 1019](Community_1019.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (85%)
-- INFERRED: 6 (15%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

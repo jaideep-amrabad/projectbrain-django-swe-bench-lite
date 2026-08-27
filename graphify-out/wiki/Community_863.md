@@ -1,36 +1,37 @@
 # Community 863
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ModelDefaultAutoFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_app_default_auto_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_auto_created_inherited_parent_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_auto_created_inherited_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_auto_created_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_default_auto_field_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_explicit_inherited_parent_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_explicit_inherited_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_explicit_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **patch** (1 connections)
+- **CustomUserPasswordResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **UUIDUserPasswordResetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._read_signup_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_valid_custom_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **A uidb64 that decodes to a non-UUID doesn't crash.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 293](Community_293.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 450](Community_450.md) (2 shared connections)
+- [Community 646](Community_646.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

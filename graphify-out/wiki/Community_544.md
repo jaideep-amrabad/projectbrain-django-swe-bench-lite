@@ -1,44 +1,56 @@
 # Community 544
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **BashCompletionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **._run_autocomplete()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **._user_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_app_completion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_completed_subcommand()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_custom_command()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_django_admin_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_manage_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_subcommands()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Testing the Python level bash completion code. This requires setting up the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Set the environment and the list of command line arguments. This sets the bash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **django_admin.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **manage.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **A custom command can autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Subcommands can be autocompleted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Show option flags in case a subcommand is completed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **No errors, just an empty list if there are no autocomplete options** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Application names will be autocompleted for an AppCommand** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **ConnectionHandler** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **ConnectionHandlerTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.create_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.ensure_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.prepare_test_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.test_no_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertImproperlyConfigured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_connection_handler_no_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_makemigrations_empty_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.configure_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **._get_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_ensure_defaults_nonexistent_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_no_default_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_nonexistent_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_prepare_test_settings_nonexistent_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.close_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Put the defaults into the settings dictionary for a given connection where no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Make sure the test settings are available in the 'TEST' sub-dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Ensure runserver.check_migrations doesn't choke on empty DATABASES.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Empty DATABASES and empty 'default' settings default to the dummy backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
 
 ## Relationships
 
-- [Community 344](Community_344.md) (2 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 683](Community_683.md) (1 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 - [Community 44](Community_44.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 42 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

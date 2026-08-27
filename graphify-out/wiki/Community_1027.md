@@ -1,27 +1,30 @@
 # Community 1027
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **DisallowedDatabaseQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_disallowed_database_chunked_cursor_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_disallowed_database_connections()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_disallowed_database_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **._effective_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **SchemaEditorTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- **.test_effective_default_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- **Return a field's effective database default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **SchemaEditor.effective_default() shouldn't call callable defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
 
 ## Relationships
 
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

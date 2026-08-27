@@ -1,30 +1,31 @@
 # Community 975
 
-> 7 nodes · cohesion 0.48
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **FuncTestMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
-- **test_mutation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
-- **.test_mutated_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
-- **.test_mutated_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
-- **.test_mutated_expression_deep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
-- **.test_mutated_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
-- **.test_not_mutated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **First** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ToFieldChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_fk_assignment_and_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.test_save_nullable_fk_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.test_save_nullable_fk_after_parent_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 549](Community_549.md) (9 shared connections)
+- [Community 417](Community_417.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (82%)
+- INFERRED: 4 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

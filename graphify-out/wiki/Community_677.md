@@ -4,30 +4,30 @@
 
 ## Key Concepts
 
-- **TranslationCatalog** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Simulate a dict for DjangoTranslation._catalog so as multiple catalogs with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.plural()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **natural.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **FKAsPKNoNaturalKey** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **FKAsPKNoNaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Relationships
 
-- [Community 377](Community_377.md) (2 shared connections)
-- [Community 279](Community_279.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 983](Community_983.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

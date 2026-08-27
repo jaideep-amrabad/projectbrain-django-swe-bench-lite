@@ -1,64 +1,57 @@
 # Community 146
 
-> 60 nodes · cohesion 0.05
+> 108 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **forms_tests/tests/tests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **forms_tests/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **ModelForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **ModelFormMetaclass** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **EmptyLabelTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ChoiceFieldForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ModelFormInheritanceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ChoiceModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **ChoiceOptionModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **EmptyIntegerLabelChoiceForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ModelFormCallableModelDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ChoiceFieldExclusionForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **EmptyCharLabelChoiceForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **EmptyCharLabelNoneChoiceForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **OptionalMultiChoiceModelForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **RelatedModelFormTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **TestTicket14567** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **.test_choicefield_callable_may_evaluate_to_different_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- **ChoiceFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **Defaults** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **.test_html_rendering_of_prepopulated_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ManyToManyExclusionTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **.test_callable_initial_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **.test_initial_instance_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- *... and 35 more nodes in this community*
+- **GenericRelationsTests** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **generic_relations/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **generic_relations/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TaggedItem** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModelTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **ForProxyModelModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Mineral** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Animal** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Comparison** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Vegetable** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **AllowsNullGFK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ConcreteRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ForConcreteModelModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Gecko** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Rock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableRock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TestInitWithNoneArgument** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Carrot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ManualPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableTaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **AbstractComparison** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TaggedItemForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_assign_content_object_in_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_unsaved_instance_on_generic_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- *... and 83 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 53](Community_53.md) (4 shared connections)
-- [Community 93](Community_93.md) (4 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 231](Community_231.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 397](Community_397.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 101](Community_101.md) (14 shared connections)
+- [Community 136](Community_136.md) (7 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 131 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 175 (83%)
+- INFERRED: 36 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

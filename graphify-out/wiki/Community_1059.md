@@ -1,29 +1,29 @@
 # Community 1059
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **AssertURLEqualTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_msg_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

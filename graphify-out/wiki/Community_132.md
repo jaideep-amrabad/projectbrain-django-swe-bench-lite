@@ -1,60 +1,62 @@
 # Community 132
 
-> 62 nodes · cohesion 0.04
+> 43 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseForm** (37 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **BaseModelForm** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.full_clean()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._html_output()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._clean_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.add_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_prefix()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._clean_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.add_initial_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.as_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.get_initial_for_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.as_p()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.as_ul()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.changed_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.non_field_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.order_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._post_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- *... and 37 more nodes in this community*
+- **BytesIO** (51 connections)
+- **FileTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsGet** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_file_wrapper_uses_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **NoNameFileTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_geositemap_kml()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **wsgi_app_file_wrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_iteration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_mac_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_windows_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.assertChildNodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_get_max_fields_exceeded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_get_max_fields_not_exceeded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_file_iteration_mixed_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_mac_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_unix_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_windows_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_namedtemporaryfile_closes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_resets_opened_file_to_start_and_returns_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_noname_file_default_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_noname_file_get_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_exclusive_lock()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 106](Community_106.md) (4 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 285](Community_285.md) (2 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 374](Community_374.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 200](Community_200.md) (1 shared connections)
-- [Community 843](Community_843.md) (1 shared connections)
+- [Community 97](Community_97.md) (14 shared connections)
+- [Community 256](Community_256.md) (4 shared connections)
+- [Community 496](Community_496.md) (4 shared connections)
+- [Community 883](Community_883.md) (3 shared connections)
+- [Community 343](Community_343.md) (3 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 541](Community_541.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 277](Community_277.md) (2 shared connections)
+- [Community 206](Community_206.md) (2 shared connections)
+- [Community 228](Community_228.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (94%)
-- INFERRED: 7 (6%)
+- EXTRACTED: 54 (50%)
+- INFERRED: 54 (50%)
 - AMBIGUOUS: 0 (0%)
 
 ---

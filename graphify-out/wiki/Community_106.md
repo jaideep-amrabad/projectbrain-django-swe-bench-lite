@@ -1,63 +1,60 @@
 # Community 106
 
-> 80 nodes · cohesion 0.03
+> 71 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **.e()** (77 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **AssertRedirectsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **AssertFormsetErrorTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **AssertFormErrorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- **.create_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- **An assertion is raised if the form's non field errors doesn't contain the…** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **._compile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.run_select_for_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_noerror_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_nonfield_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_incorrect_target()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_lost_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_chain_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_to_different_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_target_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the original page couldn't be retrieved as expected** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- *... and 55 more nodes in this community*
+- **WriterTests** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **MigrationWriter** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.assertSerializedEqual()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.assertSerializedResultEqual()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize_round_trip()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.safe_exec()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_migration_file_header_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_numbers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_enums()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_functions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_local_function_reference()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_pathlib()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_simple_migration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_sorted_imports()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.unregister_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **Money** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.assertSerializedFieldEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 269](Community_269.md) (7 shared connections)
-- [Community 132](Community_132.md) (4 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 630](Community_630.md) (4 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 207](Community_207.md) (3 shared connections)
-- [Community 135](Community_135.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 309](Community_309.md) (2 shared connections)
-- [Community 426](Community_426.md) (2 shared connections)
+- [Community 43](Community_43.md) (14 shared connections)
+- [Community 304](Community_304.md) (7 shared connections)
+- [Community 308](Community_308.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 641](Community_641.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 391](Community_391.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (58%)
-- INFERRED: 75 (42%)
+- EXTRACTED: 168 (90%)
+- INFERRED: 18 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

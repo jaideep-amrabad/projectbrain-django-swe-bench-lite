@@ -4,56 +4,60 @@
 
 ## Key Concepts
 
-- **Collector** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.collect()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.can_fast_delete()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.clear_restricted_objects_from_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.clear_restricted_objects_from_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.get_del_batches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **._has_signal_listeners()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **get_candidate_relations_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.add_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add_field_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.instances_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.test_fast_delete_instance_set_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.add_restricted_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Add 'objs' to the collection of objects to be deleted. If the call is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Schedule a field update. 'objs' must be a homogeneous iterable collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Determine if the objects in the given queryset-like or single object can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Return the objs in suitably sized batches for the used connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **RedirectView** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **generic_urls.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
+- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **test_client/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/urls.py`
+- **BaseArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.get_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **DateArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.head()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.put()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Provide a redirect on any GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Return the URL redirect to. Keyword arguments from the URL pattern match…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **test_client/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/__init__.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Regression tests for Django built-in views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An abstract article Model so that we can create article models with and without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An Article class with a get_absolute_url defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 90](Community_90.md) (2 shared connections)
-- [Community 174](Community_174.md) (2 shared connections)
-- [Community 596](Community_596.md) (2 shared connections)
-- [Community 843](Community_843.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 471](Community_471.md) (1 shared connections)
-- [Community 954](Community_954.md) (1 shared connections)
-- [Community 614](Community_614.md) (1 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 53](Community_53.md) (5 shared connections)
+- [Community 84](Community_84.md) (4 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
+- [Community 606](Community_606.md) (2 shared connections)
+- [Community 105](Community_105.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 433](Community_433.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (90%)
-- INFERRED: 6 (10%)
+- EXTRACTED: 68 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

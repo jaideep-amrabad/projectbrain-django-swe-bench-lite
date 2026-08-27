@@ -1,6 +1,6 @@
 # Community 0
 
-> 863 nodes · cohesion 0.01
+> 816 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -15,8 +15,6 @@
 - **core/__init__.py** (105 connections) — `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
 - **testcases.py** (87 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **skipIfDBFeature()** (87 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **backends/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **backends/models.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
 - **test_runner/tests.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 - **core/serializers/__init__.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
 - **Author** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
@@ -27,24 +25,26 @@
 - **sqlite/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 - **model_fields/test_uuid.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 - **serializers/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **color.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
 - **test_ddl_references.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- *... and 838 more nodes in this community*
+- **geogapp/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **serializers/test_json.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **transactions/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- *... and 791 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (215 shared connections)
-- [Community 9](Community_9.md) (201 shared connections)
-- [Community 2](Community_2.md) (196 shared connections)
-- [Community 50](Community_50.md) (170 shared connections)
-- [Community 126](Community_126.md) (140 shared connections)
-- [Community 48](Community_48.md) (118 shared connections)
-- [Community 13](Community_13.md) (116 shared connections)
-- [Community 6](Community_6.md) (106 shared connections)
-- [Community 29](Community_29.md) (71 shared connections)
-- [Community 14](Community_14.md) (67 shared connections)
-- [Community 5](Community_5.md) (59 shared connections)
-- [Community 160](Community_160.md) (58 shared connections)
+- [Community 1](Community_1.md) (217 shared connections)
+- [Community 8](Community_8.md) (198 shared connections)
+- [Community 2](Community_2.md) (186 shared connections)
+- [Community 3](Community_3.md) (169 shared connections)
+- [Community 7](Community_7.md) (155 shared connections)
+- [Community 43](Community_43.md) (119 shared connections)
+- [Community 154](Community_154.md) (116 shared connections)
+- [Community 161](Community_161.md) (77 shared connections)
+- [Community 125](Community_125.md) (72 shared connections)
+- [Community 16](Community_16.md) (71 shared connections)
+- [Community 27](Community_27.md) (61 shared connections)
+- [Community 6](Community_6.md) (57 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 6059 (99%)
-- INFERRED: 63 (1%)
+- EXTRACTED: 5917 (99%)
+- INFERRED: 48 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,56 +1,50 @@
 # Community 467
 
-> 25 nodes · cohesion 0.09
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **NewDatabaseTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **requires_tz_support** (17 connections)
-- **.test_localized_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_accepts_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_accepts_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_returns_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_returns_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_datetime_from_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_filter_date_field_with_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime_with_microsecond()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetime_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetime_lookups_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetimes_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_filter_with_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_update_with_timedelta()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_auto_now_and_auto_now_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone_with_microsecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_null_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_raw_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **TimezoneTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **needs_zoneinfo()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_get_default_timezone_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_zoneinfo_ambiguous()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_zoneinfo_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive_zoneinfo()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_activate_invalid_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_fixedoffset_negative_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_fixedoffset_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_get_default_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_is_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_is_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_localdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz_ambiguous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz_non_existent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive_pytz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_decorator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_fixed_offset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 574](Community_574.md) (13 shared connections)
-- [Community 24](Community_24.md) (6 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 950](Community_950.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 807](Community_807.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

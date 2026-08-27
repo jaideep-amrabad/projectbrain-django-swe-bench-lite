@@ -1,51 +1,54 @@
 # Community 356
 
-> 24 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **StatReloader** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_modules_and_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_all_python_module_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.snapshot_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **trigger_reload()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.stop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.should_stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watch_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Iterate through all modules needed to be watched.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Yield all files that need to be watched, including module files and files…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Wait until Django reports that the apps have been loaded. If the given thread…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **This generator is called in a loop from run_loop. It's important that the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **DateFormat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.E()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.I()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.l()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.n()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.U()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.b()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.F()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.j()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.o()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.S()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month, textual, 3 letters, lowercase; e.g. 'jan** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, textual, 3 letters; e.g. 'Fri** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Alternative month names as required by some locales. Proprietary extension.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month, textual, long; e.g. 'January** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **1' if Daylight Savings Time, '0' otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the month without leading zeros; i.e. '1' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, textual, long; e.g. 'Friday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Boolean for whether it is a leap year; i.e. True or False** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 254](Community_254.md) (6 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 180](Community_180.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 255](Community_255.md) (1 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 584](Community_584.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 42 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

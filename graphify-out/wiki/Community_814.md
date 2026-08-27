@@ -1,36 +1,36 @@
 # Community 814
 
-> 11 nodes · cohesion 0.18
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **PostGISGeometryColumns** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **PostGISSpatialRefSys** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **Return the name of the metadata column used to store the feature table name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **Return the name of the metadata column used to store the feature geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **The 'spatial_ref_sys' table from PostGIS. See the PostGIS documentation at Ch.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **The 'geometry_columns' view from PostGIS. See the PostGIS documentation at Ch.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **filesizeformat()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_localized_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_negative_numbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **Format the value like a 'human-readable' file size (i.e. 13 KB, 4.1 MB, 102…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Avoid text wrapping in the middle of a phrase by adding non-breaking spaces…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 276](Community_276.md) (2 shared connections)
-- [Community 355](Community_355.md) (1 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 161](Community_161.md) (3 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 415](Community_415.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

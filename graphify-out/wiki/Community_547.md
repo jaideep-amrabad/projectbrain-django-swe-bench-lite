@@ -1,52 +1,43 @@
 # Community 547
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **many_to_one/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **many_to_one/models.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **ChildStringPrimaryKeyParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **District** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **ParentStringPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Relation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Third** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **ToFieldChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Record** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Student** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.test_save_fk_after_parent_with_non_numeric_pk_set_on_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_relation_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Many-to-one relationships To define a many-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Second** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Relationships
 
-- [Community 419](Community_419.md) (15 shared connections)
-- [Community 979](Community_979.md) (9 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 899](Community_899.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1156](Community_1156.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 405](Community_405.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (84%)
-- INFERRED: 12 (16%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

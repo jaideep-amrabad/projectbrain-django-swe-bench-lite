@@ -1,44 +1,45 @@
 # Community 553
 
-> 21 nodes · cohesion 0.14
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **TestDebugSQL** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **._test_output()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **ErrorSetUpTestDataTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **ErrorSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **ErrorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **FailingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **FailingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **PassingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **PassingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_setupclass_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_output_normal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_output_verbose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **skipUnless** (1 connections)
+- **TestSigner** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_decode_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_dumps_loads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_invalid_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_signature_with_salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_unsign_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **signature() method should generate a signature** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **dumps and loads be reversible for any JSON serializable object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **loads should raise exception for tampered objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **should warn on invalid separator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **signature(value, salt=...) should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **sign/unsign should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **unsign should raise an exception if the value has been tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_custom_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_invalid_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign_non_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_valid_sep()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_works_with_non_ascii_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

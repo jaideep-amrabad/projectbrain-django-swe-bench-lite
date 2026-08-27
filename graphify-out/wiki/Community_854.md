@@ -1,32 +1,29 @@
 # Community 854
 
-> 10 nodes · cohesion 0.24
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **RunSQL** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **._run_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **Run some raw SQL. A reverse SQL statement may be provided. Also accept a list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **GenericIPAddressFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_generic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_generic_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_ipv4_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_ipv6_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_invalid_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

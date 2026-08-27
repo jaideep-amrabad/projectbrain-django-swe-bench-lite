@@ -1,47 +1,55 @@
 # Community 422
 
-> 29 nodes · cohesion 0.10
+> 35 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **BaseOrderWithRespectToTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **Answer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **TestOrderWithRespectToOneToOnePK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **base_tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Dimension** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Entity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Question** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.test_set_order_unrelated_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Component** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **.test_duplicate_order_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_change_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_default_to_insertion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_delete_and_insert()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_item_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_previous_and_next_in_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_recursive_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **The tests are shared with contenttypes_tests and so shouldn't import or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **An answer that's not related isn't updated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- *... and 4 more nodes in this community*
+- **SerializersTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **YamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **skipUnless** (2 connections)
+- **.test_altering_serialized_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_deserialize_force_insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_deterministic_mapping_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_pkless_serialized_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_field_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_specific_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serializer_roundtrip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_yaml_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Basic serialization works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Serialized content can be deserialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **The ability to create new objects by modifying serialized content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **If you use your own primary key field (such as a OneToOneField), it doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 483](Community_483.md) (5 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 600](Community_600.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 941](Community_941.md) (1 shared connections)
+- [Community 572](Community_572.md) (1 shared connections)
+- [Community 982](Community_982.md) (1 shared connections)
+- [Community 635](Community_635.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 

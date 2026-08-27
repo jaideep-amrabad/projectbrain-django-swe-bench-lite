@@ -1,35 +1,33 @@
 # Community 815
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **SpatialiteGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **SpatialiteSpatialRefSys** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **Return the name of the metadata column used to store the feature table name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **Return the name of the metadata column used to store the feature geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **The 'spatial_ref_sys' table from SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **The 'geometry_columns' table from SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- **OracleGISSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **._create_spatial_index_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.geo_quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.remove_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.run_geometry_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 355](Community_355.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

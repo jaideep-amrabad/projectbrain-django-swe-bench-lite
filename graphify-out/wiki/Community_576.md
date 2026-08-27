@@ -1,41 +1,53 @@
 # Community 576
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **devDependencies** (6 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **validation/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **test_unique.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **GetUniqueCheckTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **AuthorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **validate_answer_to_universe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_primary_key_is_considered_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_fields_get_collected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_exclusion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_gets_picked_up()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_together_gets_picked_up_and_converted_to_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **MultipleAutoFields** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Test the Meta.unique_together normalization with different sorts of objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 154](Community_154.md) (7 shared connections)
+- [Community 844](Community_844.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 911](Community_911.md) (3 shared connections)
+- [Community 629](Community_629.md) (3 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 810](Community_810.md) (2 shared connections)
+- [Community 843](Community_843.md) (2 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/package.json`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

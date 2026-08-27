@@ -1,26 +1,26 @@
 # Community 1029
 
-> 5 nodes · cohesion 0.60
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **RenameContentType** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **._rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **.rename_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **.rename_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **RowLevelChangePermissionModelAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_change_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_view_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Only allow changing objects with even id number** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Only allow viewing objects if id is a multiple of 3.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

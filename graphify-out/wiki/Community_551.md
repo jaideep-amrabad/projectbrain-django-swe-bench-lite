@@ -1,45 +1,42 @@
 # Community 551
 
-> 21 nodes · cohesion 0.10
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **TestSigner** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_decode_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_dumps_loads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_invalid_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_signature_with_salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_unsign_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **signature() method should generate a signature** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **dumps and loads be reversible for any JSON serializable object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **loads should raise exception for tampered objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **should warn on invalid separator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **signature(value, salt=...) should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **sign/unsign should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **unsign should raise an exception if the value has been tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_custom_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_invalid_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_non_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_valid_sep()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_works_with_non_ascii_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **forms/ranges.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **BaseRangeField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **RangeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **HiddenRangeWidget** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DateRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DateTimeRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DecimalRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **IntegerRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **A widget that splits input into two <input type="hidden"> inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
 
 ## Relationships
 
+- [Community 154](Community_154.md) (3 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

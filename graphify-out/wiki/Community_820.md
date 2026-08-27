@@ -1,31 +1,35 @@
 # Community 820
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **ValidationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_cleans_empty_string_when_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_raises_error_on_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_with_choices_cleans_valid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_with_choices_raises_error_on_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **locks.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **_fd()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **OVERLAPPED** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **unlock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **_OFFSET** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **_OFFSET_UNION** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Structure** (2 connections)
+- **Portable file locking utilities. Based partially on an example by Jonathan…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Get a filedescriptor from something which could be a file or an fd.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Union** (1 connections)
 
 ## Relationships
 
+- [Community 206](Community_206.md) (3 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 21 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

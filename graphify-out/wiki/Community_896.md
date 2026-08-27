@@ -1,34 +1,32 @@
 # Community 896
 
-> 9 nodes · cohesion 0.28
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **DateTimesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_ambiguous_and_invalid_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **AWSS3Storage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.get_valid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **._save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.get_available_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **Simulate an AWS S3 storage which uses Unix-like paths and allows any characters…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **This method is important to test that Storage.save() doesn't replace '\' with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **This is the method that's important to override when using S3 so that os.path()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **Storage** (1 connections)
 
 ## Relationships
 
-- [Community 126](Community_126.md) (5 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (83%)
-- INFERRED: 3 (17%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

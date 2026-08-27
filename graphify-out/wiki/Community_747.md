@@ -1,35 +1,36 @@
 # Community 747
 
-> 13 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **.adapt_unknown_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_datefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_datetimefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_decimalfield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_timefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.year_lookup_bounds_for_date_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.year_lookup_bounds_for_datetime_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return a two-elements list with the lower and upper bound to be used with a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Transform a value to something compatible with the backend driver. This method…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Transform a date value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Transform a datetime value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Transform a time value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Transform a decimal.Decimal value to an object compatible with what is expected…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.RelatedObjectDoesNotExist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the reverse relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related object on the reverse side of a one-to-one relation. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.is_cached()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (7 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 746](Community_746.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

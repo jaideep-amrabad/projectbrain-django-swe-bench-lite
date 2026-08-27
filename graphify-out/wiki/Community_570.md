@@ -1,43 +1,42 @@
 # Community 570
 
-> 20 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **NestedForeignKeysTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **nested_foreign_keys/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **nested_foreign_keys/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **DeeplyNestedForeignKeysTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **Screening** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **Movie** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **Package** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **ScreeningNullFK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **PackageNullFK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_explicit_ForeignKey_NullFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_inheritance_null_FK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_null_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **RegexField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **RegexFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._set_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_change_regex_after_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_empty_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_get_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_unicode_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **regex can be either a string or a compiled regular expression object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._get_regex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (74%)
-- INFERRED: 12 (26%)
+- EXTRACTED: 19 (66%)
+- INFERRED: 10 (34%)
 - AMBIGUOUS: 0 (0%)
 
 ---

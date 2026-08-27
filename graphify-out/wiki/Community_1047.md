@@ -1,28 +1,26 @@
 # Community 1047
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **GetChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_lazy_strings_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_blank_in_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_blank_in_grouped_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_empty_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **SimpleTagTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
+- **setup** (3 connections)
+- **.test_simpletag_renamed01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
+- **.test_simpletag_renamed02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
+- **.test_simpletag_renamed03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

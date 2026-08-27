@@ -1,29 +1,26 @@
 # Community 1073
 
-> 4 nodes · cohesion 0.83
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TestMultiDBChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- **._patch_check_field_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- **.test_checks_called_on_the_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- **.test_checks_called_on_the_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **FakeAUTHSMTPConnection** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.ehlo()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **A SMTP connection pretending support for the AUTH command. It does not, but at…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTP** (1 connections)
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

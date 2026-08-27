@@ -1,54 +1,56 @@
 # Community 347
 
-> 35 nodes · cohesion 0.08
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **.handle_no_permission()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **PermissionRequiredMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AccessMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **UserPassesTestMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **LoginRequiredMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **EmptyResponseView** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.dispatch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_permission_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.has_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AlwaysFalseMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AlwaysTrueMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **StackedMixinsView1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **StackedMixinsView2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get_permission_denied_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_redirect_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_test_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AlwaysFalseView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AlwaysTrueView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **Deny a request with a permission error if the test_func() method returns False.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **Abstract CBV mixin that gives access mixins the same customizable functionality.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **Override this method to use a different test_func method.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- *... and 10 more nodes in this community*
+- **FieldListFilter** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **RelatedFieldListFilter** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **EmptyFieldListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **AllValuesFieldListFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **ChoicesFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **DateFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **RelatedOnlyFieldListFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.field_admin_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.field_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.expected_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.field_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.include_empty_choice()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **CustomTemplateBooleanFieldListFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.expected_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 251](Community_251.md) (16 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 398](Community_398.md) (2 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 411](Community_411.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 845](Community_845.md) (17 shared connections)
+- [Community 90](Community_90.md) (8 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 523](Community_523.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 81 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **Circle6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_fast_add_ignore_conflicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **A single query is necessary to add auto-created through instances if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Relationships
 
-- [Community 383](Community_383.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 435](Community_435.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

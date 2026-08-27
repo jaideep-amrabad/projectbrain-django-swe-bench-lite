@@ -1,45 +1,46 @@
 # Community 432
 
-> 13 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DurationField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **IntervalToSeconds** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **SecondsToInterval** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **oracle/functions.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Store timedelta objects. Use interval on PostgreSQL, INTERVAL DAY TO SECOND on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **HTMLEqualTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **parse_html()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.test_contains_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_html_contain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_html_parser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parse_html_in_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parsing_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_self_closing_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_unicode_handling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Take a string that contains *valid* HTML and turn it into a Python object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_class_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_complex_examples()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_ignore_comments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_normalize_refs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_unequal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 179](Community_179.md) (2 shared connections)
-- [Community 128](Community_128.md) (2 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 255](Community_255.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,64 @@
 # Community 185
 
-> 55 nodes · cohesion 0.05
+> 31 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **syndication_tests/feeds.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2Feed** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestAtomFeed** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **MyCustomAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestSingleEnclosureRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **ArticlesFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLatestFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **NaiveDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateContextFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureAtomFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureRSSFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkFalse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TZAwareDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkTrue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **syndication_tests/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
-- **syndication/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
-- **TestCustomFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestFeedUrlFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLanguageFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss091Feed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_pubdate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.add_item_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.add_root_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- *... and 30 more nodes in this community*
+- **.import_module()** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.handle()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **ClientMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.logout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.describe_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.test_iter_format_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_iter_format_modules_stability()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/management/commands/clearsessions.py`
+- **.sync_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.store_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.migration_progress_callback()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Run the old syncdb-style operation on a list of app_labels.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Return a string that describes a migration operation for --plan.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.force_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._parse_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Mixin with common methods between Client and AsyncClient.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Store exceptions when they are generated by a view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Return the current session variables.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 736](Community_736.md) (8 shared connections)
-- [Community 126](Community_126.md) (7 shared connections)
-- [Community 1054](Community_1054.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 43](Community_43.md) (7 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 266](Community_266.md) (3 shared connections)
+- [Community 161](Community_161.md) (3 shared connections)
+- [Community 322](Community_322.md) (3 shared connections)
+- [Community 99](Community_99.md) (3 shared connections)
+- [Community 133](Community_133.md) (3 shared connections)
+- [Community 104](Community_104.md) (2 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 606](Community_606.md) (2 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/management/commands/clearsessions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 86 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 56 (55%)
+- INFERRED: 45 (45%)
 - AMBIGUOUS: 0 (0%)
 
 ---

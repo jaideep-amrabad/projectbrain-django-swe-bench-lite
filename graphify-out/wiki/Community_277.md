@@ -1,55 +1,57 @@
 # Community 277
 
-> 41 nodes · cohesion 0.06
+> 65 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseCache** (33 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.get()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.incr_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.get_or_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.incr()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.has_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.__contains__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.decr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.decr_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.delete_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.get_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.validate_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **ValueError** (3 connections)
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.get_backend_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.make_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **Return True if the key is in the cache and has not expired.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **Set a value in the cache if the key does not already exist. If timeout is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **Fetch a given key from the cache. If the key does not exist, return default,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- *... and 16 more nodes in this community*
+- **ConditionalGetMiddleware** (34 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **GZipMiddleware** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (6 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 851](Community_851.md) (2 shared connections)
-- [Community 487](Community_487.md) (2 shared connections)
-- [Community 400](Community_400.md) (1 shared connections)
-- [Community 557](Community_557.md) (1 shared connections)
-- [Community 1031](Community_1031.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 66](Community_66.md) (11 shared connections)
+- [Community 173](Community_173.md) (10 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 132](Community_132.md) (2 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 123 (84%)
+- INFERRED: 24 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,43 +1,44 @@
 # Community 596
 
-> 16 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **FastDeleteTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **.test_fast_delete_empty_no_update_can_self_select()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_combined_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_joined_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_revm2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **#25932 - Fast deleting on backends that don't have the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **FlatpageCSRFTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_unknown_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to an unknown page isn't caught as a 403 CSRF error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage can be served through a view, even when the middleware is in use** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A nonexistent flatpage raises 404 when served through a view, even when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage can be served by the fallback middleware** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A nonexistent flatpage raises a 404 when served by the fallback middleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to a flatpage served through a view will raise a CSRF error if no token…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to a flatpage served by the middleware will raise a CSRF error if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
 
 ## Relationships
 
-- [Community 68](Community_68.md) (12 shared connections)
-- [Community 353](Community_353.md) (3 shared connections)
-- [Community 443](Community_443.md) (2 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
+- [Community 507](Community_507.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (63%)
-- INFERRED: 13 (37%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

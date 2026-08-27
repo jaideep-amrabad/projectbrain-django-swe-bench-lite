@@ -1,56 +1,49 @@
 # Community 373
 
-> 35 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Prefetch** (43 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **CustomPrefetchTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.traverse_qs()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_custom_qs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_filter_deferred()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_nested_prefetch_related_with_duplicate_prefetcher()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_ambiguous()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_generic_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_through_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_through_gfk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_o2m_through_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_reverse_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_multiple_items_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_single_item_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_retrieves_results_from_prefetched_objects_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.get_current_prefetch_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get_current_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_nested_prefetch_related_are_not_overwritten()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_raw_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_to_attr_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_to_attr_doesnt_cache_through_attr_as_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_values_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.add_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 10 more nodes in this community*
+- **DjangoTranslation** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__init__()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.merge()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_installed_apps_translations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._new_gnu_trans()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_local_translations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._init_translation_catalog()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.to_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.language()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.ngettext()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Set up the GNUTranslations context with regard to output charset. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Create a GNUTranslations() using many locale directories** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return a mergeable gettext.GNUTranslations instance. A convenience wrapper. By…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Create a base catalog using global django translations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge translations from each installed app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge translations defined in LOCALE_PATHS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Set the GNUTranslations() fallback with the default language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge another translation into this catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return the translation language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return the translation language name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Relationships
 
-- [Community 292](Community_292.md) (12 shared connections)
-- [Community 433](Community_433.md) (8 shared connections)
-- [Community 386](Community_386.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 800](Community_800.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
+- [Community 278](Community_278.md) (3 shared connections)
+- [Community 644](Community_644.md) (2 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 656](Community_656.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 245](Community_245.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

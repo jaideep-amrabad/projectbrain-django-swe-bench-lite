@@ -1,41 +1,38 @@
 # Community 598
 
-> 16 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **IgnoreDirectoryCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **FuzzyTranslationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **MultipleLocaleCompilationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_fuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_nofuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.assertAllExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.assertNoneExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_ignores_based_on_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_multiple_locale_dirs_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_one_locale_dir_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_multiple_locales()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.test_one_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **DataTypesTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Donut** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **.test_error_on_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_boolean_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_date_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_datefield_auto_now_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_textfields_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_time_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_year_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **Year boundary tests (ticket #3689)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **TextField values returned from the database should be str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #8354: the MySQL and Oracle backends should raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #10970, auto_now_add for DateField should store a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Relationships
 
-- [Community 269](Community_269.md) (8 shared connections)
-- [Community 7](Community_7.md) (8 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

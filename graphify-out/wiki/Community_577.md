@@ -1,42 +1,41 @@
 # Community 577
 
-> 17 nodes · cohesion 0.15
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ChoicesMeta** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **enums.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Choices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **int** (1 connections)
-- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **str** (1 connections)
-- **Use value when cast to str, so that Choices set as model instance attributes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **A metaclass for creating a enum choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **._generate_next_value_()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **devDependencies** (6 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 174](Community_174.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

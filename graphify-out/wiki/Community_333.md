@@ -4,47 +4,54 @@
 
 ## Key Concepts
 
-- **ContentTypesTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **ContentTypeManager** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._add_to_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._get_from_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._get_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.test_get_for_model_create_contenttype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_by_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.test_app_labeled_name_unknown_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_cache_not_shared_between_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_get_for_concrete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_get_for_concrete_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_lookup_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.test_missing_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Lookup a ContentType by ID. Use the same shared cache as get_for_model (though…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Clear out the content-type cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Insert a ContentType into the cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Return the ContentType object for a given model, creating the ContentType if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Given *models, return a dictionary mapping {model: content_type}.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **BaseDatabaseIntrospection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **SimpleDatabaseIntrospectionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.django_table_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_migratable_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.identifier_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.installed_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.sequence_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_primary_key_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.get_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return a set of all models represented by the provided list of table names.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return a list of information about all DB sequences for all models in all apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return a list of introspected sequences for table_name. Each sequence is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Encapsulate backend-specific introspection utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Backends can override this to return a list of: (column_name,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return the name of the primary key column for the given table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
 - *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 638](Community_638.md) (1 shared connections)
+- [Community 659](Community_659.md) (1 shared connections)
+- [Community 789](Community_789.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 58 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

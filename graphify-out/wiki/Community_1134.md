@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **If None is cached, get() returns it instead of the default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Circle6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 302](Community_302.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 

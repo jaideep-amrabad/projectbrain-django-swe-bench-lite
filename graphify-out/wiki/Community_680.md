@@ -1,59 +1,51 @@
 # Community 680
 
-> 25 nodes · cohesion 0.08
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.test_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_in_memory_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._start_transaction_under_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.test_check_sqlite_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_pathlib_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.create_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.disable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.enable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._savepoint_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Start a transaction explicitly in autocommit mode. Staying in autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Raise NotSupportedError when aggregating on date/time fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **A named in-memory db should be allowed where supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_distinct_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_distinct_aggregation_multiple_args_no_distinct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_regexp_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **CookieTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **MessageEncoder** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.test_json_encoder_decoder()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.test_max_cookie_length()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.stored_messages_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.test_cookie_setings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.test_legacy_encode_decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.test_safedata()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.test_get_bad_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Compactly serialize instances of the ``Message`` class as JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.test_message_rfc6265()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **If the data exceeds what is allowed in a cookie, older messages are removed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **A complex nested data structure containing Message instances is properly…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **A message containing SafeData is keeping its safe status when retrieved from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **CookieStorage honors SESSION_COOKIE_DOMAIN, SESSION_COOKIE_SECURE, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 390](Community_390.md) (1 shared connections)
-- [Community 540](Community_540.md) (1 shared connections)
-- [Community 430](Community_430.md) (1 shared connections)
-- [Community 886](Community_886.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
-- [Community 315](Community_315.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 542](Community_542.md) (1 shared connections)
+- [Community 558](Community_558.md) (5 shared connections)
+- [Community 580](Community_580.md) (3 shared connections)
+- [Community 278](Community_278.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 478](Community_478.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
+- [Community 741](Community_741.md) (1 shared connections)
+- [Community 331](Community_331.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (85%)
-- INFERRED: 7 (15%)
+- EXTRACTED: 34 (85%)
+- INFERRED: 6 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,77 +1,62 @@
 # Community 79
 
-> 106 nodes · cohesion 0.03
+> 100 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **WidgetTest** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **widget_tests/base.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **renderers.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **test_renderers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplates** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **SelectMultipleTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **MultipleHiddenInputTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **RadioSelectTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **test_select.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- **TextareaTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- **test_clearablefileinput.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **test_numberinput.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_numberinput.py`
-- **test_radioselect.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **TemplatesSetting** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **SplitHiddenDateTimeWidgetTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- **test_textarea.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- **test_textinput.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **test_widget.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
-- **Jinja2Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **FileInputTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
-- **test_input.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_input.py`
-- *... and 81 more nodes in this community*
+- **staticfiles_tests/test_management.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **CollectionTestCase** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.run_collectstatic()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **DummyStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **TestCollectionLinks** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollection** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestFindStatic** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestInteractiveMessages** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionClear** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionNonLocalStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionOverwriteWarning** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionVerbosity** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionDryRun** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionExcludeNoDefaultIgnore** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestConfiguration** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **._collectstatic_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionCustomIgnorePatterns** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_skips_newer_files_in_remote_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning_when_clearing_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning_when_overwriting_files_in_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestNoFilesCreated** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.run_collectstatic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.test_handle_path_notimplemented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- *... and 75 more nodes in this community*
 
 ## Relationships
 
-- [Community 53](Community_53.md) (17 shared connections)
-- [Community 126](Community_126.md) (15 shared connections)
-- [Community 13](Community_13.md) (15 shared connections)
-- [Community 9](Community_9.md) (12 shared connections)
-- [Community 137](Community_137.md) (7 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 135](Community_135.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
+- [Community 116](Community_116.md) (17 shared connections)
+- [Community 9](Community_9.md) (15 shared connections)
+- [Community 5](Community_5.md) (11 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 223](Community_223.md) (3 shared connections)
+- [Community 258](Community_258.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 371](Community_371.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_hiddeninput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_input.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_numberinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 260 (92%)
-- INFERRED: 22 (8%)
+- EXTRACTED: 216 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,65 @@
 # Community 246
 
-> 43 nodes · cohesion 0.07
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ModelAdminTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **BandAdmin** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **AdminActionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.test_get_actions_respects_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.test_custom_form_meta_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_custom_form_meta_exclude_with_readonly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_foreign_key_as_radio_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_form_exclude_kwarg_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_formset_exclude_kwarg_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_lookup_allowed_allows_nonexistent_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_raw_id_fields_widget_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_regression_for_ticket_15820()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_actions_replace_global_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.test_global_actions_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_custom_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_custom_formfield_override_readonly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_default_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_default_fieldsets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_default_foreign_key_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_field_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_field_arguments_restricted_on_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_formset_overriding_get_exclude_with_form_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_formset_overriding_get_exclude_with_form_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_get_deleted_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- *... and 18 more nodes in this community*
+- **test/signals.py** (54 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **receiver()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **reset_format_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **root_urlconf_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **close_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **clear_cache_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **clear_routers_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **localize_settings_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **reset_template_engines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **user_model_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **reset_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **reset_hashers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **auth_password_validators_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **clear_serializers_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **complex_setting_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **file_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **language_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **static_finders_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **static_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **update_connections_time_zone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **update_installed_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **.test_receiver_signal_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_receiver_single_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **A decorator for connecting receivers to signals. Used by passing in the signal…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 42](Community_42.md) (7 shared connections)
-- [Community 45](Community_45.md) (6 shared connections)
-- [Community 30](Community_30.md) (5 shared connections)
-- [Community 439](Community_439.md) (4 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 320](Community_320.md) (2 shared connections)
-- [Community 364](Community_364.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 346](Community_346.md) (1 shared connections)
+- [Community 606](Community_606.md) (6 shared connections)
+- [Community 525](Community_525.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 133](Community_133.md) (4 shared connections)
+- [Community 125](Community_125.md) (4 shared connections)
+- [Community 278](Community_278.md) (3 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 548](Community_548.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 824](Community_824.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (59%)
-- INFERRED: 41 (41%)
+- EXTRACTED: 104 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

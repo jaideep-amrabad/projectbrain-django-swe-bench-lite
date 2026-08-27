@@ -1,38 +1,33 @@
 # Community 711
 
-> 14 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **LineString** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._listarr()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the X coordinates in a list.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **LinearRing** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the Point at the given index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the number of points in the LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the tuple representation of this LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Internal routine that returns a sequence (list) corresponding with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **SaveDeleteHookTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **Adding hooks before/after saving and deleting To execute arbitrary code around…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

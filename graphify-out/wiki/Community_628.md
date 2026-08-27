@@ -1,46 +1,63 @@
 # Community 628
 
-> 18 nodes · cohesion 0.11
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **DatabaseSessionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **CustomDatabaseSessionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **DatabaseSessionWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_get_decoded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_sessionmanager_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **DBStore** (1 connections)
-- **A database session store, that handles updating the account ID column inside…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.create_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.get_model_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.get_session_cookie_age()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.test_custom_expiry_reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_default_expiry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_extra_session_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Session repr should be the session key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Test we can use Session.get_decoded to retrieve data stored in normal way** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Test SessionManager.save method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **test_client_regress/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **RedirectCycleError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **CustomUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- **encode_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **encode_multipart()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **test_client_regress/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **test_client_regress/auth_backends.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **CustomUserBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **DummyFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **LoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **SessionEngineTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **CustomTestException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **UploadedFileEncodingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_file_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_guesses_content_type_on_file_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_multiple_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_template_rendered_multiple_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_exception_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Exception** (1 connections)
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 455](Community_455.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 258](Community_258.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 125](Community_125.md) (4 shared connections)
+- [Community 167](Community_167.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
+- [Community 507](Community_507.md) (3 shared connections)
+- [Community 606](Community_606.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 126 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

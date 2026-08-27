@@ -1,47 +1,61 @@
 # Community 518
 
-> 17 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **LoginTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_next_page_overrides_login_redirect_url_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check_https()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_session_key_flushed_on_login_after_password_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_current_site_in_context_after_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_get_default_redirect_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_named_next_page_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_next_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_redirect_url_overrides_get_default_redirect_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_redirect_url_overrides_next_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_form_contains_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **To avoid reusing another user's session, ensure a new, empty session is created…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **As above, but same user logging in after a password change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Session without django.contrib.auth.HASH_SESSION_KEY should login without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.settings()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **BaseConnectionHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **check_setting_file_upload_temp_dir()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
+- **FilesCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
+- **BaseConnectionHandlerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
+- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
+- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **get_level_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- **.configure_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.test_file_upload_temp_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
+- **.test_file_upload_temp_dir_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
+- **.test_create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
+- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return the message level tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
 
 ## Relationships
 
-- [Community 228](Community_228.md) (9 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 55](Community_55.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 387](Community_387.md) (2 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
+- [Community 583](Community_583.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
+- [Community 558](Community_558.md) (1 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 544](Community_544.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (86%)
-- INFERRED: 5 (14%)
+- EXTRACTED: 37 (57%)
+- INFERRED: 28 (43%)
 - AMBIGUOUS: 0 (0%)
 
 ---

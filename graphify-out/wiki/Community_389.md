@@ -1,53 +1,58 @@
 # Community 389
 
-> 32 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **TestContextDecoratorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_finders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_second()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_file_upload_directory_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_file_upload_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_media_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_media_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_static_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **object** (2 connections)
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the MEDIA_ROOT setting should be reflected in the base_location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the MEDIA_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the FILE_UPLOAD_PERMISSIONS setting should be reflected in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the FILE_UPLOAD_DIRECTORY_PERMISSIONS setting should be reflected in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding DATABASE_ROUTERS should update the master router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- *... and 7 more nodes in this community*
+- **check_url_config()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **CheckUrlConfigTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **check_url_namespaces_unique()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **get_warning_for_invalid_pattern()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **check_resolver()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **CheckCustomErrorHandlersTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **UpdatedToPathTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **_load_all_namespaces()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **.test_no_root_urlconf_in_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_bad_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_bad_handlers_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_good_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_beginning_with_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_beginning_with_slash_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_check_non_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_check_resolver_recursive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_check_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_contains_included_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_contains_tuple_not_url_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_include_with_dollar()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_name_with_colon()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_no_warnings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_no_warnings_i18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_beginning_with_caret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **.test_contains_re_named_group()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 163](Community_163.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 531](Community_531.md) (1 shared connections)
+- [Community 5](Community_5.md) (18 shared connections)
+- [Community 16](Community_16.md) (15 shared connections)
+- [Community 114](Community_114.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 388](Community_388.md) (2 shared connections)
+- [Community 518](Community_518.md) (2 shared connections)
+- [Community 469](Community_469.md) (1 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 89 (92%)
+- INFERRED: 8 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,54 @@
 # Community 391
 
-> 37 nodes · cohesion 0.08
+> 31 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **WKBWriter** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **WKTWriter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **GEOSIOTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **IOBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **setter** (5 connections)
-- **_WKBReader** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **._handle_empty_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **wkt_w()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.test_empty_point_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **.test_empty_polygon_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.write_hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.test01_wktreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **.test02_wktwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **.test03_wkbreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **.test04_wkbwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **.test_wkt_writer_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **.test_wkt_writer_trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **.test_wktwriter_constructor_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
-- **Return the WKT representation of the given geometry.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.outdim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.srid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- *... and 12 more nodes in this community*
+- **BaseSerializer** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **IterableSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **PathLikeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **PathSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **SettingsReferenceSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **UUIDSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (21 shared connections)
-- [Community 64](Community_64.md) (6 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 43](Community_43.md) (15 shared connections)
+- [Community 641](Community_641.md) (7 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 821](Community_821.md) (1 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (90%)
-- INFERRED: 8 (10%)
+- EXTRACTED: 57 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

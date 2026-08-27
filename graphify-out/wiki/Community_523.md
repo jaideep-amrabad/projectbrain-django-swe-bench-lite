@@ -1,52 +1,45 @@
 # Community 523
 
-> 23 nodes · cohesion 0.13
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Signal** (22 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **._live_receivers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **ModelSignal** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **dispatcher.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.connect()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **._lazy_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **_make_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **._clear_dead_receivers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.send_robust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.connect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Signal subclass that allows the sender to be lazily specified as a string of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **Disconnect receiver from sender for signal. If weak references are used,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Send signal from sender to all connected receivers. If any receiver raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Send signal from sender to all connected receivers catching errors. Arguments:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Filter sequence of receivers to get resolved, live receivers. This checks for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Base class for all signals Internal attributes: receivers { receiverkey (id) :…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Connect receiver to sender for signal. Arguments: receiver A function or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **._remove_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **SimpleListFilter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **DepartmentListFilterLookupWithNonStringValue** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **NotNinetiesListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **DepartmentListFilterLookupWithUnderscoredParameter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Return the value (in string format) provided in the request's query string for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **Must be overridden to return a list of tuples (value, verbose value)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.expected_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.has_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 305](Community_305.md) (5 shared connections)
-- [Community 171](Community_171.md) (3 shared connections)
-- [Community 430](Community_430.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 41](Community_41.md) (5 shared connections)
+- [Community 845](Community_845.md) (3 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

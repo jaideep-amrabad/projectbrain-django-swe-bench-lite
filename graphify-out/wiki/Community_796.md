@@ -1,37 +1,35 @@
 # Community 796
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **NullBooleanSelectTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_unknown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **The NullBooleanSelect widget's options are lazily localized (#17190).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **MyAutoField** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **MyWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.get_db_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 359](Community_359.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

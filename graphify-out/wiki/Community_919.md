@@ -1,42 +1,27 @@
 # Community 919
 
-> 18 nodes · cohesion 0.11
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **AlterModelTable** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RemoveConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Rename a model's table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **multi_table.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **ParentManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (5 shared connections)
-- [Community 503](Community_503.md) (3 shared connections)
-- [Community 642](Community_642.md) (2 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

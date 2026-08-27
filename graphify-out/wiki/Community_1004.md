@@ -1,26 +1,26 @@
 # Community 1004
 
-> 5 nodes · cohesion 0.60
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **BuiltinsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **setup** (3 connections)
-- **.test_builtins01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **.test_builtins02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **.test_builtins03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **DatabaseWrapperTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_initialization_class_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_initialization_display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **The "initialization" class attributes like client_class and creation_class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

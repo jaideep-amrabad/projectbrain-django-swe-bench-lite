@@ -1,60 +1,52 @@
 # Community 113
 
-> 75 nodes · cohesion 0.04
+> 80 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **EmailMessage** (75 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **MailTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_decoded_attachments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.send()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_non_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_utf8_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_message_header_overrides()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.recipients()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_text_as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_MIMEText()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_two_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_cc()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_dummy_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_from_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_multiple_message_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_attachment_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_dns_non_unicode_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_recipients_with_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_reply_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_space_continuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 50 more nodes in this community*
+- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_field()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **_date_from_string()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_list()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseWeekArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseYearArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_month()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_week()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year_format()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._make_date_lookup_arg()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._make_single_date_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_month()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return (date_list, items, extra_context) for this request.** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_year()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_month_format()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 168](Community_168.md) (15 shared connections)
-- [Community 340](Community_340.md) (13 shared connections)
-- [Community 470](Community_470.md) (6 shared connections)
-- [Community 957](Community_957.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 167](Community_167.md) (2 shared connections)
-- [Community 674](Community_674.md) (2 shared connections)
-- [Community 463](Community_463.md) (2 shared connections)
-- [Community 1011](Community_1011.md) (2 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 53](Community_53.md) (42 shared connections)
+- [Community 7](Community_7.md) (12 shared connections)
+- [Community 161](Community_161.md) (3 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 915](Community_915.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 165 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 191 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

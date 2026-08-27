@@ -1,36 +1,29 @@
 # Community 908
 
-> 9 nodes · cohesion 0.22
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **template_tests/views.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **template_response_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **.test_full_dec_templateresponse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **snark()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **client2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **client_action()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **All methods of middleware are called for TemplateResponses in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **DeprecatedFieldsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **.test_postgres_jsonfield_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **.test_CommaSeparatedIntegerField_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **.test_IPAddressField_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **.test_nullbooleanfield_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 89](Community_89.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

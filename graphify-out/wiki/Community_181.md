@@ -1,53 +1,63 @@
 # Community 181
 
-> 56 nodes · cohesion 0.04
+> 54 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FileStorageTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._test_file_time_getter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._test_file_time_getter_tz_handling_off()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._test_file_time_getter_tz_handling_on()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **CustomStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **DiscardingFalseContentStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_chunks_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_get_accessed_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_get_created_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_get_modified_time_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_save_with_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_save_without_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_listdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_makedirs_race_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_remove_race_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_setting_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **OverwritingStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_save_overwrite_behavior()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **requires_tz_support** (3 connections)
-- **.test_custom_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_custom_storage_discarding_empty_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- *... and 31 more nodes in this community*
+- **get_resolver()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **LocaleRegexDescriptorTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- **ResolverTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **test_resolvers.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **RoutePattern** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._check_pattern_startswith_slash()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **_route_to_regex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **CheckURLMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.describe()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._check_include_trailing_dollar()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.test_populate_concurrency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **RegexPatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **RoutePatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **LocaleRegexDescriptorPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- **.test_regex_compile_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- **.test_404_tried_urls_have_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_non_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_resolver_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_resolver_reverse_conflict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_reverse_lazy_object_coercion_by_resolve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **ResolverCacheTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **.test_resolver_cache_default__root_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 241](Community_241.md) (15 shared connections)
-- [Community 126](Community_126.md) (5 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 261](Community_261.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 114](Community_114.md) (16 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 138](Community_138.md) (5 shared connections)
+- [Community 16](Community_16.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 168](Community_168.md) (3 shared connections)
+- [Community 230](Community_230.md) (3 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 86 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 133 (95%)
+- INFERRED: 7 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

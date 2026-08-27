@@ -1,78 +1,76 @@
 # Community 4
 
-> 357 nodes · cohesion 0.01
+> 254 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **override_settings** (1339 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SMTPBackendTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **DebugViewTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **MiddlewareTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **TestDefaultPK** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_pk.py`
-- **MiddlewareSyncAsyncTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **LoginURLSettings** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **RequestURLconfTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **UserModelChecksTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **TestMiscFinder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- **CheckSecretKeyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **FlatpageModelTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **AsyncMiddlewareTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **SelectingBackendTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.assertLoginURLEquals()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **DefaultLoggingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **MiddlewareNotUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **CacheDBSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **SecureProxySslHeaderTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **CheckCSRFCookieSecureTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **CheckReferrerPolicyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **CheckSessionCookieHttpOnlyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **CheckStrictTransportSecurityPreloadTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **CheckStrictTransportSecuritySubdomainsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **DebugContextProcessorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- *... and 332 more nodes in this community*
+- **defaulttags.py** (82 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **tag()** (70 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Node** (45 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Node** (21 connections)
+- **loader_tags.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **InclusionAdminNode** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- **ExtendsNode** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **NodeList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **IfNode** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **admin_modify.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **render_value_in_context()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **ForNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **WithNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **TextNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **token_kwargs()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **TagHelperNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **BlockNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **submit_row()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **templatetags/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- **VariableNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **AutoEscapeControlNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **CycleNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **IfChangedNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **RegroupNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **WidthRatioNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- *... and 229 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (62 shared connections)
-- [Community 9](Community_9.md) (58 shared connections)
-- [Community 6](Community_6.md) (56 shared connections)
-- [Community 0](Community_0.md) (52 shared connections)
-- [Community 126](Community_126.md) (34 shared connections)
-- [Community 1](Community_1.md) (31 shared connections)
-- [Community 14](Community_14.md) (29 shared connections)
-- [Community 176](Community_176.md) (27 shared connections)
-- [Community 12](Community_12.md) (25 shared connections)
-- [Community 234](Community_234.md) (23 shared connections)
-- [Community 103](Community_103.md) (23 shared connections)
-- [Community 51](Community_51.md) (20 shared connections)
+- [Community 8](Community_8.md) (56 shared connections)
+- [Community 204](Community_204.md) (18 shared connections)
+- [Community 845](Community_845.md) (13 shared connections)
+- [Community 752](Community_752.md) (13 shared connections)
+- [Community 753](Community_753.md) (10 shared connections)
+- [Community 133](Community_133.md) (9 shared connections)
+- [Community 25](Community_25.md) (9 shared connections)
+- [Community 10](Community_10.md) (7 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 345](Community_345.md) (5 shared connections)
+- [Community 154](Community_154.md) (4 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
 - `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_pk.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1800 (99%)
-- INFERRED: 11 (1%)
+- EXTRACTED: 521 (86%)
+- INFERRED: 84 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

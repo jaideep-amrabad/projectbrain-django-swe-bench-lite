@@ -1,56 +1,52 @@
 # Community 222
 
-> 47 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **RelatedGeoModelTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **relatedapp/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **relatedapp/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **SimpleModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **Location** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **City** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **Parcel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **.test_related_union_aggregate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **DirectoryEntry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **.test12a_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test13c_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test06_f_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test12b_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test16_annotated_date_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test_07b_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **AugmentedLocation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- **Testing `Count` aggregate on geo-fields.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test02_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test05_select_related_fk_to_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test07_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- **.test08_defer_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
-- *... and 22 more nodes in this community*
+- **HTTPSitemapTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_localized_priority()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_i18n_sitemap_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_i18n_sitemap_xdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_custom_sitemap()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap_custom_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_cached_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_paged_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_requestsite_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap_section()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_not_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemaps_lastmod_ascending()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemaps_lastmod_descending()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemaps_lastmod_mixed_ascending_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemaps_lastmod_mixed_descending_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **The Last-Modified header is omitted when lastmod isn't found in all sitemaps.…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (7 shared connections)
-- [Community 97](Community_97.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 451](Community_451.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 316](Community_316.md) (2 shared connections)
+- [Community 139](Community_139.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (88%)
-- INFERRED: 12 (12%)
+- EXTRACTED: 65 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,33 @@
 # Community 893
 
-> 6 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.page()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a valid page, even if the page argument isn't a number or isn't in range.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a Page object for the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return an instance of a single page. This hook can be used by subclasses to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Account** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **BarAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FooAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **BarAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FooAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A simple, generic account encapsulating the information shared by all types of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A service-specific account of type Foo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A service-specific account of type Bar.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 311](Community_311.md) (3 shared connections)
-- [Community 451](Community_451.md) (2 shared connections)
-- [Community 559](Community_559.md) (1 shared connections)
+- [Community 71](Community_71.md) (4 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

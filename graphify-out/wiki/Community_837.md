@@ -1,43 +1,31 @@
 # Community 837
 
-> 11 nodes · cohesion 0.18
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **setup** (45 connections)
-- **.test_inheritance05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance25()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_duplicate_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Two-level with double quotes instead of single quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context with variable parent template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **FileStoragePathParsing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_directory_with_dot()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_first_character_dot()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Regression test for #9610. If the directory name contains a dot and the file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **File names with a dot as their first character don't have an extension, and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 872](Community_872.md) (15 shared connections)
-- [Community 1121](Community_1121.md) (2 shared connections)
-- [Community 1122](Community_1122.md) (2 shared connections)
-- [Community 1163](Community_1163.md) (1 shared connections)
-- [Community 1164](Community_1164.md) (1 shared connections)
-- [Community 1165](Community_1165.md) (1 shared connections)
-- [Community 1166](Community_1166.md) (1 shared connections)
-- [Community 1167](Community_1167.md) (1 shared connections)
-- [Community 1168](Community_1168.md) (1 shared connections)
-- [Community 1169](Community_1169.md) (1 shared connections)
-- [Community 1170](Community_1170.md) (1 shared connections)
-- [Community 1171](Community_1171.md) (1 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

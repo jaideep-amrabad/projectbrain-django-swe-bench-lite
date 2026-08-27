@@ -1,60 +1,54 @@
 # Community 221
 
-> 49 nodes · cohesion 0.08
+> 54 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **QueryDict** (64 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **QueryDictTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **._assert_mutable()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.fromkeys()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **bytes_to_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.appendlist()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__setitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.setlist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_duplicates_in_fromkeys_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_empty_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_mutable_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_with_nondefault_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_with_nonempty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_multiple_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_mutable_copy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_non_default_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_querydict_fromkeys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_single_key_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_update_from_querydict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- *... and 24 more nodes in this community*
+- **TestInline** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_min_num()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_localize_pk_shortcut()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_callable_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_can_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_create_inlines_on_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_form_tabular_inline_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_form_tabular_inline_overridden_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_pk_shortcut()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_hidden_field_no_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_show_change_link_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_show_change_link_unregistered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_many_to_many_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_no_parent_callable_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_non_related_name_inline()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_noneditable_inline_has_field_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_tabular_inline_column_css_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_tabular_inline_show_change_link_false_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_tabular_model_form_meta_readonly_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_tabular_non_field_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_form_tabular_inline_extra_field_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_get_extra_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_editable_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (10 shared connections)
-- [Community 361](Community_361.md) (3 shared connections)
-- [Community 200](Community_200.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 109](Community_109.md) (2 shared connections)
-- [Community 398](Community_398.md) (1 shared connections)
-- [Community 201](Community_201.md) (1 shared connections)
-- [Community 539](Community_539.md) (1 shared connections)
-- [Community 508](Community_508.md) (1 shared connections)
-- [Community 247](Community_247.md) (1 shared connections)
-- [Community 99](Community_99.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 14](Community_14.md) (32 shared connections)
+- [Community 39](Community_39.md) (20 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 793](Community_793.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 123 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (84%)
+- INFERRED: 18 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,65 +1,49 @@
 # Community 136
 
-> 67 nodes · cohesion 0.04
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **OGRGeomType** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- **MySQLGISSchemaEditor** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **DatabaseFeatures** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Polygon** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **MySQLIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.centroid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- **.test_geomtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.test_geomtype_25d()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.column_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **._create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- *... and 42 more nodes in this community*
+- **GenericInlineFormsetTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **generic_inlineformset_factory()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- **.test_get_queryset_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_incorrect_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_meta_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_save_as_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_absolute_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_absolute_max_with_max_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_can_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_disable_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_initial_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_save_new_for_concrete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_save_new_for_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_save_new_uses_form_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **Return a ``GenericInlineFormSet`` for the given kwargs. You must provide…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- **BaseGenericInlineFormSet.get_queryset() adds default ordering, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **TaggedItemForm has a widget defined in Meta.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **The save_as_new parameter creates new items that are associated with the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
 
 ## Relationships
 
-- [Community 27](Community_27.md) (10 shared connections)
-- [Community 70](Community_70.md) (9 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 82](Community_82.md) (3 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 97](Community_97.md) (2 shared connections)
-- [Community 345](Community_345.md) (2 shared connections)
-- [Community 536](Community_536.md) (2 shared connections)
-- [Community 390](Community_390.md) (2 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
-- [Community 740](Community_740.md) (1 shared connections)
-- [Community 640](Community_640.md) (1 shared connections)
+- [Community 146](Community_146.md) (7 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (91%)
-- INFERRED: 11 (9%)
+- EXTRACTED: 43 (88%)
+- INFERRED: 6 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

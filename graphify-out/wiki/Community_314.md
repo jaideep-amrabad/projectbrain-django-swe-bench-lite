@@ -1,50 +1,61 @@
 # Community 314
 
-> 38 nodes · cohesion 0.07
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **DatabaseOperations** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **._convert_field_to_tz()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_datefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_decimalfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_ipaddressfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.distinct_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- *... and 13 more nodes in this community*
+- **RelatedField** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **SettingsReference** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.check()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **._check_clashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.related_query_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_related_query_name_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.swappable_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.delete_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.get_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.is_cached()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.set_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_referencing_to_swapped_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_related_name_is_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_relation_model_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_forward_related_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **str** (1 connections)
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 299](Community_299.md) (2 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 298](Community_298.md) (5 shared connections)
+- [Community 297](Community_297.md) (4 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 104](Community_104.md) (2 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 79 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

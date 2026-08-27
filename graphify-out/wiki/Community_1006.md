@@ -1,27 +1,30 @@
 # Community 1006
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **AssertWarnsMessageTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_context_manager_failure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_special_re_chars()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **requires_tz_support** (1 connections)
+- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

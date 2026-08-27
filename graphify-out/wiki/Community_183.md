@@ -1,59 +1,55 @@
 # Community 183
 
-> 47 nodes · cohesion 0.06
+> 55 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **fields/ranges.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **PostgresOperatorLookup** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **RangeField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DateTimeRangeContains** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeContainedBy** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **AdjacentToLookup** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **BigIntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DateRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DateTimeRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DecimalRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **FullGreaterThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **FullyLessThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **IntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **NotGreaterThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **NotLessThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeStartsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **fields/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **IsEmpty** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **LowerInclusive** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **LowerInfinite** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- *... and 22 more nodes in this community*
+- **Envelope** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **OGREnvelope** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **EnvelopeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.__eq__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.expand_to_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **._from_sequence()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.envelope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.extent()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test02_properties()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test03_equivalence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test07_expand_to_include_envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test08_expand_to_include_point()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **TestPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.ll()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.max_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.max_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.min_x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.min_y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.ur()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **.wkt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- **Return the value of the maximum X coordinate.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 69](Community_69.md) (12 shared connections)
-- [Community 306](Community_306.md) (8 shared connections)
-- [Community 84](Community_84.md) (5 shared connections)
-- [Community 326](Community_326.md) (4 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 370](Community_370.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
-- [Community 199](Community_199.md) (1 shared connections)
+- [Community 65](Community_65.md) (14 shared connections)
+- [Community 29](Community_29.md) (3 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 98](Community_98.md) (2 shared connections)
+- [Community 158](Community_158.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 81 (91%)
+- INFERRED: 8 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

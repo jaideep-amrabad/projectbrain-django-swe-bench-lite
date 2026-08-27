@@ -1,40 +1,34 @@
 # Community 686
 
-> 15 nodes · cohesion 0.16
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DjangoAdminMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: django-admin builtin commands fail if settings are provided as argument** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: django-admin can't execute user commands, even if settings are…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for django-admin when using a settings.py file that doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: django-admin builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: django-admin can't execute user commands unless settings are provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config_empty_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config_mismatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config_without_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that specifies a default AppConfig class matching the autodetected…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that specifies a default AppConfig class not matching the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that specifies a default AppConfig class in __init__ and have an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that specifies a default AppConfig class in __init__ and do not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Relationships
 
-- [Community 83](Community_83.md) (16 shared connections)
-- [Community 170](Community_170.md) (8 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 295](Community_295.md) (1 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

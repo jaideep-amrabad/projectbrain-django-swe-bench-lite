@@ -1,57 +1,26 @@
 # Community 1088
 
-> 33 nodes · cohesion 0.08
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **OtherModelFormTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Inventory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_image_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ImageFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **OptionalImageFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **CustomErrorMessageForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelFormWithMedia** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ArticleStatusForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **CustomFieldForExclusionForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **InventoryForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelFormCustomErrorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **NoExtensionImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **OptionalImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_foreignkeys_which_use_to_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_choices_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **SelectInventoryForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_error_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_clean_error_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_media_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_field_that_returns_none_to_exclude_itself_with_explicit_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_prefetch_related_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.custom_upload_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- *... and 8 more nodes in this community*
+- **WriteToStdoutStderrTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **tests_buffer.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **.test_fail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **.test_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (26 shared connections)
-- [Community 492](Community_492.md) (6 shared connections)
-- [Community 193](Community_193.md) (6 shared connections)
-- [Community 397](Community_397.md) (5 shared connections)
-- [Community 231](Community_231.md) (3 shared connections)
-- [Community 564](Community_564.md) (2 shared connections)
-- [Community 524](Community_524.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (85%)
-- INFERRED: 14 (15%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

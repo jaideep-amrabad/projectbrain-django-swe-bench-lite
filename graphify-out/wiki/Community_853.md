@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **Run Python code in a context suitable for doing versioned ORM operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.noop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **DummyCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **cache/backends/dummy.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.set()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.touch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
 
 ## Relationships
 
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
+- [Community 276](Community_276.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
 
 ## Audit Trail
 

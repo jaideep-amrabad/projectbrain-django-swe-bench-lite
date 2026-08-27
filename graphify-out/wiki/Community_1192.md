@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_empty_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST an empty dictionary to a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_form_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST erroneous data to a form** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 573](Community_573.md) (1 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
 
 ## Source Files
 

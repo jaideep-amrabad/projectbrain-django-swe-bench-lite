@@ -1,50 +1,61 @@
 # Community 308
 
-> 21 nodes · cohesion 0.11
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.base_location()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A base static files finder to be used to extended with an own storage class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the default file storage, if it's local.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files of the storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that uses the default storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that uses the ``STATICFILES_DIRS`` setting to locate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the extra locations as defined in STATICFILES_DIRS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **InteractiveMigrationQuestioner** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.handle()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **QuestionerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._choice_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_timedelta_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_ask_initial_with_disabled_migrations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_auto_now_add_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_alteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_rename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_rename_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Adding a NOT NULL field to a model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Changing a NULL field to NOT NULL.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 230](Community_230.md) (3 shared connections)
-- [Community 712](Community_712.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 751](Community_751.md) (1 shared connections)
-- [Community 720](Community_720.md) (1 shared connections)
+- [Community 17](Community_17.md) (11 shared connections)
+- [Community 43](Community_43.md) (6 shared connections)
+- [Community 104](Community_104.md) (3 shared connections)
+- [Community 106](Community_106.md) (3 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 394](Community_394.md) (1 shared connections)
+- [Community 233](Community_233.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (87%)
-- INFERRED: 5 (13%)
+- EXTRACTED: 77 (87%)
+- INFERRED: 12 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

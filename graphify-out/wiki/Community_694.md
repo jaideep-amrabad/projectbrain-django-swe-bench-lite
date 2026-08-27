@@ -1,34 +1,40 @@
 # Community 694
 
-> 11 nodes · cohesion 0.42
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ExecuteWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.mock_wrapper()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_nested_wrapper_invoked()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.call_execute()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.call_executemany()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_database_queried()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_connection_specific()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_invoked()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_invoked_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_outer_wrapper_blocks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_gets_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **DecimalFieldTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_localized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_support_decimal_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_support_thousands_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_widget_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_decimalfield_scientific()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.test_enter_a_number_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **A localized DecimalField's widget renders to a text input without number input…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
 
 ## Relationships
 
-- [Community 103](Community_103.md) (6 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (81%)
-- INFERRED: 6 (19%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

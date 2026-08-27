@@ -1,39 +1,48 @@
 # Community 564
 
-> 13 nodes · cohesion 0.18
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **LimitChoicesToTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **StumpJokeForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **StumpJokeWithCustomFieldForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_field_with_queryset_but_no_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_limit_choices_to_callable_for_fk_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_limit_choices_to_callable_for_m2m_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_callable_called_each_time_form_is_instantiated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_limit_choices_to_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Tests the functionality of ``limit_choices_to``.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A ForeignKey can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A ManyToManyField can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A custom field with a `queryset` attribute but no `limit_choices_to` works…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **DatabaseCreationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **DatabaseCreation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.check_sql_table_creation_suffix()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._get_database_create_suffix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._database_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._execute_create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.changed_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._execute_raise_database_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._execute_raise_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.patch_test_db_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_encoding_and_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_none_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 93](Community_93.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 1088](Community_1088.md) (2 shared connections)
-- [Community 524](Community_524.md) (1 shared connections)
-- [Community 492](Community_492.md) (1 shared connections)
+- [Community 229](Community_229.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 41 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

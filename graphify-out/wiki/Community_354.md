@@ -1,52 +1,62 @@
 # Community 354
 
-> 35 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **LazyObjectTestCase** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.lazy_wrap()** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Foo** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_copy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_copy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_deepcopy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_deepcopy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_delattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_getattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_setattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_setattr2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.lazy_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_cmp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_copy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_copy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_deepcopy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_deepcopy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_delitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- *... and 10 more nodes in this community*
+- **modelform_factory()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **FormFieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_empty_fields_to_construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_baseform_with_widgets_in_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_callback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_factory_with_widget_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_factory_with_all_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_setattr_raises_validation_error_field_specific()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_setattr_raises_validation_error_non_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_editable_generic_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- **.test_modelform_factory_metaclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_bad_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherit_after_custom_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_extra_field_modelform_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_blank_null_unique_charfield_saves_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #19733** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return a ModelForm containing form fields for the given model. You can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **No fields should be set on a model instance if construct_instance receives…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #13095: Using base forms with widgets defined in Meta should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #15315: modelform_factory should accept widgets argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A custom formfield_callback is used if provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 286](Community_286.md) (7 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 509](Community_509.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 88](Community_88.md) (8 shared connections)
+- [Community 147](Community_147.md) (4 shared connections)
+- [Community 281](Community_281.md) (3 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 396](Community_396.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 61 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,53 @@
 # Community 191
 
-> 28 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **TranslationTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **ngettext_lazy()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **npgettext_lazy()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **get_language_bidi()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **lazy_number()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **npgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_empty_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_multiple_plurals_per_language()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ngettext_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ngettext_lazy_format_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_pgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **i18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **.test_language_bidi_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_maclines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_plural()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **_lazy_number_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_language_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_lazy_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ngettext_lazy_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ngettext_lazy_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_plural_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_to_locale()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Format string interpolation should work with *_lazy objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Empty value must stay empty after being translated (#23196).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Translations on files with Mac or DOS end of lines will be converted to unix…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- *... and 3 more nodes in this community*
+- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **SerializeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_field_save_and_delete_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_image_after_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Dimensions are updated correctly in various situations.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_field_save_and_delete_methods()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Enforce serialization of TestCases that share a common resource. Define a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Tests assigning an image field through the model's constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests behavior when image is not passed in constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests assigning an image in Manager.create().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Assigning ImageField to None clears dimensions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests assignment using the field's save method and deletion using the field's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Mixin class to provide common functionality to ImageField test classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (18 shared connections)
-- [Community 142](Community_142.md) (9 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 279](Community_279.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 767](Community_767.md) (14 shared connections)
+- [Community 917](Community_917.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 758](Community_758.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 50 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

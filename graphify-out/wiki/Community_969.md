@@ -1,29 +1,31 @@
 # Community 969
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **CacheHandlerTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_nonexistent_backend()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_per_thread()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_same_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_nonexistent_alias()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Attempting to retrieve the same alias should yield the same instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Requesting the same alias from separate threads should yield separate instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **FileSaveRaceConditionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **SlowFile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.save_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_race_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.chunks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

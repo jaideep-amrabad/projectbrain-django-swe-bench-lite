@@ -1,32 +1,31 @@
 # Community 836
 
-> 11 nodes · cohesion 0.31
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **ForceEscapeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **setup** (8 connections)
-- **.test_force_escape01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **Force_escape is applied immediately. It can be used to provide double-escaping,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **LoginRedirectUrlTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.assertLoginRedirectURLEqual()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_custom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_named()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_remote()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Tests for settings.LOGIN_REDIRECT_URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 646](Community_646.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

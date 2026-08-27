@@ -1,32 +1,27 @@
 # Community 978
 
-> 7 nodes · cohesion 0.29
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **Publication** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_reverse_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **TruncatecharsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- **setup** (3 connections)
+- **.test_fail_silently_incorrect_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- **.test_truncatechars01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- **.test_truncatechars02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
 
 ## Relationships
 
-- [Community 438](Community_438.md) (4 shared connections)
-- [Community 797](Community_797.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

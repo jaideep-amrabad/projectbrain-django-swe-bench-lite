@@ -1,55 +1,63 @@
 # Community 140
 
-> 65 nodes · cohesion 0.04
+> 65 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **DatabaseOperations** (64 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **._convert_field_to_tz()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **._get_no_autofield_sequence_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.quote_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **InsertVar** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **.sequence_reset_by_name_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.sequence_reset_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.adapt_datetimefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **._get_sequence_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.last_insert_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.max_name_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.return_insert_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.from_datetime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **.adapt_datefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.adapt_timefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.combine_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.convert_binaryfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **ExceptionReporter** (54 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **ExceptionReporterTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **PlainTextReportTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.get_exception_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.compile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_encoding_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_ignore_traceback_evaluation_exceptions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_local_variable_escaping()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_and_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_and_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_template_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **._get_explicit_or_implicit_cause()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- **.test_eol_support()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_exception_fetching_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_no_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_no_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_non_utf8_values_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (17 shared connections)
-- [Community 70](Community_70.md) (3 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 290](Community_290.md) (1 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
+- [Community 76](Community_76.md) (8 shared connections)
+- [Community 687](Community_687.md) (4 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 455](Community_455.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 167](Community_167.md) (2 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 697](Community_697.md) (1 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (94%)
-- INFERRED: 7 (6%)
+- EXTRACTED: 136 (94%)
+- INFERRED: 8 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

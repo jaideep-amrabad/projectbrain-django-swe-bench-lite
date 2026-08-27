@@ -4,25 +4,23 @@
 
 ## Key Concepts
 
-- **TransactionsPerRequestTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_auto_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_auto_transaction_async_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_no_auto_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_no_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **TestSingleEnclosureAtomFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **A feed to test that Atom feeds work with a single enclosure.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_enclosure_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_enclosure_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_mime_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 178](Community_178.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,34 @@
 # Community 915
 
-> 8 nodes · cohesion 0.46
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **check_url_settings()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckURLSettingsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **E006()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **.test_media_url_no_slash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_static_url_no_slash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_empty_string_no_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_slash_no_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_static_url_double_slash_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **SiteManager** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.get_current()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **._get_site_by_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **._get_site_by_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **Return the current Site based on the SITE_ID in the project's settings. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **Clear the ``Site`` object cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 496](Community_496.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
+- [Community 113](Community_113.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

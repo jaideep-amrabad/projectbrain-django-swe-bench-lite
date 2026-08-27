@@ -1,53 +1,53 @@
 # Community 192
 
-> 29 nodes · cohesion 0.08
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **SerializeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_field_save_and_delete_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_image_after_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Dimensions are updated correctly in various situations.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_field_save_and_delete_methods()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Enforce serialization of TestCases that share a common resource. Define a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Tests assigning an image field through the model's constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Tests behavior when image is not passed in constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Tests assigning an image in Manager.create().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Assigning ImageField to None clears dimensions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Tests assignment using the field's save method and deletion using the field's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Mixin class to provide common functionality to ImageField test classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- *... and 4 more nodes in this community*
+- **UniqueTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **DerivedBookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ExplicitPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **PriceForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ProductForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **PostForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_explicitpk_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_explicitpk_unspecified()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherited_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_together_exclusion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_blank_foreign_key_with_radio()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_renderer_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_abstract_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_abstract_inherited_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherited_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_multiple_field_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_simple_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_for_date_in_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Test for primary_key being in the form and failing validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Ensure keys and blank character strings are tested for uniqueness.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 767](Community_767.md) (14 shared connections)
-- [Community 916](Community_916.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 790](Community_790.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 88](Community_88.md) (23 shared connections)
+- [Community 1078](Community_1078.md) (6 shared connections)
+- [Community 281](Community_281.md) (2 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 58 (78%)
+- INFERRED: 16 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

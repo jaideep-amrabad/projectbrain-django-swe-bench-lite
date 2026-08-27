@@ -1,43 +1,45 @@
 # Community 559
 
-> 19 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Page** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **.has_other_pages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.end_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.has_next()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.has_previous()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.start_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **._get_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **Page** (1 connections)
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return the 1-based index of the first object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return the 1-based index of the last object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **BaseMemcachedCache** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.validate_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get_backend_timeout()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.set_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.touch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.touch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **._cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.decr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.client_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **Implement transparent thread-safe access to a memcached client.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **Memcached deals with long (> 30 days) timeouts in a special way. Call this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
 
 ## Relationships
 
-- [Community 451](Community_451.md) (4 shared connections)
-- [Community 893](Community_893.md) (1 shared connections)
+- [Community 715](Community_715.md) (7 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 276](Community_276.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 45 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

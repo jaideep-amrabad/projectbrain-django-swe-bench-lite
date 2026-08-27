@@ -1,54 +1,60 @@
 # Community 229
 
-> 48 nodes · cohesion 0.08
+> 48 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **TestStatisticsAggregate** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **StatAggregate** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **statistics.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **CovarPop** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrAvgX** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrCount** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **aggregates/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/__init__.py`
-- **Corr** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrAvgY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrIntercept** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrR2** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSlope** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSXX** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSXY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSYY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.test_covar_pop_general()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_regr_avgx_with_related_obj_and_number_as_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.test_corr_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_corr_general()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_correct_source_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_sample_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **BaseDatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.create_test_db()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **TestDbCreationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.destroy_test_db()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **get_connection_copy()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.clone_test_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **TestDbSignatureTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **._get_database_display_str()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.test_mark_expected_failures_and_skips_call()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **._get_test_db_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.log()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.mark_expected_failures_and_skips()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **TestMarkTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.get_test_db_clone_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **._nodb_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.serialize_db_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.sql_table_creation_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.test_db_signature()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.test_custom_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_custom_test_name_with_test_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_default_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_mark_expected_failures_and_skips()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.deserialize_db_from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **._execute_create_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.set_as_test_mirror()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
 - *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 74](Community_74.md) (6 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 27](Community_27.md) (5 shared connections)
+- [Community 678](Community_678.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 682](Community_682.md) (2 shared connections)
+- [Community 564](Community_564.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 311](Community_311.md) (1 shared connections)
+- [Community 886](Community_886.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (70%)
-- INFERRED: 29 (30%)
+- EXTRACTED: 94 (91%)
+- INFERRED: 9 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

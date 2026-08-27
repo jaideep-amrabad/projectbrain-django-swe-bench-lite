@@ -1,59 +1,49 @@
 # Community 250
 
-> 44 nodes · cohesion 0.06
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **HttpResponseBase** (36 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **OSError** (6 connections)
-- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **setter** (5 connections)
-- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **ValueError** (3 connections)
-- **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.test_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- *... and 19 more nodes in this community*
+- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **sys_path_directories()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._check_subscription()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._subscribe_dir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._watch_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._get_clock()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Return a tuple of common roots that are shared between the given paths. File…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Yield absolute directories from sys.path, ignoring entries that don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Watch a directory with a specific glob. If the directory doesn't yet exist,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Return True if the server is available.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Return the most suitable reloader for this environment.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.client()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.request_processed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 121](Community_121.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 377](Community_377.md) (1 shared connections)
-- [Community 843](Community_843.md) (1 shared connections)
-- [Community 319](Community_319.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 890](Community_890.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 378](Community_378.md) (6 shared connections)
+- [Community 125](Community_125.md) (5 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 431](Community_431.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 48 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

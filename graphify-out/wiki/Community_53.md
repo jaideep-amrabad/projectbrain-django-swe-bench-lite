@@ -1,74 +1,67 @@
 # Community 53
 
-> 121 nodes · cohesion 0.03
+> 106 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **django/forms/fields.py** (84 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **django/forms/widgets.py** (75 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **forms/models.py** (69 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **formsets.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Input** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **ClearableFileInput** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **FileInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **HiddenInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **CheckboxInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Textarea** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SelectMultiple** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **MultipleHiddenInput** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SplitDateTimeWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **to_current_timezone()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **NullBooleanSelect** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **NumberInput** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **NullBooleanFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- **all_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **DateTimeBaseInput** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **RadioSelect** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **DeclarativeFieldsMetaclass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 96 more nodes in this community*
+- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **View** (42 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **generic/__init__.py** (41 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- **edit.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **generic/base.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **detail.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **MultipleObjectMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **SingleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **TemplateResponseMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **SingleObjectMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **ContextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDetailView** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseListView** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **CreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
-- [Community 41](Community_41.md) (29 shared connections)
-- [Community 23](Community_23.md) (20 shared connections)
-- [Community 156](Community_156.md) (19 shared connections)
-- [Community 13](Community_13.md) (17 shared connections)
-- [Community 79](Community_79.md) (17 shared connections)
-- [Community 126](Community_126.md) (16 shared connections)
-- [Community 137](Community_137.md) (16 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 843](Community_843.md) (12 shared connections)
-- [Community 26](Community_26.md) (10 shared connections)
-- [Community 5](Community_5.md) (7 shared connections)
-- [Community 379](Community_379.md) (6 shared connections)
+- [Community 113](Community_113.md) (42 shared connections)
+- [Community 7](Community_7.md) (30 shared connections)
+- [Community 84](Community_84.md) (18 shared connections)
+- [Community 94](Community_94.md) (17 shared connections)
+- [Community 54](Community_54.md) (14 shared connections)
+- [Community 416](Community_416.md) (10 shared connections)
+- [Community 161](Community_161.md) (8 shared connections)
+- [Community 128](Community_128.md) (6 shared connections)
+- [Community 18](Community_18.md) (5 shared connections)
+- [Community 105](Community_105.md) (5 shared connections)
+- [Community 154](Community_154.md) (5 shared connections)
+- [Community 443](Community_443.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 432 (89%)
-- INFERRED: 52 (11%)
+- EXTRACTED: 389 (98%)
+- INFERRED: 7 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

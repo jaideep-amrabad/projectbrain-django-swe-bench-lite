@@ -1,46 +1,61 @@
 # Community 227
 
-> 17 nodes · cohesion 0.12
+> 68 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **FileBasedCacheTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FileBasedCachePathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_dir_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_clear_does_not_remove_cache_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_creates_cache_dir_if_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_empty_cache_file_considered_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_does_not_ignore_non_filenotfound_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_ignores_enoent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_ignores_non_cache_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **skipIf** (1 connections)
-- **Specific test cases for the file-based cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **FileSystemStorage** (53 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Storage** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_available_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._save()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._datetime_from_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._value_or_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_valid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **CallableStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **CustomValidNameStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **CustomStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **DiscardingFalseContentStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **FileSystemStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_lazy_base_url_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._clear_cached_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 302](Community_302.md) (1 shared connections)
-- [Community 608](Community_608.md) (1 shared connections)
-- [Community 1070](Community_1070.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
+- [Community 161](Community_161.md) (11 shared connections)
+- [Community 236](Community_236.md) (4 shared connections)
+- [Community 306](Community_306.md) (3 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 1036](Community_1036.md) (1 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
+- [Community 969](Community_969.md) (1 shared connections)
+- [Community 837](Community_837.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 132 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

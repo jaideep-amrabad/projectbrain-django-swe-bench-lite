@@ -1,45 +1,47 @@
 # Community 517
 
-> 23 nodes · cohesion 0.14
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CacheTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **setup** (15 connections)
-- **.test_cache08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_none_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Regression test for #11270.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Test whitespace in filter arguments** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **A timeout of None means "cache forever".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Allow first argument to be a variable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Regression test for #7460.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **LoginTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_next_page_overrides_login_redirect_url_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check_https()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_session_key_flushed_on_login_after_password_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_current_site_in_context_after_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_get_default_redirect_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_named_next_page_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_next_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_redirect_url_overrides_get_default_redirect_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_redirect_url_overrides_next_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_form_contains_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **To avoid reusing another user's session, ensure a new, empty session is created…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **As above, but same user logging in after a password change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Session without django.contrib.auth.HASH_SESSION_KEY should login without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 225](Community_225.md) (9 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 646](Community_646.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 32 (86%)
+- INFERRED: 5 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

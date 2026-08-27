@@ -1,58 +1,52 @@
 # Community 202
 
-> 52 nodes · cohesion 0.09
+> 51 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BulkCreateTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NoFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NullableFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_nullable_fk_after_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **BigAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- *... and 27 more nodes in this community*
+- **BaseModelAdminChecks** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **must_be()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **refer_to_missing_field()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fieldsets_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_radio_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_autocomplete_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_autocomplete_fields_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_field_spec()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fieldsets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_horizontal()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_vertical()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_raw_id_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_raw_id_fields_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_readonly_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_ordering_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_value_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_radio_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 24](Community_24.md) (17 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
+- [Community 274](Community_274.md) (17 shared connections)
+- [Community 845](Community_845.md) (6 shared connections)
+- [Community 605](Community_605.md) (5 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 149 (92%)
-- INFERRED: 13 (8%)
+- EXTRACTED: 126 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

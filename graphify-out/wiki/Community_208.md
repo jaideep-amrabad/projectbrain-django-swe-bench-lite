@@ -1,50 +1,55 @@
 # Community 208
 
-> 51 nodes · cohesion 0.06
+> 52 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **RemoteTestResult** (25 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **DebugSQLTextTestResult** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **test_parallel.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.check_picklable()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stop_if_failfast()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **PDBDebugResult** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addError()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ExceptionThatFailsUnpickling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **RemoteTestResultTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.test_add_failing_subtests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ParallelTestRunnerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **SampleFailingSubtest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.addError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_pickle_errors_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.addError()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- *... and 26 more nodes in this community*
+- **CommandTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
+- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **dance.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
+- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_create_parser_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_find_command_without_PATH()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_system_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_requires_system_checks_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_requires_system_checks_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
+- **.test_call_command_no_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_option_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_option_parsing_non_string_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_explode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_no_translations_deactivate_translations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_requires_system_checks_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_requires_system_checks_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
+- **.test_call_command_unrecognized_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_with_required_parameters_in_mixed_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_with_required_parameters_in_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_calling_a_command_with_no_app_labels_and_parameters_should_raise_a_command_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_calling_a_command_with_only_empty_parameter_should_ends_gracefully()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_calling_command_with_app_labels_and_parameters_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 582](Community_582.md) (1 shared connections)
+- [Community 266](Community_266.md) (6 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 371](Community_371.md) (1 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (99%)
+- EXTRACTED: 71 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

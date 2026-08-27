@@ -1,37 +1,36 @@
 # Community 816
 
-> 11 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **CPointerBase** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **test_ptr.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
-- **CPointerBaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
-- **ptr.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **.ptr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **setter** (1 connections)
-- **Free the memory used by the C++ object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **Base class for objects that have a pointer access property that controls access…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
-- **.test_destructor_catches_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **PostGISGeometryColumns** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **PostGISSpatialRefSys** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **Return the name of the metadata column used to store the feature table name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **Return the name of the metadata column used to store the feature geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **The 'spatial_ref_sys' table from PostGIS. See the PostGIS documentation at Ch.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **The 'geometry_columns' view from PostGIS. See the PostGIS documentation at Ch.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 70](Community_70.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 275](Community_275.md) (2 shared connections)
+- [Community 349](Community_349.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 15 (88%)
+- INFERRED: 2 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

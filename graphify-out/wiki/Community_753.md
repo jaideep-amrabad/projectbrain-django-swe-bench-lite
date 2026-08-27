@@ -1,58 +1,63 @@
 # Community 753
 
-> 55 nodes · cohesion 0.05
+> 74 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **templatetags/i18n.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Node** (8 connections)
-- **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **BlockTranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetLanguageInfoListNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **TranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_available_languages()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_current_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_current_language_bidi()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_language_info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_language_info_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_translate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetAvailableLanguagesNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetCurrentLanguageBidiNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetCurrentLanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetLanguageInfoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **LanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language_name_translated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **filter** (4 connections)
-- **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language_name_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- *... and 30 more nodes in this community*
+- **Library** (31 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **tz.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **test_library.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **FilterRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **TagRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **SimpleTagRegistrationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **testtags.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **InclusionTagRegistrationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **get_current_timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **localtime_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **EchoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **.filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **Node** (3 connections)
+- **echo()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **.filter_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.inclusion_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.simple_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **good_tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
+- **override.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (13 shared connections)
-- [Community 9](Community_9.md) (12 shared connections)
-- [Community 126](Community_126.md) (5 shared connections)
-- [Community 207](Community_207.md) (4 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 279](Community_279.md) (2 shared connections)
-- [Community 142](Community_142.md) (2 shared connections)
-- [Community 754](Community_754.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 8](Community_8.md) (18 shared connections)
+- [Community 4](Community_4.md) (10 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 204](Community_204.md) (4 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 752](Community_752.md) (1 shared connections)
+- [Community 323](Community_323.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/tags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 129 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

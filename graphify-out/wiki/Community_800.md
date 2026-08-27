@@ -1,36 +1,36 @@
 # Community 800
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_GFK()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_charfield_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_generic_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_nullable_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_fk_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_nonint_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **A 'content_object' can be traversed with prefetch_related() and get to related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **many_to_many/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **AbstractArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **InheritedArticleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **InheritedArticleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **NoDeletedArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Many-to-many relationships To define a many-to-many relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **UserArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
 
 ## Relationships
 
-- [Community 292](Community_292.md) (8 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 373](Community_373.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 974](Community_974.md) (3 shared connections)
+- [Community 435](Community_435.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (67%)
-- INFERRED: 7 (33%)
+- EXTRACTED: 22 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

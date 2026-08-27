@@ -4,37 +4,41 @@
 
 ## Key Concepts
 
-- **LoginRedirectAuthenticatedUser** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_guest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_permission_required_logged_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_permission_required_not_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Stay on the login page by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If not logged in, stay on the same page.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If logged in, go to default redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If logged in, go to custom redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If next is specified as a GET parameter, go there.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Detect a redirect loop if LOGIN_REDIRECT_URL is not correctly set, with and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **FakeSMTPServer** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_traceback_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Return a dictionary containing traceback information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return HTML version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return plain text version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.flush_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.process_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Asyncore SMTP server wrapped into a thread. Based on DummyFTPServer from:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 228](Community_228.md) (6 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 140](Community_140.md) (4 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 869](Community_869.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

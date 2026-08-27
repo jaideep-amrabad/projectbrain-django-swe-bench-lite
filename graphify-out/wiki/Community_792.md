@@ -1,37 +1,32 @@
 # Community 792
 
-> 12 nodes · cohesion 0.17
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **AuthContextProcessorTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_user_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_session_is_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_session_not_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_message_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_perm_in_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **The lazy objects returned behave just like the wrapped objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **Tests for the ``django.contrib.auth.context_processors.auth`` processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **The session is not accessed simply by including the auth context processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **The session is accessed if the auth context processor is used and relevant…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **Ceil** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **CeilTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

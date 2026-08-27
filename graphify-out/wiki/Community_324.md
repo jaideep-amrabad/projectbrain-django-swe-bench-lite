@@ -1,49 +1,54 @@
 # Community 324
 
-> 23 nodes · cohesion 0.15
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **TestIterModulesAndFiles** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.clear_autoreload_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_main_module_is_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_main_module_without_file_is_not_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_module_without_spec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_path_with_embedded_null_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_weakref_in_sys_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Modules imported from zipped files have their archive location included in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.pyc and .pyo files are included in the files list.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **iter_all_python_module_file() ignores weakref modules.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **When a file is added, it's returned by iter_all_python_module_files().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **When a file containing an error is imported in a function wrapped by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Since Python may raise arbitrary exceptions when importing code, check_errors()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_paths_are_pathlib_instances()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **WKBWriter** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **WKTWriter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **GEOSIOTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **IOBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **setter** (5 connections)
+- **_WKBReader** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **._handle_empty_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **wkt_w()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.test_empty_point_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_empty_polygon_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.write_hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.test01_wktreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test02_wktwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test03_wkbreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test04_wkbwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wkt_writer_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wkt_writer_trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wktwriter_constructor_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **Return the WKT representation of the given geometry.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.outdim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.srid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 375](Community_375.md) (5 shared connections)
-- [Community 186](Community_186.md) (3 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 434](Community_434.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 11](Community_11.md) (21 shared connections)
+- [Community 68](Community_68.md) (6 shared connections)
+- [Community 36](Community_36.md) (3 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 74 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,47 @@
 # Community 636
 
-> 17 nodes · cohesion 0.15
+> 22 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **TranslationCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **check_language_settings_consistent()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **check_setting_language_code()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **check_setting_languages()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **check_setting_languages_bidi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **.test_inconsistent_language_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_valid_variant_consistent_language_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **Error if LANGUAGES setting is invalid.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **.test_invalid_language_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_invalid_languages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_invalid_languages_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_valid_language_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_valid_languages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_valid_languages_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **Error if LANGUAGE_CODE setting is invalid.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **Error if language settings are not consistent with each other.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.add_field()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.column_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_column_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.table_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.create_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._fk_constraint_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.skip_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._column_default_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.prepare_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements (field indexes, index_together,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements for the specified field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Take a model and return its table definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Take a field and return its column definition. The field must already have had…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Some backends don't accept default values for certain columns types (i.e. MySQL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Only used for backends which have requires_literal_defaults feature** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return the SQL to use in a DEFAULT clause. The resulting string should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Create a table and any accompanying indexes or unique constraints for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (10 shared connections)
-- [Community 496](Community_496.md) (4 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 142](Community_142.md) (24 shared connections)
+- [Community 352](Community_352.md) (4 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 563](Community_563.md) (1 shared connections)
+- [Community 428](Community_428.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

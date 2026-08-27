@@ -1,49 +1,56 @@
 # Community 377
 
-> 22 nodes · cohesion 0.15
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DjangoTranslation** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__init__()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.merge()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_installed_apps_translations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._new_gnu_trans()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_local_translations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._init_translation_catalog()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.to_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.language()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.ngettext()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Set up the GNUTranslations context with regard to output charset. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Create a GNUTranslations() using many locale directories** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return a mergeable gettext.GNUTranslations instance. A convenience wrapper. By…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Create a base catalog using global django translations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge translations from each installed app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge translations defined in LOCALE_PATHS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Set the GNUTranslations() fallback with the default language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge another translation into this catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return the translation language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return the translation language name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **DeletionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_queryset_delete_returns_num_rows()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_instance_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_large_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_model_delete_returns_num_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_only_referenced_fields_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_proxied_model_duplicate_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_delete_with_keeping_parents()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_delete_with_keeping_parents_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_deletion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_hidden_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_large_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_relational_post_delete_signals_happen_before_parent_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **QuerySet.delete() should return the number of deleted rows and a dictionary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Model.delete() should return the number of deleted rows and a dictionary with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **#25685 - Deleting instances of a model with existing proxy classes should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Only referenced fields are selected during cascade deletion SELECT unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 279](Community_279.md) (3 shared connections)
-- [Community 646](Community_646.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 677](Community_677.md) (2 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 250](Community_250.md) (1 shared connections)
+- [Community 63](Community_63.md) (15 shared connections)
+- [Community 550](Community_550.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 364](Community_364.md) (2 shared connections)
+- [Community 262](Community_262.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 35 (65%)
+- INFERRED: 19 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

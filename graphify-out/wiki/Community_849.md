@@ -1,36 +1,35 @@
 # Community 849
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SessionStore** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **A cache-based session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **.clear_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **CommonPasswordValidator** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_custom_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_django_supplied_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **Validate whether the password is a common password. The password is rejected if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 
 ## Relationships
 
-- [Community 55](Community_55.md) (3 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 148](Community_148.md) (1 shared connections)
-- [Community 258](Community_258.md) (1 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
+- [Community 606](Community_606.md) (3 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (83%)
-- INFERRED: 3 (17%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

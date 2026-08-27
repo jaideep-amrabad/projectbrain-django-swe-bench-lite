@@ -1,48 +1,55 @@
 # Community 495
 
-> 23 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DefusedExpatParser** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DTDForbidden** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **EntitiesForbidden** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DefusedXmlException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **ExternalReferenceForbidden** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.external_entity_ref_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.start_doctype_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.unparsed_entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **_ExpatParser** (1 connections)
-- **.reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **An expat parser hardened against XML bomb attacks. Forbid DTDs, external entity…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Document type definition is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Entity definition is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Resolving an external reference is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **ChangeList** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_queryset()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_filters_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering_field_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.apply_select_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **._get_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **._get_deterministic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.url_for_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_results()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.has_related_field_in_list_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **ChangeListSearchForm** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return all params except IGNORED_PARAMS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return the proper model field name corresponding to the given field_name to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return the list of ordering fields for the change list. First check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Ensure a deterministic order across all database backends. Search for a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return a dictionary of ordering field column numbers and asc/desc.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 678](Community_678.md) (2 shared connections)
-- [Community 561](Community_561.md) (1 shared connections)
-- [Community 941](Community_941.md) (1 shared connections)
+- [Community 845](Community_845.md) (11 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 449](Community_449.md) (1 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 49 (88%)
+- INFERRED: 7 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

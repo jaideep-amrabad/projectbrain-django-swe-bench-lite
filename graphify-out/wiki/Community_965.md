@@ -4,29 +4,30 @@
 
 ## Key Concepts
 
-- **.get_urls()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleAdminWithExtraUrl** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ActorAdmin9** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.extra_json()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **UnchangeableObjectAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminActionsPermissionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_no_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_no_delete_permission_externalsubscriber()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **Permission is denied if the user doesn't have delete permission for the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **Permission is denied if the user doesn't have delete permission for a related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 129](Community_129.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
+- [Community 999](Community_999.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (85%)
+- INFERRED: 2 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

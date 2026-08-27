@@ -1,70 +1,57 @@
 # Community 261
 
-> 109 nodes · cohesion 0.03
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **JsonResponse** (31 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **file_uploads/views.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **InMemoryUploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **UploadedFile** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **FileUploadHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **StopUpload** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **TemporaryFileUploadHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **file_uploads/uploadhandler.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **StopUploadTemporaryFileHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- *... and 84 more nodes in this community*
+- **MigrationTestBase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **migrations/test_deprecated_fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.test_migrate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNameExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNameNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertTableExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertTableNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertUniqueConstraintExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Allows testing management commands in a temporary migrations module. Wrap all…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Contains an extended set of asserts for testing migrations and schema…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (21 shared connections)
-- [Community 126](Community_126.md) (14 shared connections)
-- [Community 16](Community_16.md) (10 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 134](Community_134.md) (4 shared connections)
-- [Community 263](Community_263.md) (3 shared connections)
-- [Community 231](Community_231.md) (2 shared connections)
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 116](Community_116.md) (2 shared connections)
+- [Community 43](Community_43.md) (9 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 371](Community_371.md) (1 shared connections)
+- [Community 185](Community_185.md) (1 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 214 (93%)
-- INFERRED: 17 (7%)
+- EXTRACTED: 55 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

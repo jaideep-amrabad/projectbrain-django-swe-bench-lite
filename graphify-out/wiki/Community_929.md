@@ -1,31 +1,27 @@
 # Community 929
 
-> 8 nodes · cohesion 0.25
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **DeferDeletionSignalsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.post_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.pre_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_delete_defered_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_delete_defered_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.extend()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__iadd__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__imul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **add another list-like object to self** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Standard list extend method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Relationships
 
-- [Community 366](Community_366.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 452](Community_452.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (82%)
-- INFERRED: 2 (18%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

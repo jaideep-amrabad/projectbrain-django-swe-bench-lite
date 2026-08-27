@@ -1,53 +1,61 @@
 # Community 193
 
-> 35 nodes · cohesion 0.07
+> 70 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **UniqueTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **DerivedBookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ExplicitPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **PriceForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ProductForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **PostForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_explicitpk_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_explicitpk_unspecified()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_together_exclusion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_blank_foreign_key_with_radio()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_renderer_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_abstract_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_abstract_inherited_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_multiple_field_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_simple_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_for_date_in_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Test for primary_key being in the form and failing validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Ensure keys and blank character strings are tested for uniqueness.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 10 more nodes in this community*
+- **SearchQuery** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVector** (52 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **test_search.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **MultipleFieldsTest** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **TestCombinations** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **TestRankingAndWeights** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchRank** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SimpleSearchTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **Line** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **GrailTestData** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchVectorFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **Scene** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **SearchVectorIndexTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranking_with_masked_normalization()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_config_from_field_explicit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_web_search()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_web_search_with_config()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **SearchQueryTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_search_vector_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_cover_density_ranking()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranked_custom_weights()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranking()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranking_chaining()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_ranking_with_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.test_weights_in_vector()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 93](Community_93.md) (23 shared connections)
-- [Community 1088](Community_1088.md) (6 shared connections)
-- [Community 282](Community_282.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 398](Community_398.md) (21 shared connections)
+- [Community 35](Community_35.md) (19 shared connections)
+- [Community 305](Community_305.md) (7 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 304](Community_304.md) (4 shared connections)
+- [Community 34](Community_34.md) (4 shared connections)
+- [Community 33](Community_33.md) (3 shared connections)
+- [Community 144](Community_144.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (78%)
-- INFERRED: 16 (22%)
+- EXTRACTED: 215 (88%)
+- INFERRED: 30 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

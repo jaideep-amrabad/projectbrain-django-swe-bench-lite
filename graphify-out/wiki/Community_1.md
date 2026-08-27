@@ -1,6 +1,6 @@
 # Community 1
 
-> 375 nodes · cohesion 0.01
+> 393 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -23,28 +23,28 @@
 - **contenttypes_tests/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
 - **contenttypes_tests/test_views.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
 - **admin/models.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **get_random_string()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
 - **test_logentry.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
 - **admin_views/test_templatetags.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
 - **Permission** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 - **base_user.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
 - **test_context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **contenttypes_tests/test_models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- *... and 350 more nodes in this community*
+- *... and 368 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (215 shared connections)
-- [Community 251](Community_251.md) (62 shared connections)
-- [Community 6](Community_6.md) (45 shared connections)
-- [Community 126](Community_126.md) (35 shared connections)
-- [Community 843](Community_843.md) (35 shared connections)
-- [Community 4](Community_4.md) (31 shared connections)
-- [Community 13](Community_13.md) (29 shared connections)
-- [Community 2](Community_2.md) (29 shared connections)
-- [Community 104](Community_104.md) (26 shared connections)
-- [Community 94](Community_94.md) (25 shared connections)
-- [Community 12](Community_12.md) (15 shared connections)
-- [Community 25](Community_25.md) (14 shared connections)
+- [Community 0](Community_0.md) (217 shared connections)
+- [Community 7](Community_7.md) (55 shared connections)
+- [Community 606](Community_606.md) (55 shared connections)
+- [Community 845](Community_845.md) (36 shared connections)
+- [Community 154](Community_154.md) (31 shared connections)
+- [Community 2](Community_2.md) (30 shared connections)
+- [Community 101](Community_101.md) (29 shared connections)
+- [Community 5](Community_5.md) (29 shared connections)
+- [Community 161](Community_161.md) (26 shared connections)
+- [Community 90](Community_90.md) (25 shared connections)
+- [Community 26](Community_26.md) (18 shared connections)
+- [Community 125](Community_125.md) (14 shared connections)
 
 ## Source Files
 
@@ -61,17 +61,17 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_import/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1691 (96%)
+- EXTRACTED: 1744 (96%)
 - INFERRED: 77 (4%)
 - AMBIGUOUS: 0 (0%)
 

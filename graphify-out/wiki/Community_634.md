@@ -4,39 +4,40 @@
 
 ## Key Concepts
 
-- **SplitArrayWidget** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSplitFormWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_checkbox_get_context_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.needs_multipart_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **TranslationCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **check_language_settings_consistent()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **check_setting_language_code()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **check_setting_languages()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **check_setting_languages_bidi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **.test_inconsistent_language_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_valid_variant_consistent_language_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **Error if LANGUAGES setting is invalid.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **.test_invalid_language_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_invalid_languages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_invalid_languages_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_valid_language_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_valid_languages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **.test_valid_languages_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **Error if LANGUAGE_CODE setting is invalid.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **Error if language settings are not consistent with each other.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 580](Community_580.md) (1 shared connections)
+- [Community 16](Community_16.md) (10 shared connections)
+- [Community 388](Community_388.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (81%)
-- INFERRED: 5 (19%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

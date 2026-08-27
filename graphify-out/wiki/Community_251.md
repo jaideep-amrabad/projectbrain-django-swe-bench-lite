@@ -1,78 +1,59 @@
 # Community 251
 
-> 185 nodes · cohesion 0.02
+> 44 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **test_auth_backends.py** (70 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **auth/__init__.py** (68 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **import_string()** (66 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **auth/forms.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **ModelBackend** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **password_validation.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **test_remote_user.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **PermissionDenied** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **auth_tests/test_mixins.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **get_user_model()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **backends.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **auth_tests/test_basic.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **auth/decorators.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- **createsuperuser.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **auth/management/__init__.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **auth/middleware.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **auth_tests/test_decorators.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **auth/apps.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **authenticate()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **auth/mixins.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **changepassword.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
-- **RemoteUserBackend** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **RemoteUserMiddleware** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- *... and 160 more nodes in this community*
+- **parse_duration()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- **duration_string()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **duration_iso_string()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **DurationFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **DurationParseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **TestDurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestISODurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestParseDurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestParseISODurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **_get_duration_components()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_durationfield_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_days()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_fractions_of_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_hours_minutes_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_iso_8601()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_minutes_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_negative()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (62 shared connections)
-- [Community 126](Community_126.md) (41 shared connections)
-- [Community 0](Community_0.md) (40 shared connections)
-- [Community 13](Community_13.md) (30 shared connections)
-- [Community 6](Community_6.md) (21 shared connections)
-- [Community 48](Community_48.md) (18 shared connections)
-- [Community 347](Community_347.md) (16 shared connections)
-- [Community 29](Community_29.md) (15 shared connections)
-- [Community 178](Community_178.md) (14 shared connections)
-- [Community 843](Community_843.md) (14 shared connections)
-- [Community 4](Community_4.md) (12 shared connections)
-- [Community 554](Community_554.md) (12 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 154](Community_154.md) (5 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
+- [Community 127](Community_127.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
 
 ## Audit Trail
 
-- EXTRACTED: 826 (98%)
-- INFERRED: 21 (2%)
+- EXTRACTED: 97 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

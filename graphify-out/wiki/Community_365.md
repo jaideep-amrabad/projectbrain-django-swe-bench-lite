@@ -1,51 +1,31 @@
 # Community 365
 
-> 33 nodes · cohesion 0.08
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **custom_pk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **BasicCustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **CustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **custom_pk/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Employee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Business** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_pk_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets_related_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets_relational()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_custom_pk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_required_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Using a custom primary key By default, Django adds an ``"id"`` field to each…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_custom_field_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_unicode_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_unique_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_zero_non_autoincrement_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- *... and 8 more nodes in this community*
+- **._listarr()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.array()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **Return a list or numpy array of the X variable.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **Return a sequence (list) corresponding with the given function. Return a numpy…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **Return a numpy array for the LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 794](Community_794.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (88%)
-- INFERRED: 7 (12%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,26 +1,31 @@
 # Community 964
 
-> 5 nodes · cohesion 0.60
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **not_installed/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **M2MRelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **NotInstalledModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **RelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **.get_urls()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdminWithExtraUrl** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ActorAdmin9** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.extra_json()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **UnchangeableObjectAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 164](Community_164.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

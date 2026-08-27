@@ -1,42 +1,62 @@
 # Community 586
 
-> 16 nodes · cohesion 0.14
+> 74 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **ManageDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings.py file that contains the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py can execute user commands when settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py can execute user commands when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **FieldOperation** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **CreateModel** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RenameField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **AlterField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **RemoveField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **AddField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **field_references()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
+- **FieldOperationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.test_manager_refer_correct_model_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **resolve_relation()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
+- **.test_reload_related_model_on_non_relational_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.is_same_field_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.is_same_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 170](Community_170.md) (9 shared connections)
-- [Community 105](Community_105.md) (8 shared connections)
-- [Community 83](Community_83.md) (8 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 295](Community_295.md) (1 shared connections)
+- [Community 43](Community_43.md) (30 shared connections)
+- [Community 58](Community_58.md) (5 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 640](Community_640.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 390](Community_390.md) (1 shared connections)
+- [Community 639](Community_639.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 138 (93%)
+- INFERRED: 10 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

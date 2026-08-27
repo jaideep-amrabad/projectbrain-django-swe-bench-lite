@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_inheritance07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Two-level with one block defined, one block not defined** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **{% load %} tag (parent -- setup for exception04)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 837](Community_837.md) (1 shared connections)
+- [Community 840](Community_840.md) (1 shared connections)
 - [Community 872](Community_872.md) (1 shared connections)
 
 ## Source Files

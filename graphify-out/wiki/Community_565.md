@@ -1,46 +1,39 @@
 # Community 565
 
-> 20 nodes · cohesion 0.10
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **get_system_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **.test_force_bytes_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_str_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_str_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_bytes_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_bytes_memory_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_bytes_strings_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_str_DjangoUnicodeDecodeError()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_get_default_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_repercent_broken_unicode_recursion_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_smart_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_smart_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **The encoding of the default system locale. Fallback to 'ascii' if the #encoding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **Broken __str__ actually raises an error.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **force_bytes knows how to convert to bytes an exception containing non-ASCII…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **UnicodeDecodeError** (1 connections)
+- **LimitChoicesToTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **StumpJokeForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **StumpJokeWithCustomFieldForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_field_with_queryset_but_no_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_choices_to_callable_for_fk_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_choices_to_callable_for_m2m_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_callable_called_each_time_form_is_instantiated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_choices_to_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Tests the functionality of ``limit_choices_to``.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A ForeignKey can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A ManyToManyField can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A custom field with a `queryset` attribute but no `limit_choices_to` works…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (8 shared connections)
-- [Community 29](Community_29.md) (8 shared connections)
-- [Community 286](Community_286.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 88](Community_88.md) (6 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1078](Community_1078.md) (2 shared connections)
+- [Community 500](Community_500.md) (1 shared connections)
+- [Community 491](Community_491.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 22 (85%)
+- INFERRED: 4 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,29 @@
 # Community 1009
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Subscriber** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ExternalSubscriber** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **OldSubscriber** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ModelPickleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_with_getstate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **#21430 -- Verifies a warning is raised for models that are unpickled without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **A model may override __getstate__() to choose the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 60](Community_60.md) (3 shared connections)
-- [Community 843](Community_843.md) (2 shared connections)
-- [Community 966](Community_966.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (73%)
-- INFERRED: 4 (27%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

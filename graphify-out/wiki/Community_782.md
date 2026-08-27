@@ -1,41 +1,41 @@
 # Community 782
 
-> 12 nodes · cohesion 0.21
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **ogrinspect()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **OGRInspectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **get_ogr_db_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_time_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_date_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_management_command()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_mapping_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_poly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_poly_multi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **Helper routine for `ogrinspect` that generates GeoDjango models corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **Given a data source (either a string or a DataSource object) and a string model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **Construct the DB string that GDAL will use to inspect the database. GDAL will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **PasswordChangeForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **PasswordChangeFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_old_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_field_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_incorrect_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **A form that lets a user change their password by entering their old password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Validate that the old_password field is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 1080](Community_1080.md) (4 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 845](Community_845.md) (2 shared connections)
+- [Community 813](Community_813.md) (2 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 630](Community_630.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 27 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,70 +1,46 @@
 # Community 579
 
-> 31 nodes · cohesion 0.14
+> 19 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **messages_tests/test_cookie.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **messages_tests/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **test_session.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **test_fallback.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **messages/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
-- **storage/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **messages/constants.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
-- **default_storage()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **storage/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **messages_tests/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
-- **messages/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **stored_cookie_messages_count()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **stored_session_messages_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **Exception** (1 connections)
-- **Attempt to add a message to the request using the 'messages' app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return the message storage on the request if it exists, otherwise return an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- *... and 6 more nodes in this community*
+- **FlatpageForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- **FlatpageAdminFormTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **.clean_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- **._trailing_slash_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- **.test_flatpage_admin_form_edit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **.test_flatpage_admin_form_url_uniqueness_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **.test_flatpage_admin_form_url_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **.test_flatpage_doesnt_requires_trailing_slash_without_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **.test_flatpage_requires_trailing_slash_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **.test_flatpage_nosites()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **.test_flatpage_requires_leading_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **The flatpage admin form correctly validates urls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **The flatpage admin form correctly enforces url uniqueness among flatpages of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **Existing flatpages can be edited in the admin form without triggering the url-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 268](Community_268.md) (10 shared connections)
-- [Community 556](Community_556.md) (10 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 126](Community_126.md) (7 shared connections)
-- [Community 334](Community_334.md) (6 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 477](Community_477.md) (5 shared connections)
-- [Community 267](Community_267.md) (3 shared connections)
-- [Community 843](Community_843.md) (3 shared connections)
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 676](Community_676.md) (3 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 154 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 39 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
