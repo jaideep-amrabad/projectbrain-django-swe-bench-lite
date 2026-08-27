@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **order_with_respect_to/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/__init__.py`
+- **m2m_through_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/__init__.py`
 
 ## Audit Trail
 

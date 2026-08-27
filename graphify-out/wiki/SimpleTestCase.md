@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1241 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1242 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 7](Community_7.md)
+**Community:** [Community 0](Community_0.md)
 
 ## Connections by Relation
 
@@ -40,8 +40,8 @@
 - FormsFormsetTestCase `EXTRACTED`
 - WriterTests `EXTRACTED`
 - WidgetTest `EXTRACTED`
-- AdminScriptTestCase `EXTRACTED`
 - MailTests `EXTRACTED`
+- AdminScriptTestCase `EXTRACTED`
 - UrlTagTests `EXTRACTED`
 - InheritanceTests `EXTRACTED`
 - OGRGeomTest `EXTRACTED`

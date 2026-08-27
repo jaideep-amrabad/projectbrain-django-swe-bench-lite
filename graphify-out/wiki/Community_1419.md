@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **maps/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/maps/__init__.py`
+- **app_loading/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/maps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/__init__.py`
 
 ## Audit Trail
 
