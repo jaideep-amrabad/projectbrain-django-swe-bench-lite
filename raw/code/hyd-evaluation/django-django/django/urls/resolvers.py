@@ -632,18 +632,11 @@ class URLResolver:
                     candidate_subs = kwargs
                 # Convert the candidate subs to text using Converter.to_url().
                 text_candidate_subs = {}
-                match = True
                 for k, v in candidate_subs.items():
                     if k in converters:
-                        try:
-                            text_candidate_subs[k] = converters[k].to_url(v)
-                        except ValueError:
-                            match = False
-                            break
+                        text_candidate_subs[k] = converters[k].to_url(v)
                     else:
                         text_candidate_subs[k] = str(v)
-                if not match:
-                    continue
                 # WSGI provides decoded URLs, without %xx escapes, and the URL
                 # resolver operates on such URLs. First substitute arguments
                 # without quoting to build a decoded URL and look for a match.

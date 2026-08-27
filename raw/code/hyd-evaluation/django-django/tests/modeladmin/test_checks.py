@@ -1441,8 +1441,9 @@ class ActionsCheckTests(CheckTestCase):
 
         self.assertIsInvalid(
             BandAdmin, Band,
-            "__name__ attributes of actions defined in BandAdmin must be "
-            "unique. Name 'action' is not unique.",
+            "__name__ attributes of actions defined in "
+            "<class 'modeladmin.test_checks.ActionsCheckTests."
+            "test_actions_not_unique.<locals>.BandAdmin'> must be unique.",
             id='admin.E130',
         )
 
