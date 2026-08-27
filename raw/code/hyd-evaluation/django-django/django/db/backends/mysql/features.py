@@ -41,7 +41,6 @@ class DatabaseFeatures(BaseDatabaseFeatures):
             SET V_I = P_I;
         END;
     """
-    db_functions_convert_bytes_to_str = True
     # Neither MySQL nor MariaDB support partial indexes.
     supports_partial_indexes = False
     supports_order_by_nulls_modifier = False
@@ -50,10 +49,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     @cached_property
     def _mysql_storage_engine(self):
         "Internal method used in Django tests. Don't rely on this from your code"
-        with self.connection.cursor() as cursor:
-            cursor.execute("SELECT ENGINE FROM INFORMATION_SCHEMA.ENGINES WHERE SUPPORT = 'DEFAULT'")
-            result = cursor.fetchone()
-        return result[0]
+        return self.connection.mysql_server_data['default_storage_engine']
 
     @cached_property
     def update_can_self_select(self):
@@ -82,18 +78,11 @@ class DatabaseFeatures(BaseDatabaseFeatures):
 
     @cached_property
     def has_zoneinfo_database(self):
-        # Test if the time zone definitions are installed. CONVERT_TZ returns
-        # NULL if 'UTC' timezone isn't loaded into the mysql.time_zone.
-        with self.connection.cursor() as cursor:
-            cursor.execute("SELECT CONVERT_TZ('2001-01-01 01:00:00', 'UTC', 'UTC')")
-            return cursor.fetchone()[0] is not None
+        return self.connection.mysql_server_data['has_zoneinfo_database']
 
     @cached_property
     def is_sql_auto_is_null_enabled(self):
-        with self.connection.cursor() as cursor:
-            cursor.execute('SELECT @@SQL_AUTO_IS_NULL')
-            result = cursor.fetchone()
-            return result and result[0] == 1
+        return self.connection.mysql_server_data['sql_auto_is_null']
 
     @cached_property
     def supports_over_clause(self):
@@ -150,10 +139,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
 
     @cached_property
     def ignores_table_name_case(self):
-        with self.connection.cursor() as cursor:
-            cursor.execute('SELECT @@LOWER_CASE_TABLE_NAMES')
-            result = cursor.fetchone()
-            return result and result[0] != 0
+        return self.connection.mysql_server_data['lower_case_table_names']
 
     @cached_property
     def supports_default_in_lead_lag(self):

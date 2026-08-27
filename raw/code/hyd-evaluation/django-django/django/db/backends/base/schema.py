@@ -466,8 +466,10 @@ class BaseDatabaseSchemaEditor:
             if self.sql_create_column_inline_fk:
                 to_table = field.remote_field.model._meta.db_table
                 to_column = field.remote_field.model._meta.get_field(field.remote_field.field_name).column
+                namespace, _ = split_identifier(model._meta.db_table)
                 definition += " " + self.sql_create_column_inline_fk % {
                     'name': self._fk_constraint_name(model, field, constraint_suffix),
+                    'namespace': '%s.' % self.quote_name(namespace) if namespace else '',
                     'column': self.quote_name(field.column),
                     'to_table': self.quote_name(to_table),
                     'to_column': self.quote_name(to_column),
@@ -1092,13 +1094,16 @@ class BaseDatabaseSchemaEditor:
         if deferrable == Deferrable.IMMEDIATE:
             return ' DEFERRABLE INITIALLY IMMEDIATE'
 
-    def _unique_sql(self, model, fields, name, condition=None, deferrable=None, include=None):
+    def _unique_sql(
+        self, model, fields, name, condition=None, deferrable=None,
+        include=None, opclasses=None,
+    ):
         if (
             deferrable and
             not self.connection.features.supports_deferrable_unique_constraints
         ):
             return None
-        if condition or include:
+        if condition or include or opclasses:
             # Databases support conditional and covering unique constraints via
             # a unique index.
             sql = self._create_unique_sql(
@@ -1107,6 +1112,7 @@ class BaseDatabaseSchemaEditor:
                 name=name,
                 condition=condition,
                 include=include,
+                opclasses=opclasses,
             )
             if sql:
                 self.deferred_sql.append(sql)
@@ -1120,7 +1126,10 @@ class BaseDatabaseSchemaEditor:
             'constraint': constraint,
         }
 
-    def _create_unique_sql(self, model, columns, name=None, condition=None, deferrable=None, include=None):
+    def _create_unique_sql(
+        self, model, columns, name=None, condition=None, deferrable=None,
+        include=None, opclasses=None,
+    ):
         if (
             (
                 deferrable and
@@ -1139,8 +1148,8 @@ class BaseDatabaseSchemaEditor:
             name = IndexName(model._meta.db_table, columns, '_uniq', create_unique_name)
         else:
             name = self.quote_name(name)
-        columns = Columns(table, columns, self.quote_name)
-        if condition or include:
+        columns = self._index_columns(table, columns, col_suffixes=(), opclasses=opclasses)
+        if condition or include or opclasses:
             sql = self.sql_create_unique_index
         else:
             sql = self.sql_create_unique
@@ -1154,7 +1163,10 @@ class BaseDatabaseSchemaEditor:
             include=self._index_include_sql(model, include),
         )
 
-    def _delete_unique_sql(self, model, name, condition=None, deferrable=None, include=None):
+    def _delete_unique_sql(
+        self, model, name, condition=None, deferrable=None, include=None,
+        opclasses=None,
+    ):
         if (
             (
                 deferrable and
@@ -1164,7 +1176,7 @@ class BaseDatabaseSchemaEditor:
             (include and not self.connection.features.supports_covering_indexes)
         ):
             return None
-        if condition or include:
+        if condition or include or opclasses:
             sql = self.sql_delete_index
         else:
             sql = self.sql_delete_unique
