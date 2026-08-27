@@ -1130,6 +1130,7 @@ class SchemaTests(TransactionTestCase):
         # The unique constraint remains.
         self.assertEqual(counts, {'fks': expected_fks, 'uniques': 1, 'indexes': 0})
 
+    @skipUnlessDBFeature('ignores_table_name_case')
     def test_alter_db_table_case(self):
         # Create the table
         with connection.schema_editor() as editor:
@@ -2574,7 +2575,7 @@ class SchemaTests(TransactionTestCase):
                 self.assertIsNone(field.default)
 
     @unittest.skipIf(connection.vendor == 'sqlite', 'SQLite naively remakes the table on field alteration.')
-    def test_alter_field_default_doesnt_perfom_queries(self):
+    def test_alter_field_default_doesnt_perform_queries(self):
         """
         No queries are performed if a field default changes and the field's
         not changing from null to non-null.

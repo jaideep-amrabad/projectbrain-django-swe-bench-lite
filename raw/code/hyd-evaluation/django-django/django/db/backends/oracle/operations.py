@@ -6,6 +6,8 @@ from functools import lru_cache
 from django.conf import settings
 from django.db.backends.base.operations import BaseDatabaseOperations
 from django.db.backends.utils import strip_quotes, truncate_name
+from django.db.models.expressions import Exists, ExpressionWrapper
+from django.db.models.query_utils import Q
 from django.db.utils import DatabaseError
 from django.utils import timezone
 from django.utils.encoding import force_bytes, force_str
@@ -16,13 +18,18 @@ from .utils import BulkInsertMapper, InsertVar, Oracle_datetime
 
 
 class DatabaseOperations(BaseDatabaseOperations):
-    # Oracle uses NUMBER(11) and NUMBER(19) for integer fields.
+    # Oracle uses NUMBER(5), NUMBER(11), and NUMBER(19) for integer fields.
+    # SmallIntegerField uses NUMBER(11) instead of NUMBER(5), which is used by
+    # SmallAutoField, to preserve backward compatibility.
     integer_field_ranges = {
         'SmallIntegerField': (-99999999999, 99999999999),
         'IntegerField': (-99999999999, 99999999999),
         'BigIntegerField': (-9999999999999999999, 9999999999999999999),
         'PositiveSmallIntegerField': (0, 99999999999),
         'PositiveIntegerField': (0, 99999999999),
+        'SmallAutoField': (-99999, 99999),
+        'AutoField': (-99999999999, 99999999999),
+        'BigAutoField': (-9999999999999999999, 9999999999999999999),
     }
     set_operators = {**BaseDatabaseOperations.set_operators, 'difference': 'MINUS'}
 
@@ -602,3 +609,14 @@ END;
         if fields:
             return self.connection.features.max_query_params // len(fields)
         return len(objs)
+
+    def conditional_expression_supported_in_where_clause(self, expression):
+        """
+        Oracle supports only EXISTS(...) or filters in the WHERE clause, others
+        must be compared with True.
+        """
+        if isinstance(expression, Exists):
+            return True
+        if isinstance(expression, ExpressionWrapper) and isinstance(expression.expression, Q):
+            return True
+        return False
