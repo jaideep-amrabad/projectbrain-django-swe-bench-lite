@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **SelectFilter2.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectFilter2.test.js`
+- **inlines.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/inlines.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectFilter2.test.js`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/inlines.test.js`
 
 ## Audit Trail
 
