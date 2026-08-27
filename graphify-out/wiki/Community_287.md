@@ -1,68 +1,63 @@
 # Community 287
 
-> 60 nodes · cohesion 0.04
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **StreamingHttpResponse** (28 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **FileResponse** (25 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseNotAllowed** (17 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseSubclassesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **FileResponseTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **FileCloseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_conditional_content_removal()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
-- **builtin_server/views.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
-- **.set_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_redirect_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **._set_streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **download()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **builtin_server/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
-- **file_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
-- **StreamingHttpResponseTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_file_from_named_pipe_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_unicode_attachment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **ConditionalContentTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- *... and 35 more nodes in this community*
+- **override** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **I18NViewTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_i18n_different_non_english_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_english_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_BMP_char()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_english_default_english_userpref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_fallback_language_plural()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_fallback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_unknown_package_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsoni18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsoni18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_lazy_string_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_get_text_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_i18n_english_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_with_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_USE_I18N_False()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ContextDecorator** (1 connections)
+- **An invalid request is rejected with a localized error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (21 shared connections)
-- [Community 28](Community_28.md) (10 shared connections)
-- [Community 58](Community_58.md) (8 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 46](Community_46.md) (3 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 337](Community_337.md) (2 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 80](Community_80.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 246](Community_246.md) (2 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 309](Community_309.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 406](Community_406.md) (2 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 616](Community_616.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 141 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 78 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

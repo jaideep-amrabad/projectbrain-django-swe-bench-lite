@@ -1,50 +1,48 @@
 # Community 498
 
-> 17 nodes · cohesion 0.12
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_in_memory_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._start_transaction_under_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.create_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.disable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.enable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._savepoint_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Start a transaction explicitly in autocommit mode. Staying in autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **A named in-memory db should be allowed where supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **ManyToOneNullTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **many_to_one_null/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **many_to_one_null/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Driver** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Many-to-one relationships that can be null To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **.test_add_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_assign_clear_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_clear_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_created_via_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_created_without_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_get_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_related_null_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_remove_from_wrong_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_set_clear_non_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (3 shared connections)
-- [Community 365](Community_365.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 416](Community_416.md) (2 shared connections)
-- [Community 532](Community_532.md) (1 shared connections)
-- [Community 871](Community_871.md) (1 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 515](Community_515.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (82%)
-- INFERRED: 6 (18%)
+- EXTRACTED: 33 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,36 +1,61 @@
 # Community 169
 
-> 9 nodes · cohesion 0.22
+> 57 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **SameNameTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.test_matching_urls_same_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.register_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.register_to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **setter** (1 connections)
+- **SelectForUpdateTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **select_for_update/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **select_for_update/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **.has_for_update_sql()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **Country** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **.end_blocking_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_generated()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_generated_nowait()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_generated_of()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_generated_skip_locked()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_raw_lock_not_available()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_update_sql_generated_no_key()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.start_blocking_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_model_inheritance_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_model_inheritance_nested_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_model_inheritance_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_model_proxy_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_multilevel_model_inheritance_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_for_update_sql_related_model_inheritance_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_nowait_raises_error_on_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_skip_locked_skips_locked_rows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **CountryProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **EUCountry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **.raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 212](Community_212.md) (1 shared connections)
+- [Community 26](Community_26.md) (30 shared connections)
+- [Community 86](Community_86.md) (23 shared connections)
+- [Community 152](Community_152.md) (6 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 442](Community_442.md) (2 shared connections)
+- [Community 332](Community_332.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
 - [Community 7](Community_7.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 148](Community_148.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 155 (89%)
+- INFERRED: 20 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

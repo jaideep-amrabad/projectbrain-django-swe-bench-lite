@@ -1,54 +1,58 @@
 # Community 237
 
-> 47 nodes · cohesion 0.07
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **middleware_exceptions/middleware.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **async_only_middleware()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessExceptionExcMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessExceptionLogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessExceptionMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessViewMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessViewNoneMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessViewTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **SyncAndAsyncMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **TemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **async_middleware_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- *... and 22 more nodes in this community*
+- **HttpResponseBase** (36 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **OSError** (6 connections)
+- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **setter** (5 connections)
+- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **ValueError** (3 connections)
+- **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.test_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.test_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 28](Community_28.md) (5 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 435](Community_435.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 250](Community_250.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
+- [Community 927](Community_927.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 67 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

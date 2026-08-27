@@ -1,23 +1,22 @@
 # Community 1738
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **CreatedField** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **unspecified_app_with_conflict/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unspecified_app_with_conflict/models.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unspecified_app_with_conflict/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

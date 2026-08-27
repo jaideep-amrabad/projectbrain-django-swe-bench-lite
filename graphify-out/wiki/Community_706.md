@@ -1,37 +1,39 @@
 # Community 706
 
-> 14 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **FakePostGISOperations** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **TestPostGISVersionCheck** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **FakeConnection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_get_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_no_version_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_valid_version_numbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_classic_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_dev_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_loose_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **._get_postgis_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **skipUnless** (1 connections)
-- **The PostGIS version check parses correctly the version numbers** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **TestRegistration** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_abstract_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_is_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_is_registered_not_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Exception is raised when trying to register an abstract model. Refs #12004.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Checks for registered models should return true.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Checks for unregistered models should return false.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_bare_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_iterable_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_prevent_double_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_prevent_double_registration_for_custom_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_registration_with_model_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_registration_with_star_star_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_star_star_overrides()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
+- [Community 645](Community_645.md) (3 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

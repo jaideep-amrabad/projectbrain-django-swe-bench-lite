@@ -1,28 +1,31 @@
 # Community 1073
 
-> 3 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **.admin_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **csrf_protect** (2 connections)
-- **Decorator to create an admin view attached to this ``AdminSite``. This wraps…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **lower()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
+- **.test_lower()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
+- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
+- **Convert a string into all lowercase.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 573](Community_573.md) (1 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (67%)
-- INFERRED: 2 (33%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

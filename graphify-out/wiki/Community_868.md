@@ -1,34 +1,39 @@
 # Community 868
 
-> 9 nodes · cohesion 0.28
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **TranslatableFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **TranslatableFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **PositiveIntegerField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_alter_null_to_not_null_keeping_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_default_doesnt_perform_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_null_to_not_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **#23738 - Can change a nullable field with default to non-nullable with the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **No queries are performed if a field default changes and the field's not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **#23609 - Tests handling of default values when altering from NULL to NOT NULL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Relationships
 
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 27](Community_27.md) (5 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 453](Community_453.md) (1 shared connections)
+- [Community 608](Community_608.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 16 (80%)
+- INFERRED: 4 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

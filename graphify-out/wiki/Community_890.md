@@ -1,32 +1,37 @@
 # Community 890
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **A simple cookie-based session storage implementation. The session key is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **stable_topological_sort()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **CyclicDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **topological_sort_as_sets()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **test_topological_sort.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- **topological_sort.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **TopologicalSortTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- **.test_cyclic_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- **ValueError** (1 connections)
+- **Variation of Kahn's algorithm (1962) that returns sets. Take a dependency graph…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
 
 ## Relationships
 
-- [Community 139](Community_139.md) (2 shared connections)
-- [Community 551](Community_551.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 578](Community_578.md) (2 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

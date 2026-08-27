@@ -1,55 +1,50 @@
 # Community 468
 
-> 20 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **SuspiciousOperation** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **logging_tests/views.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **sessions/exceptions.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- **DisallowedHost** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **InvalidSessionKey** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- **SuspiciousSession** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- **UncaughtException** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **does_not_exist_raised()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **innocent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **multi_part_parser_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **suspicious()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **suspicious_spec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **uncaught_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
-- **The session may be tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- **Invalid characters in session key** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- **The user did something suspicious** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **HTTP_HOST header contains invalid value** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **Exception** (1 connections)
+- **FormsMediaTestCase** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_form_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_js_three_way()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_multi_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_css_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_js_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_combine_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_construction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_html_safe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_dsl()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_extends()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_from_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_single_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_property_parent_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_css_three_way()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_js_three_way2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_multi_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **Tests for the media handling on widgets and forms** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **The relative order of scripts is preserved in a three-way merge.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
 
 ## Relationships
 
-- [Community 433](Community_433.md) (7 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 551](Community_551.md) (6 shared connections)
-- [Community 34](Community_34.md) (6 shared connections)
-- [Community 28](Community_28.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 177](Community_177.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 324](Community_324.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 616](Community_616.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

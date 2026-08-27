@@ -1,62 +1,57 @@
 # Community 175
 
-> 67 nodes · cohesion 0.05
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **gis/forms/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **test_geoforms.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **gis/forms/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
-- **gis/forms/widgets.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **GeometryField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **SpecializedFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **BaseGeometryWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **OpenLayersWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **GeometryFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.assertTextarea()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.assertMapWidget()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **OSMWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **GeometryWidgetTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **OSMWidgetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_pointfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **GeometryCollectionField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **LineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiLineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiPointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiPolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **PointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **PolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- *... and 42 more nodes in this community*
+- **messages_tests/urls.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- **never_cache()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **messages_tests/test_mixins.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
+- **SuccessMessageMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **.admin_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **SuccessMessageMixinTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
+- **ContactFormViewWithMsg** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- **messages/views.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **add()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- **add_template_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- **show()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- **show_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- **csrf_protect** (2 connections)
+- **.form_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **.get_success_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **.test_set_messages_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
+- **Decorator to create an admin view attached to this ``AdminSite``. This wraps…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **Add a success message on successful form submission.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **Decorator that adds headers to a response so that it will never be cached.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **ContactForm** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (21 shared connections)
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 42](Community_42.md) (4 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 258](Community_258.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 3](Community_3.md) (8 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 22](Community_22.md) (3 shared connections)
+- [Community 571](Community_571.md) (2 shared connections)
 - [Community 7](Community_7.md) (2 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 203](Community_203.md) (1 shared connections)
+- [Community 121](Community_121.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 162 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 70 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

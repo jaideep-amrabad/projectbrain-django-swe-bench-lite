@@ -1,61 +1,64 @@
 # Community 238
 
-> 30 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BulkUpdateTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **queries/test_bulk_update.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **Order** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **CustomPk** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Detail** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Valid** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **JSONFieldNullable** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Member** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ReverseM2MCustomPkTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ValuesSubqueryTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CustomDbColumn** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_json_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_field_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_booleanfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_custom_db_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_custom_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_empty_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_falsey_pk_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_inherited_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_invalid_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_ipaddressfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_no_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- *... and 5 more nodes in this community*
+- **decorators/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **user_passes_test()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
+- **staff_member_required()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
+- **views/decorators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
+- **admin_views/views.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
+- **DecoratorsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Admin2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **decorators/clickjacking.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **xframe_options_exempt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **.my_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.test_cache_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_require_safe_accepts_only_safe_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **xframe_options_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **xframe_options_sameorigin()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **secure_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
+- **secure_view2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
+- **.test_user_passes_test_composition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Modify a view function so its response has the X-Frame-Options HTTP header set…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **.test_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **fully_decorated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **myattr2_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **myattr_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Decorator for views that checks that the user is logged in and is a staff…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
+- **Decorator for views that checks that the user passes the given test,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (25 shared connections)
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 363](Community_363.md) (4 shared connections)
-- [Community 256](Community_256.md) (4 shared connections)
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 643](Community_643.md) (2 shared connections)
-- [Community 458](Community_458.md) (2 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
-- [Community 491](Community_491.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 45](Community_45.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 171](Community_171.md) (5 shared connections)
+- [Community 81](Community_81.md) (4 shared connections)
+- [Community 351](Community_351.md) (3 shared connections)
+- [Community 226](Community_226.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 378](Community_378.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (75%)
-- INFERRED: 24 (25%)
+- EXTRACTED: 100 (93%)
+- INFERRED: 7 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

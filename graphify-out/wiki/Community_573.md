@@ -1,57 +1,48 @@
 # Community 573
 
-> 19 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **messages_tests/urls.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **never_cache()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **messages_tests/test_mixins.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **SuccessMessageMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **b64_decode()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.test_legacy_encode_decode()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **SuccessMessageMixinTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **ContactFormViewWithMsg** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **messages/views.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **add()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **add_template_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **.test_set_messages_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **show()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **show_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **.form_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **.get_success_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **Add a success message on successful form submission.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **Decorator that adds headers to a response so that it will never be cached.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **ContactForm** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **ParsingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
+- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.test_parse_constraint_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface."** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 50](Community_50.md) (5 shared connections)
-- [Community 511](Community_511.md) (4 shared connections)
-- [Community 551](Community_551.md) (3 shared connections)
-- [Community 55](Community_55.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 102](Community_102.md) (3 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
+- [Community 575](Community_575.md) (2 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 29 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

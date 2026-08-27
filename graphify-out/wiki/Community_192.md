@@ -1,58 +1,62 @@
 # Community 192
 
-> 52 nodes · cohesion 0.04
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **CommandTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **dance.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_create_parser_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_find_command_without_PATH()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_system_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- **.test_call_command_no_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_option_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_option_parsing_non_string_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_explode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_no_translations_deactivate_translations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- **.test_call_command_unrecognized_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_with_required_parameters_in_mixed_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_with_required_parameters_in_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_a_command_with_no_app_labels_and_parameters_should_raise_a_command_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_a_command_with_only_empty_parameter_should_ends_gracefully()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_command_with_app_labels_and_parameters_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- *... and 27 more nodes in this community*
+- **Book** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **test_dates.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **generic_views/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **Artist** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **MonthArchiveViewTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **WeekArchiveViewTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **DateDetailViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **test_list.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **BookSigning** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **Page** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **.test_aware_datetime_month_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **.test_get_object_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_previous_month_without_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_week_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **ArtistCreate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **ArtistDetail** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **ArtistList** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **ArtistUpdate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **.test_date_detail_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 60](Community_60.md) (4 shared connections)
-- [Community 86](Community_86.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 272](Community_272.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 348](Community_348.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
+- [Community 91](Community_91.md) (24 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 537](Community_537.md) (7 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 737](Community_737.md) (5 shared connections)
+- [Community 18](Community_18.md) (5 shared connections)
+- [Community 407](Community_407.md) (4 shared connections)
+- [Community 621](Community_621.md) (4 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 440](Community_440.md) (3 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 128 (77%)
+- INFERRED: 38 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

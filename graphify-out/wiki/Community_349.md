@@ -1,65 +1,54 @@
 # Community 349
 
-> 37 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **test_autoreload.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **WatchmanReloaderTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **WatchmanUnavailable** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **GetReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestUtilities** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **test_module/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
-- **skip_unless_watchman_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCheckErrors** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCommonRoots** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **on_macos_with_hfs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
-- **.test_watchman_available()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watchman_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_availability()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_availability_lower_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watched_roots_contains_sys_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **utils_tests/utils.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
-- **object** (1 connections)
-- **.test_mutates_error_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_common_roots()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_is_django_module()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_is_django_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_server_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_server_status_raises_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- *... and 12 more nodes in this community*
+- **Storage** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_available_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._save()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_valid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_accessed_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_created_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Validate the filename by calling get_valid_name() and return a filename to be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return a local filesystem path where the file can be retrieved using Python's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Delete the specified file from the storage system.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return True if a file referenced by the given name already exists in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **List the contents of the specified path. Return a 2-tuple of lists: the first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return the total size, in bytes, of the file specified by name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return an absolute URL where the file's contents can be accessed directly by a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Return the last accessed time (as a datetime) of the file specified by name.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 292](Community_292.md) (14 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 612](Community_612.md) (4 shared connections)
-- [Community 348](Community_348.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 200](Community_200.md) (5 shared connections)
+- [Community 1227](Community_1227.md) (5 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
+- [Community 825](Community_825.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__main__.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 50 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,36 +1,39 @@
 # Community 732
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DefaultNonExpiringCacheKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_set_with_timeout_as_none_has_correct_default_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_set_with_timeout_as_none_set_non_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_with_unset_timeout_set_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_with_unset_timeout_has_correct_default_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_expiration_time_for_keys_is_5_minutes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Memory caches that have the TIMEOUT parameter set to `None` in the default…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Settings having Cache arguments with a TIMEOUT=None create Caches that will set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **The default expiration time of a cache key is 5 minutes. This value is defined…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Caches that have the TIMEOUT parameter undefined in the default settings will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Memory caches that have the TIMEOUT parameter unset will set cache keys having…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **DjangoAdminMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: django-admin builtin commands fail if settings are provided as argument** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: django-admin can't execute user commands, even if settings are…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: django-admin builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: django-admin can't execute user commands unless settings are provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 80](Community_80.md) (16 shared connections)
+- [Community 70](Community_70.md) (8 shared connections)
+- [Community 211](Community_211.md) (2 shared connections)
+- [Community 263](Community_263.md) (1 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

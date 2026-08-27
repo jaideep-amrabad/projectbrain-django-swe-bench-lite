@@ -1,43 +1,39 @@
 # Community 853
 
-> 10 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **InheritanceTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inherit from a template with block wrapped in an {% if %} tag (in parent),…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance34()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance35()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_extends_duplicate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance40()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance41()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **basic/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **SelectOnSaveTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **ArticleSelectOnSave** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **FeaturedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **.test_select_on_save_lying_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **Bare-bones model This is a basic model with only two non-primary-key fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **select_on_save works correctly if the database doesn't return correct…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_select_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Relationships
 
-- [Community 821](Community_821.md) (15 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 1095](Community_1095.md) (2 shared connections)
-- [Community 1096](Community_1096.md) (2 shared connections)
-- [Community 1155](Community_1155.md) (1 shared connections)
-- [Community 1156](Community_1156.md) (1 shared connections)
-- [Community 1157](Community_1157.md) (1 shared connections)
-- [Community 1158](Community_1158.md) (1 shared connections)
-- [Community 1159](Community_1159.md) (1 shared connections)
-- [Community 1160](Community_1160.md) (1 shared connections)
-- [Community 1161](Community_1161.md) (1 shared connections)
-- [Community 1162](Community_1162.md) (1 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 419](Community_419.md) (5 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 586](Community_586.md) (2 shared connections)
+- [Community 767](Community_767.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (81%)
+- INFERRED: 5 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

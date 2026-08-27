@@ -1,46 +1,53 @@
 # Community 553
 
-> 19 nodes · cohesion 0.18
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.normalize_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._drop_identity()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._is_identity_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_column_type_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._get_default_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_column_collation_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **templatize()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **Lexer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.compile_nodelist()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.create_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.get_exception_info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **DebugLexer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **blankout()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **linebreak_iter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **templatize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Parse and compile the template source into a nodelist. If debug is True and an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Return a dictionary containing contextual line information of where the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Return a list of tokens from a given template_string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Convert the given token string into a new Token object and return it. If in_tag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Split a template string into tokens and annotates each token with its start and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Change every non-whitespace character to the given char. Used in the templatize…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **Turn a Django template into something that is understood by xgettext. It does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 761](Community_761.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 283](Community_283.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 39](Community_39.md) (3 shared connections)
+- [Community 825](Community_825.md) (1 shared connections)
+- [Community 642](Community_642.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 292](Community_292.md) (1 shared connections)
+- [Community 325](Community_325.md) (1 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
+- [Community 1227](Community_1227.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 41 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

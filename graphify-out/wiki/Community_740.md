@@ -1,40 +1,40 @@
 # Community 740
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ModelMultipleChoiceFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_number_of_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_run_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_clean_does_deduplicate_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_required_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_show_hidden_initial_changed_queries_efficiently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_to_field_name_with_initial_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelMultipleChoiceField does O(1) queries instead of O(n) (#10156).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelMultipleChoiceField run given validators (#14144).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Test support of show_hidden_initial by ModelMultipleChoiceField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **m2m_and_m2o/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **m2m_and_m2o/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Issue** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **RelatedObjectTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **RelatedObjectUnicodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **StringReferenceModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **.test_m2m_and_m2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.test_m2m_with_unicode_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Many-to-many and many-to-one relationships to the same table Make sure to set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Regression test for #6045: references to other models can be strings, providing…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.test_related_objects_have_name_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (75%)
-- INFERRED: 5 (25%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

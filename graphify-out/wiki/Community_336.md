@@ -1,56 +1,66 @@
 # Community 336
 
-> 35 nodes · cohesion 0.11
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Prefetch** (43 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **CustomPrefetchTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.traverse_qs()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_custom_qs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_filter_deferred()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_nested_prefetch_related_with_duplicate_prefetcher()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_ambiguous()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_generic_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_through_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_through_gfk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_o2m_through_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_reverse_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_multiple_items_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_single_item_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_retrieves_results_from_prefetched_objects_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.get_current_prefetch_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get_current_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_nested_prefetch_related_are_not_overwritten()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_raw_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_to_attr_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_to_attr_doesnt_cache_through_attr_as_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_values_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.add_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 10 more nodes in this community*
+- **no_style()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **OperationsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **PostgreSQLOperationsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
+- **SQLiteOperationsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- **MySQLOperationsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
+- **._fixture_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **SqlFlushTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **._reset_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_sequence_name_length_limits_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_execute_sql_flush_statements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_sql_flush_no_tables()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **.test_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
+- **.test_sql_flush_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
+- **.test_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_sql_flush_allow_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_sql_flush_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_sql_flush_sequences_allow_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
+- **.test_sql_flush_allow_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
+- **.test_sql_flush_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
+- **.test_sql_flush_sequences_allow_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
+- **.test_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- **.test_sql_flush_allow_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- **.test_sql_flush_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- **.test_sql_flush_sequences_allow_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 273](Community_273.md) (10 shared connections)
-- [Community 347](Community_347.md) (8 shared connections)
-- [Community 329](Community_329.md) (3 shared connections)
-- [Community 388](Community_388.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 13](Community_13.md) (12 shared connections)
+- [Community 38](Community_38.md) (4 shared connections)
+- [Community 256](Community_256.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 414](Community_414.md) (2 shared connections)
+- [Community 122](Community_122.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
+- [Community 607](Community_607.md) (1 shared connections)
+- [Community 959](Community_959.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 83 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

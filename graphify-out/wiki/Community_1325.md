@@ -1,22 +1,23 @@
 # Community 1325
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **project_name/settings.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/project_name/settings.py`
+- **.test_arbitrary_keyword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Make sure that get_connection() accepts arbitrary keyword that might be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 143](Community_143.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/project_name/settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

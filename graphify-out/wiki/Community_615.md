@@ -1,42 +1,54 @@
 # Community 615
 
-> 17 nodes · cohesion 0.15
+> 33 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SplitArrayWidget** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSplitFormWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_checkbox_get_context_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.needs_multipart_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year_format()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_month()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DateDetailView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_month_format()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_previous_month()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_day_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_previous_day()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_current_month()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **List of objects published on a given day.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Detail view of a single object on a single date; this differs from the standard…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the start date of the previous interval.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Mixin for views manipulating day-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get a day format string in strptime syntax to be used to parse the day from url…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the day for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the previous valid day.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 533](Community_533.md) (1 shared connections)
+- [Community 3](Community_3.md) (13 shared connections)
+- [Community 533](Community_533.md) (9 shared connections)
+- [Community 705](Community_705.md) (8 shared connections)
+- [Community 976](Community_976.md) (7 shared connections)
+- [Community 805](Community_805.md) (6 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 481](Community_481.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (81%)
-- INFERRED: 5 (19%)
+- EXTRACTED: 100 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,41 @@
 # Community 846
 
-> 10 nodes · cohesion 0.36
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **max_lengths/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **MaxLengthORMTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **middleware/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **no_append_slash()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **SensitiveCBV** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **middleware/extra_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- **middleware/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- **sensitive_fbv()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **decorators/common.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **tests/middleware/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
+- **empty_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **Mark a view function as excluded from CommonMiddleware's APPEND_SLASH…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 171](Community_171.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

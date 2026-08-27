@@ -1,26 +1,28 @@
 # Community 1079
 
-> 3 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **BookAdminWithUnderscoreLookupAndTuple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_fieldlistfilter_underscorelookup_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Ensure ('fieldpath', ClassName ) lookups pass lookup_allowed checks when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **to_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormsetError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a form used to render the response has a specific field error.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Put value into a list if it's not already one. Return an empty list if value is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a formset used to render the response has a specific error. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 390](Community_390.md) (1 shared connections)
-- [Community 391](Community_391.md) (1 shared connections)
-- [Community 470](Community_470.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

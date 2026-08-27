@@ -1,32 +1,33 @@
 # Community 925
 
-> 7 nodes · cohesion 0.43
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **MIMEText** (7 connections)
-- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **DatabaseErrorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.wrap_database_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Context manager and decorator that re-throws backend-specific database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Context manager and decorator that reraises backend-specific database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **wrapper is a database wrapper. It must have a Database attribute defining…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 
 ## Relationships
 
-- [Community 124](Community_124.md) (2 shared connections)
-- [Community 310](Community_310.md) (1 shared connections)
-- [Community 366](Community_366.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (57%)
-- INFERRED: 6 (43%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

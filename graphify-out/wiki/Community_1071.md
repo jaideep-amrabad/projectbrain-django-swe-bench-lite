@@ -1,23 +1,29 @@
 # Community 1071
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **.num_pages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return the total number of pages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **get_digit()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **test_get_digit.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
+- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
+- **.test_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
+- **Given a whole number, return the requested digit of it, where 1 is the right-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 429](Community_429.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

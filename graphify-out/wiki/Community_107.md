@@ -1,53 +1,71 @@
 # Community 107
 
-> 116 nodes · cohesion 0.02
+> 60 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BaseCacheTests** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **DBCacheTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FileBasedCacheTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **LocMemCacheTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **._perform_cull_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **._perform_invalid_key_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PicklingSideEffect** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Unpicklable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **limit_locmem_entries** (3 connections)
-- **.drop_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_createcachetable_with_table_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **DBCacheWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FileBasedCachePathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_locking_on_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_lru_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_lru_incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_lru_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_multiple_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **._perform_invalid_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_add_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 91 more nodes in this community*
+- **cached_property** (163 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **BaseSpatialFeatures** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **BaseDatabaseFeatures** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
+- **DatabaseFeatures** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
+- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- **sqlite3/features.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
+- **django/db/backends/base/features.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
+- **django/db/backends/oracle/features.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
+- **postgresql/features.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
+- **DatabaseFeatures** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
+- **gis/db/backends/mysql/features.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- **DatabaseFeatures** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- **spatialite/features.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- **django/db/backends/mysql/features.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **DatabaseFeatures** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
+- **gis/db/backends/base/features.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **DatabaseFeatures** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- **gis/db/backends/oracle/features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
+- **postgis/features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- **dummy/features.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
+- **DummyDatabaseFeatures** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
+- **.supports_explaining_query_execution()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
+- **.supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
+- **MySQLDatabaseFeatures** (1 connections)
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 55](Community_55.md) (13 shared connections)
-- [Community 7](Community_7.md) (6 shared connections)
-- [Community 518](Community_518.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 13](Community_13.md) (39 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 17](Community_17.md) (9 shared connections)
+- [Community 674](Community_674.md) (6 shared connections)
+- [Community 478](Community_478.md) (5 shared connections)
+- [Community 339](Community_339.md) (5 shared connections)
+- [Community 1227](Community_1227.md) (5 shared connections)
+- [Community 185](Community_185.md) (4 shared connections)
+- [Community 151](Community_151.md) (4 shared connections)
+- [Community 37](Community_37.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 202 (68%)
+- INFERRED: 95 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_no_submodule.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
+- **faulty_migrations/file.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/faulty_migrations/file.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/faulty_migrations/file.py`
 
 ## Audit Trail
 

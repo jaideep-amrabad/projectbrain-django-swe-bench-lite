@@ -1,22 +1,24 @@
 # Community 1268
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **sitemaps/management/commands/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/__init__.py`
+- **CustomStaticFilesStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **Used in TestStaticFilePermissions** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 1227](Community_1227.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

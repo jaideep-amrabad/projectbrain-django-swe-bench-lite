@@ -1,62 +1,44 @@
 # Community 371
 
-> 29 nodes · cohesion 0.10
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TemplateCommand** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.handle()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **get_random_secret_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- **startproject.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
-- **.handle_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.download()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.validate_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
-- **startapp.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- **.is_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.make_writeable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **.splitext()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **custom_startproject.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
-- **.test_get_random_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.handle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- **Determine where the app or project templates are. Use django.__path__[0] as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Copy either a Django application layout template or a Django project layout…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Download the given URL and return the file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Like os.path.splitext, but takes off .tar, too** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Extract the given file to a temporary directory and return the path of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- **Return True if the name looks like a URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- *... and 4 more nodes in this community*
+- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **LookupError** (6 connections)
+- **.get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **get_supported_language_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **Return the model with the given case-insensitive model_name. Raise LookupError…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (12 shared connections)
-- [Community 110](Community_110.md) (3 shared connections)
-- [Community 60](Community_60.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 353](Community_353.md) (1 shared connections)
-- [Community 266](Community_266.md) (1 shared connections)
-- [Community 574](Community_574.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
+- [Community 759](Community_759.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 17 (68%)
+- INFERRED: 8 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

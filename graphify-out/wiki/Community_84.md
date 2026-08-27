@@ -1,64 +1,62 @@
 # Community 84
 
-> 138 nodes · cohesion 0.02
+> 70 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FormsTestCase** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **ChoiceField** (37 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Person** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **TestForm** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
-- **ChoiceFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- **FileForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **CallableChoiceIterator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_boundfield_bool()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_radio()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **PersonNew** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_baseform_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_baseform_repr_dont_trigger_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_id_for_label_override_by_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_invalid_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_dynamic_construction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_empty_querydict_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_error_escaping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_file_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_hidden_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_subclassing_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_templates_with_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_validators_independence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **._set_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_choicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- *... and 113 more nodes in this community*
+- **ForeignKey** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **CASCADE()** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.assertForeignKeyExists()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **._test_m2m_repoint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_inline_fk_index_update_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_fk_to_o2o()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_o2o_to_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_to_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_db_table()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_fk_db_constraint()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_no_db_constraint_added_during_primary_key_change()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_unique_no_unnecessary_fk_drops()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.assertForeignKeyNotExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_foreign_key_quoted_db_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_fk()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_fk_to_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_inline_fk()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_foreign_key_long_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_inline_fk_update_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_fk_checks_deferred_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_char_field_with_db_index_to_fk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_namespaced_db_table_foreign_key_reference()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_referenced_field_without_constraint_rename_inside_atomic_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_referenced_table_without_constraint_rename_inside_atomic_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (17 shared connections)
-- [Community 405](Community_405.md) (9 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 377](Community_377.md) (5 shared connections)
-- [Community 71](Community_71.md) (5 shared connections)
-- [Community 431](Community_431.md) (4 shared connections)
-- [Community 150](Community_150.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 159](Community_159.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 631](Community_631.md) (2 shared connections)
+- [Community 27](Community_27.md) (49 shared connections)
+- [Community 26](Community_26.md) (16 shared connections)
+- [Community 243](Community_243.md) (9 shared connections)
+- [Community 34](Community_34.md) (9 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 90](Community_90.md) (5 shared connections)
+- [Community 288](Community_288.md) (5 shared connections)
+- [Community 115](Community_115.md) (4 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 290](Community_290.md) (2 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 514](Community_514.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (83%)
-- INFERRED: 43 (17%)
+- EXTRACTED: 188 (83%)
+- INFERRED: 39 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

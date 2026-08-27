@@ -1,35 +1,28 @@
 # Community 886
 
-> 9 nodes · cohesion 0.25
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **FileSessionTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **FileSessionPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_configuration_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_invalid_key_backslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_invalid_key_forwardslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **BlockContext** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.add_blocks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.get_block()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.pop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.push()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 253](Community_253.md) (1 shared connections)
-- [Community 616](Community_616.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

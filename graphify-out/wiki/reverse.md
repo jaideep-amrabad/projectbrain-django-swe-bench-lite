@@ -1,8 +1,8 @@
 # reverse()
 
-> God node · 399 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+> God node · 392 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 14](Community_14.md)
 
 ## Connections by Relation
 
@@ -10,12 +10,12 @@
 - get_resolver() `EXTRACTED`
 - NoReverseMatch `EXTRACTED`
 - resolve_url() `EXTRACTED`
-- get_script_prefix() `EXTRACTED`
 - .response_add() `EXTRACTED`
-- translate_url() `EXTRACTED`
-- _get_sitemap_full_url() `EXTRACTED`
-- get_urlconf() `EXTRACTED`
+- get_script_prefix() `EXTRACTED`
 - .response_change() `EXTRACTED`
+- _get_sitemap_full_url() `EXTRACTED`
+- translate_url() `EXTRACTED`
+- get_urlconf() `EXTRACTED`
 - .response_delete() `EXTRACTED`
 - parse_rst() `EXTRACTED`
 - .user_change_password() `EXTRACTED`
@@ -34,19 +34,19 @@
 ### imports
 - django/urls/__init__.py `EXTRACTED`
 - contrib/admin/options.py `EXTRACTED`
-- admin_changelist/tests.py `EXTRACTED`
 - defaulttags.py `EXTRACTED`
-- test_utils/tests.py `EXTRACTED`
+- admin_changelist/tests.py `EXTRACTED`
 - generic_views/views.py `EXTRACTED`
+- test_utils/tests.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
-- admin_widgets/tests.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
+- admin_widgets/tests.py `EXTRACTED`
 - admin/utils.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- admin/sites.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
+- admin/sites.py `EXTRACTED`
 - contrib/admin/widgets.py `EXTRACTED`
 - proxy_models/tests.py `EXTRACTED`
 - auth/admin.py `EXTRACTED`

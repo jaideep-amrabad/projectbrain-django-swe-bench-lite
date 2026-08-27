@@ -1,52 +1,55 @@
 # Community 513
 
-> 21 nodes · cohesion 0.15
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Create a prefix operator, given a binding power and a function that evaluates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **ASGIRequest** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._base_scope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.check_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.COOKIES()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.GET()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **Construct a generic request object.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._get_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_scheme()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._set_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **Custom request subclass that decodes from an ASGI-standard request dict and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **Store templates and contexts that are rendered. The context is copied so that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **The base environment for a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **The base scope for a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Look for a signaled exception, clear the current context exception data, re-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **The master request method. Compose the environment dictionary and pass to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (3 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 208](Community_208.md) (3 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 828](Community_828.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 262](Community_262.md) (1 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 41 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

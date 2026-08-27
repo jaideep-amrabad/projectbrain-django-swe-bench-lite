@@ -1,63 +1,60 @@
 # Community 433
 
-> 63 nodes · cohesion 0.05
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **request.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **multipartparser.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **requests/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **MultiPartParser** (21 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **MultiPartParserError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.parse()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **MultiParserTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **RequestDataTooBig** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **parse_header()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **TooManyFieldsSent** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **ChunkIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **UnreadablePostError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **Parser** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.body()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **RawPostDataException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **exhaust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.handle_file_complete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.sanitize_file_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **parse_boundary_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- *... and 38 more nodes in this community*
+- **renderers.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **test_renderers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **DjangoTemplates** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Jinja2** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **TemplatesSetting** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Jinja2Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.test_installed_apps_template_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load Django templates from the built-in widget templates in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load Jinja2 templates from the built-in widget templates in django/forms/jinja2…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load templates using template.loader.get_template() which is configured based…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **skipIf** (1 connections)
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (13 shared connections)
-- [Community 63](Community_63.md) (13 shared connections)
-- [Community 34](Community_34.md) (8 shared connections)
-- [Community 596](Community_596.md) (8 shared connections)
-- [Community 73](Community_73.md) (8 shared connections)
-- [Community 87](Community_87.md) (7 shared connections)
-- [Community 468](Community_468.md) (7 shared connections)
-- [Community 42](Community_42.md) (7 shared connections)
-- [Community 69](Community_69.md) (7 shared connections)
-- [Community 206](Community_206.md) (6 shared connections)
-- [Community 591](Community_591.md) (4 shared connections)
-- [Community 187](Community_187.md) (3 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 107](Community_107.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 461](Community_461.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 314](Community_314.md) (2 shared connections)
+- [Community 701](Community_701.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 1227](Community_1227.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 212 (94%)
-- INFERRED: 14 (6%)
+- EXTRACTED: 68 (84%)
+- INFERRED: 13 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

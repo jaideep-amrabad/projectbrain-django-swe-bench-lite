@@ -1,31 +1,32 @@
 # Community 932
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **ImageFileDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **The descriptor for the file attribute on the model instance. Return a FieldFile…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **Just like the FileDescriptor, but for ImageFields. The only difference is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **_strip_once()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.get_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_charref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_entityref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **HTMLParser** (1 connections)
+- **Internal tag stripping utility used by strip_tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Relationships
 
-- [Community 69](Community_69.md) (3 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 309](Community_309.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

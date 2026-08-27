@@ -1,29 +1,31 @@
 # Community 978
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **DeprecatedFieldsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_postgres_jsonfield_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_CommaSeparatedIntegerField_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_IPAddressField_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.test_nullbooleanfield_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **skipUnless** (1 connections)
+- **TestMiscFinder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **.test_location_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **A few misc finder tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **.test_cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **.test_get_finder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **.test_get_finder_bad_classname()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **.test_get_finder_bad_module()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **.test_searched_locations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 1227](Community_1227.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,43 +1,41 @@
 # Community 697
 
-> 14 nodes · cohesion 0.19
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Transform** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **RegisterLookupMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._clear_cached_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.get_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.register_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._unregister_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **RegisterLookupMixin() is first so that get_lookup() and get_transform() first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.get_bilateral_transforms()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Log** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Mod** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **LogTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
+- **ModTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **FixDecimalInputMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **.as_sqlite()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 57](Community_57.md) (3 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
+- [Community 148](Community_148.md) (9 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 453](Community_453.md) (1 shared connections)
+- [Community 760](Community_760.md) (1 shared connections)
+- [Community 232](Community_232.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
 
 ## Audit Trail
 

@@ -1,49 +1,54 @@
 # Community 533
 
-> 19 nodes · cohesion 0.19
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **SplitArrayField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSplitFormField** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_splitarrayfield_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_splitarrayfield_remove_trailing_nulls_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **._remove_trailing_nulls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_rendering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_splitarraywidget_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_invalid_char_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_invalid_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_remove_trailing_nulls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_remove_trailing_nulls_not_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_month()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_week()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_year()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_weekday()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the start date of the next interval. The interval is defined by start…** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_previous_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_week_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_current_week()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid day.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Mixin for views manipulating week-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get a week format string in strptime syntax to be used to parse the week from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the week for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the previous valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the weekday for a given date. The first day according to the week format…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid year.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next or the previous valid date. The idea is to allow links on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid month.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Relationships
 
-- [Community 204](Community_204.md) (4 shared connections)
-- [Community 183](Community_183.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 615](Community_615.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 355](Community_355.md) (1 shared connections)
+- [Community 615](Community_615.md) (9 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 976](Community_976.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 705](Community_705.md) (3 shared connections)
+- [Community 481](Community_481.md) (2 shared connections)
+- [Community 805](Community_805.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 - [Community 11](Community_11.md) (1 shared connections)
+- [Community 961](Community_961.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (67%)
-- INFERRED: 16 (33%)
+- EXTRACTED: 61 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

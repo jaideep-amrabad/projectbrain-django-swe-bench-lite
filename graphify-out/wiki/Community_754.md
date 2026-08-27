@@ -1,46 +1,40 @@
 # Community 754
 
-> 13 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **now()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **DateFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **DateTimeFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **TimeFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **expensive_calculation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/models.py`
-- **.test_fix_default_value_tz()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value_tz()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value_tz()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_auto_now_and_auto_now_add_raise_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **Return an aware or naive datetime.datetime, depending on settings.USE_TZ.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **tests_sample.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **doctests.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **TestDjangoTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **TestVanillaUnittest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **TestZimpleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **factorial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **EmptyTestCase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **Doctest example from the official Python documentation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **Return the factorial of n, an exact integer >= 0. >>> [factorial(n) for n in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **sample/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
+- **load_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **DjangoTestCase** (1 connections)
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (7 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 79](Community_79.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 114](Community_114.md) (1 shared connections)
-- [Community 421](Community_421.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (87%)
-- INFERRED: 5 (13%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

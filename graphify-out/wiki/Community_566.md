@@ -1,41 +1,62 @@
 # Community 566
 
-> 19 nodes · cohesion 0.11
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **devDependencies** (6 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **frozenset** (24 connections)
+- **TestIterModulesAndFiles** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **DatabaseAliasTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.clear_autoreload_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_is_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_without_file_is_not_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_module_without_spec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_path_with_embedded_null_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_weakref_in_sys_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_close_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_close_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 343](Community_343.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 246](Community_246.md) (3 shared connections)
+- [Community 180](Community_180.md) (2 shared connections)
+- [Community 269](Community_269.md) (2 shared connections)
+- [Community 282](Community_282.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 392](Community_392.md) (1 shared connections)
+- [Community 641](Community_641.md) (1 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/package.json`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 55 (68%)
+- INFERRED: 26 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,33 @@
 # Community 904
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **shell.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **Command** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.bpython()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.ipython()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **M2mThroughReferentialTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_add_on_symmetrical_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_empty_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_non_symmetrical_both()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_non_symmetrical_clear_first_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_non_symmetrical_first_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_non_symmetrical_second_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_symmetrical()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_set_on_symmetrical_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_through_fields_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Relationships
 
-- [Community 60](Community_60.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 500](Community_500.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 721](Community_721.md) (1 shared connections)
+- [Community 559](Community_559.md) (6 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (69%)
+- INFERRED: 5 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

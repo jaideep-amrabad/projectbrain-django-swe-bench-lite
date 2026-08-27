@@ -1,36 +1,34 @@
 # Community 842
 
-> 10 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **ExtractingStringsWithPercentSigns** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **POFileAssertionMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **.assertMsgId()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **._assertPoKeyword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_adds_python_format_to_all_percent_signs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_percent_symbol_at_the_end()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_percent_symbol_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_string_that_look_like_fmt_spec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **Tests the extracted string found in the gettext catalog. Percent signs are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **slice_filter()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **.test_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **.test_index_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **.test_negative_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **.test_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **.test_range_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **.test_range_step()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **.test_zero_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **Return a slice of the list using the same syntax as Python's list slicing.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 199](Community_199.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 290](Community_290.md) (1 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

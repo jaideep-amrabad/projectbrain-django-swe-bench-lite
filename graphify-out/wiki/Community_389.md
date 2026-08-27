@@ -1,59 +1,60 @@
 # Community 389
 
-> 30 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **PasswordResetConfirmClient** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **AuthTemplateTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **urlsafe_base64_encode()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **CustomUserPasswordResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_reset_confirm_view_custom_username_hint()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_password_reset_confirm_view_valid_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **UUIDUserPasswordResetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._get_password_reset_confirm_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.test_confirm_invalid_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_reset_confirm_view_invalid_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **._read_signup_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **extract_token_from_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_valid_custom_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Encode a bytestring to a base64 string for use in URLs. Strip any trailing…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **Client** (1 connections)
-- **This client eases testing the password reset flow by emulating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.test_password_change_done_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_password_reset_change_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- *... and 5 more nodes in this community*
+- **CommandParser** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **ManagementUtility** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.create_parser()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.run_from_argv()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **handle_default_options()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.error()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.get_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.print_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.parse_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Return the Django version, which should be correct for all built-in Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Create and return the ``ArgumentParser`` which will be used to parse the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Print the help message for this command, derived from ``self.usage()``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Set up any environment changes requested (e.g., Python path and Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Customized ArgumentParser class to improve some error messages and prevent…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Include any default options that all commands should accept here so that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Encapsulate the logic of the django-admin and manage.py utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Return the script's main help text, as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Try to fetch the given subcommand, printing a message with the appropriate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Output completion suggestions for BASH. The output of this function is passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (11 shared connections)
-- [Community 289](Community_289.md) (6 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 58](Community_58.md) (3 shared connections)
-- [Community 384](Community_384.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 354](Community_354.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 626](Community_626.md) (1 shared connections)
+- [Community 58](Community_58.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 256](Community_256.md) (3 shared connections)
+- [Community 226](Community_226.md) (3 shared connections)
+- [Community 1227](Community_1227.md) (2 shared connections)
+- [Community 475](Community_475.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 337](Community_337.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 57 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

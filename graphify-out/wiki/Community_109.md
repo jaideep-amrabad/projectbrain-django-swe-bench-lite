@@ -1,56 +1,61 @@
 # Community 109
 
-> 23 nodes · cohesion 0.11
+> 73 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **BaseDatabaseFeatures** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **DatabaseFeatures** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
-- **django/db/backends/base/features.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **DatabaseFeatures** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
-- **postgresql/features.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
-- **postgis/features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
-- **dummy/features.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
-- **DummyDatabaseFeatures** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
-- **.supports_explaining_query_execution()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **.supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **.allows_group_by_selected_pks_on_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **Does this backend support explaining query execution?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **Confirm support for transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- **.introspected_field_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
-- **.is_postgresql_11()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
-- **.is_postgresql_12()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
-- **.is_postgresql_13()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
-- **.can_return_columns_from_insert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
-- **.django_test_skips()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
-- **.introspected_field_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
-- **.supports_atomic_references_rename()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
-- **.supports_json_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
+- **QuerySet** (99 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.dates()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._combinator_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.last()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._merge_sanity_check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.select_for_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update_or_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__references_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._filter_or_exclude_inplace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.first()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._validate_values_are_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._values()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.values_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **DoesNotExistQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **._add_hints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (13 shared connections)
-- [Community 36](Community_36.md) (11 shared connections)
-- [Community 495](Community_495.md) (2 shared connections)
-- [Community 550](Community_550.md) (2 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
-- [Community 498](Community_498.md) (1 shared connections)
+- [Community 300](Community_300.md) (28 shared connections)
+- [Community 332](Community_332.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 939](Community_939.md) (4 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 192](Community_192.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 98](Community_98.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 151 (89%)
+- INFERRED: 18 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

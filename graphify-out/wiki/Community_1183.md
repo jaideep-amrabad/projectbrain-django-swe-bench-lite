@@ -1,24 +1,31 @@
 # Community 1183
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_follow_307_and_308_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A 307 or 308 redirect preserves the request method after the redirect.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **EmptyQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.test_emptyqs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Marker class to checking if a queryset is empty by .none():…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 419](Community_419.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 776](Community_776.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

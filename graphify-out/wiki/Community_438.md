@@ -1,52 +1,56 @@
 # Community 438
 
-> 27 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **MultiDBOperationTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_create_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model4()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **MigrateEverythingRouter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_run_python()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_run_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **AgnosticRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **MigrateNothingRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model3()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **A router that doesn't allow migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **A router that always allows migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **CreateModel honors multi-db settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router doesn't have an opinion (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router returns False (i.e. CreateModel shouldn't run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router returns True (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- *... and 2 more nodes in this community*
+- **DispatcherTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.assertTestIsClean()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **dispatch/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **Callable** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **receiver_1_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **garbage_collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cached_garbaged_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_disconnection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_garbage_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_multiple_registration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.a()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cannot_connect_no_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cannot_connect_non_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_connected_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_different_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_ignored_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_values_returned_by_disconnection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cached_property_reuse_different_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_uid_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_no_receivers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (12 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
+- [Community 226](Community_226.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 148](Community_148.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 61 (87%)
+- INFERRED: 9 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

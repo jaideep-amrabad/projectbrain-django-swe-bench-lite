@@ -1,23 +1,26 @@
 # Community 1212
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_response_raises_multi_arg_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A request may raise an exception with more than one required arg.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **tag_27584.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **BadNode** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **badtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
 
 ## Relationships
 
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

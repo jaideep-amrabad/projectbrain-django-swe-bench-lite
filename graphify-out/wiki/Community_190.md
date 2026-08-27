@@ -1,52 +1,68 @@
 # Community 190
 
-> 52 nodes · cohesion 0.06
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **custom_pk/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **CustomPKTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **custom_pk/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **BasicCustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **MyWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **MyWrapperField** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **custom_pk/fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **Employee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **MyAutoField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **Business** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **CustomAutoFieldModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.test_auto_field_subclass_bulk_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_pk_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets_related_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets_relational()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- *... and 27 more nodes in this community*
+- **NumericOutputFieldMixin** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **Random** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ACos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ASin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ATan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Cos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Power** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sqrt** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Pi** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ACosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **ASinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- **ATanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **CosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **SqrtTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sqrt.py`
+- **PowerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **PiTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_pi.py`
+- **RandomTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
+- [Community 148](Community_148.md) (33 shared connections)
+- [Community 18](Community_18.md) (8 shared connections)
+- [Community 194](Community_194.md) (7 shared connections)
+- [Community 44](Community_44.md) (5 shared connections)
+- [Community 33](Community_33.md) (3 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 453](Community_453.md) (2 shared connections)
+- [Community 697](Community_697.md) (2 shared connections)
+- [Community 149](Community_149.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 1025](Community_1025.md) (1 shared connections)
+- [Community 937](Community_937.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_pi.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sqrt.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (89%)
-- INFERRED: 10 (11%)
+- EXTRACTED: 142 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

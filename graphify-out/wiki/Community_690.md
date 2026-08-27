@@ -1,39 +1,47 @@
 # Community 690
 
-> 15 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **RequestMethodStringDataTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_empty_string_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method POST** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method PUT** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method PATCH** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with empty string data via request method GET/POST/HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_bytes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_charset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_multiple_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_structured_suffixes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_wrong_header()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Lookup** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.batch_process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_db_prep_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.apply_bilateral_transforms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.contains_aggregate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.contains_over_clause()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_db_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_group_by_cols()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.is_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.process_lhs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.set_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 55](Community_55.md) (8 shared connections)
+- [Community 30](Community_30.md) (6 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 293](Community_293.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 38 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

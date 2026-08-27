@@ -1,59 +1,56 @@
 # Community 429
 
-> 25 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Paginator** (46 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PaginationTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_invalid_page_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_range_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_sequence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_count_does_not_silence_attribute_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_count_does_not_silence_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_float_integer_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_elided_page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_no_content_allow_empty_first_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginate_misc_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginator_iteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Invalid page numbers result in the correct exception being raised.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Tests for the Paginator and Page classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator pages have the correct start and end indexes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **A paginator page acts like a standard sequence.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator.page_range should be an iterator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator.get_page() returns a valid page even with invalid page arguments.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator.get_page() with an empty object_list.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **Paginator.get_page() raises EmptyPage if allow_empty_first_page=False and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **DatabaseWrapper** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **CursorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.disable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.enable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.data_type_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_is_mariadb()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_server_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_server_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.sql_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Disable foreign key checks, primarily for use in adding rows with forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Re-enable foreign key checks after they have been disabled.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 640](Community_640.md) (12 shared connections)
-- [Community 742](Community_742.md) (7 shared connections)
-- [Community 985](Community_985.md) (5 shared connections)
-- [Community 963](Community_963.md) (3 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 1007](Community_1007.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 1071](Community_1071.md) (1 shared connections)
-- [Community 1102](Community_1102.md) (1 shared connections)
-- [Community 282](Community_282.md) (1 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 63](Community_63.md) (4 shared connections)
+- [Community 107](Community_107.md) (2 shared connections)
+- [Community 673](Community_673.md) (1 shared connections)
+- [Community 338](Community_338.md) (1 shared connections)
+- [Community 672](Community_672.md) (1 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 295](Community_295.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (89%)
-- INFERRED: 9 (11%)
+- EXTRACTED: 36 (82%)
+- INFERRED: 8 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

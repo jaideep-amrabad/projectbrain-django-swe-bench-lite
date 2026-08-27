@@ -1,51 +1,45 @@
 # Community 398
 
-> 30 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **OptionsBaseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **GetFieldByNameTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **RelatedObjectsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._details()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **DataTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **LabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **M2MTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._map_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._map_related_query_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **PrivateFieldsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_related_objects_include_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_related_objects_include_hidden_local_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_related_objects_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_data_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_m2m_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_related_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_related_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_many_to_many_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_local_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_local_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_fields_only_searches_forward_on_apps_not_ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- *... and 5 more nodes in this community*
+- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **Answer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **TestOrderWithRespectToOneToOnePK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **Dimension** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Entity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Question** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **OrderWithRespectToTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **Component** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **.test_duplicate_order_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Tests for the order_with_respect_to Meta attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **.test_set_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
 
 ## Relationships
 
-- [Community 362](Community_362.md) (10 shared connections)
-- [Community 296](Community_296.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 579](Community_579.md) (3 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 148](Community_148.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 39 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

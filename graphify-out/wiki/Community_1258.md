@@ -1,22 +1,24 @@
 # Community 1258
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **openlayers.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
+- **.test_check_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
+- **patch** (1 connections)
+- **Test if backend specific checks are performed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

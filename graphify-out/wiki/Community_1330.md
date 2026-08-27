@@ -1,22 +1,25 @@
 # Community 1330
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **simple_app/management/commands/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/management/commands/__init__.py`
+- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 143](Community_143.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/management/commands/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

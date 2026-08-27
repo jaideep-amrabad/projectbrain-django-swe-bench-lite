@@ -1,40 +1,40 @@
 # Community 683
 
-> 14 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **.create_test_db()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **._get_test_db_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **.mark_expected_failures_and_skips()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **.serialize_db_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **.sql_table_creation_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **.test_db_signature()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **._execute_create_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **Serialize all data in the database into a JSON string. Designed only for test…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **Internal implementation - return the name of the test DB that will be created.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **Internal implementation - create the test db tables.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **Mark tests in Django's test suite which are expected failures on this database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **SQL to append to the end of the test table creation statements.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **Create a test database, prompting the user for confirmation if the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **Return a tuple with elements of self.connection.settings_dict (a DATABASES…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **ParsingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.parse_definition()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.assertConstraint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **sqlite/test_introspection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **IntrospectionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_and_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_column_with_operators_and_functions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_constraint_multicolumn()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **skipUnless** (2 connections)
+- **Get the primary key column regardless of whether or not it has quotation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **Parse a column or constraint definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
 
 ## Relationships
 
-- [Community 218](Community_218.md) (7 shared connections)
-- [Community 769](Community_769.md) (3 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 659](Community_659.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 35 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

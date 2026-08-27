@@ -1,60 +1,60 @@
 # Community 129
 
-> 47 nodes · cohesion 0.10
+> 42 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **delete_regress/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **delete_regress/models.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **DeleteCascadeTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **DeleteTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **DeleteCascadeTransactionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFileProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Award** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Email** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **File** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **OrderedPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **PlayedWith** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Toy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **DeleteDistinct** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **LargeDeleteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **AwardNote** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Eaten** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- *... and 22 more nodes in this community*
+- **postgres/operations.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **CreateExtension** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **postgres_tests/migrations/0001_setup_extensions.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
+- **register_type_handlers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **postgres/signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **postgres_tests/test_signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **OIDTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **get_citext_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **get_hstore_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **BloomExtension** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **CryptoExtension** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **BtreeGinExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **BtreeGistExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **CITextExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **HStoreExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **TrigramExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **UnaccentExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.extension_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.assertOIDs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_citext_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_hstore_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.test_register_type_handlers_no_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.test_citext_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 669](Community_669.md) (12 shared connections)
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 22](Community_22.md) (4 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 296](Community_296.md) (2 shared connections)
-- [Community 943](Community_943.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
-- [Community 436](Community_436.md) (1 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 86](Community_86.md) (8 shared connections)
+- [Community 83](Community_83.md) (4 shared connections)
+- [Community 68](Community_68.md) (3 shared connections)
+- [Community 587](Community_587.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 797](Community_797.md) (2 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 454](Community_454.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (76%)
-- INFERRED: 35 (24%)
+- EXTRACTED: 112 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

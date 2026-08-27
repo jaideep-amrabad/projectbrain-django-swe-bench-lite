@@ -1,29 +1,34 @@
 # Community 938
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **CheckCacheSettingsAppDirsTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_default_cache_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_default_cache_not_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **Don't error if 'default' is present in CACHES setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **Error if 'default' not present in CACHES setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **DateTimesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_ambiguous_and_invalid_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (3 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
 - [Community 7](Community_7.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (83%)
+- INFERRED: 3 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

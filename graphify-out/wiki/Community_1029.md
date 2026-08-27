@@ -1,27 +1,31 @@
 # Community 1029
 
-> 5 nodes · cohesion 0.60
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **I18nFiltersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_filters.py`
-- **setup** (3 connections)
-- **.test_i18n32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_filters.py`
-- **.test_i18n33()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_filters.py`
-- **.test_i18n38_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_filters.py`
+- **OracleDbshellTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **._run_dbshell()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_with_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_without_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **skipUnless** (1 connections)
+- **Run runshell command and capture its arguments.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_filters.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

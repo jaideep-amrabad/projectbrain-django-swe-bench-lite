@@ -1,49 +1,41 @@
 # Community 673
 
-> 15 nodes · cohesion 0.20
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **RedirectView** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **test_client_regress/urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/urls.py`
-- **.get_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.head()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.put()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Provide a redirect on any GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Return the URL redirect to. Keyword arguments from the URL pattern match…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **It should be possible to use the view without going through .as_view() (#21564).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **test_client_regress/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/__init__.py`
+- **DatabaseSchemaEditor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._is_limited_data_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._set_field_new_type_null_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._column_default_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._delete_composed_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._rename_field_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.sql_delete_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.sql_rename_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._supports_limited_data_type_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **MySQL can remove an implicit FK index on a field when that field is covered by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **Keep the null property of the old field. If it has changed, it will be handled…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 102](Community_102.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 210](Community_210.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 453](Community_453.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 478](Community_478.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

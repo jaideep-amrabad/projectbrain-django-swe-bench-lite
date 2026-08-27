@@ -1,60 +1,46 @@
 # Community 580
 
-> 37 nodes · cohesion 0.08
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **BaseConverter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **datetime_safe.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **RemovedInDjango50Warning** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **TestBaseConv** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **test_datetime_safe.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **DatetimeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **test_baseconv.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **baseconv.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **date** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **strftime()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.convert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **new_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **new_datetime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.test_compare_datetimes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.test_safe_strftime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.test_zero_padding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.strftime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.strftime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **_findall()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.test_base11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_base20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_base7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- *... and 12 more nodes in this community*
+- **BrokenLinkEmailsMiddleware** (16 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **BrokenLinkEmailsMiddlewareTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.is_ignorable_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.is_internal_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.test_referer_equal_to_requested_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_without_trailing_slash_when_append_slash_is_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_without_trailing_slash_when_append_slash_is_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting_ignored_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting_no_referer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_on_another_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Send broken link emails for relevant 404 NOT FOUND responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **Return True if the referring URL is the same domain as the current request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **Return True if the given request *shouldn't* notify the site managers according…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.get_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_custom_request_checker()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Some bots set the referer to the current URL to avoid being blocked by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Relationships
 
-- [Community 142](Community_142.md) (8 shared connections)
-- [Community 46](Community_46.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 207](Community_207.md) (2 shared connections)
-- [Community 272](Community_272.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
-- [Community 482](Community_482.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (94%)
-- INFERRED: 5 (6%)
+- EXTRACTED: 37 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,47 @@
 # Community 585
 
-> 19 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
+- **Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **LastExecutedQueryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **EscapingChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 - **skipUnless** (6 connections)
-- **GetImageDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **DimensionClosingBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_not_closing_of_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **InconsistentGetImageDimensionsBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_closing_of_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_bug_19457()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_multiple_calls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_invalid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_valid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_webp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() properly closes files (#8817)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Open files passed into get_image_dimensions() should stay opened.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() called with a filename should closed the file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() works properly after various calls using a file handler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Multiple calls of get_image_dimensions() should return the same size.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Regression test for #19457 get_image_dimensions fails on some pngs, while…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() should return (None, None) for the dimensions of invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() should catch struct.error while feeding the PIL Image…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **EscapingChecksDebug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_check_sqlite_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_pathlib_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_parameter_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_large_number_of_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_no_interpolation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_parameter_quoting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **All tests in this test case are also run with settings.DEBUG=True in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **Raise NotSupportedError when aggregating on date/time fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **A named in-memory db should be allowed where supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_distinct_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_distinct_aggregation_multiple_args_no_distinct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_regexp_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Relationships
 
-- [Community 69](Community_69.md) (3 shared connections)
-- [Community 286](Community_286.md) (1 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 479](Community_479.md) (1 shared connections)
+- [Community 455](Community_455.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 33 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **foreign_object/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/__init__.py`
+- **DateTimeShortcuts.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js`
 
 ## Audit Trail
 

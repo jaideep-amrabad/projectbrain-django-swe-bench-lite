@@ -1,36 +1,42 @@
 # Community 834
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **._clean_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_prefix()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_initial_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.get_initial_for_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.changed_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Return the field name with a prefix appended, if this Form has a prefix set.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Add an 'initial' prefix for checking dynamic initial values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Update the content of `self._errors`. The `field` argument is the name of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Return initial data for field on form. Use initial data from the form or the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **core/management/commands/runserver.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Relationships
 
-- [Community 406](Community_406.md) (6 shared connections)
-- [Community 802](Community_802.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 108](Community_108.md) (3 shared connections)
+- [Community 863](Community_863.md) (2 shared connections)
+- [Community 400](Community_400.md) (2 shared connections)
+- [Community 361](Community_361.md) (2 shared connections)
+- [Community 211](Community_211.md) (2 shared connections)
+- [Community 1227](Community_1227.md) (1 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

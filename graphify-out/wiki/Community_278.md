@@ -1,46 +1,62 @@
 # Community 278
 
-> 15 nodes · cohesion 0.17
+> 28 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ManagementUtility** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.run_from_argv()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **handle_default_options()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Set up any environment changes requested (e.g., Python path and Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Include any default options that all commands should accept here so that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Encapsulate the logic of the django-admin and manage.py utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Return the script's main help text, as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Try to fetch the given subcommand, printing a message with the appropriate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Output completion suggestions for BASH. The output of this function is passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Given the command-line arguments, figure out which subcommand is being run,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **BaseHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.get_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **set_urlconf()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **.get_response_async()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **AsyncUnsafeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.resolve_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **async_to_sync** (5 connections)
+- **.adapt_method_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.check_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.make_view_atomic()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_sync_to_async_uses_base_thread_and_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **.process_exception_by_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **reset_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Resolve and call the view, then apply view, exception, and template_response…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **Adapt a method to be in the correct "mode": - If is_async is False: -…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Return an HttpResponse object for the given HttpRequest.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Asynchronous version of get_response. Funneling everything, including WSGI,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Retrieve/set the urlconf for the request. Return the view resolved, with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Raise an error if the view returned None or an uncalled coroutine.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Pass the exception to the exception middleware. If no middleware return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Reset the URLconf after each request is finished.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Set the URLconf for the current thread (overriding the default one in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 34](Community_34.md) (6 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 60](Community_60.md) (2 shared connections)
-- [Community 757](Community_757.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 537](Community_537.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 574](Community_574.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 828](Community_828.md) (2 shared connections)
+- [Community 1178](Community_1178.md) (2 shared connections)
+- [Community 156](Community_156.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 644](Community_644.md) (1 shared connections)
+- [Community 174](Community_174.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 57 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

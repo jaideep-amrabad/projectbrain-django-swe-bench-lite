@@ -1,24 +1,30 @@
 # Community 1113
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.start_transaction_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL statement required to start a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **classmethod** (1 connections)
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Main entry point for a request-response process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Relationships
 
-- [Community 185](Community_185.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

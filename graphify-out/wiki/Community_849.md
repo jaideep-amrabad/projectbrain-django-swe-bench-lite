@@ -1,34 +1,36 @@
 # Community 849
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **UnaccentTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **UnaccentTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **.test_unaccent_chained()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **.test_unaccent_with_conforming_strings_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **Unaccent can be used chained with a lookup (which should be the case since…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **SQL is valid when standard_conforming_strings is off.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **TextField should have the exact same behavior as CharField regarding unaccent…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **.test_unaccent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **.test_unaccent_accentuated_needle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **GenericIPAddressField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_blank_and_null_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 420](Community_420.md) (2 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
 - [Community 11](Community_11.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

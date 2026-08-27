@@ -1,24 +1,28 @@
 # Community 1122
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Do you really want to merge these migrations?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.__reduce__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **model_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Used to unpickle Model subclasses with deferred fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Hook to allow choosing the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (75%)
+- INFERRED: 2 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

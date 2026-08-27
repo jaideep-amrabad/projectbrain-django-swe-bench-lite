@@ -1,37 +1,35 @@
 # Community 806
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **UserManagerTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_runpython_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_make_random_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_super_user_raises_error_on_false_is_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_superuser_raises_error_on_false_is_staff()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user_email_domain_normalize()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user_email_domain_normalize_rfc3696()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user_email_domain_normalize_with_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user_is_staff()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_empty_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **_get_locale_dirs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **update_catalogs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **fetch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_check_diff()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **lang_stats()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_tx_resource_for_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output language statistics of committed translation files for each Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Fetch translations from Transifex, wrap long lines, generate mo files.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return a tuple (contrib name, absolute path) for all locale directories,…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return the Transifex resource name** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output the approximate number of changed/added strings in the en catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Update the en/LC_MESSAGES/django.po (main and contrib) files with new/updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 1227](Community_1227.md) (6 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

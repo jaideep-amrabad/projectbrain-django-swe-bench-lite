@@ -1,26 +1,28 @@
 # Community 1080
 
-> 3 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **DecadeFilterBookAdminWithFailingQueryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_filter_with_failing_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **When a filter's queryset method fails, it fails loudly and the corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **._assertFooMessage()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_raises_or_warns_cm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertRaisesMessage()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertWarnsMessage()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that expected_message is found in the message of a raised exception.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Same as assertRaisesMessage but for assertWarns() instead of assertRaises().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 390](Community_390.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 470](Community_470.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

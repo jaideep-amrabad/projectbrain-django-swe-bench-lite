@@ -1,26 +1,30 @@
 # Community 1096
 
-> 3 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.test_inheritance30()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance33()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Base template, putting block in a conditional {% if %} tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **TestRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **migrations/routers.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **DefaultOtherRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **The Tribble model should be the only one to appear in the 'other' db.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
 
 ## Relationships
 
-- [Community 821](Community_821.md) (2 shared connections)
-- [Community 853](Community_853.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

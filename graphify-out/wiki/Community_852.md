@@ -1,33 +1,36 @@
 # Community 852
 
-> 8 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **TestDbCreationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_mark_expected_failures_and_skips_call()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **object** (2 connections)
-- **.test_migrate_test_setting_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_migrate_test_setting_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **dict** (1 connections)
-- **patch** (1 connections)
-- **mark_expected_failures_and_skips() isn't called unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **IsolationLevelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.get_isolation_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **get_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_connect_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_default_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_setting_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_uppercase_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_auto_is_null_auto_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_isolation_level_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 218](Community_218.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
 - [Community 7](Community_7.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

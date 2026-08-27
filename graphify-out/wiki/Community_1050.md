@@ -1,26 +1,31 @@
 # Community 1050
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **TestDbSignatureTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
-- **skipUnless** (1 connections)
-- **.test_custom_test_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
-- **.test_get_test_db_clone_settings_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- **CacheTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache_fragment_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache_missing_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache_regression_20130()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **When a cache called "template_fragments" is present, the cache tag will use it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **When a cache that doesn't exist is specified, the cache tag will raise a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

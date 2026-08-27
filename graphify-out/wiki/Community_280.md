@@ -1,56 +1,62 @@
 # Community 280
 
-> 28 nodes · cohesion 0.08
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **TestQuerying** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **KeyTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.test_key_sql_injection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.test_key_transform_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_field_chaining()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_has_any_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_has_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_in_generator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_keys_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_order_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- *... and 3 more nodes in this community*
+- **admin_widgets/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **widgetadmin.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- **ForeignKeyRawIdWidgetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Band** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **ManyToManyRawIdWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Member** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Advisor** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Bee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Individual** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Inventory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Profile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **School** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **CarTire** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Company** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Honeycomb** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **MyFileField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **UnsafeLimitChoicesTo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **.test_formfield_overrides_for_custom_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **admin_widgets/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/urls.py`
+- **CarTireAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- **HiddenInventoryManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **AlbumAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 34](Community_34.md) (5 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 787](Community_787.md) (2 shared connections)
-- [Community 355](Community_355.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 11](Community_11.md) (19 shared connections)
+- [Community 569](Community_569.md) (6 shared connections)
+- [Community 365](Community_365.md) (6 shared connections)
+- [Community 334](Community_334.md) (6 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 707](Community_707.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 214](Community_214.md) (1 shared connections)
+- [Community 892](Community_892.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 95 (77%)
+- INFERRED: 29 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

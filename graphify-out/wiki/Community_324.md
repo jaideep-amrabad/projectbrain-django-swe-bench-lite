@@ -1,52 +1,46 @@
 # Community 324
 
-> 38 nodes · cohesion 0.08
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **archive.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **BaseArchive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.target_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Exception** (1 connections)
-- *... and 13 more nodes in this community*
+- **BoundaryIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **InterBoundaryIter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Parser** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **InputStreamExhausted** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **._find_boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **parse_boundary_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Exception** (2 connections)
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **No more reads are allowed from this device.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **A Producer that will iterate over boundaries.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **A Producer that is sensitive to boundaries. Will happily yield bytes until a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Find a multipart boundary in data. Should no boundary exist in the data, return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Parse one and exactly one stream that encapsulates a boundary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 
 ## Relationships
 
-- [Community 468](Community_468.md) (2 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 744](Community_744.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
+- [Community 1227](Community_1227.md) (1 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

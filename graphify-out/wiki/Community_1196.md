@@ -1,23 +1,28 @@
 # Community 1196
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_json_encoder_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The test Client accepts a json_encoder.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **SHA256Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
 
 ## Relationships
 
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 148](Community_148.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

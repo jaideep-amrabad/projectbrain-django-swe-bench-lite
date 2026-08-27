@@ -1,40 +1,48 @@
 # Community 603
 
-> 18 nodes · cohesion 0.11
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **FieldFlagsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_all_field_types_should_have_flags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_m2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_o2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_o2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_a_concrete_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_a_has_rel_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_an_editable_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_object_should_have_auto_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_field_names_should_always_be_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_hidden_flag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_model_and_reverse_model_should_equal_on_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_non_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_non_editable_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **Message** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **MessageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **._prepare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.level_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Prepare the message for serialization by forcing the ``message`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Represent an actual message that can be stored in any of the supported storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **With the message middleware enabled, messages are properly stored and retrieved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **Messages persist properly when multiple POSTs are made before a GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 571](Community_571.md) (5 shared connections)
+- [Community 257](Community_257.md) (3 shared connections)
+- [Community 693](Community_693.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 506](Community_506.md) (1 shared connections)
+- [Community 668](Community_668.md) (1 shared connections)
+- [Community 1038](Community_1038.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1057](Community_1057.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

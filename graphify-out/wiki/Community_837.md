@@ -1,40 +1,37 @@
 # Community 837
 
-> 8 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **PostgresConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.unregister_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.register_wrappers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **Undo the effects of PostgresConfig.ready() when django.contrib.postgres is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **Transform** (1 connections)
+- **RegisterLookupMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._clear_cached_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.register_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._unregister_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Relationships
 
-- [Community 254](Community_254.md) (5 shared connections)
-- [Community 114](Community_114.md) (5 shared connections)
-- [Community 138](Community_138.md) (3 shared connections)
-- [Community 91](Community_91.md) (2 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 761](Community_761.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (52%)
-- INFERRED: 13 (48%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

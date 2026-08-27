@@ -1,60 +1,62 @@
 # Community 269
 
-> 31 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **JoinReuseTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Item** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **QuerySetExceptionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ComparisonTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **EmptyQuerySetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Queries3Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Ticket18785Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_disjunction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket8597()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_emptyqueryset_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_19151()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_values_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revfk_noreuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revo2o_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket22023()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7107()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket8683()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 6 more nodes in this community*
+- **Migration** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **OperationTestBase** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **SwappableOperationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **IrreversibleError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.test_create_ignore_swapped()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.suggest_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.unapply()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.apply_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.cleanup_test_tables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.make_test_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.test_run_python_atomic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_add_field_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_delete_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_indexes_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.apply()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.mutate_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **Take a project_state representing all migrations prior to this one and a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.unapply_operations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.test_add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **Tests the AddField operation.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **RuntimeError** (1 connections)
+- **An irreversible migration is about to be reversed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (16 shared connections)
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 256](Community_256.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 363](Community_363.md) (2 shared connections)
-- [Community 238](Community_238.md) (2 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
-- [Community 458](Community_458.md) (1 shared connections)
-- [Community 425](Community_425.md) (1 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 21](Community_21.md) (8 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 367](Community_367.md) (2 shared connections)
+- [Community 587](Community_587.md) (2 shared connections)
+- [Community 566](Community_566.md) (2 shared connections)
+- [Community 228](Community_228.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 560](Community_560.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (61%)
-- INFERRED: 29 (39%)
+- EXTRACTED: 76 (87%)
+- INFERRED: 11 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

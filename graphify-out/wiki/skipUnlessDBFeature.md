@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 522 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 467 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 22](Community_22.md)
+**Community:** [Community 26](Community_26.md)
 
 ## Connections by Relation
 
@@ -19,21 +19,21 @@
 - queries/tests.py `EXTRACTED`
 - model_forms/tests.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
-- schema/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
+- schema/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
-- model_fields/test_jsonfield.py `EXTRACTED`
-- delete_regress/tests.py `EXTRACTED`
 - delete/tests.py `EXTRACTED`
-- backends/tests.py `EXTRACTED`
+- model_fields/test_jsonfield.py `EXTRACTED`
 - model_formsets/tests.py `EXTRACTED`
-- test_runner/tests.py `EXTRACTED`
+- backends/tests.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
 - test_extract_trunc.py `EXTRACTED`
-- postgres_tests/test_indexes.py `EXTRACTED`
+- delete_regress/tests.py `EXTRACTED`
+- test_runner/tests.py `EXTRACTED`
 - annotations/tests.py `EXTRACTED`
+- fixtures/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
 
 ### rationale_for
@@ -41,8 +41,8 @@
 
 ### references
 - TestQuerying `EXTRACTED`
-- QuerySetSetOperationTests `EXTRACTED`
 - WindowFunctionTests `EXTRACTED`
+- QuerySetSetOperationTests `EXTRACTED`
 - AtomicTests `EXTRACTED`
 - RasterFieldTest `EXTRACTED`
 - Geo3DFunctionsTests `EXTRACTED`
@@ -50,15 +50,15 @@
 - DistinctOnTests `EXTRACTED`
 - SubqueryTests `EXTRACTED`
 - ConstraintNameTests `EXTRACTED`
-- PartialIndexTests `EXTRACTED`
 - TestSaveLoad `EXTRACTED`
-- JSONObjectTests `EXTRACTED`
 - SpatialRefSysTest `EXTRACTED`
+- PartialIndexTests `EXTRACTED`
 - ReturningValuesTests `EXTRACTED`
 - ExplainTests `EXTRACTED`
+- QuerySetBitwiseOperationTests `EXTRACTED`
 - AutoIncrementResetTest `EXTRACTED`
-- .test_key_transform() `EXTRACTED`
 - AtomicErrorsTests `EXTRACTED`
+- .test_key_transform() `EXTRACTED`
 - JSONFieldTests `EXTRACTED`
 
 ---

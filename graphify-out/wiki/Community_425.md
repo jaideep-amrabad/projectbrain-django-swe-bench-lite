@@ -1,60 +1,59 @@
 # Community 425
 
-> 37 nodes · cohesion 0.06
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Tag** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Queries6Tests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ConditionalTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **QuerysetOrderedTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Annotation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Ticket20101Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_col_alias_quoted()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ReverseJoinTrimmingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **TestInvalidValuesRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_null_ordering_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_annotated_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_annotated_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_annotated_values_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_20101()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_in_list_limit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_infinite_loop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_distinct_ordered_sliced_subquery_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_multiple_columns_with_the_same_name_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_nested_queries_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_parallel_iterators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket3739()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 12 more nodes in this community*
+- **BaseEngine** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **Loader** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **get_app_template_dirs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **app_directories.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.get_template_sources()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **Loader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **.iter_template_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **.template_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **.app_dirname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **FilesystemLoader** (1 connections)
+- **Initialize the template engine. `params` is a dict of configuration settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **Create and return a template for the given source code. This method is optional.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **Load and return a template for the given name. Raise TemplateDoesNotExist if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **Return a list of directories to search for templates.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **Iterate over candidate files for template_name. Ignore files that don't lie…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **Wrapper for loading templates from "templates" directories in INSTALLED_APPS…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **BaseLoader** (1 connections)
+- **Return an Origin object pointing to an absolute path in each directory in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (15 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 256](Community_256.md) (3 shared connections)
-- [Community 221](Community_221.md) (3 shared connections)
-- [Community 399](Community_399.md) (2 shared connections)
-- [Community 137](Community_137.md) (2 shared connections)
-- [Community 458](Community_458.md) (2 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 238](Community_238.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1227](Community_1227.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 325](Community_325.md) (2 shared connections)
+- [Community 285](Community_285.md) (1 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (57%)
-- INFERRED: 37 (43%)
+- EXTRACTED: 46 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

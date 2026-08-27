@@ -1,69 +1,45 @@
 # Community 574
 
-> 32 nodes · cohesion 0.08
+> 19 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **.import_module()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.handle()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **flush.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
-- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **emit_post_migrate_signal()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
-- **.handle()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
-- **sqlflush.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
-- **sql_flush()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
-- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
-- **.describe_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
-- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.import_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **.sync_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
-- **.urlconf_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.migration_progress_callback()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **Run the old syncdb-style operation on a list of app_labels.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- *... and 7 more nodes in this community*
+- **DatabaseSchemaEditor** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.normalize_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._drop_identity()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._is_identity_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._alter_column_type_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._get_default_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._alter_column_collation_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (16 shared connections)
-- [Community 60](Community_60.md) (9 shared connections)
-- [Community 79](Community_79.md) (5 shared connections)
-- [Community 86](Community_86.md) (3 shared connections)
-- [Community 133](Community_133.md) (3 shared connections)
-- [Community 222](Community_222.md) (3 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 478](Community_478.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (61%)
-- INFERRED: 46 (39%)
+- EXTRACTED: 35 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,24 +1,26 @@
 # Community 1177
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_if_tag_shortcircuit01()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **If evaluations are shortcircuited where possible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **check_session_cookie_httponly()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **check_session_cookie_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **_session_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **_session_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 
 ## Relationships
 
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 34](Community_34.md) (4 shared connections)
+- [Community 426](Community_426.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

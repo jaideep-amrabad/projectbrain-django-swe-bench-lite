@@ -1,31 +1,33 @@
 # Community 917
 
-> 8 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **MigrateSignalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **Receiver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_migrations_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_call_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **If all apps have migrations, migration signals should be sent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **IfChangedTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_concurrency()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_render_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_include()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_include_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **#15849 -- ifchanged should be thread-safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **#19890. The content of ifchanged template tag was rendered twice.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **#23516 -- This works as a regression test only if the cached loader isn't used.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Tests the node state for different IncludeNodes (#27974).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 56](Community_56.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,35 @@
 # Community 906
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **CheckSSLRedirectTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_no_ssl_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_no_ssl_redirect_no_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_with_ssl_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **Warn if SECURE_SSL_REDIRECT isn't True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **Don't warn if SECURE_SSL_REDIRECT is False and SecurityMiddleware isn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **max_lengths/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **MaxLengthORMTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

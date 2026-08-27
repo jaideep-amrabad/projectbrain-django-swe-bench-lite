@@ -1,32 +1,38 @@
 # Community 876
 
-> 7 nodes · cohesion 0.38
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **NumericPasswordValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **Validate whether the password is alphanumeric.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **MessageMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **messages_tests/test_middleware.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **.test_response_without_messages()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **MessageMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **MiddlewareTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **Update the storage backend (i.e., save the messages). Raise ValueError if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **Middleware that handles temporary messages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **MessageMiddleware is tolerant of messages not existing on request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

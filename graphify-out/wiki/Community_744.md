@@ -1,38 +1,39 @@
 # Community 744
 
-> 13 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ReservedNameTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **reserved_names/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **reserved_names/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.generate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_dates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_month_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_order_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **Using SQL reserved names Need to use a reserved SQL name as a column name or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **LazyStream** (12 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **._update_unget_history()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.unget()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.read()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.tell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **The LazyStream wrapper allows one to get and "unget" bytes from a stream. Given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Every LazyStream must have a producer when instantiated. A producer is an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Used when the exact number of bytes to read is unimportant. Return whatever…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Used to invalidate/disable this lazy stream. Replace the producer with an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Place bytes back onto the front of the lazy stream. Future calls to read() will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Update the unget history as a sanity check to see if we've pushed back the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

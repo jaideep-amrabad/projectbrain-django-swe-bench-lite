@@ -1,25 +1,29 @@
 # Community 1101
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.has_usable_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **Return False if set_unusable_password() has been called for this user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **StaticFilesConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- **staticfiles_config.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
+- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- **IgnorePatternsAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
 
 ## Relationships
 
-- [Community 214](Community_214.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1227](Community_1227.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 724](Community_724.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,47 @@
 # Community 326
 
-> 36 nodes · cohesion 0.10
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **timesince()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **TimesinceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **utils_tests/test_timesince.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timesince.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **is_aware()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_second_before_equal_first_humanize_time_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Avoid text wrapping in the middle of a phrase by adding non-breaking spaces…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **Take two datetime objects and return the time between d and now as a nicely…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- *... and 11 more nodes in this community*
+- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **BaseArchive** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **Exception** (1 connections)
+- **If the file in the archive has some permissions (this assumes a file won't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **Return True if all the paths have the same leading path name (i.e., everything…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 10](Community_10.md) (6 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 447](Community_447.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 142](Community_142.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 386](Community_386.md) (1 shared connections)
-- [Community 281](Community_281.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1227](Community_1227.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,31 +1,37 @@
 # Community 959
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **URLHandling** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **test_specials.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_permanent_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpPermanentRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **Tests for URL handling in views and responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **Reporter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **ReporterProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **SequenceResetTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_generic_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **Sequence names are correct when resetting generic relations (Ref #13941)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 122](Community_122.md) (4 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 766](Community_766.md) (2 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
+- [Community 888](Community_888.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 336](Community_336.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (75%)
+- INFERRED: 5 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,57 +1,65 @@
 # Community 106
 
-> 24 nodes · cohesion 0.13
+> 80 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **UserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserCreationFormTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **patch** (4 connections)
-- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_create_form_validates_password_with_all_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_both_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_normalize_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **A form that creates a user, with no privileges, from the given username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **To prevent almost identical usernames, visually identical but differing by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **UserCreationForm password validation uses all of the form's data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form_hidden_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form_with_different_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **MigrationLoader** (74 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **LoaderTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.build_graph()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **.load_disk()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **.test_loading_squashed_ref_squashed()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **BadMigrationError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.test_check_consistent_history_squashed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_first()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_load()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_loading_squashed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_loading_squashed_complex()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_loading_squashed_complex_multi_apps_partially_applied()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_loading_squashed_erroneous()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_plan_handles_repeated_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.show_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **.show_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **.migrations_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **.test_check_consistent_history()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_explicit_missing_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_ignore_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_load_unmigrated_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_loading_namespace_package()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_loading_squashed_complex_multi_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_marked_as_migrated()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 496](Community_496.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 622](Community_622.md) (1 shared connections)
-- [Community 903](Community_903.md) (1 shared connections)
-- [Community 204](Community_204.md) (1 shared connections)
-- [Community 1037](Community_1037.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 789](Community_789.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 86](Community_86.md) (24 shared connections)
+- [Community 228](Community_228.md) (23 shared connections)
+- [Community 7](Community_7.md) (22 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
+- [Community 15](Community_15.md) (5 shared connections)
+- [Community 131](Community_131.md) (4 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 108](Community_108.md) (3 shared connections)
+- [Community 294](Community_294.md) (2 shared connections)
+- [Community 757](Community_757.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 183 (80%)
+- INFERRED: 47 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

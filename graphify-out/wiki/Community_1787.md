@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **collision/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/collision/__init__.py`
+- **model_inheritance/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/collision/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/__init__.py`
 
 ## Audit Trail
 

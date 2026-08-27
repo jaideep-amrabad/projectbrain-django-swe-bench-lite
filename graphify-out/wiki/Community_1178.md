@@ -1,25 +1,31 @@
 # Community 1178
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_if_tag_shortcircuit02()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **The is_bad() function should not be evaluated. If it is, an exception is raised.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.load_middleware()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **convert_exception_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
+- **Populate middleware lists from settings.MIDDLEWARE. Must be called after the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Wrap the given get_response callable in exception-to-response conversion. All…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
 
 ## Relationships
 
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 278](Community_278.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

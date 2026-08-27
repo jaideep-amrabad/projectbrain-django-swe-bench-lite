@@ -1,52 +1,42 @@
 # Community 581
 
-> 19 nodes · cohesion 0.18
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **version.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **get_version()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **get_version_tuple()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **version/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **get_complete_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **VersionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **get_git_changeset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **get_main_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **.test_development()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_development_no_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_get_version_invalid_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_get_version_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_releases()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **Return a tuple of version numbers (e.g. (1, 2, 3)) from the version string…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a PEP 440-compliant version number from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return main version (X.Y[.Z]) from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a tuple of the django version. If version argument is non-empty, check…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a numeric identifier of the latest git changeset. The result is the UTC…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **skipUnless** (1 connections)
+- **normalize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **NonCapture** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **flatten_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **get_quantifier()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **next_char()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **list** (3 connections)
+- **walk_to_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **r""" An iterator that yields the next character from "pattern_iter", respecting…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **The iterator is currently inside a capturing group. Walk to the close of this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Parse a quantifier from the input, where "ch" is the first character in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Return True if the "source" contains an instance of "inst". False, otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Turn the given source sequence into a list of reg-exp possibilities and their…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent multiple possibilities at this point in a pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent a capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent a non-capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **r""" Given a reg-exp pattern, normalize it to an iterable of forms that suffice…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 266](Community_266.md) (5 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 612](Community_612.md) (3 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 103](Community_103.md) (2 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
+- [Community 11](Community_11.md) (9 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

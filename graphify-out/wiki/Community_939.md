@@ -1,29 +1,32 @@
 # Community 939
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.get_or_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._extract_model_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Perform the query and return a single object matching the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Create a new object with the given kwargs, saving it to the database and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, creating one if necessary. Return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Prepare `params` for creating a model instance based on the given kwargs; for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 109](Community_109.md) (4 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 300](Community_300.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

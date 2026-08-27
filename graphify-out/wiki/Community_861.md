@@ -1,32 +1,33 @@
 # Community 861
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **FlatpageModelTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_with_hardcoded_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_honors_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_include()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_include_no_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_urlencodes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **PayloadEncodingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_non_utf_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_simple_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_utf16_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_utf8_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Regression tests for #10571.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **A simple ASCII-only text can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data encoded as UTF-8 can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data encoded as UTF-16 can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data as a non-UTF based encoding can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 558](Community_558.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

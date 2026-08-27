@@ -1,59 +1,61 @@
 # Community 233
 
-> 25 nodes · cohesion 0.11
+> 52 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Substr** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **StrIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- **SubstrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **.test_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **.get_substr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.test_annotate_charfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- **.test_filtering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- **.test_order_by()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- **.test_unicode_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **expression: the name of a field, or an expression returning a string length:…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.test_annotate_textfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- **.test_pos_gt_zero()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **.test_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **.test_pattern_lookups_with_substr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **Return a positive integer corresponding to the 1-indexed position of the first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.as_postgresql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.as_sqlite()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **prefetch_related/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **prefetch_related/models.py** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Meta** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Book** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **test_prefetch_related_objects.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- **Reader** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **ForeignKeyToFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **BookWithYear** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **House** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Room** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **DefaultManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **AuthorAddress** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **AuthorWithAge** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Bookmark** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **TaggedItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Teacher** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Ticket21410Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **Ticket21760Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **Comment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **FavoriteAuthors** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Author2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (13 shared connections)
-- [Community 41](Community_41.md) (6 shared connections)
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 97](Community_97.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
+- [Community 322](Community_322.md) (14 shared connections)
+- [Community 500](Community_500.md) (13 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 323](Community_323.md) (10 shared connections)
+- [Community 408](Community_408.md) (8 shared connections)
+- [Community 386](Community_386.md) (8 shared connections)
+- [Community 18](Community_18.md) (8 shared connections)
+- [Community 1045](Community_1045.md) (6 shared connections)
+- [Community 220](Community_220.md) (5 shared connections)
+- [Community 1087](Community_1087.md) (5 shared connections)
+- [Community 1088](Community_1088.md) (5 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 159 (72%)
+- INFERRED: 63 (28%)
 - AMBIGUOUS: 0 (0%)
 
 ---

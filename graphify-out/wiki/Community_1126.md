@@ -1,23 +1,27 @@
 # Community 1126
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **good_function_based_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
-- **good_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
+- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **A field whose valid values are None, True, and False. Clean invalid values to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Explicitly check for the string 'True' and 'False', which is what a hidden…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

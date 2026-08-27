@@ -1,47 +1,60 @@
 # Community 219
 
-> 20 nodes · cohesion 0.16
+> 48 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Round** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **RoundTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_decimal_with_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_float_with_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_unsupported_negative_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_decimal_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_float_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_integer_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_integer_with_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_null_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_null_with_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.as_sqlite()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **._resolve_output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **skipUnless** (1 connections)
+- **BulkCreateTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **bulk_create/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **bulk_create/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **NoFields** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **NullableFields** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **BigAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **SmallAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (10 shared connections)
-- [Community 135](Community_135.md) (1 shared connections)
-- [Community 778](Community_778.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 26](Community_26.md) (16 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 152](Community_152.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 98](Community_98.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 148](Community_148.md) (2 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 138 (91%)
+- INFERRED: 13 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

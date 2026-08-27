@@ -1,23 +1,22 @@
 # Community 1743
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_sitemap_last_modified_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **Last-Modified header is omitted when lastmod not on all items** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **test_add_many_to_many_field_initial/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_add_many_to_many_field_initial/__init__.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_add_many_to_many_field_initial/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,39 @@
 # Community 791
 
-> 10 nodes · cohesion 0.36
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **LoginURLSettings** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.assertLoginURLEquals()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_https_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_remote_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_remote_login_url_with_next_querystring()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_lazy_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_url_with_querystring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_named_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_standard_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Tests for settings.LOGIN_URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **ExecutorUnitTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **FakeMigration** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_backwards_nothing_to_do()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_minimize_rollbacks()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_minimize_rollbacks_branchy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **FakeLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **Really all we need is any object with a debug-useful repr.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **(More) isolated unit tests for executor methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **Minimize unnecessary rollbacks in connected apps. When you say "./manage.py…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **r""" Minimize rollbacks when target has multiple in-app children. a: 1 <---- 3…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **r""" If the current state satisfies the given target, do nothing. a: 1 <--- 2…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 626](Community_626.md) (1 shared connections)
+- [Community 131](Community_131.md) (4 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
+- [Community 228](Community_228.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

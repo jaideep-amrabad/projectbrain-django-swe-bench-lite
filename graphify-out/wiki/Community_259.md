@@ -1,53 +1,51 @@
 # Community 259
 
-> 42 nodes · cohesion 0.06
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **InlineAdminForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **InlineAdminFormSet** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminForm** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **Fieldline** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **Fieldset** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **InlineFieldset** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminErrorList** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.inline_formset_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.test_immutable_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.deletion_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.ordering_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.pk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **BaseContext** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **RenderContext** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.new()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **._reset_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.set_upward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.test_render_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 631](Community_631.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 39](Community_39.md) (5 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 57 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

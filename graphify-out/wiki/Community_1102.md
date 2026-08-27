@@ -1,24 +1,37 @@
 # Community 1102
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a 1-based range of pages for iterating through within a template for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Score** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_float_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_stream_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_indentation_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_no_indentation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Float values serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 429](Community_429.md) (1 shared connections)
+- [Community 472](Community_472.md) (1 shared connections)
+- [Community 594](Community_594.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
+- [Community 547](Community_547.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 399](Community_399.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (67%)
+- INFERRED: 4 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

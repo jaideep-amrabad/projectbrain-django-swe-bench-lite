@@ -1,59 +1,64 @@
 # Community 414
 
-> 28 nodes · cohesion 0.12
+> 27 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **GenericInlineFormsetTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **generic_relations/test_forms.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **generic_inlineformset_factory()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **Animal** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Gecko** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **.test_get_queryset_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_incorrect_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_meta_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_as_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **TaggedItemForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_absolute_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_absolute_max_with_max_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_can_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_disable_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_initial_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_for_concrete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_for_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_uses_form_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **Return a ``GenericInlineFormSet`` for the given kwargs. You must provide…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **CustomWidget** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- *... and 3 more nodes in this community*
+- **migrate.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.handle()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **flush.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **sql.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- **no_translations()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **emit_post_migrate_signal()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- **.handle()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- **sqlflush.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
+- **sql_flush()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- **no_translations.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/no_translations.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- **.describe_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
+- **.sync_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **emit_pre_migrate_signal()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/no_translations.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/no_translations.py`
+- **Decorator that forces a command to run with translations deactivated.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.migration_progress_callback()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Run the old syncdb-style operation on a list of app_labels.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Return a string that describes a migration operation for --plan.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 274](Community_274.md) (14 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 145](Community_145.md) (2 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
-- [Community 296](Community_296.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 58](Community_58.md) (13 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 108](Community_108.md) (4 shared connections)
+- [Community 246](Community_246.md) (4 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 93](Community_93.md) (3 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 336](Community_336.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 512](Community_512.md) (2 shared connections)
+- [Community 228](Community_228.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/no_translations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (87%)
-- INFERRED: 10 (13%)
+- EXTRACTED: 93 (93%)
+- INFERRED: 7 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

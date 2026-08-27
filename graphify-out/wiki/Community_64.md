@@ -1,76 +1,68 @@
 # Community 64
 
-> 186 nodes · cohesion 0.02
+> 99 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **utils/html.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **template/base.py** (58 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **regex_helper.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **_lazy_re_compile()** (42 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Variable** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **SafeData** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- **Parser** (21 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **admindocs/utils.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **VariableDoesNotExist** (17 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **test_parser.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **test_safestring.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **FilterExpression** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.parse()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Element** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **test/html.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **Parser** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **normalize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- **Lexer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **dictsort()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **dictsortreversed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **template.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **.compile_nodelist()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Token** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **._resolve_lookup()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- *... and 161 more nodes in this community*
+- **geoapp/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **geoapp/test_functions.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
+- **geoapp/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **City** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **gis_tests/utils.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- **GeoLookupTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **test_expressions.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
+- **GeoModelTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **GeoQuerySetTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **test_regress.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- **GeoRegressionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- **test_serializers.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
+- **NamedModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **State** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **GeoJSONSerializerTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
+- **geoapp/test_sitemaps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **PennsylvaniaCity** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **no_oracle()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- **MultiFields** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **geoapp/test_indexes.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- **.test_proxy()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **geoapp/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
+- **Track** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- *... and 74 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (52 shared connections)
-- [Community 713](Community_713.md) (18 shared connections)
-- [Community 12](Community_12.md) (18 shared connections)
-- [Community 6](Community_6.md) (17 shared connections)
-- [Community 10](Community_10.md) (15 shared connections)
-- [Community 5](Community_5.md) (11 shared connections)
-- [Community 631](Community_631.md) (9 shared connections)
-- [Community 36](Community_36.md) (9 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 69](Community_69.md) (7 shared connections)
-- [Community 18](Community_18.md) (7 shared connections)
+- [Community 9](Community_9.md) (37 shared connections)
+- [Community 26](Community_26.md) (20 shared connections)
+- [Community 478](Community_478.md) (16 shared connections)
+- [Community 2](Community_2.md) (14 shared connections)
+- [Community 18](Community_18.md) (12 shared connections)
+- [Community 52](Community_52.md) (11 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 37](Community_37.md) (7 shared connections)
+- [Community 145](Community_145.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 88](Community_88.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 562 (94%)
-- INFERRED: 33 (6%)
+- EXTRACTED: 315 (89%)
+- INFERRED: 40 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,44 @@
 # Community 757
 
-> 25 nodes · cohesion 0.10
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **LabelCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.create_parser()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **findstatic.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **DjangoHelpFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **.get_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.print_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **._reordered_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **label_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
-- **.add_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **HelpFormatter** (1 connections)
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **Return the Django version, which should be correct for all built-in Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Create and return the ``ArgumentParser`` which will be used to parse the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Print the help message for this command, derived from ``self.usage()``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **A management command which takes one or more arbitrary arguments (labels) on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Perform the command's actions for ``label``, which will be the string as given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Customized formatter so that command-specific arguments appear in the --help…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **MigrationOptimizer** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **.handle()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.find_migration()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **.optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **.optimize_inner()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **.test_none_app_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **Main optimization entry point. Pass in a list of Operation instances, get out a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **Power the optimization process, where you provide a list of Operations and you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **Inner optimization loop.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **Handy shortcut for getting results + number of loops** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 60](Community_60.md) (8 shared connections)
-- [Community 134](Community_134.md) (2 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 278](Community_278.md) (1 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 134](Community_134.md) (4 shared connections)
+- [Community 454](Community_454.md) (2 shared connections)
+- [Community 106](Community_106.md) (2 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 448](Community_448.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (83%)
+- INFERRED: 6 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

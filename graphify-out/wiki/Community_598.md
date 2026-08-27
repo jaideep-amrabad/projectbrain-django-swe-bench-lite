@@ -1,50 +1,45 @@
 # Community 598
 
-> 18 nodes · cohesion 0.20
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_multivaluedict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_custom_iterable_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_containing_empty_sequence_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_containing_sequence_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_containing_sequence_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_containing_tuple_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_with_bytearray()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_with_bytes_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_dict_with_sequence_of_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_none_in_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_none_in_sequence()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **A version of Python's urllib.parse.urlencode() function that can operate on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **SafeStringTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.assertRenderEqual()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **customescape** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_add_lazy_safe_text_and_safe_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_decorator_does_not_affect_promises()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_object_implementing_dunder_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_as_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_decorator_does_not_affect_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_lazy_result_implements_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_object_implementing_dunder_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.test_mark_safe_result_implements_dunder_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **.__html__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **str** (1 connections)
+- **Calling str() on a SafeString instance doesn't lose the safe status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **mark_safe used as a decorator leaves the result of a function unchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **mark_safe doesn't affect a callable that has an __html__() method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **mark_safe doesn't affect lazy strings (Promise objects).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 58](Community_58.md) (3 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 442](Community_442.md) (1 shared connections)
-- [Community 660](Community_660.md) (1 shared connections)
-- [Community 713](Community_713.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
+- [Community 0](Community_0.md) (15 shared connections)
+- [Community 309](Community_309.md) (3 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

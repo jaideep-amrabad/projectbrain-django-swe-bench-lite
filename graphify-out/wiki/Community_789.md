@@ -1,41 +1,55 @@
 # Community 789
 
-> 11 nodes · cohesion 0.27
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_missing_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_non_matching_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_one_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **A form used to change the password of a user in the admin interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **DefaultsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **page_not_found()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
+- **bad_request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
+- **server_error()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
+- **.test_custom_templates_wrong()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **.test_error_pages()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **requires_csrf_token** (5 connections)
+- **.test_csrf_token_in_404()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **.test_custom_templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **.test_bad_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **.test_get_absolute_url_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **.test_page_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **.test_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **400 error handler. Templates: :template:`400.html` Context: None** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
+- **Default 404 handler. Templates: :template:`404.html` Context: request_path The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
+- **500 error handler. Templates: :template:`500.html` Context: None** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
+- **A model can set attributes on the get_absolute_url method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **Default error views should raise TemplateDoesNotExist when passed a template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **Test django views in django/views/defaults.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **A 404 status is returned by the page_not_found view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **The 404 page should have the csrf_token available in the context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **The server_error view raises a 500 status** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **404.html and 500.html templates are picked by their respective handler.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 903](Community_903.md) (1 shared connections)
-- [Community 1037](Community_1037.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 496](Community_496.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
+- [Community 1](Community_1.md) (15 shared connections)
+- [Community 701](Community_701.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
+- [Community 118](Community_118.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 54 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

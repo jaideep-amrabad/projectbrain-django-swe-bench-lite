@@ -1,62 +1,61 @@
 # Community 256
 
-> 39 nodes · cohesion 0.06
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Note** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ExtraInfo** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **BulkUpdateNoteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **Queries5Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **DisjunctiveFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CloneTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **RawQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.create_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_evaluated_queryset_as_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_fields_cloning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_model_options_cloning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **GeneratorExpressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__deepcopy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_foreign_keys_do_not_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_field_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_mixed_fields_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_unsaved_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_ticket5261()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Cloning a queryset does not get out of hand. While complete testing is…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- *... and 14 more nodes in this community*
+- **color_style()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **OutputWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.execute()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.check()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **SystemCheckError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **update_proxy_model_permissions()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0011_update_proxy_permissions.py`
+- **.check_migrations()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **revert_proxy_model_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0011_update_proxy_permissions.py`
+- **supports_color()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **Update the content_type of proxy model permissions to use the ContentType of…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0011_update_proxy_permissions.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **setter** (1 connections)
+- **Wrapper around stdout/stderr** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Try to execute this command, performing system checks if needed (as controlled…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **The system check framework detected unrecoverable errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Use the system check framework to validate entire Django project. Raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Print a warning if the set of migrations on disk don't match the migrations in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (15 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 269](Community_269.md) (4 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 238](Community_238.md) (4 shared connections)
-- [Community 425](Community_425.md) (3 shared connections)
-- [Community 363](Community_363.md) (2 shared connections)
-- [Community 399](Community_399.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 58](Community_58.md) (7 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 108](Community_108.md) (4 shared connections)
+- [Community 336](Community_336.md) (3 shared connections)
+- [Community 389](Community_389.md) (3 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 163](Community_163.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 475](Community_475.md) (1 shared connections)
+- [Community 1227](Community_1227.md) (1 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0011_update_proxy_permissions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (68%)
-- INFERRED: 29 (32%)
+- EXTRACTED: 62 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,63 +1,61 @@
 # Community 258
 
-> 96 nodes · cohesion 0.03
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **templatetags/custom.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Promise** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **ChoicesTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **simple_tag** (20 connections)
-- **EscapeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **setup** (4 connections)
-- **CounterNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_explicit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_format_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **make_data_div()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **.test_escape01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_naive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **filter** (3 connections)
-- **simple_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- *... and 71 more nodes in this community*
+- **view_tests/views.py** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **technical_500_response()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **sensitive_variables()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **custom_exception_reporter_filter_view()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **send_log()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **paranoid_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **multivalue_dict_key_error()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **non_sensitive_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_args_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_kwargs_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **UnsafeExceptionReporterFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **.method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_method_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **Http404View** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **index_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **Klass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **raises_template_does_not_exist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_args_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_kwargs_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **custom_reporter_class_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **raises()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **raises400_bad_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (13 shared connections)
-- [Community 713](Community_713.md) (6 shared connections)
-- [Community 64](Community_64.md) (5 shared connections)
-- [Community 23](Community_23.md) (5 shared connections)
-- [Community 631](Community_631.md) (5 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 42](Community_42.md) (3 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 175](Community_175.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 255](Community_255.md) (2 shared connections)
-- [Community 127](Community_127.md) (2 shared connections)
+- [Community 3](Community_3.md) (24 shared connections)
+- [Community 1](Community_1.md) (12 shared connections)
+- [Community 313](Community_313.md) (12 shared connections)
+- [Community 81](Community_81.md) (6 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 448](Community_448.md) (3 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 443](Community_443.md) (3 shared connections)
+- [Community 361](Community_361.md) (2 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 644](Community_644.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (93%)
-- INFERRED: 14 (7%)
+- EXTRACTED: 134 (91%)
+- INFERRED: 14 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

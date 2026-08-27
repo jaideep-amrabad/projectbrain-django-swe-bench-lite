@@ -1,36 +1,38 @@
 # Community 802
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **.full_clean()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._clean_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._post_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Return an ErrorDict for the data provided for the form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Clean all of self.data and populate self._errors and self.cleaned_data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **An internal hook for performing additional cleaning after form cleaning is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Hook for doing any extra form-wide cleaning after Field.clean() has been called…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Return True if data differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **language_name_translated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **filter** (4 connections)
+- **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **.test_fallback_language_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unknown_language_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_localized_language_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unknown_language_code_and_country_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unknown_only_country_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **get_language_info return the first fallback language info if the lang_info…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Relationships
 
-- [Community 406](Community_406.md) (6 shared connections)
-- [Community 834](Community_834.md) (2 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,38 @@
 # Community 779
 
-> 12 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **AsyncUnsafeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **DatabaseConnectionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **CacheTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **skipIf** (3 connections)
-- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_caches_local()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_get_async_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **dict** (1 connections)
-- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **async_unsafe decorator should work correctly and returns the correct message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **NoYamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **YamlImportModuleMock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_deserializer_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_dumpdata_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Provides a wrapped import_module function to simulate yaml ImportError In order…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Not having pyyaml installed provides a misleading error Refs: #12756** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Removes imported yaml and stubs importlib.import_module** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Puts yaml back if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Using yaml deserializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Calling dumpdata produces an error when yaml package missing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 726](Community_726.md) (1 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

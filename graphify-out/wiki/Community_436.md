@@ -1,56 +1,57 @@
 # Community 436
 
-> 29 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DeletionTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **.test_large_deletes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_queryset_delete_returns_num_rows()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_instance_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_large_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_model_delete_returns_num_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_only_referenced_fields_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_proxied_model_duplicate_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Regression for #13309 -- if the number of objects > chunk size, deletion still…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_delete_with_keeping_parents()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_delete_with_keeping_parents_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_deletion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_hidden_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_large_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_relational_post_delete_signals_happen_before_parent_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_sliced_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **QuerySet.delete() should return the number of deleted rows and a dictionary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- *... and 4 more nodes in this community*
+- **Article** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FieldOverridePost** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **StateAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ArticleForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FieldOverridePostForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **CityInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **StoryForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.model_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.model_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.model_year_reversed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.property_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.awesomeness_level()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A simple article to test admin views. Test backwards compatibility.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Relationships
 
-- [Community 327](Community_327.md) (18 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 376](Community_376.md) (2 shared connections)
-- [Community 258](Community_258.md) (2 shared connections)
-- [Community 129](Community_129.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 53](Community_53.md) (11 shared connections)
+- [Community 77](Community_77.md) (5 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (67%)
-- INFERRED: 19 (33%)
+- EXTRACTED: 41 (82%)
+- INFERRED: 9 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

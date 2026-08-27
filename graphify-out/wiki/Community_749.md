@@ -1,35 +1,39 @@
 # Community 749
 
-> 13 nodes · cohesion 0.28
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **ResetCycleTagTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **setup** (11 connections)
-- **.test_resetcycle01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
+- **KeyTextTransform** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **KeyTransform** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **JSONField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.test_key_text_transform_deprecation_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
+- **.test_key_transform_deprecation_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
+- **.test_model_field_deprecation_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
+- **BuiltinKeyTextTransform** (1 connections)
+- **BuiltinKeyTransform** (1 connections)
+- **BuiltinJSONField** (1 connections)
+- **.test_form_field_deprecation_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 47](Community_47.md) (6 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 545](Community_545.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (77%)
+- INFERRED: 6 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

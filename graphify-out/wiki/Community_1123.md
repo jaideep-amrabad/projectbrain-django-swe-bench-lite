@@ -1,23 +1,27 @@
 # Community 1123
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **rpm-install.sh** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
-- **rpm-install.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
+- **ModelSignal** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **._lazy_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.connect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **Signal subclass that allows the sender to be lazily specified as a string of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
+- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

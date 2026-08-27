@@ -1,58 +1,55 @@
 # Community 213
 
-> 49 nodes · cohesion 0.06
+> 48 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **update/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **AdvancedTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **update/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **MySQLUpdateOrderByTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **SimpleTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **DataPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **RelatedPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **UniqueNumber** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **UniqueNumberChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **.test_update_transformed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **Update changes the right number of rows for a nonempty queryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **C** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **.test_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_multiple_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_multiple_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_respects_to_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_slice_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_order_by_update_on_parent_unique_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- *... and 24 more nodes in this community*
+- **TestStatisticsAggregate** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **StatAggregate** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **statistics.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **CovarPop** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrAvgX** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrCount** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **aggregates/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/__init__.py`
+- **Corr** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrAvgY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrIntercept** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrR2** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrSlope** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrSXX** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrSXY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **RegrSYY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **.test_covar_pop_general()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_regr_avgx_with_related_obj_and_number_as_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- **.test_corr_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_corr_general()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_correct_source_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_covar_pop_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_covar_pop_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_covar_pop_sample_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 33](Community_33.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 101](Community_101.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 778](Community_778.md) (1 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 62](Community_62.md) (6 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (88%)
-- INFERRED: 12 (12%)
+- EXTRACTED: 67 (70%)
+- INFERRED: 29 (30%)
 - AMBIGUOUS: 0 (0%)
 
 ---

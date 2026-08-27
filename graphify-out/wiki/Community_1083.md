@@ -1,26 +1,27 @@
 # Community 1083
 
-> 3 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **DecadeFilterBookAdminWithoutTitle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_listfilter_without_title()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Any filter must define a title.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **._run_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_django_admin_py_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_django_admin_py_equivalent_main()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_main_not_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
 
 ## Relationships
 
-- [Community 390](Community_390.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 470](Community_470.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
