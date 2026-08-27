@@ -1,31 +1,25 @@
 # Community 1110
 
-> 8 nodes · cohesion 0.25
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SchemaIndexesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_index_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_index_name_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **Test index handling by the db.backends.schema infrastructure.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **Index names should be deterministic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **Index names on the built-in database backends:: * Are truncated as needed. *…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_index_together()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_index_together_single_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_inheritance19()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **{% load %} tag (within a child template)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 1144](Community_1144.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 733](Community_733.md) (1 shared connections)
+- [Community 759](Community_759.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (82%)
-- INFERRED: 2 (18%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
