@@ -2,7 +2,7 @@
 
 > God node · 237 connections · `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 
-**Community:** [Community 3](Community_3.md)
+**Community:** [Community 32](Community_32.md)
 
 ## Connections by Relation
 
@@ -19,11 +19,11 @@
 - linenumbers() `EXTRACTED`
 - floatformat() `EXTRACTED`
 - urlizetrunc() `EXTRACTED`
+- urlize() `EXTRACTED`
 - items_for_result() `EXTRACTED`
 - cut() `EXTRACTED`
 - join() `EXTRACTED`
 - format_html_join() `EXTRACTED`
-- urlize() `EXTRACTED`
 - parse_rst() `EXTRACTED`
 - render_flatpage() `EXTRACTED`
 - ._html_output() `EXTRACTED`
@@ -40,9 +40,9 @@
 - defaulttags.py `EXTRACTED`
 - django/forms/widgets.py `EXTRACTED`
 - utils/html.py `EXTRACTED`
-- template/base.py `EXTRACTED`
-- admin_list.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
+- admin_list.py `EXTRACTED`
+- template/base.py `EXTRACTED`
 - contrib/admin/widgets.py `EXTRACTED`
 - decorators/tests.py `EXTRACTED`
 - trans_real.py `EXTRACTED`
@@ -50,8 +50,8 @@
 - admin_utils/tests.py `EXTRACTED`
 - templatetags/i18n.py `EXTRACTED`
 - templatetags/custom.py `EXTRACTED`
-- forms/forms.py `EXTRACTED`
 - tests/test_forms.py `EXTRACTED`
+- forms/forms.py `EXTRACTED`
 
 ### rationale_for
 - Explicitly mark a string as safe for (HTML) output purposes. The returned… `EXTRACTED`

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **migrate_signals/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/models.py`
+- **inline_formsets/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/__init__.py`
 
 ## Audit Trail
 

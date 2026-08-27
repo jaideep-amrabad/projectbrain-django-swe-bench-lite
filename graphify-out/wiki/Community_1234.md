@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **broken_app/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/broken_app/__init__.py`
+- **RelatedObjectLookups.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/RelatedObjectLookups.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/broken_app/__init__.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/RelatedObjectLookups.test.js`
 
 ## Audit Trail
 

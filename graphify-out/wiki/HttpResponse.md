@@ -1,8 +1,8 @@
 # HttpResponse
 
-> God node · 300 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 306 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 29](Community_29.md)
+**Community:** [Community 14](Community_14.md)
 
 ## Connections by Relation
 
@@ -48,8 +48,8 @@
 - sites_tests/tests.py `EXTRACTED`
 - urlpatterns_reverse/views.py `EXTRACTED`
 - django/shortcuts.py `EXTRACTED`
-- generic_views/test_base.py `EXTRACTED`
 - views/i18n.py `EXTRACTED`
+- generic_views/test_base.py `EXTRACTED`
 - middleware/tests.py `EXTRACTED`
 - syndication/views.py `EXTRACTED`
 
@@ -61,8 +61,8 @@
 - HttpResponseNotAllowed `EXTRACTED`
 - HttpResponseNotModified `EXTRACTED`
 - HttpResponseServerError `EXTRACTED`
-- HttpResponseForbidden `EXTRACTED`
 - HttpResponseBadRequest `EXTRACTED`
+- HttpResponseForbidden `EXTRACTED`
 - HttpResponseGone `EXTRACTED`
 - HttpResponseRedirectBase `EXTRACTED`
 

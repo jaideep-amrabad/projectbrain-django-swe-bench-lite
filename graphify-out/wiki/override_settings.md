@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1208 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1234 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 14](Community_14.md)
+**Community:** [Community 13](Community_13.md)
 
 ## Connections by Relation
 
@@ -41,17 +41,17 @@
 - auth_tests/test_views.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
+- test_array.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
-- prefetch_related/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
+- prefetch_related/tests.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
-- auth_tests/test_forms.py `EXTRACTED`
-- sessions_tests/tests.py `EXTRACTED`
+- timezones/tests.py `EXTRACTED`
 
 ### inherits
 - modify_settings `EXTRACTED`
@@ -76,17 +76,17 @@
 - UrlTagTests `EXTRACTED`
 - AdminActionsTest `EXTRACTED`
 - DateFunctionTests `EXTRACTED`
+- CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - NewDatabaseTests `EXTRACTED`
 - ListViewTests `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
 - DetailViewTest `EXTRACTED`
-- CreatesuperuserManagementCommandTestCase `EXTRACTED`
-- CollectionTestCase `EXTRACTED`
 - SyndicationFeedTest `EXTRACTED`
+- CommandTests `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
 - ConditionalGet `EXTRACTED`
+- CollectionTestCase `EXTRACTED`
 - FileUploadTests `EXTRACTED`
-- CommandTests `EXTRACTED`
 - DummyCacheTests `EXTRACTED`
 - ConditionalGetMiddlewareTest `EXTRACTED`
 
