@@ -5,8 +5,8 @@ from functools import lru_cache
 from django.conf import settings
 from django.db.backends.base.operations import BaseDatabaseOperations
 from django.db.backends.utils import strip_quotes, truncate_name
-from django.db.models.expressions import Exists, ExpressionWrapper
-from django.db.models.query_utils import Q
+from django.db.models.expressions import Exists, ExpressionWrapper, RawSQL
+from django.db.models.sql.where import WhereNode
 from django.db.utils import DatabaseError
 from django.utils import timezone
 from django.utils.encoding import force_bytes, force_str
@@ -25,6 +25,7 @@ class DatabaseOperations(BaseDatabaseOperations):
         'SmallIntegerField': (-99999999999, 99999999999),
         'IntegerField': (-99999999999, 99999999999),
         'BigIntegerField': (-9999999999999999999, 9999999999999999999),
+        'PositiveBigIntegerField': (0, 9999999999999999999),
         'PositiveSmallIntegerField': (0, 99999999999),
         'PositiveIntegerField': (0, 99999999999),
         'SmallAutoField': (-99999, 99999),
@@ -632,8 +633,10 @@ END;
         Oracle supports only EXISTS(...) or filters in the WHERE clause, others
         must be compared with True.
         """
-        if isinstance(expression, Exists):
+        if isinstance(expression, (Exists, WhereNode)):
             return True
-        if isinstance(expression, ExpressionWrapper) and isinstance(expression.expression, Q):
+        if isinstance(expression, ExpressionWrapper) and expression.conditional:
+            return self.conditional_expression_supported_in_where_clause(expression.expression)
+        if isinstance(expression, RawSQL) and expression.conditional:
             return True
         return False
