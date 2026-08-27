@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **shell/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/__init__.py`
+- **fake_initial/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_fake_initial_case_insensitive/fake_initial/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/shell/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_fake_initial_case_insensitive/fake_initial/__init__.py`
 
 ## Audit Trail
 

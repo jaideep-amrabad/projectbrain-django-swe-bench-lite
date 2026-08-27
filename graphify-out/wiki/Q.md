@@ -2,7 +2,7 @@
 
 > God node · 261 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 20](Community_20.md)
 
 ## Connections by Relation
 

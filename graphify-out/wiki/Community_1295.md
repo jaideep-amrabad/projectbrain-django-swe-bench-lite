@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **empty_models/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
+- **URLify.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/URLify.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/URLify.test.js`
 
 ## Audit Trail
 

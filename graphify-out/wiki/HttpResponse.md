@@ -1,8 +1,8 @@
 # HttpResponse
 
-> God node · 298 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 294 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 3](Community_3.md)
+**Community:** [Community 8](Community_8.md)
 
 ## Connections by Relation
 

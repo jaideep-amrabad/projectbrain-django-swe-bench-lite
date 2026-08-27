@@ -1,8 +1,8 @@
 # TestCase
 
-> God node · 961 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 959 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 587](Community_587.md)
+**Community:** [Community 53](Community_53.md)
 
 ## Connections by Relation
 
@@ -46,12 +46,12 @@
 - ModelFormBaseTest `EXTRACTED`
 - GenericRelationsTests `EXTRACTED`
 - ManyToOneTests `EXTRACTED`
-- PostgreSQLTestCase `EXTRACTED`
 - TestInline `EXTRACTED`
 - GenericRelationTests `EXTRACTED`
 - OneToOneTests `EXTRACTED`
 - ListFiltersTests `EXTRACTED`
 - NonAggregateAnnotationTestCase `EXTRACTED`
+- LookupTests `EXTRACTED`
 
 ### method
 - .setUpClass() `EXTRACTED`
