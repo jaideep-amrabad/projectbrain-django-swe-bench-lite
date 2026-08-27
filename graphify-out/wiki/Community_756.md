@@ -1,6 +1,6 @@
 # Community 756
 
-> 16 nodes · cohesion 0.19
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **.test_add07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
 - **.test_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 - **.test_escape_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 - **.test_add01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
 - **.test_add02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
 - **.test_add03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
@@ -24,20 +25,21 @@
 ## Relationships
 
 - [Community 2](Community_2.md) (6 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (92%)
+- EXTRACTED: 36 (92%)
 - INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 

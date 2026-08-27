@@ -19,11 +19,11 @@
 
 ## Relationships
 
-- [Community 481](Community_481.md) (3 shared connections)
-- [Community 501](Community_501.md) (1 shared connections)
-- [Community 975](Community_975.md) (1 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 482](Community_482.md) (3 shared connections)
+- [Community 506](Community_506.md) (1 shared connections)
+- [Community 969](Community_969.md) (1 shared connections)
+- [Community 507](Community_507.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 

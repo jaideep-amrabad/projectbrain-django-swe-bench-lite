@@ -1,6 +1,6 @@
 # Community 0
 
-> 602 nodes · cohesion 0.01
+> 604 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **FieldDoesNotExist** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
 - **inspect.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
 - **sqlite3/operations.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- *... and 577 more nodes in this community*
+- *... and 579 more nodes in this community*
 
 ## Relationships
 
-- [Community 124](Community_124.md) (102 shared connections)
-- [Community 139](Community_139.md) (99 shared connections)
-- [Community 31](Community_31.md) (97 shared connections)
-- [Community 296](Community_296.md) (93 shared connections)
+- [Community 120](Community_120.md) (103 shared connections)
+- [Community 138](Community_138.md) (100 shared connections)
+- [Community 27](Community_27.md) (97 shared connections)
+- [Community 294](Community_294.md) (93 shared connections)
 - [Community 20](Community_20.md) (86 shared connections)
-- [Community 15](Community_15.md) (73 shared connections)
-- [Community 2](Community_2.md) (70 shared connections)
+- [Community 18](Community_18.md) (73 shared connections)
+- [Community 2](Community_2.md) (69 shared connections)
 - [Community 7](Community_7.md) (56 shared connections)
-- [Community 1](Community_1.md) (53 shared connections)
+- [Community 1](Community_1.md) (50 shared connections)
 - [Community 3](Community_3.md) (44 shared connections)
-- [Community 166](Community_166.md) (39 shared connections)
-- [Community 224](Community_224.md) (38 shared connections)
+- [Community 19](Community_19.md) (41 shared connections)
+- [Community 165](Community_165.md) (39 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3535 (99%)
+- EXTRACTED: 3540 (99%)
 - INFERRED: 28 (1%)
 - AMBIGUOUS: 0 (0%)
 

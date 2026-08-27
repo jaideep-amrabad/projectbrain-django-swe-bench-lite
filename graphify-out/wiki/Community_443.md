@@ -29,11 +29,11 @@
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 139](Community_139.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 680](Community_680.md) (1 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,64 +1,62 @@
 # Community 53
 
-> 43 nodes · cohesion 0.09
+> 91 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **admin_changelist/tests.py** (90 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **admin_changelist/admin.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **admin_changelist/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **test_date_hierarchy.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Musician** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **CustomPaginator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListDisplayChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListDisplayLinksChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListFilterChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **CustomIdUser** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Swallow** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **ChordsBandAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **NoListDisplayLinksParentAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **QuartetAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **ChordsMusician** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **OrderedObject** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Quartet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **UnorderedObject** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Band** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **CharPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **ChordsBand** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- *... and 18 more nodes in this community*
+- **AggregationTests** (73 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Count** (59 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- **aggregation_regress/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **aggregation_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **JoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **skipUnlessAnyDBFeature()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_aggregate_annotation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_annotate_reserved_word()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **HardbackBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_annotation_disjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_conditional_aggregate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_more_more()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **ItemTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Store** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_aggregate_unmanaged_model_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_annotate_with_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_fobj_group_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_more()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_more_more_more()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_name_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Community 388](Community_388.md) (37 shared connections)
-- [Community 21](Community_21.md) (10 shared connections)
+- [Community 74](Community_74.md) (41 shared connections)
 - [Community 0](Community_0.md) (10 shared connections)
-- [Community 460](Community_460.md) (9 shared connections)
-- [Community 455](Community_455.md) (8 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 910](Community_910.md) (5 shared connections)
-- [Community 36](Community_36.md) (5 shared connections)
-- [Community 31](Community_31.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 71](Community_71.md) (3 shared connections)
+- [Community 50](Community_50.md) (9 shared connections)
+- [Community 165](Community_165.md) (8 shared connections)
+- [Community 44](Community_44.md) (8 shared connections)
+- [Community 60](Community_60.md) (6 shared connections)
+- [Community 32](Community_32.md) (5 shared connections)
+- [Community 27](Community_27.md) (5 shared connections)
+- [Community 114](Community_114.md) (4 shared connections)
+- [Community 134](Community_134.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (86%)
-- INFERRED: 29 (14%)
+- EXTRACTED: 250 (92%)
+- INFERRED: 23 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

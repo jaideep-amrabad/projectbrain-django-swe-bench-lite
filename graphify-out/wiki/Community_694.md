@@ -20,11 +20,11 @@
 ## Relationships
 
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 658](Community_658.md) (1 shared connections)
-- [Community 784](Community_784.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 660](Community_660.md) (1 shared connections)
+- [Community 783](Community_783.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 530](Community_530.md) (1 shared connections)
 
 ## Source Files
 
