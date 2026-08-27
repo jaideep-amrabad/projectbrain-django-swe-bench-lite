@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 423 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 436 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 38](Community_38.md)
+**Community:** [Community 40](Community_40.md)
 
 ## Connections by Relation
 
@@ -57,8 +57,8 @@
 - QuerySetBitwiseOperationTests `EXTRACTED`
 - AutoIncrementResetTest `EXTRACTED`
 - AtomicErrorsTests `EXTRACTED`
-- .test_date_case_subtraction() `EXTRACTED`
 - SpatialRefSysTest `EXTRACTED`
+- JSONFieldTests `EXTRACTED`
 - JSONFieldTests `EXTRACTED`
 
 ---

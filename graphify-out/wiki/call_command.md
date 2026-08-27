@@ -1,8 +1,8 @@
 # call_command()
 
-> God node · 290 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 292 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 9](Community_9.md)
+**Community:** [Community 11](Community_11.md)
 
 ## Connections by Relation
 
@@ -49,8 +49,8 @@
 - base/creation.py `EXTRACTED`
 - contenttypes_tests/test_management.py `EXTRACTED`
 - contenttypes_tests/test_operations.py `EXTRACTED`
-- proxy_model_inheritance/tests.py `EXTRACTED`
 - inspectdb/tests.py `EXTRACTED`
+- proxy_model_inheritance/tests.py `EXTRACTED`
 - manage_translations.py `EXTRACTED`
 
 ### rationale_for

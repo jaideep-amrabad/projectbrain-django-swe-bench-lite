@@ -1,22 +1,22 @@
 # Q
 
-> God node · 267 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 270 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 10](Community_10.md)
+**Community:** [Community 21](Community_21.md)
 
 ## Connections by Relation
 
 ### calls
 - .test_expressions() `EXTRACTED`
 - .test_filtered_aggregates() `EXTRACTED`
-- .test_date_case_subtraction() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
 - .test_string_agg_array_agg_filter_in_subquery() `EXTRACTED`
+- ._as_sql() `EXTRACTED`
+- .test_date_case_subtraction() `EXTRACTED`
 - ._test_range_overlaps() `EXTRACTED`
 - .with_perm() `EXTRACTED`
 - create_forward_many_to_many_manager() `EXTRACTED`
-- ._as_sql() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
 - .test_conditional_aggregation_example() `EXTRACTED`
 - .test_geodetic_distance_lookups() `EXTRACTED`

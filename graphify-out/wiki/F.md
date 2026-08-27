@@ -1,14 +1,13 @@
 # F
 
-> God node · 342 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 351 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 41](Community_41.md)
 
 ## Connections by Relation
 
 ### calls
 - .test_expressions() `EXTRACTED`
-- .test_date_case_subtraction() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_subquery_row_range_rank() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
@@ -16,6 +15,7 @@
 - .test_annotation_aggregate_with_m2o() `EXTRACTED`
 - .test_custom_functions_can_ref_other_functions() `EXTRACTED`
 - .test_annotate_with_aggregation_in_condition() `EXTRACTED`
+- .test_date_case_subtraction() `EXTRACTED`
 - .test_conditional_annotation() `EXTRACTED`
 - ._test_range_overlaps() `EXTRACTED`
 - .dates() `EXTRACTED`

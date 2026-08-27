@@ -1,33 +1,23 @@
 # Community 1663
 
-> 5 nodes · cohesion 0.40
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **syndication_tests/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **ArticlesFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **A feed to test no link being defined. Articles have no get_absolute_url()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **app0/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/app0/__init__.py`
 
 ## Relationships
 
-- [Community 974](Community_974.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 389](Community_389.md) (2 shared connections)
-- [Community 181](Community_181.md) (1 shared connections)
-- [Community 981](Community_981.md) (1 shared connections)
-- [Community 683](Community_683.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/app0/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

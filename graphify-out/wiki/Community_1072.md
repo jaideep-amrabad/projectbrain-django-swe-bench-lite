@@ -1,24 +1,25 @@
 # Community 1072
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_create_model_reordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AddField optimizes into CreateModel if it's a FK to a model that's between them…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **app_waiting_migration/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
+- **Bar** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
 
 ## Relationships
 
-- [Community 617](Community_617.md) (1 shared connections)
-- [Community 667](Community_667.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

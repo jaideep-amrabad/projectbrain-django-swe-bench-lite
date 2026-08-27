@@ -1,60 +1,60 @@
 # Community 73
 
-> 72 nodes · cohesion 0.05
+> 106 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **queries/tests.py** (182 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **NullJoinPromotionOrTest** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **JoinReuseTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ManyToManyExcludeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **QuerySetBitwiseOperationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Paragraph** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Report** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **School** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Ticket20788Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Celebrity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Detail** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **DoubleInSubqueryTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **SubclassFKTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Ticket22429Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Ticket23605Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Ticket23622Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Classroom** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Identifier** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Ticket23605A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ReverseM2MCustomPkTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Ticket21203Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Channel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Chapter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Page** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- *... and 47 more nodes in this community*
+- **admin_views/admin.py** (276 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **RelatedPrepopulated** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FancyDoodad** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Restaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **LinkInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **DooHickey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Grommet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **InlineReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Link** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Picture** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Whatsit** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Widget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ActorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminOrderedAdminMethodAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AnswerAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdmin2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdmin9** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ChildInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ColorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ComplexSortedPersonAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.colored_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **DooHickeyInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
-- [Community 529](Community_529.md) (60 shared connections)
-- [Community 10](Community_10.md) (20 shared connections)
-- [Community 206](Community_206.md) (17 shared connections)
-- [Community 20](Community_20.md) (17 shared connections)
-- [Community 316](Community_316.md) (14 shared connections)
-- [Community 230](Community_230.md) (12 shared connections)
-- [Community 390](Community_390.md) (11 shared connections)
-- [Community 307](Community_307.md) (8 shared connections)
-- [Community 474](Community_474.md) (8 shared connections)
-- [Community 385](Community_385.md) (7 shared connections)
-- [Community 621](Community_621.md) (6 shared connections)
-- [Community 21](Community_21.md) (5 shared connections)
+- [Community 92](Community_92.md) (69 shared connections)
+- [Community 408](Community_408.md) (18 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 12](Community_12.md) (11 shared connections)
+- [Community 424](Community_424.md) (11 shared connections)
+- [Community 553](Community_553.md) (8 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 827](Community_827.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 1012](Community_1012.md) (3 shared connections)
+- [Community 503](Community_503.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 274 (81%)
-- INFERRED: 64 (19%)
+- EXTRACTED: 311 (96%)
+- INFERRED: 13 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

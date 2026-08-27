@@ -1,8 +1,8 @@
 # HttpResponse
 
-> God node · 298 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 297 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 34](Community_34.md)
+**Community:** [Community 3](Community_3.md)
 
 ## Connections by Relation
 
@@ -50,8 +50,8 @@
 - generic_views/test_base.py `EXTRACTED`
 - sites_tests/tests.py `EXTRACTED`
 - urlpatterns_reverse/views.py `EXTRACTED`
+- django/shortcuts.py `EXTRACTED`
 - generic/base.py `EXTRACTED`
-- middleware/tests.py `EXTRACTED`
 
 ### inherits
 - HttpResponseBase `EXTRACTED`

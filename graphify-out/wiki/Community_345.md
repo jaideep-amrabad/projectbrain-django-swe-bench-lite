@@ -1,10 +1,9 @@
 # Community 345
 
-> 58 nodes · cohesion 0.05
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **inlineformset_factory()** (64 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **InlineFormsetFactoryTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
 - **inline_formsets/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
 - **DeletionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
@@ -13,7 +12,6 @@
 - **Poet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
 - **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
 - **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
 - **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
 - **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
 - **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
@@ -26,39 +24,32 @@
 - **.test_non_foreign_key_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
 - **.test_unsaved_fk_validate_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
 - **.test_zero_primary_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_inlineformset_factory_ignores_default_pks_on_submit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_alternate_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- *... and 33 more nodes in this community*
+- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_any_iterable_allowed_as_argument_to_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 251](Community_251.md) (21 shared connections)
-- [Community 306](Community_306.md) (11 shared connections)
-- [Community 191](Community_191.md) (10 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 789](Community_789.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 623](Community_623.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
+- [Community 116](Community_116.md) (14 shared connections)
+- [Community 88](Community_88.md) (4 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 166](Community_166.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (94%)
-- INFERRED: 9 (6%)
+- EXTRACTED: 63 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---
