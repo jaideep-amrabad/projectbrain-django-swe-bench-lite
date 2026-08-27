@@ -9,9 +9,9 @@ from django.test import (
 )
 
 from .models import (
-    BigAutoFieldModel, Country, NoFields, NullableFields, Pizzeria,
-    ProxyCountry, ProxyMultiCountry, ProxyMultiProxyCountry, ProxyProxyCountry,
-    Restaurant, SmallAutoFieldModel, State, TwoFields,
+    Country, NoFields, NullableFields, Pizzeria, ProxyCountry,
+    ProxyMultiCountry, ProxyMultiProxyCountry, ProxyProxyCountry, Restaurant,
+    State, TwoFields,
 )
 
 
@@ -234,16 +234,10 @@ class BulkCreateTests(TestCase):
 
     @skipUnlessDBFeature('has_bulk_insert')
     def test_bulk_insert_nullable_fields(self):
-        fk_to_auto_fields = {
-            'auto_field': NoFields.objects.create(),
-            'small_auto_field': SmallAutoFieldModel.objects.create(),
-            'big_auto_field': BigAutoFieldModel.objects.create(),
-        }
         # NULL can be mixed with other values in nullable fields
         nullable_fields = [field for field in NullableFields._meta.get_fields() if field.name != 'id']
         NullableFields.objects.bulk_create([
-            NullableFields(**{**fk_to_auto_fields, field.name: None})
-            for field in nullable_fields
+            NullableFields(**{field.name: None}) for field in nullable_fields
         ])
         self.assertEqual(NullableFields.objects.count(), len(nullable_fields))
         for field in nullable_fields:

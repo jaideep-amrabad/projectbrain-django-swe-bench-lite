@@ -373,8 +373,7 @@ class CharFieldTests(SimpleTestCase):
         validator = DatabaseValidation(connection=connection)
         self.assertEqual(validator.check_field(field), [
             Error(
-                '%s does not allow unique CharFields to have a max_length > '
-                '255.' % connection.display_name,
+                'MySQL does not allow unique CharFields to have a max_length > 255.',
                 obj=field,
                 id='mysql.E001',
             )

@@ -1,12 +1,8 @@
+from django.contrib.postgres.search import TrigramDistance, TrigramSimilarity
 from django.test import modify_settings
 
 from . import PostgreSQLTestCase
 from .models import CharFieldModel, TextFieldModel
-
-try:
-    from django.contrib.postgres.search import TrigramDistance, TrigramSimilarity
-except ImportError:
-    pass
 
 
 @modify_settings(INSTALLED_APPS={'append': 'django.contrib.postgres'})

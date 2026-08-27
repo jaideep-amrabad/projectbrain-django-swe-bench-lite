@@ -62,8 +62,6 @@ class BulkInsertMapper:
     TIMESTAMP = 'TO_TIMESTAMP(%s)'
 
     types = {
-        'AutoField': NUMBER,
-        'BigAutoField': NUMBER,
         'BigIntegerField': NUMBER,
         'BinaryField': BLOB,
         'BooleanField': NUMBER,
@@ -77,7 +75,6 @@ class BulkInsertMapper:
         'PositiveBigIntegerField': NUMBER,
         'PositiveIntegerField': NUMBER,
         'PositiveSmallIntegerField': NUMBER,
-        'SmallAutoField': NUMBER,
         'SmallIntegerField': NUMBER,
         'TextField': CLOB,
         'TimeField': TIMESTAMP,

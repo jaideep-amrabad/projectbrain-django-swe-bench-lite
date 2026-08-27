@@ -185,8 +185,7 @@ class BasePasswordHasher:
 
     def salt(self):
         """Generate a cryptographically secure nonce salt in ASCII."""
-        # 12 returns a 71-bit value, log_2((26+26+10)^12) =~ 71 bits
-        return get_random_string(12)
+        return get_random_string()
 
     def verify(self, password, encoded):
         """Check if the given password is correct."""
